@@ -9,10 +9,9 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="container footer-container">
         <div className="footer-col brand-col">
-          <div className="footer-logo">
-            <span className="logo-white">ANGEL</span>
-            <span className="logo-red"> METAL INDIA</span>
-          </div>
+          <Link to="/" className="footer-logo-link">
+            <img src="/logo.png" alt="Angel Metal India" className="footer-logo-img" />
+          </Link>
           <p className="footer-desc">
             Delivering quality metal solutions with trust, transparency and timely service.
           </p>
@@ -74,7 +73,7 @@ const Footer: React.FC = () => {
       
       <div className="footer-bottom">
         <div className="container bottom-container">
-          <p>&copy; 2024 Angel Metal India. All Rights Reserved.</p>
+          <p>&copy; 2026 Angel Metal India. All Rights Reserved.</p>
           <div className="bottom-links">
             <a href="#">Privacy Policy</a>
             <span>|</span>
