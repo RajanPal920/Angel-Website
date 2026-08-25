@@ -8,7 +8,7 @@ interface CertificateItem {
   file: string;
 }
 
-const heroImage = "/img/home/banner-industrial.jpg"; // ✅ Add your hero image path here
+const heroImage = "/img/home/certificate.jpg"; // ✅ Add your hero image path here
 
 const Certificates: React.FC = () => {
   // Data extracted from your public/certificates folder
@@ -32,7 +32,9 @@ const Certificates: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50 pb-16">
       {/* ===== HERO BANNER SECTION ===== */}
-      <div className="relative">
+      <div className="relative h-[50vh] md:h-[80vh] lg:h-[85vh]">
+        {" "}
+        {/* ✅ Increased height for desktop */}
         <div className="absolute inset-0">
           <img
             src={heroImage}
@@ -41,8 +43,7 @@ const Certificates: React.FC = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/40" />
         </div>
-
-        <div className="relative container mx-auto px-4 max-w-7xl py-24 md:py-32 lg:py-40">
+        <div className="relative container mx-auto px-4 max-w-7xl py-24 md:py-32 lg:py-40 h-full flex flex-col justify-center">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-10 h-[3px] bg-[#E52713]" />
             <span className="text-[#E52713] font-semibold tracking-[0.3em] uppercase text-sm">
