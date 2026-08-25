@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 .top-bar-right {
@@ -27,6 +28,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
+  color: var(--white);
   transition: color 0.2s ease;
 }
 
@@ -34,28 +36,52 @@
   color: var(--primary-red);
 }
 
+/* ── SOCIAL ICONS (Updated to match your image) ── */
 .social-links {
   display: flex;
   gap: 12px;
   align-items: center;
 }
 
+/* Base circle style for all social icons */
 .social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 28px; /* Increased slightly for better visibility */
+  height: 28px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease;
+  color: white;
 }
 
 .social-icon:hover {
-  background-color: var(--primary-red);
-  color: var(--white);
+  transform: scale(1.1);
 }
 
+/* LinkedIn - Standard Blue */
+.social-icon.linkedin {
+  background-color: #0077b5;
+}
+
+/* Facebook - Solid Blue (Matches image) */
+.social-icon.facebook {
+  background-color: #1877f2;
+}
+
+/* Instagram - Gradient (Matches image exactly) */
+.social-icon.instagram {
+  background: radial-gradient(
+    circle at 30% 110%,
+    #feda77 0%,
+    #f58529 20%,
+    #dd2a7b 50%,
+    #8134af 80%,
+    #515bd4 100%
+  );
+}
+
+/* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   .top-bar-container {
     justify-content: center;
