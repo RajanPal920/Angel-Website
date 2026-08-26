@@ -1,4 +1,4 @@
-// Header.tsx - Complete Updated File with Underline Animation Fix
+// Header.tsx - Complete Updated File with Mobile CTA Fix
 import React, { useState, useRef, useEffect } from "react";
 import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
@@ -23,7 +23,7 @@ interface NavItem {
 }
 
 // ============================================
-// ICON COMPONENTS
+// ICON COMPONENTS (Keep all your existing icons)
 // ============================================
 const Icons = {
   Home: () => (
@@ -953,7 +953,7 @@ const Hamburger: React.FC<HamburgerProps> = ({ isOpen, toggle }) => {
 };
 
 // ============================================
-// MOBILE MENU COMPONENT
+// MOBILE MENU COMPONENT - FIXED
 // ============================================
 interface MobileMenuProps {
   isOpen: boolean;
@@ -1005,15 +1005,13 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
                 isMobile={true}
               />
             ) : (
-              <Link // ✅ Changed from <a> to <Link>
+              <Link
                 to={item.href || "#"}
                 className={`nav-link ${isActive(item.href) ? "active" : ""} ${
                   isCTA(item) ? "btn-primary" : ""
                 }`}
-                onClick={(e) => {
-                  if (isCTA(item)) {
-                    e.preventDefault();
-                  }
+                onClick={() => {
+                  // ✅ Close the mobile menu after navigation
                   onClose();
                 }}
               >
@@ -1029,14 +1027,14 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 };
 
 // ============================================
-// MAIN HEADER COMPONENT - FIXED
+// MAIN HEADER COMPONENT
 // ============================================
 const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const headerRef = useRef<HTMLElement>(null);
 
-  // ✅ Get current path using useLocation
+  // Get current path using useLocation
   const location = useLocation();
   const activePath = location.pathname;
 
@@ -1270,12 +1268,11 @@ const Header: React.FC = () => {
     setOpenDropdown(null);
   };
 
-  // ✅ Fixed: Check if a link is active based on current path
+  // Check if a link is active based on current path
   const isActive = (href?: string): boolean => {
     if (!href) return false;
     if (href === "/" && activePath === "/") return true;
     if (href === "/") return false;
-    // This properly handles nested routes
     return (
       activePath === href ||
       activePath.startsWith(href + "/") ||
@@ -1325,7 +1322,7 @@ const Header: React.FC = () => {
                     isMobile={false}
                   />
                 ) : (
-                  <Link // ✅ Changed from <a> to <Link>
+                  <Link
                     to={item.href || "#"}
                     className={`nav-link ${isActive(item.href) ? "active" : ""}`}
                     onClick={closeMobileMenu}
@@ -1342,8 +1339,6 @@ const Header: React.FC = () => {
         {/* Desktop CTA */}
         <div className="header-action">
           <Link to={ctaHref} className="btn-primary">
-            {" "}
-            {/* ✅ Changed to Link */}
             {ctaText}
           </Link>
         </div>
