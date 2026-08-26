@@ -1217,7 +1217,7 @@ const Header: React.FC = () => {
   ];
 
   const ctaText = "Get a Quote";
-  const ctaHref = "/quote";
+  const ctaHref = "/contact";
 
   // Close mobile menu on resize
   useEffect(() => {
