@@ -1,7 +1,7 @@
-// Header.tsx - Complete Single File with Direct PDF Links for Dimensions
+// Header.tsx - Complete Updated File with Underline Animation Fix
 import React, { useState, useRef, useEffect } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import materials, { Material, MaterialItem } from "../data/materials";
 
 // ============================================
@@ -20,10 +20,6 @@ interface NavItem {
   href?: string;
   items?: DropdownItem[];
   icon?: React.ReactNode;
-}
-
-interface HeaderProps {
-  activePath?: string;
 }
 
 // ============================================
@@ -1009,8 +1005,8 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
                 isMobile={true}
               />
             ) : (
-              <a
-                href={item.href || "#"}
+              <Link // ✅ Changed from <a> to <Link>
+                to={item.href || "#"}
                 className={`nav-link ${isActive(item.href) ? "active" : ""} ${
                   isCTA(item) ? "btn-primary" : ""
                 }`}
@@ -1023,7 +1019,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
               >
                 {item.icon && <span className="nav-icon">{item.icon}</span>}
                 {item.label}
-              </a>
+              </Link>
             )}
           </li>
         ))}
@@ -1033,12 +1029,16 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 };
 
 // ============================================
-// MAIN HEADER COMPONENT
+// MAIN HEADER COMPONENT - FIXED
 // ============================================
-const Header: React.FC<HeaderProps> = ({ activePath = "/" }) => {
+const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const headerRef = useRef<HTMLElement>(null);
+
+  // ✅ Get current path using useLocation
+  const location = useLocation();
+  const activePath = location.pathname;
 
   // Build Materials dropdown items from the materials data
   const buildMaterialItems = (): DropdownItem[] => {
@@ -1061,7 +1061,11 @@ const Header: React.FC<HeaderProps> = ({ activePath = "/" }) => {
     const products = [
       { label: "Anchor Fastener", slug: "anchor-fastener", icon: Icons.Anchor },
       { label: "Angle Channels", slug: "angle-channels", icon: Icons.Angle },
-      { label: "Buttweld Fittings", slug: "buttweld-fittings", icon: Icons.ButtWeld },
+      {
+        label: "Buttweld Fittings",
+        slug: "buttweld-fittings",
+        icon: Icons.ButtWeld,
+      },
       { label: "Circles", slug: "circles", icon: Icons.Circles },
       { label: "Coils", slug: "coils", icon: Icons.Coil },
       {
@@ -1098,7 +1102,7 @@ const Header: React.FC<HeaderProps> = ({ activePath = "/" }) => {
     }));
   };
 
-  // FIXED: Build Dimensions dropdown items - Direct PDF links
+  // Build Dimensions dropdown items - Direct PDF links
   const buildDimensionItems = (): DropdownItem[] => {
     const dimensions = [
       {
@@ -1146,11 +1150,10 @@ const Header: React.FC<HeaderProps> = ({ activePath = "/" }) => {
 
     return dimensions.map((dim) => ({
       label: dim.label,
-      // Direct link to PDF in the Dimensions folder
       href: `/Dimensions/${dim.file}`,
       icon: <dim.icon />,
       description: `${dim.label} dimensions & specifications`,
-      isPdf: true, // Flag to indicate this is a PDF link
+      isPdf: true,
     }));
   };
 
@@ -1267,11 +1270,17 @@ const Header: React.FC<HeaderProps> = ({ activePath = "/" }) => {
     setOpenDropdown(null);
   };
 
+  // ✅ Fixed: Check if a link is active based on current path
   const isActive = (href?: string): boolean => {
     if (!href) return false;
     if (href === "/" && activePath === "/") return true;
     if (href === "/") return false;
-    return activePath === href || activePath.startsWith(href);
+    // This properly handles nested routes
+    return (
+      activePath === href ||
+      activePath.startsWith(href + "/") ||
+      activePath.startsWith(href)
+    );
   };
 
   const mobileItems: NavItem[] = [
@@ -1316,14 +1325,14 @@ const Header: React.FC<HeaderProps> = ({ activePath = "/" }) => {
                     isMobile={false}
                   />
                 ) : (
-                  <a
-                    href={item.href || "#"}
+                  <Link // ✅ Changed from <a> to <Link>
+                    to={item.href || "#"}
                     className={`nav-link ${isActive(item.href) ? "active" : ""}`}
                     onClick={closeMobileMenu}
                   >
                     {item.icon && <span className="nav-icon">{item.icon}</span>}
                     {item.label}
-                  </a>
+                  </Link>
                 )}
               </li>
             ))}
@@ -1332,9 +1341,11 @@ const Header: React.FC<HeaderProps> = ({ activePath = "/" }) => {
 
         {/* Desktop CTA */}
         <div className="header-action">
-          <a href={ctaHref} className="btn-primary">
+          <Link to={ctaHref} className="btn-primary">
+            {" "}
+            {/* ✅ Changed to Link */}
             {ctaText}
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu */}

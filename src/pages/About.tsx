@@ -158,7 +158,22 @@ const About: React.FC = () => {
             <img
               src="/img/home/about-2.png"
               alt="Manufacturing Excellence"
-              className="rounded-2xl shadow-2xl w-full h-[400px] object-cover"
+              className="
+    w-full
+    rounded-2xl
+    shadow-2xl
+
+    h-auto
+    sm:h-[350px]
+    md:h-[420px]
+    lg:h-[400px]
+
+    object-contain
+    md:object-cover
+    lg:object-cover
+
+    bg-white
+  "
             />
             <div className="absolute -bottom-6 -left-6 bg-[#052A63] text-white p-6 rounded-2xl shadow-xl hidden sm:block">
               <p className="text-4xl font-bold text-[#D71920]">25+</p>
