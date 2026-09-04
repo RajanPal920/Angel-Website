@@ -182,7 +182,7 @@ const Home: React.FC = () => {
     {
       id: 1,
       name: "Stainless Steel Pipes",
-      slug: "pipes",
+      slug: "pipes-tubes",
       category: "Pipes & Tubes",
       grade: "SS 304, SS 316, SS 310",
       image: "/productImage/steel-pipes.jpg",
@@ -221,7 +221,7 @@ const Home: React.FC = () => {
     {
       id: 4,
       name: "Steel Plates & Sheets",
-      slug: "plates",
+      slug: "sheets-plates",
       category: "Plates & Sheets",
       grade: "IS 2062, ASTM A36, EN 10025",
       image: "/productImage/sheets.jpg",

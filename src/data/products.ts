@@ -162,8 +162,8 @@ export const products = [
   },
   {
     id: 15,
-    name: "Sheets",
-    slug: "sheets",
+    name: "Sheets & Plates",
+    slug: "sheets-plates",
     image: "/productImage/sheets.jpg",
     icon: Square,
     category: "Flat Products",
@@ -171,8 +171,8 @@ export const products = [
   },
   {
     id: 16,
-    name: "Steel Pipes",
-    slug: "pipes",
+    name: "Steel Pipes & Tubes",
+    slug: "pipes-tubes",
     image: "/productImage/steel-pipes.jpg",
     icon: Cylinder,
     category: "Pipes & Tubes",
@@ -186,15 +186,6 @@ export const products = [
     icon: AlignHorizontalSpaceAround,
     category: "Flat Products",
     shortDescription: "Durable stainless steel strips for industrial use.",
-  },
-  {
-    id: 18,
-    name: "Tubes",
-    slug: "tubes",
-    image: "/productImage/tubes.jpg",
-    icon: Cylinder,
-    category: "Pipes & Tubes",
-    shortDescription: "Seamless and welded tubes.",
   },
   {
     id: 19,
@@ -224,13 +215,5 @@ export const products = [
     category: "Wire Products",
     shortDescription: "Industrial wires suitable for fabrication and welding.",
   },
-  {
-  id: 22,
-  name: "Plates",
-  slug: "plates",
-  image: "/productImage/plates.jpg",
-  icon: "Layers",
-  category: "Plate Products",
-  shortDescription: "High-quality plates for structural and industrial applications.",
-},
+
 ];

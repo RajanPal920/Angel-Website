@@ -26,47 +26,11 @@ const MaterialDetail: React.FC = () => {
   }>();
   const navigate = useNavigate();
 
-  // ==============================================
-  // ADD THESE DEBUG LINES HERE (RIGHT AFTER useParams)
-  // ==============================================
-  console.log("Route params:", { slug, materialSlug });
-  console.log(
-    "Is 'pipes' in productCategoryMap?",
-    !!productCategoryMap["pipes"],
-  );
-  console.log("Category keys:", Object.keys(productCategoryMap));
-  console.log("Category data for slug:", productCategoryMap[slug]);
-  console.log(
-    "Category data for slug length:",
-    productCategoryMap[slug]?.length || 0,
-  );
-
-  // // Debug logging
-  // console.log("Route params:", { slug, materialSlug });
-  // console.log("Available categories:", Object.keys(productCategoryMap));
-  // console.log(
-  //   "Category data for slug:",
-  //   productCategoryMap[slug]?.length || 0,
-  //   "products",
-  // );
-
   const categoryData = productCategoryMap[slug];
   const material = categoryData?.find((item) => item.slug === materialSlug);
 
-  // Debug logging
-  if (categoryData) {
-    console.log(
-      "Product slugs in category:",
-      categoryData.map((p) => p.slug),
-    );
-  }
-  if (material) {
-    console.log("Material found:", material.title);
-  } else {
-    console.warn(`Material '${materialSlug}' not found in category '${slug}'`);
-  }
-
   const [activeTab, setActiveTab] = useState("overview");
+  const [showAllDetails, setShowAllDetails] = useState(false);
 
   // Helper function to check if data exists
   const hasData = (field: any) => {
@@ -504,12 +468,9 @@ const MaterialDetail: React.FC = () => {
 
   // Product categories list
   const productCategories = [
-    { name: "Coils", slug: "coils" },
-    { name: "Pipes", slug: "pipes" },
-    { name: "Plates", slug: "plates" },
+    { name: "Pipes & Tubes", slug: "pipes-tubes" },
     { name: "Round Bars", slug: "round-bars" },
-    { name: "Sheets", slug: "sheets" },
-    { name: "Tubes", slug: "tubes" },
+    { name: "Sheets & Plates", slug: "sheets-plates" },
     { name: "Wires", slug: "wires" },
     { name: "Industrial Flanges", slug: "flanges" },
     { name: "Buttweld Fittings", slug: "buttweld-fittings" },
@@ -519,8 +480,14 @@ const MaterialDetail: React.FC = () => {
     { name: "Industrial Valves", slug: "valves" },
     { name: "Patta & Patti", slug: "patta-patti" },
     { name: "Industrial Rings", slug: "rings" },
+    { name: "Coils", slug: "coils" },
     { name: "Industrial Circles", slug: "circles" },
     { name: "Industrial Strips", slug: "strips" },
+    {name: "Hose Pipes", slug: "hose-pipe" },
+    {name: "Perforated Sheets", slug: "perforated-sheet" },
+    {name: "Wire Mesh", slug: "wire-mesh" },
+    {name: "Anchor Fasteners", slug: "anchor-fastener" },
+    {name: "Dairy & Pharma Valves", slug: "dairy-pharma-valves" },
   ];
 
   return (
@@ -536,8 +503,9 @@ const MaterialDetail: React.FC = () => {
       {/* ===== Main Content ===== */}
       <div className="container material-main-content">
         <div className="material-layout">
-          {/* Left: Image */}
+          {/* Left: Image + Our Products */}
           <div className="material-image-column mt-28">
+            {/* Image Card */}
             <div className="material-image-card">
               <img src={material.image} alt={material.title} />
             </div>
@@ -560,6 +528,23 @@ const MaterialDetail: React.FC = () => {
                 )}
               </div>
             </div>
+
+            {/* ===== OUR PRODUCTS SECTION (BELOW IMAGE) ===== */}
+            <div className="our-products-sidebar mt-8">
+              <h3 className="our-products-sidebar-title">Our Products</h3>
+              <div className="our-products-sidebar-list">
+                {productCategories.map((category) => (
+                  <Link
+                    key={category.slug}
+                    to={`/products/${category.slug}`}
+                    className={`product-sidebar-item ${slug === category.slug ? "active" : ""}`}
+                  >
+                    <span className="product-bullet">-</span>
+                    {category.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
 
           {/* Right: Details */}
@@ -580,7 +565,8 @@ const MaterialDetail: React.FC = () => {
                 hasData(material.mechanicalProperties) ||
                 hasData(material.weightSizeChart) ||
                 hasData(material.gaugeChart) ||
-                hasData(material.thicknessTolerance)) && (
+                hasData(material.thicknessTolerance) ||
+                hasData(material.priceList)) && (
                 <button
                   className={`tab-btn ${activeTab === "specifications" ? "active" : ""}`}
                   onClick={() => setActiveTab("specifications")}
@@ -589,7 +575,6 @@ const MaterialDetail: React.FC = () => {
                 </button>
               )}
 
-              {/* ✅ ADD THIS - Applications Tab Button */}
               {(hasData(material.application) ||
                 hasData(material.applications)) && (
                 <button
@@ -618,20 +603,15 @@ const MaterialDetail: React.FC = () => {
                   Supply Network
                 </button>
               )}
-
-              <button
-                className={`tab-btn ${activeTab === "ourproducts" ? "active" : ""}`}
-                onClick={() => setActiveTab("ourproducts")}
-              >
-                Our Products
-              </button>
             </div>
 
             <div className="material-tab-content">
               {/* ===== OVERVIEW TAB ===== */}
               {activeTab === "overview" && (
                 <div className="tab-panel">
-                  <h2>Product Overview</h2>
+                  <div className="overview-header">
+                    <h2>Product Overview</h2>
+                  </div>
 
                   {material.shortDescription && (
                     <p>{material.shortDescription}</p>
@@ -643,29 +623,26 @@ const MaterialDetail: React.FC = () => {
                     </p>
                   )}
 
-                  {material.materialGroup && (
-                    <div className="info-row">
-                      <span className="info-label">Material Group:</span>
-                      <span className="info-value">
-                        {material.materialGroup}
-                      </span>
-                    </div>
-                  )}
+                  {/* ===== GENERIC INFO ROWS ===== */}
+                  {(() => {
+                    const infoFields = [
+                      { key: "materialGroup", label: "Material Group" },
+                      { key: "standards", label: "Standards" },
+                      { key: "forms", label: "Available Forms" },
+                    ];
+                    return infoFields.map(({ key, label }) => {
+                      const value = material[key];
+                      if (!value) return null;
+                      return (
+                        <div key={key} className="info-row">
+                          <span className="info-label">{label}:</span>
+                          <span className="info-value">{value}</span>
+                        </div>
+                      );
+                    });
+                  })()}
 
-                  {material.standards && (
-                    <div className="info-row">
-                      <span className="info-label">Standards:</span>
-                      <span className="info-value">{material.standards}</span>
-                    </div>
-                  )}
-
-                  {material.forms && (
-                    <div className="info-row">
-                      <span className="info-label">Available Forms:</span>
-                      <span className="info-value">{material.forms}</span>
-                    </div>
-                  )}
-
+                  {/* ===== KEY FEATURES ===== */}
                   {(hasData(material.keyFeatures) ||
                     hasData(material.specializedIn)) && (
                     <div className="key-features">
@@ -684,46 +661,295 @@ const MaterialDetail: React.FC = () => {
                     </div>
                   )}
 
-                  {hasData(material.gradeDetails) && (
-                    <div
-                      className="grade-details-overview"
-                      style={{ marginTop: "2rem" }}
-                    >
-                      <h3>Available Grades Overview</h3>
-                      {material.gradeDetails.standardAustenitic && (
-                        <div style={{ marginBottom: "1rem" }}>
-                          <h4>Standard Austenitic Grades</h4>
-                          {Object.entries(
-                            material.gradeDetails.standardAustenitic,
-                          )
-                            .slice(0, 2)
-                            .map(([grade, desc]) => (
-                              <div key={grade} className="grade-item">
-                                <strong>{grade}</strong>: {desc as string}
+                  {/* ===== GRADE DETAILS OVERVIEW ===== */}
+                  {(() => {
+                    const gradeDetails = material.gradeDetails;
+                    if (!gradeDetails) return null;
+                    if (typeof gradeDetails !== "object") return null;
+                    if (Object.keys(gradeDetails).length === 0) return null;
+
+                    const hasValidData = Object.values(gradeDetails).some(
+                      (value) => {
+                        if (typeof value === "object" && value !== null) {
+                          return Object.keys(value).length > 0;
+                        }
+                        return false;
+                      },
+                    );
+                    if (!hasValidData) return null;
+
+                    return (
+                      <div
+                        className="grade-details-overview"
+                        style={{ marginTop: "2rem" }}
+                      >
+                        <h3>Available Grades Overview</h3>
+                        {Object.entries(gradeDetails).map(
+                          ([sectionKey, sectionValue]) => {
+                            if (
+                              typeof sectionValue !== "object" ||
+                              sectionValue === null
+                            )
+                              return null;
+                            if (Object.keys(sectionValue).length === 0)
+                              return null;
+
+                            const label = sectionKey
+                              .replace(/([A-Z])/g, " $1")
+                              .replace(/^./, (str) => str.toUpperCase());
+
+                            const entries = Object.entries(sectionValue);
+                            const displayEntries = entries.slice(0, 2);
+                            const hasMore = entries.length > 2;
+
+                            return (
+                              <div
+                                key={sectionKey}
+                                style={{ marginBottom: "1rem" }}
+                              >
+                                <h4>{label}</h4>
+                                {displayEntries.map(([grade, desc]) => (
+                                  <div key={grade} className="grade-item">
+                                    <strong>{grade}</strong>: {desc as string}
+                                  </div>
+                                ))}
+                                {hasMore && (
+                                  <div
+                                    style={{
+                                      color: "#666",
+                                      fontSize: "0.85rem",
+                                      marginTop: "4px",
+                                    }}
+                                  >
+                                    + {entries.length - 2} more grades
+                                  </div>
+                                )}
                               </div>
-                            ))}
-                        </div>
-                      )}
-                      {material.gradeDetails.standardGrades && (
-                        <div style={{ marginBottom: "1rem" }}>
-                          <h4>Standard Grades</h4>
-                          {Object.entries(material.gradeDetails.standardGrades)
-                            .slice(0, 2)
-                            .map(([grade, desc]) => (
-                              <div key={grade} className="grade-item">
-                                <strong>{grade}</strong>: {desc as string}
-                              </div>
-                            ))}
-                        </div>
-                      )}
-                      {Object.keys(material.gradeDetails).length > 1 && (
+                            );
+                          },
+                        )}
                         <Link
                           to="#"
-                          onClick={() => setActiveTab("specifications")}
-                          style={{ color: "#0066cc" }}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            setActiveTab("specifications");
+                          }}
+                          style={{
+                            color: "#c92525",
+                            fontWeight: "600",
+                            textDecoration: "none",
+                            display: "inline-block",
+                            marginTop: "8px",
+                          }}
                         >
                           View all grades →
                         </Link>
+                      </div>
+                    );
+                  })()}
+
+                  {/* ===== ALL DETAILS SECTION ===== */}
+                  {showAllDetails && (
+                    <div className="all-details-container">
+                      <h3 className="details-title">
+                        Complete Product Details
+                      </h3>
+
+                      {/* ===== GENERIC: ALL SPECIFICATIONS STRINGS ===== */}
+                      {hasData(material.specifications) && (
+                        <div style={{ marginTop: "1.5rem" }}>
+                          <h4>Technical Specifications</h4>
+                          {Object.entries(material.specifications)
+                            .filter(([key, value]) => {
+                              if (typeof value === "object") return false;
+                              if (
+                                typeof value === "string" &&
+                                value.trim() === ""
+                              )
+                                return false;
+                              return true;
+                            })
+                            .map(([key, value]) => (
+                              <div key={key} className="spec-table">
+                                <div className="spec-row">
+                                  <span className="spec-label">
+                                    {key
+                                      .replace(/([A-Z])/g, " $1")
+                                      .replace(/^./, (str) =>
+                                        str.toUpperCase(),
+                                      )}
+                                  </span>
+                                  <span className="spec-value">
+                                    {value as string}
+                                  </span>
+                                </div>
+                              </div>
+                            ))}
+                        </div>
+                      )}
+
+                      {/* ===== GENERIC: RENDER ANY ARRAY DATA ===== */}
+                      {(() => {
+                        const arrayFields = [
+                          {
+                            key: "chemicalComposition",
+                            title: "Chemical Composition",
+                          },
+                          {
+                            key: "mechanicalProperties",
+                            title: "Mechanical Properties",
+                          },
+                          {
+                            key: "equivalentGrades",
+                            title: "Equivalent Grades",
+                          },
+                          {
+                            key: "astmSpecifications",
+                            title: "ASTM Specifications",
+                          },
+                          {
+                            key: "weightSizeChart",
+                            title: "Weight / Size Chart",
+                          },
+                          { key: "priceList", title: "Price List" },
+                          { key: "gaugeChart", title: "Gauge Chart" },
+                          {
+                            key: "thicknessTolerance",
+                            title: "Thickness Tolerance",
+                          },
+                          { key: "sizeDimensions", title: "Size Dimensions" },
+                        ];
+
+                        return arrayFields.map(({ key, title }) => {
+                          const data = material[key];
+                          if (
+                            !data ||
+                            !Array.isArray(data) ||
+                            data.length === 0
+                          )
+                            return null;
+
+                          const columns = Object.keys(data[0]);
+
+                          return (
+                            <div key={key} style={{ marginTop: "1.5rem" }}>
+                              <h4>{title}</h4>
+                              <div style={{ overflowX: "auto" }}>
+                                <table
+                                  className="spec-table-grid"
+                                  style={{
+                                    width: "100%",
+                                    borderCollapse: "collapse",
+                                  }}
+                                >
+                                  <thead>
+                                    <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                      {columns.map((col) => (
+                                        <th
+                                          key={col}
+                                          style={{
+                                            padding: "10px",
+                                            border: "1px solid #ddd",
+                                            textAlign: "left",
+                                          }}
+                                        >
+                                          {col
+                                            .replace(/_/g, " ")
+                                            .replace(/([A-Z])/g, " $1")
+                                            .trim()
+                                            .toUpperCase()}
+                                        </th>
+                                      ))}
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {data.map((item: any, idx: number) => (
+                                      <tr key={idx}>
+                                        {columns.map((col) => (
+                                          <td
+                                            key={col}
+                                            style={{
+                                              padding: "10px",
+                                              border: "1px solid #ddd",
+                                            }}
+                                          >
+                                            {item[col] !== undefined &&
+                                            item[col] !== null
+                                              ? item[col]
+                                              : "—"}
+                                          </td>
+                                        ))}
+                                      </tr>
+                                    ))}
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          );
+                        });
+                      })()}
+
+                      {/* ===== APPLICATIONS ===== */}
+                      {(hasData(material.application) ||
+                        hasData(material.applications)) && (
+                        <div style={{ marginTop: "1.5rem" }}>
+                          <h4>Applications</h4>
+                          {material.application && (
+                            <p>{material.application}</p>
+                          )}
+                          {hasData(material.applications) && (
+                            <ul>
+                              {material.applications.map(
+                                (app: string, index: number) => (
+                                  <li key={index}>
+                                    <CheckCircle size={16} /> {app}
+                                  </li>
+                                ),
+                              )}
+                            </ul>
+                          )}
+                        </div>
+                      )}
+
+                      {/* ===== STOCK AVAILABILITY ===== */}
+                      {hasData(material.stockAvailability) && (
+                        <div style={{ marginTop: "1.5rem" }}>
+                          <h4>Stock Availability</h4>
+                          {Object.entries(material.stockAvailability).map(
+                            ([categoryKey, categoryData]: [string, any]) => {
+                              if (
+                                !Array.isArray(categoryData) ||
+                                categoryData.length === 0
+                              )
+                                return null;
+                              return (
+                                <div
+                                  key={categoryKey}
+                                  style={{ marginBottom: "1rem" }}
+                                >
+                                  <h5>
+                                    {categoryKey
+                                      .replace(/([A-Z])/g, " $1")
+                                      .trim()}
+                                  </h5>
+                                  <ul>
+                                    {categoryData.map(
+                                      (item: any, idx: number) => (
+                                        <li key={idx}>
+                                          {typeof item === "string"
+                                            ? item
+                                            : item.title ||
+                                              item.name ||
+                                              JSON.stringify(item)}
+                                        </li>
+                                      ),
+                                    )}
+                                  </ul>
+                                </div>
+                              );
+                            },
+                          )}
+                        </div>
                       )}
                     </div>
                   )}
@@ -735,3159 +961,209 @@ const MaterialDetail: React.FC = () => {
                 <div className="tab-panel">
                   <h2>Technical Specifications</h2>
 
-                  {material.standards && (
-                    <div className="spec-table">
-                      <div className="spec-row">
-                        <span className="spec-label">Standards & Grades</span>
-                        <span className="spec-value">{material.standards}</span>
+                  {/* ===== BASIC FIELDS ===== */}
+                  {[
+                    { key: "standards", label: "Standards & Grades" },
+                    { key: "materialGroup", label: "Material Group" },
+                    { key: "forms", label: "Forms Available" },
+                    { key: "application", label: "Applications" },
+                  ].map(({ key, label }) => {
+                    const value = material[key];
+                    if (!value) return null;
+                    return (
+                      <div key={key} className="spec-table">
+                        <div className="spec-row">
+                          <span className="spec-label">{label}</span>
+                          <span className="spec-value">{value}</span>
+                        </div>
                       </div>
-                    </div>
-                  )}
+                    );
+                  })}
 
-                  {material.materialGroup && (
-                    <div className="spec-table">
-                      <div className="spec-row">
-                        <span className="spec-label">Material Group</span>
-                        <span className="spec-value">
-                          {material.materialGroup}
-                        </span>
-                      </div>
-                    </div>
-                  )}
+                  {/* ===== GENERIC SPECIFICATIONS RENDERER ===== */}
+                  {(() => {
+                    const specs = material.specifications;
+                    if (!specs) return null;
 
-                  {material.forms && (
-                    <div className="spec-table">
-                      <div className="spec-row">
-                        <span className="spec-label">Forms Available</span>
-                        <span className="spec-value">{material.forms}</span>
-                      </div>
-                    </div>
-                  )}
+                    const allKeys = Object.keys(specs);
 
-                  {hasData(material.specifications) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Detailed Specifications
-                      </h3>
-                      {material.specifications.standard && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Standard</span>
-                            <span className="spec-value">
-                              {material.specifications.standard}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.thicknessRange && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Thickness Range</span>
-                            <span className="spec-value">
-                              {material.specifications.thicknessRange}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.widthRange && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Width Range</span>
-                            <span className="spec-value">
-                              {material.specifications.widthRange}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.widthLength && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Width / Length</span>
-                            <span className="spec-value">
-                              {material.specifications.widthLength}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.surfaceFinish && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Surface Finish</span>
-                            <span className="spec-value">
-                              {material.specifications.surfaceFinish}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.hardnessTemper && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Hardness Temper</span>
-                            <span className="spec-value">
-                              {material.specifications.hardnessTemper}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.formLength && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Form & Length</span>
-                            <span className="spec-value">
-                              {material.specifications.formLength}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.valueAddedServices && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">
-                              Value Added Services
-                            </span>
-                            <span className="spec-value">
-                              {material.specifications.valueAddedServices}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.formHardness && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Form & Hardness</span>
-                            <span className="spec-value">
-                              {material.specifications.formHardness}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.testCertificate && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Test Certificate</span>
-                            <span className="spec-value">
-                              {material.specifications.testCertificate}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {/* Pipe-specific specification fields */}
-                      {material.specifications.seamlessPipeSize && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">
-                              Seamless Pipe Size
-                            </span>
-                            <span className="spec-value">
-                              {material.specifications.seamlessPipeSize}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.weldedPipeSize && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Welded Pipe Size</span>
-                            <span className="spec-value">
-                              {material.specifications.weldedPipeSize}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.efwPipeSize && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">EFW Pipe Size</span>
-                            <span className="spec-value">
-                              {material.specifications.efwPipeSize}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.outsideDiameter && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Outside Diameter</span>
-                            <span className="spec-value">
-                              {material.specifications.outsideDiameter}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.scheduleRange && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Schedule Range</span>
-                            <span className="spec-value">
-                              {material.specifications.scheduleRange}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.outsideFinish && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Outside Finish</span>
-                            <span className="spec-value">
-                              {material.specifications.outsideFinish}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.deliveryCondition && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">
-                              Delivery Condition
-                            </span>
-                            <span className="spec-value">
-                              {material.specifications.deliveryCondition}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.dimensionalSpecification && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">
-                              Dimensional Specification
-                            </span>
-                            <span className="spec-value">
-                              {material.specifications.dimensionalSpecification}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.manufacturingShapes && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">
-                              Manufacturing Shapes
-                            </span>
-                            <span className="spec-value">
-                              {material.specifications.manufacturingShapes}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.pipeEnds && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">Pipe Ends</span>
-                            <span className="spec-value">
-                              {material.specifications.pipeEnds}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                      {material.specifications.manufacturingTechniques && (
-                        <div className="spec-table">
-                          <div className="spec-row">
-                            <span className="spec-label">
-                              Manufacturing Techniques
-                            </span>
-                            <span className="spec-value">
-                              {material.specifications.manufacturingTechniques}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                    </>
-                  )}
+                    const labelMap: Record<string, string> = {
+                      standard: "Standard",
+                      sizeRange: "Size Range",
+                      finishLength: "Finish / Length",
+                      availableForms: "Available Forms",
+                      surfaceFinish: "Surface Finish",
+                      thicknessRange: "Thickness Range",
+                      widthRange: "Width Range",
+                      widthLength: "Width / Length",
+                      thickness: "Thickness",
+                      width: "Width",
+                      length: "Length",
+                      form: "Form",
+                      hardness: "Hardness",
+                      seamlessPipeSize: "Seamless Pipe Size",
+                      weldedPipeSize: "Welded Pipe Size",
+                      efwPipeSize: "EFW Pipe Size",
+                      outsideDiameter: "Outside Diameter",
+                      scheduleRange: "Schedule Range",
+                      outsideFinish: "Outside Finish",
+                      deliveryCondition: "Delivery Condition",
+                      dimensionalSpecification: "Dimensional Specification",
+                      manufacturingShapes: "Manufacturing Shapes",
+                      pipeEnds: "Pipe Ends",
+                      manufacturingTechniques: "Manufacturing Techniques",
+                      hardnessTemper: "Hardness Temper",
+                      formHardness: "Form & Hardness",
+                      formLength: "Form & Length",
+                      valueAddedServices: "Value Added Services",
+                      testCertificate: "Test Certificate",
+                      roundBarSizes: "Round Bar Sizes",
+                      tolerances: "Tolerances",
+                      standardButtweld: "Standard (Buttweld)",
+                      standardForged: "Standard (Forged)",
+                      dimensionalStandards: "Dimensional Standards",
+                      grades: "Grades",
+                      b366GradeMarkings: "B366 Grade Markings",
+                      schedule: "Schedule",
+                      endPreparation: "End Preparation",
+                      construction: "Construction",
+                      stockQuantity: "Stock Quantity",
+                      certifications: "Certifications",
+                      hotRolled: "Hot Rolled",
+                      coldRolled: "Cold Rolled",
+                    };
 
-                  {hasData(material.gradeDetails) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>Grade Details</h3>
-                      {material.gradeDetails.standardGrades && (
-                        <div style={{ marginBottom: "1.5rem" }}>
-                          <h4>Standard Grades</h4>
-                          {Object.entries(
-                            material.gradeDetails.standardGrades,
-                          ).map(([grade, desc]) => (
-                            <div
-                              key={grade}
-                              className="grade-item"
-                              style={{ marginBottom: "0.5rem" }}
-                            >
-                              <strong>{grade}</strong>: {desc as string}
+                    const stringEntries = allKeys.filter(
+                      (key) =>
+                        typeof specs[key] === "string" &&
+                        specs[key].toString().trim() !== "" &&
+                        ![
+                          "surfaceFinish",
+                          "tolerances",
+                          "roundBarSizes",
+                          "gaugeChart",
+                          "hotRolled",
+                          "coldRolled",
+                        ].includes(key),
+                    );
+
+                    const surfaceFinish = specs.surfaceFinish;
+                    const roundBarSizes = specs.roundBarSizes;
+                    const tolerances = specs.tolerances;
+                    const gaugeChart = specs.gaugeChart;
+                    const hotRolled = specs.hotRolled;
+                    const coldRolled = specs.coldRolled;
+
+                    const otherArrays = allKeys.filter(
+                      (key) =>
+                        Array.isArray(specs[key]) &&
+                        specs[key].length > 0 &&
+                        !["roundBarSizes", "tolerances", "gaugeChart"].includes(
+                          key,
+                        ),
+                    );
+
+                    const otherObjects = allKeys.filter(
+                      (key) =>
+                        typeof specs[key] === "object" &&
+                        !Array.isArray(specs[key]) &&
+                        specs[key] !== null &&
+                        !["tolerances", "hotRolled", "coldRolled"].includes(
+                          key,
+                        ),
+                    );
+
+                    return (
+                      <>
+                        {stringEntries.length > 0 && (
+                          <>
+                            <h3 style={{ marginTop: "2rem" }}>
+                              Detailed Specifications
+                            </h3>
+                            {stringEntries.map((key) => {
+                              const label =
+                                labelMap[key] ||
+                                key
+                                  .replace(/([A-Z])/g, " $1")
+                                  .replace(/^./, (str) => str.toUpperCase());
+                              return (
+                                <div key={key} className="spec-table">
+                                  <div className="spec-row">
+                                    <span className="spec-label">{label}</span>
+                                    <span className="spec-value">
+                                      {specs[key]}
+                                    </span>
+                                  </div>
+                                </div>
+                              );
+                            })}
+                          </>
+                        )}
+
+                        {surfaceFinish && typeof surfaceFinish === "string" && (
+                          <div className="spec-table">
+                            <div className="spec-row">
+                              <span className="spec-label">Surface Finish</span>
+                              <span className="spec-value">
+                                {surfaceFinish}
+                              </span>
                             </div>
-                          ))}
-                        </div>
-                      )}
-                      {material.gradeDetails.standardAustenitic && (
-                        <div style={{ marginBottom: "1.5rem" }}>
-                          <h4>Standard Austenitic Grades</h4>
-                          {Object.entries(
-                            material.gradeDetails.standardAustenitic,
-                          ).map(([grade, desc]) => (
-                            <div
-                              key={grade}
-                              className="grade-item"
-                              style={{ marginBottom: "0.5rem" }}
-                            >
-                              <strong>{grade}</strong>: {desc as string}
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                      {material.gradeDetails.highTemperature && (
-                        <div style={{ marginBottom: "1.5rem" }}>
-                          <h4>High-Temperature & Heat-Resistant Grades</h4>
-                          {Object.entries(
-                            material.gradeDetails.highTemperature,
-                          ).map(([grade, desc]) => (
-                            <div
-                              key={grade}
-                              className="grade-item"
-                              style={{ marginBottom: "0.5rem" }}
-                            >
-                              <strong>{grade}</strong>: {desc as string}
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                      {material.gradeDetails.specializedCorrosion && (
-                        <div style={{ marginBottom: "1.5rem" }}>
-                          <h4>Specialized Corrosion & High-Strength Grades</h4>
-                          {Object.entries(
-                            material.gradeDetails.specializedCorrosion,
-                          ).map(([grade, desc]) => (
-                            <div
-                              key={grade}
-                              className="grade-item"
-                              style={{ marginBottom: "0.5rem" }}
-                            >
-                              <strong>{grade}</strong>: {desc as string}
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  )}
-
-                  {/* ===== EQUIVALENT GRADES ===== */}
-                  {hasData(material.equivalentGrades) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>Equivalent Grades</h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Equivalent grades across international standards
-                      </p>
-                      <div
-                        className="equivalent-grades-table"
-                        style={{ overflowX: "auto" }}
-                      >
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              {(() => {
-                                // Get all unique keys from all items
-                                const allKeys = new Set<string>();
-                                material.equivalentGrades.forEach(
-                                  (item: any) => {
-                                    Object.keys(item).forEach((key) =>
-                                      allKeys.add(key),
-                                    );
-                                  },
-                                );
-
-                                // Define display order for common fields
-                                const fieldOrder = [
-                                  "grade",
-                                  "uns",
-                                  "wnr",
-                                  "werkstoff",
-                                  "jis",
-                                  "bs",
-                                  "gost",
-                                  "afnor",
-                                  "en",
-                                  "enJisAfnor",
-                                  "commonName",
-                                  "common",
-                                  "sis",
-                                  "din",
-                                  "iso",
-                                  "ks",
-                                  "or",
-                                  "sa",
-                                  "sae",
-                                  "astm",
-                                ];
-
-                                // Sort keys: first by fieldOrder, then alphabetically
-                                const sortedKeys = Array.from(allKeys).sort(
-                                  (a, b) => {
-                                    const indexA = fieldOrder.indexOf(a);
-                                    const indexB = fieldOrder.indexOf(b);
-                                    if (indexA === -1 && indexB === -1)
-                                      return a.localeCompare(b);
-                                    if (indexA === -1) return 1;
-                                    if (indexB === -1) return -1;
-                                    return indexA - indexB;
-                                  },
-                                );
-
-                                // Format header labels
-                                const labelMap: Record<string, string> = {
-                                  grade: "Grade",
-                                  uns: "UNS",
-                                  wnr: "Werkstoff Nr.",
-                                  werkstoff: "Werkstoff Nr.",
-                                  jis: "JIS",
-                                  bs: "BS",
-                                  gost: "GOST",
-                                  afnor: "AFNOR",
-                                  en: "EN",
-                                  enjisafnor: "EN / JIS / AFNOR",
-                                  commonname: "Common Name",
-                                  common: "Common Name",
-                                  sis: "SIS",
-                                  din: "DIN",
-                                  iso: "ISO",
-                                  ks: "KS",
-                                  or: "OR",
-                                  sa: "SA",
-                                  sae: "SAE",
-                                  astm: "ASTM",
-                                  standard: "Standard",
-                                  uns_no: "UNS No.",
-                                  "uns number": "UNS No.",
-                                };
-
-                                return sortedKeys.map((key) => {
-                                  let label = key;
-                                  // Check exact match first (case insensitive)
-                                  const lowerKey = key.toLowerCase();
-                                  if (labelMap[lowerKey]) {
-                                    label = labelMap[lowerKey];
-                                  } else {
-                                    // Format the key name
-                                    label = key
-                                      .replace(/_/g, " ")
-                                      .replace(/([A-Z])/g, " $1")
-                                      .trim()
-                                      .split(" ")
-                                      .map(
-                                        (word) =>
-                                          word.charAt(0).toUpperCase() +
-                                          word.slice(1).toLowerCase(),
-                                      )
-                                      .join(" ");
-                                  }
-
-                                  return (
-                                    <th
-                                      key={key}
-                                      style={{
-                                        padding: "10px 12px",
-                                        border: "1px solid #ddd",
-                                        textAlign:
-                                          key.toLowerCase() === "grade"
-                                            ? "left"
-                                            : "center",
-                                        whiteSpace: "nowrap",
-                                        fontWeight: "700",
-                                        color: "#1a2b4c",
-                                        fontSize: "0.85rem",
-                                      }}
-                                    >
-                                      {label}
-                                    </th>
-                                  );
-                                });
-                              })()}
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.equivalentGrades.map(
-                              (item: any, idx: number) => {
-                                // Get all keys from the first item to maintain consistency
-                                const firstItem = material.equivalentGrades[0];
-                                const allKeys = Object.keys(firstItem);
-
-                                return (
-                                  <tr
-                                    key={idx}
-                                    style={{
-                                      backgroundColor:
-                                        idx % 2 === 0 ? "white" : "#fafafa",
-                                      transition: "background-color 0.2s ease",
-                                    }}
-                                    onMouseEnter={(e) => {
-                                      e.currentTarget.style.backgroundColor =
-                                        "#f0f4ff";
-                                    }}
-                                    onMouseLeave={(e) => {
-                                      e.currentTarget.style.backgroundColor =
-                                        idx % 2 === 0 ? "white" : "#fafafa";
-                                    }}
-                                  >
-                                    {allKeys.map((key) => {
-                                      const isGradeCol =
-                                        key.toLowerCase() === "grade";
-                                      const value = item[key];
-
-                                      return (
-                                        <td
-                                          key={key}
-                                          style={{
-                                            padding: "10px 12px",
-                                            border: "1px solid #ddd",
-                                            color: isGradeCol
-                                              ? "#1a2b4c"
-                                              : "#555",
-                                            fontWeight: isGradeCol
-                                              ? "600"
-                                              : "400",
-                                            textAlign: isGradeCol
-                                              ? "left"
-                                              : "center",
-                                            fontSize: "0.85rem",
-                                          }}
-                                        >
-                                          {value !== undefined && value !== null
-                                            ? value
-                                            : "—"}
-                                        </td>
-                                      );
-                                    })}
-                                  </tr>
-                                );
-                              },
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {/* ===== ASTM SPECIFICATIONS ===== */}
-                  {hasData(material.astmSpecifications) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>ASTM Specifications</h3>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Standard
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Description
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.astmSpecifications.map(
-                              (item: any, idx: number) => (
-                                <tr key={idx}>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#555",
-                                      fontWeight: 600,
-                                    }}
-                                  >
-                                    {item.standard}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.description}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {hasData(material.chemicalComposition) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Chemical Composition
-                      </h3>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Grade
-                              </th>
-                              {material.chemicalComposition[0]?.ti !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Ti
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.al !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Al
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.v !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  V
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.fe !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Fe
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.o !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  O
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.c !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  C
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.mn !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Mn
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.si !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Si
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.cr !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Cr
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.ni !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Ni
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.mo !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Mo
-                                </th>
-                              )}
-                              {material.chemicalComposition[0]?.other !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Other
-                                </th>
-                              )}
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.chemicalComposition.map(
-                              (item: any, idx: number) => (
-                                <tr key={idx}>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                    }}
-                                  >
-                                    {item.grade}
-                                  </td>
-                                  {item.ti !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.ti}
-                                    </td>
-                                  )}
-                                  {item.al !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.al}
-                                    </td>
-                                  )}
-                                  {item.v !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.v}
-                                    </td>
-                                  )}
-                                  {item.fe !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.fe}
-                                    </td>
-                                  )}
-                                  {item.o !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.o}
-                                    </td>
-                                  )}
-                                  {item.c !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.c}
-                                    </td>
-                                  )}
-                                  {item.mn !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.mn}
-                                    </td>
-                                  )}
-                                  {item.si !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.si}
-                                    </td>
-                                  )}
-                                  {item.cr !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.cr}
-                                    </td>
-                                  )}
-                                  {item.ni !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.ni}
-                                    </td>
-                                  )}
-                                  {item.mo !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.mo}
-                                    </td>
-                                  )}
-                                  {item.other !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.other}
-                                    </td>
-                                  )}
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {hasData(material.mechanicalProperties) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Mechanical & Physical Properties
-                      </h3>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Grade
-                              </th>
-                              {material.mechanicalProperties[0]?.density !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Density
-                                </th>
-                              )}
-                              {material.mechanicalProperties[0]?.tensile !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Tensile Strength
-                                </th>
-                              )}
-                              {material.mechanicalProperties[0]?.yield !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Yield Strength
-                                </th>
-                              )}
-                              {material.mechanicalProperties[0]?.elongation !==
-                                undefined && (
-                                <th
-                                  style={{
-                                    padding: "10px",
-                                    border: "1px solid #ddd",
-                                    textAlign: "left",
-                                  }}
-                                >
-                                  Elongation
-                                </th>
-                              )}
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.mechanicalProperties.map(
-                              (item: any, idx: number) => (
-                                <tr key={idx}>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                    }}
-                                  >
-                                    {item.grade}
-                                  </td>
-                                  {item.density !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.density}
-                                    </td>
-                                  )}
-                                  {item.tensile !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.tensile}
-                                    </td>
-                                  )}
-                                  {item.yield !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.yield}
-                                    </td>
-                                  )}
-                                  {item.elongation !== undefined && (
-                                    <td
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                      }}
-                                    >
-                                      {item.elongation}
-                                    </td>
-                                  )}
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {/* ===== TITANIUM TUBES DIMENSIONS CHART ===== */}
-                  {hasData(material.dimensionsChart) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Titanium Tubes Dimensions Chart (I.D. in Inches)
-                      </h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Inside Diameter (I.D.) in inches for various tube O.D.
-                        and gauge sizes
-                      </p>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#1a2b4c" }}>
-                              <th
-                                style={{
-                                  padding: "12px 15px",
-                                  border: "1px solid #1a2b4c",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#ffffff",
-                                  whiteSpace: "nowrap",
-                                  fontSize: "0.9rem",
-                                  backgroundColor: "#1a2b4c",
-                                }}
-                                rowSpan={2}
-                              >
-                                Tube O.D.
-                              </th>
-                              <th
-                                style={{
-                                  padding: "12px 15px",
-                                  border: "1px solid #1a2b4c",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#ffffff",
-                                  whiteSpace: "nowrap",
-                                  fontSize: "0.9rem",
-                                  backgroundColor: "#1a2b4c",
-                                }}
-                                colSpan={7}
-                              >
-                                Gauge (Wall Thickness in Inches)
-                              </th>
-                            </tr>
-                            <tr style={{ backgroundColor: "#2d4a7a" }}>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                10 (0.134)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                12 (0.109)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                14 (0.083)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                16 (0.065)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                18 (0.049)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                20 (0.035)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                22 (0.028)
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.dimensionsChart.map(
-                              (item: any, idx: number) => (
-                                <tr
-                                  key={idx}
-                                  style={{
-                                    backgroundColor:
-                                      idx % 2 === 0 ? "#ffffff" : "#f8f9fa",
-                                  }}
-                                  onMouseEnter={(e) => {
-                                    e.currentTarget.style.backgroundColor =
-                                      "#e8edf5";
-                                  }}
-                                  onMouseLeave={(e) => {
-                                    e.currentTarget.style.backgroundColor =
-                                      idx % 2 === 0 ? "#ffffff" : "#f8f9fa";
-                                  }}
-                                >
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#1a2b4c",
-                                      fontWeight: "600",
-                                    }}
-                                  >
-                                    {item.tube_od || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.gauge_10 !== undefined &&
-                                    item.gauge_10 !== null
-                                      ? item.gauge_10
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.gauge_12 !== undefined &&
-                                    item.gauge_12 !== null
-                                      ? item.gauge_12
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.gauge_14 !== undefined &&
-                                    item.gauge_14 !== null
-                                      ? item.gauge_14
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.gauge_16 !== undefined &&
-                                    item.gauge_16 !== null
-                                      ? item.gauge_16
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.gauge_18 !== undefined &&
-                                    item.gauge_18 !== null
-                                      ? item.gauge_18
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.gauge_20 !== undefined &&
-                                    item.gauge_20 !== null
-                                      ? item.gauge_20
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.gauge_22 !== undefined &&
-                                    item.gauge_22 !== null
-                                      ? item.gauge_22
-                                      : "—"}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {/* ===== WALL THICKNESS RANGE ===== */}
-                  {hasData(material.wallThicknessRange) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Titanium Tubing Size Wall Thickness Range
-                      </h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Available tube sizes (O.D. in inches) for each wall
-                        thickness
-                      </p>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#1a2b4c" }}>
-                              <th
-                                style={{
-                                  padding: "12px 15px",
-                                  border: "1px solid #1a2b4c",
-                                  textAlign: "left",
-                                  fontWeight: "700",
-                                  color: "#ffffff",
-                                  whiteSpace: "nowrap",
-                                  fontSize: "0.9rem",
-                                  backgroundColor: "#1a2b4c",
-                                }}
-                              >
-                                Wall Thickness (Inch)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "12px 15px",
-                                  border: "1px solid #1a2b4c",
-                                  textAlign: "left",
-                                  fontWeight: "700",
-                                  color: "#ffffff",
-                                  whiteSpace: "nowrap",
-                                  fontSize: "0.9rem",
-                                  backgroundColor: "#1a2b4c",
-                                }}
-                              >
-                                Tube Sizes (O.D. in Inches)
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.wallThicknessRange.map(
-                              (item: any, idx: number) => (
-                                <tr
-                                  key={idx}
-                                  style={{
-                                    backgroundColor:
-                                      idx % 2 === 0 ? "#ffffff" : "#f8f9fa",
-                                  }}
-                                  onMouseEnter={(e) => {
-                                    e.currentTarget.style.backgroundColor =
-                                      "#e8edf5";
-                                  }}
-                                  onMouseLeave={(e) => {
-                                    e.currentTarget.style.backgroundColor =
-                                      idx % 2 === 0 ? "#ffffff" : "#f8f9fa";
-                                  }}
-                                >
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      color: "#1a2b4c",
-                                      fontWeight: "600",
-                                    }}
-                                  >
-                                    {item.wall_thickness || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.tube_sizes || "—"}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {/* ===== PRESSURE RATING ===== */}
-                  {hasData(material.pressureRating) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Titanium Tubes Pressure Rating (psig)
-                      </h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Maximum working pressure in psig for various tube O.D.
-                        and wall thicknesses
-                      </p>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#1a2b4c" }}>
-                              <th
-                                style={{
-                                  padding: "12px 15px",
-                                  border: "1px solid #1a2b4c",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#ffffff",
-                                  whiteSpace: "nowrap",
-                                  fontSize: "0.9rem",
-                                  backgroundColor: "#1a2b4c",
-                                }}
-                                rowSpan={2}
-                              >
-                                Tube O.D. (in)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "12px 15px",
-                                  border: "1px solid #1a2b4c",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#ffffff",
-                                  whiteSpace: "nowrap",
-                                  fontSize: "0.9rem",
-                                  backgroundColor: "#1a2b4c",
-                                }}
-                                colSpan={7}
-                              >
-                                Wall Thickness (Inches)
-                              </th>
-                            </tr>
-                            <tr style={{ backgroundColor: "#2d4a7a" }}>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                .028
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                .035
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                .049
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                .065
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                .083
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                .095
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 12px",
-                                  border: "1px solid #2d4a7a",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#ffffff",
-                                  fontSize: "0.75rem",
-                                  whiteSpace: "nowrap",
-                                  backgroundColor: "#2d4a7a",
-                                }}
-                              >
-                                .109
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.pressureRating.map(
-                              (item: any, idx: number) => (
-                                <tr
-                                  key={idx}
-                                  style={{
-                                    backgroundColor:
-                                      idx % 2 === 0 ? "#ffffff" : "#f8f9fa",
-                                  }}
-                                  onMouseEnter={(e) => {
-                                    e.currentTarget.style.backgroundColor =
-                                      "#e8edf5";
-                                  }}
-                                  onMouseLeave={(e) => {
-                                    e.currentTarget.style.backgroundColor =
-                                      idx % 2 === 0 ? "#ffffff" : "#f8f9fa";
-                                  }}
-                                >
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#1a2b4c",
-                                      fontWeight: "600",
-                                    }}
-                                  >
-                                    {item.tube_od || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.wall_028 !== undefined &&
-                                    item.wall_028 !== null
-                                      ? item.wall_028
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.wall_035 !== undefined &&
-                                    item.wall_035 !== null
-                                      ? item.wall_035
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.wall_049 !== undefined &&
-                                    item.wall_049 !== null
-                                      ? item.wall_049
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.wall_065 !== undefined &&
-                                    item.wall_065 !== null
-                                      ? item.wall_065
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.wall_083 !== undefined &&
-                                    item.wall_083 !== null
-                                      ? item.wall_083
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.wall_095 !== undefined &&
-                                    item.wall_095 !== null
-                                      ? item.wall_095
-                                      : "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 12px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.wall_109 !== undefined &&
-                                    item.wall_109 !== null
-                                      ? item.wall_109
-                                      : "—"}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {/* ===== GAUGE THICKNESS CHART ===== */}
-                  {hasData(material.gaugeThicknessChart) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Gauge Thickness Chart
-                      </h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Standard gauge thicknesses in inches
-                      </p>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Gauge
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Min Thickness (in)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Max Thickness (in)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Typical (in)
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.gaugeThicknessChart.map(
-                              (item: any, idx: number) => (
-                                <tr
-                                  key={idx}
-                                  style={{
-                                    backgroundColor:
-                                      idx % 2 === 0 ? "white" : "#fafafa",
-                                  }}
-                                >
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#1a2b4c",
-                                      fontWeight: "600",
-                                    }}
-                                  >
-                                    {item.gauge}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.thickness_min}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.thickness_max}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.typical}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {/* ===== OUTSIDE DIAMETER CHART ===== */}
-                  {hasData(material.outsideDiameterChart) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Outside Diameter & Schedule Chart
-                      </h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Nominal pipe sizes with corresponding outside diameters
-                        and schedule wall thicknesses
-                      </p>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Nominal Pipe Size
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                OD (in)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Sch 5
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Sch 10
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Sch 40
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Sch 80
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.outsideDiameterChart.map(
-                              (item: any, idx: number) => (
-                                <tr
-                                  key={idx}
-                                  style={{
-                                    backgroundColor:
-                                      idx % 2 === 0 ? "white" : "#fafafa",
-                                  }}
-                                >
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#1a2b4c",
-                                      fontWeight: "600",
-                                    }}
-                                  >
-                                    {item.nominal_pipe_size}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.od_inch}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.sch_5}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.sch_10}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.sch_40}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.sch_80}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
-
-                  {/* ===== WEIGHT / SIZE CHART ===== */}
-                  {hasData(material.weightSizeChart) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        {material.slug?.includes("round-bars")
-                          ? "Stainless Steel Round Bars Weight Chart"
-                          : material.slug?.includes("plates")
-                            ? "Weight Chart per Dimension"
-                            : material.slug?.includes("pipes")
-                              ? "Pipe Weight Chart"
-                              : "Weight / Size Chart"}
-                      </h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        {material.slug?.includes("round-bars")
-                          ? "Weight per meter for Stainless Steel Round Bars"
-                          : material.slug?.includes("plates")
-                            ? "Weight per dimension for Plates"
-                            : material.slug?.includes("pipes")
-                              ? "Weight per meter for Pipes"
-                              : "Weight and size specifications"}
-                      </p>
-
-                      {(() => {
-                        const data = material.weightSizeChart;
-                        if (!data || data.length === 0) return null;
-
-                        const firstItem = data[0];
-                        const keys = Object.keys(firstItem);
-
-                        // Detect data type
-                        const isRoundBarData =
-                          keys.includes("size") && keys.includes("kgs_mtr");
-                        const isPipeData = keys.some((k) =>
-                          [
-                            "nps",
-                            "od_mm",
-                            "od_in",
-                            "sched",
-                            "kg_mtr",
-                            "lb_ft",
-                            "weight_kg_m",
-                            "weight_lb_ft",
-                          ].includes(k),
-                        );
-                        const isPlateData = keys.some((k) =>
-                          [
-                            "thickness",
-                            "weightPerM2",
-                            "size2000",
-                            "size2500",
-                            "size3000",
-                          ].includes(k),
-                        );
-                        const isWeightOnlyData = keys.some((k) =>
-                          ["weight", "weight_kg", "weight_lb"].includes(k),
-                        );
-
-                        // For Round Bar data - 3 column format
-                        if (isRoundBarData) {
-                          return (
-                            <div style={{ overflowX: "auto" }}>
-                              <table
-                                className="spec-table-grid"
-                                style={{
-                                  width: "100%",
-                                  borderCollapse: "collapse",
-                                }}
-                              >
-                                <thead>
-                                  <tr style={{ backgroundColor: "#f5f5f5" }}>
-                                    {Array.from({ length: 3 }).map((_, idx) => (
-                                      <React.Fragment key={idx}>
-                                        <th
-                                          style={{
-                                            padding: "10px",
-                                            border: "1px solid #ddd",
-                                            textAlign: "center",
-                                            fontWeight: "700",
-                                            color: "#1a2b4c",
-                                            width: "16.66%",
-                                          }}
-                                        >
-                                          Size
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "10px",
-                                            border: "1px solid #ddd",
-                                            textAlign: "center",
-                                            fontWeight: "700",
-                                            color: "#1a2b4c",
-                                            width: "16.66%",
-                                          }}
-                                        >
-                                          Kgs / Mtr
-                                        </th>
-                                      </React.Fragment>
-                                    ))}
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  {(() => {
-                                    const itemsPerRow = 3;
-                                    const rows = [];
-                                    for (
-                                      let i = 0;
-                                      i < data.length;
-                                      i += itemsPerRow
-                                    ) {
-                                      const rowItems = data.slice(
-                                        i,
-                                        i + itemsPerRow,
-                                      );
-                                      while (rowItems.length < itemsPerRow) {
-                                        rowItems.push({
-                                          size: "",
-                                          kgs_mtr: "",
-                                        });
-                                      }
-                                      rows.push(rowItems);
-                                    }
-                                    return rows.map((rowItems, rowIndex) => (
-                                      <tr
-                                        key={rowIndex}
-                                        style={{
-                                          backgroundColor:
-                                            rowIndex % 2 === 0
-                                              ? "white"
-                                              : "#fafafa",
-                                        }}
-                                      >
-                                        {rowItems.map((item, colIndex) => (
-                                          <React.Fragment key={colIndex}>
-                                            <td
-                                              style={{
-                                                padding: "8px 10px",
-                                                border: "1px solid #ddd",
-                                                textAlign: "center",
-                                                color: "#1a2b4c",
-                                                fontWeight: "500",
-                                              }}
-                                            >
-                                              {item.size || "—"}
-                                            </td>
-                                            <td
-                                              style={{
-                                                padding: "8px 10px",
-                                                border: "1px solid #ddd",
-                                                textAlign: "center",
-                                                color: "#555",
-                                              }}
-                                            >
-                                              {item.kgs_mtr || "—"}
-                                            </td>
-                                          </React.Fragment>
-                                        ))}
-                                      </tr>
-                                    ));
-                                  })()}
-                                </tbody>
-                              </table>
-                            </div>
-                          );
-                        }
-
-                        // For Pipe data - show all columns with smart headers
-                        if (isPipeData) {
-                          const labelMap: Record<string, string> = {
-                            nps: "NPS",
-                            od_in: "OD (in)",
-                            od_mm: "OD (mm)",
-                            wall_in: "Wall (in)",
-                            wall_mm: "Wall (mm)",
-                            wt_in: "Wall (in)",
-                            wt_mm: "Wall (mm)",
-                            sched: "Schedule",
-                            schedule: "Schedule",
-                            kg_mtr: "Weight (kg/m)",
-                            weight_kg_m: "Weight (kg/m)",
-                            lb_ft: "Weight (lb/ft)",
-                            weight_lb_ft: "Weight (lb/ft)",
-                            sch: "Schedule",
-                          };
-
-                          return (
-                            <div style={{ overflowX: "auto" }}>
-                              <table
-                                className="spec-table-grid"
-                                style={{
-                                  width: "100%",
-                                  borderCollapse: "collapse",
-                                }}
-                              >
-                                <thead>
-                                  <tr style={{ backgroundColor: "#f5f5f5" }}>
-                                    {keys.map((key) => (
-                                      <th
-                                        key={key}
-                                        style={{
-                                          padding: "10px 15px",
-                                          border: "1px solid #ddd",
-                                          textAlign:
-                                            key === "nps" ||
-                                            key === "description"
-                                              ? "left"
-                                              : "center",
-                                          whiteSpace: "nowrap",
-                                          fontWeight: 700,
-                                          color: "#1a2b4c",
-                                        }}
-                                      >
-                                        {labelMap[key] ||
-                                          key
-                                            .replace(/_/g, " ")
-                                            .replace(/([A-Z])/g, " $1")
-                                            .trim()
-                                            .toUpperCase()}
-                                      </th>
-                                    ))}
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  {data.map((item: any, idx: number) => (
-                                    <tr
-                                      key={idx}
-                                      style={{
-                                        backgroundColor:
-                                          idx % 2 === 0 ? "white" : "#fafafa",
-                                      }}
-                                    >
-                                      {keys.map((key) => (
-                                        <td
-                                          key={key}
-                                          style={{
-                                            padding: "10px 15px",
-                                            border: "1px solid #ddd",
-                                            color:
-                                              key === "nps" ||
-                                              key === "description"
-                                                ? "#1a2b4c"
-                                                : "#555",
-                                            fontWeight:
-                                              key === "nps" ||
-                                              key === "description"
-                                                ? "600"
-                                                : "400",
-                                            textAlign:
-                                              key === "nps" ||
-                                              key === "description"
-                                                ? "left"
-                                                : "center",
-                                            verticalAlign: "middle",
-                                          }}
-                                        >
-                                          {item[key] !== undefined &&
-                                          item[key] !== null
-                                            ? item[key]
-                                            : "—"}
-                                        </td>
-                                      ))}
-                                    </tr>
-                                  ))}
-                                </tbody>
-                              </table>
-                            </div>
-                          );
-                        }
-
-                        // For Plate data - show all columns with smart headers
-                        if (isPlateData) {
-                          const labelMap: Record<string, string> = {
-                            thickness: "Thickness (mm)",
-                            weightPerM2: "Weight (kg/m²)",
-                            size2000: "2000 x 1000",
-                            size2500: "2500 x 1250",
-                            size3000: "3000 x 1500",
-                            weight_kg_m2: "Weight (kg/m²)",
-                          };
-
-                          return (
-                            <div style={{ overflowX: "auto" }}>
-                              <table
-                                className="spec-table-grid"
-                                style={{
-                                  width: "100%",
-                                  borderCollapse: "collapse",
-                                }}
-                              >
-                                <thead>
-                                  <tr style={{ backgroundColor: "#f5f5f5" }}>
-                                    {keys.map((key) => (
-                                      <th
-                                        key={key}
-                                        style={{
-                                          padding: "10px 15px",
-                                          border: "1px solid #ddd",
-                                          textAlign:
-                                            key === "thickness"
-                                              ? "left"
-                                              : "center",
-                                          whiteSpace: "nowrap",
-                                          fontWeight: 700,
-                                          color: "#1a2b4c",
-                                        }}
-                                      >
-                                        {labelMap[key] ||
-                                          key
-                                            .replace(/_/g, " ")
-                                            .replace(/([A-Z])/g, " $1")
-                                            .trim()
-                                            .toUpperCase()}
-                                      </th>
-                                    ))}
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  {data.map((item: any, idx: number) => (
-                                    <tr
-                                      key={idx}
-                                      style={{
-                                        backgroundColor:
-                                          idx % 2 === 0 ? "white" : "#fafafa",
-                                      }}
-                                    >
-                                      {keys.map((key) => (
-                                        <td
-                                          key={key}
-                                          style={{
-                                            padding: "10px 15px",
-                                            border: "1px solid #ddd",
-                                            color:
-                                              key === "thickness"
-                                                ? "#1a2b4c"
-                                                : "#555",
-                                            fontWeight:
-                                              key === "thickness"
-                                                ? "600"
-                                                : "400",
-                                            textAlign:
-                                              key === "thickness"
-                                                ? "left"
-                                                : "center",
-                                            verticalAlign: "middle",
-                                          }}
-                                        >
-                                          {item[key] !== undefined &&
-                                          item[key] !== null
-                                            ? item[key]
-                                            : "—"}
-                                        </td>
-                                      ))}
-                                    </tr>
-                                  ))}
-                                </tbody>
-                              </table>
-                            </div>
-                          );
-                        }
-
-                        // For any other data format - auto-detect and render all columns
-                        return (
-                          <div style={{ overflowX: "auto" }}>
-                            <table
-                              className="spec-table-grid"
-                              style={{
-                                width: "100%",
-                                borderCollapse: "collapse",
-                              }}
-                            >
-                              <thead>
-                                <tr style={{ backgroundColor: "#f5f5f5" }}>
-                                  {keys.map((key) => {
-                                    const labelMap: Record<string, string> = {
-                                      size: "Size",
-                                      weight: "Weight",
-                                      weight_kg: "Weight (kg)",
-                                      weight_lb: "Weight (lb)",
-                                      thickness: "Thickness (mm)",
-                                      width: "Width (mm)",
-                                      length: "Length (mm)",
-                                      description: "Description",
-                                      grade: "Grade",
-                                    };
-                                    const displayName =
-                                      labelMap[key] ||
-                                      key
-                                        .replace(/_/g, " ")
-                                        .replace(/([A-Z])/g, " $1")
-                                        .trim()
-                                        .toUpperCase();
-                                    const isFirstCol = [
-                                      "size",
-                                      "thickness",
-                                      "width",
-                                      "length",
-                                      "description",
-                                      "grade",
-                                    ].includes(key);
-
-                                    return (
-                                      <th
-                                        key={key}
-                                        style={{
-                                          padding: "10px 15px",
-                                          border: "1px solid #ddd",
-                                          textAlign: isFirstCol
-                                            ? "left"
-                                            : "center",
-                                          whiteSpace: "nowrap",
-                                          fontWeight: 700,
-                                          color: "#1a2b4c",
-                                        }}
-                                      >
-                                        {displayName}
-                                      </th>
-                                    );
-                                  })}
-                                </tr>
-                              </thead>
-                              <tbody>
-                                {data.map((item: any, idx: number) => {
-                                  const isFirstCol = (key: string) =>
-                                    [
-                                      "size",
-                                      "thickness",
-                                      "width",
-                                      "length",
-                                      "description",
-                                      "grade",
-                                    ].includes(key);
-                                  return (
-                                    <tr
-                                      key={idx}
-                                      style={{
-                                        backgroundColor:
-                                          idx % 2 === 0 ? "white" : "#fafafa",
-                                      }}
-                                    >
-                                      {keys.map((key) => (
-                                        <td
-                                          key={key}
-                                          style={{
-                                            padding: "10px 15px",
-                                            border: "1px solid #ddd",
-                                            color: isFirstCol(key)
-                                              ? "#1a2b4c"
-                                              : "#555",
-                                            fontWeight: isFirstCol(key)
-                                              ? "600"
-                                              : "400",
-                                            textAlign: isFirstCol(key)
-                                              ? "left"
-                                              : "center",
-                                            verticalAlign: "middle",
-                                          }}
-                                        >
-                                          {item[key] !== undefined &&
-                                          item[key] !== null
-                                            ? item[key]
-                                            : "—"}
-                                        </td>
-                                      ))}
-                                    </tr>
-                                  );
-                                })}
-                              </tbody>
-                            </table>
                           </div>
-                        );
-                      })()}
-                    </>
-                  )}
+                        )}
 
-                  {/* ===== SIZE AND DIMENSIONS ===== */}
-                  {hasData(material.sizeDimensions) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Size and Dimensions of Titanium Round Bars
-                      </h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Available sizes across Metric, US (ASTM/Canadian), and
-                        Japanese standards
-                      </p>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                colSpan={2}
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Metric Size (mm)
-                              </th>
-                              <th
-                                colSpan={2}
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                US Rods (ASTM/Canadian)
-                              </th>
-                              <th
-                                colSpan={2}
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Japanese Rods (mm²)
-                              </th>
-                            </tr>
-                            <tr style={{ backgroundColor: "#e9ecef" }}>
-                              <th
-                                style={{
-                                  padding: "8px 10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#1a2b4c",
-                                  fontSize: "0.8rem",
-                                }}
-                              >
-                                Rods Size
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#1a2b4c",
-                                  fontSize: "0.8rem",
-                                }}
-                              >
-                                Diam. (mm)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#1a2b4c",
-                                  fontSize: "0.8rem",
-                                }}
-                              >
-                                Rods Size
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#1a2b4c",
-                                  fontSize: "0.8rem",
-                                }}
-                              >
-                                Diam. (Inch)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#1a2b4c",
-                                  fontSize: "0.8rem",
-                                }}
-                              >
-                                Rods Size
-                              </th>
-                              <th
-                                style={{
-                                  padding: "8px 10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "center",
-                                  fontWeight: "600",
-                                  color: "#1a2b4c",
-                                  fontSize: "0.8rem",
-                                }}
-                              >
-                                Diam. (mm)
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.sizeDimensions.map(
-                              (item: any, idx: number) => (
-                                <tr
-                                  key={idx}
-                                  style={{
-                                    backgroundColor:
-                                      idx % 2 === 0 ? "white" : "#fafafa",
-                                  }}
-                                >
-                                  <td
-                                    style={{
-                                      padding: "8px 10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.metric_size || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.diameter_mm || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.us_rods || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.us_diameter_inch || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.japanese_rods || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "8px 10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "center",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.japanese_diameter_mm || "—"}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
+                        {hotRolled && typeof hotRolled === "object" && (
+                          <>
+                            <h3 style={{ marginTop: "2rem" }}>
+                              Hot Rolled Specifications
+                            </h3>
+                            {Object.entries(hotRolled).map(([key, value]) => {
+                              if (!value) return null;
+                              const label = key
+                                .replace(/([A-Z])/g, " $1")
+                                .replace(/^./, (str) => str.toUpperCase());
+                              return (
+                                <div key={key} className="spec-table">
+                                  <div className="spec-row">
+                                    <span className="spec-label">{label}</span>
+                                    <span className="spec-value">
+                                      {String(value)}
+                                    </span>
+                                  </div>
+                                </div>
+                              );
+                            })}
+                          </>
+                        )}
 
-                  {/* ===== STOCKED SIZES ===== */}
-                  {hasData(material.stockedSizes) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>
-                        Standard Stocked Sizes
-                      </h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Available stocked sizes for{" "}
-                        {material.title?.split(" – ")[0] || "this material"}
-                      </p>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                  whiteSpace: "nowrap",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Size (Inches)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                  whiteSpace: "nowrap",
-                                  fontWeight: "700",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                Size (mm)
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.stockedSizes.map(
-                              (item: any, idx: number) => (
-                                <tr key={idx}>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#1a2b4c",
-                                      fontWeight: "500",
-                                    }}
-                                  >
-                                    {item.size_inches || "—"}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.size_mm || "—"}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
+                        {coldRolled && typeof coldRolled === "object" && (
+                          <>
+                            <h3 style={{ marginTop: "2rem" }}>
+                              Cold Rolled Specifications
+                            </h3>
+                            {Object.entries(coldRolled).map(([key, value]) => {
+                              if (!value) return null;
+                              const label = key
+                                .replace(/([A-Z])/g, " $1")
+                                .replace(/^./, (str) => str.toUpperCase());
+                              return (
+                                <div key={key} className="spec-table">
+                                  <div className="spec-row">
+                                    <span className="spec-label">{label}</span>
+                                    <span className="spec-value">
+                                      {String(value)}
+                                    </span>
+                                  </div>
+                                </div>
+                              );
+                            })}
+                          </>
+                        )}
 
-                  {/* ===== PRICE RANGE TAB ===== */}
-                  {hasPriceData(material.priceRange) && (
-                    <div className="tab-panel">
-                      <h2>Price Range</h2>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        Approximate price range for different sizes. Prices are
-                        indicative and subject to change.
-                      </p>
-
-                      {(() => {
-                        // Normalize the data to handle both formats
-                        const normalizedData = normalizePriceRange(
-                          material.priceRange,
-                        );
-
-                        // Detect which format we have
-                        const hasDesignationA = normalizedData.some(
-                          (item) => item.designation_a,
-                        );
-                        const hasSch10S = normalizedData.some(
-                          (item) => item.sch_10s,
-                        );
-                        const hasDiameterIn = normalizedData.some(
-                          (item) => item.diameter_in,
-                        );
-
-                        return (
-                          <div style={{ overflowX: "auto" }}>
-                            <table
-                              className="spec-table-grid"
-                              style={{
-                                width: "100%",
-                                borderCollapse: "collapse",
-                              }}
-                            >
-                              <thead>
-                                <tr style={{ backgroundColor: "#f5f5f5" }}>
-                                  {/* Primary Designation Column */}
-                                  <th
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "left",
-                                      whiteSpace: "nowrap",
-                                      fontWeight: "700",
-                                      color: "#1a2b4c",
-                                    }}
-                                  >
-                                    {hasDiameterIn
-                                      ? "Diameter (in)"
-                                      : "Designation"}
-                                  </th>
-
-                                  {/* Secondary Designation Column (if exists) */}
-                                  {hasDesignationA && (
-                                    <th
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                        textAlign: "left",
-                                        whiteSpace: "nowrap",
-                                        fontWeight: "700",
-                                        color: "#1a2b4c",
-                                      }}
-                                    >
-                                      Designation (A)
-                                    </th>
-                                  )}
-
-                                  <th
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "left",
-                                      whiteSpace: "nowrap",
-                                      fontWeight: "700",
-                                      color: "#1a2b4c",
-                                    }}
-                                  >
-                                    OD (mm)
-                                  </th>
-
-                                  {/* Schedule column (if exists) */}
-                                  {hasSch10S && (
-                                    <th
-                                      style={{
-                                        padding: "10px",
-                                        border: "1px solid #ddd",
-                                        textAlign: "left",
-                                        whiteSpace: "nowrap",
-                                        fontWeight: "700",
-                                        color: "#1a2b4c",
-                                      }}
-                                    >
-                                      SCH 10S
-                                    </th>
-                                  )}
-
-                                  <th
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "left",
-                                      whiteSpace: "nowrap",
-                                      fontWeight: "700",
-                                      color: "#1a2b4c",
-                                    }}
-                                  >
-                                    Weight (Kg/Mtr)
-                                  </th>
-                                  <th
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "left",
-                                      whiteSpace: "nowrap",
-                                      fontWeight: "700",
-                                      color: "#1a2b4c",
-                                    }}
-                                  >
-                                    Wall Thk (mm)
-                                  </th>
-                                  <th
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "left",
-                                      whiteSpace: "nowrap",
-                                      fontWeight: "700",
-                                      color: "#1a2b4c",
-                                    }}
-                                  >
-                                    Price (INR/Mtr)
-                                  </th>
-                                  <th
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      textAlign: "left",
-                                      whiteSpace: "nowrap",
-                                      fontWeight: "700",
-                                      color: "#1a2b4c",
-                                    }}
-                                  >
-                                    Price (INR/Kg)
-                                  </th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                {normalizedData.map(
-                                  (item: any, idx: number) => (
-                                    <tr key={idx}>
-                                      {/* Primary Designation */}
-                                      <td
-                                        style={{
-                                          padding: "10px",
-                                          border: "1px solid #ddd",
-                                          color: "#1a2b4c",
-                                          fontWeight: "600",
-                                        }}
-                                      >
-                                        {item.designation}
-                                      </td>
-
-                                      {/* Secondary Designation */}
-                                      {hasDesignationA && (
-                                        <td
-                                          style={{
-                                            padding: "10px",
-                                            border: "1px solid #ddd",
-                                            color: "#555",
-                                          }}
-                                        >
-                                          {item.designation_a || "—"}
-                                        </td>
-                                      )}
-
-                                      <td
-                                        style={{
-                                          padding: "10px",
-                                          border: "1px solid #ddd",
-                                          color: "#555",
-                                        }}
-                                      >
-                                        {item.od_mm}
-                                      </td>
-
-                                      {/* Schedule */}
-                                      {hasSch10S && (
-                                        <td
-                                          style={{
-                                            padding: "10px",
-                                            border: "1px solid #ddd",
-                                            color: "#555",
-                                          }}
-                                        >
-                                          {item.sch_10s || "—"}
-                                        </td>
-                                      )}
-
-                                      <td
-                                        style={{
-                                          padding: "10px",
-                                          border: "1px solid #ddd",
-                                          color: "#555",
-                                        }}
-                                      >
-                                        {item.weight_kg_mtr}
-                                      </td>
-                                      <td
-                                        style={{
-                                          padding: "10px",
-                                          border: "1px solid #ddd",
-                                          color: "#555",
-                                        }}
-                                      >
-                                        {item.wall_thk_mm}
-                                      </td>
-                                      <td
-                                        style={{
-                                          padding: "10px",
-                                          border: "1px solid #ddd",
-                                          color: "#c92525",
-                                          fontWeight: "600",
-                                        }}
-                                      >
-                                        ₹{item.price_inr_mtr}
-                                      </td>
-                                      <td
-                                        style={{
-                                          padding: "10px",
-                                          border: "1px solid #ddd",
-                                          color: "#1a2b4c",
-                                          fontWeight: "500",
-                                        }}
-                                      >
-                                        ₹{item.price_inr_kg}
-                                      </td>
-                                    </tr>
-                                  ),
-                                )}
-                              </tbody>
-                            </table>
-                          </div>
-                        );
-                      })()}
-
-                      {/* Price Notes */}
-                      <div
-                        style={{
-                          marginTop: "20px",
-                          padding: "16px 20px",
-                          background: "#f8f9fa",
-                          borderRadius: "8px",
-                          borderLeft: "4px solid #c92525",
-                        }}
-                      >
-                        <p
-                          style={{
-                            margin: 0,
-                            fontSize: "0.9rem",
-                            color: "#666",
-                          }}
-                        >
-                          <strong>Note:</strong> Prices are indicative and may
-                          vary based on:
-                        </p>
-                        <ul
-                          style={{
-                            marginTop: "8px",
-                            fontSize: "0.9rem",
-                            color: "#666",
-                            paddingLeft: "20px",
-                          }}
-                        >
-                          <li>Order quantity (bulk discounts available)</li>
-                          <li>Payment terms and delivery schedule</li>
-                          <li>Specific grade requirements</li>
-                          <li>
-                            Additional processing (cutting, polishing,
-                            threading)
-                          </li>
-                          <li>GST and other applicable taxes</li>
-                        </ul>
-                        <p style={{ marginTop: "12px", marginBottom: 0 }}>
-                          <a
-                            href="/contact"
-                            className="btn btn-primary"
-                            style={{ fontSize: "0.85rem", padding: "8px 20px" }}
-                          >
-                            Get Custom Quote →
-                          </a>
-                        </p>
-                      </div>
-
-                      {/* DYNAMIC COMPANY PRICE LISTS - Auto-detects any company price list */}
-                      {(() => {
-                        // Get all company price list keys
-                        const companyPriceKeys = Object.keys(material).filter(
-                          (key) =>
-                            key !== "priceRange" &&
-                            key !== "jindalPriceList" &&
-                            (key.includes("PriceList") ||
-                              key.includes("priceList") ||
-                              key.endsWith("PriceList")),
-                        );
-
-                        // Also check for jindalPriceList if not already included
-                        if (
-                          material.jindalPriceList &&
-                          !companyPriceKeys.includes("jindalPriceList")
-                        ) {
-                          companyPriceKeys.push("jindalPriceList");
-                        }
-
-                        // Filter out keys that don't have data
-                        const validKeys = companyPriceKeys.filter((key) =>
-                          hasData(material[key]),
-                        );
-
-                        // If no company price lists found, return null
-                        if (validKeys.length === 0) return null;
-
-                        // Render all company price lists
-                        return validKeys.map((key, index) => {
-                          const priceList = material[key];
-                          const companyName = key
-                            .replace("PriceList", "")
-                            .replace("priceList", "");
-
-                          // Format company name
-                          const formattedCompanyName = companyName
-                            .replace(/([A-Z])/g, " $1")
-                            .trim()
-                            .split(" ")
-                            .map(
-                              (word) =>
-                                word.charAt(0).toUpperCase() +
-                                word.slice(1).toLowerCase(),
-                            )
-                            .join(" ");
-
-                          // Detect price list format
-                          const firstItem = priceList[0];
-                          const isJindalFormat =
-                            firstItem &&
-                            ("nominalBore_inch" in firstItem ||
-                              "nominalBore_mm" in firstItem ||
-                              "sch5s_wt_mm" in firstItem);
-
-                          // Render company price list
-                          return (
-                            <div
-                              key={key}
-                              style={{
-                                marginTop: index > 0 ? "2.5rem" : "2.5rem",
-                              }}
-                            >
-                              <h3
-                                style={{
-                                  marginTop: "0",
-                                  borderTop: "2px solid #e9ecef",
-                                  paddingTop: "2rem",
-                                  fontSize: "1.5rem",
-                                  fontWeight: "800",
-                                  color: "#1a2b4c",
-                                }}
-                              >
-                                {formattedCompanyName} Stainless Steel Pipe
-                                Price List
-                              </h3>
+                        {gaugeChart &&
+                          Array.isArray(gaugeChart) &&
+                          gaugeChart.length > 0 && (
+                            <div style={{ marginTop: "2rem" }}>
+                              <h3>Gauge Thickness Chart</h3>
                               <p
                                 style={{
                                   marginBottom: "15px",
@@ -3895,591 +1171,542 @@ const MaterialDetail: React.FC = () => {
                                   fontSize: "0.9rem",
                                 }}
                               >
-                                Indicative price list for {formattedCompanyName}{" "}
-                                Stainless Steel pipes. Prices are subject to
-                                change. For the latest prices, please contact
-                                our sales team.
+                                Standard gauge thicknesses with nominal decimal
+                                values
                               </p>
-
-                              {isJindalFormat ? (
-                                // Jindal-style price list with schedules
-                                <div
-                                  style={{
-                                    overflowX: "auto",
-                                    borderRadius: "8px",
-                                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                                  }}
-                                >
-                                  <table
-                                    style={{
-                                      width: "100%",
-                                      borderCollapse: "collapse",
-                                      fontSize: "0.9rem",
-                                      borderRadius: "8px",
-                                      overflow: "hidden",
-                                    }}
-                                  >
-                                    <thead>
-                                      <tr
-                                        style={{
-                                          background:
-                                            "linear-gradient(135deg, #1a2b4c, #2d4a7a)",
-                                        }}
-                                      >
-                                        <th
-                                          style={{
-                                            padding: "12px 15px",
-                                            border: "1px solid #1a2b4c",
-                                            textAlign: "left",
-                                            whiteSpace: "nowrap",
-                                            color: "white",
-                                            fontWeight: "700",
-                                            fontSize: "0.95rem",
-                                          }}
-                                          rowSpan={2}
-                                        >
-                                          Nominal Bore
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "12px 15px",
-                                            border: "1px solid #1a2b4c",
-                                            textAlign: "left",
-                                            whiteSpace: "nowrap",
-                                            color: "white",
-                                            fontWeight: "700",
-                                            fontSize: "0.95rem",
-                                          }}
-                                          rowSpan={2}
-                                        >
-                                          OD (mm)
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "12px 15px",
-                                            border: "1px solid #1a2b4c",
-                                            textAlign: "center",
-                                            whiteSpace: "nowrap",
-                                            color: "white",
-                                            fontWeight: "700",
-                                            fontSize: "0.95rem",
-                                          }}
-                                          colSpan={2}
-                                        >
-                                          Sch-5S
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "12px 15px",
-                                            border: "1px solid #1a2b4c",
-                                            textAlign: "center",
-                                            whiteSpace: "nowrap",
-                                            color: "white",
-                                            fontWeight: "700",
-                                            fontSize: "0.95rem",
-                                          }}
-                                          colSpan={2}
-                                        >
-                                          Sch-10S
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "12px 15px",
-                                            border: "1px solid #1a2b4c",
-                                            textAlign: "center",
-                                            whiteSpace: "nowrap",
-                                            color: "white",
-                                            fontWeight: "700",
-                                            fontSize: "0.95rem",
-                                          }}
-                                          colSpan={2}
-                                        >
-                                          Sch-40S
-                                        </th>
-                                      </tr>
-                                      <tr
-                                        style={{
-                                          background:
-                                            "linear-gradient(135deg, #2d4a7a, #3d6a9a)",
-                                        }}
-                                      >
-                                        <th
-                                          style={{
-                                            padding: "8px 12px",
-                                            border: "1px solid #2d4a7a",
-                                            textAlign: "center",
-                                            color: "white",
-                                            fontWeight: "600",
-                                            fontSize: "0.8rem",
-                                          }}
-                                        >
-                                          Wt (mm)
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "8px 12px",
-                                            border: "1px solid #2d4a7a",
-                                            textAlign: "center",
-                                            color: "white",
-                                            fontWeight: "600",
-                                            fontSize: "0.8rem",
-                                          }}
-                                        >
-                                          Rs/Kg
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "8px 12px",
-                                            border: "1px solid #2d4a7a",
-                                            textAlign: "center",
-                                            color: "white",
-                                            fontWeight: "600",
-                                            fontSize: "0.8rem",
-                                          }}
-                                        >
-                                          Wt (mm)
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "8px 12px",
-                                            border: "1px solid #2d4a7a",
-                                            textAlign: "center",
-                                            color: "white",
-                                            fontWeight: "600",
-                                            fontSize: "0.8rem",
-                                          }}
-                                        >
-                                          Rs/Kg
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "8px 12px",
-                                            border: "1px solid #2d4a7a",
-                                            textAlign: "center",
-                                            color: "white",
-                                            fontWeight: "600",
-                                            fontSize: "0.8rem",
-                                          }}
-                                        >
-                                          Wt (mm)
-                                        </th>
-                                        <th
-                                          style={{
-                                            padding: "8px 12px",
-                                            border: "1px solid #2d4a7a",
-                                            textAlign: "center",
-                                            color: "white",
-                                            fontWeight: "600",
-                                            fontSize: "0.8rem",
-                                          }}
-                                        >
-                                          Rs/Kg
-                                        </th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      {priceList.map(
-                                        (item: any, idx: number) => (
-                                          <tr
-                                            key={idx}
-                                            style={{
-                                              backgroundColor:
-                                                idx % 2 === 0
-                                                  ? "white"
-                                                  : "#f8f9fa",
-                                              transition:
-                                                "background-color 0.2s ease",
-                                            }}
-                                            onMouseEnter={(e) => {
-                                              e.currentTarget.style.backgroundColor =
-                                                "#f0f4ff";
-                                            }}
-                                            onMouseLeave={(e) => {
-                                              e.currentTarget.style.backgroundColor =
-                                                idx % 2 === 0
-                                                  ? "white"
-                                                  : "#f8f9fa";
-                                            }}
-                                          >
-                                            <td
-                                              style={{
-                                                padding: "10px 15px",
-                                                border: "1px solid #e9ecef",
-                                                color: "#1a2b4c",
-                                                fontWeight: "600",
-                                              }}
-                                            >
-                                              {item.nominalBore_inch ||
-                                                item.nominalBore ||
-                                                "—"}
-                                            </td>
-                                            <td
-                                              style={{
-                                                padding: "10px 15px",
-                                                border: "1px solid #e9ecef",
-                                                color: "#555",
-                                              }}
-                                            >
-                                              {item.od_mm || "—"}
-                                            </td>
-                                            <td
-                                              style={{
-                                                padding: "10px 15px",
-                                                border: "1px solid #e9ecef",
-                                                color: "#555",
-                                                textAlign: "center",
-                                              }}
-                                            >
-                                              {item.sch5s_wt_mm ||
-                                                item.sch5s_wt ||
-                                                "—"}
-                                            </td>
-                                            <td
-                                              style={{
-                                                padding: "10px 15px",
-                                                border: "1px solid #e9ecef",
-                                                color: "#c92525",
-                                                fontWeight: "600",
-                                                textAlign: "center",
-                                              }}
-                                            >
-                                              ₹
-                                              {item.sch5s_price_kg ||
-                                                item.sch5s_price ||
-                                                "—"}
-                                            </td>
-                                            <td
-                                              style={{
-                                                padding: "10px 15px",
-                                                border: "1px solid #e9ecef",
-                                                color: "#555",
-                                                textAlign: "center",
-                                              }}
-                                            >
-                                              {item.sch10s_wt_mm ||
-                                                item.sch10s_wt ||
-                                                "—"}
-                                            </td>
-                                            <td
-                                              style={{
-                                                padding: "10px 15px",
-                                                border: "1px solid #e9ecef",
-                                                color: "#c92525",
-                                                fontWeight: "600",
-                                                textAlign: "center",
-                                              }}
-                                            >
-                                              ₹
-                                              {item.sch10s_price_kg ||
-                                                item.sch10s_price ||
-                                                "—"}
-                                            </td>
-                                            <td
-                                              style={{
-                                                padding: "10px 15px",
-                                                border: "1px solid #e9ecef",
-                                                color: "#555",
-                                                textAlign: "center",
-                                              }}
-                                            >
-                                              {item.sch40s_wt_mm ||
-                                                item.sch40s_wt ||
-                                                "—"}
-                                            </td>
-                                            <td
-                                              style={{
-                                                padding: "10px 15px",
-                                                border: "1px solid #e9ecef",
-                                                color: "#c92525",
-                                                fontWeight: "600",
-                                                textAlign: "center",
-                                              }}
-                                            >
-                                              ₹
-                                              {item.sch40s_price_kg ||
-                                                item.sch40s_price ||
-                                                "—"}
-                                            </td>
-                                          </tr>
-                                        ),
-                                      )}
-                                    </tbody>
-                                  </table>
-                                </div>
-                              ) : (
-                                // Generic price list format - auto-detect columns
-                                <div
-                                  style={{
-                                    overflowX: "auto",
-                                    borderRadius: "8px",
-                                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                                  }}
-                                >
-                                  <table
-                                    style={{
-                                      width: "100%",
-                                      borderCollapse: "collapse",
-                                      fontSize: "0.9rem",
-                                      borderRadius: "8px",
-                                      overflow: "hidden",
-                                    }}
-                                  >
-                                    <thead>
-                                      <tr
-                                        style={{
-                                          background:
-                                            "linear-gradient(135deg, #1a2b4c, #2d4a7a)",
-                                        }}
-                                      >
-                                        {Object.keys(firstItem).map(
-                                          (colKey) => (
-                                            <th
-                                              key={colKey}
-                                              style={{
-                                                padding: "12px 15px",
-                                                border: "1px solid #1a2b4c",
-                                                textAlign: "left",
-                                                whiteSpace: "nowrap",
-                                                color: "white",
-                                                fontWeight: "700",
-                                                fontSize: "0.85rem",
-                                              }}
-                                            >
-                                              {colKey
-                                                .replace(/_/g, " ")
-                                                .replace(/([A-Z])/g, " $1")
-                                                .trim()
-                                                .toUpperCase()}
-                                            </th>
-                                          ),
-                                        )}
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      {priceList.map(
-                                        (item: any, idx: number) => (
-                                          <tr
-                                            key={idx}
-                                            style={{
-                                              backgroundColor:
-                                                idx % 2 === 0
-                                                  ? "white"
-                                                  : "#f8f9fa",
-                                              transition:
-                                                "background-color 0.2s ease",
-                                            }}
-                                            onMouseEnter={(e) => {
-                                              e.currentTarget.style.backgroundColor =
-                                                "#f0f4ff";
-                                            }}
-                                            onMouseLeave={(e) => {
-                                              e.currentTarget.style.backgroundColor =
-                                                idx % 2 === 0
-                                                  ? "white"
-                                                  : "#f8f9fa";
-                                            }}
-                                          >
-                                            {Object.keys(firstItem).map(
-                                              (colKey) => (
-                                                <td
-                                                  key={colKey}
-                                                  style={{
-                                                    padding: "10px 15px",
-                                                    border: "1px solid #e9ecef",
-                                                    color: colKey
-                                                      .toLowerCase()
-                                                      .includes("price")
-                                                      ? "#c92525"
-                                                      : "#555",
-                                                    fontWeight: colKey
-                                                      .toLowerCase()
-                                                      .includes("price")
-                                                      ? "600"
-                                                      : "400",
-                                                  }}
-                                                >
-                                                  {item[colKey] || "—"}
-                                                </td>
-                                              ),
-                                            )}
-                                          </tr>
-                                        ),
-                                      )}
-                                    </tbody>
-                                  </table>
-                                </div>
-                              )}
-
                               <div
                                 style={{
-                                  marginTop: "12px",
-                                  padding: "12px 16px",
-                                  background: "#fff3cd",
-                                  borderRadius: "6px",
-                                  border: "1px solid #ffc107",
+                                  overflowX: "auto",
+                                  borderRadius: "8px",
+                                  border: "1px solid #e9ecef",
                                 }}
                               >
-                                <p
+                                <table
                                   style={{
-                                    margin: 0,
-                                    fontSize: "0.85rem",
-                                    color: "#856404",
+                                    width: "100%",
+                                    borderCollapse: "collapse",
+                                    fontSize: "0.9rem",
                                   }}
                                 >
-                                  <strong>Note:</strong> Prices are indicative.
-                                  For the latest {formattedCompanyName}{" "}
-                                  Stainless Steel Pipe Price List, please{" "}
-                                  <a
-                                    href="/contact"
-                                    style={{
-                                      color: "#c92525",
-                                      fontWeight: "600",
-                                      textDecoration: "none",
-                                    }}
-                                  >
-                                    contact our sales team
-                                  </a>
-                                  .
-                                </p>
+                                  <thead>
+                                    <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                      {Object.keys(gaugeChart[0]).map((col) => (
+                                        <th
+                                          key={col}
+                                          style={{
+                                            padding: "12px 15px",
+                                            border: "1px solid #ddd",
+                                            textAlign: "left",
+                                            fontWeight: "700",
+                                            color: "#1a2b4c",
+                                            whiteSpace: "nowrap",
+                                          }}
+                                        >
+                                          {col
+                                            .replace(/_/g, " ")
+                                            .replace(/([A-Z])/g, " $1")
+                                            .trim()
+                                            .toUpperCase()}
+                                        </th>
+                                      ))}
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {gaugeChart.map(
+                                      (item: any, idx: number) => (
+                                        <tr
+                                          key={idx}
+                                          style={{
+                                            backgroundColor:
+                                              idx % 2 === 0
+                                                ? "white"
+                                                : "#fafafa",
+                                          }}
+                                        >
+                                          {Object.keys(gaugeChart[0]).map(
+                                            (col) => (
+                                              <td
+                                                key={col}
+                                                style={{
+                                                  padding: "10px 15px",
+                                                  border: "1px solid #ddd",
+                                                  color: "#555",
+                                                }}
+                                              >
+                                                {item[col] || "—"}
+                                              </td>
+                                            ),
+                                          )}
+                                        </tr>
+                                      ),
+                                    )}
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          )}
+
+                        {Array.isArray(roundBarSizes) &&
+                          roundBarSizes.length > 0 && (
+                            <div style={{ marginTop: "2rem" }}>
+                              <h3>Round Bar Sizes</h3>
+                              <p
+                                style={{
+                                  marginBottom: "15px",
+                                  color: "#666",
+                                  fontSize: "0.9rem",
+                                }}
+                              >
+                                Available sizes with specifications
+                              </p>
+                              <div
+                                style={{
+                                  overflowX: "auto",
+                                  borderRadius: "8px",
+                                  border: "1px solid #e9ecef",
+                                }}
+                              >
+                                <table
+                                  style={{
+                                    width: "100%",
+                                    borderCollapse: "collapse",
+                                    fontSize: "0.9rem",
+                                  }}
+                                >
+                                  <thead>
+                                    <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                      {Object.keys(roundBarSizes[0]).map(
+                                        (col) => (
+                                          <th
+                                            key={col}
+                                            style={{
+                                              padding: "12px 15px",
+                                              border: "1px solid #ddd",
+                                              textAlign: "left",
+                                              fontWeight: "700",
+                                              color: "#1a2b4c",
+                                              whiteSpace: "nowrap",
+                                            }}
+                                          >
+                                            {col
+                                              .replace(/_/g, " ")
+                                              .replace(/([A-Z])/g, " $1")
+                                              .trim()
+                                              .toUpperCase()}
+                                          </th>
+                                        ),
+                                      )}
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {roundBarSizes.map(
+                                      (item: any, idx: number) => (
+                                        <tr
+                                          key={idx}
+                                          style={{
+                                            backgroundColor:
+                                              idx % 2 === 0
+                                                ? "white"
+                                                : "#fafafa",
+                                          }}
+                                        >
+                                          {Object.keys(roundBarSizes[0]).map(
+                                            (col) => (
+                                              <td
+                                                key={col}
+                                                style={{
+                                                  padding: "10px 15px",
+                                                  border: "1px solid #ddd",
+                                                  color: "#555",
+                                                }}
+                                              >
+                                                {item[col] || "—"}
+                                              </td>
+                                            ),
+                                          )}
+                                        </tr>
+                                      ),
+                                    )}
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          )}
+
+                        {tolerances &&
+                          typeof tolerances === "object" &&
+                          !Array.isArray(tolerances) && (
+                            <div style={{ marginTop: "2rem" }}>
+                              <h3>Tolerances</h3>
+                              {Object.entries(tolerances).map(
+                                ([key, value]) => {
+                                  if (
+                                    !Array.isArray(value) ||
+                                    value.length === 0
+                                  )
+                                    return null;
+                                  const label =
+                                    labelMap[key] ||
+                                    key.replace(/([A-Z])/g, " $1").trim();
+                                  return (
+                                    <div
+                                      key={key}
+                                      style={{ marginBottom: "2rem" }}
+                                    >
+                                      <h4
+                                        style={{
+                                          marginBottom: "10px",
+                                          color: "#1a2b4c",
+                                        }}
+                                      >
+                                        {label}
+                                      </h4>
+                                      <div
+                                        style={{
+                                          overflowX: "auto",
+                                          borderRadius: "8px",
+                                          border: "1px solid #e9ecef",
+                                        }}
+                                      >
+                                        <table
+                                          style={{
+                                            width: "100%",
+                                            borderCollapse: "collapse",
+                                            fontSize: "0.9rem",
+                                          }}
+                                        >
+                                          <thead>
+                                            <tr
+                                              style={{
+                                                backgroundColor: "#f5f5f5",
+                                              }}
+                                            >
+                                              {Object.keys(value[0]).map(
+                                                (col) => (
+                                                  <th
+                                                    key={col}
+                                                    style={{
+                                                      padding: "10px 15px",
+                                                      border: "1px solid #ddd",
+                                                      textAlign: "left",
+                                                      fontWeight: "700",
+                                                      color: "#1a2b4c",
+                                                    }}
+                                                  >
+                                                    {col
+                                                      .replace(/_/g, " ")
+                                                      .replace(
+                                                        /([A-Z])/g,
+                                                        " $1",
+                                                      )
+                                                      .trim()
+                                                      .toUpperCase()}
+                                                  </th>
+                                                ),
+                                              )}
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            {value.map(
+                                              (item: any, idx: number) => (
+                                                <tr
+                                                  key={idx}
+                                                  style={{
+                                                    backgroundColor:
+                                                      idx % 2 === 0
+                                                        ? "white"
+                                                        : "#fafafa",
+                                                  }}
+                                                >
+                                                  {Object.keys(value[0]).map(
+                                                    (col) => (
+                                                      <td
+                                                        key={col}
+                                                        style={{
+                                                          padding: "8px 15px",
+                                                          border:
+                                                            "1px solid #ddd",
+                                                          color: "#555",
+                                                        }}
+                                                      >
+                                                        {item[col] || "—"}
+                                                      </td>
+                                                    ),
+                                                  )}
+                                                </tr>
+                                              ),
+                                            )}
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </div>
+                                  );
+                                },
+                              )}
+                            </div>
+                          )}
+
+                        {otherArrays.map((key) => {
+                          const data = specs[key];
+                          if (!Array.isArray(data) || data.length === 0)
+                            return null;
+                          const label =
+                            labelMap[key] ||
+                            key.replace(/([A-Z])/g, " $1").trim();
+                          const columns = Object.keys(data[0]);
+                          return (
+                            <div key={key} style={{ marginTop: "2rem" }}>
+                              <h3>{label}</h3>
+                              <div
+                                style={{
+                                  overflowX: "auto",
+                                  borderRadius: "8px",
+                                  border: "1px solid #e9ecef",
+                                }}
+                              >
+                                <table
+                                  style={{
+                                    width: "100%",
+                                    borderCollapse: "collapse",
+                                    fontSize: "0.9rem",
+                                  }}
+                                >
+                                  <thead>
+                                    <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                      {columns.map((col) => (
+                                        <th
+                                          key={col}
+                                          style={{
+                                            padding: "12px 15px",
+                                            border: "1px solid #ddd",
+                                            textAlign: "left",
+                                            fontWeight: "700",
+                                            color: "#1a2b4c",
+                                            whiteSpace: "nowrap",
+                                          }}
+                                        >
+                                          {col
+                                            .replace(/_/g, " ")
+                                            .replace(/([A-Z])/g, " $1")
+                                            .trim()
+                                            .toUpperCase()}
+                                        </th>
+                                      ))}
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {data.map((item: any, idx: number) => (
+                                      <tr
+                                        key={idx}
+                                        style={{
+                                          backgroundColor:
+                                            idx % 2 === 0 ? "white" : "#fafafa",
+                                        }}
+                                      >
+                                        {columns.map((col) => (
+                                          <td
+                                            key={col}
+                                            style={{
+                                              padding: "10px 15px",
+                                              border: "1px solid #ddd",
+                                              color: "#555",
+                                            }}
+                                          >
+                                            {item[col] || "—"}
+                                          </td>
+                                        ))}
+                                      </tr>
+                                    ))}
+                                  </tbody>
+                                </table>
                               </div>
                             </div>
                           );
-                        });
-                      })()}
-                    </div>
-                  )}
-                  {/* ===== SUPPLY RANGE ===== */}
-                  {hasData(material.supplyRange) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>Supply Range</h3>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Product Description
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Wall Thickness (mm)
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Outside Diameter (mm)
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.supplyRange.map(
-                              (item: any, idx: number) => (
-                                <tr key={idx}>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.description}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.wallThickness}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                      color: "#555",
-                                    }}
-                                  >
-                                    {item.outsideDiameter}
-                                  </td>
-                                </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
-                    </>
-                  )}
+                        })}
 
-                  {hasData(material.gaugeChart) && (
+                        {otherObjects.map((key) => {
+                          const data = specs[key];
+                          if (typeof data !== "object" || data === null)
+                            return null;
+                          const label =
+                            labelMap[key] ||
+                            key.replace(/([A-Z])/g, " $1").trim();
+                          return (
+                            <div key={key} style={{ marginTop: "2rem" }}>
+                              <h3>{label}</h3>
+                              {Object.entries(data).map(
+                                ([subKey, subValue]) => (
+                                  <div key={subKey} className="spec-table">
+                                    <div className="spec-row">
+                                      <span className="spec-label">
+                                        {subKey
+                                          .replace(/([A-Z])/g, " $1")
+                                          .replace(/^./, (str) =>
+                                            str.toUpperCase(),
+                                          )}
+                                      </span>
+                                      <span className="spec-value">
+                                        {typeof subValue === "object"
+                                          ? JSON.stringify(subValue)
+                                          : String(subValue)}
+                                      </span>
+                                    </div>
+                                  </div>
+                                ),
+                              )}
+                            </div>
+                          );
+                        })}
+                      </>
+                    );
+                  })()}
+
+                  {/* ===== GENERIC TABLE RENDERER ===== */}
+                  {(() => {
+                    // Check if we have table data
+                    const tableData =
+                      material.sizeRange ||
+                      material.fittingSizeTable ||
+                      material.specificationsTable;
+                    if (!tableData) return null;
+
+                    // Convert to array if it's an object
+                    const dataArray = Array.isArray(tableData)
+                      ? tableData
+                      : Object.values(tableData);
+                    if (!dataArray || dataArray.length === 0) return null;
+
+                    // Get all possible column keys from the first row
+                    const allKeys = Object.keys(dataArray[0]);
+
+                    // Filter out keys that have NO data in any row
+                    const visibleColumns = allKeys.filter((key) => {
+                      return dataArray.some((row) => {
+                        const value = row[key];
+                        return (
+                          value !== undefined &&
+                          value !== null &&
+                          value !== "" &&
+                          value !== "—"
+                        );
+                      });
+                    });
+
+                    // If no visible columns, don't render anything
+                    if (visibleColumns.length === 0) return null;
+
+                    // Get the title from the data structure
+                    let title = "Specifications";
+                    if (material.sizeRange) title = "Size Range";
+                    else if (material.fittingSizeTable)
+                      title = "Fitting Size Table";
+                    else if (material.specificationsTable)
+                      title = "Specifications";
+
+                    // Clean up key names for display
+                    const formatKey = (key: string) => {
+                      return key
+                        .replace(/([A-Z])/g, " $1")
+                        .replace(/^./, (str) => str.toUpperCase())
+                        .replace(/_/g, " ");
+                    };
+
+                    return (
+                      <>
+                        <h3 style={{ marginTop: "2rem" }}>{title}</h3>
+                        <div style={{ overflowX: "auto" }}>
+                          <table
+                            className="spec-table-grid"
+                            style={{
+                              width: "100%",
+                              borderCollapse: "collapse",
+                            }}
+                          >
+                            <thead>
+                              <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                {visibleColumns.map((key) => (
+                                  <th
+                                    key={key}
+                                    style={{
+                                      padding: "10px",
+                                      border: "1px solid #ddd",
+                                      textAlign: "left",
+                                    }}
+                                  >
+                                    {formatKey(key)}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {dataArray.map((row: any, idx: number) => (
+                                <tr
+                                  key={idx}
+                                  style={{
+                                    backgroundColor:
+                                      idx % 2 === 0 ? "white" : "#fafafa",
+                                  }}
+                                >
+                                  {visibleColumns.map((key) => (
+                                    <td
+                                      key={key}
+                                      style={{
+                                        padding: "10px",
+                                        border: "1px solid #ddd",
+                                      }}
+                                    >
+                                      {row[key] !== undefined &&
+                                      row[key] !== null &&
+                                      row[key] !== ""
+                                        ? row[key]
+                                        : "—"}
+                                    </td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </>
+                    );
+                  })()}
+
+                  {/* ===== STANDARD TABLES ===== */}
+                  {material.standardTables && (
                     <>
                       <h3 style={{ marginTop: "2rem" }}>
-                        Thickness Gauge Chart
+                        Standard Specifications
                       </h3>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
-                        >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Gauge Number
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                Inches
-                              </th>
-                              <th
-                                style={{
-                                  padding: "10px",
-                                  border: "1px solid #ddd",
-                                  textAlign: "left",
-                                }}
-                              >
-                                MM
-                              </th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.gaugeChart.map(
-                              (item: any, idx: number) => (
-                                <tr key={idx}>
+
+                      {material.standardTables.specificationsTable && (
+                        <div style={{ overflowX: "auto" }}>
+                          <table
+                            className="spec-table-grid"
+                            style={{
+                              width: "100%",
+                              borderCollapse: "collapse",
+                            }}
+                          >
+                            <tbody>
+                              {Object.entries(
+                                material.standardTables.specificationsTable,
+                              ).map(([key, value]: [string, any], idx) => (
+                                <tr
+                                  key={idx}
+                                  style={{
+                                    backgroundColor:
+                                      idx % 2 === 0 ? "white" : "#fafafa",
+                                  }}
+                                >
                                   <td
                                     style={{
                                       padding: "10px",
                                       border: "1px solid #ddd",
+                                      fontWeight: "600",
+                                      width: "30%",
                                     }}
                                   >
-                                    {item.gauge}
+                                    {key}
                                   </td>
                                   <td
                                     style={{
@@ -4487,182 +1714,634 @@ const MaterialDetail: React.FC = () => {
                                       border: "1px solid #ddd",
                                     }}
                                   >
-                                    {item.inches}
-                                  </td>
-                                  <td
-                                    style={{
-                                      padding: "10px",
-                                      border: "1px solid #ddd",
-                                    }}
-                                  >
-                                    {item.mm}
+                                    {value}
                                   </td>
                                 </tr>
-                              ),
-                            )}
-                          </tbody>
-                        </table>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+
+                      {material.standardTables.fittingSizeTable &&
+                        material.standardTables.fittingSizeTable.length > 0 && (
+                          <>
+                            <h4 style={{ marginTop: "1.5rem" }}>
+                              Fitting Size Table
+                            </h4>
+                            <div style={{ overflowX: "auto" }}>
+                              <table
+                                className="spec-table-grid"
+                                style={{
+                                  width: "100%",
+                                  borderCollapse: "collapse",
+                                }}
+                              >
+                                <thead>
+                                  <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                    <th
+                                      style={{
+                                        padding: "10px",
+                                        border: "1px solid #ddd",
+                                        textAlign: "left",
+                                      }}
+                                    >
+                                      Fitting Group
+                                    </th>
+                                    <th
+                                      style={{
+                                        padding: "10px",
+                                        border: "1px solid #ddd",
+                                        textAlign: "left",
+                                      }}
+                                    >
+                                      Governing Standard
+                                    </th>
+                                    <th
+                                      style={{
+                                        padding: "10px",
+                                        border: "1px solid #ddd",
+                                        textAlign: "left",
+                                      }}
+                                    >
+                                      Size Range
+                                    </th>
+                                    <th
+                                      style={{
+                                        padding: "10px",
+                                        border: "1px solid #ddd",
+                                        textAlign: "left",
+                                      }}
+                                    >
+                                      Wall Class
+                                    </th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {material.standardTables.fittingSizeTable.map(
+                                    (item: any, idx: number) => (
+                                      <tr
+                                        key={idx}
+                                        style={{
+                                          backgroundColor:
+                                            idx % 2 === 0 ? "white" : "#fafafa",
+                                        }}
+                                      >
+                                        <td
+                                          style={{
+                                            padding: "10px",
+                                            border: "1px solid #ddd",
+                                            fontWeight: "600",
+                                          }}
+                                        >
+                                          {item.fittingGroup}
+                                        </td>
+                                        <td
+                                          style={{
+                                            padding: "10px",
+                                            border: "1px solid #ddd",
+                                          }}
+                                        >
+                                          {item.governingStandard}
+                                        </td>
+                                        <td
+                                          style={{
+                                            padding: "10px",
+                                            border: "1px solid #ddd",
+                                          }}
+                                        >
+                                          {item.sizeRange}
+                                        </td>
+                                        <td
+                                          style={{
+                                            padding: "10px",
+                                            border: "1px solid #ddd",
+                                          }}
+                                        >
+                                          {item.wallClass}
+                                        </td>
+                                      </tr>
+                                    ),
+                                  )}
+                                </tbody>
+                              </table>
+                            </div>
+                          </>
+                        )}
+                    </>
+                  )}
+
+                  {/* ===== TESTING AND CERTIFICATION ===== */}
+                  {material.testingAndCertification && (
+                    <>
+                      <h3 style={{ marginTop: "2rem" }}>
+                        Testing & Certification
+                      </h3>
+
+                      {material.testingAndCertification.testingMethods &&
+                        material.testingAndCertification.testingMethods.length >
+                          0 && (
+                          <div style={{ marginBottom: "1.5rem" }}>
+                            <h4>Testing Methods</h4>
+                            <ul style={{ listStyle: "none", padding: 0 }}>
+                              {material.testingAndCertification.testingMethods.map(
+                                (method: string, idx: number) => (
+                                  <li
+                                    key={idx}
+                                    style={{
+                                      padding: "6px 0",
+                                      borderBottom: "1px solid #f0f0f0",
+                                    }}
+                                  >
+                                    ✓ {method}
+                                  </li>
+                                ),
+                              )}
+                            </ul>
+                          </div>
+                        )}
+
+                      {material.testingAndCertification.certificationTypes &&
+                        material.testingAndCertification.certificationTypes
+                          .length > 0 && (
+                          <div style={{ marginBottom: "1.5rem" }}>
+                            <h4>Certification Types</h4>
+                            <ul style={{ listStyle: "none", padding: 0 }}>
+                              {material.testingAndCertification.certificationTypes.map(
+                                (cert: string, idx: number) => (
+                                  <li
+                                    key={idx}
+                                    style={{
+                                      padding: "6px 0",
+                                      borderBottom: "1px solid #f0f0f0",
+                                    }}
+                                  >
+                                    ✓ {cert}
+                                  </li>
+                                ),
+                              )}
+                            </ul>
+                          </div>
+                        )}
+
+                      {material.testingAndCertification.traceability && (
+                        <div>
+                          <h4>Traceability</h4>
+                          <p style={{ color: "#555", lineHeight: "1.6" }}>
+                            {material.testingAndCertification.traceability}
+                          </p>
+                        </div>
+                      )}
+                    </>
+                  )}
+
+                  {/* ===== SHIPPING AND PACKAGING ===== */}
+                  {material.shippingAndPackaging && (
+                    <>
+                      <h3 style={{ marginTop: "2rem" }}>
+                        Shipping & Packaging
+                      </h3>
+                      <div
+                        style={{
+                          display: "grid",
+                          gridTemplateColumns: "1fr 1fr",
+                          gap: "15px",
+                        }}
+                      >
+                        {Object.entries(material.shippingAndPackaging).map(
+                          ([key, value]) => {
+                            const labelMap: Record<string, string> = {
+                              packingMethod: "Packing Method",
+                              marking: "Marking",
+                              deliveryTime: "Delivery Time",
+                              exportDestinations: "Export Destinations",
+                              domesticCoverage: "Domestic Coverage",
+                            };
+                            return (
+                              <div
+                                key={key}
+                                className="spec-table"
+                                style={{
+                                  gridColumn:
+                                    key === "packingMethod" || key === "marking"
+                                      ? "1 / -1"
+                                      : "auto",
+                                }}
+                              >
+                                <div className="spec-row">
+                                  <span className="spec-label">
+                                    {labelMap[key] ||
+                                      key.replace(/([A-Z])/g, " $1").trim()}
+                                  </span>
+                                  <span className="spec-value">
+                                    {String(value)}
+                                  </span>
+                                </div>
+                              </div>
+                            );
+                          },
+                        )}
                       </div>
                     </>
                   )}
 
-                  {/* ===== THICKNESS TOLERANCE ===== */}
-                  {hasData(material.thicknessTolerance) && (
-                    <>
-                      <h3 style={{ marginTop: "2rem" }}>Thickness Tolerance</h3>
-                      <p
-                        style={{
-                          marginBottom: "15px",
-                          color: "#666",
-                          fontSize: "0.9rem",
-                        }}
-                      >
-                        {material.slug?.includes("titanium") ||
-                        material.slug?.includes("plate")
-                          ? "Tolerance over and under nominal thickness t (mm) per ASTM B265 / ASME SB265"
-                          : "Thickness tolerance chart"}
-                      </p>
-                      <div style={{ overflowX: "auto" }}>
-                        <table
-                          className="spec-table-grid"
-                          style={{ width: "100%", borderCollapse: "collapse" }}
+                  {/* ===== GRADE DETAILS ===== */}
+                  {(() => {
+                    const gradeDetails = material.gradeDetails;
+                    if (!gradeDetails) return null;
+                    if (typeof gradeDetails !== "object") return null;
+                    if (Object.keys(gradeDetails).length === 0) return null;
+
+                    const hasValidData = Object.values(gradeDetails).some(
+                      (value) => {
+                        if (typeof value === "object" && value !== null) {
+                          return Object.keys(value).length > 0;
+                        }
+                        return false;
+                      },
+                    );
+                    if (!hasValidData) return null;
+
+                    return (
+                      <>
+                        <h3 style={{ marginTop: "2rem" }}>Grade Details</h3>
+                        {Object.entries(gradeDetails).map(
+                          ([sectionKey, sectionValue]) => {
+                            if (
+                              typeof sectionValue !== "object" ||
+                              sectionValue === null
+                            )
+                              return null;
+                            if (Object.keys(sectionValue).length === 0)
+                              return null;
+
+                            const label = sectionKey
+                              .replace(/([A-Z])/g, " $1")
+                              .replace(/^./, (str) => str.toUpperCase());
+
+                            return (
+                              <div
+                                key={sectionKey}
+                                style={{ marginBottom: "1.5rem" }}
+                              >
+                                <h4>{label}</h4>
+                                {Object.entries(sectionValue).map(
+                                  ([grade, desc]) => (
+                                    <div
+                                      key={grade}
+                                      className="grade-item"
+                                      style={{
+                                        marginBottom: "0.5rem",
+                                        padding: "12px 16px",
+                                        background: "#f8f9fa",
+                                        borderRadius: "6px",
+                                        borderLeft: "3px solid #c92525",
+                                      }}
+                                    >
+                                      <strong style={{ color: "#1a2b4c" }}>
+                                        {grade}
+                                      </strong>
+                                      :{" "}
+                                      <span style={{ color: "#555" }}>
+                                        {desc as string}
+                                      </span>
+                                    </div>
+                                  ),
+                                )}
+                              </div>
+                            );
+                          },
+                        )}
+                      </>
+                    );
+                  })()}
+
+                  {/* ===== EQUIVALENT GRADES ===== */}
+                  {material.equivalentGrades &&
+                    material.equivalentGrades.length > 0 && (
+                      <>
+                        <h3 style={{ marginTop: "2rem" }}>Equivalent Grades</h3>
+                        <p
+                          style={{
+                            marginBottom: "15px",
+                            color: "#666",
+                            fontSize: "0.9rem",
+                          }}
                         >
-                          <thead>
-                            <tr style={{ backgroundColor: "#f5f5f5" }}>
-                              {(() => {
-                                const firstItem =
-                                  material.thicknessTolerance[0];
-                                if (!firstItem) return null;
+                          Equivalent grades across international standards
+                        </p>
+                        <div style={{ overflowX: "auto" }}>
+                          <table
+                            className="spec-table-grid"
+                            style={{
+                              width: "100%",
+                              borderCollapse: "collapse",
+                            }}
+                          >
+                            <thead>
+                              <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                {Object.keys(material.equivalentGrades[0]).map(
+                                  (key) => {
+                                    const labelMap: Record<string, string> = {
+                                      grade: "Grade",
+                                      uns: "UNS",
+                                      wnr: "Werkstoff Nr.",
+                                      werkstoff: "Werkstoff Nr.",
+                                      jis: "JIS",
+                                      bs: "BS",
+                                      gost: "GOST",
+                                      afnor: "AFNOR",
+                                      en: "EN",
+                                      common: "Common Name",
+                                      standard: "Standard",
+                                    };
+                                    return (
+                                      <th
+                                        key={key}
+                                        style={{
+                                          padding: "10px 12px",
+                                          border: "1px solid #ddd",
+                                          textAlign: "left",
+                                          fontWeight: "700",
+                                          color: "#1a2b4c",
+                                        }}
+                                      >
+                                        {labelMap[key] ||
+                                          key
+                                            .replace(/([A-Z])/g, " $1")
+                                            .trim()
+                                            .toUpperCase()}
+                                      </th>
+                                    );
+                                  },
+                                )}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {material.equivalentGrades.map(
+                                (item: any, idx: number) => (
+                                  <tr
+                                    key={idx}
+                                    style={{
+                                      backgroundColor:
+                                        idx % 2 === 0 ? "white" : "#fafafa",
+                                    }}
+                                  >
+                                    {Object.keys(
+                                      material.equivalentGrades[0],
+                                    ).map((key) => (
+                                      <td
+                                        key={key}
+                                        style={{
+                                          padding: "10px 12px",
+                                          border: "1px solid #ddd",
+                                          color:
+                                            key.toLowerCase() === "grade"
+                                              ? "#1a2b4c"
+                                              : "#555",
+                                          fontWeight:
+                                            key.toLowerCase() === "grade"
+                                              ? "600"
+                                              : "400",
+                                        }}
+                                      >
+                                        {item[key] !== undefined &&
+                                        item[key] !== null
+                                          ? item[key]
+                                          : "—"}
+                                      </td>
+                                    ))}
+                                  </tr>
+                                ),
+                              )}
+                            </tbody>
+                          </table>
+                        </div>
+                      </>
+                    )}
 
-                                return Object.keys(firstItem).map((key) => {
-                                  // Format the header label
-                                  let label = key
-                                    .replace(/_/g, " ")
-                                    .replace(/([A-Z])/g, " $1")
-                                    .trim()
-                                    .toUpperCase();
+                  {/* ===== CHEMICAL COMPOSITION ===== */}
+                  {material.chemicalComposition &&
+                    material.chemicalComposition.length > 0 && (
+                      <>
+                        <h3 style={{ marginTop: "2rem" }}>
+                          Chemical Composition
+                        </h3>
+                        <div style={{ overflowX: "auto" }}>
+                          <table
+                            className="spec-table-grid"
+                            style={{
+                              width: "100%",
+                              borderCollapse: "collapse",
+                            }}
+                          >
+                            <thead>
+                              <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                {Object.keys(
+                                  material.chemicalComposition[0],
+                                ).map((key) => (
+                                  <th
+                                    key={key}
+                                    style={{
+                                      padding: "10px",
+                                      border: "1px solid #ddd",
+                                      textAlign: "left",
+                                    }}
+                                  >
+                                    {key.toUpperCase()}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {material.chemicalComposition.map(
+                                (item: any, idx: number) => (
+                                  <tr key={idx}>
+                                    {Object.values(item).map(
+                                      (value: any, colIdx: number) => (
+                                        <td
+                                          key={colIdx}
+                                          style={{
+                                            padding: "10px",
+                                            border: "1px solid #ddd",
+                                          }}
+                                        >
+                                          {value}
+                                        </td>
+                                      ),
+                                    )}
+                                  </tr>
+                                ),
+                              )}
+                            </tbody>
+                          </table>
+                        </div>
+                      </>
+                    )}
 
-                                  // Common field name mappings
-                                  const labelMap: Record<string, string> = {
-                                    width_mm: "Width (mm)",
-                                    width: "Width (mm)",
-                                    thickness: "Thickness in. (mm)",
-                                    thickness_mm: "Thickness (mm)",
-                                    widthUpTo36: "Width Up to 36",
-                                    widthUpTo48: "Width Up to 48",
-                                    width_up_to_36: "Width Up to 36",
-                                    width_up_to_48: "Width Up to 48",
-                                    t_2_5_4_5: "2.5-4.5",
-                                    t_6_0: "6.0",
-                                    t_8_0: "8.0",
-                                    t_10_0: "10.0",
-                                    t_12_5: "12.5",
-                                    t_16_0: "16.0",
-                                    t_20_0: "20.0",
-                                    t_25_0: "25.0",
-                                    t_30_0: "30.0",
-                                    t_gt_30: "> 30",
-                                    tolerance_2_5_4_5: "2.5-4.5",
-                                    tolerance_6: "6.0",
-                                    tolerance_8: "8.0",
-                                    tolerance_10: "10.0",
-                                    tolerance_12_5: "12.5",
-                                    tolerance_16: "16.0",
-                                    tolerance_20: "20.0",
-                                    tolerance_25: "25.0",
-                                    tolerance_30: "30.0",
-                                    tolerance_gt_30: "> 30",
-                                  };
+                  {/* ===== MECHANICAL PROPERTIES ===== */}
+                  {material.mechanicalProperties &&
+                    material.mechanicalProperties.length > 0 && (
+                      <>
+                        <h3 style={{ marginTop: "2rem" }}>
+                          Mechanical & Physical Properties
+                        </h3>
+                        <div style={{ overflowX: "auto" }}>
+                          <table
+                            className="spec-table-grid"
+                            style={{
+                              width: "100%",
+                              borderCollapse: "collapse",
+                            }}
+                          >
+                            <thead>
+                              <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                {Object.keys(
+                                  material.mechanicalProperties[0],
+                                ).map((key) => (
+                                  <th
+                                    key={key}
+                                    style={{
+                                      padding: "10px",
+                                      border: "1px solid #ddd",
+                                      textAlign: "left",
+                                    }}
+                                  >
+                                    {key.replace(/_/g, " ").toUpperCase()}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {material.mechanicalProperties.map(
+                                (item: any, idx: number) => (
+                                  <tr key={idx}>
+                                    {Object.values(item).map(
+                                      (value: any, colIdx: number) => (
+                                        <td
+                                          key={colIdx}
+                                          style={{
+                                            padding: "10px",
+                                            border: "1px solid #ddd",
+                                          }}
+                                        >
+                                          {value}
+                                        </td>
+                                      ),
+                                    )}
+                                  </tr>
+                                ),
+                              )}
+                            </tbody>
+                          </table>
+                        </div>
+                      </>
+                    )}
 
-                                  label = labelMap[key] || label;
-
-                                  const isFirstCol =
-                                    key === "width_mm" ||
-                                    key === "width" ||
-                                    key === "thickness" ||
-                                    key === "thickness_mm";
-
-                                  return (
+                  {/* ===== WEIGHT / SIZE CHART ===== */}
+                  {material.weightSizeChart &&
+                    material.weightSizeChart.length > 0 && (
+                      <>
+                        <h3 style={{ marginTop: "2rem" }}>
+                          Weight / Size Chart
+                        </h3>
+                        <p
+                          style={{
+                            marginBottom: "15px",
+                            color: "#666",
+                            fontSize: "0.9rem",
+                          }}
+                        >
+                          Weight and size specifications
+                        </p>
+                        <div style={{ overflowX: "auto" }}>
+                          <table
+                            className="spec-table-grid"
+                            style={{
+                              width: "100%",
+                              borderCollapse: "collapse",
+                            }}
+                          >
+                            <thead>
+                              <tr style={{ backgroundColor: "#f5f5f5" }}>
+                                {Object.keys(material.weightSizeChart[0]).map(
+                                  (key) => (
                                     <th
                                       key={key}
                                       style={{
                                         padding: "10px",
                                         border: "1px solid #ddd",
-                                        textAlign: isFirstCol
-                                          ? "left"
-                                          : "center",
-                                        whiteSpace: "nowrap",
-                                        fontWeight: "700",
-                                        color: "#1a2b4c",
+                                        textAlign: "left",
                                       }}
                                     >
-                                      {label}
+                                      {key.replace(/_/g, " ").toUpperCase()}
                                     </th>
-                                  );
-                                });
-                              })()}
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {material.thicknessTolerance.map(
-                              (item: any, idx: number) => {
-                                const firstItem =
-                                  material.thicknessTolerance[0];
-                                if (!firstItem) return null;
-
-                                const keys = Object.keys(firstItem);
-
-                                return (
+                                  ),
+                                )}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {material.weightSizeChart.map(
+                                (item: any, idx: number) => (
                                   <tr key={idx}>
-                                    {keys.map((key) => {
-                                      const isFirstCol =
-                                        key === "width_mm" ||
-                                        key === "width" ||
-                                        key === "thickness" ||
-                                        key === "thickness_mm";
-                                      const isPrice = key
-                                        .toLowerCase()
-                                        .includes("price");
-
-                                      return (
+                                    {Object.values(item).map(
+                                      (value: any, colIdx: number) => (
                                         <td
-                                          key={key}
+                                          key={colIdx}
                                           style={{
                                             padding: "10px",
                                             border: "1px solid #ddd",
-                                            color: isFirstCol
-                                              ? "#1a2b4c"
-                                              : isPrice
-                                                ? "#c92525"
-                                                : "#555",
-                                            fontWeight: isFirstCol
-                                              ? "600"
-                                              : isPrice
-                                                ? "600"
-                                                : "400",
-                                            textAlign: isFirstCol
-                                              ? "left"
-                                              : "center",
                                           }}
                                         >
-                                          {item[key] !== undefined &&
-                                          item[key] !== null
-                                            ? item[key]
-                                            : "—"}
+                                          {value || "—"}
                                         </td>
-                                      );
-                                    })}
+                                      ),
+                                    )}
                                   </tr>
-                                );
-                              },
-                            )}
-                          </tbody>
-                        </table>
-                      </div>
+                                ),
+                              )}
+                            </tbody>
+                          </table>
+                        </div>
+                      </>
+                    )}
+
+                  {/* ===== STOCK AVAILABILITY ===== */}
+                  {material.stockAvailability && (
+                    <>
+                      <h3 style={{ marginTop: "2rem" }}>Stock Availability</h3>
+                      {Object.entries(material.stockAvailability).map(
+                        ([category, items]: [string, any]) => {
+                          if (!Array.isArray(items)) return null;
+                          return items.map((group: any, idx: number) => (
+                            <div
+                              key={`${category}-${idx}`}
+                              style={{ marginBottom: "1.5rem" }}
+                            >
+                              <h4>{group.title}</h4>
+                              <ul style={{ listStyle: "none", padding: 0 }}>
+                                {group.items?.map((item: string, i: number) => (
+                                  <li
+                                    key={i}
+                                    style={{
+                                      padding: "4px 0",
+                                      borderBottom: "1px solid #f0f0f0",
+                                      color: "#555",
+                                    }}
+                                  >
+                                    ✓ {item}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          ));
+                        },
+                      )}
                     </>
                   )}
                 </div>
               )}
+
               {/* ===== APPLICATIONS TAB ===== */}
               {(hasData(material.application) ||
                 hasData(material.applications)) &&
@@ -4687,7 +2366,6 @@ const MaterialDetail: React.FC = () => {
                       </div>
                     )}
 
-                    {/* If only application string exists but no array, split it */}
                     {material.application &&
                       !hasData(material.applications) && (
                         <div className="application-list">
@@ -4723,22 +2401,6 @@ const MaterialDetail: React.FC = () => {
                         </div>
                       </div>
                     )}
-
-                    {/* Related Searches */}
-                    {hasData(material.relatedSearches) && (
-                      <div style={{ marginTop: "2rem" }}>
-                        <h3>Related Searches</h3>
-                        <div className="related-searches-container">
-                          {material.relatedSearches.map(
-                            (search: string, idx: number) => (
-                              <span key={idx} className="related-search-tag">
-                                {search}
-                              </span>
-                            ),
-                          )}
-                        </div>
-                      </div>
-                    )}
                   </div>
                 )}
 
@@ -4748,17 +2410,14 @@ const MaterialDetail: React.FC = () => {
                   <div className="tab-panel">
                     <h2>Stock Availability</h2>
 
-                    {/* Dynamically render all stock categories */}
                     {Object.entries(material.stockAvailability).map(
                       ([categoryKey, categoryData]: [string, any]) => {
-                        // Skip if categoryData is not an array or is empty
                         if (
                           !Array.isArray(categoryData) ||
                           categoryData.length === 0
                         )
                           return null;
 
-                        // Generate a display title from the category key
                         const getCategoryTitle = (key: string): string => {
                           const titles: Record<string, string> = {
                             hotRolled: "Hot Rolled (HR) Coils",
@@ -4782,7 +2441,6 @@ const MaterialDetail: React.FC = () => {
                             <div className="stock-grid">
                               {categoryData.map(
                                 (category: any, catIdx: number) => {
-                                  // Handle both object format { title, items, image } and direct array
                                   const isCategory =
                                     typeof category === "object" &&
                                     category.title;
@@ -4824,7 +2482,6 @@ const MaterialDetail: React.FC = () => {
                                               key={idx}
                                               className="stock-item"
                                             >
-                                              {/* LEFT: All Text */}
                                               <div className="stock-info">
                                                 <span className="stock-name">
                                                   {name}
@@ -4836,7 +2493,6 @@ const MaterialDetail: React.FC = () => {
                                                 )}
                                               </div>
 
-                                              {/* RIGHT: Image or Checkmark */}
                                               {itemImage ||
                                               (idx === 0 && image) ? (
                                                 <div className="stock-image-wrapper">
@@ -4866,7 +2522,7 @@ const MaterialDetail: React.FC = () => {
                       },
                     )}
 
-                    {/* Thickness Availability */}
+                    {/* ===== THICKNESS AVAILABILITY ===== */}
                     {hasData(material.thicknessAvailability) && (
                       <>
                         <h3 style={{ marginTop: "2rem" }}>
@@ -4895,7 +2551,7 @@ const MaterialDetail: React.FC = () => {
                       </>
                     )}
 
-                    {/* Related Searches */}
+                    {/* ===== RELATED SEARCHES ===== */}
                     {hasData(material.relatedSearches) && (
                       <div style={{ marginTop: "2rem" }}>
                         <h3>Related Searches</h3>
@@ -4912,6 +2568,7 @@ const MaterialDetail: React.FC = () => {
                     )}
                   </div>
                 )}
+
               {/* ===== SUPPLY NETWORK TAB ===== */}
               {activeTab === "supply" && (
                 <div className="tab-panel">
@@ -4929,7 +2586,7 @@ const MaterialDetail: React.FC = () => {
                       <div className="country-grid">
                         {material.exportCountries.map(
                           (country: string, idx: number) => (
-                            <div className="country-item">
+                            <div className="country-item" key={idx}>
                               <span
                                 className={`fi fi-${getCountryFlag(country)} country-flag`}
                               ></span>
@@ -4964,25 +2621,6 @@ const MaterialDetail: React.FC = () => {
                   )}
                 </div>
               )}
-
-              {/* ===== OUR PRODUCTS TAB ===== */}
-              {activeTab === "ourproducts" && (
-                <div className="tab-panel">
-                  <h2>Our Products</h2>
-                  <div className="our-products-list">
-                    {productCategories.map((category) => (
-                      <Link
-                        key={category.slug}
-                        to={`/products/${category.slug}`}
-                        className={`product-item ${slug === category.slug ? "active" : ""}`}
-                      >
-                        <span className="product-bullet">-</span>
-                        {category.name}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
             </div>
 
             {/* Contact Prompt */}
@@ -4997,26 +2635,66 @@ const MaterialDetail: React.FC = () => {
       </div>
 
       {/* ===== Related Products ===== */}
-      {relatedProducts.length > 0 && (
-        <div className="related-products-section">
-          <div className="container">
-            <h2>Related Products</h2>
-            <div className="related-products-grid">
-              {relatedProducts.slice(0, 4).map((product) => (
-                <Link
-                  key={product.id}
-                  to={`/products/${slug}/${product.slug}`}
-                  className="related-product-card"
-                >
-                  <img src={product.image} alt={product.title} />
-                  <h4>{product.title}</h4>
-                  <span className="view-btn">View Details →</span>
-                </Link>
-              ))}
+      {(() => {
+        // Get all products from all categories
+        const allProducts = Object.values(productCategoryMap).flat();
+
+        // Find products from the same category (excluding current)
+        const sameCategory =
+          categoryData?.filter((item) => item.slug !== materialSlug) || [];
+
+        // Find products with same material group from all categories (excluding current)
+        const sameMaterialGroup = allProducts.filter(
+          (item) =>
+            item.slug !== materialSlug &&
+            item.materialGroup === material.materialGroup,
+        );
+
+        // Determine which products to show
+        let relatedItems = [];
+
+        if (sameCategory.length > 0) {
+          // Priority 1: Products from same category
+          relatedItems = sameCategory;
+        } else if (sameMaterialGroup.length > 0) {
+          // Priority 2: Products with same material group
+          relatedItems = sameMaterialGroup;
+        } else {
+          // Priority 3: Any other products (exclude current)
+          relatedItems = allProducts.filter(
+            (item) => item.slug !== materialSlug,
+          );
+        }
+
+        // If still empty, use fallback - show first 4 products from any category
+        if (relatedItems.length === 0) {
+          relatedItems = allProducts.slice(0, 4);
+        }
+
+        // Limit to 4 products
+        const displayProducts = relatedItems.slice(0, 4);
+
+        return displayProducts.length > 0 ? (
+          <div className="related-products-section">
+            <div className="container">
+              <h2>Related Products</h2>
+              <div className="related-products-grid">
+                {displayProducts.map((product) => (
+                  <Link
+                    key={product.id}
+                    to={`/products/${slug}/${product.slug}`}
+                    className="related-product-card"
+                  >
+                    <img src={product.image} alt={product.title} />
+                    <h4>{product.title}</h4>
+                    <span className="view-btn">View Details →</span>
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        ) : null;
+      })()}
     </section>
   );
 };

@@ -23,19 +23,35 @@ function App() {
       <Header />
       <main>
         <Routes>
+          {/* Home */}
           <Route path="/" element={<Home />} />
+
+          {/* About */}
           <Route path="/about" element={<About />} />
+
+          {/* Materials */}
+          <Route path="/materials" element={<Materials />} />
+          <Route path="/materials/:slug" element={<MDetail />} />
+
+          {/* Products */}
           <Route path="/products" element={<Products />} />
+
+          {/* Products Category - Shows products in a specific category */}
           <Route path="/products/:slug" element={<ProductsCategory />} />
+
+          {/* Product Detail - Shows details of a specific product */}
           <Route
             path="/products/:slug/:materialSlug"
             element={<MaterialDetail />}
           />
-          <Route path="/materials" element={<Materials />} />
-          <Route path="/materials/:slug" element={<MDetail />} />
-           <Route path="/products/:slug/:materialSlug" element={<MaterialDetail />} />
+
+          {/* Certificates */}
           <Route path="/certificates" element={<Certificates />} />
+
+          {/* Dimensions */}
           <Route path="/dimensions" element={<Dimensions />} />
+
+          {/* Contact */}
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
