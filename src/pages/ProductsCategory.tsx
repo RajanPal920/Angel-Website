@@ -68,28 +68,28 @@ const getProductName = (slug: string): string => {
 // Get icon for each category
 const getCategoryIcon = (slug: string): string => {
   const iconMap: Record<string, string> = {
-    "anchor-fastener": "🔩",
-    "angle-channels": "📐",
-    "buttweld-fittings": "🔧",
-    circles: "⭕",
-    coils: "🌀",
-    "dairy-pharma-valves": "💊",
-    fasteners: "🔩",
-    flanges: "⚙️",
-    "forged-fittings": "🔨",
-    "hose-pipe": "🧵",
-    "patta-patti": "📏",
-    "perforated-sheet": "⬜",
-    rings: "⭕",
-    "round-bars": "📍",
-    "sheets-plates": "📋",
-    "pipes-tubes": "🔴",
-    strips: "📏",
-    valves: "🚰",
-    "wire-mesh": "🕸️",
-    wires: "〰️",
+    "anchor-fastener": "",
+    "angle-channels": "",
+    "buttweld-fittings": "",
+    circles: "",
+    coils: "",
+    "dairy-pharma-valves": "",
+    fasteners: "",
+    flanges: "",
+    "forged-fittings": "",
+    "hose-pipe": "",
+    "patta-patti": "",
+    "perforated-sheet": "",
+    rings: "",
+    "round-bars": "",
+    "sheets-plates": "",
+    "pipes-tubes": "",
+    strips: "",
+    valves: "",
+    "wire-mesh": "",
+    wires: "",
   };
-  return iconMap[slug] || "📦";
+  return iconMap[slug] || "";
 };
 
 // Get subtitle for each category

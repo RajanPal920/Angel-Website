@@ -19,18 +19,18 @@ import {
   wires,
   valves,
   pipes,
-  circles, // ← Add this import
- // ← Add this import
+  circles,
+  gasket,
+  casting, // ← ADD
+  precisionMachineComponents, // ← ADD
 } from "./productsMaterials";
 import { ProductMaterial } from "./productsMaterials";
 
-// ── The Main Map Object ──
 export const productCategoryMap: Record<string, ProductMaterial[]> = {
-  // Match the slug from products.ts to the data array
   "anchor-fastener": anchorFastener,
   "angle-channels": anchorChannel,
   "buttweld-fittings": buttweldFitting,
-  circles: circles, // ← Add this mapping
+  circles: circles,
   coils: coils,
   "dairy-pharma-valves": dairypharmaValves,
   fasteners: fasteners,
@@ -47,7 +47,11 @@ export const productCategoryMap: Record<string, ProductMaterial[]> = {
   valves: valves,
   "wire-mesh": wireMesh,
   wires: wires,
-  // plates: plates,
+
+  // Newly added
+  gasket: gasket,
+  casting: casting, // ← ADD
+  "precision-machine-components": precisionMachineComponents, // ← ADD
 
   // Additional mappings for backward compatibility
   "steel-pipes": pipes,

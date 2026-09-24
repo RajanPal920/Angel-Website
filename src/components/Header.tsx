@@ -1,4 +1,4 @@
-// Header.tsx - Complete Updated File with Mobile CTA Fix
+// Header.tsx - Complete Updated File
 import React, { useState, useRef, useEffect } from "react";
 import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
@@ -23,7 +23,7 @@ interface NavItem {
 }
 
 // ============================================
-// ICON COMPONENTS (Keep all your existing icons)
+// ICON COMPONENTS
 // ============================================
 const Icons = {
   Home: () => (
@@ -132,7 +132,6 @@ const Icons = {
       <path d="M9 12l2 2 4-4" />
     </svg>
   ),
-  // Product Icons
   Anchor: () => (
     <svg
       width="18"
@@ -480,7 +479,53 @@ const Icons = {
       <path d="M4 18h16" />
     </svg>
   ),
-  // Dimension Icons
+  // NEW product icons
+  Gasket: () => (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="12" r="10" />
+      <circle cx="12" cy="12" r="6" strokeDasharray="2 2" />
+    </svg>
+  ),
+  Casting: () => (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" />
+      <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+      <line x1="12" y1="22.08" x2="12" y2="12" />
+    </svg>
+  ),
+  Precision: () => (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="12" r="3" />
+      <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z" />
+    </svg>
+  ),
   DimAngle: () => (
     <svg
       width="18"
@@ -707,7 +752,6 @@ const Icons = {
       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
     </svg>
   ),
-  // Material icons
   ShieldCheck: () => (
     <svg
       width="18"
@@ -846,7 +890,7 @@ const materialIconMap: Record<string, any> = {
 };
 
 // ============================================
-// DROPDOWN COMPONENT with Horizontal Cards
+// DROPDOWN COMPONENT — with column splitting
 // ============================================
 interface DropdownProps {
   label: string;
@@ -855,6 +899,8 @@ interface DropdownProps {
   toggle: () => void;
   isActive?: boolean;
   isMobile?: boolean;
+  /** Split items into 2 columns (used for Products) */
+  twoColumn?: boolean;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({
@@ -864,8 +910,8 @@ const Dropdown: React.FC<DropdownProps> = ({
   toggle,
   isActive = false,
   isMobile = false,
+  twoColumn = false,
 }) => {
-  // Handle PDF link click - opens in new tab
   const handleItemClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
     href: string,
@@ -873,11 +919,14 @@ const Dropdown: React.FC<DropdownProps> = ({
   ) => {
     if (isPdf) {
       e.preventDefault();
-      // Open PDF in new tab
       window.open(href, "_blank");
     }
-    // For regular links, let default behavior happen
   };
+
+  // Split into 2 columns if requested
+  const midpoint = Math.ceil(items.length / 2);
+  const leftColumn = twoColumn ? items.slice(0, midpoint) : items;
+  const rightColumn = twoColumn ? items.slice(midpoint) : [];
 
   return (
     <div className={`dropdown ${isOpen ? "open" : ""}`}>
@@ -899,38 +948,96 @@ const Dropdown: React.FC<DropdownProps> = ({
           </svg>
         </span>
       </button>
-      <ul className="dropdown-menu">
-        {items.map((item, index) => (
-          <li key={index} role="none">
-            <a
-              href={item.href}
-              role="menuitem"
-              className="dropdown-card"
-              onClick={(e) => handleItemClick(e, item.href, item.isPdf)}
-              target={item.isPdf ? "_blank" : undefined}
-              rel={item.isPdf ? "noopener noreferrer" : undefined}
-            >
-              <div className="dropdown-card-icon">
-                {item.icon || <Icons.Products />}
-              </div>
-              <div className="dropdown-card-content">
-                <div className="dropdown-card-title">{item.label}</div>
-                {item.description && (
-                  <div className="dropdown-card-description">
-                    {item.description}
+
+      {twoColumn && !isMobile ? (
+        <div className="dropdown-menu dropdown-menu--two-col">
+          <ul className="dropdown-col">
+            {leftColumn.map((item, index) => (
+              <li key={`l-${index}`} role="none">
+                <a
+                  href={item.href}
+                  role="menuitem"
+                  className="dropdown-card"
+                  onClick={(e) => handleItemClick(e, item.href, item.isPdf)}
+                  target={item.isPdf ? "_blank" : undefined}
+                  rel={item.isPdf ? "noopener noreferrer" : undefined}
+                >
+                  <div className="dropdown-card-icon">
+                    {item.icon || <Icons.Products />}
                   </div>
-                )}
-              </div>
-            </a>
-          </li>
-        ))}
-      </ul>
+                  <div className="dropdown-card-content">
+                    <div className="dropdown-card-title">{item.label}</div>
+                    {item.description && (
+                      <div className="dropdown-card-description">
+                        {item.description}
+                      </div>
+                    )}
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <ul className="dropdown-col">
+            {rightColumn.map((item, index) => (
+              <li key={`r-${index}`} role="none">
+                <a
+                  href={item.href}
+                  role="menuitem"
+                  className="dropdown-card"
+                  onClick={(e) => handleItemClick(e, item.href, item.isPdf)}
+                  target={item.isPdf ? "_blank" : undefined}
+                  rel={item.isPdf ? "noopener noreferrer" : undefined}
+                >
+                  <div className="dropdown-card-icon">
+                    {item.icon || <Icons.Products />}
+                  </div>
+                  <div className="dropdown-card-content">
+                    <div className="dropdown-card-title">{item.label}</div>
+                    {item.description && (
+                      <div className="dropdown-card-description">
+                        {item.description}
+                      </div>
+                    )}
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : (
+        <ul className="dropdown-menu">
+          {items.map((item, index) => (
+            <li key={index} role="none">
+              <a
+                href={item.href}
+                role="menuitem"
+                className="dropdown-card"
+                onClick={(e) => handleItemClick(e, item.href, item.isPdf)}
+                target={item.isPdf ? "_blank" : undefined}
+                rel={item.isPdf ? "noopener noreferrer" : undefined}
+              >
+                <div className="dropdown-card-icon">
+                  {item.icon || <Icons.Products />}
+                </div>
+                <div className="dropdown-card-content">
+                  <div className="dropdown-card-title">{item.label}</div>
+                  {item.description && (
+                    <div className="dropdown-card-description">
+                      {item.description}
+                    </div>
+                  )}
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };
 
 // ============================================
-// HAMBURGER COMPONENT
+// HAMBURGER
 // ============================================
 interface HamburgerProps {
   isOpen: boolean;
@@ -953,7 +1060,7 @@ const Hamburger: React.FC<HamburgerProps> = ({ isOpen, toggle }) => {
 };
 
 // ============================================
-// MOBILE MENU COMPONENT - FIXED
+// MOBILE MENU
 // ============================================
 interface MobileMenuProps {
   isOpen: boolean;
@@ -983,9 +1090,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
     return activePath === href || activePath.startsWith(href);
   };
 
-  const isCTA = (item: NavItem): boolean => {
-    return item.label === ctaText;
-  };
+  const isCTA = (item: NavItem): boolean => item.label === ctaText;
 
   return (
     <nav className={`main-nav mobile-nav ${isOpen ? "open" : ""}`}>
@@ -1010,10 +1115,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
                 className={`nav-link ${isActive(item.href) ? "active" : ""} ${
                   isCTA(item) ? "btn-primary" : ""
                 }`}
-                onClick={() => {
-                  // ✅ Close the mobile menu after navigation
-                  onClose();
-                }}
+                onClick={onClose}
               >
                 {item.icon && <span className="nav-icon">{item.icon}</span>}
                 {item.label}
@@ -1027,24 +1129,21 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 };
 
 // ============================================
-// MAIN HEADER COMPONENT
+// MAIN HEADER
 // ============================================
 const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const headerRef = useRef<HTMLElement>(null);
 
-  // Get current path using useLocation
   const location = useLocation();
   const activePath = location.pathname;
 
-  // Build Materials dropdown items from the materials data
   const buildMaterialItems = (): DropdownItem[] => {
     return materials.map((material: Material) => {
       const IconComponent = material.icon
         ? materialIconMap[material.icon.name] || Icons.ShieldCheck
         : Icons.ShieldCheck;
-
       return {
         label: material.name,
         href: `/materials/${material.slug}`,
@@ -1054,7 +1153,7 @@ const Header: React.FC = () => {
     });
   };
 
-  // Build Products dropdown items
+  // ✅ UPDATED: includes Gasket, Casting, Precision Machine Components
   const buildProductItems = (): DropdownItem[] => {
     const products = [
       { label: "Anchor Fastener", slug: "anchor-fastener", icon: Icons.Anchor },
@@ -1084,11 +1183,23 @@ const Header: React.FC = () => {
       { label: "Rings", slug: "rings", icon: Icons.Rings },
       { label: "Rods", slug: "round-bars", icon: Icons.Rod },
       { label: "Sheets & Plates", slug: "sheets-plates", icon: Icons.Sheets },
-      { label: "Steel Pipes & Tubes", slug: "pipes-tubes", icon: Icons.SteelPipes },
+      {
+        label: "Steel Pipes & Tubes",
+        slug: "pipes-tubes",
+        icon: Icons.SteelPipes,
+      },
       { label: "Strips", slug: "strips", icon: Icons.Strips },
       { label: "Valves", slug: "valves", icon: Icons.Valves },
       { label: "Wire Mesh", slug: "wire-mesh", icon: Icons.WireMesh },
       { label: "Wires", slug: "wires", icon: Icons.Wires },
+      // ✅ NEW products
+      { label: "Gasket", slug: "gasket", icon: Icons.Gasket },
+      { label: "Casting", slug: "casting", icon: Icons.Casting },
+      {
+        label: "Precision Machine Components",
+        slug: "precision-machine-components",
+        icon: Icons.Precision,
+      },
     ];
 
     return products.map((product) => ({
@@ -1099,7 +1210,6 @@ const Header: React.FC = () => {
     }));
   };
 
-  // Build Dimensions dropdown items - Direct PDF links
   const buildDimensionItems = (): DropdownItem[] => {
     const dimensions = [
       {
@@ -1144,7 +1254,6 @@ const Header: React.FC = () => {
       { label: "Tubes", file: "dimensions-tubes.pdf", icon: Icons.DimTube },
       { label: "Wires", file: "dimensions-wire.pdf", icon: Icons.DimWire },
     ];
-
     return dimensions.map((dim) => ({
       label: dim.label,
       href: `/Dimensions/${dim.file}`,
@@ -1154,43 +1263,27 @@ const Header: React.FC = () => {
     }));
   };
 
-  // Certificate items - Direct PDF links
-  const buildCertificateItems = (): DropdownItem[] => {
-    return [
-      {
-        label: "ISO 9001",
-        href: "/certificates/iso.pdf",
-        icon: <Icons.ISO />,
-        description: "Quality management certified",
-        isPdf: true,
-      },
-      {
-        label: "UDYAM",
-        href: "/certificates/udyam.pdf",
-        icon: <Icons.UDYAM />,
-        description: "MSME registration",
-        isPdf: true,
-      },
-    ];
-  };
+  const buildCertificateItems = (): DropdownItem[] => [
+    {
+      label: "ISO 9001",
+      href: "/certificates/iso.pdf",
+      icon: <Icons.ISO />,
+      description: "Quality management certified",
+      isPdf: true,
+    },
+    {
+      label: "UDYAM",
+      href: "/certificates/udyam.pdf",
+      icon: <Icons.UDYAM />,
+      description: "MSME registration",
+      isPdf: true,
+    },
+  ];
 
-  // Navigation items with all data
   const navItems: NavItem[] = [
-    {
-      label: "Home",
-      href: "/",
-      icon: <Icons.Home />,
-    },
-    {
-      label: "About",
-      href: "/about",
-      icon: <Icons.About />,
-    },
-    {
-      label: "Products",
-      icon: <Icons.Products />,
-      items: buildProductItems(),
-    },
+    { label: "Home", href: "/", icon: <Icons.Home /> },
+    { label: "About", href: "/about", icon: <Icons.About /> },
+    { label: "Products", icon: <Icons.Products />, items: buildProductItems() },
     {
       label: "Materials",
       icon: <Icons.Materials />,
@@ -1206,17 +1299,12 @@ const Header: React.FC = () => {
       icon: <Icons.Certificate />,
       items: buildCertificateItems(),
     },
-    {
-      label: "Contact",
-      href: "/contact",
-      icon: <Icons.Contact />,
-    },
+    { label: "Contact", href: "/contact", icon: <Icons.Contact /> },
   ];
 
   const ctaText = "Get a Quote";
   const ctaHref = "/contact";
 
-  // Close mobile menu on resize
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768 && isMobileMenuOpen) {
@@ -1227,7 +1315,6 @@ const Header: React.FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, [isMobileMenuOpen]);
 
-  // Close on Escape key
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
@@ -1239,7 +1326,6 @@ const Header: React.FC = () => {
     return () => document.removeEventListener("keydown", handleEscape);
   }, []);
 
-  // Close dropdowns when clicking outside
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (headerRef.current && !headerRef.current.contains(e.target as Node)) {
@@ -1253,9 +1339,7 @@ const Header: React.FC = () => {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
-    if (!isMobileMenuOpen) {
-      setOpenDropdown(null);
-    }
+    if (!isMobileMenuOpen) setOpenDropdown(null);
   };
 
   const toggleDropdown = (label: string) => {
@@ -1267,7 +1351,6 @@ const Header: React.FC = () => {
     setOpenDropdown(null);
   };
 
-  // Check if a link is active based on current path
   const isActive = (href?: string): boolean => {
     if (!href) return false;
     if (href === "/" && activePath === "/") return true;
@@ -1287,7 +1370,6 @@ const Header: React.FC = () => {
   return (
     <header className="header" ref={headerRef}>
       <div className="container header-container">
-        {/* Logo */}
         <div className="logo-container">
           <Link to="/" className="logo-link">
             <img
@@ -1303,7 +1385,6 @@ const Header: React.FC = () => {
           </Link>
         </div>
 
-        {/* Hamburger */}
         <Hamburger isOpen={isMobileMenuOpen} toggle={toggleMobileMenu} />
 
         {/* Desktop Navigation */}
@@ -1319,6 +1400,8 @@ const Header: React.FC = () => {
                     toggle={() => toggleDropdown(item.label)}
                     isActive={isActive(item.href)}
                     isMobile={false}
+                    // ✅ Only Products dropdown is split into 2 columns
+                    twoColumn={item.label === "Products"}
                   />
                 ) : (
                   <Link

@@ -23,6 +23,10 @@ import {
   CircleDot,
   Milk,
   Network,
+  // New icons for the added products
+  CircleDashed, // for Gasket
+  Box, // for Casting
+  Cog, // for Precision Machine Components
 } from "lucide-react";
 
 export const products = [
@@ -215,5 +219,37 @@ export const products = [
     category: "Wire Products",
     shortDescription: "Industrial wires suitable for fabrication and welding.",
   },
-
+  // ─────────────────────────────────────────────────────────────
+  // Newly added products
+  // ─────────────────────────────────────────────────────────────
+  {
+    id: 22,
+    name: "Gasket",
+    slug: "gasket",
+    image: "/productImage/gasket.jpg",
+    icon: CircleDashed,
+    category: "Sealing Products",
+    shortDescription:
+      "High-performance industrial gaskets for leak-proof sealing in critical applications.",
+  },
+  {
+    id: 23,
+    name: "Casting",
+    slug: "casting",
+    image: "/productImage/casting.jpg",
+    icon: Box,
+    category: "Castings",
+    shortDescription:
+      "Precision-engineered stainless steel and alloy castings for industrial use.",
+  },
+  {
+    id: 24,
+    name: "Precision Machine Components",
+    slug: "precision-machine-components",
+    image: "/productImage/precision-machine-components.jpg",
+    icon: Cog,
+    category: "Machined Components",
+    shortDescription:
+      "Custom precision machined components manufactured to exact specifications.",
+  },
 ];

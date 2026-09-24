@@ -210,11 +210,11 @@ const getProductImage = (
 const getProductTypeIcon = (productSlug: string): string => {
   const slugLower = productSlug.toLowerCase();
 
-  if (slugLower.includes("pipe") || slugLower.includes("tube")) return "🔧";
-  if (slugLower.includes("bar") || slugLower.includes("rod")) return "📏";
-  if (slugLower.includes("sheet") || slugLower.includes("plate")) return "📋";
-  if (slugLower.includes("wire")) return "⚡";
-  if (slugLower.includes("flange")) return "⭕";
+  if (slugLower.includes("pipe") || slugLower.includes("tube")) return "";
+  if (slugLower.includes("bar") || slugLower.includes("rod")) return "";
+  if (slugLower.includes("sheet") || slugLower.includes("plate")) return "";
+  if (slugLower.includes("wire")) return "";
+  if (slugLower.includes("flange")) return "";
   if (
     slugLower.includes("fastener") ||
     slugLower.includes("bolt") ||
