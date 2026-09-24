@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // 📧 THIS MAKES THE FORM WORK - OPENS EMAIL CLIENT DIRECTLY
+  // 📧 THIS MAKES THE FORM WORK - OPENS GMAIL DIRECTLY
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -37,9 +37,10 @@ const Contact: React.FC = () => {
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`,
     );
 
-    window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
+    // Opens Gmail compose in a new tab
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${subject}&body=${body}`;
+    window.open(gmailUrl, "_blank");
   };
-
   return (
     <div className="min-h-screen bg-white pb-16">
       {/* ============================================================ */}

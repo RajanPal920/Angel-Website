@@ -17198,6 +17198,932 @@ export const rodBars: ProductMaterial[] = [
     supplyCities: SUPPLY_CITIES,
   },
 
+  {
+  id: 1,
+  slug: "17-4ph-stainless-steel-dh1150-bar",
+  image: "/stock/17-4ph-dh1150-bar.jpg",
+  title:
+    "17-4 PH DH1150 Stainless Steel Bar Supplier – 105 ksi Min. Yield Strength (UNS S17400)",
+  shortDescription:
+    "17-4 PH precipitation hardening stainless steel bars, forgings and components in the DH1150 condition. Meets NACE MR0175 requirements with a minimum yield strength of 105 ksi. Primarily used for wet CO₂ type environments where moderate strength levels are required. Manufactured to ASTM A370, ASTM A388, ASTM E18, and NACE MR0175 standards.",
+
+  technicalOverview:
+    "This specification pertains to UNS S17400 precipitation hardening stainless steel bars, forgings and components in the DH1150 condition. The requirements for the DH1150 condition are included in this specification. Material meeting the requirements of this specification meets the requirements of NACE MR0175 and shall exhibit a minimum yield strength of 105 ksi. This stainless steel is used primarily for wet CO₂ type environments where moderate strength levels are required; this material has limited resistance to cracking in H₂S containing environments. Steels are made to this specification using electric furnace melting with melt and refining practices proven capable of producing steels free from deleterious defects.",
+
+  gradeDetails: {
+    standardGrades: {
+      "17-4 PH DH1150 (UNS S17400)":
+        "Precipitation hardening martensitic stainless steel in the DH1150 condition. Solution annealed at 1900°F ± 25°F then precipitation hardened at 1150°F ± 25°F for 4 hours minimum. Meets NACE MR0175 with a minimum yield strength of 105 ksi. Used primarily for wet CO₂ type environments.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications:
+      "NACE MR0175, ASTM A370, ASTM A388, ASTM E18, GOST 5632",
+    heatTreatment: [
+      "Solution Anneal: 1900°F ± 25°F (1040°C ± 15°C) for 1½ hours; quench in water, polymer, oil, inert gas, or air",
+      "Precipitation Hardening: 1150°F ± 25°F (620°C ± 15°C) for 4 hours minimum; cool in inert gas or air",
+      "Cooling to below 90°F (32°C) required prior to next process step",
+    ],
+    meltPractice:
+      "Electric furnace melted; melt and refining practices proven capable of producing steels free from deleterious defects",
+  },
+
+  specifications: {
+    standard: "NACE MR0175 / ASTM A370 / ASTM A388 / ASTM E18",
+    material: "17-4 PH (UNS S17400) Stainless Steel",
+    condition: "DH1150",
+    form: "Bars, Forgings, Components",
+    straightnessTolerance: "Maximum deviation in any 5 feet shall be 1/8\"",
+    surfaceInspection:
+      "100% Visual — free from cracks, laps, seams, or other defects",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "Hot Rolled Bars Stock Available",
+        items: [
+          "17-4 PH DH1150 Hot Rolled Round Bars",
+          "17-4 PH DH1150 Hot Rolled Square Bars",
+          "17-4 PH DH1150 Hot Rolled Hex Bars",
+          "17-4 PH DH1150 Hot Rolled Flat Bars",
+          "17-4 PH DH1150 Hot Rolled Blocks",
+          "ASME / ASTM 17-4 PH HR Bars",
+        ],
+        image: "/stock/17-4ph-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "Cold Rolled Bars Stock Available",
+        items: [
+          "17-4 PH DH1150 Cold Rolled Round Bars",
+          "17-4 PH DH1150 Cold Rolled Flat Bars",
+          "17-4 PH DH1150 Cold Rolled Square Bars",
+          "17-4 PH DH1150 Cold Rolled Hex Bars",
+          "ASME / ASTM 17-4 PH CR Bars",
+        ],
+        image: "/stock/17-4ph-cr-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "Forged Bars Stock Available",
+        items: [
+          "17-4 PH DH1150 Forged Round Bars",
+          "17-4 PH DH1150 Forged Square Bars",
+          "17-4 PH DH1150 Forged Blocks",
+          "17-4 PH DH1150 Forged Step Shafts",
+          "17-4 PH DH1150 Forged Flanges",
+          "ASME / ASTM 17-4 PH Forged Bars",
+        ],
+        image: "/stock/17-4ph-forged-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "Bright Bars Stock Available",
+        items: [
+          "17-4 PH DH1150 Bright Round Bars",
+          "17-4 PH DH1150 Bright Square Bars",
+          "17-4 PH DH1150 Bright Hex Bars",
+          "17-4 PH DH1150 Bright Flat Bars",
+          "17-4 PH DH1150 Bright Shafting Bars",
+          "ASME / ASTM 17-4 PH Bright Bars",
+        ],
+        image: "/stock/17-4ph-bright-bar.jpg",
+      },
+    ],
+    black: [
+      {
+        title: "Black Bars Stock Available",
+        items: [
+          "17-4 PH DH1150 Black Round Bars",
+          "17-4 PH DH1150 Black Square Bars",
+          "17-4 PH DH1150 Black Hex Bars",
+          "17-4 PH DH1150 Black Flat Bars",
+          "ASME / ASTM 17-4 PH Black Bars",
+        ],
+        image: "/stock/17-4ph-black-bar.jpg",
+      },
+    ],
+    peeled: [
+      {
+        title: "Peeled Bars Stock Available",
+        items: [
+          "17-4 PH DH1150 Peeled Round Bars",
+          "17-4 PH DH1150 Peeled & Polished Bars",
+          "17-4 PH DH1150 Peeled Shafting Bars",
+          "ASME / ASTM 17-4 PH Peeled Bars",
+        ],
+        image: "/stock/17-4ph-peeled-bar.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "17-4 PH", uns: "S17400", werkstoff: "1.4542" },
+    { grade: "17-4 PH DH1150", uns: "S17400", werkstoff: "1.4542" },
+    { grade: "AISI 630", uns: "S17400", werkstoff: "1.4542" },
+    { grade: "SUS 630", uns: "S17400", werkstoff: "1.4542" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "17-4 PH DH1150 (Min.)",
+      c: "—",
+      mn: "—",
+      si: "—",
+      cr: "15.0",
+      ni: "3.00",
+      mo: "—",
+      other: "Cu: 3.00, Nb: 0.15, P: —, S: —",
+    },
+    {
+      grade: "17-4 PH DH1150 (Max.)",
+      c: "0.07",
+      mn: "1.0",
+      si: "1.00",
+      cr: "17.5",
+      ni: "5.00",
+      mo: "—",
+      other: "Cu: 5.00, Nb: 0.45, P: 0.030, S: 0.030",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "17-4 PH DH1150 (Min.)",
+      tensile: "135.0 ksi (931 MPa)",
+      yield: "105.0 ksi (724 MPa)",
+      elongation: "16%",
+      reduction: "45%",
+      hardness: "28 HRC",
+      density: "7.80 g/cm³",
+    },
+    {
+      grade: "17-4 PH DH1150 (Max.)",
+      tensile: "160.0 ksi (1103 MPa)",
+      yield: "—",
+      elongation: "—",
+      reduction: "—",
+      hardness: "33 HRC",
+      density: "7.80 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Anneal",
+      temperatureRange: "1900°F ± 25°F (1040°C ± 15°C)",
+      timeAtTemperature: "1½ hour",
+      atmosphere: "Water, polymer, oil, inert gas, or air",
+    },
+    {
+      processStep: "Precipitation Hardening",
+      temperatureRange: "1150°F ± 25°F (620°C ± 15°C)",
+      timeAtTemperature: "4 hours minimum",
+      atmosphere: "Inert gas or air",
+    },
+  ],
+
+  testRequirements: [
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370 — Paragraph 3.2",
+    },
+    {
+      test: "Surface Hardness",
+      frequency: "Once, each length or piece",
+      method: "ASTM E18 — Paragraph 3.2",
+    },
+    {
+      test: "Composition",
+      frequency: "Once per heat",
+      method: "Paragraph 3.1",
+    },
+    {
+      test: "Volumetric Inspection",
+      frequency: "100% each length or piece",
+      method: "When required by Supplement 1",
+    },
+    {
+      test: "Impact Toughness",
+      frequency: "One set per heat & heat treat batch",
+      method: "When required by S2, S4, S26, or S46",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual",
+      method: "Paragraph 5.2",
+    },
+  ],
+
+  applicationIndustries: [
+    "Oil & Gas (Wet CO₂ Environments)",
+    "Petrochemicals",
+    "Chemicals",
+    "Power Generation",
+    "Pumps & Valves",
+    "Aerospace Components",
+    "Marine & Offshore",
+    "Sour Service Applications (limited H₂S resistance)",
+  ],
+
+  specializedIn: [
+    "17-4 PH DH1150 Bar Manufacturer in Mumbai, India",
+    "17-4 PH DH1150 Bar Supplier in India",
+    "UNS S17400 DH1150 Bar Exporter",
+    "NACE MR0175 Compliant 17-4 PH Bars",
+    "105 ksi Min. Yield Strength 17-4 PH Bars",
+    "17-4 PH DH1150 Forgings Supplier",
+    "17-4 PH DH1150 Round Bars Stockist",
+    "17-4 PH DH1150 Custom Components Manufacturer",
+    "Precipitation Hardening Stainless Steel Bars Dealer",
+    "17-4 PH DH1150 Bars for Wet CO₂ Service",
+    "17-4 PH DH1150 Bars for Sour Service",
+    "17-4 PH DH1150 Bars for Oilfield Equipment",
+    "17-4 PH DH1150 Bars with 3.1 Test Certificate",
+    "17-4 PH DH1150 Bars with Full Traceability",
+  ],
+
+  relatedSearches: [
+    "17-4 PH DH1150 Bar Price List",
+    "17-4 PH DH1150 Bar Weight Calculator",
+    "17-4 PH DH1150 Bar Dimensions",
+    "17-4 PH DH1150 Bar Price Per Kg in India",
+    "17-4 PH DH1150 Bar Manufacturer in Mumbai",
+    "17-4 PH DH1150 Bar Supplier in India",
+    "17-4 PH DH1150 Bar Thickness Tolerance",
+    "17-4 PH DH1150 Bar Price List PDF",
+    "17-4 PH DH1150 Bar Mechanical Properties",
+    "17-4 PH DH1150 Bar Chemical Composition",
+    "17-4 PH DH1150 Bar Stockist in Pune",
+    "17-4 PH DH1150 Bar Exporter",
+    "17-4 PH DH1150 Bar Price in Mumbai",
+    "17-4 PH DH1150 Bar Size Chart",
+    "17-4 PH DH1150 Round Bar Price",
+    "17-4 PH DH1150 Forging Supplier",
+    "17-4 PH DH1150 NACE MR0175 Bars",
+    "17-4 PH DH1150 105 ksi Bars Manufacturers",
+    "17-4 PH DH1150 Bar Catalog PDF",
+    "17-4 PH DH1150 Bar Equivalent Grades",
+    "17-4 PH DH1150 Bar Price per Piece",
+    "17-4 PH DH1150 Bar updated price list",
+    "17-4 PH DH1150 Bar Size Chart",
+    "17-4 PH DH1150 Bar Manufacturers in Gujarat",
+    "17-4 PH DH1150 Bar Stockyards in India",
+    "17-4 PH DH1150 Bar thickness chart",
+    "17-4 PH DH1150 Bar Price in India",
+    "Top 100 17-4 PH DH1150 Bar Dealers in Mumbai",
+    "Buy 17-4 PH DH1150 Bar Online",
+    "17-4 PH DH1150 Bar leading manufacturers in India",
+    "UNS S17400 DH1150 Bar Price India",
+    "17-4 PH DH1150 Bar Heat Treatment",
+    "17-4 PH DH1150 Bar Solution Anneal Temperature",
+    "17-4 PH DH1150 Bar Precipitation Hardening",
+    "17-4 PH DH1150 Bar Hardness Range",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 1,
+  slug: "13cr-l80-80ksi-min-yield-strength",
+  image: "/stock/13cr-l80-bar.jpg",
+  title:
+    "13 CR L80 Stainless Steel Bar & Tubing Supplier – 80 ksi Minimum Yield Strength (UNS S41426 / 420 Modified)",
+  shortDescription:
+    "13% chromium stainless steel bar and tubing with a minimum yield strength of 80 ksi. Often referred to as 420 type stainless steel with a restricted carbon range or 420 modified. Tubular products meeting API 5CT L80 13Cr requirements meet this specification. Used primarily for downhole applications where wet CO₂ is present. Listed in NACE MR0175/ISO 15156.",
+
+  technicalOverview:
+    "This specification pertains to 13% chromium stainless steel bar and tubing with a minimum yield strength of 80 ksi. This material is often referred to as a 420 type stainless steel with a restricted carbon range or a 420 modified. Tubular products meeting the requirements of API 5CT L80 13Cr meet the requirements of this specification. The 13% chromium stainless steel is used primarily for downhole applications where wet CO₂ is present; this material, though listed in NACE MR0175/ISO 15156, has limited resistance to cracking in H₂S containing environments. Steel is electric furnace melted, fully killed and ladle refined and/or vacuum degassed, produced using practices proven capable of producing fine-grained steels free from deleterious defects.",
+
+  gradeDetails: {
+    standardGrades: {
+      "13 CR L80 (420 Modified)":
+        "13% chromium stainless steel (420 type with restricted carbon range). Supplied in the hot worked and quenched and tempered condition with a minimum reduction ratio of 4 to 1 for bars. Minimum tempering temperature is 1200°F (649°C). Minimum yield strength of 80 ksi. Used primarily for downhole applications where wet CO₂ is present. Limited resistance to cracking in H₂S containing environments.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications:
+      "API 5CT L80 13Cr, ASTM A29, ASTM A370, ASTM E10, ASTM E18, ASTM E165, ASTM E709, NACE MR0175/ISO 15156, NACE TM0177",
+    heatTreatment: [
+      "Hot worked and quenched and tempered condition",
+      "Bars: minimum reduction ratio of 4 to 1",
+      "Minimum tempering temperature: 1200°F (649°C)",
+    ],
+    meltPractice:
+      "Electric furnace melted, fully killed and ladle refined and/or vacuum degassed; ingot cast or continuous cast",
+  },
+
+  specifications: {
+    standard: "API 5CT L80 13Cr / ASTM A29 / ASTM A370 / NACE MR0175",
+    material: "13% Chromium Stainless Steel (420 Modified)",
+    condition: "Hot worked, quenched and tempered",
+    form: "Bars, Tubing",
+    straightnessTolerance: "Chord height deviation of less than 0.2%",
+    surfaceInspection:
+      "100% Visual — free from cracks, laps, seams, or other defects",
+    testCertificate: "MTR EN 10204 3.1 / 3.2 Available",
+  },
+
+stockAvailability: {
+  hotRolled: [
+    {
+      title: "13 CR L80 Hot Rolled Stock Available",
+      items: [
+        "13 CR L80 Hot Rolled Round Bars",
+        "13 CR L80 Hot Rolled Square Bars",
+        "13 CR L80 Hot Rolled Hex Bars",
+        "13 CR L80 Hot Rolled Flat Bars",
+        "ASME / ASTM 13 CR L80 HR Bars",
+      ],
+      image: "/stock/13cr-l80-hr-bar.jpg",
+    },
+  ],
+  coldRolled: [
+    {
+      title: "13 CR L80 Cold Rolled Stock Available",
+      items: [
+        "13 CR L80 Cold Rolled Round Bars",
+        "13 CR L80 Cold Rolled Flat Bars",
+        "13 CR L80 Cold Rolled Square Bars",
+        "13 CR L80 Cold Rolled Hex Bars",
+        "ASME / ASTM 13 CR L80 CR Bars",
+      ],
+      image: "/stock/13cr-l80-cr-bar.jpg",
+    },
+  ],
+  forged: [
+    {
+      title: "13 CR L80 Forged Stock Available",
+      items: [
+        "13 CR L80 Forged Round Bars",
+        "13 CR L80 Forged Square Bars",
+        "13 CR L80 Forged Blocks",
+        "13 CR L80 Forged Step Shafts",
+        "13 CR L80 Forged Components",
+      ],
+      image: "/stock/13cr-l80-forged-bar.jpg",
+    },
+  ],
+  bright: [
+    {
+      title: "13 CR L80 Bright Stock Available",
+      items: [
+        "13 CR L80 Bright Round Bars",
+        "13 CR L80 Bright Square Bars",
+        "13 CR L80 Bright Hex Bars",
+        "13 CR L80 Bright Flat Bars",
+        "13 CR L80 Bright Shafting Bars",
+      ],
+      image: "/stock/13cr-l80-bright-bar.jpg",
+    },
+  ],
+  precision: [
+    {
+      title: "13 CR L80 Precision Stock Available",
+      items: [
+        "13 CR L80 Precision Round Bars",
+        "13 CR L80 Precision Shafting Bars",
+        "13 CR L80 Tight Tolerance Bars",
+        "13 CR L80 h6 / h7 / h8 Precision Bars",
+        "13 CR L80 Centreless Ground Bars",
+      ],
+      image: "/stock/13cr-l80-precision-bar.jpg",
+    },
+  ],
+  tubing: [
+    {
+      title: "13 CR L80 Tubing Stock Available",
+      items: [
+        "API 5CT L80 13Cr Seamless Tubing",
+        "13 CR L80 Downhole Tubing",
+        "13 CR L80 Wet CO₂ Service Tubing",
+        "13 CR L80 Oilfield Tubing",
+        "13 CR L80 Casing & Tubing",
+      ],
+      image: "/stock/13cr-l80-tubing.jpg",
+    },
+  ],
+},
+
+  equivalentGrades: [
+    { grade: "13 CR L80", uns: "S41426", werkstoff: "1.4034 mod." },
+    { grade: "420 Modified", uns: "S42000 mod.", werkstoff: "1.4021 mod." },
+    { grade: "API 5CT L80 13Cr", uns: "—", werkstoff: "—" },
+    { grade: "UNS S41426", uns: "S41426", werkstoff: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "13 CR L80 (Min.)",
+      c: "0.15",
+      mn: "0.25",
+      si: "—",
+      cr: "12.00",
+      ni: "—",
+      mo: "—",
+      other: "P: —, S: —, Cu: —",
+    },
+    {
+      grade: "13 CR L80 (Max.)",
+      c: "0.22",
+      mn: "1.00",
+      si: "1.00",
+      cr: "14.00",
+      ni: "0.50",
+      mo: "—",
+      other: "P: 0.020, S: 0.010, Cu: 0.25",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "13 CR L80 (Min.)",
+      tensile: "95.0 ksi (655 MPa)",
+      yield: "80.0 ksi (552 MPa)",
+      elongation: "16%",
+      reduction: "35.0%",
+      hardness: "—",
+      density: "7.75 g/cm³",
+    },
+    {
+      grade: "13 CR L80 (Max.)",
+      tensile: "120.0 ksi (827 MPa)",
+      yield: "95.0 ksi (655 MPa)",
+      elongation: "—",
+      reduction: "—",
+      hardness: "23.0 HRC (Bar SS-303: 22.0 HRC max)",
+      density: "7.75 g/cm³",
+    },
+  ],
+
+  impactToughness: {
+    testMethod: "Charpy V Notch (set of three) at 32°F (0°C) or lower",
+    tubularProducts: {
+      direction: "Transverse when possible by tube dimensions",
+      minimumAverage: "15 ft-lbs (41 Joules) or per equation CVN = 12.2t + 5.1 (whichever is greater)",
+      longitudinalFallback: "30 ft-lbs (41 Joules) minimum when transverse not possible",
+    },
+    bars: "Same Charpy V-Notch requirements apply as per ASTM A370",
+  },
+
+  heatTreatment: [
+    {
+      processStep: "Hot Working",
+      temperatureRange: "As per mill practice",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+    {
+      processStep: "Quenching",
+      temperatureRange: "As per mill practice",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "Minimum 1200°F (649°C)",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "Paragraph 3.1",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370 — Paragraph 3.2",
+    },
+    {
+      test: "Surface Hardness",
+      frequency: "Once, each length or piece",
+      method: "ASTM E18 / E10 — Paragraph 3.2",
+    },
+    {
+      test: "Impact Toughness",
+      frequency: "One set per heat & heat treat batch",
+      method: "Paragraph 3.3 / Supplement 4 or 53",
+    },
+    {
+      test: "Volumetric Inspection",
+      frequency: "100% volumetric",
+      method: "When required by Supplement 1",
+    },
+    {
+      test: "Electromagnetic Inspection",
+      frequency: "100%",
+      method: "When required by Supplement 53",
+    },
+    {
+      test: "Surface NDE Inspection",
+      frequency: "100% machined surfaces",
+      method: "ASTM E165 / E709 — Supplement 3",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Paragraph 4.2",
+    },
+    {
+      test: "SSC Testing",
+      frequency: "One set per heat & heat treat batch",
+      method: "NACE TM0177 — Supplement 7 or 58",
+    },
+  ],
+
+  applicationIndustries: [
+    "Oil & Gas (Downhole Applications)",
+    "Wet CO₂ Environments",
+    "Petrochemicals",
+    "Chemicals",
+    "Power Generation",
+    "Pumps & Valves",
+    "Sour Service Applications (limited H₂S resistance)",
+    "Wellhead & Downhole Equipment",
+  ],
+
+  specializedIn: [
+    "13 CR L80 Bar Manufacturer in Mumbai, India",
+    "13 CR L80 Tubing Supplier in India",
+    "API 5CT L80 13Cr Tubing Exporter",
+    "420 Modified Stainless Steel Bars Supplier",
+    "UNS S41426 13Cr Bars Dealer",
+    "13 CR L80 Downhole Tubing Stockist",
+    "13 CR L80 Wet CO₂ Service Bars",
+    "13 CR L80 NACE MR0175 Compliant Bars",
+    "13 CR L80 Quenched & Tempered Bars",
+    "13 CR L80 80 ksi Min. Yield Strength Bars",
+    "13 CR L80 Custom Components Manufacturer",
+    "13 CR L80 Bars with 3.1 Test Certificate",
+    "13 CR L80 Bars with Full Traceability",
+    "13 CR L80 Precision Ground Bars Exporter",
+  ],
+
+  relatedSearches: [
+    "13 CR L80 Bar Price List",
+    "13 CR L80 Bar Weight Calculator",
+    "13 CR L80 Bar Dimensions",
+    "13 CR L80 Bar Price Per Kg in India",
+    "13 CR L80 Bar Manufacturer in Mumbai",
+    "13 CR L80 Bar Supplier in India",
+    "13 CR L80 Bar Thickness Tolerance",
+    "13 CR L80 Bar Price List PDF",
+    "13 CR L80 Bar Mechanical Properties",
+    "13 CR L80 Bar Chemical Composition",
+    "13 CR L80 Bar Stockist in Pune",
+    "13 CR L80 Bar Exporter",
+    "13 CR L80 Bar Price in Mumbai",
+    "13 CR L80 Bar Size Chart",
+    "13 CR L80 Round Bar Price",
+    "13 CR L80 Tubing Supplier",
+    "13 CR L80 NACE MR0175 Bars",
+    "13 CR L80 80 ksi Bars Manufacturers",
+    "13 CR L80 Bar Catalog PDF",
+    "13 CR L80 Bar Equivalent Grades",
+    "13 CR L80 Bar Price per Piece",
+    "13 CR L80 Bar updated price list",
+    "13 CR L80 Bar Size Chart",
+    "13 CR L80 Bar Manufacturers in Gujarat",
+    "13 CR L80 Bar Stockyards in India",
+    "13 CR L80 Bar thickness chart",
+    "13 CR L80 Bar Price in India",
+    "Top 100 13 CR L80 Bar Dealers in Mumbai",
+    "Buy 13 CR L80 Bar Online",
+    "13 CR L80 Bar leading manufacturers in India",
+    "UNS S41426 Bar Price India",
+    "13 CR L80 Bar Heat Treatment",
+    "13 CR L80 Bar Tempering Temperature",
+    "13 CR L80 Bar Hardness Range",
+    "13 CR L80 Tubing Downhole Applications",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 1,
+  slug: "9cr-1mo-l80-80ksi-min-yield-strength",
+  image: "/stock/9cr-1mo-l80-bar.jpg",
+  title:
+    "9 CR 1 Mo L80 Alloy Steel Bar & Tubing Supplier – 80 ksi Minimum Yield Strength (API 5CT L80 Type 9Cr)",
+  shortDescription:
+    "9% chromium-1% molybdenum high alloy steel bar and tubing with a minimum yield strength of 80 ksi. Tubular products meeting API 5CT L80 Type 9Cr requirements meet this specification. Used primarily for downhole applications where wet CO₂ is present. Listed in NACE MR0175, though this material has limited resistance to cracking in H₂S containing environments.",
+
+  technicalOverview:
+    "This specification pertains to 9% chromium-1% molybdenum high alloy steel bar and tubing with a minimum yield strength of 80 ksi. Tubular products meeting the requirements of API 5CT L80 Type 9Cr meet the requirements of this specification. Bars and tubulars required to meet cold weather impact requirements shall be tested in accordance with the Supplemental Requirements. The 9% chromium steels are used primarily for downhole applications where wet CO₂ is present; this material, though listed in NACE MR0175, has limited resistance to cracking in H₂S containing environments. Steel is electric furnace melted, fully killed and ladle refined and/or vacuum degassed, and may be either ingot cast or continuous cast.",
+
+  gradeDetails: {
+    standardGrades: {
+      "9 CR 1 Mo L80":
+        "9% chromium-1% molybdenum high alloy steel. Supplied in the hot worked and quenched and tempered condition (air/normalize or liquid quench). Bars have a minimum reduction ratio of 5 to 1. Minimum tempering temperature is 1200°F (649°C). Minimum yield strength of 80 ksi. Used primarily for downhole applications where wet CO₂ is present. Limited resistance to cracking in H₂S containing environments.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications:
+      "API 5CT L80 Type 9Cr, ASTM A29, ASTM A370, ASTM A388, ASTM E18, ASTM E213, NACE MR0175/ISO 15156",
+    heatTreatment: [
+      "Hot worked and quenched and tempered condition",
+      "Quench: air (normalize) or liquid quench",
+      "Bars: minimum reduction ratio of 5 to 1",
+      "Minimum tempering temperature: 1200°F (649°C)",
+    ],
+    meltPractice:
+      "Electric furnace melted, fully killed and ladle refined and/or vacuum degassed; ingot cast or continuous cast",
+  },
+
+  specifications: {
+    standard: "API 5CT L80 Type 9Cr / ASTM A29 / ASTM A370 / NACE MR0175",
+    material: "9% Chromium-1% Molybdenum High Alloy Steel",
+    condition: "Hot worked, quenched and tempered",
+    form: "Bars, Tubing",
+    straightnessTolerance: "Chord height deviation of less than 0.2%",
+    surfaceInspection:
+      "100% Visual — free from cracks, laps, seams, or other defects",
+    testCertificate: "MTR EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "9 CR 1 Mo L80 Hot Rolled Stock Available",
+        items: [
+          "9 CR 1 Mo L80 Hot Rolled Round Bars",
+          "9 CR 1 Mo L80 Hot Rolled Square Bars",
+          "9 CR 1 Mo L80 Hot Rolled Hex Bars",
+          "9 CR 1 Mo L80 Hot Rolled Flat Bars",
+          "ASME / ASTM 9 CR 1 Mo L80 HR Bars",
+        ],
+        image: "/stock/9cr-1mo-l80-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "9 CR 1 Mo L80 Cold Rolled Stock Available",
+        items: [
+          "9 CR 1 Mo L80 Cold Rolled Round Bars",
+          "9 CR 1 Mo L80 Cold Rolled Flat Bars",
+          "9 CR 1 Mo L80 Cold Rolled Square Bars",
+          "9 CR 1 Mo L80 Cold Rolled Hex Bars",
+          "ASME / ASTM 9 CR 1 Mo L80 CR Bars",
+        ],
+        image: "/stock/9cr-1mo-l80-cr-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "9 CR 1 Mo L80 Forged Stock Available",
+        items: [
+          "9 CR 1 Mo L80 Forged Round Bars",
+          "9 CR 1 Mo L80 Forged Square Bars",
+          "9 CR 1 Mo L80 Forged Blocks",
+          "9 CR 1 Mo L80 Forged Step Shafts",
+          "9 CR 1 Mo L80 Forged Components",
+        ],
+        image: "/stock/9cr-1mo-l80-forged-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "9 CR 1 Mo L80 Bright Stock Available",
+        items: [
+          "9 CR 1 Mo L80 Bright Round Bars",
+          "9 CR 1 Mo L80 Bright Square Bars",
+          "9 CR 1 Mo L80 Bright Hex Bars",
+          "9 CR 1 Mo L80 Bright Flat Bars",
+          "9 CR 1 Mo L80 Bright Shafting Bars",
+        ],
+        image: "/stock/9cr-1mo-l80-bright-bar.jpg",
+      },
+    ],
+    precision: [
+      {
+        title: "9 CR 1 Mo L80 Precision Stock Available",
+        items: [
+          "9 CR 1 Mo L80 Precision Round Bars",
+          "9 CR 1 Mo L80 Precision Shafting Bars",
+          "9 CR 1 Mo L80 Tight Tolerance Bars",
+          "9 CR 1 Mo L80 h6 / h7 / h8 Precision Bars",
+          "9 CR 1 Mo L80 Centreless Ground Bars",
+        ],
+        image: "/stock/9cr-1mo-l80-precision-bar.jpg",
+      },
+    ],
+    tubing: [
+      {
+        title: "9 CR 1 Mo L80 Tubing Stock Available",
+        items: [
+          "API 5CT L80 Type 9Cr Seamless Tubing",
+          "9 CR 1 Mo L80 Downhole Tubing",
+          "9 CR 1 Mo L80 Wet CO₂ Service Tubing",
+          "9 CR 1 Mo L80 Oilfield Tubing",
+          "9 CR 1 Mo L80 Casing & Tubing",
+        ],
+        image: "/stock/9cr-1mo-l80-tubing.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "9 CR 1 Mo L80", uns: "K90941", werkstoff: "1.7386 mod." },
+    { grade: "API 5CT L80 Type 9Cr", uns: "—", werkstoff: "—" },
+    { grade: "9Cr-1Mo", uns: "K90941", werkstoff: "1.7386" },
+    { grade: "T9 / P9", uns: "K90941", werkstoff: "1.7386" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "9 CR 1 Mo L80 (Min.)",
+      c: "—",
+      mn: "0.30",
+      si: "—",
+      cr: "8.00",
+      ni: "—",
+      mo: "0.90",
+      other: "P,S,Cu",
+    },
+    {
+      grade: "9 CR 1 Mo L80 (Max.)",
+      c: "0.15",
+      mn: "0.60",
+      si: "1.00",
+      cr: "10.00",
+      ni: "0.50",
+      mo: "1.10",
+      other: "P: 0.020, S: 0.010, Cu: 0.25",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "9 CR 1 Mo L80 (Min.)",
+      tensile: "95.0 ksi (655 MPa)",
+      yield: "80.0 ksi (552 MPa)",
+      elongation: "16%",
+      reduction: "35.0%",
+      hardness: "—",
+      density: "7.80 g/cm³",
+    },
+    {
+      grade: "9 CR 1 Mo L80 (Max.)",
+      tensile: "120.0 ksi (827 MPa)",
+      yield: "95.0 ksi (655 MPa)",
+      elongation: "—",
+      reduction: "—",
+      hardness: "23.0 HRC (L80 Tubing) / 22.0 HRC (Bar Product)",
+      density: "7.80 g/cm³",
+    },
+  ],
+
+  impactToughness: {
+    testMethod: "Charpy V Notch (set of three) per API 5CT at 32°F (0°C) or lower",
+    acceptance:
+      "Not more than one of three specimens may be below the required average; no value below 2/3 of the required minimum average",
+    subSize: "Not permitted without prior Engineering approval",
+  },
+
+  heatTreatment: [
+    {
+      processStep: "Hot Working",
+      temperatureRange: "As per mill practice",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+    {
+      processStep: "Quenching",
+      temperatureRange: "Air (normalize) or liquid quench",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "Minimum 1200°F (649°C)",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "Paragraph 3.1",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370 — Paragraph 3.2 / Supplement 10",
+    },
+    {
+      test: "Surface Hardness",
+      frequency: "Once, each length or piece",
+      method: "ASTM E18 — Paragraph 3.2",
+    },
+    {
+      test: "Impact Toughness",
+      frequency: "One set per heat & heat treat batch",
+      method: "API 5CT — Paragraph 3.3",
+    },
+    {
+      test: "Volumetric Inspection",
+      frequency: "100% Volumetric",
+      method: "When required by Supplement 1",
+    },
+    {
+      test: "Low Temperature Toughness",
+      frequency: "One set per heat & heat treat batch",
+      method: "When required by Supplement 2 or 4",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Paragraph 4.2",
+    },
+  ],
+
+  applicationIndustries: [
+    "Oil & Gas (Downhole Applications)",
+    "Wet CO₂ Environments",
+    "Petrochemicals",
+    "Chemicals",
+    "Power Generation",
+    "Pumps & Valves",
+    "Sour Service Applications (limited H₂S resistance)",
+    "Wellhead & Downhole Equipment",
+  ],
+
+  specializedIn: [
+    "9 CR 1 Mo L80 Bar Manufacturer in Mumbai, India",
+    "9 CR 1 Mo L80 Tubing Supplier in India",
+    "API 5CT L80 Type 9Cr Tubing Exporter",
+    "9% Chromium-1% Molybdenum Alloy Steel Bars Supplier",
+    "UNS K90941 Alloy Steel Bars Dealer",
+    "9 CR 1 Mo L80 Downhole Tubing Stockist",
+    "9 CR 1 Mo L80 Wet CO₂ Service Bars",
+    "9 CR 1 Mo L80 NACE MR0175 Compliant Bars",
+    "9 CR 1 Mo L80 Quenched & Tempered Bars",
+    "9 CR 1 Mo L80 80 ksi Min. Yield Strength Bars",
+    "9 CR 1 Mo L80 Custom Components Manufacturer",
+    "9 CR 1 Mo L80 Bars with 3.1 Test Certificate",
+    "9 CR 1 Mo L80 Bars with Full Traceability",
+    "9 CR 1 Mo L80 Precision Ground Bars Exporter",
+  ],
+
+  relatedSearches: [
+    "9 CR 1 Mo L80 Bar Price List",
+    "9 CR 1 Mo L80 Bar Weight Calculator",
+    "9 CR 1 Mo L80 Bar Dimensions",
+    "9 CR 1 Mo L80 Bar Price Per Kg in India",
+    "9 CR 1 Mo L80 Bar Manufacturer in Mumbai",
+    "9 CR 1 Mo L80 Bar Supplier in India",
+    "9 CR 1 Mo L80 Bar Thickness Tolerance",
+    "9 CR 1 Mo L80 Bar Price List PDF",
+    "9 CR 1 Mo L80 Bar Mechanical Properties",
+    "9 CR 1 Mo L80 Bar Chemical Composition",
+    "9 CR 1 Mo L80 Bar Stockist in Pune",
+    "9 CR 1 Mo L80 Bar Exporter",
+    "9 CR 1 Mo L80 Bar Price in Mumbai",
+    "9 CR 1 Mo L80 Bar Size Chart",
+    "9 CR 1 Mo L80 Round Bar Price",
+    "9 CR 1 Mo L80 Tubing Supplier",
+    "9 CR 1 Mo L80 NACE MR0175 Bars",
+    "9 CR 1 Mo L80 80 ksi Bars Manufacturers",
+    "9 CR 1 Mo L80 Bar Catalog PDF",
+    "9 CR 1 Mo L80 Bar Equivalent Grades",
+    "9 CR 1 Mo L80 Bar Price per Piece",
+    "9 CR 1 Mo L80 Bar updated price list",
+    "9 CR 1 Mo L80 Bar Size Chart",
+    "9 CR 1 Mo L80 Bar Manufacturers in Gujarat",
+    "9 CR 1 Mo L80 Bar Stockyards in India",
+    "9 CR 1 Mo L80 Bar thickness chart",
+    "9 CR 1 Mo L80 Bar Price in India",
+    "Top 100 9 CR 1 Mo L80 Bar Dealers in Mumbai",
+    "Buy 9 CR 1 Mo L80 Bar Online",
+    "9 CR 1 Mo L80 Bar leading manufacturers in India",
+    "UNS K90941 Bar Price India",
+    "9 CR 1 Mo L80 Bar Heat Treatment",
+    "9 CR 1 Mo L80 Bar Tempering Temperature",
+    "9 CR 1 Mo L80 Bar Hardness Range",
+    "9 CR 1 Mo L80 Tubing Downhole Applications",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+
   // stainless
   {
     id: 6,
@@ -21075,6 +22001,297 @@ export const rodBars: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
+  {
+  id: 1,
+  slug: "alloy-4130-steel",
+  image: "/stock/alloy-4130-steel.jpg",
+  title:
+    "Alloy 4130 Steel Supplier, Stockist & Importer – Chromium-Molybdenum Alloy Steel (ASTM A519 / SAE AMS)",
+  shortDescription:
+    "Alloy 4130 is a chromium-molybdenum alloy steel widely used across industries due to its excellent strength, toughness, and resistance to wear and tear. Popular for aerospace, automotive, oil & gas, bicycle, and manufacturing applications. Meets ASTM A519 and SAE AMS specifications. Contains 0.28-0.33% Carbon, 0.8-1.1% Chromium, and 0.15-0.25% Molybdenum.",
+
+  technicalOverview:
+    "Alloy 4130 is a chromium-molybdenum alloy steel widely used in various industries due to its excellent strength, toughness, and resistance to wear and tear. This versatile alloy is a popular choice for applications that require high performance and durability, such as aircraft parts, bicycle frames, and automotive components. One of the key benefits of Alloy 4130 is its strength-to-weight ratio, which makes it an ideal material for applications where weight is a critical factor. Additionally, the alloy can be easily welded and machined, allowing for complex designs and precise manufacturing. Its unique combination of elements gives the alloy its distinctive properties, including high tensile strength and excellent resistance to fatigue.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy 4130 (Chromium-Molybdenum Steel)":
+        "A chromium-molybdenum alloy steel typically containing 0.28-0.33% Carbon, 0.15-0.35% Silicon, 0.4-0.6% Manganese, 0.8-1.1% Chromium, 0.15-0.25% Molybdenum, and trace amounts of other elements. Exhibits high tensile strength (97,000-160,000 psi), yield strength (63,000-105,000 psi), 25-30% elongation, and 217-235 Brinell hardness. Can be heat treated to improve strength and hardness. Good weldability using conventional welding methods. Easily machined using conventional methods. Meets ASTM A519 and SAE AMS specifications.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A519, SAE AMS",
+    forms: [
+      "Round Bars",
+      "Square Bars",
+      "Hex Bars",
+      "Flat Bars",
+      "Forged Blocks",
+      "Tubing",
+    ],
+    heatTreatment:
+      "Can be heat treated to improve strength and hardness",
+    weldability:
+      "Good weldability using conventional welding methods",
+    machinability:
+      "Easily machined using conventional methods",
+  },
+
+  specifications: {
+    standard: "ASTM A519 / SAE AMS",
+    material: "Chromium-Molybdenum Alloy Steel (4130)",
+    tensileStrength: "97,000 – 160,000 psi (670 – 1103 MPa)",
+    yieldStrength: "63,000 – 105,000 psi (434 – 724 MPa)",
+    elongation: "25 – 30%",
+    hardness: "217 – 235 Brinell",
+    heatTreatment: "Can be heat treated to improve strength and hardness",
+    weldability: "Good weldability using conventional welding methods",
+    machinability: "Easily machined using conventional methods",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "Alloy 4130 Hot Rolled Stock Available",
+        items: [
+          "Alloy 4130 Hot Rolled Round Bars",
+          "Alloy 4130 Hot Rolled Square Bars",
+          "Alloy 4130 Hot Rolled Hex Bars",
+          "Alloy 4130 Hot Rolled Flat Bars",
+          "ASME / ASTM Alloy 4130 HR Bars",
+        ],
+        image: "/stock/alloy-4130-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "Alloy 4130 Cold Rolled Stock Available",
+        items: [
+          "Alloy 4130 Cold Rolled Round Bars",
+          "Alloy 4130 Cold Rolled Flat Bars",
+          "Alloy 4130 Cold Rolled Square Bars",
+          "Alloy 4130 Cold Rolled Hex Bars",
+          "ASME / ASTM Alloy 4130 CR Bars",
+        ],
+        image: "/stock/alloy-4130-cr-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "Alloy 4130 Forged Stock Available",
+        items: [
+          "Alloy 4130 Forged Round Bars",
+          "Alloy 4130 Forged Square Bars",
+          "Alloy 4130 Forged Blocks",
+          "Alloy 4130 Forged Step Shafts",
+          "Alloy 4130 Forged Components",
+        ],
+        image: "/stock/alloy-4130-forged-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "Alloy 4130 Bright Stock Available",
+        items: [
+          "Alloy 4130 Bright Round Bars",
+          "Alloy 4130 Bright Square Bars",
+          "Alloy 4130 Bright Hex Bars",
+          "Alloy 4130 Bright Flat Bars",
+          "Alloy 4130 Bright Shafting Bars",
+        ],
+        image: "/stock/alloy-4130-bright-bar.jpg",
+      },
+    ],
+    precision: [
+      {
+        title: "Alloy 4130 Precision Stock Available",
+        items: [
+          "Alloy 4130 Precision Round Bars",
+          "Alloy 4130 Precision Shafting Bars",
+          "Alloy 4130 Tight Tolerance Bars",
+          "Alloy 4130 h6 / h7 / h8 Precision Bars",
+          "Alloy 4130 Centreless Ground Bars",
+        ],
+        image: "/stock/alloy-4130-precision-bar.jpg",
+      },
+    ],
+    tubing: [
+      {
+        title: "Alloy 4130 Tubing Stock Available",
+        items: [
+          "Alloy 4130 Seamless Tubing",
+          "Alloy 4130 Welded Tubing",
+          "Alloy 4130 Aerospace Grade Tubing",
+          "Alloy 4130 Bicycle Frame Tubing",
+          "Alloy 4130 Oilfield Tubing",
+        ],
+        image: "/stock/alloy-4130-tubing.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy 4130", uns: "G41300", werkstoff: "1.7218" },
+    { grade: "AISI 4130", uns: "G41300", werkstoff: "1.7218" },
+    { grade: "SAE 4130", uns: "G41300", werkstoff: "1.7218" },
+    { grade: "25CrMo4", uns: "G41300", werkstoff: "1.7218" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy 4130",
+      c: "0.28 – 0.33",
+      mn: "0.40 – 0.60",
+      si: "0.15 – 0.35",
+      cr: "0.80 – 1.10",
+      ni: "—",
+      mo: "0.15 – 0.25",
+      other: "P: 0.035 max, S: 0.040 max, Cu: 0.35 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy 4130",
+      tensile: "97,000 – 160,000 psi (670 – 1103 MPa)",
+      yield: "63,000 – 105,000 psi (434 – 724 MPa)",
+      elongation: "25 – 30%",
+      hardness: "217 – 235 Brinell",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Austenitizing",
+      temperatureRange: "1550°F – 1600°F (843°C – 871°C)",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+    {
+      processStep: "Quenching",
+      temperatureRange: "Oil or water quench",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "400°F – 1200°F (204°C – 649°C) as required",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  keyFeatures: [
+    "Chromium-Molybdenum Alloy Steel",
+    "Excellent Strength-To-Weight Ratio",
+    "High Tensile Strength and Hardness",
+    "Good Toughness and Ductility",
+    "Resistance to Wear and Fatigue",
+    "Corrosion Resistance",
+    "Easily Welded and Machined",
+    "Versatile and Customizable for Different Applications",
+    "Used in Aerospace, Automotive, Oil and Gas, Bicycle, and Manufacturing Industries",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A519",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Visual",
+    },
+    {
+      test: "Ultrasonic Inspection",
+      frequency: "When required",
+      method: "ASTM A388 / A519",
+    },
+  ],
+
+  applicationIndustries: [
+    "Aerospace — Landing Gears, Wings, Fuselage Frames",
+    "Automotive — Drive Shafts, Steering, Suspension Systems",
+    "Oil & Gas — Drilling Equipment, Wellhead Components, Pipeline Systems",
+    "Bicycle — High-End & Custom Bicycle Frames",
+    "Manufacturing — Tool & Die Making, Machine Components, Structural Components",
+    "High-Performance Racing Cars",
+    "Off-Road Vehicles",
+  ],
+
+  specializedIn: [
+    "Alloy 4130 Steel Supplier in Mumbai, India",
+    "Alloy 4130 Steel Stockist in India",
+    "Alloy 4130 Steel Importer in India",
+    "ASTM A519 Alloy 4130 Bars Exporter",
+    "SAE AMS Alloy 4130 Steel Dealer",
+    "UNS G41300 Alloy 4130 Bars Supplier",
+    "Chromium-Molybdenum Alloy Steel Bars Manufacturer",
+    "Alloy 4130 Aerospace Grade Bars Supplier",
+    "Alloy 4130 Automotive Grade Bars Stockist",
+    "Alloy 4130 Oilfield Bars Manufacturer",
+    "Alloy 4130 Bicycle Frame Tubing Supplier",
+    "Alloy 4130 Custom Components Manufacturer",
+    "Alloy 4130 Bars with 3.1 Test Certificate",
+    "Alloy 4130 Bars with Full Traceability",
+  ],
+
+  relatedSearches: [
+    "Alloy 4130 Steel Price List",
+    "Alloy 4130 Steel Weight Calculator",
+    "Alloy 4130 Steel Dimensions",
+    "Alloy 4130 Steel Price Per Kg in India",
+    "Alloy 4130 Steel Supplier in Mumbai",
+    "Alloy 4130 Steel Stockist in India",
+    "Alloy 4130 Steel Thickness Tolerance",
+    "Alloy 4130 Steel Price List PDF",
+    "Alloy 4130 Steel Mechanical Properties",
+    "Alloy 4130 Steel Chemical Composition",
+    "Alloy 4130 Steel Stockist in Pune",
+    "Alloy 4130 Steel Exporter",
+    "Alloy 4130 Steel Price in Mumbai",
+    "Alloy 4130 Steel Size Chart",
+    "Alloy 4130 Round Bar Price",
+    "Alloy 4130 Tubing Supplier",
+    "Alloy 4130 Aerospace Grade Bars",
+    "Alloy 4130 Bars Manufacturers",
+    "Alloy 4130 Steel Catalog PDF",
+    "Alloy 4130 Steel Equivalent Grades",
+    "Alloy 4130 Steel Price per Piece",
+    "Alloy 4130 Steel updated price list",
+    "Alloy 4130 Steel Size Chart",
+    "Alloy 4130 Steel Manufacturers in Gujarat",
+    "Alloy 4130 Steel Stockyards in India",
+    "Alloy 4130 Steel thickness chart",
+    "Alloy 4130 Steel Price in India",
+    "Top 100 Alloy 4130 Steel Dealers in Mumbai",
+    "Buy Alloy 4130 Steel Online",
+    "Alloy 4130 Steel leading manufacturers in India",
+    "UNS G41300 Steel Price India",
+    "Alloy 4130 Steel Heat Treatment",
+    "Alloy 4130 Steel Tempering Temperature",
+    "Alloy 4130 Steel Hardness Range",
+    "Alloy 4130 Steel Bicycle Frame Tubing",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
 
   // other
   {
