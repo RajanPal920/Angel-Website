@@ -318,48 +318,48 @@ const Home: React.FC = () => {
     },
   ];
 
-  const processSteps = [
-    {
-      icon: <Calendar className="w-8 h-8" />,
-      title: "Consultation",
-      description:
-        "We understand your requirements and provide expert guidance on the best metal solutions for your project.",
-    },
-    {
-      icon: <Settings className="w-8 h-8" />,
-      title: "Quotation",
-      description:
-        "We provide competitive pricing with complete transparency and detailed quotations.",
-    },
-    {
-      icon: <Factory className="w-8 h-8" />,
-      title: "Manufacturing",
-      description:
-        "Using state-of-the-art technology, we manufacture high-quality metal products.",
-    },
-    {
-      icon: <ClipboardCheck className="w-8 h-8" />,
-      title: "Quality Inspection",
-      description:
-        "Every product undergoes rigorous quality testing to meet international standards.",
-    },
-    {
-      icon: <Package className="w-8 h-8" />,
-      title: "Packaging",
-      description: "Secure packaging ensures product safety during transit.",
-    },
-    {
-      icon: <Send className="w-8 h-8" />,
-      title: "Dispatch",
-      description: "Timely dispatch with proper documentation and tracking.",
-    },
-    {
-      icon: <Truck className="w-8 h-8" />,
-      title: "Delivery",
-      description:
-        "Safe and timely delivery to your location with full support.",
-    },
-  ];
+  // const processSteps = [
+  //   {
+  //     icon: <Calendar className="w-8 h-8" />,
+  //     title: "Consultation",
+  //     description:
+  //       "We understand your requirements and provide expert guidance on the best metal solutions for your project.",
+  //   },
+  //   {
+  //     icon: <Settings className="w-8 h-8" />,
+  //     title: "Quotation",
+  //     description:
+  //       "We provide competitive pricing with complete transparency and detailed quotations.",
+  //   },
+  //   {
+  //     icon: <Factory className="w-8 h-8" />,
+  //     title: "Manufacturing",
+  //     description:
+  //       "Using state-of-the-art technology, we manufacture high-quality metal products.",
+  //   },
+  //   {
+  //     icon: <ClipboardCheck className="w-8 h-8" />,
+  //     title: "Quality Inspection",
+  //     description:
+  //       "Every product undergoes rigorous quality testing to meet international standards.",
+  //   },
+  //   {
+  //     icon: <Package className="w-8 h-8" />,
+  //     title: "Packaging",
+  //     description: "Secure packaging ensures product safety during transit.",
+  //   },
+  //   {
+  //     icon: <Send className="w-8 h-8" />,
+  //     title: "Dispatch",
+  //     description: "Timely dispatch with proper documentation and tracking.",
+  //   },
+  //   {
+  //     icon: <Truck className="w-8 h-8" />,
+  //     title: "Delivery",
+  //     description:
+  //       "Safe and timely delivery to your location with full support.",
+  //   },
+  // ];
 
   const testimonials = [
     {
@@ -1037,51 +1037,76 @@ const Home: React.FC = () => {
 
           <div className="max-w-5xl mx-auto">
             {Array.from({ length: Math.ceil(countries.length / 5) }).map(
-              (_, rowIndex) => (
-                <div key={rowIndex} className="mb-4 sm:mb-5 md:mb-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-2 sm:gap-3 md:gap-4">
-                    {countries
-                      .slice(rowIndex * 5, rowIndex * 5 + 5)
-                      .map((country, colIndex) => (
-                        <div
-                          key={colIndex}
-                          className="group relative flex flex-col items-center justify-center p-3 sm:p-3.5 md:p-4 bg-white rounded-xl sm:rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden"
-                        >
-                          <div className="absolute inset-0 bg-gradient-to-br from-[#D71920] to-[#0A3D91] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                          <div className="absolute inset-[2px] bg-white rounded-xl sm:rounded-2xl group-hover:bg-transparent transition-colors duration-500"></div>
+              (_, rowIndex) => {
+                const marketLabels = [
+                  "Global Market",
+                  "International Market",
+                  "Global Markets",
+                  "International Markets",
+                  "Export Markets",
+                  "Overseas Markets",
+                  "Global Trade",
+                  "International Trade",
+                  "Global Supply",
+                  "International Supply",
+                  "Worldwide Supply",
+                  "Global Reach",
+                  "International Reach",
+                  "Global Presence",
+                  "Worldwide Distribution",
+                ];
 
-                          <div className="relative z-10 flex flex-col items-center w-full">
-                            <ReactCountryFlag
-                              countryCode={country.code}
-                              svg
-                              style={{
-                                width: "2rem",
-                                height: "2rem",
-                                borderRadius: "50%",
-                                objectFit: "cover",
-                              }}
-                              className="mb-1 sm:mb-1.5 md:mb-2 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500"
-                            />
-                            <span className="text-[10px] sm:text-[8px] md:text-[9px] lg:text-[10px] xl:text-xs font-semibold text-gray-700 text-center uppercase group-hover:text-white transition-colors block leading-tight w-full break-words">
-                              {country.name}
-                            </span>
+                return (
+                  <div key={rowIndex} className="mb-4 sm:mb-5 md:mb-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-2 sm:gap-3 md:gap-4">
+                      {countries
+                        .slice(rowIndex * 5, rowIndex * 5 + 5)
+                        .map((country, colIndex) => (
+                          <div
+                            key={colIndex}
+                            className="group relative flex flex-col items-center justify-center p-3 sm:p-3.5 md:p-4 bg-white rounded-xl sm:rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden"
+                          >
+                            <div className="absolute inset-0 bg-gradient-to-br from-[#D71920] to-[#0A3D91] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            <div className="absolute inset-[2px] bg-white rounded-xl sm:rounded-2xl group-hover:bg-transparent transition-colors duration-500"></div>
+
+                            <div className="relative z-10 flex flex-col items-center w-full">
+                              <ReactCountryFlag
+                                countryCode={country.code}
+                                svg
+                                style={{
+                                  width: "2rem",
+                                  height: "2rem",
+                                  borderRadius: "50%",
+                                  objectFit: "cover",
+                                }}
+                                className="mb-1 sm:mb-1.5 md:mb-2 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500"
+                              />
+                              <span className="text-[10px] sm:text-[8px] md:text-[9px] lg:text-[10px] xl:text-xs font-semibold text-gray-700 text-center uppercase group-hover:text-white transition-colors block leading-tight w-full break-words">
+                                {country.name}
+                              </span>
+                            </div>
                           </div>
-                        </div>
-                      ))}
-                  </div>
+                        ))}
+                    </div>
 
-                  <div className="hidden md:grid md:grid-cols-5 gap-3 md:gap-4 mt-3">
-                    {Array.from({ length: 5 }).map((_, labelIndex) => (
-                      <div
-                        key={labelIndex}
-                        className="text-center text-white font-bold text-[10px] lg:text-xs tracking-[0.2em] uppercase py-2 px-2 bg-gradient-to-r from-[#D71920] to-[#0A3D91] rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105"
-                      >
-                        🚀 EXPORT MARKET
-                      </div>
-                    ))}
+                    <div className="hidden md:grid md:grid-cols-5 gap-3 md:gap-4 mt-3">
+                      {Array.from({ length: 5 }).map((_, labelIndex) => {
+                        const globalIndex = rowIndex * 5 + labelIndex;
+                        const label =
+                          marketLabels[globalIndex % marketLabels.length];
+                        return (
+                          <div
+                            key={labelIndex}
+                            className="text-center text-white font-bold text-[10px] lg:text-xs tracking-[0.2em] uppercase py-2 px-2 bg-gradient-to-r from-[#D71920] to-[#0A3D91] rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105"
+                          >
+                          {label}
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
-                </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>

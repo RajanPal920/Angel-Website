@@ -198,7 +198,7 @@ const ProductsCategory: React.FC = () => {
                 />
                 {/* Product Badge */}
                 <div className="product-badge">
-                  {product.materialGroup || "Premium"}
+                  {product.slug || "Premium"}
                 </div>
               </div>
               <div className="category-product-info">

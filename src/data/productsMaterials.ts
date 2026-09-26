@@ -3699,6 +3699,6718 @@ export const buttweldFitting: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
+  {
+  id: 9,
+  slug: "carbon-steel-a234-buttweld-fittings",
+  image: "/stock/a234-carbon-steel-buttweld-fittings.jpg",
+  title:
+    "Carbon Steel ASTM A234 Buttweld Fittings Supplier – WPB / WPC / WP11 / WP22 / WP5 / WP9 (ASME SA234)",
+  shortDescription:
+    "Carbon Steel ASTM A234 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Carbon Steel ASTM A234 butt weld pipe fittings have the best corrosion resistance to chloride solution. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Carbon Steel ASTM A234 butt weld pipe fittings are available in different sizes and shapes. Carbon Steel ASTM A234 buttweld pipe fittings have the best corrosion resistance to oxidizing chloride solution. Carbon Steel ASTM A234 steel seamless pipe fittings have the best corrosion resistance to stress-corrosion cracking. ASME SA Carbon Steel bend pipe fittings have relatively low corrosion resistance to seawater but the best corrosion resistance to freshwater. ASTM A234 Carbon Steel stub ends contain nickel content up to 8% and some portion of molybdenum content. Carbon Steel ASTM A234 buttweld pipe fittings have a wide range of usage in different industries due to their variety of corrosion resistance characteristics. Carbon Steel ASTM seamless pipe fittings are mostly used in heat exchangers and condensers. Carbon Steel ASTM A234 stub ends are used in marine industries and shipbuilding companies. Carbon Steel ASTM bend pipe fittings are also used in petrochemicals and chemical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WPB":
+        "The most common carbon steel grade for butt weld fittings. Offers the best corrosion resistance to oxidizing chloride solution, stress-corrosion cracking, and freshwater. Contains nickel content up to 8% and some portion of molybdenum content. Widely used in heat exchangers, condensers, marine industries, shipbuilding, petrochemicals, and chemical equipment. Available in seamless, welded, and fabricated types.",
+      "ASTM A234 WPC":
+        "A higher-strength carbon steel grade with slightly higher manganese and silicon content for improved mechanical properties.",
+      "ASTM A234 WP11 / WP22 / WP5 / WP9":
+        "Chrome-moly alloy steel grades offering enhanced high-temperature strength and oxidation resistance for power generation, refineries, and petrochemical industries.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Carbon Steel A234 (WPB / WPC / WP11 / WP22 / WP5 / WP9)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Carbon Steel A234 Elbows Stock Available",
+        items: [
+          "ASTM A234 Carbon Steel 90° Elbow",
+          "ASTM A234 Carbon Steel 45° Elbow",
+          "ASTM A234 Carbon Steel Long Radius Elbow",
+          "ASTM A234 Carbon Steel Short Radius Elbow",
+          "ASTM A234 Carbon Steel 180° Bend",
+        ],
+        image: "/stock/a234-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Carbon Steel A234 Tees Stock Available",
+        items: [
+          "ASTM A234 Carbon Steel Equal Tee",
+          "Carbon Steel WPB Equal Tee",
+          "ASTM A234 Carbon Steel Unequal Tee",
+          "ASTM A234 Carbon Steel Lateral Tee",
+          "ASTM A234 Carbon Steel Fitting Cross",
+        ],
+        image: "/stock/a234-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Carbon Steel A234 Reducers Stock Available",
+        items: [
+          "ASTM A234 Carbon Steel Concentric Reducer",
+          "ASTM A234 Carbon Steel Eccentric Reducer",
+          "Carbon Steel ASTM A234 Pipe Reducer",
+          "ASME SA234 Carbon Steel Reducers",
+        ],
+        image: "/stock/a234-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Carbon Steel A234 Pipe Bends Stock Available",
+        items: [
+          "ASTM A234 Carbon Steel 1.5D Pipe Bend",
+          "ASTM A234 Carbon Steel 3D Pipe Bend",
+          "ASTM A234 Carbon Steel 5D Pipe Bend",
+          "ASTM A234 Carbon Steel 10D Pipe Bend",
+          "ASTM A234 Carbon Steel U Bend",
+        ],
+        image: "/stock/a234-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Carbon Steel A234 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Carbon Steel Short Stub End",
+          "ASTM A234 Carbon Steel Long Stub End",
+          "ASTM A234 Carbon Steel Lap-Joint Stub End",
+          "ASTM A234 Carbon Steel Stub End",
+        ],
+        image: "/stock/a234-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Carbon Steel A234 Caps Stock Available",
+        items: [
+          "ASTM A234 Carbon Steel End Cap",
+          "Carbon Steel A234 End Cap",
+          "ASTM A234 Carbon Steel Dish Cap",
+          "ASME SA234 Carbon Steel Caps",
+        ],
+        image: "/stock/a234-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WPB", uns: "K03006", werkstoff: "1.0566", standard: "ASTM" },
+    { grade: "ASTM A234 WPC", uns: "K03501", werkstoff: "1.0620", standard: "ASTM" },
+    { grade: "ASTM A234 WP11", uns: "K11572", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "ASTM A234 WP22", uns: "K21590", werkstoff: "1.7380", standard: "ASTM" },
+    { grade: "ASTM A234 WP5", uns: "K41545", werkstoff: "1.7362", standard: "ASTM" },
+    { grade: "ASTM A234 WP9", uns: "K90941", werkstoff: "1.7386", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WPB",
+      c: "0.30 max",
+      mn: "0.29 – 1.06",
+      si: "0.10 min",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "P: 0.050 max, S: 0.058 max, Cu: 0.40 max",
+    },
+    {
+      grade: "A234 WP11",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 – 1.00",
+      cr: "1.00 – 1.50",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+    {
+      grade: "A234 WP22",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "1.90 – 2.60",
+      ni: "—",
+      mo: "0.87 – 1.13",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+    {
+      grade: "A234 WP5",
+      c: "0.15 max",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "4.00 – 6.00",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+    {
+      grade: "A234 WP9",
+      c: "0.15 max",
+      mn: "0.30 – 0.60",
+      si: "1.00 max",
+      cr: "8.00 – 10.00",
+      ni: "—",
+      mo: "0.90 – 1.10",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WPB",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "240 MPa (35 ksi) min",
+      elongation: "22% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+    {
+      grade: "A234 WP11 / WP22 / WP5 / WP9",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "205 – 310 MPa (30 – 45 ksi)",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Carbon Steel A234 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Carbon Steel A234 Lateral Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Carbon Steel A234 U Bend", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Carbon Steel A234 Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Carbon Steel A234 Equal Tee", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Carbon Steel A234 Pipe Fitting",
+    "Carbon Steel A234 Buttweld Fitting",
+    "Carbon Steel A234 Seamless Fitting",
+    "Carbon Steel A234 Welded Fitting",
+    "Carbon Steel A234 90° Elbow",
+    "Carbon Steel A234 45° Elbow",
+    "Carbon Steel A234 Long Radius Elbow",
+    "Carbon Steel A234 Short Radius Elbow",
+    "Carbon Steel A234 Concentric Reducer",
+    "Carbon Steel A234 Eccentric Reducer",
+    "Carbon Steel A234 Equal Tee",
+    "Carbon Steel A234 Unequal Tee",
+    "Carbon Steel A234 Lateral Tee",
+    "Carbon Steel A234 Fitting Cross",
+    "Carbon Steel A234 Pipe Bends",
+    "Carbon Steel A234 U Bend",
+    "Carbon Steel A234 90° Bend",
+    "Carbon Steel A234 Short Stub End",
+    "Carbon Steel A234 Stub End",
+    "Carbon Steel A234 End Cap",
+    "Carbon Steel A234 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Heat Exchangers & Condensers",
+    "Marine Industries",
+    "Shipbuilding Companies",
+    "Petrochemicals",
+    "Chemical Equipment",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Freshwater & Seawater Systems",
+    "Pulp & Paper Industry",
+    "Pharmaceutical Equipment",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Carbon Steel ASTM A234 Buttweld Fittings Supplier in Mumbai, India",
+    "ASME SA234 Carbon Steel Buttweld Fittings Exporter",
+    "Carbon Steel WPB Equal Tee Stockist in India",
+    "Carbon Steel A234 Pipe Reducer Dealer",
+    "Carbon Steel 3D Pipe Bend Manufacturer",
+    "Carbon Steel A234 End Cap Supplier",
+    "Carbon Steel WPB 180° Bend Exporter",
+    "Carbon Steel 90° Elbow Manufacturer",
+    "Carbon Steel A234 Seamless Fittings Supplier",
+    "Carbon Steel A234 Welded Fittings Exporter",
+    "Carbon Steel A234 Stub End Manufacturer",
+    "Carbon Steel A234 Lateral Tee Supplier",
+    "Carbon Steel A234 Dish Cap Exporter",
+    "Carbon Steel A234 U Bend Manufacturer",
+  ],
+
+  relatedSearches: [
+    "Carbon Steel A234 Buttweld Fittings Price List",
+    "Carbon Steel A234 Fitting Weight Calculator",
+    "Carbon Steel A234 Fitting Dimensions",
+    "Carbon Steel A234 Fitting Price Per Kg in India",
+    "Carbon Steel A234 Fitting Manufacturer in Mumbai",
+    "Carbon Steel A234 Fitting Supplier in India",
+    "Carbon Steel A234 Fitting Thickness Tolerance",
+    "Carbon Steel A234 Fitting Price List PDF",
+    "Carbon Steel A234 Fitting Mechanical Properties",
+    "Carbon Steel A234 Fitting Chemical Composition",
+    "Carbon Steel A234 Fitting Stockist in Pune",
+    "Carbon Steel A234 Fitting Exporter",
+    "Carbon Steel A234 Fitting Price in Mumbai",
+    "Carbon Steel A234 Fitting Size Chart",
+    "Carbon Steel A234 Elbow Price",
+    "Carbon Steel A234 Tee Supplier",
+    "Carbon Steel A234 Reducer Manufacturers",
+    "Carbon Steel A234 Fitting Catalog PDF",
+    "Carbon Steel A234 Fitting Equivalent Grades",
+    "Carbon Steel A234 Fitting Price per Piece",
+    "Carbon Steel A234 Fitting updated price list",
+    "Carbon Steel A234 Fitting Size Chart 1/2 to 48 inch",
+    "Carbon Steel A234 Fitting Manufacturers in Gujarat",
+    "Carbon Steel A234 Fitting Stockyards in India",
+    "Carbon Steel A234 Fitting thickness chart",
+    "Carbon Steel A234 Fitting Price in India",
+    "Top 100 Carbon Steel A234 Fitting Dealers in Mumbai",
+    "Buy Carbon Steel A234 Fitting Online",
+    "Carbon Steel A234 Fitting leading manufacturers in India",
+    "ASTM A234 WPB Fitting Price India",
+    "ASME SA234 Fitting Price India",
+    "Carbon Steel A234 Fitting Heat Treatment",
+    "Carbon Steel A234 Fitting Normalizing Temperature",
+    "Carbon Steel A234 Fitting Hardness Range",
+    "Carbon Steel A234 U Bend Fitting",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 10,
+  slug: "carbon-steel-a420-buttweld-fittings",
+  image: "/stock/a420-carbon-steel-buttweld-fittings.jpg",
+  title:
+    "Carbon Steel ASTM A420 Buttweld Fittings Supplier – LTCS WPL6 / WPL9 / WPL3 (ASME SA420)",
+  shortDescription:
+    "Low Temperature Carbon Steel (LTCS) ASTM A420 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A420 / ASME SA420 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Carbon Steel ASTM A420 butt weld pipe fittings have the best corrosion resistance to stress corrosion cracking. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Carbon Steel ASTM A420 butt weld pipe fittings are available in different sizes and shapes. Carbon Steel ASME A420 seamless pipe fittings have the best corrosion resistance to sulphide stress cracking corrosion. Carbon Steel ASTM A420 Eccentric reducers also have better corrosion resistance to chloride solutions. Carbon Steel ASTM A420 steel bends have high tensile strength and hardness. Carbon Steel ASTM A420 seamless pipe fittings contain carbon steel up to 22%. Carbon Steel ASTM A420 short stub end pipe fittings have better corrosion resistance to seawater or rapidly flowing water. Carbon Steel ASTM A420 short stub end pipe fittings are mainly used in the marine industry, and they are also used in pump applications in the ocean. Carbon Steel ASTM A420 butt weld pipe fittings are also used extensively in chemical equipment and seawater equipment. Carbon Steel ASTM A420 Eccentric reducers can be used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A420 WPL6":
+        "The most common low-temperature carbon steel (LTCS) grade for butt weld fittings. Offers the best corrosion resistance to stress corrosion cracking and sulphide stress cracking corrosion. Contains carbon steel up to 22%. Excellent for low-temperature service down to -50°F (-46°C). Widely used in marine industries, ocean pump applications, chemical equipment, and seawater equipment.",
+      "ASTM A420 WPL3":
+        "A low-temperature carbon steel grade with slight chemistry variations for enhanced toughness in low-temperature service.",
+      "ASTM A420 WPL9":
+        "A higher-strength low-temperature carbon steel grade with nickel additions for enhanced toughness and strength at sub-zero temperatures.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A420 / ASME SA420",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A420 / ASME SA420 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Carbon Steel A420 (WPL6 / WPL9 / WPL3)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Carbon Steel A420 Elbows Stock Available",
+        items: [
+          "ASTM A420 LTCS 90° Elbow",
+          "ASTM A420 LTCS 45° Elbow",
+          "ASTM A420 LTCS Long Radius Elbow",
+          "ASTM A420 LTCS Short Radius Elbow",
+          "ASME SA420 Carbon Steel Short Radius Elbow",
+        ],
+        image: "/stock/a420-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Carbon Steel A420 Tees Stock Available",
+        items: [
+          "ASTM A420 LTCS WPL6 Equal Tee",
+          "LTCS WPL6 Equal Tee",
+          "ASTM A420 LTCS Unequal Tee",
+          "ASTM A420 LTCS Lateral Tee",
+          "ASTM A420 Carbon Steel Gr. WPL6 Cross",
+        ],
+        image: "/stock/a420-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Carbon Steel A420 Reducers Stock Available",
+        items: [
+          "ASME SA420 Concentric Reducer",
+          "ASTM A420 LTCS Concentric Reducer",
+          "Carbon Steel ASTM A420 Eccentric Reducer",
+          "Carbon Steel ASTM A420 Pipe Reducer",
+          "ASTM A420 LTCS Reducers",
+        ],
+        image: "/stock/a420-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Carbon Steel A420 Pipe Bends Stock Available",
+        items: [
+          "Carbon Steel 1.5D Pipe Bend",
+          "Carbon Steel A420 3D Pipe Bend",
+          "Carbon Steel 10D Pipe Bend",
+          "ASTM A420 LTCS 5D Pipe Bend",
+          "Carbon Steel ASTM A420 U Bend",
+        ],
+        image: "/stock/a420-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Carbon Steel A420 Stub Ends Stock Available",
+        items: [
+          "Carbon Steel ASTM A420 Short Stub End",
+          "ASTM A420 LTCS Short Stub End",
+          "Carbon Steel ASTM A420 Stub End",
+          "ASTM A420 LTCS Long Stub End",
+        ],
+        image: "/stock/a420-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Carbon Steel A420 Caps Stock Available",
+        items: [
+          "Carbon Steel A420 End Cap",
+          "ASTM A420 LTCS End Cap",
+          "Carbon Steel ASTM A420 End Cap",
+          "Carbon Steel ASTM A420 Dish Cap",
+        ],
+        image: "/stock/a420-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A420 WPL6", uns: "K03006", werkstoff: "1.0566", standard: "ASTM" },
+    { grade: "ASTM A420 WPL3", uns: "K22035", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASTM A420 WPL9", uns: "K81340", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASME SA420 WPL6", uns: "K03006", werkstoff: "1.0566", standard: "ASME" },
+    { grade: "LTCS WPL6", uns: "K03006", werkstoff: "1.0566", standard: "—" },
+    { grade: "LTCS WPL3", uns: "K22035", werkstoff: "—", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A420 WPL6",
+      c: "0.30 max",
+      mn: "0.60 – 1.35",
+      si: "0.15 – 0.40",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "P: 0.035 max, S: 0.035 max, Cu: 0.40 max, V: 0.08 max, Nb: 0.02 max",
+    },
+    {
+      grade: "A420 WPL3",
+      c: "0.20 max",
+      mn: "0.31 – 0.64",
+      si: "0.13 – 0.37",
+      cr: "—",
+      ni: "3.20 – 3.80",
+      mo: "—",
+      other: "P: 0.050 max, S: 0.050 max, Cu: 0.40 max, V: 0.08 max, Nb: 0.02 max",
+    },
+    {
+      grade: "A420 WPL9",
+      c: "0.20 max",
+      mn: "0.40 – 1.06",
+      si: "0.10 – 0.35",
+      cr: "—",
+      ni: "1.60 – 2.24",
+      mo: "—",
+      other: "P: 0.030 max, S: 0.030 max, Cu: 0.75 max, V: 0.08 max, Nb: 0.02 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A420 WPL6",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "240 MPa (35 ksi) min",
+      elongation: "22% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+    {
+      grade: "A420 WPL3",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "240 MPa (35 ksi) min",
+      elongation: "22% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+    {
+      grade: "A420 WPL9",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "240 MPa (35 ksi) min",
+      elongation: "22% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "ASTM A420 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Carbon Steel A420 Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "ASTM A420 CS Long Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASME SA420 Seamless Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "ASME SA420 Concentric Reducer", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "CS ASTM A420 Pipe Fitting",
+    "ASTM A420 Buttweld Fitting",
+    "ASME SA420 Seamless Fitting",
+    "Carbon Steel A420 Welded Fitting",
+    "MSS-SP-43 90° Elbow",
+    "Carbon Steel ASTM A420 45° Elbow",
+    "ASTM A420 CS Long Radius Elbow",
+    "Carbon Steel ASTM A420 Short Radius Elbow",
+    "ASTM A420",
+    "ASME SA420 Concentric Reducer",
+    "Carbon Steel ASTM A420 Eccentric Reducer",
+    "Carbon Steel ASTM A420 Equal Tee",
+    "Carbon Steel ASTM A420 Unequal Tee",
+    "Carbon Steel ASTM A420 Lateral Tee",
+    "Carbon Steel ASTM A420 Fitting Cross",
+    "Carbon Steel ASTM A420 Pipe Bends",
+    "Carbon Steel ASTM A420 U Bend",
+    "Carbon Steel ASTM A420 90° Bend",
+    "Carbon Steel ASTM A420 Short Stub End",
+    "Carbon Steel ASTM A420 Stub End",
+    "Carbon Steel ASTM A420 End Cap",
+    "Carbon Steel ASTM A420 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A420",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Impact Toughness (Charpy V-Notch)",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370 — at low temperature",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Low-Temperature Services (LTCS)",
+    "Marine Industries",
+    "Ocean Pump Applications",
+    "Chemical Equipment",
+    "Seawater Equipment",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pulp & Paper Industry",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Carbon Steel ASTM A420 Buttweld Fittings Supplier in Mumbai, India",
+    "ASME SA420 Carbon Steel Buttweld Fittings Exporter",
+    "LTCS WPL6 Equal Tee Stockist in India",
+    "Carbon Steel WPL6 Pipe Fittings Dealer",
+    "Carbon Steel 1.5D Pipe Bend Manufacturer",
+    "Carbon Steel A420 End Cap Supplier",
+    "Carbon Steel 10D Pipe Bend Exporter",
+    "Carbon Steel 90° Elbow Manufacturer",
+    "Carbon Steel A420 Seamless Fittings Supplier",
+    "Carbon Steel A420 Welded Fittings Exporter",
+    "Carbon Steel A420 Stub End Manufacturer",
+    "Carbon Steel A420 Lateral Tee Supplier",
+    "Carbon Steel A420 Dish Cap Exporter",
+    "Carbon Steel A420 U Bend Manufacturer",
+  ],
+
+  relatedSearches: [
+    "Carbon Steel A420 Buttweld Fittings Price List",
+    "Carbon Steel A420 Fitting Weight Calculator",
+    "Carbon Steel A420 Fitting Dimensions",
+    "Carbon Steel A420 Fitting Price Per Kg in India",
+    "Carbon Steel A420 Fitting Manufacturer in Mumbai",
+    "Carbon Steel A420 Fitting Supplier in India",
+    "Carbon Steel A420 Fitting Thickness Tolerance",
+    "Carbon Steel A420 Fitting Price List PDF",
+    "Carbon Steel A420 Fitting Mechanical Properties",
+    "Carbon Steel A420 Fitting Chemical Composition",
+    "Carbon Steel A420 Fitting Stockist in Pune",
+    "Carbon Steel A420 Fitting Exporter",
+    "Carbon Steel A420 Fitting Price in Mumbai",
+    "Carbon Steel A420 Fitting Size Chart",
+    "Carbon Steel A420 Elbow Price",
+    "Carbon Steel A420 Tee Supplier",
+    "Carbon Steel A420 Reducer Manufacturers",
+    "Carbon Steel A420 Fitting Catalog PDF",
+    "Carbon Steel A420 Fitting Equivalent Grades",
+    "Carbon Steel A420 Fitting Price per Piece",
+    "Carbon Steel A420 Fitting updated price list",
+    "Carbon Steel A420 Fitting Size Chart 1/2 to 48 inch",
+    "Carbon Steel A420 Fitting Manufacturers in Gujarat",
+    "Carbon Steel A420 Fitting Stockyards in India",
+    "Carbon Steel A420 Fitting thickness chart",
+    "Carbon Steel A420 Fitting Price in India",
+    "Top 100 Carbon Steel A420 Fitting Dealers in Mumbai",
+    "Buy Carbon Steel A420 Fitting Online",
+    "Carbon Steel A420 Fitting leading manufacturers in India",
+    "ASTM A420 WPL6 Fitting Price India",
+    "ASME SA420 Fitting Price India",
+    "Carbon Steel A420 Fitting Heat Treatment",
+    "Carbon Steel A420 Fitting Normalizing Temperature",
+    "Carbon Steel A420 Fitting Hardness Range",
+    "LTCS WPL6 Fittings Price List",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 11,
+  slug: "carbon-steel-a860-buttweld-fittings",
+  image: "/stock/a860-carbon-steel-buttweld-fittings.jpg",
+  title:
+    "Carbon Steel ASTM A860 Buttweld Fittings Supplier – WPHY 42 / 46 / 52 / 56 / 60 / 65 / 70 (ASME SA860)",
+  shortDescription:
+    "High Yield Carbon Steel ASTM A860 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A860 / ASME SA860 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Carbon Steel ASTM A860 butt weld pipe fittings have the best corrosion resistance to marine environments. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Carbon Steel ASTM A860 buttweld pipe fittings are available in different sizes and shapes. Carbon Steel ASME A860 butt weld pipe fittings have the best corrosion resistance of the austenitic grades. Carbon Steel ASTM A860 long stub ends have the best corrosion resistance to marine environments. Carbon Steel ASTM A860 lateral tee pipe fittings have tensile strength, great hardness, and best ductility. Carbon Steel ASTM A860 long radius elbow contains chromium content up to 25%, molybdenum content up to 3.6%, and nickel content up to 7%, and it contains some portion of nitrogen, copper, and tungsten as well. Carbon Steel ASME A860 reducers have wide applications in different industries due to their distinct features. Carbon Steel ASTM A860 lateral tee pipe fittings are mostly used in the marine industry, shipbuilding companies, and offshore oil drilling companies. Carbon Steel ASTM A860 Eccentric reducers are mostly used in gas processing and chemical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A860 WPHY 42":
+        "The base high yield carbon steel grade for buttweld fittings with minimum yield strength of 42 ksi (290 MPa). Offers the best corrosion resistance to marine environments and the best corrosion resistance of the austenitic grades. Contains chromium up to 25%, molybdenum up to 3.6%, and nickel up to 7% along with nitrogen, copper, and tungsten.",
+      "ASTM A860 WPHY 46":
+        "A high yield carbon steel grade with minimum yield strength of 46 ksi (317 MPa) offering enhanced strength and toughness.",
+      "ASTM A860 WPHY 52":
+        "A high yield carbon steel grade with minimum yield strength of 52 ksi (359 MPa) for high-pressure and high-strength applications.",
+      "ASTM A860 WPHY 56 / 60 / 65 / 70":
+        "Progressive higher yield strength grades (56 ksi to 70 ksi) for the most demanding high-pressure applications in oil & gas, petrochemicals, and power generation.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A860 / ASME SA860",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A860 / ASME SA860 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade:
+      "Carbon Steel A860 (WPHY 42 / 46 / 52 / 56 / 60 / 65 / 70)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Carbon Steel A860 Elbows Stock Available",
+        items: [
+          "ASTM A860 CS 90° Elbow",
+          "ASTM A860 CS 45° Elbow",
+          "ASTM A860 CS Long Radius Elbow",
+          "Carbon Steel ASTM A860 Short Radius Elbow",
+          "ASME SA860 Carbon Steel Short Radius Elbow",
+        ],
+        image: "/stock/a860-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Carbon Steel A860 Tees Stock Available",
+        items: [
+          "ASTM A860 CS Equal Tee",
+          "Carbon Steel ASTM A860 Equal Tee",
+          "Carbon Steel ASTM A860 Unequal Tee",
+          "Carbon Steel ASTM A860 Lateral Tee",
+          "Carbon Steel ASME SA860 Cross",
+        ],
+        image: "/stock/a860-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Carbon Steel A860 Reducers Stock Available",
+        items: [
+          "ANSI B16.9 High Yield Steel WPHY 52 Reducer",
+          "ASME SA860 Concentric Reducer",
+          "Carbon Steel ASTM A860 Eccentric Reducer",
+          "Carbon Steel ASTM A860 Concentric Reducer",
+          "Carbon Steel ASTM A860 Reducers",
+        ],
+        image: "/stock/a860-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Carbon Steel A860 Pipe Bends Stock Available",
+        items: [
+          "Carbon Steel 1.5D Pipe Bend",
+          "Carbon Steel 3D Pipe Bend",
+          "Carbon Steel 10D Pipe Bend",
+          "Carbon Steel ASTM A860 U Bend",
+          "ASTM A860 CS 90° Bend",
+        ],
+        image: "/stock/a860-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Carbon Steel A860 Stub Ends Stock Available",
+        items: [
+          "Carbon Steel ASTM A860 Short Stub End",
+          "Carbon Steel ASTM A860 Long Stub End",
+          "ASTM A860 CS Short Stub End",
+          "ASTM A860 CS Long Stub End",
+        ],
+        image: "/stock/a860-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Carbon Steel A860 Caps Stock Available",
+        items: [
+          "Carbon Steel ASTM A860 End Cap",
+          "Carbon Steel ASTM A860 End Pipe Cap",
+          "ASTM A860 CS End Cap",
+          "Carbon Steel ASTM A860 Dish Cap",
+        ],
+        image: "/stock/a860-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A860 WPHY 42", uns: "K12037", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASTM A860 WPHY 46", uns: "K12040", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASTM A860 WPHY 52", uns: "K12046", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASTM A860 WPHY 56", uns: "K12049", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASTM A860 WPHY 60", uns: "K12052", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASTM A860 WPHY 65 / 70", uns: "K12054 / K12057", werkstoff: "—", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A860 WPHY 42 / 46",
+      c: "0.20 max",
+      mn: "1.00 – 1.45",
+      si: "0.15 – 0.40",
+      cr: "0.30 max",
+      ni: "0.50 max",
+      mo: "0.15 max",
+      other: "P: 0.030 max, S: 0.015 max, Cu: 0.50 max, Ti: 0.05 max, V: 0.10 max",
+    },
+    {
+      grade: "A860 WPHY 52",
+      c: "0.20 max",
+      mn: "1.15 – 1.60",
+      si: "0.15 – 0.40",
+      cr: "0.30 max",
+      ni: "0.50 max",
+      mo: "0.15 max",
+      other: "P: 0.030 max, S: 0.015 max, Cu: 0.50 max, Ti: 0.05 max, V: 0.10 max",
+    },
+    {
+      grade: "A860 WPHY 56 / 60",
+      c: "0.20 max",
+      mn: "1.30 – 1.75",
+      si: "0.15 – 0.40",
+      cr: "0.30 max",
+      ni: "0.50 max",
+      mo: "0.15 max",
+      other: "P: 0.030 max, S: 0.015 max, Cu: 0.50 max, Ti: 0.05 max, V: 0.10 max",
+    },
+    {
+      grade: "A860 WPHY 65 / 70",
+      c: "0.20 max",
+      mn: "1.40 – 1.85",
+      si: "0.15 – 0.40",
+      cr: "0.30 max",
+      ni: "0.50 max",
+      mo: "0.15 max",
+      other: "P: 0.030 max, S: 0.015 max, Cu: 0.50 max, Ti: 0.05 max, V: 0.10 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A860 WPHY 42",
+      tensile: "515 – 690 MPa (75 – 100 ksi)",
+      yield: "290 MPa (42 ksi) min",
+      elongation: "25% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+    {
+      grade: "A860 WPHY 52",
+      tensile: "515 – 690 MPa (75 – 100 ksi)",
+      yield: "359 MPa (52 ksi) min",
+      elongation: "25% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+    {
+      grade: "A860 WPHY 60",
+      tensile: "565 – 760 MPa (82 – 110 ksi)",
+      yield: "414 MPa (60 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+    {
+      grade: "A860 WPHY 65 / 70",
+      tensile: "585 – 760 MPa (85 – 110 ksi)",
+      yield: "448 – 482 MPa (65 – 70 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Quenching & Tempering",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "ASTM A860 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Carbon Steel A860 Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "ASTM A860 CS Long Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM A860 Buttweld Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Carbon Steel ASTM A860 U Bend", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "CS ASTM A860 Pipe Fitting",
+    "ASTM A860 Buttweld Fitting",
+    "ASME SA860 Seamless Fitting",
+    "Carbon Steel A860 Welded Fitting",
+    "MSS-SP-43 90° Elbow",
+    "Carbon Steel ASTM A860 45° Elbow",
+    "ASTM A860 CS Long Radius Elbow",
+    "Carbon Steel ASTM A860 Short Radius Elbow",
+    "ASTM A860",
+    "ASME SA860 Concentric Reducer",
+    "Carbon Steel ASTM A860 Eccentric Reducer",
+    "Carbon Steel ASTM A860 Equal Tee",
+    "Carbon Steel ASTM A860 Unequal Tee",
+    "Carbon Steel ASTM A860 Lateral Tee",
+    "Carbon Steel ASTM A860 Fitting Cross",
+    "Carbon Steel ASTM A860 Pipe Bends",
+    "Carbon Steel ASTM A860 U Bend",
+    "Carbon Steel ASTM A860 90° Bend",
+    "Carbon Steel ASTM A860 Short Stub End",
+    "Carbon Steel ASTM A860 Stub End",
+    "Carbon Steel ASTM A860 End Cap",
+    "Carbon Steel ASTM A860 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A860",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Impact Toughness (Charpy V-Notch)",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Marine Industry",
+    "Shipbuilding Companies",
+    "Offshore Oil Drilling Companies",
+    "Gas Processing",
+    "Chemical Equipment",
+    "High-Pressure Pipelines",
+    "Oil & Natural Gas",
+    "Petrochemicals",
+    "Refineries",
+    "Power Generation",
+    "Heat Exchangers & Condensers",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Carbon Steel ASTM A860 Buttweld Fittings Supplier in Mumbai, India",
+    "ASME SA860 Carbon Steel Buttweld Fittings Exporter",
+    "High Yield Steel WPHY 52 Reducer Stockist in India",
+    "Carbon Steel ASTM A860 Lateral Tee Dealer",
+    "ASTM A860 CS 45° Elbow Manufacturer",
+    "Carbon Steel A860 End Cap Supplier",
+    "Carbon Steel 10D Pipe Bend Exporter",
+    "ASME SA860 Carbon Steel Short Radius Elbow",
+    "Carbon Steel ASTM A860 Stub End Manufacturer",
+    "Carbon Steel ASTM A860 Long Stub End Supplier",
+    "Carbon Steel ASTM A860 U Bend Manufacturer",
+    "Carbon Steel ASME SA860 Cross Exporter",
+    "Carbon Steel ASTM A860 Dish Cap Supplier",
+    "Carbon Steel ASTM A860 Pipe Reducer Manufacturer",
+  ],
+
+  relatedSearches: [
+    "Carbon Steel A860 Buttweld Fittings Price List",
+    "Carbon Steel A860 Fitting Weight Calculator",
+    "Carbon Steel A860 Fitting Dimensions",
+    "Carbon Steel A860 Fitting Price Per Kg in India",
+    "Carbon Steel A860 Fitting Manufacturer in Mumbai",
+    "Carbon Steel A860 Fitting Supplier in India",
+    "Carbon Steel A860 Fitting Thickness Tolerance",
+    "Carbon Steel A860 Fitting Price List PDF",
+    "Carbon Steel A860 Fitting Mechanical Properties",
+    "Carbon Steel A860 Fitting Chemical Composition",
+    "Carbon Steel A860 Fitting Stockist in Pune",
+    "Carbon Steel A860 Fitting Exporter",
+    "Carbon Steel A860 Fitting Price in Mumbai",
+    "Carbon Steel A860 Fitting Size Chart",
+    "Carbon Steel A860 Elbow Price",
+    "Carbon Steel A860 Tee Supplier",
+    "Carbon Steel A860 Reducer Manufacturers",
+    "Carbon Steel A860 Fitting Catalog PDF",
+    "Carbon Steel A860 Fitting Equivalent Grades",
+    "Carbon Steel A860 Fitting Price per Piece",
+    "Carbon Steel A860 Fitting updated price list",
+    "Carbon Steel A860 Fitting Size Chart 1/2 to 48 inch",
+    "Carbon Steel A860 Fitting Manufacturers in Gujarat",
+    "Carbon Steel A860 Fitting Stockyards in India",
+    "Carbon Steel A860 Fitting thickness chart",
+    "Carbon Steel A860 Fitting Price in India",
+    "Top 100 Carbon Steel A860 Fitting Dealers in Mumbai",
+    "Buy Carbon Steel A860 Fitting Online",
+    "Carbon Steel A860 Fitting leading manufacturers in India",
+    "ASTM A860 WPHY 52 Fitting Price India",
+    "ASME SA860 Fitting Price India",
+    "Carbon Steel A860 Fitting Heat Treatment",
+    "Carbon Steel A860 Fitting Normalizing Temperature",
+    "Carbon Steel A860 Fitting Hardness Range",
+    "High Yield Steel WPHY Fittings Price List",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 12,
+  slug: "duplex-steel-2205-s31803-s32205-buttweld-fittings",
+  image: "/stock/duplex-2205-buttweld-fittings.jpg",
+  title:
+    "Duplex Steel 2205 / S31803 / S32205 Buttweld Fittings Supplier – UNS S31803 / S32205 / WNR. 1.4462 (ASTM A815)",
+  shortDescription:
+    "Duplex Steel 2205 / S31803 / S32205 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A815 / ASME SA815 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Duplex Steel S31803 butt weld pipe fittings have the best corrosion resistance to crevice corrosion. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Duplex Steel S31803 butt weld pipe fittings are available in different sizes and shapes. Duplex Steel S32205 butt weld pipe fittings have the best corrosion resistance to pitting and crevice corrosion. Duplex Steel S31803 elbow butt weld pipe fittings have excellent corrosion resistance to stress cracking corrosion. Duplex Steel 32205 Reducers also have good corrosion resistance to chloride environments and oxidation. Duplex Steel S31803 stub end butt weld pipe fittings have high tensile strength and good corrosion resistance to sulfide stress corrosion. Duplex Steel S32205 stub ends can be used at temperatures up to 300°C. Duplex Steel S31803 stub ends are mostly used in the chemical industry and heat exchangers. Duplex Steel S31803 elbow butt weld pipe fittings are mostly used in chemical storage and tanks. Duplex Steel S31803 stub ends are also used in petrochemicals and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Duplex Steel 2205 / S31803":
+        "The original 22% chromium duplex stainless steel grade. Offers the best corrosion resistance to crevice corrosion, excellent resistance to stress cracking corrosion, high tensile strength, and good corrosion resistance to sulfide stress corrosion. Contains approximately 22% Cr, 5% Ni, 3% Mo, and 0.14-0.20% N. Werkstoff Nr. 1.4462. Widely used in chemical industry, heat exchangers, chemical storage and tanks, petrochemicals, and condensers.",
+      "Duplex Steel S32205":
+        "The modern designation for the standard 22% chromium duplex grade with tighter nitrogen and molybdenum specifications. Offers the best corrosion resistance to pitting and crevice corrosion, good corrosion resistance to chloride environments and oxidation. Can be used at temperatures up to 300°C. Werkstoff Nr. 1.4462.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A815 / ASME SA815",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A815 / ASME SA815 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Duplex Steel 2205 / S31803 / S32205",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Duplex Steel 2205 / S31803 / S32205 Elbows Stock Available",
+        items: [
+          "ASTM A815 UNS S32205 Duplex Steel 90° Elbow",
+          "Duplex Steel S32205 45° Elbow",
+          "UNS S32205 Long Radius Elbow",
+          "WNR. 1.4462 Short Radius Elbow",
+          "Duplex Steel 2205 180° Bend",
+        ],
+        image: "/stock/duplex-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Duplex Steel 2205 / S31803 / S32205 Tees Stock Available",
+        items: [
+          "Duplex Equal Tee",
+          "UNS S31803 Equal Tee",
+          "UNS S32205 Unequal Tee",
+          "Duplex Steel Lateral Tee",
+          "Duplex Steel WNR. 1.4462 Cross",
+        ],
+        image: "/stock/duplex-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Duplex Steel 2205 / S31803 / S32205 Reducers Stock Available",
+        items: [
+          "S32205 Duplex Alloy Reducer",
+          "Duplex Steel Concentric Reducer",
+          "Duplex Steel Eccentric Reducer",
+          "ASTM A815 UNS S32205 Duplex Reducer",
+          "Duplex Steel 2205 Reducers",
+        ],
+        image: "/stock/duplex-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Duplex Steel 2205 / S31803 / S32205 Pipe Bends Stock Available",
+        items: [
+          "Duplex 1.5D Bend",
+          "Duplex 5D Bend",
+          "Duplex Steel 3D Bend",
+          "Duplex Steel 10D Bend",
+          "Duplex Steel U Bend",
+        ],
+        image: "/stock/duplex-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Duplex Steel 2205 / S31803 / S32205 Stub Ends Stock Available",
+        items: [
+          "Duplex Steel Short Stub End",
+          "UNS S31803 Stub End",
+          "UNS S32205 Stub End",
+          "Duplex Steel 2205 Short Stub End",
+        ],
+        image: "/stock/duplex-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Duplex Steel 2205 / S31803 / S32205 Caps Stock Available",
+        items: [
+          "Duplex Steel End Cap",
+          "UNS S31803 Duplex End Cap",
+          "Duplex Steel Dish Cap",
+          "Duplex Steel 2205 End Cap",
+        ],
+        image: "/stock/duplex-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Duplex S31803", uns: "S31803", werkstoff: "1.4462", standard: "ASTM" },
+    { grade: "Duplex S32205", uns: "S32205", werkstoff: "1.4462", standard: "ASTM" },
+    { grade: "Duplex 2205", uns: "S31803 / S32205", werkstoff: "1.4462", standard: "—" },
+    { grade: "WNR. 1.4462", uns: "S31803 / S32205", werkstoff: "1.4462", standard: "DIN" },
+    { grade: "WNR. 1.4662", uns: "S82441", werkstoff: "1.4662", standard: "DIN" },
+    { grade: "SUS 329J3L", uns: "S31803 / S32205", werkstoff: "1.4462", standard: "JIS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Duplex S31803",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "21.00 – 23.00",
+      ni: "4.50 – 6.50",
+      mo: "2.50 – 3.50",
+      other: "P: 0.030 max, S: 0.020 max, N: 0.08 – 0.20, Fe: 63.72 min",
+    },
+    {
+      grade: "Duplex S32205",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "22.00 – 23.00",
+      ni: "4.50 – 6.50",
+      mo: "3.00 – 3.50",
+      other: "P: 0.030 max, S: 0.020 max, N: 0.14 – 0.20, Fe: 62.86 min",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Duplex S31803 / S32205",
+      tensile: "620 MPa (90 ksi) min",
+      yield: "450 MPa (65 ksi) min",
+      elongation: "25% min",
+      reduction: "—",
+      hardness: "290 HB max / 30 HRC max",
+      density: "7.80 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1020°C – 1100°C (1870°F – 2010°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "540°C – 600°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "UNS S31803 / S32205 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S31803 / S32205 Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "WNR. 1.4662 Short Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Duplex Steel Fitting Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Duplex Steel Short Stub End", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "UNS S31803 / S32205 Pipe Fitting",
+    "Duplex Steel Buttweld Fitting",
+    "Duplex Steel Seamless Fitting",
+    "UNS S31803 / S32205 Welded Fitting",
+    "Duplex Steel 90° Elbow",
+    "UNS S31803 45° Elbow",
+    "UNS S32205 Long Radius Elbow",
+    "WNR. 1.4662 Short Radius Elbow",
+    "Duplex Steel Concentric Reducer",
+    "Duplex Steel Eccentric Reducer",
+    "UNS S31803 Equal Tee",
+    "UNS S32205 Unequal Tee",
+    "Duplex Steel Lateral Tee",
+    "Duplex Steel Fitting Cross",
+    "UNS S31803 / S32205 Pipe Bends",
+    "Duplex Steel U Bend",
+    "Duplex Steel 180° Bend",
+    "Duplex Steel Short Stub End",
+    "UNS S31803 / S32205 Stub End",
+    "Duplex Steel End Cap",
+    "Duplex Steel Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A815",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Ferrite Content",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A923 / Metallographic",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Industry",
+    "Heat Exchangers & Condensers",
+    "Chemical Storage & Tanks",
+    "Petrochemicals",
+    "Chloride Environments",
+    "Marine Industry",
+    "Offshore Oil Drilling Companies",
+    "Oil & Gas Production",
+    "Desalination Plants",
+    "Pulp & Paper Industry",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Duplex Steel 2205 / S31803 / S32205 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A815 UNS S31803 Duplex Steel Buttweld Fittings Exporter",
+    "Duplex Steel S32205 90° Elbow Stockist in India",
+    "Duplex Steel S32205 45° Elbow Dealer",
+    "Duplex Steel 1.5D Bend Manufacturer",
+    "Duplex Steel Equal Tee Supplier",
+    "S32205 Duplex Alloy Reducer Exporter",
+    "Duplex Steel 180° Bend Manufacturer",
+    "Duplex Steel End Cap Supplier",
+    "Duplex Steel U Bend Manufacturer",
+    "Duplex Steel Stub End Supplier",
+    "Duplex Steel Lateral Tee Exporter",
+    "Duplex Steel Dish Cap Manufacturer",
+    "WNR. 1.4462 Duplex Steel Fittings Supplier",
+  ],
+
+  relatedSearches: [
+    "Duplex Steel 2205 Buttweld Fittings Price List",
+    "Duplex Steel 2205 Fitting Weight Calculator",
+    "Duplex Steel 2205 Fitting Dimensions",
+    "Duplex Steel 2205 Fitting Price Per Kg in India",
+    "Duplex Steel 2205 Fitting Manufacturer in Mumbai",
+    "Duplex Steel 2205 Fitting Supplier in India",
+    "Duplex Steel 2205 Fitting Thickness Tolerance",
+    "Duplex Steel 2205 Fitting Price List PDF",
+    "Duplex Steel 2205 Fitting Mechanical Properties",
+    "Duplex Steel 2205 Fitting Chemical Composition",
+    "Duplex Steel 2205 Fitting Stockist in Pune",
+    "Duplex Steel 2205 Fitting Exporter",
+    "Duplex Steel 2205 Fitting Price in Mumbai",
+    "Duplex Steel 2205 Fitting Size Chart",
+    "Duplex Steel Elbow Price",
+    "Duplex Steel Tee Supplier",
+    "Duplex Steel Reducer Manufacturers",
+    "Duplex Steel Fitting Catalog PDF",
+    "Duplex Steel Fitting Equivalent Grades",
+    "Duplex Steel Fitting Price per Piece",
+    "Duplex Steel Fitting updated price list",
+    "Duplex Steel Fitting Size Chart 1/2 to 48 inch",
+    "Duplex Steel Fitting Manufacturers in Gujarat",
+    "Duplex Steel Fitting Stockyards in India",
+    "Duplex Steel Fitting thickness chart",
+    "Duplex Steel Fitting Price in India",
+    "Top 100 Duplex Steel Fitting Dealers in Mumbai",
+    "Buy Duplex Steel Fitting Online",
+    "Duplex Steel Fitting leading manufacturers in India",
+    "UNS S31803 Fitting Price India",
+    "UNS S32205 Fitting Price India",
+    "Duplex Steel Fitting Heat Treatment",
+    "Duplex Steel Fitting Solution Annealing Temperature",
+    "Duplex Steel Fitting Hardness Range",
+    "Duplex Steel S31803 180 Deg Bend",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 13,
+  slug: "super-duplex-s32750-s32760-buttweld-fittings",
+  image: "/stock/super-duplex-s32750-s32760-buttweld-fittings.jpg",
+  title:
+    "Super Duplex S32750 / S32760 Buttweld Fittings Supplier – UNS S32750 / S32760 / WNR. 1.4410 / 1.4501 (ASTM A815)",
+  shortDescription:
+    "Super Duplex S32750 / S32760 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A815 / ASME SA815 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Super Duplex Steel S32760 butt weld pipe fittings have the best corrosion resistance to intercrystalline corrosion. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Super Duplex Steel S32760 buttweld fittings are available in different sizes and shapes. Super Duplex S32760 Cross butt weld pipe fittings have the best corrosion resistance to sulfide. Super Duplex S32750 butt weld fittings also have excellent corrosion resistance to pitting and crevice corrosion. Super Duplex Steel elbow pipe fittings have corrosion resistance to stress cracking corrosion. Super Duplex Steel S32760 Bend has high tensile strength and best welding properties. Super Duplex Steel S32760 pipe end caps can be hardened by heat and cold working processes. Super Duplex Steel S32760 Bend can be used for chemical processing and the marine industry. Super Duplex Steel S32750 Reducer is used in bridges, malls, buildings, museums, and skyscrapers. Super Duplex Steel S32750 pipe end caps are used for storage tanks and pressure vessels. Super Duplex Steel S32760 Cross butt weld pipe fittings are often used in heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Super Duplex S32750 (2507)":
+        "A highly alloyed 25% chromium super duplex stainless steel offering excellent corrosion resistance to pitting, crevice corrosion, and stress cracking corrosion. Has high tensile strength and can be hardened by heat and cold working. Werkstoff Nr. 1.4410. Widely used in bridges, malls, buildings, museums, skyscrapers, storage tanks, and pressure vessels.",
+      "Super Duplex S32760 (Zeron 100)":
+        "A 25% chromium super duplex stainless steel with tungsten and copper additions for enhanced resistance to mineral acids and sour gas (H₂S) environments. Offers the best corrosion resistance to intercrystalline corrosion and sulfide. Has high tensile strength and best welding properties. Werkstoff Nr. 1.4501. Widely used in chemical processing, marine industry, heat exchangers, and condensers.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A815 / ASME SA815",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43, MSS SP-79",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A815 / ASME SA815 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Super Duplex S32750 / S32760",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Super Duplex S32750 / S32760 Elbows Stock Available",
+        items: [
+          "ASTM A815 Super Duplex Steel 90° Elbow",
+          "UNS S32750 45° Elbow",
+          "UNS S32760 Long Radius Elbow",
+          "WNR. 1.4610 Short Radius Elbow",
+          "Super Duplex UNS S32760 Pipe Elbow",
+        ],
+        image: "/stock/super-duplex-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Super Duplex S32750 / S32760 Tees Stock Available",
+        items: [
+          "Super Duplex Steel Equal Tee",
+          "UNS S32750 Equal Tee",
+          "UNS S32760 Unequal Tee",
+          "Super Duplex Steel Lateral Tee",
+          "Stockholder of Super Duplex S32760 Tee",
+        ],
+        image: "/stock/super-duplex-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Super Duplex S32750 / S32760 Reducers Stock Available",
+        items: [
+          "ANSI B16.9 Super Duplex Steel Reducer",
+          "ASTM A815 Concentric Reducer",
+          "ASME SA815 Concentric Reducer",
+          "Super Duplex Steel Eccentric Reducer",
+          "Super Duplex S32750 Reducer",
+        ],
+        image: "/stock/super-duplex-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Super Duplex S32750 / S32760 Pipe Bends Stock Available",
+        items: [
+          "Super Duplex Steel 1.5D Bend",
+          "Super Duplex Steel 3D Bend",
+          "Super Duplex Steel 5D Bend",
+          "Super Duplex Steel 10D Bend",
+          "UNS S32750 Super Duplex Steel U Bend",
+        ],
+        image: "/stock/super-duplex-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Super Duplex S32750 / S32760 Stub Ends Stock Available",
+        items: [
+          "ASME SA815M Super Duplex S32760 Stub End",
+          "Super Duplex Steel Short Stub End",
+          "UNS S32750 Stub End",
+          "UNS S32760 Stub End",
+        ],
+        image: "/stock/super-duplex-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Super Duplex S32750 / S32760 Caps Stock Available",
+        items: [
+          "Super Duplex Steel End Cap",
+          "Super Duplex Steel Dish Cap",
+          "Super Duplex S32750 Pipe End Cap",
+          "Best Price of Super Duplex Pipe Cap",
+        ],
+        image: "/stock/super-duplex-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Super Duplex S32750", uns: "S32750", werkstoff: "1.4410", standard: "ASTM" },
+    { grade: "Super Duplex S32760", uns: "S32760", werkstoff: "1.4501", standard: "ASTM" },
+    { grade: "Zeron 100", uns: "S32760", werkstoff: "1.4501", standard: "—" },
+    { grade: "2507", uns: "S32750", werkstoff: "1.4410", standard: "—" },
+    { grade: "WNR. 1.4410", uns: "S32750", werkstoff: "1.4410", standard: "DIN" },
+    { grade: "WNR. 1.4501", uns: "S32760", werkstoff: "1.4501", standard: "DIN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Super Duplex S32750",
+      c: "0.030 max",
+      mn: "1.20 max",
+      si: "0.80 max",
+      cr: "24.00 – 26.00",
+      ni: "6.00 – 8.00",
+      mo: "3.00 – 5.00",
+      other: "P: 0.035 max, S: 0.020 max, N: 0.24 – 0.32, Cu: 0.50 max, Fe: 58.09 min",
+    },
+    {
+      grade: "Super Duplex S32760",
+      c: "0.050 max",
+      mn: "1.00 max",
+      si: "1.00 max",
+      cr: "24.00 – 26.00",
+      ni: "6.00 – 8.00",
+      mo: "3.00 – 4.00",
+      other: "P: 0.030 max, S: 0.010 max, N: 0.20 – 0.30, Cu: 0.50 – 1.00, W: 0.50 – 1.00, Fe: 57.61 min",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Super Duplex S32750 / S32760",
+      tensile: "800 MPa (116 ksi) min",
+      yield: "550 MPa (80 ksi) min",
+      elongation: "25% min",
+      reduction: "—",
+      hardness: "310 HB max / 32 HRC max",
+      density: "7.80 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1020°C – 1100°C (1870°F – 2010°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "540°C – 600°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "UNS S32750 / S32760 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S32750 / S32760 Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "WNR. 1.4610 Short Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Super Duplex Steel Fitting Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Super Duplex Steel End Cap", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "UNS S32750 / S32760 Pipe Fitting",
+    "Super Duplex Steel Buttweld Fitting",
+    "Super Duplex Steel Seamless Fitting",
+    "UNS S32750 / S32760 Welded Fitting",
+    "Super Duplex Steel 90° Elbow",
+    "UNS S32750 45° Elbow",
+    "UNS S32760 Long Radius Elbow",
+    "WNR. 1.4610 Short Radius Elbow",
+    "ASTM A815 / ASME SA815 Concentric Reducer",
+    "Super Duplex Steel Eccentric Reducer",
+    "UNS S32750 Equal Tee",
+    "UNS S32760 Unequal Tee",
+    "Super Duplex Steel Lateral Tee",
+    "Super Duplex Steel Fitting Cross",
+    "UNS S32750 / S32760 Pipe Bends",
+    "UNS S32750 Super Duplex Steel U Bend",
+    "UNS S32760 Super Duplex Steel 180° Bend",
+    "Super Duplex Steel Short Stub End",
+    "UNS S32750 / S32760 Stub End",
+    "Super Duplex Steel End Cap",
+    "Super Duplex Steel Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A815",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Ferrite Content",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A923 / Metallographic",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Processing",
+    "Marine Industry",
+    "Heat Exchangers & Condensers",
+    "Storage Tanks & Pressure Vessels",
+    "Bridges, Malls & Buildings",
+    "Museums & Skyscrapers",
+    "Oil & Gas Production",
+    "Offshore Oil Drilling Companies",
+    "Desalination Plants",
+    "Pulp & Paper Industry",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Super Duplex S32750 / S32760 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A815 Super Duplex Steel UNS S32750 Buttweld Fittings Exporter",
+    "Super Duplex S32760 Tee Stockholder in India",
+    "Super Duplex UNS S32760 Pipe Elbow Dealer",
+    "Global Supplier of S32760 Super Duplex Butt weld Pipe Fittings",
+    "ASME SA815M Super Duplex S32760 Stub End Wholesaler",
+    "Stockist of Super Duplex Stainless Buttweld Pipe Fittings",
+    "Super Duplex S32760 Cross Exporter",
+    "Super Duplex S32750 Reducer Manufacturer",
+    "Super Duplex Steel 180° Bend Supplier",
+    "Super Duplex Steel End Cap Manufacturer",
+    "Super Duplex Steel U Bend Exporter",
+    "Super Duplex S32760 Seamless Pipe Fittings Trader",
+    "WNR. 1.4410 / 1.4501 Super Duplex Fittings Supplier",
+  ],
+
+  relatedSearches: [
+    "Super Duplex S32750 Buttweld Fittings Price List",
+    "Super Duplex S32760 Fitting Weight Calculator",
+    "Super Duplex S32750 Fitting Dimensions",
+    "Super Duplex S32760 Fitting Price Per Kg in India",
+    "Super Duplex Fitting Manufacturer in Mumbai",
+    "Super Duplex Fitting Supplier in India",
+    "Super Duplex Fitting Thickness Tolerance",
+    "Super Duplex Fitting Price List PDF",
+    "Super Duplex Fitting Mechanical Properties",
+    "Super Duplex Fitting Chemical Composition",
+    "Super Duplex Fitting Stockist in Pune",
+    "Super Duplex Fitting Exporter",
+    "Super Duplex Fitting Price in Mumbai",
+    "Super Duplex Fitting Size Chart",
+    "Super Duplex Elbow Price",
+    "Super Duplex Tee Supplier",
+    "Super Duplex Reducer Manufacturers",
+    "Super Duplex Fitting Catalog PDF",
+    "Super Duplex Fitting Equivalent Grades",
+    "Super Duplex Fitting Price per Piece",
+    "Super Duplex Fitting updated price list",
+    "Super Duplex Fitting Size Chart 1/2 to 48 inch",
+    "Super Duplex Fitting Manufacturers in Gujarat",
+    "Super Duplex Fitting Stockyards in India",
+    "Super Duplex Fitting thickness chart",
+    "Super Duplex Fitting Price in India",
+    "Top 100 Super Duplex Fitting Dealers in Mumbai",
+    "Buy Super Duplex Fitting Online",
+    "Super Duplex Fitting leading manufacturers in India",
+    "UNS S32750 Fitting Price India",
+    "UNS S32760 Fitting Price India",
+    "Super Duplex Fitting Heat Treatment",
+    "Super Duplex Fitting Solution Annealing Temperature",
+    "Super Duplex Fitting Hardness Range",
+    "MSS SP-79 Super Duplex S32760 Butt weld Pipe Fitting",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 14,
+  slug: "super-duplex-s32950-buttweld-fittings",
+  image: "/stock/super-duplex-s32950-buttweld-fittings.jpg",
+  title:
+    "Super Duplex S32950 Buttweld Fittings Supplier – UNS S32950 / WNR. 1.4410 (ASTM A815 / ASME SA815)",
+  shortDescription:
+    "Super Duplex S32950 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A815 / ASME SA815 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Super Duplex Steel S32950 butt weld pipe fittings have the best corrosion resistance to crevice corrosion. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. S32950 butt weld pipe fittings are available in different sizes and shapes. Super Duplex S32950 Cross butt weld pipe fittings have the best corrosion resistance to sulfide. Super Duplex S32950 butt weld fittings also have excellent corrosion resistance to pitting and crevice corrosion. Super Duplex Steel elbow pipe fittings have corrosion resistance to stress cracking corrosion. Super Duplex Steel S32950 Bend has high tensile strength and best welding properties. Super Duplex Steel S32950 pipe end caps can be hardened by heat and cold working processes. Super Duplex Steel S32950 Bend can be used for chemical processing and the marine industry. Super Duplex Steel S32950 Reducer is used in bridges, malls, buildings, museums, and skyscrapers. Super Duplex Steel S32950 pipe end caps are used for storage tanks and pressure vessels. Super Duplex Steel S32950 Cross butt weld pipe fittings are often used in heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Super Duplex S32950":
+        "A ferritic-austenitic (duplex) stainless steel offering the best corrosion resistance to crevice corrosion, sulfide, pitting, and stress cracking corrosion. Contains approximately 26-29% Cr, 3.5-5.2% Ni, 1.0-2.5% Mo, and 0.15-0.35% N. Has high tensile strength and best welding properties. Can be hardened by heat and cold working processes. Werkstoff Nr. 1.4410. Also referred to as SAF S32950. Widely used in chemical processing, marine industry, heat exchangers, condensers, storage tanks, pressure vessels, bridges, malls, buildings, museums, and skyscrapers.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A815 / ASME SA815 / ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A815 / ASME SA815 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Super Duplex S32950 (UNS S32950)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Super Duplex S32950 Elbows Stock Available",
+        items: [
+          "ASTM A815 Super Duplex Steel S32950 90° Elbow",
+          "UNS S32950 45° Elbow",
+          "UNS S32950 Long Radius Elbow",
+          "WNR. 1.4410 Short Radius Elbow",
+          "Super Duplex UNS S32950 180° Elbow",
+        ],
+        image: "/stock/super-duplex-s32950-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Super Duplex S32950 Tees Stock Available",
+        items: [
+          "Super Duplex Steel S32950 Equal Tee",
+          "UNS S32950 Equal Tee",
+          "Super Duplex S32950 Unequal Tee",
+          "Duplex Steel S32950 Lateral Tee",
+          "UNS S32950 Pipe Tee Fittings",
+        ],
+        image: "/stock/super-duplex-s32950-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Super Duplex S32950 Reducers Stock Available",
+        items: [
+          "Super Duplex S32950 Eccentric Reducers",
+          "Duplex Steel S32950 Concentric Reducer",
+          "Duplex Steel Eccentric Reducer",
+          "ASTM A815 Super Duplex S32950 Reducers",
+          "Super Duplex Steel S32950 Reducers",
+        ],
+        image: "/stock/super-duplex-s32950-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Super Duplex S32950 Pipe Bends Stock Available",
+        items: [
+          "Super Duplex Steel 1.5D Bend",
+          "Super Duplex Steel 3D Bend",
+          "Super Duplex Steel 5D Bend",
+          "Super Duplex Steel 10D Bend",
+          "UNS S32950 Pipe Bends",
+        ],
+        image: "/stock/super-duplex-s32950-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Super Duplex S32950 Stub Ends Stock Available",
+        items: [
+          "Super Duplex Stainless Steel S32950 Stub Ends",
+          "Duplex Steel Short Stub End",
+          "UNS S32950 Stub End",
+          "ASTM A815 Super Duplex S32950 Stub Ends",
+        ],
+        image: "/stock/super-duplex-s32950-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Super Duplex S32950 Caps Stock Available",
+        items: [
+          "Duplex Steel S32950 End Cap",
+          "Super Duplex Steel End Cap",
+          "Duplex Steel S32950 Dish Cap",
+          "Super Duplex Steel Dish Cap",
+        ],
+        image: "/stock/super-duplex-s32950-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Super Duplex S32950", uns: "S32950", werkstoff: "1.4410", standard: "ASTM" },
+    { grade: "SAF S32950", uns: "S32950", werkstoff: "1.4410", standard: "—" },
+    { grade: "UNS S32950", uns: "S32950", werkstoff: "1.4410", standard: "—" },
+    { grade: "WNR. 1.4410", uns: "S32950", werkstoff: "1.4410", standard: "DIN" },
+    { grade: "SUS 329J4L", uns: "S32950", werkstoff: "1.4410", standard: "JIS" },
+    { grade: "Ferritic / Austenitic Super Duplex", uns: "S32950", werkstoff: "1.4410", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Super Duplex S32950",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "0.60 max",
+      cr: "26.00 – 29.00",
+      ni: "3.50 – 5.20",
+      mo: "1.00 – 2.50",
+      other: "P: 0.035 max, S: 0.010 max, N: 0.15 – 0.35, Cu: 0.50 max, Fe: 61.91 min",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Super Duplex S32950",
+      tensile: "690 MPa (100 ksi) min",
+      yield: "515 MPa (75 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "290 HB max / 32 HRC max",
+      density: "7.80 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1020°C – 1100°C (1870°F – 2010°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "540°C – 600°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Duplex Steel S32950 Lateral Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S32950 Pipe Bends", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Duplex Steel S32950 End Cap", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "WNR. 1.4410 Short Radius Elbow", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S32950 Stub End", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "UNS S32950 Pipe Fitting",
+    "Duplex Steel Buttweld Fitting",
+    "Duplex Steel Seamless Fitting",
+    "UNS S32950 Welded Fitting",
+    "Duplex Steel S32950 90° Elbow",
+    "UNS S32950 45° Elbow",
+    "UNS S32950 Long Radius Elbow",
+    "WNR. 1.4410 Short Radius Elbow",
+    "Duplex Steel S32950 Concentric Reducer",
+    "Duplex Steel Eccentric Reducer",
+    "UNS S32950 Equal Tee",
+    "Super Duplex S32950 Unequal Tee",
+    "Duplex Steel S32950 Lateral Tee",
+    "Duplex Steel S32950 Fitting Cross",
+    "UNS S32950 Pipe Bends",
+    "Duplex Steel U Bend",
+    "Duplex Steel 180° Bend",
+    "Duplex Steel Short Stub End",
+    "UNS S32950 Stub End",
+    "Duplex Steel S32950 End Cap",
+    "Duplex Steel S32950 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A815",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Ferrite Content",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A923 / Metallographic",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Processing",
+    "Marine Industry",
+    "Heat Exchangers & Condensers",
+    "Storage Tanks & Pressure Vessels",
+    "Bridges, Malls & Buildings",
+    "Museums & Skyscrapers",
+    "Oil & Gas Production",
+    "Offshore Oil Drilling Companies",
+    "Desalination Plants",
+    "Pulp & Paper Industry",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Super Duplex S32950 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A815 Super Duplex Steel S32950 Buttweld Fittings Exporter",
+    "Super Duplex S32950 Unequal Tee Dealer in India",
+    "Super Duplex UNS S32950 180° Elbow Supplier",
+    "Super Duplex S32950 Eccentric Reducers Manufacturer",
+    "Super Duplex Stainless Steel S32950 Stub Ends Manufacturer",
+    "S32950 Super Duplex Threaded Flange Exporter",
+    "ASME SA182 Super Duplex S32950 Plate Flange Supplier",
+    "Super Duplex Steel S32950 90 Deg SR Elbow Supplier",
+    "Exporter of ASME SA815 Super Duplex Steel S32950 Short Radius Elbow",
+    "UNS S32950 Pipe Tee Fittings Distributor",
+    "Super Duplex S32950 Lateral Tee Exporter",
+    "Super Duplex S32950 Pipe Bends Manufacturer",
+    "Super Duplex Steel S32950 Dish Cap Supplier",
+  ],
+
+  relatedSearches: [
+    "Super Duplex S32950 Buttweld Fittings Price List",
+    "Super Duplex S32950 Fitting Weight Calculator",
+    "Super Duplex S32950 Fitting Dimensions",
+    "Super Duplex S32950 Fitting Price Per Kg in India",
+    "Super Duplex S32950 Fitting Manufacturer in Mumbai",
+    "Super Duplex S32950 Fitting Supplier in India",
+    "Super Duplex S32950 Fitting Thickness Tolerance",
+    "Super Duplex S32950 Fitting Price List PDF",
+    "Super Duplex S32950 Fitting Mechanical Properties",
+    "Super Duplex S32950 Fitting Chemical Composition",
+    "Super Duplex S32950 Fitting Stockist in Pune",
+    "Super Duplex S32950 Fitting Exporter",
+    "Super Duplex S32950 Fitting Price in Mumbai",
+    "Super Duplex S32950 Fitting Size Chart",
+    "Super Duplex Elbow Price",
+    "Super Duplex Tee Supplier",
+    "Super Duplex Reducer Manufacturers",
+    "Super Duplex Fitting Catalog PDF",
+    "Super Duplex Fitting Equivalent Grades",
+    "Super Duplex Fitting Price per Piece",
+    "Super Duplex Fitting updated price list",
+    "Super Duplex Fitting Size Chart 1/2 to 48 inch",
+    "Super Duplex Fitting Manufacturers in Gujarat",
+    "Super Duplex Fitting Stockyards in India",
+    "Super Duplex Fitting thickness chart",
+    "Super Duplex Fitting Price in India",
+    "Top 100 Super Duplex Fitting Dealers in Mumbai",
+    "Buy Super Duplex Fitting Online",
+    "Super Duplex Fitting leading manufacturers in India",
+    "UNS S32950 Fitting Price India",
+    "WNR. 1.4410 Fitting Price India",
+    "Super Duplex Fitting Heat Treatment",
+    "Super Duplex Fitting Solution Annealing Temperature",
+    "Super Duplex Fitting Hardness Range",
+    "S32950 Super Duplex Pipe Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 15,
+  slug: "alloy-steel-wp1-buttweld-fittings",
+  image: "/stock/wp1-alloy-steel-buttweld-fittings.jpg",
+  title:
+    "Alloy Steel WP1 Buttweld Fittings Supplier – ASTM A234 / ASME SA234 (Chrome Moly Gr. WP1)",
+  shortDescription:
+    "Alloy Steel WP1 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Alloy Steel WP1 buttweld pipe fittings have the best corrosion resistance to intercrystalline corrosion. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Alloy Steel WP1 buttweld fittings are available in different sizes and shapes. Alloy Steel WP1 butt weld pipe fittings have the best corrosion resistance to general corrosion. Alloy Steel WP1 Cross butt weld pipe fittings have the best corrosion resistance to intercrystalline corrosion. Alloy Steel WP1 Lateral Tee butt weld pipe fittings can be easily used for cooling and welding. Alloy Steel WP1 End Cap pipe fittings can be used for heat working at temperatures between 1200°F and 2250°F. Alloy Steel WP1 butt weld pipe fittings can be used for vacuum and furnaces. Alloy Steel WP1 Stub Ends can be used for chemical processing equipment and mechanical equipment. Alloy Steel WP1 Lateral Tee butt weld pipe fittings can also be used for gas processing and pharmaceutical equipment. Alloy Steel WP1 Reducer can be used for condensers and petrochemicals.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WP1":
+        "A chrome-moly alloy steel grade for butt weld fittings with the best corrosion resistance to intercrystalline corrosion and general corrosion. Can be used for heat working at temperatures between 1200°F and 2250°F. Offers excellent weldability and is suitable for vacuum and furnace applications. Widely used in chemical processing equipment, mechanical equipment, gas processing, pharmaceutical equipment, condensers, and petrochemicals. Werkstoff Nr. 1.5415.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Alloy Steel WP1 (Chrome Moly)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Alloy Steel WP1 Elbows Stock Available",
+        items: [
+          "Alloy Steel WP1 90° Elbow",
+          "WP1 Alloy 90° Elbow",
+          "Alloy WP1 45° Elbow",
+          "Alloy WP1 Long Radius Elbow",
+          "A234 Alloy WP1 Short Radius Elbow",
+        ],
+        image: "/stock/wp1-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Alloy Steel WP1 Tees Stock Available",
+        items: [
+          "Alloy WP1 Equal Tee",
+          "Alloy Steel WP1 Equal Tee",
+          "Alloy Steel WP1 Unequal Tee",
+          "Alloy WP1 Lateral Tee",
+          "WP1 Alloy Steel Fitting Cross",
+        ],
+        image: "/stock/wp1-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Alloy Steel WP1 Reducers Stock Available",
+        items: [
+          "MSS-SP-43 Alloy Steel WP1 Reducer",
+          "Alloy Steel WP1 Concentric Reducer",
+          "Alloy Steel WP1 Eccentric Reducer",
+          "Alloy Steel WP1 Pipe Reducer",
+          "Alloy Steel WP1 Reducers",
+        ],
+        image: "/stock/wp1-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Alloy Steel WP1 Pipe Bends Stock Available",
+        items: [
+          "Alloy Steel 1.5D Pipe Bend",
+          "Alloy Steel WP1 3D Bend",
+          "Alloy Steel WP1 5D Bend",
+          "Alloy Steel WP1 10D Bend",
+          "Alloy WP1 U Bend",
+        ],
+        image: "/stock/wp1-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Alloy Steel WP1 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Alloy WP1 Short Stub End",
+          "Alloy WP1 Long Stub End",
+          "Alloy Steel WP1 Stub End",
+          "Alloy Steel WP1 Short Stub End",
+        ],
+        image: "/stock/wp1-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Alloy Steel WP1 Caps Stock Available",
+        items: [
+          "Alloy Steel WP1 End Cap",
+          "Alloy WP1 Dish Cap",
+          "Alloy Steel WP1 Dish Cap",
+          "Alloy Steel WP1 End Caps",
+        ],
+        image: "/stock/wp1-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WP1", uns: "K12822", werkstoff: "1.5415", standard: "ASTM" },
+    { grade: "ASME SA234 WP1", uns: "K12822", werkstoff: "1.5415", standard: "ASME" },
+    { grade: "Chrome Moly WP1", uns: "K12822", werkstoff: "1.5415", standard: "—" },
+    { grade: "A234 WP1", uns: "K12822", werkstoff: "1.5415", standard: "—" },
+    { grade: "Werkstoff 1.5415", uns: "K12822", werkstoff: "1.5415", standard: "DIN" },
+    { grade: "UNS K12822", uns: "K12822", werkstoff: "1.5415", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WP1",
+      c: "0.28 max",
+      mn: "0.30 – 0.90",
+      si: "0.10 – 0.50",
+      cr: "—",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.045 max, S: 0.045 max, Cu: 0.40 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WP1",
+      tensile: "380 – 530 MPa (55 – 77 ksi)",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel WP1 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WP1 Alloy Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy WP1 Lateral Tee", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel WP1 End Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy WP1 Long Stub End", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel WP1 Pipe Fitting",
+    "ASTM A234 Alloy WP1 Buttweld Fitting",
+    "Alloy Steel WP1 Seamless Fitting",
+    "WP1 Alloy Welded Fitting",
+    "WP1 Alloy 90° Elbow",
+    "Alloy WP1 45° Elbow",
+    "Alloy WP1 Long Radius Elbow",
+    "A234 Alloy WP1 Short Radius Elbow",
+    "Alloy Steel WP1 Concentric Reducer",
+    "Alloy Steel WP1 Eccentric Reducer",
+    "Alloy WP1 Equal Tee",
+    "Alloy Steel WP1 Unequal Tee",
+    "Alloy WP1 Lateral Tee",
+    "WP1 Alloy Steel Fitting Cross",
+    "Alloy Steel WP1 Pipe Bends",
+    "Alloy WP1 U Bend",
+    "Alloy Steel WP1 180° Bend",
+    "ASTM A234 Alloy WP1 Short Stub End",
+    "Alloy WP1 Long Stub End",
+    "Alloy Steel WP1 End Cap",
+    "Alloy WP1 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Vacuum & Furnaces",
+    "Chemical Processing Equipment",
+    "Mechanical Equipment",
+    "Gas Processing",
+    "Pharmaceutical Equipment",
+    "Condensers & Petrochemicals",
+    "Heat Exchangers",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "High-Temperature Applications (1200-2250°F)",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel WP1 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A234 Alloy Steel WP1 Pipe Fitting Exporter",
+    "WP1 Alloy Steel Welded Fitting Stockist in India",
+    "MSS-SP-43 Alloy Steel WP1 Reducer Dealer",
+    "Alloy Steel WP1 Elbow Manufacturer",
+    "WP1 Alloy Seamless Pipe Fitting Supplier",
+    "Alloy WP1 Butt weld Fittings Exporter",
+    "Alloy Steel WP1 180° Bend Manufacturer",
+    "Alloy Steel 1.5D Pipe Bend Supplier",
+    "ASME SA234 Chrome Moly Alloy Steel Gr. WP1 Cross",
+    "ANSI A234 Alloy Steel WP1 Buttweld Fittings",
+    "Alloy Steel WP1 Pipe Reducer Supplier",
+    "Alloy Steel WP1 45° Elbow Manufacturer",
+    "Alloy Steel WP1 Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel WP1 Buttweld Fittings Price List",
+    "Alloy Steel WP1 Fitting Weight Calculator",
+    "Alloy Steel WP1 Fitting Dimensions",
+    "Alloy Steel WP1 Fitting Price Per Kg in India",
+    "Alloy Steel WP1 Fitting Manufacturer in Mumbai",
+    "Alloy Steel WP1 Fitting Supplier in India",
+    "Alloy Steel WP1 Fitting Thickness Tolerance",
+    "Alloy Steel WP1 Fitting Price List PDF",
+    "Alloy Steel WP1 Fitting Mechanical Properties",
+    "Alloy Steel WP1 Fitting Chemical Composition",
+    "Alloy Steel WP1 Fitting Stockist in Pune",
+    "Alloy Steel WP1 Fitting Exporter",
+    "Alloy Steel WP1 Fitting Price in Mumbai",
+    "Alloy Steel WP1 Fitting Size Chart",
+    "Alloy Steel WP1 Elbow Price",
+    "Alloy Steel WP1 Tee Supplier",
+    "Alloy Steel WP1 Reducer Manufacturers",
+    "Alloy Steel WP1 Fitting Catalog PDF",
+    "Alloy Steel WP1 Fitting Equivalent Grades",
+    "Alloy Steel WP1 Fitting Price per Piece",
+    "Alloy Steel WP1 Fitting updated price list",
+    "Alloy Steel WP1 Fitting Size Chart 1/2 to 48 inch",
+    "Alloy Steel WP1 Fitting Manufacturers in Gujarat",
+    "Alloy Steel WP1 Fitting Stockyards in India",
+    "Alloy Steel WP1 Fitting thickness chart",
+    "Alloy Steel WP1 Fitting Price in India",
+    "Top 100 Alloy Steel WP1 Fitting Dealers in Mumbai",
+    "Buy Alloy Steel WP1 Fitting Online",
+    "Alloy Steel WP1 Fitting leading manufacturers in India",
+    "ASTM A234 WP1 Fitting Price India",
+    "Werkstoff 1.5415 Fitting Price India",
+    "Alloy Steel WP1 Fitting Heat Treatment",
+    "Alloy Steel WP1 Fitting Normalizing Temperature",
+    "Alloy Steel WP1 Fitting Hardness Range",
+    "Alloy Steel WP1 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 16,
+  slug: "alloy-steel-wp5-buttweld-fittings",
+  image: "/stock/wp5-alloy-steel-buttweld-fittings.jpg",
+  title:
+    "Alloy Steel WP5 Buttweld Fittings Supplier – ASTM A234 / ASME SA234 (Chrome Moly Gr. WP5)",
+  shortDescription:
+    "Alloy Steel WP5 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Alloy Steel WP5 buttweld fittings have the best corrosion resistance to pitting and crevice corrosion. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Alloy Steel WP5 butt weld pipe fittings are available in different sizes and shapes. Alloy Steel WP5 reducer can be used at temperatures up to 600°F. Alloy Steel WP5 buttweld pipe fittings have the best corrosion resistance to high-temperature properties. Alloy Steel WP5 butt weld pipe fittings have the best corrosion resistance to pitting and crevice corrosion. Alloy Steel WP5 reducer contains high chromium content. Alloy Steel WP5 stub ends have relatively low corrosion resistance to the rural atmosphere. Alloy Steel WP5 butt weld fittings are mainly used for synthetic fibers and processing equipment. Alloy Steel WP5 seamless pipe fittings can be used in handling foods to maintain purity and alkalis. Alloy Steel WP5 reducer is used in chemical equipment and pharmaceutical equipment. Alloy Steel WP5 butt weld pipe fittings are also used for petrochemicals and gas processing equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WP5":
+        "A chrome-moly alloy steel grade for butt weld fittings with the best corrosion resistance to pitting and crevice corrosion. Contains high chromium content (4-6%) for enhanced high-temperature properties. Can be used at temperatures up to 600°F for reducers. Offers excellent weldability and is suitable for high-temperature service. Widely used in synthetic fibers and processing equipment, food handling, chemical equipment, pharmaceutical equipment, petrochemicals, and gas processing equipment. Werkstoff Nr. 1.7362.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Alloy Steel WP5 (Chrome Moly 5Cr)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Alloy Steel WP5 Elbows Stock Available",
+        items: [
+          "Alloy Steel WP5 90° Elbow",
+          "WP5 Alloy 90° Elbow",
+          "Alloy WP5 45° Elbow",
+          "Alloy WP5 Long Radius Elbow",
+          "A234 Alloy WP5 Short Radius Elbow",
+        ],
+        image: "/stock/wp5-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Alloy Steel WP5 Tees Stock Available",
+        items: [
+          "Alloy WP5 Equal Tee",
+          "Alloy Steel WP5 Equal Tee",
+          "Alloy Steel WP5 Unequal Tee",
+          "Alloy WP5 Lateral Tee",
+          "WP5 Alloy Steel Fitting Cross",
+        ],
+        image: "/stock/wp5-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Alloy Steel WP5 Reducers Stock Available",
+        items: [
+          "Alloy Steel WP5 Pipe Reducer",
+          "Alloy Steel WP5 Concentric Reducer",
+          "Alloy Steel WP5 Eccentric Reducer",
+          "Alloy Steel WP5 Reducers",
+          "ASTM A234 Alloy WP5 Reducer",
+        ],
+        image: "/stock/wp5-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Alloy Steel WP5 Pipe Bends Stock Available",
+        items: [
+          "Alloy Steel 1.5D Pipe Bend",
+          "Alloy Steel 3D Pipe Bend",
+          "Alloy Steel 5D Pipe Bend",
+          "Alloy Steel 10D Pipe Bend",
+          "Alloy WP5 U Bend",
+        ],
+        image: "/stock/wp5-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Alloy Steel WP5 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Alloy WP5 Short Stub End",
+          "Alloy WP5 Long Stub End",
+          "Alloy Steel WP5 Stub End",
+          "Alloy Steel WP5 Short Stub End",
+        ],
+        image: "/stock/wp5-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Alloy Steel WP5 Caps Stock Available",
+        items: [
+          "Alloy Steel WP5 End Cap",
+          "Alloy WP5 Dish Cap",
+          "Alloy Steel WP5 Dish Cap",
+          "Alloy Steel WP5 End Caps",
+        ],
+        image: "/stock/wp5-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WP5", uns: "K41545", werkstoff: "1.7362", standard: "ASTM" },
+    { grade: "ASME SA234 WP5", uns: "K41545", werkstoff: "1.7362", standard: "ASME" },
+    { grade: "Chrome Moly WP5", uns: "K41545", werkstoff: "1.7362", standard: "—" },
+    { grade: "A234 WP5", uns: "K41545", werkstoff: "1.7362", standard: "—" },
+    { grade: "Werkstoff 1.7362", uns: "K41545", werkstoff: "1.7362", standard: "DIN" },
+    { grade: "UNS K41545", uns: "K41545", werkstoff: "1.7362", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WP5",
+      c: "0.15 max",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "4.00 – 6.00",
+      ni: "0.50 max",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max, Cu: 0.50 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WP5",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "WP5 Alloy Welded Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy WP5 Long Radius Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy WP5 U Bend", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy WP5 Long Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel WP5 180° Bend", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel WP5 Pipe Fitting",
+    "ASTM A234 Alloy WP5 Buttweld Fitting",
+    "Alloy Steel WP5 Seamless Fitting",
+    "WP5 Alloy Welded Fitting",
+    "WP5 Alloy 90° Elbow",
+    "Alloy WP5 45° Elbow",
+    "Alloy WP5 Long Radius Elbow",
+    "A234 Alloy WP5 Short Radius Elbow",
+    "Alloy Steel WP5 Concentric Reducer",
+    "Alloy Steel WP5 Eccentric Reducer",
+    "Alloy WP5 Equal Tee",
+    "Alloy Steel WP5 Unequal Tee",
+    "Alloy WP5 Lateral Tee",
+    "WP5 Alloy Steel Fitting Cross",
+    "Alloy Steel WP5 Pipe Bends",
+    "Alloy WP5 U Bend",
+    "Alloy Steel WP5 180° Bend",
+    "ASTM A234 Alloy WP5 Short Stub End",
+    "Alloy WP5 Long Stub End",
+    "Alloy Steel WP5 End Cap",
+    "Alloy WP5 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Synthetic Fibers & Processing Equipment",
+    "Food Handling & Purity",
+    "Chemical Equipment",
+    "Pharmaceutical Equipment",
+    "Petrochemicals",
+    "Gas Processing Equipment",
+    "High-Temperature Applications (up to 600°F)",
+    "Heat Exchangers",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel WP5 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A234 Alloy Steel WP5 Pipe Fitting Exporter",
+    "WP5 Alloy Steel Welded Fitting Stockist in India",
+    "Alloy Steel WP5 Pipe Reducer Dealer",
+    "Alloy Steel WP5 Equal Tee Manufacturer",
+    "Alloy Steel WP5 90° Elbow Supplier",
+    "Alloy Steel WP5 180° Bend Manufacturer",
+    "Alloy Steel 3D Pipe Bend Supplier",
+    "Alloy Steel 10D Pipe Bend Exporter",
+    "Alloy Steel WP5 Short Radius Elbow Supplier",
+    "ANSI B16.9 Alloy Steel WP5 Welded Buttweld Fittings",
+    "ASME SA234 Chrome Moly Alloy Steel WP5 Cross Exporter",
+    "Alloy Steel WP5 Stub End Manufacturer",
+    "Alloy Steel WP5 Dish Cap Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel WP5 Buttweld Fittings Price List",
+    "Alloy Steel WP5 Fitting Weight Calculator",
+    "Alloy Steel WP5 Fitting Dimensions",
+    "Alloy Steel WP5 Fitting Price Per Kg in India",
+    "Alloy Steel WP5 Fitting Manufacturer in Mumbai",
+    "Alloy Steel WP5 Fitting Supplier in India",
+    "Alloy Steel WP5 Fitting Thickness Tolerance",
+    "Alloy Steel WP5 Fitting Price List PDF",
+    "Alloy Steel WP5 Fitting Mechanical Properties",
+    "Alloy Steel WP5 Fitting Chemical Composition",
+    "Alloy Steel WP5 Fitting Stockist in Pune",
+    "Alloy Steel WP5 Fitting Exporter",
+    "Alloy Steel WP5 Fitting Price in Mumbai",
+    "Alloy Steel WP5 Fitting Size Chart",
+    "Alloy Steel WP5 Elbow Price",
+    "Alloy Steel WP5 Tee Supplier",
+    "Alloy Steel WP5 Reducer Manufacturers",
+    "Alloy Steel WP5 Fitting Catalog PDF",
+    "Alloy Steel WP5 Fitting Equivalent Grades",
+    "Alloy Steel WP5 Fitting Price per Piece",
+    "Alloy Steel WP5 Fitting updated price list",
+    "Alloy Steel WP5 Fitting Size Chart 1/2 to 48 inch",
+    "Alloy Steel WP5 Fitting Manufacturers in Gujarat",
+    "Alloy Steel WP5 Fitting Stockyards in India",
+    "Alloy Steel WP5 Fitting thickness chart",
+    "Alloy Steel WP5 Fitting Price in India",
+    "Top 100 Alloy Steel WP5 Fitting Dealers in Mumbai",
+    "Buy Alloy Steel WP5 Fitting Online",
+    "Alloy Steel WP5 Fitting leading manufacturers in India",
+    "ASTM A234 WP5 Fitting Price India",
+    "Werkstoff 1.7362 Fitting Price India",
+    "Alloy Steel WP5 Fitting Heat Treatment",
+    "Alloy Steel WP5 Fitting Normalizing Temperature",
+    "Alloy Steel WP5 Fitting Hardness Range",
+    "Alloy Steel WP5 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 17,
+  slug: "alloy-steel-wp9-buttweld-fittings",
+  image: "/stock/wp9-alloy-steel-buttweld-fittings.jpg",
+  title:
+    "Alloy Steel WP9 Buttweld Fittings Supplier – ASTM A234 / ASME SA234 (Chrome Moly Gr. WP9)",
+  shortDescription:
+    "Alloy Steel WP9 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Alloy Steel WP9 is a chromium-molybdenum alloy steel (9% Cr, 1% Mo) used for elevated-temperature service. It offers superior creep resistance, excellent high-temperature strength, good oxidation and corrosion resistance, and reliable weldability and stability after heat treatment. It is commonly used in power plants, refinery heater lines, steam lines, and superheater piping systems. Alloy Steel WP9 buttweld fittings have excellent resistance to chloride-ion stress-corrosion cracking. They are available in different diameters and types which include elbow, reducer, stub end, tee, and long radius bend pipe fittings. The material is widely demanded for its precision dimensions like ASME B16.9, B16.28, MSS-SP43/75 for sizes ranging from ½\" to 72\" (in all Schedules).",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WP9":
+        "A chrome-moly alloy steel grade (9% Cr, 1% Mo) for butt weld fittings with superior creep resistance, excellent high-temperature strength, good oxidation and corrosion resistance, and reliable weldability. Commonly used in power plants, refinery heater lines, steam lines, and superheater piping systems. Offers excellent resistance to chloride-ion stress-corrosion cracking. Can be hot formed and annealed. Available in IBR and Non-IBR forms. Werkstoff Nr. 1.7386.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43, MSS SP-75",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    heatTreatment: "Hot Formed and Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Alloy Steel WP9 (Chrome Moly 9Cr-1Mo)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available | IBR FORM III-C Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Alloy Steel WP9 Elbows Stock Available",
+        items: [
+          "Alloy Steel WP9 90° Elbow",
+          "WP9 Alloy 90° Elbow",
+          "Alloy WP9 45° Elbow",
+          "Alloy WP9 Long Radius Elbow",
+          "A234 Alloy WP9 Short Radius Elbow",
+        ],
+        image: "/stock/wp9-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Alloy Steel WP9 Tees Stock Available",
+        items: [
+          "Alloy WP9 Equal Tee",
+          "ASTM A234 WP9 IBR Tee",
+          "Alloy Steel WP9 Unequal Tee",
+          "Alloy WP9 Lateral Tee",
+          "ASTM A234 WP9 Reducing Tee",
+        ],
+        image: "/stock/wp9-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Alloy Steel WP9 Reducers Stock Available",
+        items: [
+          "Alloy Steel WP9 Pipe Reducer",
+          "Alloy Steel WP9 Concentric Reducer",
+          "Alloy Steel WP9 Eccentric Reducer",
+          "Alloy Steel WP9 Reducers",
+          "ASTM A234 Alloy WP9 Reducer",
+        ],
+        image: "/stock/wp9-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Alloy Steel WP9 Pipe Bends Stock Available",
+        items: [
+          "Alloy Steel 1.5D Pipe Bend",
+          "Alloy Steel 3D Pipe Bend",
+          "Alloy Steel 5D Pipe Bend",
+          "Alloy Steel 10D Pipe Bend",
+          "Alloy WP9 U Bend",
+        ],
+        image: "/stock/wp9-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Alloy Steel WP9 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Alloy WP9 Short Stub End",
+          "Alloy WP9 Long Stub End",
+          "Alloy Steel WP9 Stub End",
+          "Alloy Steel WP9 Short Stub End",
+        ],
+        image: "/stock/wp9-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Alloy Steel WP9 Caps Stock Available",
+        items: [
+          "Alloy Steel WP9 End Cap",
+          "Alloy WP9 Dish Cap",
+          "Alloy Steel WP9 Dish Cap",
+          "Alloy Steel WP9 End Caps",
+        ],
+        image: "/stock/wp9-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WP9", uns: "K90941", werkstoff: "1.7386", standard: "ASTM" },
+    { grade: "ASME SA234 WP9", uns: "K90941", werkstoff: "1.7386", standard: "ASME" },
+    { grade: "Chrome Moly WP9", uns: "K90941", werkstoff: "1.7386", standard: "—" },
+    { grade: "A234 WP9", uns: "K90941", werkstoff: "1.7386", standard: "—" },
+    { grade: "Werkstoff 1.7386", uns: "K90941", werkstoff: "1.7386", standard: "DIN" },
+    { grade: "UNS K90941", uns: "K90941", werkstoff: "1.7386", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WP9",
+      c: "0.15 max",
+      mn: "0.30 – 0.60",
+      si: "1.00 max",
+      cr: "8.00 – 10.00",
+      ni: "—",
+      mo: "0.90 – 1.10",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WP9",
+      tensile: "585 MPa (85 ksi) min",
+      yield: "380 MPa (55 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "217 HB max",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "675°C (1250°F)",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel WP9 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WP9 Alloy Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy WP9 Lateral Tee", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel WP9 End Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy WP9 Long Stub End", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel WP9 Pipe Fitting",
+    "ASTM A234 Alloy WP9 Buttweld Fitting",
+    "Alloy Steel WP9 Seamless Fitting",
+    "WP9 Alloy Welded Fitting",
+    "WP9 Alloy 90° Elbow",
+    "Alloy WP9 45° Elbow",
+    "Alloy WP9 Long Radius Elbow",
+    "A234 Alloy WP9 Short Radius Elbow",
+    "Alloy Steel WP9 Concentric Reducer",
+    "Alloy Steel WP9 Eccentric Reducer",
+    "Alloy WP9 Equal Tee",
+    "Alloy Steel WP9 Unequal Tee",
+    "Alloy WP9 Lateral Tee",
+    "WP9 Alloy Steel Fitting Cross",
+    "Alloy Steel WP9 Pipe Bends",
+    "Alloy WP9 U Bend",
+    "Alloy Steel WP9 180° Bend",
+    "ASTM A234 Alloy WP9 Short Stub End",
+    "Alloy WP9 Long Stub End",
+    "Alloy Steel WP9 End Cap",
+    "Alloy WP9 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Power Generation",
+    "Refinery Heater Lines",
+    "Steam Lines",
+    "Superheater Piping Systems",
+    "Petroleum",
+    "Natural Gas",
+    "Chemical",
+    "Shipbuilding",
+    "Heating",
+    "Papermaking",
+    "Metallurgy",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel WP9 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A234 Alloy Steel WP9 Pipe Fitting Exporter",
+    "WP9 Alloy Steel Welded Fitting Stockist in India",
+    "Alloy Steel WP9 Pipe Reducer Dealer",
+    "Alloy Steel WP9 Equal Tee Manufacturer",
+    "Alloy Steel WP9 90° Elbow Supplier",
+    "Alloy Steel WP9 180° Bend Manufacturer",
+    "Alloy Steel 3D Pipe Bend Supplier",
+    "Alloy Steel 10D Pipe Bend Exporter",
+    "Alloy Steel WP9 Short Radius Elbow Supplier",
+    "ANSI B16.9 Alloy Steel WP9 Welded Buttweld Fittings",
+    "ASME SA234 Chrome Moly Alloy Steel WP9 Cross Exporter",
+    "Alloy Steel WP9 Stub End Manufacturer",
+    "Alloy Steel WP9 Dish Cap Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel WP9 Buttweld Fittings Price List",
+    "Alloy Steel WP9 Fitting Weight Calculator",
+    "Alloy Steel WP9 Fitting Dimensions",
+    "Alloy Steel WP9 Fitting Price Per Kg in India",
+    "Alloy Steel WP9 Fitting Manufacturer in Mumbai",
+    "Alloy Steel WP9 Fitting Supplier in India",
+    "Alloy Steel WP9 Fitting Thickness Tolerance",
+    "Alloy Steel WP9 Fitting Price List PDF",
+    "Alloy Steel WP9 Fitting Mechanical Properties",
+    "Alloy Steel WP9 Fitting Chemical Composition",
+    "Alloy Steel WP9 Fitting Stockist in Pune",
+    "Alloy Steel WP9 Fitting Exporter",
+    "Alloy Steel WP9 Fitting Price in Mumbai",
+    "Alloy Steel WP9 Fitting Size Chart",
+    "Alloy Steel WP9 Elbow Price",
+    "Alloy Steel WP9 Tee Supplier",
+    "Alloy Steel WP9 Reducer Manufacturers",
+    "Alloy Steel WP9 Fitting Catalog PDF",
+    "Alloy Steel WP9 Fitting Equivalent Grades",
+    "Alloy Steel WP9 Fitting Price per Piece",
+    "Alloy Steel WP9 Fitting updated price list",
+    "Alloy Steel WP9 Fitting Size Chart 1/2 to 48 inch",
+    "Alloy Steel WP9 Fitting Manufacturers in Gujarat",
+    "Alloy Steel WP9 Fitting Stockyards in India",
+    "Alloy Steel WP9 Fitting thickness chart",
+    "Alloy Steel WP9 Fitting Price in India",
+    "Top 100 Alloy Steel WP9 Fitting Dealers in Mumbai",
+    "Buy Alloy Steel WP9 Fitting Online",
+    "Alloy Steel WP9 Fitting leading manufacturers in India",
+    "ASTM A234 WP9 Fitting Price India",
+    "Werkstoff 1.7386 Fitting Price India",
+    "Alloy Steel WP9 Fitting Heat Treatment",
+    "Alloy Steel WP9 Fitting Normalizing Temperature",
+    "Alloy Steel WP9 Fitting Hardness Range",
+    "Alloy Steel WP9 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 18,
+  slug: "alloy-steel-wp11-buttweld-fittings",
+  image: "/stock/wp11-alloy-steel-buttweld-fittings.jpg",
+  title:
+    "Alloy Steel WP11 Buttweld Fittings Supplier – ASTM A234 / ASME SA234 (Chrome Moly Gr. WP11)",
+  shortDescription:
+    "Alloy Steel WP11 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Alloy Steel WP11 buttweld fittings have the best corrosion resistance to oxidization corrosive environments. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Alloy Steel WP11 butt weld pipe fittings are available in different sizes and shapes. WP11 buttweld fittings have good weldability. Alloy Steel WP11 Tee butt weld pipe fittings have better corrosion resistance to oxidization corrosive environments. Alloy Steel WP11 pipe fittings are highly fabricable, which is one of the main features making it stand apart from other alloy steel grades. Alloy Steel WP11 reducer holds high tensile strength. Alloy Steel WP11 stub end butt weld pipe fittings contain nitrogen which further enables the alloy to have better resistance against other corrosive media environments. The cold working process can very easily harden alloy steel WP11 butt weld pipe fittings. Cryogenic toughness, high tensile strength, and good formability are the main features of Alloy Steel seamless pipe fittings. Alloy Steel WP11 end cap can effortlessly be welded by resistance and shielded fusion method. Alloy Steel WP11 reducer can be used for seawater equipment, marine industry, and offshore oil drilling companies. Alloy Steel WP11 butt weld fittings can also be used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WP11":
+        "A chrome-moly alloy steel grade (1.25% Cr, 0.5% Mo) for butt weld fittings with the best corrosion resistance to oxidization corrosive environments. Offers good weldability, high fabricability, high tensile strength, cryogenic toughness, and good formability. Contains nitrogen in the stub ends for enhanced resistance against corrosive media. Can be hardened by cold working. Widely used in seawater equipment, marine industry, offshore oil drilling companies, heat exchangers, and condensers. Werkstoff Nr. 1.7335.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    heatTreatment: "Hot Formed and Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Alloy Steel WP11 (Chrome Moly 1.25Cr-0.5Mo)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available | IBR FORM III-C Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Alloy Steel WP11 Elbows Stock Available",
+        items: [
+          "Alloy Steel WP11 90° Elbow",
+          "WP11 Alloy 90° Elbow",
+          "Alloy WP11 45° Elbow",
+          "Alloy WP11 Long Radius Elbow",
+          "A234 Alloy WP11 Short Radius Elbow",
+        ],
+        image: "/stock/wp11-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Alloy Steel WP11 Tees Stock Available",
+        items: [
+          "Alloy WP11 Equal Tee",
+          "Alloy Steel WP11 Equal Tee",
+          "Alloy Steel WP11 Unequal Tee",
+          "Alloy WP11 Lateral Tee",
+          "WP11 Alloy Steel Fitting Cross",
+        ],
+        image: "/stock/wp11-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Alloy Steel WP11 Reducers Stock Available",
+        items: [
+          "Alloy Steel WP11 Pipe Reducer",
+          "Alloy Steel WP11 Concentric Reducer",
+          "Alloy Steel WP11 Eccentric Reducer",
+          "Alloy Steel WP11 Reducers",
+          "ASTM A234 Alloy WP11 Reducer",
+        ],
+        image: "/stock/wp11-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Alloy Steel WP11 Pipe Bends Stock Available",
+        items: [
+          "Alloy Steel WP11 1.5D Pipe Bend",
+          "Alloy Steel 3D Pipe Bend",
+          "Alloy Steel WP11 5D Pipe Bend",
+          "Alloy Steel 10D Pipe Bend",
+          "Alloy WP11 U Bend",
+        ],
+        image: "/stock/wp11-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Alloy Steel WP11 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Alloy WP11 Long Stub End",
+          "Alloy WP11 Short Stub End",
+          "Alloy Steel WP11 Stub End",
+          "Alloy Steel WP11 Long Stub End",
+        ],
+        image: "/stock/wp11-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Alloy Steel WP11 Caps Stock Available",
+        items: [
+          "Alloy Steel WP11 End Cap",
+          "Alloy WP11 Dish Cap",
+          "Alloy Steel WP11 Dish Cap",
+          "Alloy Steel WP11 End Caps",
+        ],
+        image: "/stock/wp11-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WP11", uns: "K11572", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "ASME SA234 WP11", uns: "K11572", werkstoff: "1.7335", standard: "ASME" },
+    { grade: "Chrome Moly WP11", uns: "K11572", werkstoff: "1.7335", standard: "—" },
+    { grade: "A234 WP11", uns: "K11572", werkstoff: "1.7335", standard: "—" },
+    { grade: "Werkstoff 1.7335", uns: "K11572", werkstoff: "1.7335", standard: "DIN" },
+    { grade: "UNS K11572", uns: "K11572", werkstoff: "1.7335", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WP11",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 – 1.00",
+      cr: "1.00 – 1.50",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WP11",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy WP11 Equal Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WP11 Alloy Steel Fitting Cross", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy WP11 Long Stub End", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel WP11 180° Bend", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy WP11 45° Elbow", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel WP11 Pipe Fitting",
+    "ASTM A234 Alloy WP11 Buttweld Fitting",
+    "Alloy Steel WP11 Seamless Fitting",
+    "WP11 Alloy Welded Fitting",
+    "WP11 Alloy 90° Elbow",
+    "Alloy WP11 45° Elbow",
+    "Alloy WP11 Long Radius Elbow",
+    "A234 Alloy WP11 Short Radius Elbow",
+    "Alloy Steel WP11 Concentric Reducer",
+    "Alloy Steel WP11 Eccentric Reducer",
+    "Alloy WP11 Equal Tee",
+    "Alloy Steel WP11 Unequal Tee",
+    "Alloy WP11 Lateral Tee",
+    "WP11 Alloy Steel Fitting Cross",
+    "Alloy Steel WP11 Pipe Bends",
+    "Alloy WP11 U Bend",
+    "Alloy Steel WP11 180° Bend",
+    "ASTM A234 Alloy WP11 Short Stub End",
+    "Alloy WP11 Long Stub End",
+    "Alloy Steel WP11 End Cap",
+    "Alloy WP11 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Seawater Equipment",
+    "Marine Industry",
+    "Offshore Oil Drilling Companies",
+    "Heat Exchangers & Condensers",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pharmaceutical Equipment",
+    "Food Handling & Purity",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel WP11 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A234 Alloy Steel WP11 Pipe Fitting Exporter",
+    "WP11 Alloy Steel Welded Fitting Stockist in India",
+    "Alloy Steel WP11 Pipe Reducer Dealer",
+    "Alloy Steel WP11 Equal Tee Manufacturer",
+    "Alloy Steel WP11 90° Elbow Supplier",
+    "Alloy Steel WP11 180° Bend Manufacturer",
+    "Alloy Steel 3D Pipe Bend Supplier",
+    "Alloy Steel 10D Pipe Bend Exporter",
+    "Alloy Steel WP11 Short Radius Elbow Supplier",
+    "ANSI B16.9 Alloy Steel WP11 Welded Buttweld Fittings",
+    "ASME SA234 Chrome Moly Alloy Steel WP11 Cross Exporter",
+    "Alloy Steel WP11 Stub End Manufacturer",
+    "Alloy Steel WP11 Dish Cap Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel WP11 Buttweld Fittings Price List",
+    "Alloy Steel WP11 Fitting Weight Calculator",
+    "Alloy Steel WP11 Fitting Dimensions",
+    "Alloy Steel WP11 Fitting Price Per Kg in India",
+    "Alloy Steel WP11 Fitting Manufacturer in Mumbai",
+    "Alloy Steel WP11 Fitting Supplier in India",
+    "Alloy Steel WP11 Fitting Thickness Tolerance",
+    "Alloy Steel WP11 Fitting Price List PDF",
+    "Alloy Steel WP11 Fitting Mechanical Properties",
+    "Alloy Steel WP11 Fitting Chemical Composition",
+    "Alloy Steel WP11 Fitting Stockist in Pune",
+    "Alloy Steel WP11 Fitting Exporter",
+    "Alloy Steel WP11 Fitting Price in Mumbai",
+    "Alloy Steel WP11 Fitting Size Chart",
+    "Alloy Steel WP11 Elbow Price",
+    "Alloy Steel WP11 Tee Supplier",
+    "Alloy Steel WP11 Reducer Manufacturers",
+    "Alloy Steel WP11 Fitting Catalog PDF",
+    "Alloy Steel WP11 Fitting Equivalent Grades",
+    "Alloy Steel WP11 Fitting Price per Piece",
+    "Alloy Steel WP11 Fitting updated price list",
+    "Alloy Steel WP11 Fitting Size Chart 1/2 to 48 inch",
+    "Alloy Steel WP11 Fitting Manufacturers in Gujarat",
+    "Alloy Steel WP11 Fitting Stockyards in India",
+    "Alloy Steel WP11 Fitting thickness chart",
+    "Alloy Steel WP11 Fitting Price in India",
+    "Top 100 Alloy Steel WP11 Fitting Dealers in Mumbai",
+    "Buy Alloy Steel WP11 Fitting Online",
+    "Alloy Steel WP11 Fitting leading manufacturers in India",
+    "ASTM A234 WP11 Fitting Price India",
+    "Werkstoff 1.7335 Fitting Price India",
+    "Alloy Steel WP11 Fitting Heat Treatment",
+    "Alloy Steel WP11 Fitting Normalizing Temperature",
+    "Alloy Steel WP11 Fitting Hardness Range",
+    "Alloy Steel WP11 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 19,
+  slug: "alloy-steel-wp12-buttweld-fittings",
+  image: "/stock/wp12-alloy-steel-buttweld-fittings.jpg",
+  title:
+    "Alloy Steel WP12 Buttweld Fittings Supplier – ASTM A234 / ASME SA234 (Chrome Moly Gr. WP12)",
+  shortDescription:
+    "Alloy Steel WP12 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Alloy Steel WP12 buttweld fittings have the best corrosion resistance to oxidization corrosive environments. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Alloy Steel WP12 butt weld pipe fittings are available in different sizes and shapes. Alloy Steel WP12 butt weld fittings have good weldability. Alloy Steel WP12 Tee butt weld pipe fittings have better corrosion resistance to oxidization corrosive environments. Alloy Steel WP12 pipe fittings are highly fabricable, which is one of the main features making it stand apart from other alloy steel grades. Alloy Steel WP12 reducer holds high tensile strength. Alloy Steel WP12 stub end butt weld pipe fittings contain nitrogen which further enables the alloy to have better resistance against other corrosive media environments. The cold working process can very easily harden alloy steel WP12 butt weld pipe fittings. Cryogenic toughness, high tensile strength, and good formability are the main features of Alloy Steel seamless pipe fittings. Alloy Steel WP12 end cap can effortlessly be welded by resistance and shielded fusion method. Alloy Steel WP12 reducer can be used for seawater equipment, marine industry, and offshore oil drilling companies. Alloy Steel WP12 butt weld fittings can also be used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WP12":
+        "A chrome-moly alloy steel grade (1% Cr, 0.5% Mo) for butt weld fittings with the best corrosion resistance to oxidization corrosive environments. Offers good weldability, high fabricability, high tensile strength, cryogenic toughness, and good formability. Contains nitrogen in the stub ends for enhanced resistance against corrosive media. Can be hardened by cold working. Can be welded by resistance and shielded fusion method. Widely used in seawater equipment, marine industry, offshore oil drilling companies, heat exchangers, and condensers. Werkstoff Nr. 1.7335.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    heatTreatment: "Hot Formed and Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Alloy Steel WP12 (Chrome Moly 1Cr-0.5Mo)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available | IBR FORM III-C Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Alloy Steel WP12 Elbows Stock Available",
+        items: [
+          "Alloy Steel WP12 90° Elbow",
+          "WP12 Alloy 90° Elbow",
+          "Alloy WP12 45° Elbow",
+          "Alloy WP12 Long Radius Elbow",
+          "A234 Alloy WP12 Short Radius Elbow",
+        ],
+        image: "/stock/wp12-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Alloy Steel WP12 Tees Stock Available",
+        items: [
+          "Alloy WP12 Equal Tee",
+          "Alloy Steel WP12 Equal Tee",
+          "Alloy Steel WP12 Unequal Tee",
+          "Alloy WP12 Lateral Tee",
+          "WP12 Alloy Steel Fitting Cross",
+        ],
+        image: "/stock/wp12-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Alloy Steel WP12 Reducers Stock Available",
+        items: [
+          "Alloy Steel WP12 Pipe Reducer",
+          "Alloy Steel WP12 Concentric Reducer",
+          "Alloy Steel WP12 Eccentric Reducer",
+          "Alloy Steel WP12 Reducers",
+          "ASTM A234 Alloy WP12 Reducer",
+        ],
+        image: "/stock/wp12-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Alloy Steel WP12 Pipe Bends Stock Available",
+        items: [
+          "Alloy Steel WP12 1.5D Pipe Bend",
+          "Alloy Steel 3D Pipe Bend",
+          "Alloy Steel WP12 5D Pipe Bend",
+          "Alloy Steel 10D Pipe Bend",
+          "Alloy WP12 U Bend",
+        ],
+        image: "/stock/wp12-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Alloy Steel WP12 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Alloy WP12 Short Stub End",
+          "Alloy WP12 Long Stub End",
+          "Alloy Steel WP12 Stub End",
+          "Alloy Steel WP12 Long Stub End",
+        ],
+        image: "/stock/wp12-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Alloy Steel WP12 Caps Stock Available",
+        items: [
+          "Alloy Steel WP12 End Cap",
+          "Alloy WP12 Dish Cap",
+          "Alloy Steel WP12 Dish Cap",
+          "Alloy Steel WP12 End Caps",
+        ],
+        image: "/stock/wp12-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WP12", uns: "K11562", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "ASME SA234 WP12", uns: "K11562", werkstoff: "1.7335", standard: "ASME" },
+    { grade: "Chrome Moly WP12", uns: "K11562", werkstoff: "1.7335", standard: "—" },
+    { grade: "A234 WP12", uns: "K11562", werkstoff: "1.7335", standard: "—" },
+    { grade: "Werkstoff 1.7335", uns: "K11562", werkstoff: "1.7335", standard: "DIN" },
+    { grade: "UNS K11562", uns: "K11562", werkstoff: "1.7335", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WP12",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.60 max",
+      cr: "0.80 – 1.25",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WP12",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel WP12 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WP12 Alloy Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy WP12 Lateral Tee", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy WP12 U Bend", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy WP12 Long Stub End", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel WP12 Pipe Fitting",
+    "ASTM A234 Alloy WP12 Buttweld Fitting",
+    "Alloy Steel WP12 Seamless Fitting",
+    "WP12 Alloy Welded Fitting",
+    "WP12 Alloy 90° Elbow",
+    "Alloy WP12 45° Elbow",
+    "Alloy WP12 Long Radius Elbow",
+    "A234 Alloy WP12 Short Radius Elbow",
+    "Alloy Steel WP12 Concentric Reducer",
+    "Alloy Steel WP12 Eccentric Reducer",
+    "Alloy WP12 Equal Tee",
+    "Alloy Steel WP12 Unequal Tee",
+    "Alloy WP12 Lateral Tee",
+    "WP12 Alloy Steel Fitting Cross",
+    "Alloy Steel WP12 Pipe Bends",
+    "Alloy WP12 U Bend",
+    "Alloy Steel WP12 180° Bend",
+    "ASTM A234 Alloy WP12 Short Stub End",
+    "Alloy WP12 Long Stub End",
+    "Alloy Steel WP12 End Cap",
+    "Alloy WP12 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Seawater Equipment",
+    "Marine Industry",
+    "Offshore Oil Drilling Companies",
+    "Heat Exchangers & Condensers",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pharmaceutical Equipment",
+    "Food Handling & Purity",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel WP12 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A234 Alloy Steel WP12 Pipe Fitting Exporter",
+    "WP12 Alloy Steel Welded Fitting Stockist in India",
+    "MSS-SP-43 Alloy Steel WP12 Reducer Dealer",
+    "Alloy Steel WP12 Elbow Manufacturer",
+    "WP12 Alloy Seamless Pipe Fitting Supplier",
+    "Alloy WP12 Butt weld Fittings Exporter",
+    "Alloy Steel WP12 180° Bend Manufacturer",
+    "Alloy Steel 3D Pipe Bend Supplier",
+    "Alloy Steel 10D Pipe Bend Exporter",
+    "Alloy Steel WP12 Short Radius Elbow Supplier",
+    "ANSI B16.9 Alloy Steel WP12 Welded Buttweld Fittings",
+    "ASME SA234 Chrome Moly Alloy Steel WP12 Cross Exporter",
+    "Alloy Steel WP12 Dish Cap Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel WP12 Buttweld Fittings Price List",
+    "Alloy Steel WP12 Fitting Weight Calculator",
+    "Alloy Steel WP12 Fitting Dimensions",
+    "Alloy Steel WP12 Fitting Price Per Kg in India",
+    "Alloy Steel WP12 Fitting Manufacturer in Mumbai",
+    "Alloy Steel WP12 Fitting Supplier in India",
+    "Alloy Steel WP12 Fitting Thickness Tolerance",
+    "Alloy Steel WP12 Fitting Price List PDF",
+    "Alloy Steel WP12 Fitting Mechanical Properties",
+    "Alloy Steel WP12 Fitting Chemical Composition",
+    "Alloy Steel WP12 Fitting Stockist in Pune",
+    "Alloy Steel WP12 Fitting Exporter",
+    "Alloy Steel WP12 Fitting Price in Mumbai",
+    "Alloy Steel WP12 Fitting Size Chart",
+    "Alloy Steel WP12 Elbow Price",
+    "Alloy Steel WP12 Tee Supplier",
+    "Alloy Steel WP12 Reducer Manufacturers",
+    "Alloy Steel WP12 Fitting Catalog PDF",
+    "Alloy Steel WP12 Fitting Equivalent Grades",
+    "Alloy Steel WP12 Fitting Price per Piece",
+    "Alloy Steel WP12 Fitting updated price list",
+    "Alloy Steel WP12 Fitting Size Chart 1/2 to 48 inch",
+    "Alloy Steel WP12 Fitting Manufacturers in Gujarat",
+    "Alloy Steel WP12 Fitting Stockyards in India",
+    "Alloy Steel WP12 Fitting thickness chart",
+    "Alloy Steel WP12 Fitting Price in India",
+    "Top 100 Alloy Steel WP12 Fitting Dealers in Mumbai",
+    "Buy Alloy Steel WP12 Fitting Online",
+    "Alloy Steel WP12 Fitting leading manufacturers in India",
+    "ASTM A234 WP12 Fitting Price India",
+    "Werkstoff 1.7335 Fitting Price India",
+    "Alloy Steel WP12 Fitting Heat Treatment",
+    "Alloy Steel WP12 Fitting Normalizing Temperature",
+    "Alloy Steel WP12 Fitting Hardness Range",
+    "Alloy Steel WP12 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},{
+  id: 20,
+  slug: "alloy-steel-wp22-buttweld-fittings",
+  image: "/stock/wp22-alloy-steel-buttweld-fittings.jpg",
+  title:
+    "Alloy Steel WP22 Buttweld Fittings Supplier – ASTM A234 / ASME SA234 (Chrome Moly Gr. WP22)",
+  shortDescription:
+    "Alloy Steel WP22 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Alloy Steel WP22 butt weld pipe fittings have the best corrosion resistance to oxidation corrosion. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Alloy Steel WP22 butt weld pipe fittings are available in different sizes and shapes. Alloy Steel WP22 lateral tee butt weld pipe fittings have the best corrosion resistance to corrosives. Alloy Steel WP22 reducer contains molybdenum as a premium content, which further enables the alloy to have better corrosion resistance. Alloy Steel WP22 Elbow butt weld pipe fittings have excellent mechanical properties. Alloy Steel End Cap butt weld pipe fittings have the best creep strength at temperatures up to 816°C. Alloy Steel WP22 stub ends also contain tantalum and columbium, which enables the alloy to have better stability compared to other grades. Alloy Steel WP22 butt weld pipe fittings are used in piping frameworks and connectors. Alloy Steel WP22 stub ends are used for power generation, shipbuilding, and the marine industry. Alloy Steel WP22 reducers are used in centrifugal pumps and control valves. Alloy Steel WP22 seamless pipe fittings can be used extensively in control valves and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WP22":
+        "A chrome-moly alloy steel grade (2.25% Cr, 1% Mo) for butt weld fittings with the best corrosion resistance to oxidation corrosion. Contains molybdenum as a premium content for better corrosion resistance and excellent mechanical properties. The End Cap has the best creep strength at temperatures up to 816°C. Stub Ends also contain tantalum and columbium for better stability compared to other grades. Widely used in piping frameworks and connectors, power generation, shipbuilding, marine industry, centrifugal pumps, control valves, and condensers. Werkstoff Nr. 1.7380.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    heatTreatment: "Hot Formed and Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Alloy Steel WP22 (Chrome Moly 2.25Cr-1Mo)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available | IBR FORM III-C Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Alloy Steel WP22 Elbows Stock Available",
+        items: [
+          "Alloy Steel WP22 90° Elbow",
+          "WP22 Alloy 90° Elbow",
+          "Alloy WP22 45° Elbow",
+          "Alloy WP22 Long Radius Elbow",
+          "A234 Alloy WP22 Short Radius Elbow",
+        ],
+        image: "/stock/wp22-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Alloy Steel WP22 Tees Stock Available",
+        items: [
+          "Alloy WP22 Equal Tee",
+          "Alloy Steel WP22 Equal Tee",
+          "Alloy Steel WP22 Unequal Tee",
+          "Alloy WP22 Lateral Tee",
+          "WP22 Alloy Steel Fitting Cross",
+        ],
+        image: "/stock/wp22-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Alloy Steel WP22 Reducers Stock Available",
+        items: [
+          "Alloy Steel WP22 Pipe Reducer",
+          "Alloy Steel WP22 Concentric Reducer",
+          "Alloy Steel WP22 Eccentric Reducer",
+          "Alloy Steel WP22 Reducers",
+          "ASTM A234 Alloy WP22 Reducer",
+        ],
+        image: "/stock/wp22-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Alloy Steel WP22 Pipe Bends Stock Available",
+        items: [
+          "Alloy Steel WP22 1.5D Pipe Bend",
+          "Alloy Steel 3D Pipe Bend",
+          "Alloy Steel WP22 5D Pipe Bend",
+          "Alloy Steel 10D Pipe Bend",
+          "Alloy WP22 U Bend",
+        ],
+        image: "/stock/wp22-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Alloy Steel WP22 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Alloy WP22 Short Stub End",
+          "Alloy WP22 Long Stub End",
+          "Alloy Steel WP22 Stub End",
+          "Alloy Steel WP22 Long Stub",
+        ],
+        image: "/stock/wp22-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Alloy Steel WP22 Caps Stock Available",
+        items: [
+          "Alloy Steel WP22 End Cap",
+          "Alloy WP22 Dish Cap",
+          "Alloy Steel WP22 Dish Cap",
+          "Alloy Steel WP22 End Caps",
+        ],
+        image: "/stock/wp22-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WP22", uns: "K21590", werkstoff: "1.7380", standard: "ASTM" },
+    { grade: "ASME SA234 WP22", uns: "K21590", werkstoff: "1.7380", standard: "ASME" },
+    { grade: "Chrome Moly WP22", uns: "K21590", werkstoff: "1.7380", standard: "—" },
+    { grade: "A234 WP22", uns: "K21590", werkstoff: "1.7380", standard: "—" },
+    { grade: "Werkstoff 1.7380", uns: "K21590", werkstoff: "1.7380", standard: "DIN" },
+    { grade: "UNS K21590", uns: "K21590", werkstoff: "1.7380", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WP22",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "1.90 – 2.60",
+      ni: "—",
+      mo: "0.87 – 1.13",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WP22",
+      tensile: "415 – 585 MPa (60 – 85 ksi)",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "675°C (1250°F)",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel WP22 180° Bend", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WP22 Alloy 90° Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy WP22 Long Stub End", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel WP22 Concentric Reducer", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel WP22 Pipe Bends", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel WP22 Pipe Fitting",
+    "ASTM A234 Alloy WP22 Buttweld Fitting",
+    "Alloy Steel WP22 Seamless Fitting",
+    "WP22 Alloy Welded Fitting",
+    "WP22 Alloy 90° Elbow",
+    "Alloy WP22 45° Elbow",
+    "Alloy WP22 Long Radius Elbow",
+    "A234 Alloy WP22 Short Radius Elbow",
+    "Alloy Steel WP22 Concentric Reducer",
+    "Alloy Steel WP22 Eccentric Reducer",
+    "Alloy WP22 Equal Tee",
+    "Alloy Steel WP22 Unequal Tee",
+    "Alloy WP22 Lateral Tee",
+    "WP22 Alloy Steel Fitting Cross",
+    "Alloy Steel WP22 Pipe Bends",
+    "Alloy WP22 U Bend",
+    "Alloy Steel WP22 180° Bend",
+    "ASTM A234 Alloy WP22 Short Stub End",
+    "Alloy WP22 Long Stub End",
+    "Alloy Steel WP22 End Cap",
+    "Alloy WP22 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Piping Frameworks & Connectors",
+    "Power Generation",
+    "Shipbuilding",
+    "Marine Industry",
+    "Centrifugal Pumps",
+    "Control Valves",
+    "Condensers & Heat Exchangers",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel WP22 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A234 Alloy Steel WP22 Pipe Fitting Exporter",
+    "WP22 Alloy Steel Welded Fitting Stockist in India",
+    "Alloy Steel WP22 Pipe Reducer Dealer",
+    "Alloy Steel WP22 Equal Tee Manufacturer",
+    "Alloy Steel WP22 90° Elbow Supplier",
+    "Alloy Steel WP22 180° Bend Manufacturer",
+    "Alloy Steel 3D Pipe Bend Supplier",
+    "Alloy Steel 1.5D Pipe Bend Exporter",
+    "Alloy Steel WP22 Seamless Pipe Fittings Supplier",
+    "Chrome Moly WP22 Pipe Elbow Supplier",
+    "ANSI B16.9 Alloy Steel WP22 Welded Buttweld Fittings",
+    "ASME SA234 Chrome Moly Alloy Steel WP22 Cross Exporter",
+    "Alloy Steel WP22 Dish Cap Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel WP22 Buttweld Fittings Price List",
+    "Alloy Steel WP22 Fitting Weight Calculator",
+    "Alloy Steel WP22 Fitting Dimensions",
+    "Alloy Steel WP22 Fitting Price Per Kg in India",
+    "Alloy Steel WP22 Fitting Manufacturer in Mumbai",
+    "Alloy Steel WP22 Fitting Supplier in India",
+    "Alloy Steel WP22 Fitting Thickness Tolerance",
+    "Alloy Steel WP22 Fitting Price List PDF",
+    "Alloy Steel WP22 Fitting Mechanical Properties",
+    "Alloy Steel WP22 Fitting Chemical Composition",
+    "Alloy Steel WP22 Fitting Stockist in Pune",
+    "Alloy Steel WP22 Fitting Exporter",
+    "Alloy Steel WP22 Fitting Price in Mumbai",
+    "Alloy Steel WP22 Fitting Size Chart",
+    "Alloy Steel WP22 Elbow Price",
+    "Alloy Steel WP22 Tee Supplier",
+    "Alloy Steel WP22 Reducer Manufacturers",
+    "Alloy Steel WP22 Fitting Catalog PDF",
+    "Alloy Steel WP22 Fitting Equivalent Grades",
+    "Alloy Steel WP22 Fitting Price per Piece",
+    "Alloy Steel WP22 Fitting updated price list",
+    "Alloy Steel WP22 Fitting Size Chart 1/2 to 48 inch",
+    "Alloy Steel WP22 Fitting Manufacturers in Gujarat",
+    "Alloy Steel WP22 Fitting Stockyards in India",
+    "Alloy Steel WP22 Fitting thickness chart",
+    "Alloy Steel WP22 Fitting Price in India",
+    "Top 100 Alloy Steel WP22 Fitting Dealers in Mumbai",
+    "Buy Alloy Steel WP22 Fitting Online",
+    "Alloy Steel WP22 Fitting leading manufacturers in India",
+    "ASTM A234 WP22 Fitting Price India",
+    "Werkstoff 1.7380 Fitting Price India",
+    "Alloy Steel WP22 Fitting Heat Treatment",
+    "Alloy Steel WP22 Fitting Normalizing Temperature",
+    "Alloy Steel WP22 Fitting Hardness Range",
+    "Alloy Steel WP22 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 21,
+  slug: "alloy-steel-wp91-buttweld-fittings",
+  image: "/stock/wp91-alloy-steel-buttweld-fittings.jpg",
+  title:
+    "Alloy Steel WP91 Buttweld Fittings Supplier – ASTM A234 / ASME SA234 (Chrome Moly Gr. WP91)",
+  shortDescription:
+    "Alloy Steel WP91 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Alloy Steel WP91 buttweld fittings have the best corrosion resistance to sulfide. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Alloy Steel WP91 butt weld pipe fittings are available in different sizes and shapes. Alloy Steel Cross butt weld pipe fittings are non-magnetic alloys and can only be hardened by the cold working process. Alloy Steel WP91 butt weld pipe fittings have the best corrosion resistance to sulfide. Alloy Steel WP91 reducer has excellent corrosion resistance properties. Alloy Steel WP91 stub end has excellent ductility and is cost-effective compared to chrome-nickel alloy grades. Alloy Steel WP91 seamless pipe fittings can be used in buildings and household appliances. Alloy Steel WP91 stub ends are also used in drawn parts and cabinet hardware. Alloy Steel WP91 reducers are used in hinges and metal trim. Alloy Steel WP91 lateral tee butt weld pipe fittings are used in shipbuilding and skyscrapers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WP91":
+        "A chrome-moly alloy steel grade (9% Cr, 1% Mo, V, Nb) for butt weld fittings with the best corrosion resistance to sulfide. Non-magnetic alloy that can only be hardened by cold working. The reducer has excellent corrosion resistance properties and the stub end has excellent ductility. Cost-effective compared to chrome-nickel alloy grades. Widely used in buildings, household appliances, drawn parts, cabinet hardware, hinges, metal trim, shipbuilding, and skyscrapers. Werkstoff Nr. 1.4903.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    heatTreatment: "Hot Formed and Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Alloy Steel WP91 (Chrome Moly 9Cr-1Mo-V-Nb)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available | IBR FORM III-C Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Alloy Steel WP91 Elbows Stock Available",
+        items: [
+          "Alloy Steel WP91 90° Elbow",
+          "WP91 Alloy 90° Elbow",
+          "Alloy WP91 45° Elbow",
+          "Alloy WP91 Long Radius Elbow",
+          "A234 Alloy WP91 Short Radius Elbow",
+        ],
+        image: "/stock/wp91-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Alloy Steel WP91 Tees Stock Available",
+        items: [
+          "Alloy WP91 Equal Tee",
+          "Alloy Steel WP91 Equal Tee",
+          "Alloy Steel WP91 Unequal Tee",
+          "Alloy WP91 Lateral Tee",
+          "WP91 Alloy Steel Fitting Cross",
+        ],
+        image: "/stock/wp91-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Alloy Steel WP91 Reducers Stock Available",
+        items: [
+          "Alloy Steel WP91 Pipe Reducer",
+          "Alloy Steel WP91 Concentric Reducer",
+          "Alloy Steel WP91 Eccentric Reducer",
+          "Alloy Steel WP91 Reducers",
+          "ASTM A234 Alloy WP91 Reducer",
+        ],
+        image: "/stock/wp91-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Alloy Steel WP91 Pipe Bends Stock Available",
+        items: [
+          "Alloy Steel WP91 1.5D Pipe Bend",
+          "Alloy Steel 3D Pipe Bend",
+          "Alloy Steel WP91 5D Pipe Bend",
+          "Alloy Steel 10D Pipe Bend",
+          "Alloy WP91 U Bend",
+        ],
+        image: "/stock/wp91-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Alloy Steel WP91 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Alloy WP91 Short Stub End",
+          "Alloy WP91 Long Stub End",
+          "Alloy Steel WP91 Stub End",
+          "Alloy Steel WP91 Long Stub End",
+        ],
+        image: "/stock/wp91-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Alloy Steel WP91 Caps Stock Available",
+        items: [
+          "Alloy Steel WP91 End Cap",
+          "Alloy WP91 Dish Cap",
+          "Alloy Steel WP91 Dish Cap",
+          "Alloy Steel WP91 End Caps",
+        ],
+        image: "/stock/wp91-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WP91", uns: "K90901", werkstoff: "1.4903", standard: "ASTM" },
+    { grade: "ASME SA234 WP91", uns: "K90901", werkstoff: "1.4903", standard: "ASME" },
+    { grade: "Chrome Moly WP91", uns: "K90901", werkstoff: "1.4903", standard: "—" },
+    { grade: "A234 WP91", uns: "K90901", werkstoff: "1.4903", standard: "—" },
+    { grade: "Werkstoff 1.4903", uns: "K90901", werkstoff: "1.4903", standard: "DIN" },
+    { grade: "UNS K90901", uns: "K90901", werkstoff: "1.4903", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WP91",
+      c: "0.08 – 0.12",
+      mn: "0.30 – 0.60",
+      si: "0.20 – 0.50",
+      cr: "8.00 – 9.50",
+      ni: "0.40 max",
+      mo: "0.85 – 1.05",
+      other: "P: 0.020 max, S: 0.010 max, V: 0.18 – 0.25, N: 0.030 – 0.070, Nb: 0.06 – 0.10",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WP91",
+      tensile: "585 MPa (85 ksi) min",
+      yield: "415 MPa (60 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "1040°C – 1080°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "730°C – 780°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "700°C – 760°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel WP91 Unequal Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WP91 Alloy Steel Fitting Cross", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy WP91 Dish Cap", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy WP91 Long Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy WP91 U Bend", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel WP91 Pipe Fitting",
+    "ASTM A234 Alloy WP91 Buttweld Fitting",
+    "Alloy Steel WP91 Seamless Fitting",
+    "WP91 Alloy Welded Fitting",
+    "WP91 Alloy 90° Elbow",
+    "Alloy WP91 45° Elbow",
+    "Alloy WP91 Long Radius Elbow",
+    "A234 Alloy WP91 Short Radius Elbow",
+    "Alloy Steel WP91 Concentric Reducer",
+    "Alloy Steel WP91 Eccentric Reducer",
+    "Alloy WP91 Equal Tee",
+    "Alloy Steel WP91 Unequal Tee",
+    "Alloy WP91 Lateral Tee",
+    "WP91 Alloy Steel Fitting Cross",
+    "Alloy Steel WP91 Pipe Bends",
+    "Alloy WP91 U Bend",
+    "Alloy Steel WP91 180° Bend",
+    "ASTM A234 Alloy WP91 Short Stub End",
+    "Alloy WP91 Long Stub End",
+    "Alloy Steel WP91 End Cap",
+    "Alloy WP91 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Buildings & Household Appliances",
+    "Drawn Parts & Cabinet Hardware",
+    "Hinges & Metal Trim",
+    "Shipbuilding & Skyscrapers",
+    "Power Generation",
+    "Refinery Heater Lines",
+    "Steam Lines",
+    "Superheater Piping Systems",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel WP91 Buttweld Fittings Supplier in Mumbai, India",
+    "ANSI A234 Alloy Steel WP91 Buttweld Fittings Exporter",
+    "WP91 Alloy Steel Welded Fitting Stockist in India",
+    "Alloy Steel WP91 Pipe Reducer Dealer",
+    "Alloy Steel WP91 Equal Tee Manufacturer",
+    "Chrome Moly WP91 Pipe Elbow Supplier",
+    "Alloy Steel WP91 180° Bend Manufacturer",
+    "Alloy Steel 3D Pipe Bend Supplier",
+    "Alloy Steel 10D Pipe Bend Exporter",
+    "Alloy Steel WP91 Short Radius Elbow Supplier",
+    "Alloy Steel WP91 Seamless Pipe Fittings Supplier",
+    "Alloy Steel 1.5D Pipe Bend Exporter",
+    "ASME SA234 Chrome Moly Alloy Steel WP91 Cross Exporter",
+    "Alloy Steel WP91 Dish Cap Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel WP91 Buttweld Fittings Price List",
+    "Alloy Steel WP91 Fitting Weight Calculator",
+    "Alloy Steel WP91 Fitting Dimensions",
+    "Alloy Steel WP91 Fitting Price Per Kg in India",
+    "Alloy Steel WP91 Fitting Manufacturer in Mumbai",
+    "Alloy Steel WP91 Fitting Supplier in India",
+    "Alloy Steel WP91 Fitting Thickness Tolerance",
+    "Alloy Steel WP91 Fitting Price List PDF",
+    "Alloy Steel WP91 Fitting Mechanical Properties",
+    "Alloy Steel WP91 Fitting Chemical Composition",
+    "Alloy Steel WP91 Fitting Stockist in Pune",
+    "Alloy Steel WP91 Fitting Exporter",
+    "Alloy Steel WP91 Fitting Price in Mumbai",
+    "Alloy Steel WP91 Fitting Size Chart",
+    "Alloy Steel WP91 Elbow Price",
+    "Alloy Steel WP91 Tee Supplier",
+    "Alloy Steel WP91 Reducer Manufacturers",
+    "Alloy Steel WP91 Fitting Catalog PDF",
+    "Alloy Steel WP91 Fitting Equivalent Grades",
+    "Alloy Steel WP91 Fitting Price per Piece",
+    "Alloy Steel WP91 Fitting updated price list",
+    "Alloy Steel WP91 Fitting Size Chart 1/2 to 48 inch",
+    "Alloy Steel WP91 Fitting Manufacturers in Gujarat",
+    "Alloy Steel WP91 Fitting Stockyards in India",
+    "Alloy Steel WP91 Fitting thickness chart",
+    "Alloy Steel WP91 Fitting Price in India",
+    "Top 100 Alloy Steel WP91 Fitting Dealers in Mumbai",
+    "Buy Alloy Steel WP91 Fitting Online",
+    "Alloy Steel WP91 Fitting leading manufacturers in India",
+    "ASTM A234 WP91 Fitting Price India",
+    "Werkstoff 1.4903 Fitting Price India",
+    "Alloy Steel WP91 Fitting Heat Treatment",
+    "Alloy Steel WP91 Fitting Normalizing Temperature",
+    "Alloy Steel WP91 Fitting Hardness Range",
+    "Alloy Steel WP91 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 22,
+  slug: "alloy-steel-wp92-buttweld-fittings",
+  image: "/stock/wp92-alloy-steel-buttweld-fittings.jpg",
+  title:
+    "Alloy Steel WP92 Buttweld Fittings Supplier – ASTM A234 / ASME SA234 (Chrome Moly Gr. WP92)",
+  shortDescription:
+    "Alloy Steel WP92 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Alloy Steel WP92 buttweld pipe fittings have the best corrosion resistance to sulfide. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Alloy Steel WP92 butt weld pipe fittings are available in different sizes and shapes. Alloy Steel Cross butt weld pipe fittings are non-magnetic alloys and can be hardened by cold working process only. Alloy Steel WP92 butt weld pipe fittings have the best corrosion resistance to sulfide. Alloy Steel WP91 reducers have excellent corrosion resistance properties. Alloy Steel WP92 stub ends have excellent ductility and are cost-effective compared to chrome-nickel alloy grades. Alloy Steel WP92 seamless pipe fittings can be used in buildings and household appliances. Alloy Steel WP92 stub ends are also used in drawn parts and cabinet hardware. Alloy Steel WP92 reducers are used in hinges and metal trim. Alloy Steel WP92 lateral tee butt weld pipe fittings are used in shipbuilding and skyscrapers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A234 WP92":
+        "A chrome-moly alloy steel grade (9% Cr, 1.65% W, 0.5% Mo, V, Nb, B) for butt weld fittings with the best corrosion resistance to sulfide. Non-magnetic alloy that can only be hardened by the cold working process. The reducer has excellent corrosion resistance properties and the stub end has excellent ductility. Cost-effective compared to chrome-nickel alloy grades. Widely used in buildings, household appliances, drawn parts, cabinet hardware, hinges, metal trim, shipbuilding, and skyscrapers. Werkstoff Nr. 1.4901.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A234 / ASME SA234",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    heatTreatment: "Hot Formed and Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A234 / ASME SA234 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Alloy Steel WP92 (Chrome Moly 9Cr-2W-Mo-V-Nb-B)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available | IBR FORM III-C Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Alloy Steel WP92 Elbows Stock Available",
+        items: [
+          "Alloy Steel WP92 90° Elbow",
+          "WP92 Alloy 90° Elbow",
+          "Alloy WP92 45° Elbow",
+          "Alloy WP92 Long Radius Elbow",
+          "A234 Alloy WP92 Short Radius Elbow",
+        ],
+        image: "/stock/wp92-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Alloy Steel WP92 Tees Stock Available",
+        items: [
+          "Alloy WP92 Equal Tee",
+          "Alloy Steel WP92 Equal Tee",
+          "Alloy Steel WP92 Unequal Tee",
+          "Alloy WP92 Lateral Tee",
+          "WP92 Alloy Steel Fitting Cross",
+        ],
+        image: "/stock/wp92-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Alloy Steel WP92 Reducers Stock Available",
+        items: [
+          "Alloy Steel WP92 Pipe Reducer",
+          "Alloy Steel WP92 Concentric Reducer",
+          "Alloy Steel WP92 Eccentric Reducer",
+          "Alloy Steel WP92 Reducers",
+          "ASTM A234 Alloy WP92 Reducer",
+        ],
+        image: "/stock/wp92-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Alloy Steel WP92 Pipe Bends Stock Available",
+        items: [
+          "Alloy Steel WP92 1.5D Pipe Bend",
+          "Alloy Steel 3D Pipe Bend",
+          "Alloy Steel WP92 5D Pipe Bend",
+          "Alloy Steel 10D Pipe Bend",
+          "Alloy WP92 U Bend",
+        ],
+        image: "/stock/wp92-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Alloy Steel WP92 Stub Ends Stock Available",
+        items: [
+          "ASTM A234 Alloy WP92 Short Stub End",
+          "Alloy WP92 Long Stub End",
+          "Alloy Steel WP92 Stub End",
+          "Alloy Steel WP92 Long Stub End",
+        ],
+        image: "/stock/wp92-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Alloy Steel WP92 Caps Stock Available",
+        items: [
+          "Alloy Steel WP92 End Cap",
+          "Alloy WP92 Dish Cap",
+          "Alloy Steel WP92 Dish Cap",
+          "Alloy Steel WP92 End Caps",
+        ],
+        image: "/stock/wp92-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A234 WP92", uns: "K92460", werkstoff: "1.4901", standard: "ASTM" },
+    { grade: "ASME SA234 WP92", uns: "K92460", werkstoff: "1.4901", standard: "ASME" },
+    { grade: "Chrome Moly WP92", uns: "K92460", werkstoff: "1.4901", standard: "—" },
+    { grade: "A234 WP92", uns: "K92460", werkstoff: "1.4901", standard: "—" },
+    { grade: "Werkstoff 1.4901", uns: "K92460", werkstoff: "1.4901", standard: "DIN" },
+    { grade: "UNS K92460", uns: "K92460", werkstoff: "1.4901", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "A234 WP92",
+      c: "0.07 – 0.13",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "8.50 – 9.50",
+      ni: "0.40 max",
+      mo: "0.30 – 0.60",
+      other: "P: 0.020 max, S: 0.010 max, V: 0.15 – 0.25, N: 0.030 – 0.070, Nb: 0.04 – 0.09, W: 1.50 – 2.00, B: 0.001 – 0.006",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "A234 WP92",
+      tensile: "620 MPa (90 ksi) min",
+      yield: "440 MPa (64 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "1040°C – 1080°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "730°C – 800°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "700°C – 760°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel WP92 Seamless Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WP92 Alloy Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy Steel WP92 Unequal Tee", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy WP92 U Bend", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy WP92 Dish Cap", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel WP92 Pipe Fitting",
+    "ASTM A234 Alloy WP92 Buttweld Fitting",
+    "Alloy Steel WP92 Seamless Fitting",
+    "WP92 Alloy Welded Fitting",
+    "WP92 Alloy 90° Elbow",
+    "Alloy WP92 45° Elbow",
+    "Alloy WP92 Long Radius Elbow",
+    "A234 Alloy WP92 Short Radius Elbow",
+    "Alloy Steel WP92 Concentric Reducer",
+    "Alloy Steel WP92 Eccentric Reducer",
+    "Alloy WP92 Equal Tee",
+    "Alloy Steel WP92 Unequal Tee",
+    "Alloy WP92 Lateral Tee",
+    "WP92 Alloy Steel Fitting Cross",
+    "Alloy Steel WP92 Pipe Bends",
+    "Alloy WP92 U Bend",
+    "Alloy Steel WP92 180° Bend",
+    "ASTM A234 Alloy WP92 Short Stub End",
+    "Alloy WP92 Long Stub End",
+    "Alloy Steel WP92 End Cap",
+    "Alloy WP92 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A234",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Buildings & Household Appliances",
+    "Drawn Parts & Cabinet Hardware",
+    "Hinges & Metal Trim",
+    "Shipbuilding & Skyscrapers",
+    "Power Generation",
+    "Refinery Heater Lines",
+    "Steam Lines",
+    "Superheater Piping Systems",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel WP92 Buttweld Fittings Supplier in Mumbai, India",
+    "ANSI A234 Alloy Steel WP92 Buttweld Fittings Exporter",
+    "WP92 Alloy Steel Welded Fitting Stockist in India",
+    "Alloy Steel WP92 Pipe Reducer Dealer",
+    "Alloy Steel WP92 Equal Tee Manufacturer",
+    "Chrome Moly WP92 Pipe Elbow Supplier",
+    "Alloy Steel WP92 180° Bend Manufacturer",
+    "Alloy Steel 3D Pipe Bend Supplier",
+    "Alloy Steel 10D Pipe Bend Exporter",
+    "Alloy Steel WP92 Short Radius Elbow Supplier",
+    "Alloy Steel WP92 Seamless Pipe Fittings Supplier",
+    "Alloy Steel 1.5D Pipe Bend Exporter",
+    "ASME SA234 Chrome Moly Alloy Steel WP92 Cross Exporter",
+    "Alloy Steel WP92 Dish Cap Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel WP92 Buttweld Fittings Price List",
+    "Alloy Steel WP92 Fitting Weight Calculator",
+    "Alloy Steel WP92 Fitting Dimensions",
+    "Alloy Steel WP92 Fitting Price Per Kg in India",
+    "Alloy Steel WP92 Fitting Manufacturer in Mumbai",
+    "Alloy Steel WP92 Fitting Supplier in India",
+    "Alloy Steel WP92 Fitting Thickness Tolerance",
+    "Alloy Steel WP92 Fitting Price List PDF",
+    "Alloy Steel WP92 Fitting Mechanical Properties",
+    "Alloy Steel WP92 Fitting Chemical Composition",
+    "Alloy Steel WP92 Fitting Stockist in Pune",
+    "Alloy Steel WP92 Fitting Exporter",
+    "Alloy Steel WP92 Fitting Price in Mumbai",
+    "Alloy Steel WP92 Fitting Size Chart",
+    "Alloy Steel WP92 Elbow Price",
+    "Alloy Steel WP92 Tee Supplier",
+    "Alloy Steel WP92 Reducer Manufacturers",
+    "Alloy Steel WP92 Fitting Catalog PDF",
+    "Alloy Steel WP92 Fitting Equivalent Grades",
+    "Alloy Steel WP92 Fitting Price per Piece",
+    "Alloy Steel WP92 Fitting updated price list",
+    "Alloy Steel WP92 Fitting Size Chart 1/2 to 48 inch",
+    "Alloy Steel WP92 Fitting Manufacturers in Gujarat",
+    "Alloy Steel WP92 Fitting Stockyards in India",
+    "Alloy Steel WP92 Fitting thickness chart",
+    "Alloy Steel WP92 Fitting Price in India",
+    "Top 100 Alloy Steel WP92 Fitting Dealers in Mumbai",
+    "Buy Alloy Steel WP92 Fitting Online",
+    "Alloy Steel WP92 Fitting leading manufacturers in India",
+    "ASTM A234 WP92 Fitting Price India",
+    "Werkstoff 1.4901 Fitting Price India",
+    "Alloy Steel WP92 Fitting Heat Treatment",
+    "Alloy Steel WP92 Fitting Normalizing Temperature",
+    "Alloy Steel WP92 Fitting Hardness Range",
+    "Alloy Steel WP92 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 23,
+  slug: "stainless-steel-304-304l-304h-buttweld-fittings",
+  image: "/stock/ss-304-buttweld-fittings.jpg",
+  title:
+    "Stainless Steel 304/304L/304H Buttweld Fittings Supplier – ASTM A403 / ASME SA403 / UNS S30400 / S30403 / S30409 (18/8 Grade)",
+  shortDescription:
+    "Stainless Steel 304/304L/304H Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Stainless Steel 304 buttweld fittings have the best corrosion resistance to oxidizing media. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Stainless Steel 304 / 304L / 304H butt weld pipe fittings are available in different sizes and shapes. Stainless Steel 304 stub end pipe fittings have the best corrosion resistance to acidic chloride environments. Stainless Steel 304 tee pipe fittings have the best corrosion resistance to chloride pitting and general corrosion. Stainless Steel stub end pipe fittings usually remain non-magnetic in the annealed condition. Stainless Steel 304L tee pipe fittings can be hardened by the cold working process to obtain higher tensile strength. Stainless Steel 304H buttweld fittings have the best corrosion resistance to attack from acids. Stainless Steel 304 butt weld pipe fittings have the best corrosion resistance to acidic chloride environments, and they are mostly used in pulp and paper industries. Stainless Steel 304L butt weld pipe fittings are also used for seawater equipment. Stainless Steel 304H butt weld pipe fittings are used for chemical equipment and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 304 (UNS S30400)":
+        "The most widely used '18/8' austenitic stainless steel. Offers the best corrosion resistance to oxidizing media, acidic chloride environments, chloride pitting, and general corrosion. Non-magnetic in the annealed condition. Widely used in pulp and paper industries, chemical equipment, and general industrial piping. Werkstoff Nr. 1.4301.",
+      "SS 304L (UNS S30403)":
+        "The low-carbon version of 304 stainless steel, minimizing carbide precipitation during welding. Can be hardened by the cold working process to obtain higher tensile strength. Offers excellent corrosion resistance and formability. Ideal for heavy-gauge welded components and seawater equipment. Werkstoff Nr. 1.4306 / 1.4307.",
+      "SS 304H (UNS S30409)":
+        "The high-carbon version of 304 stainless steel with the best corrosion resistance to attack from acids. Designed for elevated temperature service with improved creep and rupture strength. Widely used in chemical equipment and condensers. Werkstoff Nr. 1.4301.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A403 / ASME SA403",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "SS 304 / 304L / 304H (18/8 Austenitic)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "SS 304/304L/304H Elbows Stock Available",
+        items: [
+          "ASTM A403 WP 304 90° Elbow",
+          "SS 304H 90° Elbow",
+          "SS 304H 45° Elbow",
+          "SS 304H Long Radius Elbow",
+          "SS 304H Short Radius Elbow",
+        ],
+        image: "/stock/ss304-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "SS 304/304L/304H Tees Stock Available",
+        items: [
+          "SS 304 Equal Tee",
+          "UNS S30409 Equal Tee",
+          "Stainless Steel 304H Unequal Tee",
+          "SS 304H Lateral Tee",
+          "SS UNS S30409 Fitting Cross",
+        ],
+        image: "/stock/ss304-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "SS 304/304L/304H Reducers Stock Available",
+        items: [
+          "SS 304H Concentric Reducer",
+          "SS 304H Eccentric Reducer",
+          "Stainless Steel 304 Concentric Reducer",
+          "Stainless Steel 304L Reducers",
+          "ASTM A403 SS 304H Reducers",
+        ],
+        image: "/stock/ss304-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "SS 304/304L/304H Pipe Bends Stock Available",
+        items: [
+          "SS 3D Pipe Bend",
+          "SS 304H 1.5D Pipe Bend",
+          "SS 304H 5D Pipe Bend",
+          "SS 10D Pipe Bend",
+          "Stainless Steel 304H U Bend",
+        ],
+        image: "/stock/ss304-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "SS 304/304L/304H Stub Ends Stock Available",
+        items: [
+          "ASTM A/ASME SA403 SS 304H Long Stub",
+          "UNS S30409 Short Stub End",
+          "WNR. 1.4301 Stub End",
+          "Stainless Steel 304H Short Stub End",
+        ],
+        image: "/stock/ss304-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "SS 304/304L/304H Caps Stock Available",
+        items: [
+          "UNS S30409 End Cap",
+          "Stainless Steel 304H End Cap",
+          "Stainless Steel 304H Dish Cap",
+          "ASTM A403 SS 304H End Caps",
+        ],
+        image: "/stock/ss304-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 304", uns: "S30400", werkstoff: "1.4301", standard: "ASTM" },
+    { grade: "SS 304L", uns: "S30403", werkstoff: "1.4306 / 1.4307", standard: "ASTM" },
+    { grade: "SS 304H", uns: "S30409", werkstoff: "1.4301", standard: "ASTM" },
+    { grade: "WP 304", uns: "S30400", werkstoff: "1.4301", standard: "ASTM A403" },
+    { grade: "WP 304L", uns: "S30403", werkstoff: "1.4306", standard: "ASTM A403" },
+    { grade: "WP 304H", uns: "S30409", werkstoff: "1.4301", standard: "ASTM A403" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 304",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 10.50",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+    {
+      grade: "SS 304L",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+    {
+      grade: "SS 304H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 10.50",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 304 / 304L",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "201 HB max / 92 HRB max",
+      density: "8.00 g/cm³",
+    },
+    {
+      grade: "SS 304H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "201 HB max / 92 HRB max",
+      density: "8.00 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1010°C – 1120°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 304H Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S30409 Equal Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Stainless Steel 304H 90° Bend", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "WNR. 1.4301 Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 304H Pipe Bends", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 304H Pipe Fitting",
+    "Stainless Steel 304H Buttweld Fitting",
+    "SS 304H Seamless Fitting",
+    "Stainless Steel 304H Welded Fitting",
+    "SS 304H 90° Elbow",
+    "Stainless Steel 304H 45° Elbow",
+    "SS 304H Long Radius Elbow",
+    "Stainless Steel 304H Short Radius Elbow",
+    "SS 304H Concentric Reducer",
+    "SS 304H Eccentric Reducer",
+    "UNS S30409 Equal Tee",
+    "Stainless Steel 304H Unequal Tee",
+    "SS 304H Lateral Tee",
+    "SS UNS S30409 Fitting Cross",
+    "SS 304H Pipe Bends",
+    "Stainless Steel 304H U Bend",
+    "Stainless Steel 304H 90° Bend",
+    "UNS S30409 Short Stub End",
+    "WNR. 1.4301 Stub End",
+    "UNS S30409 End Cap",
+    "Stainless Steel 304H Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A403",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Intergranular Corrosion Test",
+      frequency: "When required",
+      method: "ASTM A262 Practice E",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Pulp & Paper Industries",
+    "Seawater Equipment",
+    "Chemical Equipment",
+    "Condensers",
+    "Heat Exchangers",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pharmaceutical Equipment",
+    "Food Processing",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 304/304L/304H Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A403 SS 304H Buttweld Fittings Exporter",
+    "SS WP 304H 45° Elbow Stockist in India",
+    "SS 304H Pipe Fittings Dealer",
+    "SS 304H Short Radius Elbow Supplier",
+    "SS WERKSTOFF NR. 1.4301 Cross Exporter",
+    "SS 10D Pipe Bend Manufacturer",
+    "SS 3D Pipe Bend Supplier",
+    "Stainless Steel 304H Seamless Fittings Manufacturer",
+    "UNS S30409 Seamless Pipe Fittings Supplier",
+    "SS 304H Pipe Elbow Exporter",
+    "Stainless Steel 304H Long Stub End Manufacturer",
+    "ASTM A/ASME SA403 SS 304H Long Stub Supplier",
+    "Stainless Steel 304H Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 304 Buttweld Fittings Price List",
+    "SS 304H Fitting Weight Calculator",
+    "SS 304 Fitting Dimensions",
+    "SS 304 Fitting Price Per Kg in India",
+    "SS 304 Fitting Manufacturer in Mumbai",
+    "SS 304 Fitting Supplier in India",
+    "SS 304 Fitting Thickness Tolerance",
+    "SS 304 Fitting Price List PDF",
+    "SS 304 Fitting Mechanical Properties",
+    "SS 304 Fitting Chemical Composition",
+    "SS 304 Fitting Stockist in Pune",
+    "SS 304 Fitting Exporter",
+    "SS 304 Fitting Price in Mumbai",
+    "SS 304 Fitting Size Chart",
+    "SS 304 Elbow Price",
+    "SS 304 Tee Supplier",
+    "SS 304 Reducer Manufacturers",
+    "SS 304 Fitting Catalog PDF",
+    "SS 304 Fitting Equivalent Grades",
+    "SS 304 Fitting Price per Piece",
+    "SS 304 Fitting updated price list",
+    "SS 304 Fitting Size Chart 1/2 to 48 inch",
+    "SS 304 Fitting Manufacturers in Gujarat",
+    "SS 304 Fitting Stockyards in India",
+    "SS 304 Fitting thickness chart",
+    "SS 304 Fitting Price in India",
+    "Top 100 SS 304 Fitting Dealers in Mumbai",
+    "Buy SS 304 Fitting Online",
+    "SS 304 Fitting leading manufacturers in India",
+    "UNS S30400 Fitting Price India",
+    "Werkstoff 1.4301 Fitting Price India",
+    "SS 304 Fitting Heat Treatment",
+    "SS 304 Fitting Solution Annealing Temperature",
+    "SS 304 Fitting Hardness Range",
+    "SS 304H 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 24,
+  slug: "stainless-steel-310-310s-310h-buttweld-fittings",
+  image: "/stock/ss-310-buttweld-fittings.jpg",
+  title:
+    "Stainless Steel 310/310S/310H Buttweld Fittings Supplier – ASTM A403 / ASME SA403 / UNS S31000 / S31008 / S31009 (Heat Resistant)",
+  shortDescription:
+    "Stainless Steel 310/310S/310H Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Stainless Steel 310 / 310S butt weld pipe fittings have high strength and hardness. They are made using good quality raw material and the latest technology, so our customers can use them for a long period without having any defects. Stainless Steel 310 / 310S / 310H butt weld pipe fittings are available in different sizes and shapes. Stainless Steel alloy 310 end cap buttweld pipe fittings contain maximum iron content, making the alloy harder and stronger. Stainless Steel 310S end cap butt weld pipe fittings contain carbon up to 2%, manganese up to 1%, and also a small portion of sulfur, silicon, oxygen, and phosphorus. Stainless Steel 310H tee butt weld pipe fittings can usually be cooled above 1394°C. Stainless Steel 310 butt weld pipe fittings are mostly used for road constructions. They are also used in buildings and other appliances. Stainless Steel 310 Cross butt weld pipe fittings are used in airports, stadiums, skyscrapers, and bridges. Stainless Steel 310 stub end buttweld pipe fittings are also used in seawater equipment and the marine industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 310 (UNS S31000)":
+        "A high-alloy austenitic stainless steel (25% Cr, 20% Ni) offering high strength and hardness, excellent oxidation resistance, and superior high-temperature performance. The end caps contain maximum iron content, making the alloy harder and stronger. Widely used in road constructions, buildings, airports, stadiums, skyscrapers, bridges, seawater equipment, and the marine industry. Werkstoff Nr. 1.4841.",
+      "SS 310S (UNS S31008)":
+        "The low-carbon version of 310 stainless steel providing the best oxidation resistance up to 2000°F and moderate strength at high temperatures. Contains carbon up to 2%, manganese up to 1%, and small portions of sulfur, silicon, oxygen, and phosphorus. Werkstoff Nr. 1.4845.",
+      "SS 310H (UNS S31009)":
+        "The high-carbon version of 310 stainless steel designed for elevated temperature service with improved creep and rupture strength. Tee fittings can usually be cooled above 1394°C. Widely used in chemical equipment and high-temperature applications. Werkstoff Nr. 1.4841.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A403 / ASME SA403",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+  },
+
+  specifications: {
+    standard: "ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "SS 310 / 310S / 310H (25/20 Heat Resistant)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "SS 310/310S/310H Elbows Stock Available",
+        items: [
+          "ASTM A403 WP SS 310 90° Elbow",
+          "SS WP SS 310/310S 45° Elbow",
+          "SS 310/310S Long Radius Elbow",
+          "310S Short Radius Elbow",
+          "Stainless Steel 310H 90° Elbow",
+        ],
+        image: "/stock/ss310-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "SS 310/310S/310H Tees Stock Available",
+        items: [
+          "UNS S31008 Equal Tee",
+          "Stainless Steel 310/310S Unequal Tee",
+          "SS 310/310S Lateral Tee",
+          "Stainless Steel 310H Tee",
+          "SS 310/310S Fitting Cross",
+        ],
+        image: "/stock/ss310-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "SS 310/310S/310H Reducers Stock Available",
+        items: [
+          "SS 310/310S Concentric Reducer",
+          "UNS S31000 Eccentric Reducer",
+          "Stainless Steel 310 Concentric Reducer",
+          "SS 310S Eccentric Reducer",
+          "ASTM A403 SS 310H Reducers",
+        ],
+        image: "/stock/ss310-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "SS 310/310S/310H Pipe Bends Stock Available",
+        items: [
+          "Stainless Steel 1.5D Pipe Bend",
+          "Stainless Steel 5D Pipe Bend",
+          "SS 310/310S 3D Pipe Bend",
+          "SS 310/310S 10D Pipe Bend",
+          "Stainless Steel SS 310/310S U Bend",
+        ],
+        image: "/stock/ss310-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "SS 310/310S/310H Stub Ends Stock Available",
+        items: [
+          "SS 310/310S Short Stub End",
+          "Steel 310/310S Stub End",
+          "Stainless Steel 310H Stub End",
+          "ASTM A403 SS 310/310S Long Stub End",
+        ],
+        image: "/stock/ss310-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "SS 310/310S/310H Caps Stock Available",
+        items: [
+          "SS 310/310S End Cap",
+          "Stainless Steel 310/310S End Cap",
+          "Stainless Steel 310/310S Dish Cap",
+          "ASTM A403 SS 310H End Caps",
+        ],
+        image: "/stock/ss310-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 310", uns: "S31000", werkstoff: "1.4841", standard: "ASTM" },
+    { grade: "SS 310S", uns: "S31008", werkstoff: "1.4845", standard: "ASTM" },
+    { grade: "SS 310H", uns: "S31009", werkstoff: "1.4841", standard: "ASTM" },
+    { grade: "WP 310", uns: "S31000", werkstoff: "1.4841", standard: "ASTM A403" },
+    { grade: "WP 310S", uns: "S31008", werkstoff: "1.4845", standard: "ASTM A403" },
+    { grade: "WP 310H", uns: "S31009", werkstoff: "1.4841", standard: "ASTM A403" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 310",
+      c: "0.25 max",
+      mn: "2.00 max",
+      si: "1.50 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+    {
+      grade: "SS 310S",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "1.50 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+    {
+      grade: "SS 310H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 310 / 310S",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "7.90 g/cm³",
+    },
+    {
+      grade: "SS 310H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "7.90 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1030°C – 1180°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 310/310S Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S31008 Equal Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 310/310S Fitting Cross", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "UNS S31000 Eccentric Reducer", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 310/310S Seamless Fitting", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 310/310S Pipe Fitting",
+    "Stainless Steel 310/310S Buttweld Fitting",
+    "SS 310/310S Seamless Fitting",
+    "Stainless Steel 310/310S Welded Fitting",
+    "SS 310/310S 90° Elbow",
+    "Stainless Steel 310/310S 45° Elbow",
+    "SS 310/310S Long Radius Elbow",
+    "Stainless Steel 310/310S Short Radius Elbow",
+    "SS 310/310S Concentric Reducer",
+    "UNS S31000 Eccentric Reducer",
+    "UNS S31008 Equal Tee",
+    "Stainless Steel 310/310S Unequal Tee",
+    "SS 310/310S Lateral Tee",
+    "SS 310/310S Fitting Cross",
+    "SS 310/310S Pipe Bends",
+    "Stainless Steel 310/310S U Bend",
+    "Stainless Steel 310/310S 90° Bend",
+    "SS 310/310S Short Stub End",
+    "Steel 310/310S Stub End",
+    "SS 310/310S End Cap",
+    "Stainless Steel 310/310S Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A403",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Road Constructions",
+    "Buildings & Appliances",
+    "Airports, Stadiums & Skyscrapers",
+    "Bridges",
+    "Seawater Equipment",
+    "Marine Industry",
+    "Chemical Equipment",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 310/310S/310H Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A403 Stainless Steel 310 Buttweld Fittings Exporter",
+    "SS WP SS 310/310S 45° Elbow Stockist in India",
+    "Stainless Steel 310/310S Welded Buttweld Fittings Dealer",
+    "310S Short Radius Elbow Supplier",
+    "SS WERKSTOFF NR. 1.4841 Cross Exporter",
+    "Stainless Steel 1.5D Pipe Bend Manufacturer",
+    "Stainless Steel 5D Pipe Bend Supplier",
+    "Stainless Steel 310/310S U Bend Supplier",
+    "UNS S31000 Seamless Pipe Fittings Exporter",
+    "Stainless Steel 310H Tee Manufacturer",
+    "SS 310/310S Stub End Supplier",
+    "ASTM A403 SS 310/310S Long Stub End",
+    "Stainless Steel 310/310S Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 310 Buttweld Fittings Price List",
+    "SS 310S Fitting Weight Calculator",
+    "SS 310 Fitting Dimensions",
+    "SS 310 Fitting Price Per Kg in India",
+    "SS 310 Fitting Manufacturer in Mumbai",
+    "SS 310 Fitting Supplier in India",
+    "SS 310 Fitting Thickness Tolerance",
+    "SS 310 Fitting Price List PDF",
+    "SS 310 Fitting Mechanical Properties",
+    "SS 310 Fitting Chemical Composition",
+    "SS 310 Fitting Stockist in Pune",
+    "SS 310 Fitting Exporter",
+    "SS 310 Fitting Price in Mumbai",
+    "SS 310 Fitting Size Chart",
+    "SS 310 Elbow Price",
+    "SS 310S Tee Supplier",
+    "SS 310 Reducer Manufacturers",
+    "SS 310 Fitting Catalog PDF",
+    "SS 310 Fitting Equivalent Grades",
+    "SS 310 Fitting Price per Piece",
+    "SS 310 Fitting updated price list",
+    "SS 310 Fitting Size Chart 1/2 to 48 inch",
+    "SS 310 Fitting Manufacturers in Gujarat",
+    "SS 310 Fitting Stockyards in India",
+    "SS 310 Fitting thickness chart",
+    "SS 310 Fitting Price in India",
+    "Top 100 SS 310 Fitting Dealers in Mumbai",
+    "Buy SS 310 Fitting Online",
+    "SS 310 Fitting leading manufacturers in India",
+    "UNS S31000 Fitting Price India",
+    "Werkstoff 1.4841 Fitting Price India",
+    "SS 310 Fitting Heat Treatment",
+    "SS 310 Fitting Solution Annealing Temperature",
+    "SS 310 Fitting Hardness Range",
+    "SS 310H 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 25,
+  slug: "stainless-steel-316-316l-316h-buttweld-fittings",
+  image: "/stock/ss-316-buttweld-fittings.jpg",
+  title:
+    "Stainless Steel 316/316L/316H Buttweld Fittings Supplier – ASTM A403 / ASME SA403 / UNS S31600 / S31603 / S31609 (Moly Grade)",
+  shortDescription:
+    "Stainless Steel 316/316L/316H Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 10 to SCH XXS. Manufactured to ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Stainless Steel 316 is the standard molybdenum-bearing austenitic stainless steel. The addition of molybdenum is a key reason for its improved resistance to pitting and crevice corrosion compared to standard 304 stainless steel. SS 316 pipe fittings offer enhanced corrosion resistance in chloride and chemical environments, high strength and durability to withstand pressure and temperature fluctuations, good weldability for shop and site fabrication, and a hygienic surface finish ideal for pharmaceutical and food-grade systems. SS 316L is the low-carbon version offering superior weldability and resistance to intergranular corrosion. SS 316H is the high-carbon version designed for elevated temperature service. These advantages make SS 316 pipe fittings a dependable solution for aggressive service conditions in chemical, petrochemical, oil & gas, and marine industries.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 316 (UNS S31600)":
+        "The standard molybdenum-bearing austenitic stainless steel. Offers enhanced corrosion resistance in chloride and chemical environments, improved resistance to pitting and crevice corrosion, high strength and durability, and good weldability. Widely used in chemical processing, petrochemical, oil & gas, and marine industries. Werkstoff Nr. 1.4401.",
+      "SS 316L (UNS S31603)":
+        "The low-carbon version of 316 stainless steel, minimizing carbide precipitation during welding. Offers superior weldability and resistance to intergranular corrosion. Ideal for heavy-gauge welded components and aggressive service conditions. Werkstoff Nr. 1.4404.",
+      "SS 316H (UNS S31609)":
+        "The high-carbon version of 316 stainless steel designed for elevated temperature service with improved creep and rupture strength. Contains carbon 0.04-0.10% for enhanced high-temperature performance. Werkstoff Nr. 1.4919.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A403 / ASME SA403",
+    dimensionalStandards: "ASME B16.9, ASME B16.28, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 10 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "SS 316 / 316L / 316H (Moly-Bearing Austenitic)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 10 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "SS 316/316L/316H Elbows Stock Available",
+        items: [
+          "ASTM A403 WP 316 90° Elbow",
+          "SS 316L 90° Elbow",
+          "SS 316H 45° Elbow",
+          "SS 316 Long Radius Elbow",
+          "SS 316L Short Radius Elbow",
+        ],
+        image: "/stock/ss316-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "SS 316/316L/316H Tees Stock Available",
+        items: [
+          "SS 316 Equal Tee",
+          "UNS S31600 Equal Tee",
+          "SS 316L Unequal Tee",
+          "SS 316H Lateral Tee",
+          "SS 316 Fitting Cross",
+        ],
+        image: "/stock/ss316-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "SS 316/316L/316H Reducers Stock Available",
+        items: [
+          "SS 316 Concentric Reducer",
+          "SS 316L Eccentric Reducer",
+          "Stainless Steel 316 Concentric Reducer",
+          "Stainless Steel 316L Reducers",
+          "ASTM A403 SS 316H Reducers",
+        ],
+        image: "/stock/ss316-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "SS 316/316L/316H Pipe Bends Stock Available",
+        items: [
+          "SS 316 1.5D Pipe Bend",
+          "SS 316L 3D Pipe Bend",
+          "SS 316 5D Pipe Bend",
+          "SS 316H 10D Pipe Bend",
+          "Stainless Steel 316 U Bend",
+        ],
+        image: "/stock/ss316-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "SS 316/316L/316H Stub Ends Stock Available",
+        items: [
+          "ASTM A403 SS 316 Long Stub End",
+          "UNS S31603 Short Stub End",
+          "SS 316L Stub End",
+          "Stainless Steel 316H Short Stub End",
+        ],
+        image: "/stock/ss316-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "SS 316/316L/316H Caps Stock Available",
+        items: [
+          "UNS S31600 End Cap",
+          "Stainless Steel 316 End Cap",
+          "Stainless Steel 316L Dish Cap",
+          "ASTM A403 SS 316H End Caps",
+        ],
+        image: "/stock/ss316-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 316", uns: "S31600", werkstoff: "1.4401", standard: "ASTM" },
+    { grade: "SS 316L", uns: "S31603", werkstoff: "1.4404", standard: "ASTM" },
+    { grade: "SS 316H", uns: "S31609", werkstoff: "1.4919", standard: "ASTM" },
+    { grade: "WP 316", uns: "S31600", werkstoff: "1.4401", standard: "ASTM A403" },
+    { grade: "WP 316L", uns: "S31603", werkstoff: "1.4404", standard: "ASTM A403" },
+    { grade: "WP 316H", uns: "S31609", werkstoff: "1.4919", standard: "ASTM A403" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 316",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 14.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+    {
+      grade: "SS 316L",
+      c: "0.035 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 16.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+    {
+      grade: "SS 316H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 14.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 316",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "95 HRB max",
+      density: "8.00 g/cm³",
+    },
+    {
+      grade: "SS 316L",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "170 MPa (25 ksi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "95 HRB max",
+      density: "8.00 g/cm³",
+    },
+    {
+      grade: "SS 316H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "95 HRB max",
+      density: "8.00 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1040°C – 1120°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 316 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S31600 Equal Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 316L 90° Bend", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "SS 316L Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 316 Pipe Bends", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 316 Pipe Fitting",
+    "Stainless Steel 316 Buttweld Fitting",
+    "SS 316 Seamless Fitting",
+    "Stainless Steel 316L Welded Fitting",
+    "SS 316 90° Elbow",
+    "Stainless Steel 316 45° Elbow",
+    "SS 316L Long Radius Elbow",
+    "Stainless Steel 316H Short Radius Elbow",
+    "SS 316 Concentric Reducer",
+    "SS 316L Eccentric Reducer",
+    "UNS S31600 Equal Tee",
+    "Stainless Steel 316L Unequal Tee",
+    "SS 316 Lateral Tee",
+    "SS UNS S31603 Fitting Cross",
+    "SS 316 Pipe Bends",
+    "Stainless Steel 316 U Bend",
+    "Stainless Steel 316 90° Bend",
+    "UNS S31603 Short Stub End",
+    "SS 316L Stub End",
+    "UNS S31600 End Cap",
+    "Stainless Steel 316L Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A403",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Intergranular Corrosion Test",
+      frequency: "When required",
+      method: "ASTM A262 Practice E",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Marine Industry",
+    "Pharmaceutical Equipment",
+    "Food & Beverage Industry",
+    "Heat Exchangers & Condensers",
+    "Power Generation",
+    "Water Supply",
+    "Pulp & Paper Industry",
+    "Refineries",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 316/316L/316H Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A403 SS 316 Buttweld Fittings Exporter",
+    "SS WP 316L 45° Elbow Stockist in India",
+    "SS 316H Pipe Fittings Dealer",
+    "SS 316L Short Radius Elbow Supplier",
+    "SS WERKSTOFF NR. 1.4401 Cross Exporter",
+    "SS 316 3D Pipe Bend Manufacturer",
+    "SS 316L 5D Pipe Bend Supplier",
+    "Stainless Steel 316 Seamless Fittings Manufacturer",
+    "UNS S31600 Seamless Pipe Fittings Supplier",
+    "SS 316H Pipe Elbow Exporter",
+    "Stainless Steel 316 Long Stub End Manufacturer",
+    "ASTM A/ASME SA403 SS 316 Long Stub Supplier",
+    "Stainless Steel 316L Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 316 Buttweld Fittings Price List",
+    "SS 316L Fitting Weight Calculator",
+    "SS 316 Fitting Dimensions",
+    "SS 316 Fitting Price Per Kg in India",
+    "SS 316 Fitting Manufacturer in Mumbai",
+    "SS 316 Fitting Supplier in India",
+    "SS 316 Fitting Thickness Tolerance",
+    "SS 316 Fitting Price List PDF",
+    "SS 316 Fitting Mechanical Properties",
+    "SS 316 Fitting Chemical Composition",
+    "SS 316 Fitting Stockist in Pune",
+    "SS 316 Fitting Exporter",
+    "SS 316 Fitting Price in Mumbai",
+    "SS 316 Fitting Size Chart",
+    "SS 316 Elbow Price",
+    "SS 316 Tee Supplier",
+    "SS 316 Reducer Manufacturers",
+    "SS 316 Fitting Catalog PDF",
+    "SS 316 Fitting Equivalent Grades",
+    "SS 316 Fitting Price per Piece",
+    "SS 316 Fitting updated price list",
+    "SS 316 Fitting Size Chart 1/2 to 48 inch",
+    "SS 316 Fitting Manufacturers in Gujarat",
+    "SS 316 Fitting Stockyards in India",
+    "SS 316 Fitting thickness chart",
+    "SS 316 Fitting Price in India",
+    "Top 100 SS 316 Fitting Dealers in Mumbai",
+    "Buy SS 316 Fitting Online",
+    "SS 316 Fitting leading manufacturers in India",
+    "UNS S31600 Fitting Price India",
+    "Werkstoff 1.4401 Fitting Price India",
+    "SS 316 Fitting Heat Treatment",
+    "SS 316 Fitting Solution Annealing Temperature",
+    "SS 316 Fitting Hardness Range",
+    "SS 316H 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 26,
+  slug: "stainless-steel-317-317l-buttweld-fittings",
+  image: "/stock/ss-317-buttweld-fittings.jpg",
+  title:
+    "Stainless Steel 317/317L Buttweld Fittings Supplier – ASTM A403 / ASME SA403 / UNS S31700 / S31703 (High Moly Grade)",
+  shortDescription:
+    "Stainless Steel 317/317L Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5S to SCH XXS. Manufactured to ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Stainless Steel 317/317L is a molybdenum-bearing austenitic stainless steel with higher molybdenum content (3-4%) compared to 316 grades, providing enhanced corrosion resistance in aggressive environments. The alloy contains 18-20% Chromium, 11-15% Nickel, and 3-4% Molybdenum, offering excellent resistance to sulfuric, acetic, formic, and citric acids. The low carbon content of 317L (0.035% max) provides high resistance to sensitization and intergranular corrosion, making it ideal for welded applications. SS 317/317L pipe fittings offer superior resistance to chloride pitting and general corrosion compared to conventional 304/304L and 316/316L grades. These advantages make SS 317/317L pipe fittings a dependable solution for aggressive service conditions in chemical, petrochemical, pulp and paper, and marine industries.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 317 (UNS S31700)":
+        "A molybdenum-bearing austenitic stainless steel with higher molybdenum content (3-4%) compared to 316 grades. Offers superior resistance to chloride pitting and general corrosion. Excellent resistance to sulfuric, acetic, formic, and citric acids. Widely used in chemical processing, petrochemical, pulp and paper, and marine industries. Werkstoff Nr. 1.4449.",
+      "SS 317L (UNS S31703)":
+        "The low-carbon version of 317 stainless steel (0.035% max carbon) providing high resistance to sensitization and intergranular corrosion. Ideal for welded applications in severe chemical environments. Non-magnetic in the annealed condition, with improved resistance relative to 316L in strongly corrosive environments containing sulfurous media, chlorides, and other halides. Werkstoff Nr. 1.4438.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A403 / ASME SA403",
+    dimensionalStandards: "ASME B16.9, ASME B16.28, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5S to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "SS 317 / 317L (High Moly Austenitic)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5S To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "SS 317/317L Elbows Stock Available",
+        items: [
+          "ASTM A403 WP 317 90° Elbow",
+          "SS 317L 90° Elbow",
+          "SS 317L 45° Elbow",
+          "SS 317 Long Radius Elbow",
+          "SS 317L Short Radius Elbow",
+        ],
+        image: "/stock/ss317-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "SS 317/317L Tees Stock Available",
+        items: [
+          "SS 317 Equal Tee",
+          "UNS S31700 Equal Tee",
+          "SS 317L Unequal Tee",
+          "SS 317L Lateral Tee",
+          "SS 317 Fitting Cross",
+        ],
+        image: "/stock/ss317-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "SS 317/317L Reducers Stock Available",
+        items: [
+          "SS 317 Concentric Reducer",
+          "SS 317L Eccentric Reducer",
+          "Stainless Steel 317 Concentric Reducer",
+          "Stainless Steel 317L Reducers",
+          "ASTM A403 SS 317L Reducers",
+        ],
+        image: "/stock/ss317-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "SS 317/317L Pipe Bends Stock Available",
+        items: [
+          "SS 317 1.5D Pipe Bend",
+          "SS 317L 3D Pipe Bend",
+          "SS 317 5D Pipe Bend",
+          "SS 317L 10D Pipe Bend",
+          "Stainless Steel 317L U Bend",
+        ],
+        image: "/stock/ss317-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "SS 317/317L Stub Ends Stock Available",
+        items: [
+          "ASTM A403 SS 317 Long Stub End",
+          "UNS S31703 Short Stub End",
+          "SS 317L Stub End",
+          "Stainless Steel 317L Short Stub End",
+        ],
+        image: "/stock/ss317-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "SS 317/317L Caps Stock Available",
+        items: [
+          "UNS S31700 End Cap",
+          "Stainless Steel 317 End Cap",
+          "Stainless Steel 317L Dish Cap",
+          "ASTM A403 SS 317L End Caps",
+        ],
+        image: "/stock/ss317-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 317", uns: "S31700", werkstoff: "1.4449", standard: "ASTM" },
+    { grade: "SS 317L", uns: "S31703", werkstoff: "1.4438", standard: "ASTM" },
+    { grade: "WP 317", uns: "S31700", werkstoff: "1.4449", standard: "ASTM A403" },
+    { grade: "WP 317L", uns: "S31703", werkstoff: "1.4438", standard: "ASTM A403" },
+    { grade: "SUS 317", uns: "S31700", werkstoff: "1.4449", standard: "JIS" },
+    { grade: "SUS 317L", uns: "S31703", werkstoff: "1.4438", standard: "JIS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 317",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "11.00 – 15.00",
+      mo: "3.00 – 4.00",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+    {
+      grade: "SS 317L",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "11.00 – 15.00",
+      mo: "3.00 – 4.00",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 317",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "95 HRB max",
+      density: "8.00 g/cm³",
+    },
+    {
+      grade: "SS 317L",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "95 HRB max",
+      density: "8.00 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1040°C – 1120°C (1900°F – 2050°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 317 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S31700 Equal Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 317L 90° Bend", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "SS 317L Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 317 Pipe Bends", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 317 Pipe Fitting",
+    "Stainless Steel 317 Buttweld Fitting",
+    "SS 317 Seamless Fitting",
+    "Stainless Steel 317L Welded Fitting",
+    "SS 317 90° Elbow",
+    "Stainless Steel 317 45° Elbow",
+    "SS 317L Long Radius Elbow",
+    "Stainless Steel 317L Short Radius Elbow",
+    "SS 317 Concentric Reducer",
+    "SS 317L Eccentric Reducer",
+    "UNS S31700 Equal Tee",
+    "Stainless Steel 317L Unequal Tee",
+    "SS 317 Lateral Tee",
+    "SS UNS S31703 Fitting Cross",
+    "SS 317 Pipe Bends",
+    "Stainless Steel 317L U Bend",
+    "Stainless Steel 317 90° Bend",
+    "UNS S31703 Short Stub End",
+    "SS 317L Stub End",
+    "UNS S31700 End Cap",
+    "Stainless Steel 317L Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A403",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Intergranular Corrosion Test",
+      frequency: "When required",
+      method: "ASTM A262 Practice E",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Processing",
+    "Petrochemicals",
+    "Pulp & Paper Industry",
+    "Marine Industry",
+    "Oil Refineries",
+    "Food Processing",
+    "Gas Scrubbers",
+    "Power Generation — Condensers",
+    "Pharmaceutical Equipment",
+    "Desalination Plants",
+    "Air Pollution Control — Flue Gas Desulfurization",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 317/317L Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A403 SS 317 Buttweld Fittings Exporter",
+    "SS WP 317L 45° Elbow Stockist in India",
+    "SS 317L Pipe Fittings Dealer",
+    "SS 317L Short Radius Elbow Supplier",
+    "SS WERKSTOFF NR. 1.4449 Cross Exporter",
+    "SS 317 3D Pipe Bend Manufacturer",
+    "SS 317L 5D Pipe Bend Supplier",
+    "Stainless Steel 317 Seamless Fittings Manufacturer",
+    "UNS S31700 Seamless Pipe Fittings Supplier",
+    "SS 317L Pipe Elbow Exporter",
+    "Stainless Steel 317 Long Stub End Manufacturer",
+    "ASTM A/ASME SA403 SS 317 Long Stub Supplier",
+    "Stainless Steel 317L Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 317 Buttweld Fittings Price List",
+    "SS 317L Fitting Weight Calculator",
+    "SS 317 Fitting Dimensions",
+    "SS 317 Fitting Price Per Kg in India",
+    "SS 317 Fitting Manufacturer in Mumbai",
+    "SS 317 Fitting Supplier in India",
+    "SS 317 Fitting Thickness Tolerance",
+    "SS 317 Fitting Price List PDF",
+    "SS 317 Fitting Mechanical Properties",
+    "SS 317 Fitting Chemical Composition",
+    "SS 317 Fitting Stockist in Pune",
+    "SS 317 Fitting Exporter",
+    "SS 317 Fitting Price in Mumbai",
+    "SS 317 Fitting Size Chart",
+    "SS 317 Elbow Price",
+    "SS 317L Tee Supplier",
+    "SS 317 Reducer Manufacturers",
+    "SS 317 Fitting Catalog PDF",
+    "SS 317 Fitting Equivalent Grades",
+    "SS 317 Fitting Price per Piece",
+    "SS 317 Fitting updated price list",
+    "SS 317 Fitting Size Chart 1/2 to 48 inch",
+    "SS 317 Fitting Manufacturers in Gujarat",
+    "SS 317 Fitting Stockyards in India",
+    "SS 317 Fitting thickness chart",
+    "SS 317 Fitting Price in India",
+    "Top 100 SS 317 Fitting Dealers in Mumbai",
+    "Buy SS 317 Fitting Online",
+    "SS 317 Fitting leading manufacturers in India",
+    "UNS S31700 Fitting Price India",
+    "Werkstoff 1.4449 Fitting Price India",
+    "SS 317 Fitting Heat Treatment",
+    "SS 317 Fitting Solution Annealing Temperature",
+    "SS 317 Fitting Hardness Range",
+    "SS 317L 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 27,
+  slug: "stainless-steel-321-321h-buttweld-fittings",
+  image: "/stock/ss-321-buttweld-fittings.jpg",
+  title:
+    "Stainless Steel 321/321H Buttweld Fittings Supplier – ASTM A403 / ASME SA403 / UNS S32100 / S32109 (Titanium-Stabilized)",
+  shortDescription:
+    "Stainless Steel 321/321H Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5S to SCH XXS. Manufactured to ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Stainless Steel 321 is a titanium-stabilized austenitic stainless steel designed for high-temperature service. The titanium addition reduces carbide precipitation during welding, making it ideal for applications in the temperature range of 427°C to 815°C (800°F to 1500°F). SS 321 offers excellent resistance to intergranular corrosion, good oxidation resistance up to 1500°F, and high strength and toughness at elevated temperatures. SS 321H is the high-carbon version providing improved creep and rupture strength at elevated temperatures. The stabilization against the weld heat-affected zone (HAZ) makes these fittings ideal for refinery equipment, high-temperature chemical processes, expansion joints, thermal oxidizers, aircraft piston engine manifolds, and exhaust stacks. These advantages make SS 321/321H pipe fittings a dependable solution for aggressive high-temperature service conditions in power generation, petrochemical, and aerospace industries.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 321 (UNS S32100)":
+        "A titanium-stabilized austenitic stainless steel designed for high-temperature service. The titanium addition reduces carbide precipitation during welding, making it ideal for applications in the temperature range of 427°C to 815°C. Offers excellent resistance to intergranular corrosion, good oxidation resistance up to 1500°F, and high strength and toughness at elevated temperatures. Resists polythionic acid stress corrosion cracking. Widely used in refinery equipment, high-temperature chemical processes, power generation, and petrochemicals. Werkstoff Nr. 1.4541.",
+      "SS 321H (UNS S32109)":
+        "The high-carbon version of 321 stainless steel with enhanced creep and rupture strength at elevated temperatures. Stabilized against the weld heat-affected zone (HAZ) with the best intergranular corrosion resistance. Widely used in expansion joints, thermal oxidizers, aircraft piston engine manifolds, and exhaust stacks. Werkstoff Nr. 1.4878.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A403 / ASME SA403",
+    dimensionalStandards: "ASME B16.9, ASME B16.28, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5S to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "SS 321 / 321H (Ti-Stabilized Austenitic)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5S To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "SS 321/321H Elbows Stock Available",
+        items: [
+          "ASTM A403 WP 321 90° Elbow",
+          "SS 321H 90° Elbow",
+          "SS 321H 45° Elbow",
+          "SS 321 Long Radius Elbow",
+          "SS 321H Short Radius Elbow",
+        ],
+        image: "/stock/ss321-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "SS 321/321H Tees Stock Available",
+        items: [
+          "SS 321 Equal Tee",
+          "UNS S32100 Equal Tee",
+          "SS 321H Unequal Tee",
+          "SS 321H Lateral Tee",
+          "SS 321 Fitting Cross",
+        ],
+        image: "/stock/ss321-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "SS 321/321H Reducers Stock Available",
+        items: [
+          "SS 321 Concentric Reducer",
+          "SS 321H Eccentric Reducer",
+          "Stainless Steel 321 Concentric Reducer",
+          "Stainless Steel 321H Reducers",
+          "ASTM A403 SS 321H Reducers",
+        ],
+        image: "/stock/ss321-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "SS 321/321H Pipe Bends Stock Available",
+        items: [
+          "SS 321 1.5D Pipe Bend",
+          "SS 321H 3D Pipe Bend",
+          "SS 321 5D Pipe Bend",
+          "SS 321H 10D Pipe Bend",
+          "Stainless Steel 321 U Bend",
+        ],
+        image: "/stock/ss321-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "SS 321/321H Stub Ends Stock Available",
+        items: [
+          "ASTM A403 SS 321 Long Stub End",
+          "UNS S32109 Short Stub End",
+          "SS 321H Stub End",
+          "Stainless Steel 321H Short Stub End",
+        ],
+        image: "/stock/ss321-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "SS 321/321H Caps Stock Available",
+        items: [
+          "UNS S32100 End Cap",
+          "Stainless Steel 321 End Cap",
+          "Stainless Steel 321H Dish Cap",
+          "ASTM A403 SS 321H End Caps",
+        ],
+        image: "/stock/ss321-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 321", uns: "S32100", werkstoff: "1.4541", standard: "ASTM" },
+    { grade: "SS 321H", uns: "S32109", werkstoff: "1.4878", standard: "ASTM" },
+    { grade: "WP 321", uns: "S32100", werkstoff: "1.4541", standard: "ASTM A403" },
+    { grade: "WP 321H", uns: "S32109", werkstoff: "1.4878", standard: "ASTM A403" },
+    { grade: "SUS 321", uns: "S32100", werkstoff: "1.4541", standard: "JIS" },
+    { grade: "SUS 321H", uns: "S32109", werkstoff: "1.4878", standard: "JIS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 321",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Ti: 5 x (C+N) – 0.70",
+    },
+    {
+      grade: "SS 321H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Ti: 4 x (C+N) – 0.70",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 321 / 321H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "8.00 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1050°C – 1120°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 321 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S32100 Equal Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 321H 90° Bend", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "SS 321H Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 321 Pipe Bends", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 321 Pipe Fitting",
+    "Stainless Steel 321 Buttweld Fitting",
+    "SS 321 Seamless Fitting",
+    "Stainless Steel 321H Welded Fitting",
+    "SS 321 90° Elbow",
+    "Stainless Steel 321 45° Elbow",
+    "SS 321H Long Radius Elbow",
+    "Stainless Steel 321H Short Radius Elbow",
+    "SS 321 Concentric Reducer",
+    "SS 321H Eccentric Reducer",
+    "UNS S32100 Equal Tee",
+    "Stainless Steel 321H Unequal Tee",
+    "SS 321 Lateral Tee",
+    "SS UNS S32109 Fitting Cross",
+    "SS 321 Pipe Bends",
+    "Stainless Steel 321 U Bend",
+    "Stainless Steel 321 90° Bend",
+    "UNS S32109 Short Stub End",
+    "SS 321H Stub End",
+    "UNS S32100 End Cap",
+    "Stainless Steel 321H Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A403",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Intergranular Corrosion Test",
+      frequency: "When required",
+      method: "ASTM A262 Practice E",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Refinery Equipment",
+    "High-Temperature Chemical Processes",
+    "Expansion Joints & Thermal Oxidizers",
+    "Aircraft Piston Engine Manifolds",
+    "Exhaust Stacks",
+    "Power Generation",
+    "Petrochemicals",
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Heat Exchangers",
+    "Chemical Equipment",
+    "Aerospace",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 321/321H Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A403 SS 321 Buttweld Fittings Exporter",
+    "SS WP 321H 45° Elbow Stockist in India",
+    "SS 321H Pipe Fittings Dealer",
+    "SS 321H Short Radius Elbow Supplier",
+    "SS WERKSTOFF NR. 1.4541 Cross Exporter",
+    "SS 321 3D Pipe Bend Manufacturer",
+    "SS 321H 5D Pipe Bend Supplier",
+    "Stainless Steel 321 Seamless Fittings Manufacturer",
+    "UNS S32100 Seamless Pipe Fittings Supplier",
+    "SS 321H Pipe Elbow Exporter",
+    "Stainless Steel 321 Long Stub End Manufacturer",
+    "ASTM A/ASME SA403 SS 321 Long Stub Supplier",
+    "Stainless Steel 321H Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 321 Buttweld Fittings Price List",
+    "SS 321H Fitting Weight Calculator",
+    "SS 321 Fitting Dimensions",
+    "SS 321 Fitting Price Per Kg in India",
+    "SS 321 Fitting Manufacturer in Mumbai",
+    "SS 321 Fitting Supplier in India",
+    "SS 321 Fitting Thickness Tolerance",
+    "SS 321 Fitting Price List PDF",
+    "SS 321 Fitting Mechanical Properties",
+    "SS 321 Fitting Chemical Composition",
+    "SS 321 Fitting Stockist in Pune",
+    "SS 321 Fitting Exporter",
+    "SS 321 Fitting Price in Mumbai",
+    "SS 321 Fitting Size Chart",
+    "SS 321 Elbow Price",
+    "SS 321H Tee Supplier",
+    "SS 321 Reducer Manufacturers",
+    "SS 321 Fitting Catalog PDF",
+    "SS 321 Fitting Equivalent Grades",
+    "SS 321 Fitting Price per Piece",
+    "SS 321 Fitting updated price list",
+    "SS 321 Fitting Size Chart 1/2 to 48 inch",
+    "SS 321 Fitting Manufacturers in Gujarat",
+    "SS 321 Fitting Stockyards in India",
+    "SS 321 Fitting thickness chart",
+    "SS 321 Fitting Price in India",
+    "Top 100 SS 321 Fitting Dealers in Mumbai",
+    "Buy SS 321 Fitting Online",
+    "SS 321 Fitting leading manufacturers in India",
+    "UNS S32100 Fitting Price India",
+    "Werkstoff 1.4541 Fitting Price India",
+    "SS 321 Fitting Heat Treatment",
+    "SS 321 Fitting Solution Annealing Temperature",
+    "SS 321 Fitting Hardness Range",
+    "SS 321H 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 28,
+  slug: "stainless-steel-347-347h-buttweld-fittings",
+  image: "/stock/ss-347-buttweld-fittings.jpg",
+  title:
+    "Stainless Steel 347/347H Buttweld Fittings Supplier – ASTM A403 / ASME SA403 / UNS S34700 / S34709 (Niobium-Stabilized)",
+  shortDescription:
+    "Stainless Steel 347/347H Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5S to SCH XXS. Manufactured to ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Stainless Steel 347 is a niobium-stabilized austenitic stainless steel designed for high-temperature service. The niobium addition prevents chromium carbide precipitation at the grain boundaries when exposed to temperatures in the sensitization range (427°C – 816°C), making it highly resistant to intergranular corrosion. SS 347 offers excellent resistance to oxidation, good creep strength, and maintains toughness under oxidizing and reducing conditions. SS 347H is the high-carbon version providing enhanced creep and rupture strength at elevated temperatures above 538°C, making it the premier choice for continuous high-temperature operations. These fittings are ideal for refinery equipment, high-temperature chemical processes, expansion joints, thermal oxidizers, aircraft piston engine manifolds, and exhaust stacks. These advantages make SS 347/347H pipe fittings a dependable solution for aggressive high-temperature service conditions in power generation, petrochemical, and aerospace industries [citation:2][citation:11].",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 347 (UNS S34700)":
+        "A niobium-stabilized austenitic stainless steel, similar to type 304 but alloyed with Niobium (Columbium) for use in applications involving continuous or intermittent service at 800°F – 1500°F (427°C – 816°C). Offers excellent resistance to oxidation, excellent resistance to intergranular corrosion, and good creep strength. Resists polythionic acid stress corrosion cracking encountered in oil refineries. Widely used in refinery equipment, high-temperature chemical processes, and power generation. Werkstoff Nr. 1.4550 [citation:8].",
+      "SS 347H (UNS S34709)":
+        "The high-carbon version of 347 stainless steel with a controlled carbon content of 0.04% – 0.10%. Like standard Grade 347, it is stabilized with Niobium to prevent chromium carbide precipitation. The elevated carbon content significantly enhances mechanical properties at high temperatures, resulting in substantially improved creep strength and higher stress rupture properties. Engineered to maintain strength and structural integrity under continuous thermal and mechanical stress above 538°C (1000°F). Widely used in expansion joints, thermal oxidizers, aircraft piston engine manifolds, and exhaust stacks. Werkstoff Nr. 1.4961 [citation:11].",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A403 / ASME SA403",
+    dimensionalStandards: "ASME B16.9, ASME B16.28, MSS-SP-43, MSS-SP-79",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5S to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Plain End, Beveled End, Threaded",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "SS 347 / 347H (Niobium-Stabilized Austenitic)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5S To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "SS 347/347H Elbows Stock Available",
+        items: [
+          "ASTM A403 WP 347 90° Elbow",
+          "SS 347H 90° Elbow",
+          "SS 347H 45° Elbow",
+          "SS 347 Long Radius Elbow",
+          "SS 347H Short Radius Elbow",
+        ],
+        image: "/stock/ss347-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "SS 347/347H Tees Stock Available",
+        items: [
+          "SS 347 Equal Tee",
+          "UNS S34700 Equal Tee",
+          "SS 347H Unequal Tee",
+          "SS 347H Lateral Tee",
+          "SS 347 Fitting Cross",
+        ],
+        image: "/stock/ss347-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "SS 347/347H Reducers Stock Available",
+        items: [
+          "SS 347 Concentric Reducer",
+          "SS 347H Eccentric Reducer",
+          "Stainless Steel 347 Concentric Reducer",
+          "Stainless Steel 347H Reducers",
+          "ASTM A403 SS 347H Reducers",
+        ],
+        image: "/stock/ss347-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "SS 347/347H Pipe Bends Stock Available",
+        items: [
+          "SS 347 1.5D Pipe Bend",
+          "SS 347H 3D Pipe Bend",
+          "SS 347 5D Pipe Bend",
+          "SS 347H 10D Pipe Bend",
+          "Stainless Steel 347 U Bend",
+        ],
+        image: "/stock/ss347-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "SS 347/347H Stub Ends Stock Available",
+        items: [
+          "ASTM A403 SS 347 Long Stub End",
+          "UNS S34709 Short Stub End",
+          "SS 347H Stub End",
+          "Stainless Steel 347H Short Stub End",
+        ],
+        image: "/stock/ss347-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "SS 347/347H Caps Stock Available",
+        items: [
+          "UNS S34700 End Cap",
+          "Stainless Steel 347 End Cap",
+          "Stainless Steel 347H Dish Cap",
+          "ASTM A403 SS 347H End Caps",
+        ],
+        image: "/stock/ss347-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 347", uns: "S34700", werkstoff: "1.4550", standard: "ASTM" },
+    { grade: "SS 347H", uns: "S34709", werkstoff: "1.4961", standard: "ASTM" },
+    { grade: "WP 347", uns: "S34700", werkstoff: "1.4550", standard: "ASTM A403" },
+    { grade: "WP 347H", uns: "S34709", werkstoff: "1.4961", standard: "ASTM A403" },
+    { grade: "SUS 347", uns: "S34700", werkstoff: "1.4550", standard: "JIS" },
+    { grade: "SUS 347H", uns: "S34709", werkstoff: "1.4961", standard: "JIS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 347",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "17.00 – 20.00",
+      ni: "9.00 – 13.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Nb+Ta: 10xC – 1.10, Fe: 62.74 min",
+    },
+    {
+      grade: "SS 347H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 13.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Nb+Ta: 8xC – 1.10, Fe: 63.72 min",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 347 / 347H",
+      tensile: "515 MPa (75,000 psi) min",
+      yield: "205 MPa (30,000 psi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "95 HRB max / 201 HB max",
+      density: "8.0 g/cm³",
+      meltingPoint: "1454 °C (2650 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1038°C (1900°F) minimum",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Rapid Cool",
+    },
+    {
+      processStep: "Stabilizing Treatment",
+      temperatureRange: "850°C – 900°C (1560°F – 1650°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 347 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S34700 Equal Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 347H 90° Bend", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "SS 347H Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 347 Pipe Bends", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 347 Pipe Fitting",
+    "Stainless Steel 347 Buttweld Fitting",
+    "SS 347 Seamless Fitting",
+    "Stainless Steel 347H Welded Fitting",
+    "SS 347 90° Elbow",
+    "Stainless Steel 347 45° Elbow",
+    "SS 347H Long Radius Elbow",
+    "Stainless Steel 347H Short Radius Elbow",
+    "SS 347 Concentric Reducer",
+    "SS 347H Eccentric Reducer",
+    "UNS S34700 Equal Tee",
+    "Stainless Steel 347H Unequal Tee",
+    "SS 347 Lateral Tee",
+    "SS UNS S34709 Fitting Cross",
+    "SS 347 Pipe Bends",
+    "Stainless Steel 347 U Bend",
+    "Stainless Steel 347 90° Bend",
+    "UNS S34709 Short Stub End",
+    "SS 347H Stub End",
+    "UNS S34700 End Cap",
+    "Stainless Steel 347H Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A403",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Intergranular Corrosion Test",
+      frequency: "When required",
+      method: "ASTM A262 Practice E",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Refinery Equipment",
+    "High-Temperature Chemical Processes",
+    "Expansion Joints & Thermal Oxidizers",
+    "Aircraft Piston Engine Manifolds",
+    "Exhaust Stacks",
+    "Power Generation",
+    "Petrochemicals",
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Heat Exchangers",
+    "Chemical Equipment",
+    "Aerospace",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 347/347H Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A403 SS 347 Buttweld Fittings Exporter",
+    "SS WP 347H 45° Elbow Stockist in India",
+    "SS 347H Pipe Fittings Dealer",
+    "SS 347H Short Radius Elbow Supplier",
+    "SS WERKSTOFF NR. 1.4550 Cross Exporter",
+    "SS 347 3D Pipe Bend Manufacturer",
+    "SS 347H 5D Pipe Bend Supplier",
+    "Stainless Steel 347 Seamless Fittings Manufacturer",
+    "UNS S34700 Seamless Pipe Fittings Supplier",
+    "SS 347H Pipe Elbow Exporter",
+    "Stainless Steel 347 Long Stub End Manufacturer",
+    "ASTM A/ASME SA403 SS 347 Long Stub Supplier",
+    "Stainless Steel 347H Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 347 Buttweld Fittings Price List",
+    "SS 347H Fitting Weight Calculator",
+    "SS 347 Fitting Dimensions",
+    "SS 347 Fitting Price Per Kg in India",
+    "SS 347 Fitting Manufacturer in Mumbai",
+    "SS 347 Fitting Supplier in India",
+    "SS 347 Fitting Thickness Tolerance",
+    "SS 347 Fitting Price List PDF",
+    "SS 347 Fitting Mechanical Properties",
+    "SS 347 Fitting Chemical Composition",
+    "SS 347 Fitting Stockist in Pune",
+    "SS 347 Fitting Exporter",
+    "SS 347 Fitting Price in Mumbai",
+    "SS 347 Fitting Size Chart",
+    "SS 347 Elbow Price",
+    "SS 347H Tee Supplier",
+    "SS 347 Reducer Manufacturers",
+    "SS 347 Fitting Catalog PDF",
+    "SS 347 Fitting Equivalent Grades",
+    "SS 347 Fitting Price per Piece",
+    "SS 347 Fitting updated price list",
+    "SS 347 Fitting Size Chart 1/2 to 48 inch",
+    "SS 347 Fitting Manufacturers in Gujarat",
+    "SS 347 Fitting Stockyards in India",
+    "SS 347 Fitting thickness chart",
+    "SS 347 Fitting Price in India",
+    "Top 100 SS 347 Fitting Dealers in Mumbai",
+    "Buy SS 347 Fitting Online",
+    "SS 347 Fitting leading manufacturers in India",
+    "UNS S34700 Fitting Price India",
+    "Werkstoff 1.4550 Fitting Price India",
+    "SS 347 Fitting Heat Treatment",
+    "SS 347 Fitting Solution Annealing Temperature",
+    "SS 347 Fitting Hardness Range",
+    "SS 347H 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+
 ];
 
 // 4. Coils
@@ -12072,6 +18784,320 @@ export const flanges: ProductMaterial[] = [
     supplyCities: SUPPLY_CITIES,
   },
   {
+  id: 26,
+  slug: "inconel-601-flanges",
+  image: "/stock/inconel-601-flanges.jpg",
+  title:
+    "Inconel 601 Flanges Supplier – ASTM B564 / ASME SB564 / UNS N06601 (High-Temp Oxidation Resistant)",
+  shortDescription:
+    "Inconel 601 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Inconel alloy 601 flanges are known for their resistance to high-temperature oxidation. Inconel 601 slip-on flanges remain resistant to oxidation at 2200°F. Inconel 601 long weld neck flanges are also available in different sizes and shapes. Inconel 600 flanges have fine finishing and are easy to fit. The best feature of Inconel alloy 601 flanges is that they resist spalling even under thermal cycling conditions. Inconel 601 slip-on flanges have outstanding oxidation resistance to 2200°F. Inconel 601 weld neck raised flanges are highly resistant to carburization and have good creep rupture strength. Inconel 601 threaded flanges have metallurgical stability and outstanding mechanical strength. Inconel 601 long weld neck flanges also get used in thermal processing equipment. Inconel 601 flanges are also used in aerospace to control pollution and in power generation industries. Inconel 601 alloy has wide usage in different industries such as from radiant tubes, heat-treating industry to the chemical processing industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 601 (UNS N06601)":
+        "A nickel-chromium-iron alloy with high oxidation resistance at temperatures up to 2200°F, resisting spalling even under thermal cycling conditions. Highly resistant to carburization, has good creep rupture strength, metallurgical stability, and outstanding mechanical strength. Contains 58-63% Nickel, 21-25% Chromium, 1.0-1.7% Aluminum, and balance Iron. Widely used in thermal processing equipment, radiant tubes, heat-treating industry, chemical processing, aerospace pollution control, and power generation. Werkstoff Nr. 2.4851.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47",
+    grade: "Inconel 601 (UNS N06601)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Inconel 601 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 601 Slip-On Flanges (SORF)",
+          "ASME SB564 Inconel 601 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Alloy 601 SORF Flanges",
+          "Inconel 601 Slip-On Flat Face Flanges",
+          "ANSI B16.47 Inconel 601 SORF Flanges",
+        ],
+        image: "/stock/inconel601-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Inconel 601 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 601 Weld Neck Flanges (WNRF)",
+          "ASME SB564 Inconel 601 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 Alloy 601 WNRF Flanges",
+          "Inconel 601 Long Weld Neck Flanges",
+          "Inconel 601® WNRF Flanges",
+        ],
+        image: "/stock/inconel601-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Inconel 601 Blind Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 601 Blind Flanges",
+          "ASME SB564 Inconel 601 Blind Raised Face Flanges",
+          "ANSI B16.5 Alloy 601 Blind Flanges",
+          "Inconel 601 Blind Flat Face Flanges",
+          "Alloy 601 Blind Flanges",
+        ],
+        image: "/stock/inconel601-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Inconel 601 Threaded Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 601 Threaded Flanges",
+          "ASME SB564 Inconel 601 Threaded Raised Face Flanges",
+          "ANSI B16.5 Alloy 601 Threaded Flanges",
+          "Inconel 601 Threaded Flat Face Flanges",
+          "ANSI B16.47 Inconel 601 Threaded Flanges",
+        ],
+        image: "/stock/inconel601-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Inconel 601 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 601 Socket Weld Flanges",
+          "ASME SB564 Inconel 601 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 Alloy 601 Socket Weld Flanges",
+          "Inconel 601 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 Inconel 601 Socket Weld Flanges",
+        ],
+        image: "/stock/inconel601-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Inconel 601 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 601 Ring Type Joint (RTJ) Flanges",
+          "ASME SB564 Alloy 601 RTJ Flanges",
+          "Alloy UNS N06601 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 601 Lap Joint Flanges",
+          "Inconel 601 Spectacle Blind Flanges",
+          "Alloy 601 Spacer Ring Flanges",
+          "Alloy 601 Orifice Flanges",
+          "Inconel 601 Nipo Flanges",
+        ],
+        image: "/stock/inconel601-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 601", uns: "N06601", werkstoff: "2.4851", standard: "ASTM" },
+    { grade: "Alloy 601", uns: "N06601", werkstoff: "2.4851", standard: "—" },
+    { grade: "UNS N06601", uns: "N06601", werkstoff: "2.4851", standard: "—" },
+    { grade: "NCF 601", uns: "N06601", werkstoff: "2.4851", standard: "JIS" },
+    { grade: "NA 49", uns: "N06601", werkstoff: "2.4851", standard: "BS" },
+    { grade: "NC23FeA", uns: "N06601", werkstoff: "2.4851", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 601",
+      c: "0.10 max",
+      mn: "1.00 max",
+      si: "0.50 max",
+      cr: "21.00 – 25.00",
+      ni: "58.00 – 63.00",
+      mo: "—",
+      other: "P: 0.020 max, S: 0.015 max, Al: 1.00 – 1.70, Cu: 1.00 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 601",
+      tensile: "550 MPa (80 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.10 g/cm³",
+      meltingPoint: "1411 °C (2572 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1100°C – 1200°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Inconel 601 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 601 WNRF Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Inconel 601 Pipe Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Inconel 601 Nipo Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 601 Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Inconel 601 SORF Flanges",
+    "ASTM B564 Alloy 601 WNRF Flanges",
+    "Inconel 601 Pipe Flanges",
+    "601 Alloy Blind Flanges",
+    "Alloy 601 Spacer Ring Flanges",
+    "Alloy UNS N06601",
+    "Alloy UNS N06601 Ring Type Joint Flanges",
+    "Alloy 601",
+    "Inconel 601 Flat Flange",
+    "Inconel 601 Nipo Flange",
+    "Alloy 601 Long Weld Neck Flanges",
+    "Inconel N06601 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Thermal Processing Equipment",
+    "Radiant Tubes",
+    "Heat-Treating Industry",
+    "Chemical Processing Industry",
+    "Aerospace Pollution Control",
+    "Power Generation",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Industrial Furnaces",
+    "Heat Exchangers",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Inconel 601 Flanges Supplier in Mumbai, India",
+    "ASTM B564 Inconel 601 Threaded Flanges Exporter",
+    "ASME SB564 Alloy 601 Socket Weld Flanges Stockist in India",
+    "Alloy 601 RTJ Flanges Dealer",
+    "Inconel 601® WNRF Flanges Manufacturer",
+    "601 Alloy Blind Flanges Supplier",
+    "Inconel 601 Weld Neck Flange Exporter",
+    "Alloy 601 Slip-On Flanges Manufacturer",
+    "Inconel 601 Socket Weld Flanges Supplier",
+    "Inconel 601 Spectacle Blind Flanges Exporter",
+    "Alloy UNS N06601 Ring Joint Flanges Dealer",
+    "Alloy 601 Spacer Ring Flanges Manufacturer",
+    "Alloy 601 Orifice Flanges Supplier",
+    "Inconel 601 Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Inconel 601 Flanges Price List",
+    "Alloy 601 Flange Weight Calculator",
+    "Inconel 601 Flange Dimensions",
+    "Inconel 601 Flange Price Per Kg in India",
+    "Inconel 601 Flange Manufacturer in Mumbai",
+    "Inconel 601 Flange Supplier in India",
+    "Inconel 601 Flange Thickness Tolerance",
+    "Inconel 601 Flange Price List PDF",
+    "Inconel 601 Flange Mechanical Properties",
+    "Inconel 601 Flange Chemical Composition",
+    "Inconel 601 Flange Stockist in Pune",
+    "Inconel 601 Flange Exporter",
+    "Inconel 601 Flange Price in Mumbai",
+    "Inconel 601 Flange Size Chart",
+    "Inconel 601 Slip-On Flange Price",
+    "Inconel 601 Weld Neck Flange Supplier",
+    "Inconel 601 Blind Flange Manufacturers",
+    "Inconel 601 Flange Catalog PDF",
+    "Inconel 601 Flange Equivalent Grades",
+    "Inconel 601 Flange Price per Piece",
+    "Inconel 601 Flange updated price list",
+    "Inconel 601 Flange Size Chart 1/2 to 48 inch",
+    "Inconel 601 Flange Manufacturers in Gujarat",
+    "Inconel 601 Flange Stockyards in India",
+    "Inconel 601 Flange thickness chart",
+    "Inconel 601 Flange Price in India",
+    "Top 100 Inconel 601 Flange Dealers in Mumbai",
+    "Buy Inconel 601 Flange Online",
+    "Inconel 601 Flange leading manufacturers in India",
+    "UNS N06601 Flange Price India",
+    "Werkstoff 2.4851 Flange Price India",
+    "Inconel 601 Flange Heat Treatment",
+    "Inconel 601 Flange Solution Annealing Temperature",
+    "Inconel 601 Flange Hardness Range",
+    "Inconel 601 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+  {
     id: 2,
     slug: "inconel-625-flanges",
     image: "/stock/hastelloy-alloy-flanges.jpg",
@@ -12426,6 +19452,658 @@ export const flanges: ProductMaterial[] = [
     supplyCities: SUPPLY_CITIES,
   },
   {
+  id: 29,
+  slug: "inconel-718-flanges",
+  image: "/stock/inconel-718-flanges.jpg",
+  title:
+    "Inconel 718 Flanges Supplier – ASTM B564 / ASME SB564 / UNS N07718 (Age-Hardenable Superalloy)",
+  shortDescription:
+    "Inconel 718 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "One of the best features of Inconel 718 flanges is that they have good mechanical properties such as high tensile and strength. Yield tensile strength, creep, and rupture strength properties are extremely high in Inconel 718 flanges. Inconel 718 slip-on flanges are best for high-temperature resistance, and they have excellent welding features as well as the best resistance to post-weld age cracking. Inconel 718 flange is age-hardenable and has the unique property of slow aging response, which further helps for cooling and heating without having the danger of cracking. Inconel 718 C-channels are highly resistant to aqueous corrosion and can only be hardened and strengthened by cold work. Inconel 718 flanges are also highly resistant to chloride-ion stress corrosion cracking. Inconel 718 C-channels are the perfect choice for gas turbine elements.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 718 (UNS N07718)":
+        "An age-hardenable nickel-chromium-iron superalloy with high tensile and yield strength, excellent creep and rupture strength, and high weldability. Exhibits slow aging response allowing cooling and heating without the danger of cracking. Resistant to post-weld age cracking, aqueous corrosion, and chloride-ion stress corrosion cracking. Can only be hardened and strengthened by cold work. Widely used in gas turbine elements, aircraft engines, high-temperature structural components, and petrochemical industries. Werkstoff Nr. 2.4668.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47",
+    grade: "Inconel 718 (UNS N07718)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Inconel 718 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 718 Slip-On Flanges (SORF)",
+          "ASME SB564 Inconel 718 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Alloy 718 SORF Flanges",
+          "Inconel 718 Slip-On Flat Face Flanges",
+          "ANSI B16.47 Inconel 718 SORF Flanges",
+        ],
+        image: "/stock/inconel718-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Inconel 718 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 718 Weld Neck Flanges (WNRF)",
+          "Inconel 718® WNRF Flanges",
+          "ANSI B16.5 Alloy 718 WNRF Flanges",
+          "718 Alloy Weld Neck Flange",
+          "Inconel 718 Long Weld Neck Flanges",
+        ],
+        image: "/stock/inconel718-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Inconel 718 Blind Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 718 Blind Flanges",
+          "ASME SB564 Inconel 718 Blind Raised Face Flanges",
+          "ANSI B16.5 Alloy 718 Blind Flanges",
+          "Inconel 718 Blind Flat Face Flanges",
+          "718 Alloy Blind Flanges",
+        ],
+        image: "/stock/inconel718-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Inconel 718 Threaded Flanges Stock Available",
+        items: [
+          "ASTM B564 Inconel 718 Threaded Flanges",
+          "ASME SB564 Inconel 718 Threaded Raised Face Flanges",
+          "Inconel 718 Screwed Flanges",
+          "Inconel 718 Threaded Flat Face Flanges",
+          "ANSI B16.47 Inconel 718 Threaded Flanges",
+        ],
+        image: "/stock/inconel718-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Inconel 718 Socket Weld Flanges Stock Available",
+        items: [
+          "Inconel DIN 2.4668 Socket Weld Flanges",
+          "Werkstoff 2.4668 Inconel Socket Weld Flanges",
+          "ANSI B16.5 Alloy 718 Socket Weld Flanges",
+          "Inconel 718 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 Inconel 718 Socket Weld Flanges",
+        ],
+        image: "/stock/inconel718-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Inconel 718 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ANSI B16.5 Alloy 718 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 718 RTJ Flanges",
+          "Alloy UNS N06718 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 718 Lap Joint Flanges",
+          "Inconel 718 Spectacle Blind Flanges",
+          "Alloy 718 Spacer Ring Flanges",
+          "Alloy 718 Orifice Flanges",
+          "Inconel 718 Nipo Flanges",
+        ],
+        image: "/stock/inconel718-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 718", uns: "N07718", werkstoff: "2.4668", standard: "ASTM" },
+    { grade: "Alloy 718", uns: "N07718", werkstoff: "2.4668", standard: "—" },
+    { grade: "UNS N07718", uns: "N07718", werkstoff: "2.4668", standard: "—" },
+    { grade: "NCF 718", uns: "N07718", werkstoff: "2.4668", standard: "JIS" },
+    { grade: "NA 51", uns: "N07718", werkstoff: "2.4668", standard: "BS" },
+    { grade: "NC19FeNb", uns: "N07718", werkstoff: "2.4668", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 718",
+      c: "0.08 max",
+      mn: "0.35 max",
+      si: "0.35 max",
+      cr: "17.00 – 21.00",
+      ni: "50.00 – 55.00",
+      mo: "2.80 – 3.30",
+      other: "P: 0.015 max, S: 0.015 max, Nb+Ta: 4.75 – 5.50, Ti: 0.65 – 1.15, Al: 0.20 – 0.80, B: 0.006 max, Cu: 0.30 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 718",
+      tensile: "930 MPa (135 ksi) min",
+      yield: "482 MPa (70 ksi) min",
+      elongation: "45% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.19 g/cm³",
+      meltingPoint: "1336 °C (2437 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "954°C – 982°C (1750°F – 1800°F)",
+      timeAtTemperature: "1 hour",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Age Hardening (Precipitation)",
+      temperatureRange: "718°C – 760°C (1325°F – 1400°F)",
+      timeAtTemperature: "8 hours + 620°C (1150°F) for 8 hours",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Inconel 718 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N06718 Ring Type Joint Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Inconel 718 Flat Flange", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Inconel N06718 Lap Joint Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 718 Long Weld Neck Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Inconel 718 SORF Flanges",
+    "ASTM B564 Alloy 718 WNRF Flanges",
+    "Inconel 718 Pipe Flanges",
+    "718 Alloy Blind Flanges",
+    "Alloy 718 Spacer Ring Flanges",
+    "Alloy UNS N06718",
+    "Alloy UNS N06718 Ring Type Joint Flanges",
+    "Alloy 718",
+    "Inconel 718 Flat Flange",
+    "Inconel 718 Nipo Flange",
+    "Alloy 718 Long Weld Neck Flanges",
+    "Inconel N06718 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Gas Turbine Elements",
+    "Aircraft Engines",
+    "High-Temperature Structural Components",
+    "Aerospace",
+    "Petrochemical Industries",
+    "Oil & Gas Production",
+    "Chemical Processing",
+    "Power Generation",
+    "Nuclear Reactors",
+    "Marine Industry",
+    "Heat Exchangers",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Inconel 718 Flanges Supplier in Mumbai, India",
+    "ASTM B564 Inconel 718 Threaded Flanges Exporter",
+    "Inconel DIN 2.4668 Socket Weld Flanges Stockist in India",
+    "Alloy 718 RTJ Flanges Dealer",
+    "Inconel 718® WNRF Flanges Manufacturer",
+    "718 Alloy Blind Flanges Supplier",
+    "Inconel 718 Plate Flange Exporter",
+    "Inconel 718 Slip-On Flanges Manufacturer",
+    "Inconel 718 Socket Weld Flanges Supplier",
+    "Inconel 718 Spectacle Blind Flanges Exporter",
+    "Alloy UNS N06718 Ring Joint Flanges Dealer",
+    "Alloy 718 Spacer Ring Flanges Manufacturer",
+    "Alloy 718 Orifice Flanges Supplier",
+    "Inconel 718 Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Inconel 718 Flanges Price List",
+    "Alloy 718 Flange Weight Calculator",
+    "Inconel 718 Flange Dimensions",
+    "Inconel 718 Flange Price Per Kg in India",
+    "Inconel 718 Flange Manufacturer in Mumbai",
+    "Inconel 718 Flange Supplier in India",
+    "Inconel 718 Flange Thickness Tolerance",
+    "Inconel 718 Flange Price List PDF",
+    "Inconel 718 Flange Mechanical Properties",
+    "Inconel 718 Flange Chemical Composition",
+    "Inconel 718 Flange Stockist in Pune",
+    "Inconel 718 Flange Exporter",
+    "Inconel 718 Flange Price in Mumbai",
+    "Inconel 718 Flange Size Chart",
+    "Inconel 718 Slip-On Flange Price",
+    "Inconel 718 Weld Neck Flange Supplier",
+    "Inconel 718 Blind Flange Manufacturers",
+    "Inconel 718 Flange Catalog PDF",
+    "Inconel 718 Flange Equivalent Grades",
+    "Inconel 718 Flange Price per Piece",
+    "Inconel 718 Flange updated price list",
+    "Inconel 718 Flange Size Chart 1/2 to 48 inch",
+    "Inconel 718 Flange Manufacturers in Gujarat",
+    "Inconel 718 Flange Stockyards in India",
+    "Inconel 718 Flange thickness chart",
+    "Inconel 718 Flange Price in India",
+    "Top 100 Inconel 718 Flange Dealers in Mumbai",
+    "Buy Inconel 718 Flange Online",
+    "Inconel 718 Flange leading manufacturers in India",
+    "UNS N07718 Flange Price India",
+    "Werkstoff 2.4668 Flange Price India",
+    "Inconel 718 Flange Heat Treatment",
+    "Inconel 718 Flange Solution Annealing Temperature",
+    "Inconel 718 Flange Hardness Range",
+    "Inconel 718 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 30,
+  slug: "incoloy-800-800h-800ht-flanges",
+  image: "/stock/incoloy-800-flanges.jpg",
+  title:
+    "Incoloy 800/800H/800HT Flanges Supplier – ASTM B564 / ASME SB564 / UNS N08800 / N08810 / N08811",
+  shortDescription:
+    "Incoloy 800/800H/800HT Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Inconel 800 flanges are mostly used at temperatures up to 1100°F, whereas 800H/800HT is used at temperatures above 1100°F. Incoloy 800 slip-on flanges are available in different sizes and shapes. The usage of Incoloy 800H/800HT flanges is widespread, starting from the chemical and petrochemical processing industry to industrial furnaces. Inconel 800H slip-on flanges are used in heat-treatment equipment and ethylene furnace quench boilers. Incoloy 800HT weld neck flanges are used in pressure vessels and superheaters and re-heaters in power plants. Incoloy 800H socket weld flanges are also used in valves, fittings, and other components exposed to corrosive attack from 110-1800°F.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Incoloy 800 (UNS N08800)":
+        "A nickel-iron-chromium alloy used at temperatures up to 1100°F. Offers good resistance to oxidation, carburization, and sulfidation. Excellent mechanical properties at both room and elevated temperatures. Widely used in chemical and petrochemical processing, industrial furnaces, and heat-treatment equipment. Werkstoff Nr. 1.4876. Also available in GOST ЭИ670 equivalent.",
+      "Incoloy 800H (UNS N08810)":
+        "A high-carbon version of 800 alloy used at temperatures above 1100°F. Features controlled carbon, aluminum, and titanium contents with high-temperature solution annealing for significantly higher creep and rupture strength. Widely used in heat-treatment equipment, ethylene furnace quench boilers, and valves exposed to corrosive attack from 110-1800°F. Werkstoff Nr. 1.4958.",
+      "Incoloy 800HT (UNS N08811)":
+        "The advanced version of 800H with tighter chemistry controls and enhanced high-temperature properties. Provides the highest creep and rupture strength for pressure vessels, superheaters, and re-heaters in power plants. Werkstoff Nr. 1.4859.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47",
+    grade: "Incoloy 800 / 800H / 800HT",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Incoloy 800/800H/800HT Slip-On Flanges Stock Available",
+        items: [
+          "ASTM B564 Incoloy 800 Slip-On Flanges (SORF)",
+          "ASME SB564 Incoloy 800H Slip-On Raised Face Flanges",
+          "ANSI B16.5 Alloy 800HT SORF Flanges",
+          "Incoloy 800 Slip-On Flat Face Flanges",
+          "ANSI B16.47 Incoloy 800H SORF Flanges",
+        ],
+        image: "/stock/incoloy800-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Incoloy 800/800H/800HT Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM B564 Incoloy 800 Weld Neck Flanges (WNRF)",
+          "ASTM B564 Alloy 800HT WNRF Flanges",
+          "Incoloy 800® WNRF Flanges",
+          "800 Alloy Weld Neck Flange",
+          "Alloy 800HT Long Weld Neck Flanges",
+        ],
+        image: "/stock/incoloy800-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Incoloy 800/800H/800HT Blind Flanges Stock Available",
+        items: [
+          "ASTM B564 Incoloy 800 Blind Flanges",
+          "ASME SB564 Incoloy 800H Blind Raised Face Flanges",
+          "ANSI B16.5 Alloy 800HT Blind Flanges",
+          "Incoloy 800 Blind Flat Face Flanges",
+          "800HT Alloy Blind Flanges",
+        ],
+        image: "/stock/incoloy800-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Incoloy 800/800H/800HT Threaded Flanges Stock Available",
+        items: [
+          "ASTM B564 Incoloy 800 Threaded Flanges",
+          "Incoloy 800H Threaded Flanges",
+          "Incoloy GOST ЭИ670 Screwed Flanges",
+          "Incoloy 800HT Threaded Flat Face Flanges",
+          "ANSI B16.47 Incoloy 800H Threaded Flanges",
+        ],
+        image: "/stock/incoloy800-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Incoloy 800/800H/800HT Socket Weld Flanges Stock Available",
+        items: [
+          "Incoloy 800 Socket Weld Flanges",
+          "Werkstoff 1.4958 Incoloy Socket Weld Flanges",
+          "ANSI B16.5 Alloy 800HT Socket Weld Flanges",
+          "Incoloy 800H Socket Weld Flat Face Flanges",
+          "ANSI B16.47 Incoloy 800 Socket Weld Flanges",
+        ],
+        image: "/stock/incoloy800-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Incoloy 800/800H/800HT Ring Type Joint Flanges Stock Available",
+        items: [
+          "ANSI B16.5 Alloy 800 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 800HT RTJ Flanges",
+          "Alloy UNS N08800 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 800 Lap Joint Flanges",
+          "Incoloy 800 Spectacle Blind Flanges",
+          "Alloy 800H Spacer Ring Flanges",
+          "Alloy 800 Orifice Flanges",
+          "Incoloy 800 Nipo Flange",
+        ],
+        image: "/stock/incoloy800-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Incoloy 800", uns: "N08800", werkstoff: "1.4876", standard: "ASTM" },
+    { grade: "Incoloy 800H", uns: "N08810", werkstoff: "1.4958", standard: "ASTM" },
+    { grade: "Incoloy 800HT", uns: "N08811", werkstoff: "1.4859", standard: "ASTM" },
+    { grade: "NCF 800", uns: "N08800", werkstoff: "1.4876", standard: "JIS" },
+    { grade: "NCF 800H", uns: "N08810", werkstoff: "1.4958", standard: "JIS" },
+    { grade: "GOST ЭИ670", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Incoloy 800",
+      c: "0.10 max",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.015 max, Cu: 0.75 max, Al: 0.15 – 0.60, Ti: 0.15 – 0.60, Fe: 39.50 min",
+    },
+    {
+      grade: "Incoloy 800H",
+      c: "0.05 – 0.10",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.015 max, Cu: 0.75 max, Al: 0.15 – 0.60, Ti: 0.15 – 0.60, Fe: 39.50 min",
+    },
+    {
+      grade: "Incoloy 800HT",
+      c: "0.06 – 0.10",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.015 max, Cu: 0.75 max, Al: 0.25 – 0.60, Ti: 0.25 – 0.60, Fe: 39.50 min",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Incoloy 800 / 800H / 800HT",
+      tensile: "520 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.94 g/cm³",
+      meltingPoint: "1385 °C (2525 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "980°C – 1150°C (1800°F – 2100°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "540°C – 600°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Incoloy 800 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "ASTM B564 Alloy 800HT WNRF Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "800HT Alloy Blind Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "UNS N08800 Ring Type Joint Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 800HT Long Weld Neck Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Incoloy 800 SORF Flanges",
+    "ASTM B564 Alloy 800HT WNRF Flanges",
+    "Incoloy 800H Pipe Flanges",
+    "800HT Alloy Blind Flanges",
+    "Alloy 800H Spacer Ring Flanges",
+    "Alloy UNS N08810",
+    "Alloy UNS N08800 Ring Type Joint Flanges",
+    "Alloy 800",
+    "Incoloy 800H Flat Flange",
+    "Incoloy 800 Nipo Flange",
+    "Alloy 800HT Long Weld Neck Flanges",
+    "Incoloy N08811 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number Traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical & Petrochemical Processing",
+    "Industrial Furnaces",
+    "Heat-Treatment Equipment",
+    "Ethylene Furnace Quench Boilers",
+    "Pressure Vessels",
+    "Superheaters & Re-Heaters in Power Plants",
+    "Valves & Fittings (110-1800°F)",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Nuclear Power Generation",
+    "Marine Industry",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Incoloy 800/800H/800HT Flanges Supplier in Mumbai, India",
+    "ASTM B564 Incoloy 800H Threaded Flanges Exporter",
+    "Incoloy 800/800H Socket Weld Flanges Stockist in India",
+    "Alloy 800HT RTJ Flanges Dealer",
+    "Incoloy 800® WNRF Flanges Manufacturer",
+    "800HT Alloy Blind Flanges Supplier",
+    "800 Alloy Weld Neck Flange Exporter",
+    "Incoloy 800 Slip-On Flanges Manufacturer",
+    "Incoloy 800H Socket Weld Flanges Supplier",
+    "Inconel 800 Spectacle Blind Flanges Exporter",
+    "Alloy UNS N08800 Ring Joint Flanges Dealer",
+    "Alloy 800H Spacer Ring Flanges Manufacturer",
+    "Alloy 800 Orifice Flanges Supplier",
+    "Incoloy 800 Nipo Flange Exporter",
+  ],
+
+  relatedSearches: [
+    "Incoloy 800 Flanges Price List",
+    "Alloy 800H Flange Weight Calculator",
+    "Incoloy 800HT Flange Dimensions",
+    "Incoloy 800 Flange Price Per Kg in India",
+    "Incoloy 800 Flange Manufacturer in Mumbai",
+    "Incoloy 800 Flange Supplier in India",
+    "Incoloy 800 Flange Thickness Tolerance",
+    "Incoloy 800 Flange Price List PDF",
+    "Incoloy 800 Flange Mechanical Properties",
+    "Incoloy 800 Flange Chemical Composition",
+    "Incoloy 800 Flange Stockist in Pune",
+    "Incoloy 800 Flange Exporter",
+    "Incoloy 800 Flange Price in Mumbai",
+    "Incoloy 800 Flange Size Chart",
+    "Incoloy 800 Slip-On Flange Price",
+    "Incoloy 800H Weld Neck Flange Supplier",
+    "Incoloy 800HT Blind Flange Manufacturers",
+    "Incoloy 800 Flange Catalog PDF",
+    "Incoloy 800 Flange Equivalent Grades",
+    "Incoloy 800 Flange Price per Piece",
+    "Incoloy 800 Flange updated price list",
+    "Incoloy 800 Flange Size Chart 1/2 to 48 inch",
+    "Incoloy 800 Flange Manufacturers in Gujarat",
+    "Incoloy 800 Flange Stockyards in India",
+    "Incoloy 800 Flange thickness chart",
+    "Incoloy 800 Flange Price in India",
+    "Top 100 Incoloy 800 Flange Dealers in Mumbai",
+    "Buy Incoloy 800 Flange Online",
+    "Incoloy 800 Flange leading manufacturers in India",
+    "UNS N08800 Flange Price India",
+    "Werkstoff 1.4876 Flange Price India",
+    "Incoloy 800 Flange Heat Treatment",
+    "Incoloy 800 Flange Solution Annealing Temperature",
+    "Incoloy 800 Flange Hardness Range",
+    "Incoloy 800 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+  {
     id: 3,
     slug: "incoloy-825-flanges",
     image: "/stock/incoloy-800-flanges.jpg",
@@ -12772,6 +20450,320 @@ export const flanges: ProductMaterial[] = [
     supplyCities: SUPPLY_CITIES,
   },
   {
+  id: 31,
+  slug: "hastelloy-c22-flanges",
+  image: "/stock/hastelloy-c22-flanges.jpg",
+  title:
+    "Hastelloy C22 Flanges Supplier – ASTM B564 / ASME SB564 / UNS N06022 (Superalloy, Oxidation Resistant)",
+  shortDescription:
+    "Hastelloy C22 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Hastelloy C22 alloy includes nickel, chromium, molybdenum, and tungsten, which result in extreme resistance to pitting and stress corrosion cracking. The best feature of Hastelloy C22 threaded flanges is that they have the best resistance to oxidizing aqueous media and a wide range of chemical process environments, including oxidizers like ferric acids, seawater, and chloride solutions. Hastelloy C22 weld neck flanges have the best resistance to pitting and stress corrosion cracking. Hastelloy alloy C22 socket weld flanges have excellent resistance to reducing and oxidizing media. They also help resist the formation of grain-boundary precipitates in the heat-affected zone. Hastelloy C22 threaded flanges have the best weldability. Hastelloy C22 alloys are mostly used in pharmaceutical industries for fittings and tubing, and they also help to avoid contamination, which is mostly caused by corrosion. Hastelloy C22 socket weld flanges are used in the chemical process industry in equipment like flue gas scrubbers, chlorine systems, sulfur dioxide scrubbers, pulp and paper bleach plants, pickling systems. Nuclear fuel reprocessing and Hastelloy C22 Ring Joint type flanges are used in wastewater processing systems.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Hastelloy C22 (UNS N06022)":
+        "A nickel-chromium-molybdenum-tungsten superalloy with extreme resistance to pitting, stress corrosion cracking, and both oxidizing and reducing media. Resists the formation of grain-boundary precipitates in the heat-affected zone (HAZ), offering excellent weldability. Widely used in pharmaceutical industries for fittings and tubing, chemical process equipment (flue gas scrubbers, chlorine systems, sulfur dioxide scrubbers, pulp and paper bleach plants, pickling systems), nuclear fuel reprocessing, and wastewater processing. Werkstoff Nr. 2.4602.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47",
+    grade: "Hastelloy C22 (UNS N06022)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Hastelloy C22 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM B564 Hastelloy C22 Slip-On Flanges (SORF)",
+          "ASME SB564 Hastelloy C22 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Alloy C22 SORF Flanges",
+          "Hastelloy C22 Slip-On Flat Face Flanges",
+          "ANSI B16.47 Hastelloy C22 SORF Flanges",
+        ],
+        image: "/stock/hastelloyc22-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Hastelloy C22 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM B564 Hastelloy C22 Weld Neck Flanges (WNRF)",
+          "Hastelloy C22® WNRF Flanges",
+          "ANSI B16.5 Alloy C22 WNRF Flanges",
+          "C22 Alloy Weld Neck Flange",
+          "Alloy C22 Long Weld Neck Flanges",
+        ],
+        image: "/stock/hastelloyc22-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Hastelloy C22 Blind Flanges Stock Available",
+        items: [
+          "ASTM B564 Hastelloy C22 Blind Flanges",
+          "ASME SB564 Hastelloy C22 Blind Raised Face Flanges",
+          "ANSI B16.5 Alloy C22 Blind Flanges",
+          "Hastelloy C22 Blind Flat Face Flanges",
+          "C22 Alloy Blind Flanges",
+        ],
+        image: "/stock/hastelloyc22-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Hastelloy C22 Threaded Flanges Stock Available",
+        items: [
+          "ASTM B564 Hastelloy C22 Threaded Flanges",
+          "ASME SB564 Hastelloy C22 Threaded Raised Face Flanges",
+          "Hastelloy C22 Screwed Flanges",
+          "Hastelloy C22 Threaded Flat Face Flanges",
+          "ANSI B16.47 Hastelloy C22 Threaded Flanges",
+        ],
+        image: "/stock/hastelloyc22-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Hastelloy C22 Socket Weld Flanges Stock Available",
+        items: [
+          "Hastelloy DIN 2.4602 Socket Weld Flanges",
+          "Werkstoff 2.4602 Hastelloy Socket Weld Flanges",
+          "ANSI B16.5 Alloy C22 Socket Weld Flanges",
+          "Hastelloy C22 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 Hastelloy C22 Socket Weld Flanges",
+        ],
+        image: "/stock/hastelloyc22-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Hastelloy C22 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ANSI B16.5 Alloy C22 Ring Type Joint Flanges",
+          "ASME SB564 Alloy C22 RTJ Flanges",
+          "Alloy UNS N06022 Ring Type Joint Flanges",
+          "ASME SB564 Alloy C22 Lap Joint Flanges",
+          "Hastelloy C22 Spectacle Blind Flanges",
+          "Alloy C22 Spacer Ring Flanges",
+          "Alloy C22 Orifice Flanges",
+          "Hastelloy C22 Nipo Flange",
+        ],
+        image: "/stock/hastelloyc22-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Hastelloy C22", uns: "N06022", werkstoff: "2.4602", standard: "ASTM" },
+    { grade: "Alloy C22", uns: "N06022", werkstoff: "2.4602", standard: "—" },
+    { grade: "UNS N06022", uns: "N06022", werkstoff: "2.4602", standard: "—" },
+    { grade: "NCF 622", uns: "N06022", werkstoff: "2.4602", standard: "JIS" },
+    { grade: "NA 21", uns: "N06022", werkstoff: "2.4602", standard: "BS" },
+    { grade: "NC22DNB4M", uns: "N06022", werkstoff: "2.4602", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Hastelloy C22",
+      c: "0.015 max",
+      mn: "0.50 max",
+      si: "0.08 max",
+      cr: "20.00 – 22.50",
+      ni: "50.00 min",
+      mo: "12.50 – 14.50",
+      other: "P: 0.025 max, S: 0.020 max, Co: 2.50 max, W: 2.50 – 3.50, V: 0.35 max, Fe: 2.00 – 6.00",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Hastelloy C22",
+      tensile: "690 MPa (100 ksi) min",
+      yield: "283 MPa (41 ksi) min",
+      elongation: "45% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.69 g/cm³",
+      meltingPoint: "1357 – 1399 °C (2475 – 2550 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1120°C – 1180°C (2050°F – 2150°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Rapid Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Hastelloy C22 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "C22 Alloy Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy UNS N06022 Ring Type Joint Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Hastelloy C22 Nipo Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy C22 WNRF Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Hastelloy C22 SORF Flanges",
+    "ASTM B564 Alloy C22 WNRF Flanges",
+    "Hastelloy C22 Pipe Flanges",
+    "C22 Alloy Blind Flanges",
+    "Alloy C22 Spacer Ring Flanges",
+    "Alloy UNS N06022",
+    "Alloy UNS N06022 Ring Type Joint Flanges",
+    "Alloy C22",
+    "Hastelloy C22 Flat Flange",
+    "Hastelloy C22 Nipo Flange",
+    "Alloy C22 Long Weld Neck Flanges",
+    "Hastelloy N06022 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Pharmaceutical Industries",
+    "Chemical Process Industry",
+    "Flue Gas Scrubbers",
+    "Chlorine Systems",
+    "Sulfur Dioxide Scrubbers",
+    "Pulp & Paper Bleach Plants",
+    "Pickling Systems",
+    "Nuclear Fuel Reprocessing",
+    "Wastewater Processing Systems",
+    "Seawater & Chloride Solutions",
+    "Oil & Gas",
+    "Power Generation",
+  ],
+
+  specializedIn: [
+    "Hastelloy C22 Flanges Supplier in Mumbai, India",
+    "ASTM B564 Hastelloy C22 Threaded Flanges Exporter",
+    "Hastelloy DIN 2.4602 Socket Weld Flanges Stockist in India",
+    "Alloy C22 RTJ Flanges Dealer",
+    "Hastelloy C22® WNRF Flanges Manufacturer",
+    "C22 Alloy Blind Flanges Supplier",
+    "C22 Alloy Weld Neck Flange Exporter",
+    "Hastelloy C22 Slip-On Flanges Manufacturer",
+    "Hastelloy C22 Socket Weld Flanges Supplier",
+    "Hastelloy C22 Spectacle Blind Flanges Exporter",
+    "Alloy UNS N06022 Ring Joint Flanges Dealer",
+    "Alloy C22 Spacer Ring Flanges Manufacturer",
+    "Alloy C22 Orifice Flanges Supplier",
+    "Hastelloy C22 Nipo Flange Exporter",
+  ],
+
+  relatedSearches: [
+    "Hastelloy C22 Flanges Price List",
+    "Alloy C22 Flange Weight Calculator",
+    "Hastelloy C22 Flange Dimensions",
+    "Hastelloy C22 Flange Price Per Kg in India",
+    "Hastelloy C22 Flange Manufacturer in Mumbai",
+    "Hastelloy C22 Flange Supplier in India",
+    "Hastelloy C22 Flange Thickness Tolerance",
+    "Hastelloy C22 Flange Price List PDF",
+    "Hastelloy C22 Flange Mechanical Properties",
+    "Hastelloy C22 Flange Chemical Composition",
+    "Hastelloy C22 Flange Stockist in Pune",
+    "Hastelloy C22 Flange Exporter",
+    "Hastelloy C22 Flange Price in Mumbai",
+    "Hastelloy C22 Flange Size Chart",
+    "Hastelloy C22 Slip-On Flange Price",
+    "Hastelloy C22 Weld Neck Flange Supplier",
+    "Hastelloy C22 Blind Flange Manufacturers",
+    "Hastelloy C22 Flange Catalog PDF",
+    "Hastelloy C22 Flange Equivalent Grades",
+    "Hastelloy C22 Flange Price per Piece",
+    "Hastelloy C22 Flange updated price list",
+    "Hastelloy C22 Flange Size Chart 1/2 to 48 inch",
+    "Hastelloy C22 Flange Manufacturers in Gujarat",
+    "Hastelloy C22 Flange Stockyards in India",
+    "Hastelloy C22 Flange thickness chart",
+    "Hastelloy C22 Flange Price in India",
+    "Top 100 Hastelloy C22 Flange Dealers in Mumbai",
+    "Buy Hastelloy C22 Flange Online",
+    "Hastelloy C22 Flange leading manufacturers in India",
+    "UNS N06022 Flange Price India",
+    "Werkstoff 2.4602 Flange Price India",
+    "Hastelloy C22 Flange Heat Treatment",
+    "Hastelloy C22 Flange Solution Annealing Temperature",
+    "Hastelloy C22 Flange Hardness Range",
+    "Hastelloy C22 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+  {
     id: 4,
     slug: "hastelloy-c276-flanges",
     image: "/stock/carbon-steel-flanges.jpg",
@@ -13116,596 +21108,3128 @@ export const flanges: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
-  {
-    id: 5,
-    slug: "monel-flanges",
-    image: "/stock/steel-flanges-types.jpg",
-    title: "Monel Flanges Manufacturer & Supplier - ASTM B564 / ASME SB-564",
-    shortDescription:
-      'Premium Monel flanges manufacturer, stockist and exporter operating from Mumbai, India since 2013. Alloy 400 forgings certified to ASTM B564 / ASME SB-564, while K500 orders supplied to ASTM B865 / ASME SB-865. Monel flanges are nickel-copper alloy flanges containing roughly 67% nickel, providing strong resistance to corrosion in rapidly flowing seawater, brine, hydrofluoric acid and alkaline service. Available in Monel 400 (UNS N04400) and Monel K500 (UNS N05500) grades. Supply spans NPS 1/2" to 48" (DN 15 to DN 1200) with Classes 150 to 2500.',
-    technicalOverview:
-      'Monel flanges are nickel-copper alloy flanges containing roughly 67% nickel, with copper making up most of the balance and small additions of iron, manganese, carbon and silicon. This composition provides strong resistance to corrosion in rapidly flowing seawater, brine, hydrofluoric acid and alkaline service. Two grades are supplied in flange form: Monel 400 (UNS N04400) covers most orders, while age-hardened Monel K500 (UNS N05500) is selected where higher mechanical strength is required. Supply spans NPS 1/2" to 48" (DN 15 to DN 1200). Class 150 to 2500 is available to NPS 12, Class 150 to 1500 to NPS 24, and Class 150 to 900 above that. PN 6 to PN 63 are available for European drawings. Eleven patterns are produced in-house, from weld neck through spectacle blind, with five facing options.',
-    materialGroup: "Monel",
-    standards:
-      "ASTM B564, ASME SB-564, ASTM B865, ASME SB-865, ASTM B127, ASME SB-127, ASME B16.5, ASME B16.47 Series A & B, ASME B16.48, EN 1092-1, JIS B2220, IS 6392",
-    forms:
-      "Weld Neck, Slip-On, Blind, Socket Weld, Threaded, Lap Joint, Long Weld Neck, Reducing, Orifice, Plate, Spectacle Blind",
-    application:
-      "Monel flanges are widely used in marine, oil & gas, chemical, offshore, defence, pumps & valves, powerplant, and water treatment industry for seawater, brine, hydrofluoric acid, and alkaline service.",
-    applications: [
-      "Marine Industry",
-      "Oil & Gas Industry",
-      "Chemical Industry",
-      "Offshore Industry",
-      "Defence Industry",
-      "Pumps & Valves Industry",
-      "Powerplant Industry",
-      "Water Treatment Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Monel 400":
-          "UNS N04400 – Nickel-copper alloy with roughly 67% nickel, copper making up most of the balance. Commonly used in seawater, brine and hydrofluoric acid service. Can be strengthened through cold working. Forged flanges to ASTM B564 / ASME SB-564. Listed in ASME B16.5 Table 1A, Group 3.4.",
-        "Monel K500":
-          "UNS N05500 – Age-hardenable nickel-copper alloy with aluminium addition. Enables higher tensile and yield strengths than Monel 400 while retaining toughness at cryogenic temperatures. Forged flanges to ASTM B865 / ASME SB-865. Not listed in ASME B16.5 Table 1A, ratings must be established by purchaser's design engineer.",
-      },
+{
+  id: 5,
+  slug: "monel-400-flanges",
+  image: "/stock/monel-400-flanges.jpg",
+  title:
+    "Monel 400 Flanges Supplier – ASTM B564 / ASME SB564 / UNS N04400 (Nickel-Copper Alloy)",
+  shortDescription:
+    "Monel 400 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Monel alloy 400 flanges are a solid solution alloy that can only be hardened by the cold working process. One of the best features of Monel 400 slip-on flanges is that they have the best corrosion resistance to media and seawater. Monel 400 slip-on flanges are mostly used in high-temperature conditions and salt solution applications. Monel 400 blind flanges are available in different sizes and shapes. Monel 400 socket weld flanges are known for their high mechanical strength and good ductility. These Monel 400 Ring Joint type flanges went through the ESR process, which further ensures that the Monel 400 alloy flanges are the cleanest and made of high quality to supply. Further, there should be no need for post-weld heat treatment. As cleaning after welding may become critical for corrosion resistance, the risk of Monel 400 alloy may get contaminated. Monel 400 flanges can be used at temperature applications up to 1000°F in oxidizing temperature. The other best feature of Monel 400 alloy flanges is that they offer high resistance to rapidly moving seawater. They also offer good resistance to reducing media.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Monel 400 (UNS N04400)":
+        "A nickel-copper alloy (approximately 63% Ni and 30% Cu) that is a solid solution alloy, hardened only by cold working. Offers the best corrosion resistance to media and seawater, high mechanical strength, and good ductility. Produced via the ESR (Electro-Slag Remelting) process ensuring the cleanest and highest quality. No post-weld heat treatment required. Can be used at temperature applications up to 1000°F in oxidizing temperature. Offers high resistance to rapidly moving seawater and good resistance to reducing media. Widely used in high-temperature conditions and salt solution applications. Werkstoff Nr. 2.4360. GOST МНЖМц 28-2,5-1,5.",
     },
-    specifications: {
-      materialSpecification_400: "ASTM B564 / ASME SB-564 (Monel 400 forgings)",
-      materialSpecification_Plate:
-        "ASTM B127 / ASME SB-127 (Monel 400 plate, for blind flanges, plate flanges and line blanks)",
-      materialSpecification_K500: "ASTM B865 / ASME SB-865 (Monel K500)",
-      grades: "Monel 400, Monel K500",
-      size: 'NPS 1/2" to 48" (15 NB to 1200 NB)',
-      pressureClass:
-        "Class 150 to 2500 to NPS 12; Class 150 to 1500 to NPS 24; Class 150 to 900 above NPS 24",
-      pnRating: "PN 6 to PN 63",
-      facing: "RF, FF, RTJ, T&G, M&F",
-      form: "Forged and machined, or machined from plate for blind flanges, plate flanges and line blanks; non-standard dimensions to drawing",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    flangeTypes: [
-      "Weld Neck Flanges",
-      "Slip-On Flanges",
-      "Blind Flanges",
-      "Socket Weld Flanges",
-      "Threaded Flanges",
-      "Lap Joint Flanges",
-      "Long Weld Neck Flanges",
-      "Reducing Flanges",
-      "Orifice Flanges",
-      "Plate Flanges",
-      "Spectacle Blind Flanges",
-    ],
-    sizeRange: {
-      asmeB165: {
-        fittingGroup: "ASME B16.5 Flanges",
-        governingStandard: "ASME B16.5",
-        sizeRange: 'NPS 1/2" to 24"',
-        wallClass:
-          "Class 150, 300, 600, 900, 1500, 2500 (to NPS 12); Class 150, 300, 600, 900, 1500 (NPS 14 to 24)",
-      },
-      asmeB1647: {
-        fittingGroup: "ASME B16.47 Pattern Flanges",
-        governingStandard:
-          "ASME B16.47 Series A & B (dimensional pattern only - nickel alloys outside B16.47 material scope)",
-        sizeRange: 'NPS 26" to 48"',
-        wallClass: "Class 150, 300, 600, 900 (by agreement)",
-      },
-      european: {
-        fittingGroup: "European Flanges",
-        governingStandard: "EN 1092-1",
-        sizeRange: "DN 15 to DN 1200",
-        wallClass: "PN 6, PN 10, PN 16, PN 25, PN 40, PN 63",
-      },
-      nationalPatterns: {
-        fittingGroup: "National Pattern Flanges",
-        governingStandard: "JIS B2220, IS 6392",
-        sizeRange: "Quoted per enquiry",
-        wallClass: "To order",
-      },
-      customFlanges: {
-        fittingGroup: "Custom Flanges",
-        governingStandard: "To drawing",
-        sizeRange: "Made to order",
-        wallClass: "Machined to drawing",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM B564 / ASME SB-564",
-        scope: "Nickel-Copper Alloy Forgings (Monel 400)",
-      },
-      {
-        standard: "ASTM B865 / ASME SB-865",
-        scope: "Age-Hardened Ni-Cu-Al Forgings (Monel K500)",
-      },
-      {
-        standard: "ASTM B127 / ASME SB-127",
-        scope:
-          "Nickel-Copper Alloy Plate, Sheet and Strip (for blind flanges, plate flanges and line blanks)",
-      },
-      {
-        standard: "ASME B16.5",
-        scope:
-          'Dimensions, NPS 1/2" to 24" (Monel 400 listed in Table 1A, Group 3.4)',
-      },
-      {
-        standard: "ASME B16.47 Series A & B",
-        scope:
-          'Dimensional pattern for NPS 26" to 48" (nickel alloys outside B16.47 material scope - rated by agreement)',
-      },
-      { standard: "ASME B16.48", scope: "Line Blanks and Spacers" },
-      { standard: "EN 1092-1", scope: "European Dimensions and PN Ratings" },
-      { standard: "JIS B2220, IS 6392", scope: "Other National Patterns" },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Material Specification (400)": "ASTM B564 / ASME SB-564",
-        "Material Specification (K500)": "ASTM B865 / ASME SB-865",
-        'Dimensions NPS 1/2" to 24"': "ASME B16.5 (Group 3.4)",
-        'Dimensions NPS 26" to 48"':
-          "ASME B16.47 Series A & B pattern (rated by agreement)",
-        "Line Blanks and Spacers": "ASME B16.48",
-        "European Dimensions": "EN 1092-1",
-        "Other National Patterns": "JIS B2220, IS 6392",
-        "Plate Material": "ASTM B127 / ASME SB-127",
-      },
-      applicableStandardsTable: [
-        {
-          standard: "ASTM B564 / ASME SB-564",
-          scope: "Nickel-Copper Alloy Forgings (Monel 400)",
-        },
-        {
-          standard: "ASTM B865 / ASME SB-865",
-          scope: "Age-Hardened Ni-Cu-Al Forgings (Monel K500)",
-        },
-        {
-          standard: "ASTM B127 / ASME SB-127",
-          scope: "Nickel-Copper Alloy Plate",
-        },
-        { standard: "ASME B16.5", scope: 'Dimensions, NPS 1/2" to 24"' },
-        {
-          standard: "ASME B16.47 Series A & B",
-          scope: 'Dimensional pattern, NPS 26" to 48"',
-        },
-        { standard: "ASME B16.48", scope: "Line Blanks and Spacers" },
-        { standard: "EN 1092-1", scope: "European Dimensions" },
-        { standard: "JIS B2220, IS 6392", scope: "National Patterns" },
-      ],
-      sizeAvailabilityTable: {
-        "Nominal Bore": 'NPS 1/2" to 48"',
-        "Metric Designation": "DN 15 to DN 1200",
-        "ASME B16.5 Coverage": 'NPS 1/2" to 24"',
-        "B16.47 Dimensional Pattern": 'NPS 26" to 48"',
-        "Bore Preparation":
-          "Matched to pipe schedule on weld neck and socket weld patterns",
-        "Non-Standard Drilling": "Machined to the drawing supplied",
-      },
-      pressureRatingTable: {
-        'ASME Class NPS 1/2" to 12"': "150, 300, 600, 900, 1500, 2500",
-        'ASME Class NPS 14" to 24"': "150, 300, 600, 900, 1500",
-        'ASME Class NPS 26" to 48"': "150, 300, 600, 900 (by agreement)",
-        "PN Rating": "PN 6, PN 10, PN 16, PN 25, PN 40, PN 63",
-      },
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Chemical analysis",
-        "Tensile testing",
-        "Hardness testing",
-        "Dimensional inspection against ASME B16.5 / B16.47",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back from final inspection to its mill heat.",
-    },
-    stockAvailability: {
-      weldNeckFlanges: [
-        {
-          title: "Monel 400 Weld Neck Flanges",
-          items: [
-            "ASTM B564 Monel 400 Weld Neck Flanges",
-            "ASME SB-564 UNS N04400 Weld Neck Flanges",
-            "Monel 400 WN Flanges Class 150-2500",
-            "Monel K500 Weld Neck Flanges (to order)",
-            'Monel WN Flanges 1/2" to 48"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      slipOnFlanges: [
-        {
-          title: "Monel 400 Slip-On Flanges",
-          items: [
-            "ASTM B564 Monel 400 Slip-On Flanges",
-            "ASME SB-564 UNS N04400 Slip-On Flanges",
-            "Monel 400 SO Flanges Class 150-1500",
-            "Monel 400 Slip-On Flanges RF/FF",
-            'Monel 400 Slip-On Flanges 1/2" to 24"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      blindFlanges: [
-        {
-          title: "Monel 400 Blind Flanges",
-          items: [
-            "ASTM B564 Monel 400 Blind Flanges",
-            "ASME SB-564 UNS N04400 Blind Flanges",
-            "Monel 400 Blind Flanges from B127 Plate",
-            "Monel 400 Blind Flanges Class 150-2500",
-            'Monel 400 Blind Flanges 1/2" to 48"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      socketWeldThreadedFlanges: [
-        {
-          title: "Monel 400 Socket Weld & Threaded Flanges",
-          items: [
-            "ASME B16.5 Monel 400 Socket Weld Flanges",
-            "Monel 400 Threaded Flanges NPT",
-            "UNS N04400 Socket Weld Flanges Class 150-1500",
-            "Monel 400 SWRF Flanges",
-            'Monel 400 Threaded Flanges 1/2" to 24"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      specialFlanges: [
-        {
-          title: "Monel 400 Special Flanges",
-          items: [
-            "Monel 400 Lap Joint Flanges",
-            "Monel 400 Long Weld Neck Flanges",
-            "Monel 400 Reducing Flanges",
-            "Monel 400 Orifice Flanges",
-            "Monel 400 Spectacle Blind Flanges (ASME B16.48)",
-            "Monel 400 Plate Flanges",
-            "Custom Monel 400 Flanges to Drawing",
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Monel Flanges Manufacturer in India",
-      "ASTM B564 Monel 400 Weld Neck Flanges Supplier",
-      "ASME SB-564 UNS N04400 Slip-On Flanges Stockist",
-      "Monel Flanges Exporter to USA, Gulf, Europe, Asia",
-      "Monel 400 Blind Flanges (UNS N04400)",
-      "Monel K500 Flanges (UNS N05500) Manufacturer",
-      "ASME B16.5 Monel Flanges Class 150-2500",
-      "Monel RTJ Flanges Manufacturer",
-      "Monel Orifice Flanges",
-      "Monel Flanges with EN 10204 3.1 MTC",
-      "Monel Flanges with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Monel Flanges for Marine, Oil & Gas, Chemical Industry",
-    ],
-    relatedSearches: [
-      "monel flanges manufacturer in india",
-      "astm b564 monel 400 flanges supplier",
-      "monel weld neck flanges exporter",
-      "monel flanges price per kg",
-      "uns n04400 flanges stockist",
-      "asme b16.5 monel flanges",
-      "monel slip-on flanges manufacturer",
-      "monel blind flanges supplier",
-      "monel flanges for marine industry",
-      "monel flanges with en 10204 3.1 certificate",
-      "monel 400 rtj flanges",
-      "monel k500 flanges",
-      "monel spectacle blind flanges",
-      "monel flanges class 150",
-      "monel flanges class 2500",
-      "monel flanges for seawater applications",
-      "monel flanges for hydrofluoric acid service",
-      "monel flanges with mtc certification",
-      "monel flanges for oil and gas industry",
-      "monel flanges for chemical industry",
-      "monel flanges for offshore industry",
-      "monel flanges for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
   },
-  {
-    id: 6,
-    slug: "nickel-flanges",
-    image: "/stock/copper-nickel-flange-500x500.jpg",
-    title: "Nickel Flanges Manufacturer & Supplier - ASTM B564 / ASME SB-564",
-    shortDescription:
-      'Premium Nickel Flanges manufacturer, stockist and exporter based in Mumbai, India, supplying since 2013. Nickel 200 forged blanks conform to ASTM B564 / ASME SB-564. Nickel 201 supplied from ASTM B160 bar or ASTM B162 plate. Nickel 200 (UNS N02200) permits up to 0.15% carbon, while low-carbon Nickel 201 (UNS N02201) limits carbon to 0.02%. Supply spans NPS 1/2" to 48" (DN 15 to DN 1200) with Classes 150 to 2500.',
-    technicalOverview:
-      'Nickel 200 and Nickel 201 flanges are commercially pure nickel grades, with carbon content distinguishing the two. Nickel 200 (UNS N02200) permits up to 0.15% carbon, while low-carbon Nickel 201 (UNS N02201) limits carbon to 0.02%. Their high nickel content provides strong resistance to caustic soda, alkali solutions and several corrosive chemical environments. The supplied size range for nickel alloy flanges is NPS 1/2" to 48" (DN 15 to DN 1200). Within NPS 1/2" to 24", weld neck, slip-on, socket weld, threaded, lap joint, blind and reducing flanges are supplied to ASME B16.5. Orifice flanges to ASME B16.36, spectacle blinds and other line blanks to ASME B16.48. Above NPS 24, ASME B16.47 Series A and B cover weld neck and blind patterns only. ASME pressure classes range from Class 150 to 2500, while flanges can be produced to EN 1092-1 dimensions and drilled in the PN 6 to PN 40 range.',
-    materialGroup: "Nickel",
-    standards:
-      "ASTM B564, ASME SB-564, ASTM B160, ASME SB-160, ASTM B162, ASME SB-162, ASME B16.5, ASME B16.47 Series A & B, ASME B16.48, ASME B16.36, EN 1092-1, JIS B2220, IS 6392",
-    forms:
-      "Weld Neck, Slip-On, Blind, Socket Weld, Threaded, Lap Joint, Long Weld Neck, Reducing, Orifice, Plate, Spectacle Blind",
-    application:
-      "Nickel flanges are widely used in chemical, petrochemical, oil & gas, pumps & valves, powerplant, food processing, fertiliser, and pharmaceutical industry for caustic, alkaline and corrosive process environments.",
-    applications: [
-      "Chemical Industry",
-      "Petrochemical Industry",
-      "Oil & Gas Industry",
-      "Pumps & Valves Industry",
-      "Powerplant Industry",
-      "Food Processing Industry",
-      "Fertiliser Industry",
-      "Pharmaceutical Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Nickel 200":
-          "UNS N02200 – Commercially pure nickel with 99.0% minimum nickel plus cobalt and 0.15% maximum carbon. Used for caustic soda, alkaline and chemical-processing applications. Suitable for service temperatures within its specified range. Forged flanges to ASTM B564 / ASME SB-564.",
-        "Nickel 201":
-          "UNS N02201 – Low-carbon commercially pure nickel with 99.0% minimum nickel plus cobalt and 0.02% maximum carbon. Resists embrittlement from graphite precipitation at high temperatures. For service above 315°C (600°F). Supplied from ASTM B160 bar or ASTM B162 plate as ASTM B564 does not cover UNS N02201.",
-      },
-    },
-    specifications: {
-      materialSpecification_200: "ASTM B564 / ASME SB-564 (forgings)",
-      materialSpecification_201:
-        "ASTM B160 / ASME SB-160 (bar), ASTM B162 / ASME SB-162 (plate)",
-      grades: "Nickel 200, Nickel 201",
-      size: 'NPS 1/2" to 48" (DN 15 to DN 1200)',
-      pressureClass_200: "Class 150, 300, 600, 900, 1500, 2500",
-      pressureClass_201:
-        "Class 150 to 2500 for blind and hubless reducing flanges from ASTM B162 plate. Other patterns machined to drawing",
-      pnRating: "PN 6 to PN 40",
-      facing: "RF, FF, RTJ, T&G, M&F",
-      form: "Forged and machined; non-standard dimensions to drawing",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    flangeTypes: [
-      "Weld Neck Flanges",
-      "Slip-On Flanges",
-      "Blind Flanges",
-      "Socket Weld Flanges",
-      "Threaded Flanges",
-      "Lap Joint Flanges",
-      "Long Weld Neck Flanges",
-      "Reducing Flanges",
-      "Orifice Flanges",
-      "Plate Flanges",
-      "Spectacle Blind Flanges",
-    ],
-    sizeRange: {
-      asmeB165: {
-        fittingGroup: "ASME B16.5 Flanges",
-        governingStandard: "ASME B16.5",
-        sizeRange: 'NPS 1/2" to 24"',
-        wallClass: "Class 150, 300, 600, 900, 1500, 2500",
-      },
-      asmeB1647: {
-        fittingGroup: "ASME B16.47 Series A & B Flanges",
-        governingStandard: "ASME B16.47 Series A & B",
-        sizeRange: 'NPS 26" to 48"',
-        wallClass: "Class 150, 300, 600, 900",
-      },
-      european: {
-        fittingGroup: "European Flanges",
-        governingStandard: "EN 1092-1",
-        sizeRange: "DN 15 to DN 1200",
-        wallClass: "PN 6, PN 10, PN 16, PN 25, PN 40",
-      },
-      nationalPatterns: {
-        fittingGroup: "National Pattern Flanges",
-        governingStandard: "JIS B2220, IS 6392",
-        sizeRange: "Quoted per enquiry",
-        wallClass: "To order",
-      },
-      customFlanges: {
-        fittingGroup: "Custom Flanges",
-        governingStandard: "To drawing",
-        sizeRange: "Made to order",
-        wallClass: "Machined to drawing",
-      },
-    },
-    applicableStandards: [
-      { standard: "ASTM B564 / ASME SB-564", scope: "Nickel 200 Forgings" },
-      {
-        standard: "ASTM B160 / ASME SB-160",
-        scope: "Nickel Rod and Bar (200 and 201)",
-      },
-      {
-        standard: "ASTM B162 / ASME SB-162",
-        scope: "Nickel Plate, Sheet and Strip (200 and 201)",
-      },
-      { standard: "ASME B16.5", scope: 'Dimensions, NPS 1/2" to 24"' },
-      {
-        standard: "ASME B16.47 Series A & B",
-        scope: 'Dimensions, NPS 26" to 48"',
-      },
-      { standard: "ASME B16.48", scope: "Line Blanks and Spacers" },
-      { standard: "ASME B16.36", scope: "Orifice Flanges" },
-      { standard: "EN 1092-1", scope: "European Dimensions and PN Ratings" },
-      { standard: "JIS B2220, IS 6392", scope: "Other National Patterns" },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Material Specification (200)": "ASTM B564 / ASME SB-564",
-        "Material Specification (201)":
-          "ASTM B160 / ASME SB-160 (bar), ASTM B162 / ASME SB-162 (plate)",
-        'Dimensions NPS 1/2" to 24"': "ASME B16.5",
-        'Dimensions NPS 26" to 48"': "ASME B16.47 Series A & B",
-        "Line Blanks and Spacers": "ASME B16.48",
-        "Orifice Flanges": "ASME B16.36",
-        "European Dimensions": "EN 1092-1",
-        "Other National Patterns": "JIS B2220, IS 6392",
-      },
-      applicableStandardsTable: [
-        { standard: "ASTM B564 / ASME SB-564", scope: "Nickel 200 Forgings" },
-        { standard: "ASTM B160 / ASME SB-160", scope: "Nickel Rod and Bar" },
-        {
-          standard: "ASTM B162 / ASME SB-162",
-          scope: "Nickel Plate, Sheet and Strip",
-        },
-        { standard: "ASME B16.5", scope: 'Dimensions, NPS 1/2" to 24"' },
-        {
-          standard: "ASME B16.47 Series A & B",
-          scope: 'Dimensions, NPS 26" to 48"',
-        },
-        { standard: "ASME B16.48", scope: "Line Blanks and Spacers" },
-        { standard: "ASME B16.36", scope: "Orifice Flanges" },
-        { standard: "EN 1092-1", scope: "European Dimensions" },
-        { standard: "JIS B2220, IS 6392", scope: "National Patterns" },
-      ],
-      sizeAvailabilityTable: {
-        "Nominal Bore": 'NPS 1/2" to 48"',
-        "Metric Designation": "DN 15 to DN 1200",
-        "ASME B16.5 Coverage": 'NPS 1/2" to 24"',
-        "ASME B16.47 Coverage": 'NPS 26" to 48"',
-        "Bore Preparation":
-          "Matched to pipe schedule for weld neck and socket weld patterns",
-        "Non-Standard Drilling": "Machined to drawing",
-      },
-      pressureRatingTable: {
-        'ASME Class NPS 1/2" to 24"': "150, 300, 600, 900, 1500, 2500",
-        'ASME Class NPS 26" to 48"': "150, 300, 600, 900",
-        "PN Rating": "PN 6, PN 10, PN 16, PN 25, PN 40",
-      },
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Chemical analysis",
-        "Tensile testing",
-        "Hardness testing",
-        "Dimensional inspection against ASME B16.5 / B16.47 / EN 1092-1",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back from final inspection to its mill heat.",
-    },
-    stockAvailability: {
-      weldNeckFlanges: [
-        {
-          title: "Nickel 200 Weld Neck Flanges",
-          items: [
-            "ASTM B564 Nickel 200 Weld Neck Flanges",
-            "ASME SB-564 UNS N02200 Weld Neck Flanges",
-            "Nickel 200 WN Flanges Class 150-2500",
-            "Nickel 201 Weld Neck Flanges (machined from B160 bar)",
-            'Nickel WN Flanges 1/2" to 48"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      slipOnFlanges: [
-        {
-          title: "Nickel 200 Slip-On Flanges",
-          items: [
-            "ASTM B564 Nickel 200 Slip-On Flanges",
-            "ASME SB-564 UNS N02200 Slip-On Flanges",
-            "Nickel 200 SO Flanges Class 150-1500",
-            "Nickel 200 Slip-On Flanges RF/FF",
-            'Nickel 200 Slip-On Flanges 1/2" to 24"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      blindFlanges: [
-        {
-          title: "Nickel 200/201 Blind Flanges",
-          items: [
-            "ASTM B564 Nickel 200 Blind Flanges",
-            "ASME SB-564 UNS N02200 Blind Flanges",
-            "Nickel 201 Blind Flanges from B162 Plate",
-            "Nickel 200 Blind Flanges Class 150-2500",
-            'Nickel 200 Blind Flanges 1/2" to 48"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      socketWeldThreadedFlanges: [
-        {
-          title: "Nickel 200 Socket Weld & Threaded Flanges",
-          items: [
-            "ASME B16.5 Nickel 200 Socket Weld Flanges",
-            "Nickel 200 Threaded Flanges NPT",
-            "UNS N02200 Socket Weld Flanges Class 150-1500",
-            "Nickel 200 SWRF Flanges",
-            'Nickel 200 Threaded Flanges 1/2" to 24"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      specialFlanges: [
-        {
-          title: "Nickel 200/201 Special Flanges",
-          items: [
-            "Nickel 200 Lap Joint Flanges",
-            "Nickel 200 Long Weld Neck Flanges",
-            "Nickel 200 Reducing Flanges",
-            "Nickel 200 Orifice Flanges (ASME B16.36)",
-            "Nickel 200 Spectacle Blind Flanges (ASME B16.48)",
-            "Nickel 200 Plate Flanges",
-            "Custom Nickel 200/201 Flanges to Drawing",
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Nickel Flanges Manufacturer in India",
-      "ASTM B564 Nickel 200 Weld Neck Flanges Supplier",
-      "ASME SB-564 UNS N02200 Slip-On Flanges Stockist",
-      "Nickel Flanges Exporter to USA, Gulf, Europe, Asia",
-      "Nickel 200 Blind Flanges (UNS N02200)",
-      "Nickel 201 Flanges (UNS N02201) Manufacturer",
-      "ASME B16.5 Nickel Flanges Class 150-2500",
-      "Nickel RTJ Flanges Manufacturer",
-      "Nickel Orifice Flanges ASME B16.36",
-      "Nickel Flanges with EN 10204 3.1 MTC",
-      "Nickel Flanges with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Nickel Flanges for Chemical, Petrochemical, Oil & Gas Industry",
-    ],
-    relatedSearches: [
-      "nickel flanges manufacturer in india",
-      "astm b564 nickel 200 flanges supplier",
-      "nickel weld neck flanges exporter",
-      "nickel flanges price per kg",
-      "uns n02200 flanges stockist",
-      "asme b16.5 nickel flanges",
-      "nickel slip-on flanges manufacturer",
-      "nickel blind flanges supplier",
-      "nickel flanges for chemical industry",
-      "nickel flanges with en 10204 3.1 certificate",
-      "nickel 200 rtj flanges",
-      "nickel 201 flanges",
-      "nickel spectacle blind flanges",
-      "nickel flanges class 150",
-      "nickel flanges class 2500",
-      "nickel flanges for caustic soda service",
-      "nickel flanges for high temperature service",
-      "nickel flanges with mtc certification",
-      "nickel flanges for oil and gas industry",
-      "nickel flanges for petrochemical industry",
-      "nickel flanges for food processing industry",
-      "nickel flanges for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
   },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47",
+    grade: "Monel 400 (UNS N04400)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Monel 400 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM B564 Monel 400 Slip-On Flanges (SORF)",
+          "ASME SB564 Monel 400 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Alloy 400 SORF Flanges",
+          "Monel 400 Slip-On Flat Face Flanges",
+          "ANSI B16.47 Monel 400 SORF Flanges",
+        ],
+        image: "/stock/monel400-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Monel 400 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM B564 Monel 400 Weld Neck Flanges (WNRF)",
+          "Monel 400® WNRF Flanges",
+          "ANSI B16.5 Alloy 400 WNRF Flanges",
+          "400 Alloy Weld Neck Flange",
+          "Monel 400 Long Weld Neck Flanges",
+        ],
+        image: "/stock/monel400-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Monel 400 Blind Flanges Stock Available",
+        items: [
+          "ASTM B564 Monel 400 Blind Flanges",
+          "ASME SB564 Monel 400 Blind Raised Face Flanges",
+          "ANSI B16.5 Alloy 400 Blind Flanges",
+          "Monel 400 Blind Flat Face Flanges",
+          "Alloy 400 Blind Flanges",
+        ],
+        image: "/stock/monel400-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Monel 400 Threaded Flanges Stock Available",
+        items: [
+          "ASTM B564 Monel 400 Threaded Flanges",
+          "ASME SB564 Monel 400 Threaded Raised Face Flanges",
+          "Monel Screwed Flanges",
+          "Monel 400 Threaded Flat Face Flanges",
+          "ANSI B16.47 Monel 400 Threaded Flanges",
+        ],
+        image: "/stock/monel400-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Monel 400 Socket Weld Flanges Stock Available",
+        items: [
+          "Monel DIN 2.4360 Socket Weld Flanges",
+          "Werkstoff 2.4360 Monel Socket Weld Flanges",
+          "ANSI B16.5 Alloy 400 Socket Weld Flanges",
+          "Monel 400 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 Monel 400 Socket Weld Flanges",
+        ],
+        image: "/stock/monel400-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Monel 400 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ANSI B16.5 Alloy 400 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 400 RTJ Flanges",
+          "UNS N04400 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 400 Lap Joint Flanges",
+          "Monel 400 Spectacle Blind Flanges",
+          "Monel 400 Spacer Ring Flanges",
+          "Monel 400 Orifice Flanges",
+          "Monel 400 Nipo Flanges",
+        ],
+        image: "/stock/monel400-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Monel 400", uns: "N04400", werkstoff: "2.4360", standard: "ASTM" },
+    { grade: "Alloy 400", uns: "N04400", werkstoff: "2.4360", standard: "—" },
+    { grade: "UNS N04400", uns: "N04400", werkstoff: "2.4360", standard: "—" },
+    { grade: "NCF 400", uns: "N04400", werkstoff: "2.4360", standard: "JIS" },
+    { grade: "NA 13", uns: "N04400", werkstoff: "2.4360", standard: "BS" },
+    { grade: "GOST МНЖМц 28-2,5-1,5", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Monel 400",
+      c: "0.30 max",
+      mn: "2.00 max",
+      si: "0.50 max",
+      cr: "—",
+      ni: "63.00 min",
+      mo: "—",
+      other: "Cu: 28.00 – 34.00, Fe: 2.50 max, S: 0.024 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Monel 400",
+      tensile: "550 MPa (80,000 psi) min",
+      yield: "240 MPa (35,000 psi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.80 g/cm³",
+      meltingPoint: "1350 °C (2460 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing (Stress Relieving)",
+      temperatureRange: "593°C – 927°C (1100°F – 1700°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "760°C – 980°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Monel 400 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N04400 Ring Type Joint Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Monel 400 Nipo Flange", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Monel 400 Spacer Ring Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Monel 400 Long Weld Neck Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Monel 400 SORF Flanges",
+    "UNS N04400 SS 347H Flanges",
+    "WNR. 2.4360 Pipe Flanges",
+    "Monel 400 Blind Flanges",
+    "Monel 400 Spacer Ring Flanges",
+    "UNS N04400",
+    "UNS N04400 Ring Type Joint Flanges",
+    "Monel 400",
+    "Monel 400 Flat Flange",
+    "Monel 400 Nipo Flange",
+    "Monel 400 Long Weld Neck Flanges",
+    "Monel 400 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "High-Temperature Conditions",
+    "Salt Solution Applications",
+    "Seawater Equipment",
+    "Marine Engineering",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Desalination Plants",
+    "Pharmaceutical Equipment",
+    "Power Generation",
+    "Shipbuilding",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Monel 400 Flanges Supplier in Mumbai, India",
+    "ASTM B564 Monel 400 Threaded Flanges Exporter",
+    "Monel DIN 2.4360 Socket Weld Flanges Stockist in India",
+    "Alloy 400 RTJ Flanges Dealer",
+    "Monel 400® WNRF Flanges Manufacturer",
+    "Monel 400 Blind Flanges Supplier",
+    "400 Alloy Weld Neck Flange Exporter",
+    "Monel 400 Slip-On Flanges Manufacturer",
+    "Monel 400 Socket Weld Flanges Supplier",
+    "Monel 400 Spectacle Blind Flanges Exporter",
+    "Alloy UNS N04400 Ring Joint Flanges Dealer",
+    "Monel 400 Spacer Ring Flanges Manufacturer",
+    "Monel 400 Orifice Flanges Supplier",
+    "Monel 400 Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Monel 400 Flanges Price List",
+    "Alloy 400 Flange Weight Calculator",
+    "Monel 400 Flange Dimensions",
+    "Monel 400 Flange Price Per Kg in India",
+    "Monel 400 Flange Manufacturer in Mumbai",
+    "Monel 400 Flange Supplier in India",
+    "Monel 400 Flange Thickness Tolerance",
+    "Monel 400 Flange Price List PDF",
+    "Monel 400 Flange Mechanical Properties",
+    "Monel 400 Flange Chemical Composition",
+    "Monel 400 Flange Stockist in Pune",
+    "Monel 400 Flange Exporter",
+    "Monel 400 Flange Price in Mumbai",
+    "Monel 400 Flange Size Chart",
+    "Monel 400 Slip-On Flange Price",
+    "Monel 400 Weld Neck Flange Supplier",
+    "Monel 400 Blind Flange Manufacturers",
+    "Monel 400 Flange Catalog PDF",
+    "Monel 400 Flange Equivalent Grades",
+    "Monel 400 Flange Price per Piece",
+    "Monel 400 Flange updated price list",
+    "Monel 400 Flange Size Chart 1/2 to 48 inch",
+    "Monel 400 Flange Manufacturers in Gujarat",
+    "Monel 400 Flange Stockyards in India",
+    "Monel 400 Flange thickness chart",
+    "Monel 400 Flange Price in India",
+    "Top 100 Monel 400 Flange Dealers in Mumbai",
+    "Buy Monel 400 Flange Online",
+    "Monel 400 Flange leading manufacturers in India",
+    "UNS N04400 Flange Price India",
+    "Werkstoff 2.4360 Flange Price India",
+    "Monel 400 Flange Heat Treatment",
+    "Monel 400 Flange Annealing Temperature",
+    "Monel 400 Flange Hardness Range",
+    "Monel 400 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 28,
+  slug: "monel-k500-flanges",
+  image: "/stock/monel-k500-flanges.jpg",
+  title:
+    "Monel K500 Flanges Supplier – ASTM B564 / ASME SB564 / UNS N05500 (Precipitation Hardenable)",
+  shortDescription:
+    "Monel K500 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Monel K500 provides greater strength and hardness than Monel 400 alloy. Aluminum and titanium are added to the nickel-based alloy to provide more strength and hardness. Monel K500 slip-on flanges have great resistance to the sour-gas environment. We have a wide range of Monel K500 slip-on flanges available to offer our customers. Monel K500 weld neck flanges are also used in the chemical process industry, e.g., in processes including organic acid, dry chlorine, and in the production of chlorinated plastic. Monel K500 products used in the marine industry are springs, cables, fasteners, and chains. They are also used in pump and valve components for chemical processing units, safety lifts, pump shafts, oil well drill collars, and valve components for oil and gas production. They also get used in sensors and other electronic components. Chromium in Monel K500 slip-on flanges gives resistance to nitric acid solutions and oxidizing salts. Monel K500 Ring Joint type flanges have greater stress cracking in some environments.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Monel K500 (UNS N05500)":
+        "A precipitation-hardenable nickel-copper alloy with aluminum and titanium additions that provides greater strength and hardness than Monel 400. Offers great resistance to sour-gas environments, high mechanical strength, and hardness. The chromium content gives resistance to nitric acid solutions and oxidizing salts. Widely used in marine industry springs, cables, fasteners, chains, pump and valve components, safety lifts, pump shafts, oil well drill collars, and electronic sensors. Werkstoff Nr. 2.4375.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47",
+    grade: "Monel K500 (UNS N05500)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Monel K500 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM B564 Monel K500 Slip-On Flanges (SORF)",
+          "ASME SB564 Monel K500 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Alloy K500 SORF Flanges",
+          "Monel K500 Slip-On Flat Face Flanges",
+          "ANSI B16.47 Monel K500 SORF Flanges",
+        ],
+        image: "/stock/monelk500-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Monel K500 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM B564 Monel K500 Weld Neck Flanges (WNRF)",
+          "Monel K500® WNRF Flanges",
+          "ANSI B16.5 Alloy K500 WNRF Flanges",
+          "K500 Alloy Weld Neck Flange",
+          "Monel K500 Long Weld Neck Flanges",
+        ],
+        image: "/stock/monelk500-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Monel K500 Blind Flanges Stock Available",
+        items: [
+          "ASTM B564 Monel K500 Blind Flanges",
+          "ASME SB564 Monel K500 Blind Raised Face Flanges",
+          "ANSI B16.5 Alloy K500 Blind Flanges",
+          "Monel K500 Blind Flat Face Flanges",
+          "Alloy K500 Blind Flanges",
+        ],
+        image: "/stock/monelk500-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Monel K500 Threaded Flanges Stock Available",
+        items: [
+          "ASTM B564 Monel K500 Threaded Flanges",
+          "ASME SB564 Monel K500 Threaded Raised Face Flanges",
+          "Monel K500 Screwed Flanges",
+          "Monel K500 Threaded Flat Face Flanges",
+          "ANSI B16.47 Monel K500 Threaded Flanges",
+        ],
+        image: "/stock/monelk500-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Monel K500 Socket Weld Flanges Stock Available",
+        items: [
+          "Monel DIN 2.4375 Socket Weld Flanges",
+          "Werkstoff 2.4375 Monel Socket Weld Flanges",
+          "ANSI B16.5 Alloy K500 Socket Weld Flanges",
+          "Monel K500 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 Monel K500 Socket Weld Flanges",
+        ],
+        image: "/stock/monelk500-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Monel K500 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ANSI B16.5 Alloy K500 Ring Type Joint Flanges",
+          "ASME SB564 Alloy K500 RTJ Flanges",
+          "UNS N05500 Ring Type Joint Flanges",
+          "ASME SB564 Alloy K500 Lap Joint Flanges",
+          "Monel K500 Spectacle Blind Flanges",
+          "Monel K500 Spacer Ring Flanges",
+          "Monel K500 Orifice Flanges",
+          "Monel K500 Nipo Flanges",
+        ],
+        image: "/stock/monelk500-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Monel K500", uns: "N05500", werkstoff: "2.4375", standard: "ASTM" },
+    { grade: "Alloy K500", uns: "N05500", werkstoff: "2.4375", standard: "—" },
+    { grade: "UNS N05500", uns: "N05500", werkstoff: "2.4375", standard: "—" },
+    { grade: "NCF K500", uns: "N05500", werkstoff: "2.4375", standard: "JIS" },
+    { grade: "NA 18", uns: "N05500", werkstoff: "2.4375", standard: "BS" },
+    { grade: "GOST МНЖМц 28-2,5-1,5", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Monel K500",
+      c: "0.25 max",
+      mn: "1.50 max",
+      si: "0.50 max",
+      cr: "—",
+      ni: "63.00 min",
+      mo: "—",
+      other: "Cu: 27.00 – 33.00, Fe: 2.00 max, Al: 2.30 – 3.15, Ti: 0.35 – 0.85, S: 0.010 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Monel K500",
+      tensile: "965 MPa (140,000 psi) min",
+      yield: "690 MPa (100,000 psi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.44 g/cm³",
+      meltingPoint: "1350 °C (2460 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "980°C – 1010°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench",
+    },
+    {
+      processStep: "Age Hardening (Precipitation)",
+      temperatureRange: "480°C – 595°C",
+      timeAtTemperature: "6 – 16 hours",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "UNS N05500 Ring Type Joint Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N05500 SS 347H Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "WNR. 2.4375 Pipe Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Monel K500 Long Weld Neck Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Monel K500 Lap Joint Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Monel K500 SORF Flanges",
+    "UNS N05500 SS 347H Flanges",
+    "WNR. 2.4375 Pipe Flanges",
+    "Monel K500 Blind Flanges",
+    "Monel K500 Spacer Ring Flanges",
+    "UNS N05500",
+    "UNS N05500 Ring Type Joint Flanges",
+    "Monel K500",
+    "Monel K500 Flat Flange",
+    "Monel K500 Nipo Flange",
+    "Monel K500 Long Weld Neck Flanges",
+    "Monel K500 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Sour-Gas Environments",
+    "Chemical Process Industry",
+    "Organic Acid Processing",
+    "Chlorinated Plastic Production",
+    "Marine Industry",
+    "Pump & Valve Components",
+    "Oil & Gas Production",
+    "Oil Well Drill Collars",
+    "Safety Lifts",
+    "Sensors & Electronic Components",
+    "Nitric Acid Solutions",
+    "Power Generation",
+  ],
+
+  specializedIn: [
+    "Monel K500 Flanges Supplier in Mumbai, India",
+    "ASTM B564 Monel K500 Threaded Flanges Exporter",
+    "Monel DIN 2.4375 Socket Weld Flanges Stockist in India",
+    "Alloy K500 RTJ Flanges Dealer",
+    "Monel K500® WNRF Flanges Manufacturer",
+    "Alloy K500 Blind Flanges Supplier",
+    "K500 Alloy Weld Neck Flange Exporter",
+    "Monel K500 Slip-On Flanges Manufacturer",
+    "Monel K500 Socket Weld Flanges Supplier",
+    "Monel K500 Spectacle Blind Flanges Exporter",
+    "Alloy UNS N05500 Ring Joint Flanges Dealer",
+    "Monel K500 Spacer Ring Flanges Manufacturer",
+    "Monel K500 Orifice Flanges Supplier",
+    "Monel K500 Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Monel K500 Flanges Price List",
+    "Alloy K500 Flange Weight Calculator",
+    "Monel K500 Flange Dimensions",
+    "Monel K500 Flange Price Per Kg in India",
+    "Monel K500 Flange Manufacturer in Mumbai",
+    "Monel K500 Flange Supplier in India",
+    "Monel K500 Flange Thickness Tolerance",
+    "Monel K500 Flange Price List PDF",
+    "Monel K500 Flange Mechanical Properties",
+    "Monel K500 Flange Chemical Composition",
+    "Monel K500 Flange Stockist in Pune",
+    "Monel K500 Flange Exporter",
+    "Monel K500 Flange Price in Mumbai",
+    "Monel K500 Flange Size Chart",
+    "Monel K500 Slip-On Flange Price",
+    "Monel K500 Weld Neck Flange Supplier",
+    "Monel K500 Blind Flange Manufacturers",
+    "Monel K500 Flange Catalog PDF",
+    "Monel K500 Flange Equivalent Grades",
+    "Monel K500 Flange Price per Piece",
+    "Monel K500 Flange updated price list",
+    "Monel K500 Flange Size Chart 1/2 to 48 inch",
+    "Monel K500 Flange Manufacturers in Gujarat",
+    "Monel K500 Flange Stockyards in India",
+    "Monel K500 Flange thickness chart",
+    "Monel K500 Flange Price in India",
+    "Top 100 Monel K500 Flange Dealers in Mumbai",
+    "Buy Monel K500 Flange Online",
+    "Monel K500 Flange leading manufacturers in India",
+    "UNS N05500 Flange Price India",
+    "Werkstoff 2.4375 Flange Price India",
+    "Monel K500 Flange Heat Treatment",
+    "Monel K500 Flange Annealing Temperature",
+    "Monel K500 Flange Hardness Range",
+    "Monel K500 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 6,
+  slug: "nickel-200-flanges",
+  image: "/stock/nickel-200-flanges.jpg",
+  title:
+    "Nickel Alloy 200 Flanges Supplier – ASTM B564 / ASME SB564 / UNS N02200 (99.6% Pure Nickel)",
+  shortDescription:
+    "Nickel Alloy 200 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Nickel Alloy 200 flanges are made of 99.6% nickel as a primary base metal and are the pure form of Nickel. They also include 0.15% carbon content. Features include fine finishing, durability, and stability. Nickel 200 threaded flanges are mostly used in food processing equipment. Nickel 200 pipe flanges are available in different sizes and shapes. Nickel Alloy 200 flanges have the best corrosion resistance to media and to oxidize the atmosphere. Nickel Alloy 200 flanges have good weldability and low hardness. One can easily fabricate metal by using Nickel. Nickel Alloy 200 flanges can also be used in aerospace, missile components, electronic parts, and shipping components. To get recovery from cold working, Nickel Alloy 200 flanges are annealed at the range of temperature between 1100°F to 1700°F.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Nickel Alloy 200 (UNS N02200)":
+        "A commercially pure wrought nickel (99.6% Ni) with 0.15% carbon content. Offers the best corrosion resistance to media and to oxidizing atmospheres, good weldability, low hardness, and excellent fabricability. Widely used in food processing equipment, aerospace, missile components, electronic parts, and shipping components. Can be annealed at 1100°F to 1700°F for recovery from cold working. Werkstoff Nr. 2.4066. Also available in GOST НП-2 equivalent.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47",
+    grade: "Nickel Alloy 200 (UNS N02200)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Nickel Alloy 200 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM B564 Nickel Alloy 200 Slip-On Flanges (SORF)",
+          "ASME SB564 Nickel 200 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Alloy 200 SORF Flanges",
+          "Nickel 200 Slip-On Flat Face Flanges",
+          "ANSI B16.47 Nickel Alloy 200 SORF Flanges",
+        ],
+        image: "/stock/nickel200-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Nickel Alloy 200 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM B564 Nickel Alloy 200 Weld Neck Flanges (WNRF)",
+          "ASME SB564 Nickel 200 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 Alloy 200 WNRF Flanges",
+          "Nickel Alloy 200 Weld Neck Flange",
+          "200 Nickel Alloy Forged Flanges",
+        ],
+        image: "/stock/nickel200-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Nickel Alloy 200 Blind Flanges Stock Available",
+        items: [
+          "ASTM B564 Nickel Alloy 200 Blind Flanges",
+          "ASME SB564 Nickel 200 Blind Raised Face Flanges",
+          "ANSI B16.5 Alloy 200 Blind Flanges",
+          "Nickel Alloy 200 Blind Flat Face Flanges",
+          "200 Alloy Blind Flanges",
+        ],
+        image: "/stock/nickel200-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Nickel Alloy 200 Threaded Flanges Stock Available",
+        items: [
+          "ASTM B564 Nickel Alloy 200 Threaded Flanges",
+          "ASME SB564 Nickel 200 Threaded Raised Face Flanges",
+          "Nickel Alloy GOST НП-2 Screwed Flanges",
+          "Nickel Alloy 200 Threaded Flat Face Flanges",
+          "ANSI B16.47 Nickel Alloy 200 Threaded Flanges",
+        ],
+        image: "/stock/nickel200-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Nickel Alloy 200 Socket Weld Flanges Stock Available",
+        items: [
+          "Nickel DIN 2.4066 Socket Weld Flanges",
+          "Werkstoff 2.4066 Nickel Alloy Socket Weld Flanges",
+          "ANSI B16.5 Alloy 200 Socket Weld Flanges",
+          "Nickel Alloy 200 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 Nickel Alloy 200 Socket Weld Flanges",
+        ],
+        image: "/stock/nickel200-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Nickel Alloy 200 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM B564 Nickel Alloy 200 Ring Type Joint (RTJ) Flanges",
+          "ASME SB564 Alloy 200 RTJ Flanges",
+          "Alloy UNS N02200 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 200 Lap Joint Flanges",
+          "Nickel Alloy 200 Spectacle Blind Flanges",
+          "Alloy 200 Spacer Ring Flanges",
+          "Alloy 200 Orifice Flanges",
+          "Nickel Alloy 200 Nipo Flanges",
+        ],
+        image: "/stock/nickel200-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Nickel Alloy 200", uns: "N02200", werkstoff: "2.4066", standard: "ASTM" },
+    { grade: "Alloy 200", uns: "N02200", werkstoff: "2.4066", standard: "—" },
+    { grade: "UNS N02200", uns: "N02200", werkstoff: "2.4066", standard: "—" },
+    { grade: "NCF 200", uns: "N02200", werkstoff: "2.4066", standard: "JIS" },
+    { grade: "NA 11", uns: "N02200", werkstoff: "2.4066", standard: "BS" },
+    { grade: "GOST НП-2", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Nickel Alloy 200",
+      c: "0.15 max",
+      mn: "0.35 max",
+      si: "0.35 max",
+      cr: "—",
+      ni: "99.00 min",
+      mo: "—",
+      other: "Fe: 0.40 max, Cu: 0.25 max, S: 0.010 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Nickel Alloy 200",
+      tensile: "462 MPa (67,000 psi) min",
+      yield: "148 MPa (21,500 psi) min",
+      elongation: "45% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.89 g/cm³",
+      meltingPoint: "1446 °C (2635 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing (Stress Relieving)",
+      temperatureRange: "593°C – 927°C (1100°F – 1700°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "705°C – 925°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Nickel Alloy 200 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "200 Alloy Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "ASTM B564 Alloy 200 WNRF Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy 200 Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy UNS N02200 Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Nickel Alloy 200 SORF Flanges",
+    "ASTM B564 Alloy 200 WNRF Flanges",
+    "Nickel Alloy 200 Pipe Flanges",
+    "200 Alloy Blind Flanges",
+    "Alloy 200 Spacer Ring Flanges",
+    "Alloy UNS N02200",
+    "Alloy UNS N02200 Ring Type Joint Flanges",
+    "Alloy 200",
+    "Nickel Alloy 200 Flat Flange",
+    "Nickel Alloy 200 Nipo Flange",
+    "Alloy 200 Long Weld Neck Flanges",
+    "Nickel Alloy N02200 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Food Processing Equipment",
+    "Aerospace",
+    "Missile Components",
+    "Electronic Parts",
+    "Shipping Components",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Pharmaceutical Equipment",
+    "Seawater Equipment",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Nickel Alloy 200 Flanges Supplier in Mumbai, India",
+    "ASTM B564 Nickel Alloy 200 Threaded Flanges Exporter",
+    "Werkstoff 2.4066 Nickel Alloy Socket Weld Flanges Stockist in India",
+    "Alloy 200 RTJ Flanges Dealer",
+    "Nickel 200 WNRF Flanges Manufacturer",
+    "200 Alloy Blind Flanges Supplier",
+    "Nickel Alloy 200 Weld Neck Flange Exporter",
+    "Nickel 200 Slip-On Flanges Manufacturer",
+    "Nickel Alloy 200 Socket Weld Flanges Supplier",
+    "Nickel Alloy 200 Spectacle Blind Flanges Exporter",
+    "Alloy UNS N02200 Ring Joint Flanges Dealer",
+    "Alloy 200 Spacer Ring Flanges Manufacturer",
+    "Alloy 200 Orifice Flanges Supplier",
+    "Nickel Alloy 200 Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Nickel Alloy 200 Flanges Price List",
+    "Alloy 200 Flange Weight Calculator",
+    "Nickel Alloy 200 Flange Dimensions",
+    "Nickel Alloy 200 Flange Price Per Kg in India",
+    "Nickel Alloy 200 Flange Manufacturer in Mumbai",
+    "Nickel Alloy 200 Flange Supplier in India",
+    "Nickel Alloy 200 Flange Thickness Tolerance",
+    "Nickel Alloy 200 Flange Price List PDF",
+    "Nickel Alloy 200 Flange Mechanical Properties",
+    "Nickel Alloy 200 Flange Chemical Composition",
+    "Nickel Alloy 200 Flange Stockist in Pune",
+    "Nickel Alloy 200 Flange Exporter",
+    "Nickel Alloy 200 Flange Price in Mumbai",
+    "Nickel Alloy 200 Flange Size Chart",
+    "Nickel 200 Slip-On Flange Price",
+    "Nickel 200 Weld Neck Flange Supplier",
+    "Nickel 200 Blind Flange Manufacturers",
+    "Nickel Alloy 200 Flange Catalog PDF",
+    "Nickel Alloy 200 Flange Equivalent Grades",
+    "Nickel Alloy 200 Flange Price per Piece",
+    "Nickel Alloy 200 Flange updated price list",
+    "Nickel Alloy 200 Flange Size Chart 1/2 to 48 inch",
+    "Nickel Alloy 200 Flange Manufacturers in Gujarat",
+    "Nickel Alloy 200 Flange Stockyards in India",
+    "Nickel Alloy 200 Flange thickness chart",
+    "Nickel Alloy 200 Flange Price in India",
+    "Top 100 Nickel Alloy 200 Flange Dealers in Mumbai",
+    "Buy Nickel Alloy 200 Flange Online",
+    "Nickel Alloy 200 Flange leading manufacturers in India",
+    "UNS N02200 Flange Price India",
+    "Werkstoff 2.4066 Flange Price India",
+    "Nickel Alloy 200 Flange Heat Treatment",
+    "Nickel Alloy 200 Flange Annealing Temperature",
+    "Nickel Alloy 200 Flange Hardness Range",
+    "Nickel Alloy 200 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 27,
+  slug: "nickel-201-flanges",
+  image: "/stock/nickel-201-flanges.jpg",
+  title:
+    "Nickel Alloy 201 Flanges Supplier – ASTM B564 / ASME SB564 / UNS N02201 (Low Carbon Pure Nickel)",
+  shortDescription:
+    "Nickel Alloy 201 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Nickel alloy 201 is also the pure form of nickel. One can differentiate nickel 200 alloy and nickel 201 alloy based on their carbon content. Nickel 201 contains only 0.02% carbon in the total alloy. The low carbon version differentiates Nickel Alloy 201 from Nickel Alloy 200 flanges. The alloy 201 flanges are used to make an alloy of stainless steel. Nickel 201 flanges are made of an alloy of nickel and chromium with some portion of silicon, iron, and manganese. These Nickel Alloy 201 flanges are also used in turbines as well as desalination plants, where seawater gets converted into freshwater. One can weld Nickel 201 using conventional shop techniques but one cannot use oxy-acetylene on Nickel 201 as it may pick up carbon.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Nickel Alloy 201 (UNS N02201)":
+        "A commercially pure wrought nickel with low carbon content (0.02% max) offering superior high-temperature properties compared to Nickel 200. The low carbon content prevents graphitization and maintains ductility at temperatures above 600°F (315°C). Made of an alloy of nickel and chromium with some portion of silicon, iron, and manganese. Can be welded using conventional shop techniques but not with oxy-acetylene as it may pick up carbon. Widely used in turbines, desalination plants, chemical processing, and electronic components. Werkstoff Nr. 2.4068.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ANSI B16.5 / B16.47",
+    grade: "Nickel Alloy 201 (UNS N02201)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Nickel Alloy 201 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM B564 Nickel Alloy 201 Slip-On Flanges (SORF)",
+          "ASME SB564 Nickel 201 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Alloy 201 SORF Flanges",
+          "Nickel 201 Slip-On Flat Face Flanges",
+          "ANSI B16.47 Nickel Alloy 201 SORF Flanges",
+        ],
+        image: "/stock/nickel201-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Nickel Alloy 201 Weld Neck Flanges Stock Available",
+        items: [
+          "201 Nickel Alloy Weld Neck Flange",
+          "ASTM B564 Alloy 201 WNRF Flanges",
+          "Nickel Alloy 201® WNRF Flanges",
+          "ANSI B16.5 Alloy 201 WNRF Flanges",
+          "Nickel Alloy 201 Weld Neck Raised Face Flanges",
+        ],
+        image: "/stock/nickel201-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Nickel Alloy 201 Blind Flanges Stock Available",
+        items: [
+          "ASTM B564 Nickel Alloy 201 Blind Flanges",
+          "ASME SB564 Nickel 201 Blind Raised Face Flanges",
+          "ANSI B16.5 Alloy 201 Blind Flanges",
+          "Nickel Alloy 201 Blind Flat Face Flanges",
+          "201 Alloy Blind Flanges",
+        ],
+        image: "/stock/nickel201-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Nickel Alloy 201 Threaded Flanges Stock Available",
+        items: [
+          "ASTM B564 Nickel Alloy 201 Threaded Flanges",
+          "ASME SB564 Nickel 201 Threaded Raised Face Flanges",
+          "Nickel Alloy GOST НП-2 Screwed Flanges",
+          "Nickel Alloy 201 Threaded Flat Face Flanges",
+          "ANSI B16.47 Nickel Alloy 201 Threaded Flanges",
+        ],
+        image: "/stock/nickel201-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Nickel Alloy 201 Socket Weld Flanges Stock Available",
+        items: [
+          "Nickel DIN 2.4068 Socket Weld Flanges",
+          "Werkstoff 2.4068 Nickel Alloy Socket Weld Flanges",
+          "ANSI B16.5 Alloy 201 Socket Weld Flanges",
+          "Nickel Alloy 201 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 Nickel Alloy 201 Socket Weld Flanges",
+        ],
+        image: "/stock/nickel201-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Nickel Alloy 201 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASME B16.5 Nickel Alloy 201 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 201 RTJ Flanges",
+          "Alloy UNS N02201 Ring Type Joint Flanges",
+          "ASME SB564 Alloy 201 Lap Joint Flanges",
+          "Nickel 201 Spectacle Blind Flanges",
+          "Alloy 201 Spacer Ring Flanges",
+          "Alloy 201 Orifice Flanges",
+          "Nickel 201 Nippo Flanges",
+        ],
+        image: "/stock/nickel201-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Nickel Alloy 201", uns: "N02201", werkstoff: "2.4068", standard: "ASTM" },
+    { grade: "Alloy 201", uns: "N02201", werkstoff: "2.4068", standard: "—" },
+    { grade: "UNS N02201", uns: "N02201", werkstoff: "2.4068", standard: "—" },
+    { grade: "NCF 201", uns: "N02201", werkstoff: "2.4068", standard: "JIS" },
+    { grade: "NA 12", uns: "N02201", werkstoff: "2.4068", standard: "BS" },
+    { grade: "GOST НП-2", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Nickel Alloy 201",
+      c: "0.02 max",
+      mn: "0.35 max",
+      si: "0.35 max",
+      cr: "—",
+      ni: "99.00 min",
+      mo: "—",
+      other: "Fe: 0.40 max, Cu: 0.25 max, S: 0.010 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Nickel Alloy 201",
+      tensile: "403 MPa (58,500 psi) min",
+      yield: "103 MPa (15,000 psi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.89 g/cm³",
+      meltingPoint: "1446 °C (2635 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing (Stress Relieving)",
+      temperatureRange: "593°C – 927°C (1100°F – 1700°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "705°C – 925°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Nickel Alloy 201 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "201 Alloy Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N02201 Ring Type Joint Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy 201 WNRF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 201 Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Nickel Alloy 201 SORF Flanges",
+    "ASTM B564 Alloy 201 WNRF Flanges",
+    "Nickel Alloy 201 Pipe Flanges",
+    "201 Alloy Blind Flanges",
+    "Alloy 201 Spacer Ring Flanges",
+    "Alloy UNS N02201",
+    "Alloy UNS N02201 Ring Type Joint Flanges",
+    "Alloy 201",
+    "Nickel Alloy 201 Flat Flange",
+    "Nickel Alloy 201 Nipo Flange",
+    "Alloy 201 Long Weld Neck Flanges",
+    "Nickel Alloy N02201 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Turbines",
+    "Desalination Plants",
+    "Seawater to Freshwater Conversion",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Electronic Components",
+    "Aerospace",
+    "Food Processing Equipment",
+    "Pharmaceutical Equipment",
+    "Power Generation",
+    "Oil & Natural Gas",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Nickel Alloy 201 Flanges Supplier in Mumbai, India",
+    "ASTM B564 Nickel Alloy 201 Threaded Flanges Exporter",
+    "Werkstoff 2.4068 Nickel Alloy Socket Weld Flanges Stockist in India",
+    "Alloy 201 RTJ Flanges Dealer",
+    "Nickel 201 WNRF Flanges Manufacturer",
+    "201 Alloy Blind Flanges Supplier",
+    "Nickel Alloy 201 Weld Neck Flange Exporter",
+    "Nickel 201 Slip-On Flanges Manufacturer",
+    "Nickel Alloy 201 Socket Weld Flanges Supplier",
+    "Nickel Alloy 201 Spectacle Blind Flanges Exporter",
+    "Alloy UNS N02201 Ring Joint Flanges Dealer",
+    "Alloy 201 Spacer Ring Flanges Manufacturer",
+    "Alloy 201 Orifice Flanges Supplier",
+    "Nickel Alloy 201 Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Nickel Alloy 201 Flanges Price List",
+    "Alloy 201 Flange Weight Calculator",
+    "Nickel Alloy 201 Flange Dimensions",
+    "Nickel Alloy 201 Flange Price Per Kg in India",
+    "Nickel Alloy 201 Flange Manufacturer in Mumbai",
+    "Nickel Alloy 201 Flange Supplier in India",
+    "Nickel Alloy 201 Flange Thickness Tolerance",
+    "Nickel Alloy 201 Flange Price List PDF",
+    "Nickel Alloy 201 Flange Mechanical Properties",
+    "Nickel Alloy 201 Flange Chemical Composition",
+    "Nickel Alloy 201 Flange Stockist in Pune",
+    "Nickel Alloy 201 Flange Exporter",
+    "Nickel Alloy 201 Flange Price in Mumbai",
+    "Nickel Alloy 201 Flange Size Chart",
+    "Nickel 201 Slip-On Flange Price",
+    "Nickel 201 Weld Neck Flange Supplier",
+    "Nickel 201 Blind Flange Manufacturers",
+    "Nickel Alloy 201 Flange Catalog PDF",
+    "Nickel Alloy 201 Flange Equivalent Grades",
+    "Nickel Alloy 201 Flange Price per Piece",
+    "Nickel Alloy 201 Flange updated price list",
+    "Nickel Alloy 201 Flange Size Chart 1/2 to 48 inch",
+    "Nickel Alloy 201 Flange Manufacturers in Gujarat",
+    "Nickel Alloy 201 Flange Stockyards in India",
+    "Nickel Alloy 201 Flange thickness chart",
+    "Nickel Alloy 201 Flange Price in India",
+    "Top 100 Nickel Alloy 201 Flange Dealers in Mumbai",
+    "Buy Nickel Alloy 201 Flange Online",
+    "Nickel Alloy 201 Flange leading manufacturers in India",
+    "UNS N02201 Flange Price India",
+    "Werkstoff 2.4068 Flange Price India",
+    "Nickel Alloy 201 Flange Heat Treatment",
+    "Nickel Alloy 201 Flange Annealing Temperature",
+    "Nickel Alloy 201 Flange Hardness Range",
+    "Nickel Alloy 201 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+  {
+  id: 14,
+  slug: "alloy-steel-f1-flanges",
+  image: "/stock/f1-alloy-steel-flanges.jpg",
+  title:
+    "Alloy Steel F1 Flanges Supplier – ASTM A182 / ASME SA182 / Chrome Moly F1 (ANSI B16.5)",
+  shortDescription:
+    "ASTM A182 Alloy Steel F1 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Alloy Steel F1 slip-on flanges are known to have the best corrosion resistance and resistance to oxidation. F1 flanges are made using good quality raw material and the latest technology, which helps the customer use them for a longer period. Alloy Steel F1 flanges are available in a wide range of varieties, shapes, and sizes. Alloy Steel F1 weld neck flanges with 18% chromium content should be used at the temperature of 870°C. Alloy Steel F1 Ring Joint type flanges have the best corrosion resistance to sulfidation. Alloy Steel F1 socket weld flanges have the best cryogenic strength and excellent corrosion resistance to abrasion. Alloy Steel F1 slip-on flanges have a good surface finish and magnetic properties. Alloy Steel F1 threaded flanges also have the best elevated temperature strength. Alloy Stainless Steel F1 socket weld flanges are mostly used in food processing industries. Alloy Steel F1 threaded flanges are also used in consumer goods. Alloy Stainless Steel F1 Ring Joint type flanges are mostly used in off-shore oil drilling companies and petrochemicals. Alloy Steel F1 slip-on flanges are used for power generation and gas processing. Alloy Steel F1 lap joint flanges are used in pharmaceutical equipment, chemical equipment, and seawater equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F1 (Chrome Moly)":
+        "ASTM A182 / ASME SA182 F1 (Chrome Moly Alloy Steel) is a forged low-alloy steel piping component material with the best corrosion resistance and resistance to oxidation, best cryogenic strength, and resistance to sulfidation and abrasion. Weld neck flanges with 18% chromium content can be used at temperatures up to 870°C. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F1 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47",
+    grade: "Alloy Steel F1 (Chrome Moly)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Alloy Steel F1 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 F1 Slip-On Flanges (SORF)",
+          "ASME SA182 F1 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F1 SORF Flanges",
+          "Alloy Steel F1 Slip-On Flat Face Flanges",
+          "ANSI B16.47 F1 SORF Flanges",
+        ],
+        image: "/stock/f1-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Alloy Steel F1 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 F1 Weld Neck Flanges (WNRF)",
+          "ASME SA182 F1 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F1 WNRF Flanges",
+          "Alloy Steel F1 Long Weld Neck Flanges",
+          "ANSI B16.47 F1 WNRF Flanges",
+        ],
+        image: "/stock/f1-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Alloy Steel F1 Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 F1 Blind Flanges",
+          "ASME SA182 F1 Blind Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F1 Blind Flanges",
+          "Alloy Steel F1 Blind Flat Face Flanges",
+          "ANSI B16.47 F1 Blind Flanges",
+        ],
+        image: "/stock/f1-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Alloy Steel F1 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 F1 Threaded Flanges",
+          "ASME SA182 F1 Threaded Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F1 Threaded Flanges",
+          "Alloy Steel F1 Threaded Flat Face Flanges",
+          "ANSI B16.47 F1 Threaded Flanges",
+        ],
+        image: "/stock/f1-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Alloy Steel F1 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 F1 Socket Weld Flanges",
+          "ASME SA182 F1 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F1 Socket Weld Flanges",
+          "Alloy Steel F1 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 F1 Socket Weld Flanges",
+        ],
+        image: "/stock/f1-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Alloy Steel F1 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 F1 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 F1 Ring Joint Flanges",
+          "ANSI B16.5 Chrome Moly F1 RTJ Flanges",
+          "Alloy Steel F1 Lap Joint Flanges",
+          "Alloy Steel F1 Spectacle Blind Flanges",
+          "Alloy Steel F1 Spacer Ring Flanges",
+          "Alloy Steel F1 Orifice Flanges",
+          "Alloy Steel F1 Nipo Flanges",
+        ],
+        image: "/stock/f1-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A182 F1", uns: "K12822", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASME SA182 F1", uns: "K12822", werkstoff: "—", standard: "ASME" },
+    { grade: "Alloy Steel F1", uns: "K12822", werkstoff: "—", standard: "—" },
+    { grade: "Chrome Moly F1", uns: "K12822", werkstoff: "—", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A182 F1",
+      c: "0.28 max",
+      mn: "0.60 – 0.90",
+      si: "0.15 – 0.35",
+      cr: "—",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.045 max, S: 0.045 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A182 F1",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "275 MPa (40 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel F1 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy F1 WNRF Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "F1 Alloy Blind Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F1 Nipo Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F1 Flat Flange", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel F1 SORF Flanges",
+    "Alloy F1 WNRF Flanges",
+    "Alloy Steel F1 Pipe Flanges",
+    "F1 Alloy Blind Flanges",
+    "Alloy F1 Spacer Ring Flanges",
+    "Alloy F1",
+    "Alloy F1 Ring Type Joint Flanges",
+    "Alloy F1",
+    "Alloy Steel F1 Flat Flange",
+    "Alloy Steel F1 Nipo Flange",
+    "Alloy F1 Long Weld Neck Flanges",
+    "Alloy Steel F1 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Food Processing Industries",
+    "Consumer Goods",
+    "Off-shore Oil Drilling Companies",
+    "Petrochemicals",
+    "Power Generation",
+    "Gas Processing",
+    "Pharmaceutical Equipment",
+    "Chemical Equipment",
+    "Seawater Equipment",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "ASTM A182 Alloy Steel F1 Flanges Supplier in Mumbai, India",
+    "ASME SA182 Chrome Moly F1 Flanges Exporter",
+    "Alloy Steel F1 Flanges Stockist in India",
+    "Chrome Moly F1 Flanges Dealer",
+    "ANSI B16.5 Alloy F1 Flanges Manufacturer",
+    "Alloy Steel F1 Slip-On Flanges (SORF) Supplier",
+    "Alloy Steel F1 Weld Neck Flanges (WNRF) Exporter",
+    "Alloy Steel F1 Blind Flanges Stockist",
+    "Alloy Steel F1 Threaded Flanges Manufacturer",
+    "Alloy Steel F1 Socket Weld Flanges Supplier",
+    "Alloy Steel F1 Ring Type Joint (RTJ) Flanges Exporter",
+    "Alloy Steel F1 Lap Joint Flanges Dealer",
+    "Alloy Steel F1 Spectacle Blind Flanges Manufacturer",
+    "Alloy Steel F1 Orifice Flanges Supplier",
+  ],
+
+  relatedSearches: [
+    "ASTM A182 Alloy Steel F1 Flanges Price List",
+    "Alloy F1 Flange Weight Calculator",
+    "Alloy F1 Flange Dimensions",
+    "Alloy F1 Flange Price Per Kg in India",
+    "Alloy F1 Flange Manufacturer in Mumbai",
+    "Alloy F1 Flange Supplier in India",
+    "Alloy F1 Flange Thickness Tolerance",
+    "Alloy F1 Flange Price List PDF",
+    "Alloy F1 Flange Mechanical Properties",
+    "Alloy F1 Flange Chemical Composition",
+    "Alloy F1 Flange Stockist in Pune",
+    "Alloy F1 Flange Exporter",
+    "Alloy F1 Flange Price in Mumbai",
+    "Alloy F1 Flange Size Chart",
+    "Alloy Steel F1 Slip-On Flange Price",
+    "Alloy F1 Weld Neck Flange Supplier",
+    "Alloy F1 Blind Flange Manufacturers",
+    "Alloy F1 Flange Catalog PDF",
+    "Alloy F1 Flange Equivalent Grades",
+    "Alloy F1 Flange Price per Piece",
+    "Alloy F1 Flange updated price list",
+    "Alloy F1 Flange Size Chart 1/2 to 48 inch",
+    "Alloy F1 Flange Manufacturers in Gujarat",
+    "Alloy F1 Flange Stockyards in India",
+    "Alloy F1 Flange thickness chart",
+    "Alloy F1 Flange Price in India",
+    "Top 100 Alloy F1 Flange Dealers in Mumbai",
+    "Buy Alloy F1 Flange Online",
+    "Alloy F1 Flange leading manufacturers in India",
+    "Chrome Moly F1 Flange Price India",
+    "ANSI B16.5 Alloy F1 Flange Price India",
+    "Alloy F1 Flange Heat Treatment",
+    "Alloy F1 Flange Stress Relieving Temperature",
+    "Alloy F1 Flange Hardness Range",
+    "Alloy F1 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 15,
+  slug: "alloy-steel-f5-flanges",
+  image: "/stock/f5-alloy-steel-flanges.jpg",
+  title:
+    "Alloy Steel F5 Flanges Supplier – ASTM A182 / ASME SA182 / Chrome Moly F5 (ANSI B16.5)",
+  shortDescription:
+    "ASTM A182 Alloy Steel F5 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Alloy Steel F5 threaded flanges are mostly used in areas of high temperature. F5 flanges are made using good quality raw material and are available in different sizes and shapes. Alloy Steel F5 weld neck flanges are best for pitting and oxidation resistance. Alloy Steel F5 slip-on flanges have high tensile strength and durability. Alloy Steel F5 threaded flanges are the best for crevice corrosion and general corrosion. Alloy Steel F5 Ring Joint type flanges have the best stress corrosion cracking resistance. Alloy Steel F5 socket weld flanges offer low maintenance and the best dimensional accuracy. Alloy Steel F5 threaded flanges have the best abrasion resistance durability and are anti-corrosive. Alloy Steel F5 flanges are mostly used where high temperatures are required. Alloy Steel F5 Ring Joint type flanges are mostly used in petroleum refining, such as in recuperators and catalytic recovery systems. Alloy Steel F5 threaded flanges are used in petrochemicals and refineries. Alloy Steel F5 socket weld flanges are used for gas & water pipeline. Alloy Steel F5 threaded flanges are also used in industrial machinery and chemical plants. Alloy Steel F5 pipe flanges are used for thermal, nuclear, and power plants. Alloy Steel F5 flanges are also used in commercial kitchens and food processing plants. Stainless Steel F5 slip-on flanges have a wide range of power generation usage, such as for pulverized coal burners and oil & gas exploration.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F5 (Chrome Moly 5Cr)":
+        "ASTM A182 / ASME SA182 F5 (Chrome Moly 5% Cr Alloy Steel) is a forged chromium-molybdenum alloy steel piping component material with the best pitting, oxidation, and general corrosion resistance, high tensile strength, best stress corrosion cracking resistance, low maintenance, best dimensional accuracy, and abrasion resistance. Used primarily in high-temperature applications. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F5 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47",
+    grade: "Alloy Steel F5 (Chrome Moly 5Cr)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Alloy Steel F5 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 F5 Slip-On Flanges (SORF)",
+          "ASME SA182 F5 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F5 SORF Flanges",
+          "Alloy Steel F5 Slip-On Flat Face Flanges",
+          "ANSI B16.47 F5 SORF Flanges",
+        ],
+        image: "/stock/f5-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Alloy Steel F5 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 F5 Weld Neck Flanges (WNRF)",
+          "ASME SA182 F5 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F5 WNRF Flanges",
+          "Alloy Steel F5 Long Weld Neck Flanges",
+          "ANSI B16.47 F5 WNRF Flanges",
+        ],
+        image: "/stock/f5-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Alloy Steel F5 Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 F5 Blind Flanges",
+          "ASME SA182 F5 Blind Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F5 Blind Flanges",
+          "Alloy Steel F5 Blind Flat Face Flanges",
+          "MSS-SP-44 Alloy Steel F5 Blind Flange",
+        ],
+        image: "/stock/f5-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Alloy Steel F5 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 F5 Threaded Flanges",
+          "ASME SA182 F5 Threaded Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F5 Threaded Flanges",
+          "Alloy Steel F5 Threaded Flat Face Flanges",
+          "ANSI B16.47 F5 Threaded Flanges",
+        ],
+        image: "/stock/f5-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Alloy Steel F5 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 F5 Socket Weld Flanges",
+          "ASME SA182 F5 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F5 Socket Weld Flanges",
+          "Alloy Steel F5 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 F5 Socket Weld Flanges",
+        ],
+        image: "/stock/f5-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Alloy Steel F5 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 F5 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 F5 Ring Joint Flanges",
+          "ANSI B16.5 Chrome Moly F5 RTJ Flanges",
+          "Alloy Steel F5 Lap Joint Flanges",
+          "Alloy Steel F5 Spectacle Blind Flanges",
+          "Alloy Steel F5 Spacer Ring Flanges",
+          "Alloy Steel F5 Orifice Flanges",
+          "Alloy Steel F5 Nipo Flanges",
+        ],
+        image: "/stock/f5-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A182 F5", uns: "K41545", werkstoff: "1.7362", standard: "ASTM" },
+    { grade: "ASME SA182 F5", uns: "K41545", werkstoff: "1.7362", standard: "ASME" },
+    { grade: "Alloy Steel F5", uns: "K41545", werkstoff: "1.7362", standard: "—" },
+    { grade: "Chrome Moly F5", uns: "K41545", werkstoff: "1.7362", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A182 F5",
+      c: "0.15 max",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "4.00 – 6.00",
+      ni: "0.50 max",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A182 F5",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "275 MPa (40 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel F5 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "F5 Alloy Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy F5 Ring Type Joint Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F5 Nipo Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy F5 WNRF Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel F5 SORF Flanges",
+    "Alloy F5 WNRF Flanges",
+    "Alloy Steel F5 Pipe Flanges",
+    "F5 Alloy Blind Flanges",
+    "Alloy F5 Spacer Ring Flanges",
+    "Alloy F5",
+    "Alloy F5 Ring Type Joint Flanges",
+    "Alloy F5",
+    "Alloy Steel F5 Flat Flange",
+    "Alloy Steel F5 Nipo Flange",
+    "Alloy F5 Long Weld Neck Flanges",
+    "Alloy Steel F5 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Petroleum Refining",
+    "Recuperators & Catalytic Recovery Systems",
+    "Petrochemicals & Refineries",
+    "Gas & Water Pipeline",
+    "Industrial Machinery",
+    "Chemical Plants",
+    "Thermal, Nuclear & Power Plants",
+    "Commercial Kitchens",
+    "Food Processing Plants",
+    "Pulverized Coal Burners",
+    "Oil & Gas Exploration",
+    "High-Temperature Applications",
+  ],
+
+  specializedIn: [
+    "ASTM A182 Alloy Steel F5 Flanges Supplier in Mumbai, India",
+    "ASME SA182 Chrome Moly F5 Flanges Exporter",
+    "Alloy Steel F5 Flanges Stockist in India",
+    "Chrome Moly F5 Flanges Dealer",
+    "ANSI B16.5 Alloy F5 Flanges Manufacturer",
+    "Alloy Steel F5 Slip-On Flanges (SORF) Supplier",
+    "Alloy Steel F5 Weld Neck Flanges (WNRF) Exporter",
+    "Alloy Steel F5 Blind Flanges Stockist",
+    "Alloy Steel F5 Threaded Flanges Manufacturer",
+    "Alloy Steel F5 Socket Weld Flanges Supplier",
+    "Alloy Steel F5 Ring Type Joint (RTJ) Flanges Exporter",
+    "Alloy Steel F5 Lap Joint Flanges Dealer",
+    "MSS-SP-44 Alloy Steel F5 Blind Flange Supplier",
+    "Alloy Steel F5 Orifice Flanges Manufacturer",
+  ],
+
+  relatedSearches: [
+    "ASTM A182 Alloy Steel F5 Flanges Price List",
+    "Alloy F5 Flange Weight Calculator",
+    "Alloy F5 Flange Dimensions",
+    "Alloy F5 Flange Price Per Kg in India",
+    "Alloy F5 Flange Manufacturer in Mumbai",
+    "Alloy F5 Flange Supplier in India",
+    "Alloy F5 Flange Thickness Tolerance",
+    "Alloy F5 Flange Price List PDF",
+    "Alloy F5 Flange Mechanical Properties",
+    "Alloy F5 Flange Chemical Composition",
+    "Alloy F5 Flange Stockist in Pune",
+    "Alloy F5 Flange Exporter",
+    "Alloy F5 Flange Price in Mumbai",
+    "Alloy F5 Flange Size Chart",
+    "Alloy Steel F5 Slip-On Flange Price",
+    "Alloy F5 Weld Neck Flange Supplier",
+    "Alloy F5 Blind Flange Manufacturers",
+    "Alloy F5 Flange Catalog PDF",
+    "Alloy F5 Flange Equivalent Grades",
+    "Alloy F5 Flange Price per Piece",
+    "Alloy F5 Flange updated price list",
+    "Alloy F5 Flange Size Chart 1/2 to 48 inch",
+    "Alloy F5 Flange Manufacturers in Gujarat",
+    "Alloy F5 Flange Stockyards in India",
+    "Alloy F5 Flange thickness chart",
+    "Alloy F5 Flange Price in India",
+    "Top 100 Alloy F5 Flange Dealers in Mumbai",
+    "Buy Alloy F5 Flange Online",
+    "Alloy F5 Flange leading manufacturers in India",
+    "Chrome Moly F5 Flange Price India",
+    "ANSI B16.5 Alloy F5 Flange Price India",
+    "Alloy F5 Flange Heat Treatment",
+    "Alloy F5 Flange Stress Relieving Temperature",
+    "Alloy F5 Flange Hardness Range",
+    "MSS-SP-44 Alloy F5 Blind Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 16,
+  slug: "alloy-steel-f12-flanges",
+  image: "/stock/f12-alloy-steel-flanges.jpg",
+  title:
+    "Alloy Steel F12 Flanges Supplier – ASTM A182 / ASME SA182 / Chrome Moly F12 (ANSI B16.5)",
+  shortDescription:
+    "ASTM A182 Alloy Steel F12 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Alloy Steel F12 threaded flanges provide best resistance for crevice and stress corrosion cracking. Alloy Steel F12 slip-on flanges are also known to provide the best resistance to pitting in chloride solution. F12 flanges are made using good quality raw material and the latest technology, enabling customers to use them for a longer period. Alloy Steel F12 flanges are available in different sizes and shapes. Alloy Steel F12 Ring Joint type flanges is one of the best performance alloys with the best resistance to crevice and stress corrosion cracking. Alloy Steel F12 threaded flanges give the best protection to pitting in chloride solutions. Alloy Steel F12 slip-on flanges have restricted usage of hydrochloric acid. Alloy Steel F12 flanges contain low carbon as it reduces the risk of intercrystalline corrosion on welding or cooling. Alloy Steel F12 spectacle blind flanges have a wide range of usage as per their distinctive features. It is mainly used in offshore oil drilling companies. Alloy Steel F12 slip-on flanges are mostly used in heat exchangers and condensers. Alloy Steel F12 threaded flanges are used in the pulp and paper industry and seawater equipment. Alloy Steel F12 Ring Joint type flanges are used for specialty chemicals, chemical equipment, and pharmaceuticals. Alloy Steel F12 threaded flanges are also used for gas processing and petrochemicals.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F12 (Chrome Moly 1Cr-0.5Mo)":
+        "ASTM A182 / ASME SA182 F12 (Chrome Moly 1% Cr – 0.5% Mo Alloy Steel) is a forged low-alloy steel piping component material with best resistance to crevice and stress corrosion cracking, best resistance to pitting in chloride solutions, and low carbon content that reduces the risk of intercrystalline corrosion on welding or cooling. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F12 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47",
+    grade: "Alloy Steel F12 (Chrome Moly 1Cr-0.5Mo)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Alloy Steel F12 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 F12 Slip-On Flanges (SORF)",
+          "ASME SA182 F12 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F12 SORF Flanges",
+          "Alloy Steel F12 Slip-On Flat Face Flanges",
+          "ANSI B16.47 F12 SORF Flanges",
+        ],
+        image: "/stock/f12-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Alloy Steel F12 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 F12 Weld Neck Flanges (WNRF)",
+          "ASME SA182 F12 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F12 WNRF Flanges",
+          "Alloy Steel F12 Long Weld Neck Flanges",
+          "ANSI B16.47 F12 WNRF Flanges",
+        ],
+        image: "/stock/f12-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Alloy Steel F12 Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 F12 Blind Flanges",
+          "ASME SA182 F12 Blind Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F12 Blind Flanges",
+          "Alloy Steel F12 Blind Flat Face Flanges",
+          "ANSI B16.47 F12 Blind Flanges",
+        ],
+        image: "/stock/f12-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Alloy Steel F12 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 F12 Threaded Flanges",
+          "ASME SA182 F12 Threaded Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F12 Threaded Flanges",
+          "Alloy Steel F12 Threaded Flat Face Flanges",
+          "ANSI B16.47 F12 Threaded Flanges",
+        ],
+        image: "/stock/f12-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Alloy Steel F12 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 F12 Socket Weld Flanges",
+          "ASME SA182 F12 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F12 Socket Weld Flanges",
+          "Alloy Steel F12 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 F12 Socket Weld Flanges",
+        ],
+        image: "/stock/f12-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Alloy Steel F12 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 F12 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 F12 Ring Joint Flanges",
+          "ANSI B16.5 Chrome Moly F12 RTJ Flanges",
+          "Alloy Steel F12 Lap Joint Flanges",
+          "Alloy Steel F12 Spectacle Blind Flanges",
+          "Alloy Steel F12 Spacer Ring Flanges",
+          "Alloy Steel F12 Orifice Flanges",
+          "Alloy Steel F12 Nipo Flanges",
+        ],
+        image: "/stock/f12-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A182 F12", uns: "K11562", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "ASME SA182 F12", uns: "K11562", werkstoff: "1.7335", standard: "ASME" },
+    { grade: "Alloy Steel F12", uns: "K11562", werkstoff: "1.7335", standard: "—" },
+    { grade: "Chrome Moly F12", uns: "K11562", werkstoff: "1.7335", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A182 F12",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "0.80 – 1.25",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A182 F12",
+      tensile: "415 MPa (60 ksi) min",
+      yield: "220 MPa (32 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel F12 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "F12 Alloy Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy F12 Ring Type Joint Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy F12 WNRF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy F12 Long Weld Neck Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel F12 SORF Flanges",
+    "Alloy F12 WNRF Flanges",
+    "Alloy Steel F12 Pipe Flanges",
+    "F12 Alloy Blind Flanges",
+    "Alloy F12 Spacer Ring Flanges",
+    "Alloy F12",
+    "Alloy F12 Ring Type Joint Flanges",
+    "Alloy F12",
+    "Alloy Steel F12 Flat Flange",
+    "Alloy Steel F12 Nipo Flange",
+    "Alloy F12 Long Weld Neck Flanges",
+    "Alloy Steel F12 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Offshore Oil Drilling Companies",
+    "Heat Exchangers & Condensers",
+    "Pulp & Paper Industry",
+    "Seawater Equipment",
+    "Specialty Chemicals",
+    "Chemical Equipment",
+    "Pharmaceuticals",
+    "Gas Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "ASTM A182 Alloy Steel F12 Flanges Supplier in Mumbai, India",
+    "ASME SA182 Chrome Moly F12 Flanges Exporter",
+    "Alloy Steel F12 Flanges Stockist in India",
+    "Chrome Moly F12 Flanges Dealer",
+    "ANSI B16.5 Alloy F12 Flanges Manufacturer",
+    "Alloy Steel F12 Slip-On Flanges (SORF) Supplier",
+    "Alloy Steel F12 Weld Neck Flanges (WNRF) Exporter",
+    "Alloy Steel F12 Blind Flanges Stockist",
+    "Alloy Steel F12 Threaded Flanges Manufacturer",
+    "Alloy Steel F12 Socket Weld Flanges Supplier",
+    "Alloy Steel F12 Ring Type Joint (RTJ) Flanges Exporter",
+    "Alloy Steel F12 Lap Joint Flanges Dealer",
+    "Alloy Steel F12 Spectacle Blind Flanges Manufacturer",
+    "Alloy Steel F12 Orifice Flanges Supplier",
+  ],
+
+  relatedSearches: [
+    "ASTM A182 Alloy Steel F12 Flanges Price List",
+    "Alloy F12 Flange Weight Calculator",
+    "Alloy F12 Flange Dimensions",
+    "Alloy F12 Flange Price Per Kg in India",
+    "Alloy F12 Flange Manufacturer in Mumbai",
+    "Alloy F12 Flange Supplier in India",
+    "Alloy F12 Flange Thickness Tolerance",
+    "Alloy F12 Flange Price List PDF",
+    "Alloy F12 Flange Mechanical Properties",
+    "Alloy F12 Flange Chemical Composition",
+    "Alloy F12 Flange Stockist in Pune",
+    "Alloy F12 Flange Exporter",
+    "Alloy F12 Flange Price in Mumbai",
+    "Alloy F12 Flange Size Chart",
+    "Alloy Steel F12 Slip-On Flange Price",
+    "Alloy F12 Weld Neck Flange Supplier",
+    "Alloy F12 Blind Flange Manufacturers",
+    "Alloy F12 Flange Catalog PDF",
+    "Alloy F12 Flange Equivalent Grades",
+    "Alloy F12 Flange Price per Piece",
+    "Alloy F12 Flange updated price list",
+    "Alloy F12 Flange Size Chart 1/2 to 48 inch",
+    "Alloy F12 Flange Manufacturers in Gujarat",
+    "Alloy F12 Flange Stockyards in India",
+    "Alloy F12 Flange thickness chart",
+    "Alloy F12 Flange Price in India",
+    "Top 100 Alloy F12 Flange Dealers in Mumbai",
+    "Buy Alloy F12 Flange Online",
+    "Alloy F12 Flange leading manufacturers in India",
+    "Chrome Moly F12 Flange Price India",
+    "ANSI B16.5 Alloy F12 Flange Price India",
+    "Alloy F12 Flange Heat Treatment",
+    "Alloy F12 Flange Stress Relieving Temperature",
+    "Alloy F12 Flange Hardness Range",
+    "Alloy F12 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 17,
+  slug: "alloy-steel-f22-flanges",
+  image: "/stock/f22-alloy-steel-flanges.jpg",
+  title:
+    "Alloy Steel F22 Flanges Supplier – ASTM A182 / ASME SA182 / Chrome Moly F22 (ANSI B16.5)",
+  shortDescription:
+    "ASTM A182 Alloy Steel F22 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Alloy Steel F22 threaded flanges contain molybdenum, copper, nickel up to 12% and 11.5% to 18% chromium. F22 flanges are made using good quality raw material and the latest updated technology. Alloy Steel F22 flanges are available in different sizes and shapes. The Alloy Steel F22 threaded flanges contain high alloy nickel and molybdenum, which is the main reason why it performs better than austenitic stainless steels. Alloy Steel F22 slip-on flanges can only be hardened by the heat working process. Alloy Steel F22 socket weld flanges are known to have better corrosion resistance against acidic environments. Alloy Steel F22 threaded flanges contain molybdenum, copper, nickel up to 12% and 11.5% to 18% chromium, where copper provides strength to the alloy, and carbon increases weldability. Alloy Steel F22 Ring Joint type flanges have better corrosion resistance to sulphuric acid. Alloy Steel F22 socket weld flanges have wide usage in different industries. Alloy Steel F22 flanges are used in condensers, seawater equipment, and chemical equipment. Alloy Steel F22 socket weld flanges are also used in wrenches and turbines. Alloy Steel slip-on flanges are used in pharmaceutical industries and pulp and paper industries. Alloy Steel F22 pipe flanges are also used for power generation and gas processing units.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F22 (Chrome Moly 2.25Cr-1Mo)":
+        "ASTM A182 / ASME SA182 F22 (Chrome Moly 2.25% Cr – 1% Mo Alloy Steel) is a forged low-alloy steel piping component material with high alloy nickel and molybdenum that performs better than austenitic stainless steels, better corrosion resistance against acidic environments, better resistance to sulphuric acid, and can be hardened by the heat working process. Contains molybdenum, copper, nickel up to 12%, and 11.5% to 18% chromium. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F22 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47",
+    grade: "Alloy Steel F22 (Chrome Moly 2.25Cr-1Mo)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Alloy Steel F22 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 F22 Slip-On Flanges (SORF)",
+          "ASME SA182 F22 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F22 SORF Flanges",
+          "Alloy Steel F22 Slip-On Flat Face Flanges",
+          "ANSI B16.47 F22 SORF Flanges",
+        ],
+        image: "/stock/f22-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Alloy Steel F22 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 F22 Weld Neck Flanges (WNRF)",
+          "ASME SA182 F22 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F22 WNRF Flanges",
+          "Alloy Steel F22 Long Weld Neck Flanges",
+          "ANSI B16.47 F22 WNRF Flanges",
+        ],
+        image: "/stock/f22-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Alloy Steel F22 Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 F22 Blind Flanges",
+          "ASME SA182 F22 Blind Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F22 Blind Flanges",
+          "Alloy Steel F22 Blind Flat Face Flanges",
+          "ANSI B16.47 F22 Blind Flanges",
+        ],
+        image: "/stock/f22-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Alloy Steel F22 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 F22 Threaded Flanges",
+          "ASME SA182 F22 Threaded Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F22 Threaded Flanges",
+          "Alloy Steel F22 Threaded Flat Face Flanges",
+          "ANSI B16.47 F22 Threaded Flanges",
+        ],
+        image: "/stock/f22-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Alloy Steel F22 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 F22 Socket Weld Flanges",
+          "ASME SA182 F22 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F22 Socket Weld Flanges",
+          "Alloy Steel F22 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 F22 Socket Weld Flanges",
+        ],
+        image: "/stock/f22-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Alloy Steel F22 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 F22 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 F22 Ring Joint Flanges",
+          "ANSI B16.5 Chrome Moly F22 RTJ Flanges",
+          "Alloy Steel F22 Lap Joint Flanges",
+          "Alloy Steel F22 Spectacle Blind Flanges",
+          "Alloy Steel F22 Spacer Ring Flanges",
+          "Alloy Steel F22 Orifice Flanges",
+          "Alloy Steel F22 Nipo Flanges",
+        ],
+        image: "/stock/f22-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A182 F22", uns: "K21590", werkstoff: "1.7380", standard: "ASTM" },
+    { grade: "ASME SA182 F22", uns: "K21590", werkstoff: "1.7380", standard: "ASME" },
+    { grade: "Alloy Steel F22", uns: "K21590", werkstoff: "1.7380", standard: "—" },
+    { grade: "Chrome Moly F22", uns: "K21590", werkstoff: "1.7380", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A182 F22",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "2.00 – 2.50",
+      ni: "—",
+      mo: "0.87 – 1.13",
+      other: "P: 0.030 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A182 F22",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "310 MPa (45 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel F22 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "F22 Alloy Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy F22 Ring Type Joint Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F22 Nipo Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy F22 Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel F22 SORF Flanges",
+    "Alloy F22 WNRF Flanges",
+    "Alloy Steel F22 Pipe Flanges",
+    "F22 Alloy Blind Flanges",
+    "Alloy F22 Spacer Ring Flanges",
+    "Alloy F22",
+    "Alloy F22 Ring Type Joint Flanges",
+    "Alloy F22",
+    "Alloy Steel F22 Flat Flange",
+    "Alloy Steel F22 Nipo Flange",
+    "Alloy F22 Long Weld Neck Flanges",
+    "Alloy Steel F22 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Condensers",
+    "Seawater Equipment",
+    "Chemical Equipment",
+    "Wrenches & Turbines",
+    "Pharmaceutical Industries",
+    "Pulp & Paper Industries",
+    "Power Generation",
+    "Gas Processing Units",
+    "Oil & Natural Gas",
+    "Petrochemicals",
+    "Refineries",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "ASTM A182 Alloy Steel F22 Flanges Supplier in Mumbai, India",
+    "ASME SA182 Chrome Moly F22 Flanges Exporter",
+    "Alloy Steel F22 Flanges Stockist in India",
+    "Chrome Moly F22 Flanges Dealer",
+    "ANSI B16.5 Alloy F22 Flanges Manufacturer",
+    "Alloy Steel F22 Slip-On Flanges (SORF) Supplier",
+    "Alloy Steel F22 Weld Neck Flanges (WNRF) Exporter",
+    "Alloy Steel F22 Blind Flanges Stockist",
+    "Alloy Steel F22 Threaded Flanges Manufacturer",
+    "Alloy Steel F22 Socket Weld Flanges Supplier",
+    "Alloy Steel F22 Ring Type Joint (RTJ) Flanges Exporter",
+    "Alloy Steel F22 Lap Joint Flanges Dealer",
+    "Alloy Steel F22 Spectacle Blind Flanges Manufacturer",
+    "Alloy Steel F22 Orifice Flanges Supplier",
+  ],
+
+  relatedSearches: [
+    "ASTM A182 Alloy Steel F22 Flanges Price List",
+    "Alloy F22 Flange Weight Calculator",
+    "Alloy F22 Flange Dimensions",
+    "Alloy F22 Flange Price Per Kg in India",
+    "Alloy F22 Flange Manufacturer in Mumbai",
+    "Alloy F22 Flange Supplier in India",
+    "Alloy F22 Flange Thickness Tolerance",
+    "Alloy F22 Flange Price List PDF",
+    "Alloy F22 Flange Mechanical Properties",
+    "Alloy F22 Flange Chemical Composition",
+    "Alloy F22 Flange Stockist in Pune",
+    "Alloy F22 Flange Exporter",
+    "Alloy F22 Flange Price in Mumbai",
+    "Alloy F22 Flange Size Chart",
+    "Alloy Steel F22 Slip-On Flange Price",
+    "Alloy F22 Weld Neck Flange Supplier",
+    "Alloy F22 Blind Flange Manufacturers",
+    "Alloy F22 Flange Catalog PDF",
+    "Alloy F22 Flange Equivalent Grades",
+    "Alloy F22 Flange Price per Piece",
+    "Alloy F22 Flange updated price list",
+    "Alloy F22 Flange Size Chart 1/2 to 48 inch",
+    "Alloy F22 Flange Manufacturers in Gujarat",
+    "Alloy F22 Flange Stockyards in India",
+    "Alloy F22 Flange thickness chart",
+    "Alloy F22 Flange Price in India",
+    "Top 100 Alloy F22 Flange Dealers in Mumbai",
+    "Buy Alloy F22 Flange Online",
+    "Alloy F22 Flange leading manufacturers in India",
+    "Chrome Moly F22 Flange Price India",
+    "ANSI B16.5 Alloy F22 Flange Price India",
+    "Alloy F22 Flange Heat Treatment",
+    "Alloy F22 Flange Stress Relieving Temperature",
+    "Alloy F22 Flange Hardness Range",
+    "Alloy F22 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 18,
+  slug: "alloy-steel-f91-flanges",
+  image: "/stock/f91-alloy-steel-flanges.jpg",
+  title:
+    "Alloy Steel F91 Flanges Supplier – ASTM A182 / ASME SA182 / Chrome Moly F91 (ANSI B16.5)",
+  shortDescription:
+    "ASTM A182 Alloy Steel F91 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Alloy Steel F91 flanges are mostly applicable in cold working processes. F91 flanges are made using good quality raw material, which enables customers to use them for a longer period without defects. Alloy Steel F91 flanges are also available in different sizes and shapes. Alloy Steel F91 socket weld flanges are being melted first in basic oxygen furnaces and then refined in other steelmaking vessels. Alloy Steel F91 threaded flanges have wider usage in different industries as they have longer durability and best aesthetic appeal. Alloy Steel F91 threaded flanges have distinct mechanical properties. Alloy Steel F91 Ring Joint type flanges contain maximum portion of nickel as it is not advisable to keep it in heat when sulfur is there. Alloy Steel F91 lap joint flanges mostly contain chromium, carbon, iron, silicon, and manganese and some portion of nickel and molybdenum. Alloy Steel F91 slip-on flanges have wider usage in different industries as they have distinct mechanical properties. Alloy Steel F91 blind flanges are used in condensers and seawater equipment. Alloy Steel lap joint flanges are used in offshore oil drilling companies and pulp and paper industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F91 (Chrome Moly 9Cr-1Mo-V)":
+        "ASTM A182 / ASME SA182 F91 (Chrome Moly 9% Cr – 1% Mo – V Alloy Steel) is a forged high-temperature alloy steel piping component material with distinct mechanical properties, high durability, best aesthetic appeal, and wider usage in different industries. Contains chromium, carbon, iron, silicon, and manganese with some portion of nickel and molybdenum. Suitable for cold working processes. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F91 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47",
+    grade: "Alloy Steel F91 (Chrome Moly 9Cr-1Mo-V)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Alloy Steel F91 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 F91 Slip-On Flanges (SORF)",
+          "ASME SA182 F91 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F91 SORF Flanges",
+          "Alloy Steel F91 Slip-On Flat Face Flanges",
+          "ANSI B16.47 F91 SORF Flanges",
+        ],
+        image: "/stock/f91-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Alloy Steel F91 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 F91 Weld Neck Flanges (WNRF)",
+          "ASME SA182 F91 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F91 WNRF Flanges",
+          "Alloy Steel F91 Long Weld Neck Flanges",
+          "ANSI B16.47 F91 WNRF Flanges",
+        ],
+        image: "/stock/f91-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Alloy Steel F91 Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 F91 Blind Flanges",
+          "ASME SA182 F91 Blind Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F91 Blind Flanges",
+          "Alloy Steel F91 Blind Flat Face Flanges",
+          "ANSI B16.47 F91 Blind Flanges",
+        ],
+        image: "/stock/f91-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Alloy Steel F91 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 F91 Threaded Flanges",
+          "ASME SA182 F91 Threaded Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F91 Threaded Flanges",
+          "Alloy Steel F91 Threaded Flat Face Flanges",
+          "ANSI B16.47 F91 Threaded Flanges",
+        ],
+        image: "/stock/f91-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Alloy Steel F91 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 F91 Socket Weld Flanges",
+          "ASME SA182 F91 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F91 Socket Weld Flanges",
+          "Alloy Steel F91 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 F91 Socket Weld Flanges",
+        ],
+        image: "/stock/f91-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Alloy Steel F91 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 F91 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 F91 Ring Joint Flanges",
+          "ANSI B16.5 Chrome Moly F91 RTJ Flanges",
+          "Alloy Steel F91 Lap Joint Flanges",
+          "Alloy Steel F91 Spectacle Blind Flanges",
+          "Alloy Steel F91 Spacer Ring Flanges",
+          "Alloy Steel F91 Orifice Flanges",
+          "Alloy Steel F91 Nipo Flanges",
+        ],
+        image: "/stock/f91-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A182 F91", uns: "K90901", werkstoff: "1.4903", standard: "ASTM" },
+    { grade: "ASME SA182 F91", uns: "K90901", werkstoff: "1.4903", standard: "ASME" },
+    { grade: "Alloy Steel F91", uns: "K90901", werkstoff: "1.4903", standard: "—" },
+    { grade: "Chrome Moly F91", uns: "K90901", werkstoff: "1.4903", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A182 F91",
+      c: "0.08 – 0.12",
+      mn: "0.30 – 0.60",
+      si: "0.20 – 0.50",
+      cr: "8.00 – 9.50",
+      ni: "0.40 max",
+      mo: "0.85 – 1.05",
+      other: "P: 0.020 max, S: 0.010 max, V: 0.18 – 0.25, N: 0.030 – 0.070, Nb: 0.06 – 0.10",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A182 F91",
+      tensile: "585 MPa (85 ksi) min",
+      yield: "415 MPa (60 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "1040°C – 1080°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "730°C – 780°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "700°C – 760°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel F91 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "F91 Alloy Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "F91 Ring Type Joint Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F91 Nipo Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy F91 WNRF Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel F91 SORF Flanges",
+    "Alloy F91 WNRF Flanges",
+    "Alloy Steel F91 Pipe Flanges",
+    "F91 Alloy Blind Flanges",
+    "Alloy F91 Spacer Ring Flanges",
+    "Alloy F91",
+    "Alloy F91 Ring Type Joint Flanges",
+    "Alloy F91",
+    "Alloy Steel F91 Flat Flange",
+    "Alloy Steel F91 Nipo Flange",
+    "Alloy F91 Long Weld Neck Flanges",
+    "Alloy Steel F91 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Condensers",
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Pulp & Paper Industry",
+    "Power Generation",
+    "Gas Processing Units",
+    "Oil & Natural Gas",
+    "Petrochemicals",
+    "Refineries",
+    "Chemical Plants",
+    "Thermal & Nuclear Power Plants",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "ASTM A182 Alloy Steel F91 Flanges Supplier in Mumbai, India",
+    "ASME SA182 Chrome Moly F91 Flanges Exporter",
+    "Alloy Steel F91 Flanges Stockist in India",
+    "Chrome Moly F91 Flanges Dealer",
+    "ANSI B16.5 Alloy F91 Flanges Manufacturer",
+    "Alloy Steel F91 Slip-On Flanges (SORF) Supplier",
+    "Alloy Steel F91 Weld Neck Flanges (WNRF) Exporter",
+    "Alloy Steel F91 Blind Flanges Stockist",
+    "Alloy Steel F91 Threaded Flanges Manufacturer",
+    "Alloy Steel F91 Socket Weld Flanges Supplier",
+    "Alloy Steel F91 Ring Type Joint (RTJ) Flanges Exporter",
+    "Alloy Steel F91 Lap Joint Flanges Dealer",
+    "Alloy Steel F91 Spectacle Blind Flanges Manufacturer",
+    "Alloy Steel F91 Orifice Flanges Supplier",
+  ],
+
+  relatedSearches: [
+    "ASTM A182 Alloy Steel F91 Flanges Price List",
+    "Alloy F91 Flange Weight Calculator",
+    "Alloy F91 Flange Dimensions",
+    "Alloy F91 Flange Price Per Kg in India",
+    "Alloy F91 Flange Manufacturer in Mumbai",
+    "Alloy F91 Flange Supplier in India",
+    "Alloy F91 Flange Thickness Tolerance",
+    "Alloy F91 Flange Price List PDF",
+    "Alloy F91 Flange Mechanical Properties",
+    "Alloy F91 Flange Chemical Composition",
+    "Alloy F91 Flange Stockist in Pune",
+    "Alloy F91 Flange Exporter",
+    "Alloy F91 Flange Price in Mumbai",
+    "Alloy F91 Flange Size Chart",
+    "Alloy Steel F91 Slip-On Flange Price",
+    "Alloy F91 Weld Neck Flange Supplier",
+    "Alloy F91 Blind Flange Manufacturers",
+    "Alloy F91 Flange Catalog PDF",
+    "Alloy F91 Flange Equivalent Grades",
+    "Alloy F91 Flange Price per Piece",
+    "Alloy F91 Flange updated price list",
+    "Alloy F91 Flange Size Chart 1/2 to 48 inch",
+    "Alloy F91 Flange Manufacturers in Gujarat",
+    "Alloy F91 Flange Stockyards in India",
+    "Alloy F91 Flange thickness chart",
+    "Alloy F91 Flange Price in India",
+    "Top 100 Alloy F91 Flange Dealers in Mumbai",
+    "Buy Alloy F91 Flange Online",
+    "Alloy F91 Flange leading manufacturers in India",
+    "Chrome Moly F91 Flange Price India",
+    "ANSI B16.5 Alloy F91 Flange Price India",
+    "Alloy F91 Flange Heat Treatment",
+    "Alloy F91 Flange Stress Relieving Temperature",
+    "Alloy F91 Flange Hardness Range",
+    "Alloy F91 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 19,
+  slug: "alloy-steel-f92-flanges",
+  image: "/stock/f92-alloy-steel-flanges.jpg",
+  title:
+    "Alloy Steel F92 Flanges Supplier – ASTM A182 / ASME SA182 / Chrome Moly F92 (ANSI B16.5)",
+  shortDescription:
+    "ASTM A182 Alloy Steel F92 Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Alloy Steel F92 flanges are mostly applicable in cold working processes. F92 flanges are made using good quality raw material, which enables customers to use them for a longer period without defects. Alloy Steel F92 flanges are also available in different sizes and shapes. Alloy Steel F92 socket weld flanges are being melted first in basic oxygen furnaces, and then refined in other steelmaking vessels. Alloy Steel F92 threaded flanges have wider usage in different industries as they have longer durability and best aesthetic appeal. Alloy Steel F92 threaded flanges have distinct mechanical properties. Alloy Steel F92 Ring Joint type flanges contain a maximum portion of nickel as it is not advisable to keep it in heat when sulfur is there. Alloy Steel F92 lap joint flanges mostly contain chromium, carbon, iron, silicon, and manganese, and some nickel and molybdenum portions. Alloy Steel F92 slip-on flanges have wider usage in different industries as they have distinct mechanical properties. Alloy Steel F92 Ring Joint type flanges are also used in manufacturing industries. Alloy Steel F92 blind flanges are used in condensers and seawater equipment. Alloy Steel lap joint flanges are used in offshore oil drilling companies and the pulp and paper industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F92 (Chrome Moly 9Cr-2Mo-W-V-Nb)":
+        "ASTM A182 / ASME SA182 F92 (Chrome Moly 9% Cr – 2% Mo – W – V – Nb Alloy Steel) is a forged high-temperature alloy steel piping component material with distinct mechanical properties, longer durability, and best aesthetic appeal. Contains chromium, carbon, iron, silicon, and manganese with some portion of nickel and molybdenum. Suitable for cold working processes. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F92 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ANSI B16.5 / B16.47",
+    grade: "Alloy Steel F92 (Chrome Moly 9Cr-2Mo-W-V-Nb)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Alloy Steel F92 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 F92 Slip-On Flanges (SORF)",
+          "ASME SA182 F92 Slip-On Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F92 SORF Flanges",
+          "Alloy Steel F92 Slip-On Flat Face Flanges",
+          "ANSI B16.47 F92 SORF Flanges",
+        ],
+        image: "/stock/f92-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Alloy Steel F92 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 F92 Weld Neck Flanges (WNRF)",
+          "ASME SA182 F92 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F92 WNRF Flanges",
+          "Alloy Steel F92 Long Weld Neck Flanges",
+          "ANSI B16.47 F92 WNRF Flanges",
+        ],
+        image: "/stock/f92-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Alloy Steel F92 Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 F92 Blind Flanges",
+          "ASME SA182 F92 Blind Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F92 Blind Flanges",
+          "Alloy Steel F92 Blind Flat Face Flanges",
+          "ANSI B16.47 F92 Blind Flanges",
+        ],
+        image: "/stock/f92-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Alloy Steel F92 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 F92 Threaded Flanges",
+          "ASME SA182 F92 Threaded Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F92 Threaded Flanges",
+          "Alloy Steel F92 Threaded Flat Face Flanges",
+          "ANSI B16.47 F92 Threaded Flanges",
+        ],
+        image: "/stock/f92-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Alloy Steel F92 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 F92 Socket Weld Flanges",
+          "ASME SA182 F92 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 Chrome Moly F92 Socket Weld Flanges",
+          "Alloy Steel F92 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 F92 Socket Weld Flanges",
+        ],
+        image: "/stock/f92-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Alloy Steel F92 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 F92 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 F92 Ring Joint Flanges",
+          "ANSI B16.5 Chrome Moly F92 RTJ Flanges",
+          "Alloy Steel F92 Lap Joint Flanges",
+          "Alloy Steel F92 Spectacle Blind Flanges",
+          "Alloy Steel F92 Spacer Ring Flanges",
+          "Alloy Steel F92 Orifice Flanges",
+          "Alloy Steel F92 Nipo Flanges",
+        ],
+        image: "/stock/f92-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A182 F92", uns: "K92460", werkstoff: "1.4901", standard: "ASTM" },
+    { grade: "ASME SA182 F92", uns: "K92460", werkstoff: "1.4901", standard: "ASME" },
+    { grade: "Alloy Steel F92", uns: "K92460", werkstoff: "1.4901", standard: "—" },
+    { grade: "Chrome Moly F92", uns: "K92460", werkstoff: "1.4901", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A182 F92",
+      c: "0.07 – 0.13",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "8.50 – 9.50",
+      ni: "0.40 max",
+      mo: "0.30 – 0.60",
+      other: "P: 0.020 max, S: 0.010 max, V: 0.15 – 0.25, N: 0.030 – 0.070, Nb: 0.04 – 0.09, W: 1.50 – 2.00, B: 0.001 – 0.006",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A182 F92",
+      tensile: "620 MPa (90 ksi) min",
+      yield: "440 MPa (64 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "1040°C – 1080°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "730°C – 800°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "700°C – 760°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy Steel F92 SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "F92 Alloy Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy F92 Ring Type Joint Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy F92 Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy F92 WNRF Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy Steel F92 SORF Flanges",
+    "Alloy F92 WNRF Flanges",
+    "Alloy Steel F92 Pipe Flanges",
+    "F92 Alloy Blind Flanges",
+    "Alloy F92 Spacer Ring Flanges",
+    "Alloy F92",
+    "Alloy F92 Ring Type Joint Flanges",
+    "Alloy F92",
+    "Alloy Steel F92 Flat Flange",
+    "Alloy Steel F92 Nipo Flange",
+    "Alloy F92 Long Weld Neck Flanges",
+    "Alloy Steel F92 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Condensers",
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Pulp & Paper Industry",
+    "Manufacturing Industries",
+    "Power Generation",
+    "Gas Processing Units",
+    "Oil & Natural Gas",
+    "Petrochemicals",
+    "Refineries",
+    "Thermal & Nuclear Power Plants",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "ASTM A182 Alloy Steel F92 Flanges Supplier in Mumbai, India",
+    "ASME SA182 Chrome Moly F92 Flanges Exporter",
+    "Alloy Steel F92 Flanges Stockist in India",
+    "Chrome Moly F92 Flanges Dealer",
+    "ANSI B16.5 Alloy F92 Flanges Manufacturer",
+    "Alloy Steel F92 Slip-On Flanges (SORF) Supplier",
+    "Alloy Steel F92 Weld Neck Flanges (WNRF) Exporter",
+    "Alloy Steel F92 Blind Flanges Stockist",
+    "Alloy Steel F92 Threaded Flanges Manufacturer",
+    "Alloy Steel F92 Socket Weld Flanges Supplier",
+    "Alloy Steel F92 Ring Type Joint (RTJ) Flanges Exporter",
+    "Alloy Steel F92 Lap Joint Flanges Dealer",
+    "Alloy Steel F92 Spectacle Blind Flanges Manufacturer",
+    "Alloy Steel F92 Orifice Flanges Supplier",
+  ],
+
+  relatedSearches: [
+    "ASTM A182 Alloy Steel F92 Flanges Price List",
+    "Alloy F92 Flange Weight Calculator",
+    "Alloy F92 Flange Dimensions",
+    "Alloy F92 Flange Price Per Kg in India",
+    "Alloy F92 Flange Manufacturer in Mumbai",
+    "Alloy F92 Flange Supplier in India",
+    "Alloy F92 Flange Thickness Tolerance",
+    "Alloy F92 Flange Price List PDF",
+    "Alloy F92 Flange Mechanical Properties",
+    "Alloy F92 Flange Chemical Composition",
+    "Alloy F92 Flange Stockist in Pune",
+    "Alloy F92 Flange Exporter",
+    "Alloy F92 Flange Price in Mumbai",
+    "Alloy F92 Flange Size Chart",
+    "Alloy Steel F92 Slip-On Flange Price",
+    "Alloy F92 Weld Neck Flange Supplier",
+    "Alloy F92 Blind Flange Manufacturers",
+    "Alloy F92 Flange Catalog PDF",
+    "Alloy F92 Flange Equivalent Grades",
+    "Alloy F92 Flange Price per Piece",
+    "Alloy F92 Flange updated price list",
+    "Alloy F92 Flange Size Chart 1/2 to 48 inch",
+    "Alloy F92 Flange Manufacturers in Gujarat",
+    "Alloy F92 Flange Stockyards in India",
+    "Alloy F92 Flange thickness chart",
+    "Alloy F92 Flange Price in India",
+    "Top 100 Alloy F92 Flange Dealers in Mumbai",
+    "Buy Alloy F92 Flange Online",
+    "Alloy F92 Flange leading manufacturers in India",
+    "Chrome Moly F92 Flange Price India",
+    "ANSI B16.5 Alloy F92 Flange Price India",
+    "Alloy F92 Flange Heat Treatment",
+    "Alloy F92 Flange Stress Relieving Temperature",
+    "Alloy F92 Flange Hardness Range",
+    "Alloy F92 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
   {
     id: 7,
     slug: "titanium-flanges",
@@ -14005,319 +24529,2350 @@ export const flanges: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
-  {
-    id: 8,
-    slug: "stainless-steel-flanges",
-    image: "/stock/stainless-steel-flanges.jpg",
-    title:
-      "Stainless Steel Flanges Manufacturer & Supplier - ASTM A182 / ASME SA-182",
-    shortDescription:
-      'Premium stainless steel flanges manufacturer and supplier based in Mumbai, India, stocking and exporting since 2013. Forged stainless steel flanges manufactured to ASTM A182 / ASME SA-182. Available grades include 304, 304L, 310, 316 & 316L, 317 & 317L, 321, 347 and 904L. Sizes range from NPS 1/2" to 48" with Classes 150 to 2500. Eleven flange types with five common facing options.',
-    technicalOverview:
-      'A stainless steel flange connects pipes, valves and pumps through a bolted, gasketed joint that can be opened for inspection and maintenance. Chromium forms a passive oxide film on the steel surface, providing corrosion resistance in wet, chemical and coastal environments. Our supplied grades include 304, 304L, 310, 316 & 316L, 317 & 317L, 321, 347 and 904L. These grades cover general corrosion service, chloride-bearing environments, elevated-temperature applications and more demanding chemical service. Sizes range from NPS 1/2" to 48". Class 150 to Class 1500 is available from NPS 1/2" to 24", while Class 2500 is available from NPS 1/2" to 12" under ASME B16.5. For NPS 26" and above, Class 150 to Class 900 applies under ASME B16.47.',
-    materialGroup: "Stainless Steel",
-    standards:
-      "ASTM A182, ASME SA-182, ASME B16.5, ASME B16.47 Series A & B, ASME B16.36, ASME B16.48, ASME B1.20.1, EN 1092-1, JIS B2220, IS 6392, BS EN 1092-1",
-    forms:
-      "Weld Neck, Slip-On, Blind, Socket Weld, Threaded, Lap Joint, Plate, Long Weld Neck, Reducing, Orifice, Spectacle Blind",
-    application:
-      "Stainless steel flanges are widely used in oil & gas, chemical, marine, offshore, power, pumps & valves, water treatment, and aerospace industry where corrosion resistance, mechanical performance and maintainable bolted connections are required.",
-    applications: [
-      "Oil & Gas Industry",
-      "Chemical Industry",
-      "Marine Industry",
-      "Offshore Industry",
-      "Power Industry",
-      "Pumps & Valves Industry",
-      "Water Treatment Industry",
-      "Aerospace Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "304":
-          "UNS S30400 – 18% chromium, 8% nickel stainless steel. Provides general corrosion resistance for industrial equipment, process piping, food processing and general fabrication. Forged flanges to ASTM A182 / ASME SA-182.",
-        "304L":
-          "UNS S30403 – Low-carbon version of 304, suitable where welding is a significant part of fabrication. Used for welded piping and equipment requiring good general corrosion resistance. Forged flanges to ASTM A182 / ASME SA-182.",
-        "310":
-          "UNS S31000 – Selected for elevated-temperature applications where oxidation resistance and high-temperature performance are important. Used in furnace equipment, heat-treatment systems and high-temperature process installations. Forged flanges to ASTM A182 / ASME SA-182.",
-        "316 & 316L":
-          "UNS S31600 & S31603 – Molybdenum-bearing grades that improve resistance to chlorides and other corrosive environments compared with 304 grades. Widely used in chemical processing, marine equipment, pharmaceutical systems and process piping. Forged flanges to ASTM A182 / ASME SA-182.",
-        "317 & 317L":
-          "UNS S31700 & S31703 – Enhanced corrosion resistance for more demanding chemical and chloride-bearing environments. Suitable where 316 and 316L may not provide sufficient corrosion resistance. Forged flanges to ASTM A182 / ASME SA-182.",
-        "321":
-          "UNS S32100 – Titanium-stabilized stainless steel designed to resist chromium carbide precipitation during exposure to elevated temperatures. Suitable for welded components and high-temperature process systems. Forged flanges to ASTM A182 / ASME SA-182.",
-        "347":
-          "UNS S34700 – Niobium-stabilized stainless steel to improve resistance to intergranular corrosion after exposure to elevated temperatures. Commonly selected for high-temperature piping and equipment. Forged flanges to ASTM A182 / ASME SA-182.",
-        "904L":
-          "UNS N08904 – Super austenitic grade with high alloy content and copper additions. Used in demanding chemical environments, particularly applications involving sulphuric acid and other aggressive media. Forged flanges to ASTM A182 / ASME SA-182.",
-      },
+
+{
+  id: 8,
+  slug: "stainless-steel-304-304l-304h-flanges",
+  image: "/stock/ss-304-flanges.jpg",
+  title:
+    "Stainless Steel 304/304L/304H Flanges Supplier – ASTM A182 / A240 / UNS S30400 (18/8 Grade)",
+  shortDescription:
+    "Stainless Steel 304/304L/304H Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Stainless Steel 304H threaded flanges are mostly used for welding because they have low carbon content compared to series 301 to 303 alloys. Stainless Steel 304H threaded flanges are available in different sizes and shapes. The Stainless Steel 304H slip-on flanges have high tensile strength and hold high stress corrosion cracking resistance. Stainless Steel 304H threaded flanges have the best crevice corrosion resistance. Stainless Steel 304L threaded flanges have long durability and are good for pitting resistance. Stainless Steel 304L socket weld flanges have the best corrosion resistance to a wide range of chemicals. The Stainless Steel 304H slip-on flanges are used where corrosion resistance is necessary. The Stainless Steel 304/304L/304H flanges have a wide range of usage pertaining to different industries. The Stainless Steel 304H socket weld flanges are mostly used in chemical plants and thermal, nuclear, and solar power plants. The Stainless Steel 304L slip-on flanges are used for industrial machinery. Stainless Steel 304 Ring Joint type flanges are used for petrochemical refining systems and oil & gas exploration. Stainless Steel 304 threaded flanges are used in gas & water pipelines, and it is also used for power generation.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 304 (UNS S30400)":
+        "The most widely used '18/8' austenitic stainless steel. Offers excellent corrosion resistance to chloride pitting, crevice corrosion, and general corrosion. Contains chromium up to 20% and nickel up to 11%. Possesses high tensile strength. Widely used in marine, offshore oil, food processing, heat exchangers, shafts, condensers, aircraft, and aerospace industries.",
+      "SS 304L (UNS S30403)":
+        "The low-carbon version of 304 stainless steel with long durability and good pitting resistance. Offers the best corrosion resistance to a wide range of chemicals. Ideal for heavy-gauge welded components. Werkstoff Nr. 1.4306 / 1.4307.",
+      "SS 304H (UNS S30409)":
+        "The high-carbon version of 304 stainless steel with high tensile strength and high stress corrosion cracking resistance. Has the best crevice corrosion resistance. Designed for elevated temperature service with improved creep and rupture strength. Widely used in chemical plants, thermal, nuclear, and solar power plants.",
     },
-    specifications: {
-      materialSpecification: "ASTM A182 / ASME SA-182",
-      grades: "SS 304, 304L, 310, 316, 316L, 317, 317L, 321, 347, 904L",
-      size: 'NPS 1/2" to 48"',
-      "pressureClass_1/2to24": "Class 150, 300, 400, 600, 900, 1500, 2500",
-      pressureClass_14to24: "Class 150, 300, 400, 600, 900, 1500",
-      pressureClass_26to48: "Class 150, 300, 400, 600, 900",
-      pnK_Ratings: "PN 6 to PN 40; 5K to 20K",
-      facing: "RF, FF, RTJ, T&G, M&F",
-      form: "Forged and machined",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    flangeTypes: [
-      "Weld Neck Flanges",
-      "Slip-On Flanges",
-      "Blind Flanges",
-      "Socket Weld Flanges",
-      "Threaded Flanges",
-      "Lap Joint Flanges",
-      "Plate Flanges",
-      "Long Weld Neck Flanges",
-      "Reducing Flanges",
-      "Orifice Flanges",
-      "Spectacle Blind Flanges",
-    ],
-    sizeRange: {
-      asmeB165: {
-        fittingGroup: "ASME B16.5 Flanges",
-        governingStandard: "ASME B16.5",
-        sizeRange: 'NPS 1/2" to 24" (DN 15 to DN 600)',
-        wallClass:
-          'Class 150, 300, 400, 600, 900, 1500, 2500 (1/2"-12"); Class 150, 300, 400, 600, 900, 1500 (14"-24")',
-      },
-      asmeB1647: {
-        fittingGroup: "ASME B16.47 Series A & B Flanges",
-        governingStandard: "ASME B16.47 Series A & B",
-        sizeRange: 'NPS 26" to 60" (DN 650 to DN 1500)',
-        wallClass: "Class 150, 300, 400, 600, 900",
-      },
-      european: {
-        fittingGroup: "European Flanges",
-        governingStandard: "EN 1092-1 / BS EN 1092-1",
-        sizeRange: "Quoted per enquiry",
-        wallClass: "PN 6, PN 10, PN 16, PN 25, PN 40",
-      },
-      japanese: {
-        fittingGroup: "Japanese Flanges",
-        governingStandard: "JIS B2220",
-        sizeRange: "Quoted per enquiry",
-        wallClass: "5K, 10K, 16K, 20K",
-      },
-      indian: {
-        fittingGroup: "Indian Flanges",
-        governingStandard: "IS 6392:2020",
-        sizeRange: "Quoted per enquiry",
-        wallClass: "To order",
-      },
-      heldStock: {
-        fittingGroup: "Held-Stock Sizes",
-        governingStandard: "ASME B16.5",
-        sizeRange: '1/2", 2", 3", 4"',
-        wallClass: "Various classes",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM A182 / ASME SA-182",
-        scope: "Forged Stainless Steel Flanges",
-      },
-      { standard: "ASME B16.5", scope: 'Dimensions, NPS 1/2" to 24"' },
-      {
-        standard: "ASME B16.47 Series A & B",
-        scope: 'Dimensions, NPS 26" to 60"',
-      },
-      {
-        standard: "ASME B16.36",
-        scope:
-          "Orifice Flanges (Class 300 to 2500 for WN; Class 300 for SO and Threaded)",
-      },
-      { standard: "ASME B16.48", scope: "Spectacle Blinds and Line Blanks" },
-      { standard: "ASME B1.20.1", scope: "NPT Threads on Threaded Flanges" },
-      { standard: "EN 1092-1", scope: "European Dimensions and PN Ratings" },
-      { standard: "JIS B2220", scope: "Japanese Flange Dimensions" },
-      { standard: "IS 6392:2020", scope: "Indian Flange Dimensions" },
-      {
-        standard: "BS EN 1092-1",
-        scope: "British Dimensions (supersedes BS 4504)",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Material Specification": "ASTM A182 / ASME SA-182",
-        Grades: "304, 304L, 310, 316, 316L, 317, 317L, 321, 347, 904L",
-        Size: 'NPS 1/2" to 48"',
-        'Pressure Class NPS 1/2" to 24"':
-          "Class 150, 300, 400, 600, 900, 1500, 2500",
-        'Pressure Class NPS 14" to 24"': "Class 150, 300, 400, 600, 900, 1500",
-        'Pressure Class NPS 26" to 48"': "Class 150, 300, 400, 600, 900",
-        "PN / K Ratings": "PN 6 to PN 40; 5K to 20K",
-        Facing: "RF, FF, RTJ, T&G, M&F",
-        Form: "Forged and machined",
-      },
-      applicableStandardsTable: [
-        {
-          standard: "ASTM A182 / ASME SA-182",
-          scope: "Forged Stainless Steel Flanges",
-        },
-        { standard: "ASME B16.5", scope: 'Dimensions, NPS 1/2" to 24"' },
-        {
-          standard: "ASME B16.47 Series A & B",
-          scope: 'Dimensions, NPS 26" to 60"',
-        },
-        { standard: "ASME B16.36", scope: "Orifice Flanges" },
-        { standard: "ASME B16.48", scope: "Spectacle Blinds and Line Blanks" },
-        { standard: "ASME B1.20.1", scope: "NPT Threads" },
-        { standard: "EN 1092-1", scope: "European Dimensions" },
-        { standard: "JIS B2220", scope: "Japanese Dimensions" },
-        { standard: "IS 6392:2020", scope: "Indian Dimensions" },
-      ],
-      sizeAvailabilityTable: {
-        "Size Band": 'NPS 1/2" to 24" (DN 15 to DN 600)',
-        "Dimensional Standard": "ASME B16.5",
-        "Size Band Large": 'NPS 26" to 60" (DN 650 to DN 1500)',
-        "Dimensional Standard Large": "ASME B16.47 Series A & B",
-        "Held-Stock Ceiling": 'NPS 48"',
-      },
-      pressureRatingTable: {
-        'ASME Class NPS 1/2" to 24"': "150, 300, 400, 600, 900, 1500, 2500",
-        'ASME Class NPS 14" to 24"': "150, 300, 400, 600, 900, 1500",
-        'ASME Class NPS 26" to 60"': "150, 300, 600, 900",
-        "PN Series": "PN 6, PN 10, PN 16, PN 25, PN 40",
-        "K Series": "5K, 10K, 16K, 20K",
-      },
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Dimensional checks covering face, drilling and thickness against ASME B16.5 / B16.47",
-        "Visual inspection",
-        "Mechanical testing",
-        "Chemical analysis",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back from final inspection to its mill heat.",
-    },
-    stockAvailability: {
-      weldNeckFlanges: [
-        {
-          title: "Stainless Steel Weld Neck Flanges",
-          items: [
-            "ASTM A182 SS 304/304L Weld Neck Flanges",
-            "ASME SA-182 SS 316/316L Weld Neck Flanges",
-            "SS 310 Weld Neck Flanges Class 150-2500",
-            "SS 321 Weld Neck Flanges RF/RTJ",
-            'SS 904L Weld Neck Flanges 1/2" to 48"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      slipOnFlanges: [
-        {
-          title: "Stainless Steel Slip-On Flanges",
-          items: [
-            "ASTM A182 SS 304/304L Slip-On Flanges",
-            "ASME SA-182 SS 316/316L Slip-On Flanges",
-            "SS 317/317L Slip-On Flanges",
-            "SS 321 Slip-On Flanges RF/FF",
-            'SS 304L Slip-On Flanges 1/2" to 24"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      blindFlanges: [
-        {
-          title: "Stainless Steel Blind Flanges",
-          items: [
-            "ASTM A182 SS 304/304L Blind Flanges",
-            "ASME SA-182 SS 316/316L Blind Flanges",
-            "SS 347 Blind Flanges Class 150-2500",
-            "SS 316L Blind Flanges RF/RTJ",
-            'SS 304L Blind Flanges 1/2" to 48"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      socketWeldThreadedFlanges: [
-        {
-          title: "Stainless Steel Socket Weld & Threaded Flanges",
-          items: [
-            "ASME B16.5 SS 304 Socket Weld Flanges",
-            "SS 316 Threaded Flanges NPT",
-            "SS 304L Socket Weld Flanges Class 150-1500",
-            "SS 316L SWRF Flanges",
-            'SS 304 Threaded Flanges 1/2" to 24"',
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-      specialFlanges: [
-        {
-          title: "Stainless Steel Special Flanges",
-          items: [
-            "SS 304L Lap Joint Flanges",
-            "SS 316L Long Weld Neck Flanges",
-            "SS 304 Reducing Flanges",
-            "SS 316L Orifice Flanges (ASME B16.36)",
-            "SS 304 Spectacle Blind Flanges (ASME B16.48)",
-            "SS 316L Plate Flanges",
-            "Custom SS 904L Flanges to Drawing",
-          ],
-          image: "/stock/inconel-flanges.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Stainless Steel Flanges Manufacturer in India",
-      "ASTM A182 SS 304/304L Weld Neck Flanges Supplier",
-      "ASME SA-182 SS 316/316L Slip-On Flanges Stockist",
-      "Stainless Steel Flanges Exporter to USA, Gulf, Europe, Asia",
-      "SS 316L Blind Flanges (UNS S31603)",
-      "SS 321 Flanges Manufacturer",
-      "SS 904L Flanges Supplier",
-      "ASME B16.5 Stainless Steel Flanges Class 150-2500",
-      "ASME B16.47 Stainless Steel Flanges Series A & B",
-      "SS RTJ Flanges Manufacturer",
-      "SS Orifice Flanges ASME B16.36",
-      "Stainless Steel Flanges with EN 10204 3.1 MTC",
-      "Stainless Steel Flanges with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Stainless Steel Flanges for Oil & Gas, Chemical, Marine Industry",
-    ],
-    relatedSearches: [
-      "stainless steel flanges manufacturer in india",
-      "astm a182 ss 304 flanges supplier",
-      "stainless steel weld neck flanges exporter",
-      "ss 316l flanges price",
-      "stainless steel flanges stockist",
-      "asme b16.5 stainless steel flanges",
-      "ss 304 slip-on flanges manufacturer",
-      "ss 316 blind flanges supplier",
-      "stainless steel flanges for chemical industry",
-      "ss flanges with en 10204 3.1 certificate",
-      "ss 304 rtj flanges",
-      "ss 904l flanges",
-      "stainless steel spectacle blind flanges",
-      "ss flanges class 150",
-      "ss flanges class 2500",
-      "asme b16.47 stainless steel flanges",
-      "ss 310 flanges for high temperature",
-      "stainless steel flanges with mtc certification",
-      "ss flanges for oil and gas industry",
-      "ss flanges for marine industry",
-      "ss flanges for water treatment industry",
-      "ss flanges for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
   },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / A240, ASME SA182 / SA240",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47",
+    grade: "SS 304 / 304L / 304H",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "SS 304/304L/304H Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 304 Slip-On Flanges (SORF)",
+          "ASME SA182 SS 304L Slip-On Raised Face Flanges",
+          "ANSI B16.5 SS 304H SORF Flanges",
+          "SS 304 Slip-On Flat Face Flanges",
+          "ANSI B16.47 SS 304 SORF Flanges",
+        ],
+        image: "/stock/ss304-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "SS 304/304L/304H Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 304 Weld Neck Flanges (WNRF)",
+          "ASME SA182 SS 304L Weld Neck Raised Face Flanges",
+          "ANSI B16.5 SS 304H WNRF Flanges",
+          "304 SS Long Weld Neck Flanges",
+          "ANSI B16.47 SS 304 WNRF Flanges",
+        ],
+        image: "/stock/ss304-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "SS 304/304L/304H Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 304 Blind Flanges",
+          "ASME SA182 SS 304L Blind Raised Face Flanges",
+          "ANSI B16.5 SS 304H Blind Flanges",
+          "SS 304 Blind Flat Face Flanges",
+          "ANSI B16.47 SS 304 Blind Flanges",
+        ],
+        image: "/stock/ss304-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "SS 304/304L/304H Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 304 Threaded Flanges",
+          "ASME SA182 SS 304L Threaded Raised Face Flanges",
+          "ANSI B16.5 SS 304H Threaded Flanges",
+          "SS 304 Threaded Flat Face Flanges",
+          "ANSI B16.47 SS 304 Threaded Flanges",
+        ],
+        image: "/stock/ss304-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "SS 304/304L/304H Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 304 Socket Weld Flanges",
+          "Werkstoff No 1.4301 SS Socket Weld Flanges",
+          "ANSI B16.5 SS 304H Socket Weld Flanges",
+          "SS 304L Socket Weld Flat Face Flanges",
+          "ANSI B16.47 SS 304 Socket Weld Flanges",
+        ],
+        image: "/stock/ss304-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "SS 304/304L/304H Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 304 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 SS 304L Ring Joint Flanges",
+          "ANSI B16.5 SS 304H RTJ Flanges",
+          "SS 304 Lap Joint Flanges",
+          "SS 304 Spectacle Blind Flanges",
+          "SS 304 Spacer Ring Flanges",
+          "SS 304 Orifice Flanges",
+          "SS 304 Nipo Flanges",
+        ],
+        image: "/stock/ss304-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 304", uns: "S30400", werkstoff: "1.4301", standard: "ASTM" },
+    { grade: "SS 304L", uns: "S30403", werkstoff: "1.4306 / 1.4307", standard: "ASTM" },
+    { grade: "SS 304H", uns: "S30409", werkstoff: "1.4301", standard: "ASTM" },
+    { grade: "SUS 304", uns: "S30400", werkstoff: "1.4301", standard: "JIS" },
+    { grade: "GOST 08Х18Н10", uns: "—", werkstoff: "—", standard: "GOST" },
+    { grade: "BS 3304S11", uns: "—", werkstoff: "—", standard: "BS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 304",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 10.50",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+    {
+      grade: "SS 304L",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+    {
+      grade: "SS 304H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 10.50",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 304 / 304L",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "201 HB max / 92 HRB max",
+      density: "8.00 g/cm³",
+    },
+    {
+      grade: "SS 304H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "201 HB max / 92 HRB max",
+      density: "8.00 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1010°C – 1120°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "304L Stainless Steel Bars", price: "US $1000 – 2500 / Ton" },
+    { item: "ASTM A276 SS 304L Rods", price: "US $2000 – 3000 / Ton" },
+    { item: "Stainless Steel Hex Bar 304L", price: "US $1.5 – 4.5 / Kilogram" },
+    { item: "ASTM A479 304L Stainless Steel Round Bar", price: "US $1800 – 2300 / Ton" },
+    { item: "SS 304L Square Bar", price: "US $1550 – 2400 / Ton" },
+    { item: "304L Stainless Steel Bar Supplier", price: "US $1800 – 2300 / Ton" },
+    { item: "ASTM A276 Gr. 304L Rods", price: "US $1300 – 2600 / Metric Ton" },
+  ],
+
+  otherForms: [
+    "SS 304 Hollow Bars",
+    "SS 304H Hollow Bars",
+    "SS 304L Hollow Bars",
+    "SS 304 Forged Bars",
+    "SS 304H Forged Bars",
+    "SS 304L Forged Bars",
+    "SS 304 Bright Bars",
+    "SS 304H Bright Bars",
+    "SS 304L Bright Bars",
+    "304 Stainless Steel Ingots",
+    "UNS S30409 Ingots",
+    "Steel 304L Ingots",
+    "UNS S30400 Pumps Shafts Quality Bars",
+    "SS 304H Pumps Shafts Quality Bars",
+    "Steel 304L Pumps Shafts Quality Bars",
+    "SS 304 Tie Rods",
+    "UNS S30400 Tie Rods",
+    "UNS S30403 SS Tie Rods",
+    "WNR. 1.4301 Centralized and Grounded Bars",
+    "WERKSTOFF NR. 1.4306 Centralized and Grounded Bar",
+    "SS 304 IBR Round Bar",
+    "SS 304H IBR Round Bar",
+    "SS 304L IBR Round Bar",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182 / A240",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Plants",
+    "Thermal, Nuclear & Solar Power Plants",
+    "Industrial Machinery",
+    "Petrochemicals Refining Systems",
+    "Oil & Gas Exploration",
+    "Gas & Water Pipelines",
+    "Power Generation",
+    "Marine Industry",
+    "Offshore Oil Drilling Companies",
+    "Food Processing Units",
+    "Heat Exchangers & Condensers",
+    "Aircraft & Aerospace",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 304/304L/304H Flanges Supplier in Mumbai, India",
+    "ASTM A182 SS 304 Threaded Flanges Exporter",
+    "Werkstoff No 1.4301 Socket Weld Flanges Stockist in India",
+    "SS 304 RTJ Flanges Dealer",
+    "304 SS WNRF Flanges Manufacturer",
+    "SS 304 Blind Flanges Supplier",
+    "SS 304 Weld Neck Flange Exporter",
+    "SS 304L Slip-On Flanges Manufacturer",
+    "SS 304H Socket Weld Flanges Supplier",
+    "SS 304 Spectacle Blind Flanges Exporter",
+    "SS 304 Ring Joint Flanges Dealer",
+    "SS 304 Spacer Ring Flanges Manufacturer",
+    "SS 304 Orifice Flanges Supplier",
+    "SS 304 Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 304 Flanges Price List",
+    "SS 304L Flange Weight Calculator",
+    "SS 304 Flange Dimensions",
+    "SS 304 Flange Price Per Kg in India",
+    "SS 304 Flange Manufacturer in Mumbai",
+    "SS 304 Flange Supplier in India",
+    "SS 304 Flange Thickness Tolerance",
+    "SS 304 Flange Price List PDF",
+    "SS 304 Flange Mechanical Properties",
+    "SS 304 Flange Chemical Composition",
+    "SS 304 Flange Stockist in Pune",
+    "SS 304 Flange Exporter",
+    "SS 304 Flange Price in Mumbai",
+    "SS 304 Flange Size Chart",
+    "SS 304 Slip-On Flange Price",
+    "SS 304 Weld Neck Flange Supplier",
+    "SS 304 Blind Flange Manufacturers",
+    "SS 304 Flange Catalog PDF",
+    "SS 304 Flange Equivalent Grades",
+    "SS 304 Flange Price per Piece",
+    "SS 304 Flange updated price list",
+    "SS 304 Flange Size Chart 1/2 to 48 inch",
+    "SS 304 Flange Manufacturers in Gujarat",
+    "SS 304 Flange Stockyards in India",
+    "SS 304 Flange thickness chart",
+    "SS 304 Flange Price in India",
+    "Top 100 SS 304 Flange Dealers in Mumbai",
+    "Buy SS 304 Flange Online",
+    "SS 304 Flange leading manufacturers in India",
+    "UNS S30400 Flange Price India",
+    "Werkstoff 1.4301 Flange Price India",
+    "SS 304 Flange Heat Treatment",
+    "SS 304 Flange Solution Annealing Temperature",
+    "SS 304 Flange Hardness Range",
+    "SS 304 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 20,
+  slug: "stainless-steel-310-310s-310h-flanges",
+  image: "/stock/ss-310-flanges.jpg",
+  title:
+    "Stainless Steel 310/310S/310H Flanges Supplier – ASTM A182 / A240 / UNS S31000 (Heat Resistant)",
+  shortDescription:
+    "Stainless Steel 310/310S/310H Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Stainless Steel 310/310S/310H flanges include stainless steel and nickel-chromium content. Flanges are made from the best quality raw materials, which help the clients use them for a longer period. Stainless Steel 310/310S/310H flanges are available in different sizes and shapes. Stainless Steel 310S threaded flanges have the best oxidation resistance up to 2000°F. One of the main features of Stainless Steel 310S slip-on flanges is that they provide moderate strength when the temperature is high. Stainless Steel 310 Ring Joint type flanges provide much strength and toughness at cryogenic temperatures. Stainless Steel 310H socket weld flanges have excellent strength and the best corrosion resistance to hot environments. Stainless Steel 310 threaded flanges are mostly used in coal gasifier internal components and heat exchangers. Stainless Steel 310 flanges are also used in furnace parts, conveyor belts, rollers, and steam boilers. Stainless Steel 310 socket flanges are used in food processing equipment and cryogenic structures. Stainless Steel 310H Weld Neck flanges have good resistance for oxidizing atmospheres.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 310 (UNS S31000)":
+        "An austenitic stainless steel with high chromium and nickel content (25% Cr, 20% Ni). Provides excellent resistance to oxidation at elevated temperatures up to 2000°F and high strength and toughness at cryogenic temperatures. Widely used in furnace parts, conveyor belts, rollers, heat exchangers, and steam boilers. Werkstoff Nr. 1.4841.",
+      "SS 310S (UNS S31008)":
+        "The low-carbon version of 310 stainless steel with the best oxidation resistance up to 2000°F. Provides moderate strength at high temperatures. Excellent for continuous service in high-temperature environments. Werkstoff Nr. 1.4845.",
+      "SS 310H (UNS S31009)":
+        "The high-carbon version of 310 stainless steel designed for elevated temperature service with excellent strength and the best corrosion resistance to hot environments. Weld Neck flanges have good resistance for oxidizing atmospheres. Widely used in chemical plants and thermal power stations.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / A240, ASME SA182 / SA240",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47",
+    grade: "SS 310 / 310S / 310H",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "SS 310/310S/310H Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 310 Slip-On Flanges (SORF)",
+          "ASME SA182 SS 310S Slip-On Raised Face Flanges",
+          "ANSI B16.5 SS 310H SORF Flanges",
+          "SS 310 Slip-On Flat Face Flanges",
+          "ANSI B16.47 SS 310S SORF Flanges",
+        ],
+        image: "/stock/ss310-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "SS 310/310S/310H Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 310 Weld Neck Flanges (WNRF)",
+          "ASME SA182 SS 310S Weld Neck Raised Face Flanges",
+          "ANSI B16.5 SS 310H WNRF Flanges",
+          "SS 310H Weld Neck Long Neck Flanges",
+          "ANSI B16.47 SS 310S WNRF Flanges",
+        ],
+        image: "/stock/ss310-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "SS 310/310S/310H Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 310 Blind Flanges",
+          "ASME SA182 SS 310S Blind Raised Face Flanges",
+          "ANSI B16.5 SS 310H Blind Flanges",
+          "SS 310 Blind Flat Face Flanges",
+          "ANSI B16.47 SS 310S Blind Flanges",
+        ],
+        image: "/stock/ss310-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "SS 310/310S/310H Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 310 Threaded Flanges",
+          "ASME SA182 SS 310S Threaded Raised Face Flanges",
+          "ANSI B16.5 SS 310H Threaded Flanges",
+          "SS 310 Threaded Flat Face Flanges",
+          "ANSI B16.47 SS 310S Threaded Flanges",
+        ],
+        image: "/stock/ss310-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "SS 310/310S/310H Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 310 Socket Weld Flanges",
+          "Werkstoff 1.4841 SS Socket Weld Flanges",
+          "ANSI B16.5 SS 310H Socket Weld Flanges",
+          "SS 310S Socket Weld Flat Face Flanges",
+          "Werkstoff 1.4845 SS Socket Weld Flanges",
+        ],
+        image: "/stock/ss310-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "SS 310/310S/310H Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 310 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 SS 310S Ring Joint Flanges",
+          "ANSI B16.5 SS 310H RTJ Flanges",
+          "SS 310 Lap Joint Flanges",
+          "SS 310 Spectacle Blind Flanges",
+          "SS 310S Spacer Ring Flanges",
+          "SS 310 Orifice Flanges",
+          "SS 310S Nipo Flanges",
+        ],
+        image: "/stock/ss310-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 310", uns: "S31000", werkstoff: "1.4841", standard: "ASTM" },
+    { grade: "SS 310S", uns: "S31008", werkstoff: "1.4845", standard: "ASTM" },
+    { grade: "SS 310H", uns: "S31009", werkstoff: "1.4841", standard: "ASTM" },
+    { grade: "SUS 310", uns: "S31000", werkstoff: "1.4841", standard: "JIS" },
+    { grade: "SUS 310S", uns: "S31008", werkstoff: "1.4845", standard: "JIS" },
+    { grade: "GOST 20Х23Н18", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 310",
+      c: "0.25 max",
+      mn: "2.00 max",
+      si: "1.50 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+    {
+      grade: "SS 310S",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "1.50 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+    {
+      grade: "SS 310H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 310 / 310S",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "7.90 g/cm³",
+    },
+    {
+      grade: "SS 310H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "7.90 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1030°C – 1180°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "310 Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 310S Pipe Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Stainless Steel 310 Weld Neck Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM A182 310 Stainless Steel Plate Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "310S Pipe Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 310/310S SORF Flanges",
+    "ASTM A182 SS 310/310S WNRF Flanges",
+    "310/310S Stainless Steel Pipe Flanges",
+    "SS 310/310S Blind Flanges",
+    "SS 310/310S Spacer Ring Flanges",
+    "UNS S31000",
+    "UNS S31008 Ring Type Joint Flanges",
+    "SS 310/310S",
+    "WNR. 1.4841 Flat Flange",
+    "WNR. 1.4845 Nipo Flange",
+    "SS 310/310S Long Weld Neck Flanges",
+    "SS 310/310S Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182 / A240",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Coal Gasifier Internal Components",
+    "Heat Exchangers",
+    "Furnace Parts",
+    "Conveyor Belts & Rollers",
+    "Steam Boilers",
+    "Food Processing Equipment",
+    "Cryogenic Structures",
+    "Chemical Plants",
+    "Thermal & Nuclear Power Plants",
+    "Petrochemicals",
+    "Oil & Gas Exploration",
+    "Power Generation",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 310/310S/310H Flanges Supplier in Mumbai, India",
+    "ASTM A182 SS 310 Threaded Flanges Exporter",
+    "Werkstoff 1.4841 SS Socket Weld Flanges Stockist in India",
+    "SS 310 RTJ Flanges Dealer",
+    "SS 310S WNRF Flanges Manufacturer",
+    "SS 310 Blind Flanges Supplier",
+    "SS 310S Weld Neck Flange Exporter",
+    "SS 310 Slip-On Flanges Manufacturer",
+    "SS 310H Socket Weld Flanges Supplier",
+    "SS 310 Spectacle Blind Flanges Exporter",
+    "SS 310 Ring Joint Flanges Dealer",
+    "SS 310S Spacer Ring Flanges Manufacturer",
+    "SS 310 Orifice Flanges Supplier",
+    "SS 310S Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 310 Flanges Price List",
+    "SS 310S Flange Weight Calculator",
+    "SS 310 Flange Dimensions",
+    "SS 310 Flange Price Per Kg in India",
+    "SS 310 Flange Manufacturer in Mumbai",
+    "SS 310 Flange Supplier in India",
+    "SS 310 Flange Thickness Tolerance",
+    "SS 310 Flange Price List PDF",
+    "SS 310 Flange Mechanical Properties",
+    "SS 310 Flange Chemical Composition",
+    "SS 310 Flange Stockist in Pune",
+    "SS 310 Flange Exporter",
+    "SS 310 Flange Price in Mumbai",
+    "SS 310 Flange Size Chart",
+    "SS 310 Slip-On Flange Price",
+    "SS 310S Weld Neck Flange Supplier",
+    "SS 310 Blind Flange Manufacturers",
+    "SS 310 Flange Catalog PDF",
+    "SS 310 Flange Equivalent Grades",
+    "SS 310 Flange Price per Piece",
+    "SS 310 Flange updated price list",
+    "SS 310 Flange Size Chart 1/2 to 48 inch",
+    "SS 310 Flange Manufacturers in Gujarat",
+    "SS 310 Flange Stockyards in India",
+    "SS 310 Flange thickness chart",
+    "SS 310 Flange Price in India",
+    "Top 100 SS 310 Flange Dealers in Mumbai",
+    "Buy SS 310 Flange Online",
+    "SS 310 Flange leading manufacturers in India",
+    "UNS S31000 Flange Price India",
+    "Werkstoff 1.4841 Flange Price India",
+    "SS 310 Flange Heat Treatment",
+    "SS 310 Flange Solution Annealing Temperature",
+    "SS 310 Flange Hardness Range",
+    "SS 310 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 21,
+  slug: "stainless-steel-316-316l-316ti-flanges",
+  image: "/stock/ss-316-flanges.jpg",
+  title:
+    "Stainless Steel 316/316L/316Ti Flanges Supplier – ASTM A182 / A240 / UNS S31600 (Moly Grade)",
+  shortDescription:
+    "Stainless Steel 316/316L/316Ti Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Stainless Steel 316/316L/316Ti flanges are supplied using good quality raw material. Flanges are available in different sizes and shapes. Stainless Steel 316 threaded flanges have the best corrosion resistance to crevice and pitting. Stainless Steel 316L threaded flanges are known to have high strength and best heat resistance. Stainless Steel lap joint flanges have low carbon content, which further helps for welds and heat-affected zone. Stainless Steel 316 flanges are useful for a high working temperature of 1700 – 2200°F. Stainless Steel 316L threaded flanges are used in chemical plants and gas & water pipelines. Stainless Steel 316 lap joint flanges are used in petroleum refining systems, petrochemicals, and refineries. Stainless Steel 316L slip-on flanges are also used in chemical equipment, seawater equipment, and pharmaceutical equipment. Stainless Steel 316 flanges are also used for heat exchangers, condensers, and industrial machinery. Stainless Steel 316L socket weld flanges are used in the pulp and paper industry and gas processing units. Stainless Steel UNS S31603 threaded flanges are also used for food processing industries to minimize product contamination and to control hot organic and fatty acids.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 316 (UNS S31600)":
+        "The standard molybdenum-bearing austenitic stainless steel. Offers the best corrosion resistance to crevice and pitting corrosion. Can be used at high working temperatures of 1700 – 2200°F. Widely used in heat exchangers, condensers, industrial machinery, petrochemical refining, and refinery systems. Werkstoff Nr. 1.4401 / 1.4436.",
+      "SS 316L (UNS S31603)":
+        "The low-carbon version of 316 stainless steel with high strength and best heat resistance. The low carbon content helps in welds and heat-affected zones. Widely used in chemical plants, gas & water pipelines, chemical equipment, seawater equipment, pharmaceutical equipment, pulp & paper industry, gas processing units, and food processing industries. Werkstoff Nr. 1.4404 / 1.4435.",
+      "SS 316Ti (UNS S31635)":
+        "Titanium-stabilized version of 316 stainless steel offering enhanced resistance to intergranular corrosion at elevated temperatures. Ideal for high-temperature applications where sensitization is a concern. GOST 03Ch17N14M3.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / A240, ASME SA182 / SA240",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47",
+    grade: "SS 316 / 316L / 316Ti",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "SS 316/316L/316Ti Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 316 Slip-On Flanges (SORF)",
+          "ASME SA182 SS 316L Slip-On Raised Face Flanges",
+          "ANSI B16.5 SS 316Ti SORF Flanges",
+          "SS 316 Slip-On Flat Face Flanges",
+          "ANSI B16.47 SS 316L SORF Flanges",
+        ],
+        image: "/stock/ss316-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "SS 316/316L/316Ti Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 316 Weld Neck Flanges (WNRF)",
+          "ASME SA182 SS 316L Weld Neck Raised Face Flanges",
+          "ANSI B16.5 SS 316Ti WNRF Flanges",
+          "SS 316L Weld Neck Flange",
+          "ANSI B16.47 SS 316 WNRF Flanges",
+        ],
+        image: "/stock/ss316-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "SS 316/316L/316Ti Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 316 Blind Flanges",
+          "ASME SA182 SS 316L Blind Raised Face Flanges",
+          "ANSI B16.5 SS 316Ti Blind Flanges",
+          "SS 316 Blind Flat Face Flanges",
+          "ANSI B16.47 SS 316L Blind Flanges",
+        ],
+        image: "/stock/ss316-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "SS 316/316L/316Ti Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 316 Threaded Flanges",
+          "ASME SA182 SS 316L Threaded Raised Face Flanges",
+          "GOST 03Ch17N14M3 SS Screwed Flanges",
+          "SS 316 Threaded Flat Face Flanges",
+          "ANSI B16.47 SS 316L Threaded Flanges",
+        ],
+        image: "/stock/ss316-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "SS 316/316L/316Ti Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 316 Socket Weld Flanges",
+          "Werkstoff 1.4401/1.4436 SS Socket Weld Flanges",
+          "ANSI B16.5 SS 316Ti Socket Weld Flanges",
+          "SS 316L Socket Weld Flat Face Flanges",
+          "Werkstoff 1.4404/1.4435 SS Socket Weld Flanges",
+        ],
+        image: "/stock/ss316-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "SS 316/316L/316Ti Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 316 Ring Type Joint (RTJ) Flanges",
+          "ANSI B16.5 SS F316 Ring Type Joint Flanges",
+          "ANSI B16.5 SS 316Ti RTJ Flanges",
+          "SS 316 Lap Joint Flanges",
+          "SS 316 Spectacle Blind Flanges",
+          "SS 316L Spacer Ring Flanges",
+          "SS 316 Orifice Flanges",
+          "SS 316L Nipo Flanges",
+        ],
+        image: "/stock/ss316-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 316", uns: "S31600", werkstoff: "1.4401 / 1.4436", standard: "ASTM" },
+    { grade: "SS 316L", uns: "S31603", werkstoff: "1.4404 / 1.4435", standard: "ASTM" },
+    { grade: "SS 316Ti", uns: "S31635", werkstoff: "1.4571", standard: "ASTM" },
+    { grade: "SUS 316", uns: "S31600", werkstoff: "1.4401", standard: "JIS" },
+    { grade: "SUS 316L", uns: "S31603", werkstoff: "1.4404", standard: "JIS" },
+    { grade: "GOST 03Ch17N14M3", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 316",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 14.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+    {
+      grade: "SS 316L",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 14.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max, N: 0.10 max",
+    },
+    {
+      grade: "SS 316Ti",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 14.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max, Ti: 5 x C – 0.70",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 316 / 316L",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "8.00 g/cm³",
+    },
+    {
+      grade: "SS 316Ti",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "8.00 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1040°C – 1120°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "316 Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 316L Pipe Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Stainless Steel 316 Weld Neck Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM A182 316 Stainless Steel Plate Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "316L Pipe Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 316/316L SORF Flanges",
+    "ASTM A182 SS 316/316L WNRF Flanges",
+    "316/316L Stainless Steel Pipe Flanges",
+    "SS 316/316L Blind Flanges",
+    "SS 316/316L Spacer Ring Flanges",
+    "UNS S31600",
+    "UNS S31603 Ring Type Joint Flanges",
+    "SS 316/316L",
+    "WNR. 1.4401/1.4436 Flat Flange",
+    "WNR. 1.4404/1.4435 Nipo Flange",
+    "SS 316/316L Long Weld Neck Flanges",
+    "SS 316/316L Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182 / A240",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Plants",
+    "Gas & Water Pipelines",
+    "Petroleum Refining Systems",
+    "Petrochemicals & Refineries",
+    "Chemical Equipment",
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Heat Exchangers & Condensers",
+    "Industrial Machinery",
+    "Pulp & Paper Industry",
+    "Gas Processing Units",
+    "Food Processing Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 316/316L/316Ti Flanges Supplier in Mumbai, India",
+    "ASTM A182 SS 316 Threaded Flanges Exporter",
+    "Werkstoff 1.4401/1.4436 SS Socket Weld Flanges Stockist in India",
+    "SS F316 Ring Type Joint Flanges Dealer",
+    "SS 316L WNRF Flanges Manufacturer",
+    "SS 316 Blind Flanges Supplier",
+    "SS 316L Weld Neck Flange Exporter",
+    "SS 316 Slip-On Flanges Manufacturer",
+    "SS 316L Socket Weld Flanges Supplier",
+    "SS 316 Spectacle Blind Flanges Exporter",
+    "SS 316Ti RTJ Flanges Dealer",
+    "SS 316 Lap Joint Flanges Manufacturer",
+    "SS 316 Orifice Flanges Supplier",
+    "SS 316L Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 316 Flanges Price List",
+    "SS 316L Flange Weight Calculator",
+    "SS 316 Flange Dimensions",
+    "SS 316 Flange Price Per Kg in India",
+    "SS 316 Flange Manufacturer in Mumbai",
+    "SS 316 Flange Supplier in India",
+    "SS 316 Flange Thickness Tolerance",
+    "SS 316 Flange Price List PDF",
+    "SS 316 Flange Mechanical Properties",
+    "SS 316 Flange Chemical Composition",
+    "SS 316 Flange Stockist in Pune",
+    "SS 316 Flange Exporter",
+    "SS 316 Flange Price in Mumbai",
+    "SS 316 Flange Size Chart",
+    "SS 316 Slip-On Flange Price",
+    "SS 316L Weld Neck Flange Supplier",
+    "SS 316 Blind Flange Manufacturers",
+    "SS 316 Flange Catalog PDF",
+    "SS 316 Flange Equivalent Grades",
+    "SS 316 Flange Price per Piece",
+    "SS 316 Flange updated price list",
+    "SS 316 Flange Size Chart 1/2 to 48 inch",
+    "SS 316 Flange Manufacturers in Gujarat",
+    "SS 316 Flange Stockyards in India",
+    "SS 316 Flange thickness chart",
+    "SS 316 Flange Price in India",
+    "Top 100 SS 316 Flange Dealers in Mumbai",
+    "Buy SS 316 Flange Online",
+    "SS 316 Flange leading manufacturers in India",
+    "UNS S31600 Flange Price India",
+    "Werkstoff 1.4401 Flange Price India",
+    "SS 316 Flange Heat Treatment",
+    "SS 316 Flange Solution Annealing Temperature",
+    "SS 316 Flange Hardness Range",
+    "SS 316 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 22,
+  slug: "stainless-steel-317-317l-flanges",
+  image: "/stock/ss-317-flanges.jpg",
+  title:
+    "Stainless Steel 317/317L Flanges Supplier – ASTM A182 / A240 / UNS S31700 (High Moly Grade)",
+  shortDescription:
+    "Stainless Steel 317/317L Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Stainless Steel 317L threaded flanges have the best corrosion resistance to acidic chloride environments. Flanges are made using good quality raw material. Stainless Steel 317/317L flanges are available in different sizes and shapes. Stainless Steel 317L flanges provide better corrosion resistance than 304L and 316L flanges. It contains molybdenum with low carbon content, which further reduces corrosion resistance in welding and thermal processes. Stainless Steel 317 slip-on flanges have the highest strength and hardness and have resistance for all the stainless steel alloys as they have a high carbon content of 1%. Stainless Steel 317L socket weld flanges have better corrosion resistance to chloride pitting and general corrosion. Stainless Steel 317 Lap joint flanges comprise good formability and good weldability. Stainless Steel 317L flanges are non-magnetic, and they can also produce high strength from cold working. Stainless Steel 317 threaded flanges are used in flue-gas desulfurization systems and chemical process vessels. Stainless Steel 317L socket weld flanges are used in petrochemical and condensers in power generation. Stainless Steel 317 lap joint flanges are also used in pulp and paper and off-shore oil drilling companies. Stainless Steel 317 slip-on flanges are used in chemical equipment, seawater chemicals, condensers, and heat exchangers. Stainless Steel 317L flanges have better corrosion resistance for welding and thermal processes.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 317 (UNS S31700)":
+        "A molybdenum-bearing austenitic stainless steel with higher molybdenum content (3-4%) than 316 grades. Offers the highest strength and hardness with resistance for all stainless steel alloys. Contains high carbon content up to 1%. Non-magnetic and can produce high strength from cold working. Excellent formability and weldability. Widely used in chemical process vessels, flue-gas desulfurization systems, chemical equipment, seawater chemicals, condensers, and heat exchangers. Werkstoff Nr. 1.4449.",
+      "SS 317L (UNS S31703)":
+        "The low-carbon version of 317 stainless steel with better corrosion resistance than 304L and 316L. Contains molybdenum and low carbon content, reducing corrosion during welding and thermal processes. The best corrosion resistance to acidic chloride environments, chloride pitting, and general corrosion. Widely used in petrochemicals, power generation condensers, pulp and paper, and offshore oil drilling companies. Werkstoff Nr. 1.4438.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / A240, ASME SA182 / SA240",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47",
+    grade: "SS 317 / 317L",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "SS 317/317L Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 317 Slip-On Flanges (SORF)",
+          "ASME SA182 SS 317L Slip-On Raised Face Flanges",
+          "ANSI B16.5 SS 317 SORF Flanges",
+          "SS 317 Slip-On Flat Face Flanges",
+          "ANSI B16.47 SS 317L SORF Flanges",
+        ],
+        image: "/stock/ss317-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "SS 317/317L Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 317 Weld Neck Flanges (WNRF)",
+          "ASME SA182 SS 317L Weld Neck Raised Face Flanges",
+          "ANSI B16.5 SS 317 WNRF Flanges",
+          "SS 317L Weld Neck Flange",
+          "ANSI B16.47 SS 317 WNRF Flanges",
+        ],
+        image: "/stock/ss317-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "SS 317/317L Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 317 Blind Flanges",
+          "ASME SA182 SS 317L Blind Raised Face Flanges",
+          "ANSI B16.5 SS 317 Blind Flanges",
+          "SS 317 Blind Flat Face Flanges",
+          "ANSI B16.47 SS 317L Blind Flanges",
+        ],
+        image: "/stock/ss317-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "SS 317/317L Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 317 Threaded Flanges",
+          "ASME SA182 SS 317L Threaded Raised Face Flanges",
+          "ANSI B16.5 SS F317 Threaded Flanges",
+          "SS 317 Threaded Flat Face Flanges",
+          "ANSI B16.47 SS 317L Threaded Flanges",
+        ],
+        image: "/stock/ss317-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "SS 317/317L Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 317 Socket Weld Flanges",
+          "Werkstoff 1.4449 SS Socket Weld Flanges",
+          "ANSI B16.5 SS 317L Socket Weld Flanges",
+          "SS 317L Socket Weld Flat Face Flanges",
+          "Werkstoff 1.4438 SS Socket Weld Flanges",
+        ],
+        image: "/stock/ss317-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "SS 317/317L Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 317 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 SS 317L Ring Joint Flanges",
+          "UNS S31700 Ring Type Joint Flanges",
+          "SS 317 Lap Joint Flanges",
+          "SS 317 Spectacle Blind Flanges",
+          "SS 317L Spacer Ring Flanges",
+          "SS 317 Orifice Flanges",
+          "SS 317 Nipo Flanges",
+        ],
+        image: "/stock/ss317-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 317", uns: "S31700", werkstoff: "1.4449", standard: "ASTM" },
+    { grade: "SS 317L", uns: "S31703", werkstoff: "1.4438", standard: "ASTM" },
+    { grade: "SUS 317", uns: "S31700", werkstoff: "1.4449", standard: "JIS" },
+    { grade: "SUS 317L", uns: "S31703", werkstoff: "1.4438", standard: "JIS" },
+    { grade: "UNS S31700", uns: "S31700", werkstoff: "1.4449", standard: "—" },
+    { grade: "UNS S31703", uns: "S31703", werkstoff: "1.4438", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 317",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "11.00 – 15.00",
+      mo: "3.00 – 4.00",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+    {
+      grade: "SS 317L",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "11.00 – 15.00",
+      mo: "3.00 – 4.00",
+      other: "P: 0.045 max, S: 0.030 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 317 / 317L",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "8.00 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1040°C – 1120°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "317L Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 317L Pipe Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Stainless Steel 317L Weld Neck Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM A182 317L Stainless Steel Plate Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "317L Pipe Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 317 SORF Flanges",
+    "ASTM A182 SS 317 WNRF Flanges",
+    "Alloy 317",
+    "WNR. 1.4449 Pipe Flanges",
+    "SS 317 Blind Flanges",
+    "SS 317 Spacer Ring Flanges",
+    "UNS 31700",
+    "UNS S31700 Ring Type Joint Flanges",
+    "SS 317",
+    "SS 317 Flat Flange",
+    "SUS 317 Nipo Flange",
+    "SS 317 Long Weld Neck Flanges",
+    "SS 317 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182 / A240",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Flue-Gas Desulfurization Systems",
+    "Chemical Process Vessels",
+    "Petrochemicals",
+    "Condensers in Power Generation",
+    "Pulp & Paper Industry",
+    "Offshore Oil Drilling Companies",
+    "Chemical Equipment",
+    "Seawater Chemicals",
+    "Heat Exchangers & Condensers",
+    "Pharmaceutical Equipment",
+    "Oil & Natural Gas",
+    "Refineries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 317/317L Flanges Supplier in Mumbai, India",
+    "ASTM A182 SS 317 Threaded Flanges Exporter",
+    "Werkstoff 1.4449 SS Socket Weld Flanges Stockist in India",
+    "SS 317 RTJ Flanges Dealer",
+    "SS 317 WNRF Flanges Manufacturer",
+    "SS 317 Blind Flanges Supplier",
+    "SS 317L Weld Neck Flange Exporter",
+    "SS 317 Slip-On Flanges Manufacturer",
+    "SS 317L Socket Weld Flanges Supplier",
+    "SS 317 Spectacle Blind Flanges Exporter",
+    "SS 317 Ring Joint Flanges Dealer",
+    "SS 317 Spacer Ring Flanges Manufacturer",
+    "SS 317 Orifice Flanges Supplier",
+    "SS 317 Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 317 Flanges Price List",
+    "SS 317L Flange Weight Calculator",
+    "SS 317 Flange Dimensions",
+    "SS 317 Flange Price Per Kg in India",
+    "SS 317 Flange Manufacturer in Mumbai",
+    "SS 317 Flange Supplier in India",
+    "SS 317 Flange Thickness Tolerance",
+    "SS 317 Flange Price List PDF",
+    "SS 317 Flange Mechanical Properties",
+    "SS 317 Flange Chemical Composition",
+    "SS 317 Flange Stockist in Pune",
+    "SS 317 Flange Exporter",
+    "SS 317 Flange Price in Mumbai",
+    "SS 317 Flange Size Chart",
+    "SS 317 Slip-On Flange Price",
+    "SS 317L Weld Neck Flange Supplier",
+    "SS 317 Blind Flange Manufacturers",
+    "SS 317 Flange Catalog PDF",
+    "SS 317 Flange Equivalent Grades",
+    "SS 317 Flange Price per Piece",
+    "SS 317 Flange updated price list",
+    "SS 317 Flange Size Chart 1/2 to 48 inch",
+    "SS 317 Flange Manufacturers in Gujarat",
+    "SS 317 Flange Stockyards in India",
+    "SS 317 Flange thickness chart",
+    "SS 317 Flange Price in India",
+    "Top 100 SS 317 Flange Dealers in Mumbai",
+    "Buy SS 317 Flange Online",
+    "SS 317 Flange leading manufacturers in India",
+    "UNS S31700 Flange Price India",
+    "Werkstoff 1.4449 Flange Price India",
+    "SS 317 Flange Heat Treatment",
+    "SS 317 Flange Solution Annealing Temperature",
+    "SS 317 Flange Hardness Range",
+    "SS 317 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 23,
+  slug: "stainless-steel-321-321h-flanges",
+  image: "/stock/ss-321-flanges.jpg",
+  title:
+    "Stainless Steel 321/321H Flanges Supplier – ASTM A182 / A240 / UNS S32100 (Titanium-Stabilized)",
+  shortDescription:
+    "Stainless Steel 321/321H Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Stainless Steel 321/321H flanges are made using good quality raw material, which helps the customer use them for a longer period. Flanges are available in different sizes and shapes. Stainless Steel 321/321H flanges are best for heat resistance. Mostly they are used in the temperature range of 1000-1600°F. Titanium is the differentiating factor between Stainless Steel 304 and Stainless Steel 321, which further reduces carbide precipitation during welding. Stainless Steel 321 slip-on flanges have the best oxidation resistance up to 1600°F. Stainless Steel 321H weld neck flanges have the best intergranular corrosion resistance as they are stabilized against the weld heat-affected zone (HAZ). Stainless Steel 321 socket weld flanges also help to resist polythionic acid stress corrosion cracking. One of the main features of Stainless Steel 321 blind raised flanges is that they have excellent strength and better corrosion resistance. Stainless Steel 321 lap joint flanges contain 18% chromium, 8% nickel, and the required portion of titanium. Stainless Steel 321 flanges are used in refinery equipment and high-temperature chemical processes. Stainless Steel 321H socket weld flanges are applied in expansion joints and thermal oxidizers. Stainless Steel 321H lap joint flanges are used in aircraft piston engine manifolds and exhaust stacks. Stainless Steel 321 threaded flanges are also used for power generation and petrochemicals. Stainless Steel 321 flanges are used for seawater equipment and off-shore oil drilling companies.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 321 (UNS S32100)":
+        "A titanium-stabilized austenitic stainless steel designed for high-temperature service. The titanium addition reduces carbide precipitation during welding, making it ideal for applications in the temperature range of 1000-1600°F. Offers the best oxidation resistance up to 1600°F, excellent strength, and better corrosion resistance. Contains 18% chromium, 8% nickel, and the required portion of titanium. Resists polythionic acid stress corrosion cracking. Widely used in refinery equipment, high-temperature chemical processes, power generation, petrochemicals, seawater equipment, and offshore oil drilling. Werkstoff Nr. 1.4541.",
+      "SS 321H (UNS S32109)":
+        "The high-carbon version of 321 stainless steel with enhanced creep and rupture strength at elevated temperatures. Stabilized against the weld heat-affected zone (HAZ) with the best intergranular corrosion resistance. Widely used in expansion joints, thermal oxidizers, aircraft piston engine manifolds, and exhaust stacks. Werkstoff Nr. 1.4878.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / A240, ASME SA182 / SA240",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47",
+    grade: "SS 321 / 321H",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "SS 321/321H Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 321 Slip-On Flanges (SORF)",
+          "ASME SA182 SS 321H Slip-On Raised Face Flanges",
+          "ANSI B16.5 SS 321 SORF Flanges",
+          "SS 321 Slip-On Flat Face Flanges",
+          "ANSI B16.47 SS 321H SORF Flanges",
+        ],
+        image: "/stock/ss321-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "SS 321/321H Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 321 Weld Neck Flanges (WNRF)",
+          "ASME SA182 SS 321H Weld Neck Raised Face Flanges",
+          "ANSI B16.5 SS 321 WNRF Flanges",
+          "321 SS Weld Neck Flange",
+          "ANSI B16.47 SS 321H WNRF Flanges",
+        ],
+        image: "/stock/ss321-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "SS 321/321H Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 321 Blind Flanges",
+          "ASME SA182 SS 321H Blind Raised Face Flanges",
+          "ANSI B16.5 SS 321 Blind Flanges",
+          "SS 321 Blind Flat Face Flanges",
+          "SS 321 Blind Raised Flanges",
+        ],
+        image: "/stock/ss321-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "SS 321/321H Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 321 Threaded Flanges",
+          "ASME SA182 SS 321H Threaded Raised Face Flanges",
+          "ANSI B16.5 SS F321 Threaded Flanges",
+          "SS 321 Threaded Flat Face Flanges",
+          "ANSI B16.47 SS 321H Threaded Flanges",
+        ],
+        image: "/stock/ss321-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "SS 321/321H Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 321 Socket Weld Flanges",
+          "Werkstoff 1.4541 SS Socket Weld Flanges",
+          "ANSI B16.5 SS 321H Socket Weld Flanges",
+          "SS 321H Socket Weld Flat Face Flanges",
+          "ANSI B16.47 SS 321 Socket Weld Flanges",
+        ],
+        image: "/stock/ss321-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "SS 321/321H Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 321 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 SS 321H Ring Joint Flanges",
+          "UNS S32100 Ring Type Joint Flanges",
+          "SS 321 Lap Joint Flanges",
+          "SS 321 Spectacle Blind Flanges",
+          "SS 321H Spacer Ring Flanges",
+          "SS 321 Orifice Flanges",
+          "SS 321H Nipo Flanges",
+        ],
+        image: "/stock/ss321-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 321", uns: "S32100", werkstoff: "1.4541", standard: "ASTM" },
+    { grade: "SS 321H", uns: "S32109", werkstoff: "1.4878", standard: "ASTM" },
+    { grade: "SUS 321", uns: "S32100", werkstoff: "1.4541", standard: "JIS" },
+    { grade: "SUS 321H", uns: "S32109", werkstoff: "1.4878", standard: "JIS" },
+    { grade: "UNS S32100", uns: "S32100", werkstoff: "1.4541", standard: "—" },
+    { grade: "UNS S32109", uns: "S32109", werkstoff: "1.4878", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 321",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Ti: 5 x (C+N) – 0.70",
+    },
+    {
+      grade: "SS 321H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Ti: 4 x (C+N) – 0.70",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 321 / 321H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "50% min",
+      hardness: "217 HB max / 95 HRB max",
+      density: "8.00 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1050°C – 1120°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "321/321H Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 321/321H Pipe Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Stainless Steel 321/321H Weld Neck Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM A182 321/321H Stainless Steel Plate Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "321/321H Pipe Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 321/321H SORF Flanges",
+    "ASTM A182 SS 321/321H WNRF Flanges",
+    "321/321S Stainless Steel Pipe Flanges",
+    "SS 321/321H Blind Flanges",
+    "SS 321/321H Spacer Ring Flanges",
+    "UNS S32100",
+    "UNS S32100 Ring Type Joint Flanges",
+    "SS 321/321H",
+    "WNR. 1.4541 Flat Flange",
+    "WNR. 1.4878 Nipo Flange",
+    "SS 321/321H Long Weld Neck Flanges",
+    "SS 321/321H Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182 / A240",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Intergranular Corrosion Test",
+      frequency: "When required",
+      method: "ASTM A262 Practice E",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Refinery Equipment",
+    "High-Temperature Chemical Processes",
+    "Expansion Joints & Thermal Oxidizers",
+    "Aircraft Piston Engine Manifolds",
+    "Exhaust Stacks",
+    "Power Generation",
+    "Petrochemicals",
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Heat Exchangers",
+    "Chemical Equipment",
+    "Aerospace",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 321/321H Flanges Supplier in Mumbai, India",
+    "ASTM A182 SS 321 Threaded Flanges Exporter",
+    "Werkstoff 1.4541 SS Socket Weld Flanges Stockist in India",
+    "SS F321 Ring Type Joint Flanges Dealer",
+    "321 SS WNRF Flanges Manufacturer",
+    "SS 321 Blind Flanges Supplier",
+    "SS 321H Weld Neck Flange Exporter",
+    "SS 321 Slip-On Flanges Manufacturer",
+    "SS 321H Socket Weld Flanges Supplier",
+    "SS 321 Spectacle Blind Flanges Exporter",
+    "SS 321 RTJ Flanges Dealer",
+    "SS 321H Spacer Ring Flanges Manufacturer",
+    "SS 321 Orifice Flanges Supplier",
+    "SS 321H Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 321 Flanges Price List",
+    "SS 321H Flange Weight Calculator",
+    "SS 321 Flange Dimensions",
+    "SS 321 Flange Price Per Kg in India",
+    "SS 321 Flange Manufacturer in Mumbai",
+    "SS 321 Flange Supplier in India",
+    "SS 321 Flange Thickness Tolerance",
+    "SS 321 Flange Price List PDF",
+    "SS 321 Flange Mechanical Properties",
+    "SS 321 Flange Chemical Composition",
+    "SS 321 Flange Stockist in Pune",
+    "SS 321 Flange Exporter",
+    "SS 321 Flange Price in Mumbai",
+    "SS 321 Flange Size Chart",
+    "SS 321 Slip-On Flange Price",
+    "SS 321H Weld Neck Flange Supplier",
+    "SS 321 Blind Flange Manufacturers",
+    "SS 321 Flange Catalog PDF",
+    "SS 321 Flange Equivalent Grades",
+    "SS 321 Flange Price per Piece",
+    "SS 321 Flange updated price list",
+    "SS 321 Flange Size Chart 1/2 to 48 inch",
+    "SS 321 Flange Manufacturers in Gujarat",
+    "SS 321 Flange Stockyards in India",
+    "SS 321 Flange thickness chart",
+    "SS 321 Flange Price in India",
+    "Top 100 SS 321 Flange Dealers in Mumbai",
+    "Buy SS 321 Flange Online",
+    "SS 321 Flange leading manufacturers in India",
+    "UNS S32100 Flange Price India",
+    "Werkstoff 1.4541 Flange Price India",
+    "SS 321 Flange Heat Treatment",
+    "SS 321 Flange Solution Annealing Temperature",
+    "SS 321 Flange Hardness Range",
+    "SS 321 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 24,
+  slug: "stainless-steel-347-347h-flanges",
+  image: "/stock/ss-347-flanges.jpg",
+  title:
+    "Stainless Steel 347/347H Flanges Supplier – ASTM A182 / A240 / UNS S34700 (Niobium-Stabilized)",
+  shortDescription:
+    "Stainless Steel 347/347H Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Stainless Steel 347 is a Columbium/Tantalum stabilized austenitic stainless steel that exhibits superior resistance to intergranular corrosion and maintains excellent weldability and mechanical strength at elevated temperatures. SS 347 is the standard grade, while SS 347H is the high-carbon version providing improved creep resistance, making it suitable for applications in the 450°C to 900°C temperature range. The niobium stabilization prevents carbide precipitation during welding, ensuring the material remains resistant to intergranular corrosion in the heat-affected zone. Widely used in refinery equipment, high-temperature chemical processes, expansion joints, thermal oxidizers, aircraft piston engine manifolds, exhaust stacks, power generation, petrochemicals, and seawater equipment. Werkstoff Nr. 1.4550 for SS 347 and 1.4961 for SS 347H.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 347 (UNS S34700)":
+        "A niobium/columbium-stabilized austenitic stainless steel with superior resistance to intergranular corrosion and excellent weldability at elevated temperatures. Contains 17-20% Chromium, 9-13% Nickel, and Columbium/Tantalum (10xC – 1.10). Ideal for high-temperature applications up to 900°C. Werkstoff Nr. 1.4550.",
+      "SS 347H (UNS S34709)":
+        "The high-carbon version of 347 stainless steel providing improved creep resistance. Contains 17-19% Chromium, 9-13% Nickel, and Columbium/Tantalum (8xC – 1.10). Suitable for applications in the 450°C to 900°C temperature range. Werkstoff Nr. 1.4961.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / A240, ASME SA182 / SA240",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" (15 NB) – 48\" (1200 NB)",
+    pressureRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / A240 / ASME SA182 / SA240 / ANSI B16.5 / B16.47",
+    grade: "SS 347 / 347H",
+    size: "1/2\" (15 NB) – 48\" (1200 NB)",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "SS 347/347H Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 347 Slip-On Flanges (SORF)",
+          "ASME SA182 SS 347H Slip-On Raised Face Flanges",
+          "ANSI B16.5 SS 347 SORF Flanges",
+          "SS 347 Slip-On Flat Face Flanges",
+          "ANSI B16.47 SS 347H SORF Flanges",
+        ],
+        image: "/stock/ss347-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "SS 347/347H Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 347 Weld Neck Flanges (WNRF)",
+          "ASME SA182 SS 347H Weld Neck Raised Face Flanges",
+          "ANSI B16.5 SS 347 WNRF Flanges",
+          "SS 347H Weld Neck Flange",
+          "ANSI B16.47 SS 347 WNRF Flanges",
+        ],
+        image: "/stock/ss347-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "SS 347/347H Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 347 Blind Flanges",
+          "ASME SA182 SS 347H Blind Raised Face Flanges",
+          "ANSI B16.5 SS 347 Blind Flanges",
+          "SS 347 Blind Flat Face Flanges",
+          "ANSI B16.47 SS 347H Blind Flanges",
+        ],
+        image: "/stock/ss347-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "SS 347/347H Threaded Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 347 Threaded Flanges",
+          "ASME SA182 SS 347H Threaded Raised Face Flanges",
+          "ANSI B16.5 SS 347 Threaded Flanges",
+          "SS 347 Threaded Flat Face Flanges",
+          "ANSI B16.47 SS 347H Threaded Flanges",
+        ],
+        image: "/stock/ss347-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "SS 347/347H Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 347 Socket Weld Flanges",
+          "Werkstoff 1.4550 SS Socket Weld Flanges",
+          "ANSI B16.5 SS 347H Socket Weld Flanges",
+          "SS 347H Socket Weld Flat Face Flanges",
+          "ANSI B16.47 SS 347 Socket Weld Flanges",
+        ],
+        image: "/stock/ss347-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "SS 347/347H Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 347 Ring Type Joint (RTJ) Flanges",
+          "ASME SA182 SS 347H Ring Joint Flanges",
+          "UNS S34700 Ring Type Joint Flanges",
+          "SS 347 Lap Joint Flanges",
+          "SS 347 Spectacle Blind Flanges",
+          "SS 347H Spacer Ring Flanges",
+          "SS 347 Orifice Flanges",
+          "SS 347H Nipo Flanges",
+        ],
+        image: "/stock/ss347-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 347", uns: "S34700", werkstoff: "1.4550", standard: "ASTM" },
+    { grade: "SS 347H", uns: "S34709", werkstoff: "1.4961", standard: "ASTM" },
+    { grade: "SUS 347", uns: "S34700", werkstoff: "1.4550", standard: "JIS" },
+    { grade: "SUS 347H", uns: "S34709", werkstoff: "1.4961", standard: "JIS" },
+    { grade: "EN X6CrNiNb18-10", uns: "S34700", werkstoff: "1.4550", standard: "EN" },
+    { grade: "EN X6CrNiNb18-12", uns: "S34709", werkstoff: "1.4961", standard: "EN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 347",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "17.00 – 20.00",
+      ni: "9.00 – 13.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Cb: 10xC – 1.10, Fe: 62.74 min",
+    },
+    {
+      grade: "SS 347H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 13.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Cb: 8xC – 1.10, Fe: 63.72 min",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 347 / 347H",
+      tensile: "515 MPa (75,000 psi) min",
+      yield: "205 MPa (30,000 psi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.0 g/cm³",
+      meltingPoint: "1454 °C (2650 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1050°C – 1120°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 347 Flanges", price: "₹ 305 / Kg (approx.)" },
+    { item: "SS 347H Pipe Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Stainless Steel 347 Weld Neck Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM A182 347 Stainless Steel Plate Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "347H Pipe Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 347 SORF Flanges",
+    "ASTM A182 SS 347 WNRF Flanges",
+    "SS 347 Pipe Flanges",
+    "SS 347 Blind Flanges",
+    "SS 347 Spacer Ring Flanges",
+    "UNS S34700",
+    "UNS S34700 Ring Type Joint Flanges",
+    "SS 347",
+    "WNR. 1.4550 Flat Flange",
+    "WNR. 1.4961 Nipo Flange",
+    "SS 347/347H Long Weld Neck Flanges",
+    "SS 347/347H Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182 / A240",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Intergranular Corrosion Test",
+      frequency: "When required",
+      method: "ASTM A262 Practice E",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Refinery Equipment",
+    "High-Temperature Chemical Processes",
+    "Expansion Joints & Thermal Oxidizers",
+    "Aircraft Piston Engine Manifolds",
+    "Exhaust Stacks",
+    "Power Generation",
+    "Petrochemicals",
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Heat Exchangers",
+    "Chemical Equipment",
+    "Aerospace",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 347/347H Flanges Supplier in Mumbai, India",
+    "ASTM A182 SS 347 Threaded Flanges Exporter",
+    "Werkstoff 1.4550 SS Socket Weld Flanges Stockist in India",
+    "SS 347 RTJ Flanges Dealer",
+    "SS 347 WNRF Flanges Manufacturer",
+    "SS 347 Blind Flanges Supplier",
+    "SS 347H Weld Neck Flange Exporter",
+    "SS 347 Slip-On Flanges Manufacturer",
+    "SS 347H Socket Weld Flanges Supplier",
+    "SS 347 Spectacle Blind Flanges Exporter",
+    "SS 347 Ring Joint Flanges Dealer",
+    "SS 347H Spacer Ring Flanges Manufacturer",
+    "SS 347 Orifice Flanges Supplier",
+    "SS 347H Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 347 Flanges Price List",
+    "SS 347H Flange Weight Calculator",
+    "SS 347 Flange Dimensions",
+    "SS 347 Flange Price Per Kg in India",
+    "SS 347 Flange Manufacturer in Mumbai",
+    "SS 347 Flange Supplier in India",
+    "SS 347 Flange Thickness Tolerance",
+    "SS 347 Flange Price List PDF",
+    "SS 347 Flange Mechanical Properties",
+    "SS 347 Flange Chemical Composition",
+    "SS 347 Flange Stockist in Pune",
+    "SS 347 Flange Exporter",
+    "SS 347 Flange Price in Mumbai",
+    "SS 347 Flange Size Chart",
+    "SS 347 Slip-On Flange Price",
+    "SS 347H Weld Neck Flange Supplier",
+    "SS 347 Blind Flange Manufacturers",
+    "SS 347 Flange Catalog PDF",
+    "SS 347 Flange Equivalent Grades",
+    "SS 347 Flange Price per Piece",
+    "SS 347 Flange updated price list",
+    "SS 347 Flange Size Chart 1/2 to 48 inch",
+    "SS 347 Flange Manufacturers in Gujarat",
+    "SS 347 Flange Stockyards in India",
+    "SS 347 Flange thickness chart",
+    "SS 347 Flange Price in India",
+    "Top 100 SS 347 Flange Dealers in Mumbai",
+    "Buy SS 347 Flange Online",
+    "SS 347 Flange leading manufacturers in India",
+    "UNS S34700 Flange Price India",
+    "Werkstoff 1.4550 Flange Price India",
+    "SS 347 Flange Heat Treatment",
+    "SS 347 Flange Solution Annealing Temperature",
+    "SS 347 Flange Hardness Range",
+    "SS 347 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 25,
+  slug: "stainless-steel-904l-flanges",
+  image: "/stock/ss-904l-flanges.jpg",
+  title:
+    "Stainless Steel 904L Flanges Supplier – ASTM A182 / B649 / UNS N08904 (Super Austenitic)",
+  shortDescription:
+    "Stainless Steel 904L Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A182 / B649 / A240 / ASME SA182 / SB649 / SA240 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Stainless Steel 904L flanges have the best corrosion resistance to chloride stress corrosion cracking. Stainless Steel 904L's resistance increases as nickel and molybdenum increase. Flanges are made using good quality raw material and updated latest technology, which leads customers to use them further for a longer period. Stainless Steel 904L flanges are available in a wide range of varieties and different sizes and shapes. Stainless Steel 904L flanges contain 25% nickel, making them the best corrosion-resistant alloy for chloride stress corrosion cracking. Stainless Steel 904L slip-on flanges are the best option for the hot working process. Stainless Steel 904L socket weld flanges can be the best solution annealed at 1940°F – 2084°F. One of the main features of Stainless Steel 904L spectacle blind flanges is that they can easily be welded by standard shop fabrication practices. Stainless Steel 904L socket weld flanges are highly resistant to increased acid attacks. Stainless Steel 904L flanges have long durable functioning life.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 904L (UNS N08904)":
+        "A super-austenitic stainless steel with high nickel (25%) and molybdenum (4-5%) content, providing the best corrosion resistance to chloride stress corrosion cracking and increased acid attacks. Can be solution annealed at 1940°F – 2084°F. Exhibits excellent formability, weldability by standard shop fabrication practices, and long durable functioning life. Widely used in chemical processing, petrochemical, oil & gas, and marine industries. Werkstoff Nr. 1.4539. Also available as SS F904L per ASTM B649.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / B649 / A240, ASME SA182 / SB649 / SA240",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, 600 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / B649 / A240 / ASME SA182 / SB649 / SA240 / ANSI B16.5 / B16.47",
+    grade: "SS 904L (UNS N08904)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "SS 904L Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 904L Slip-On Flanges (SORF)",
+          "ASME SA182 SS 904L Slip-On Raised Face Flanges",
+          "ANSI B16.5 SS 904L SORF Flanges",
+          "SS 904L Slip-On Flat Face Flanges",
+          "ANSI B16.47 SS 904L SORF Flanges",
+        ],
+        image: "/stock/ss904l-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "SS 904L Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 904L Weld Neck Flanges (WNRF)",
+          "ASME SA182 SS 904L Weld Neck Raised Face Flanges",
+          "ANSI B16.5 SS 904L WNRF Flanges",
+          "SS 904L Weld Neck Flange",
+          "904L SS WNRF Flanges",
+        ],
+        image: "/stock/ss904l-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "SS 904L Blind Flanges Stock Available",
+        items: [
+          "ASTM A182 SS 904L Blind Flanges",
+          "ASME SA182 SS 904L Blind Raised Face Flanges",
+          "ANSI B16.5 SS 904L Blind Flanges",
+          "SS 904L Blind Flat Face Flanges",
+          "ANSI B16.47 SS 904L Blind Flanges",
+        ],
+        image: "/stock/ss904l-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "SS 904L Threaded Flanges Stock Available",
+        items: [
+          "ASTM B649 SS F904L Threaded Flanges",
+          "ASME SB649 SS 904L Threaded Raised Face Flanges",
+          "ANSI B16.5 SS 904L Threaded Flanges",
+          "SS 904L Threaded Flat Face Flanges",
+          "ANSI B16.47 SS 904L Threaded Flanges",
+        ],
+        image: "/stock/ss904l-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "SS 904L Socket Weld Flanges Stock Available",
+        items: [
+          "SS DIN 1.4539 Socket Weld Flanges",
+          "Werkstoff 1.4539 SS Socket Weld Flanges",
+          "ANSI B16.5 SS 904L Socket Weld Flanges",
+          "SS 904L Socket Weld Flat Face Flanges",
+          "ANSI B16.47 SS 904L Socket Weld Flanges",
+        ],
+        image: "/stock/ss904l-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "SS 904L Ring Type Joint Flanges Stock Available",
+        items: [
+          "Stainless Steel 904L Ring Type Joint (RTJ) Flanges",
+          "ASME SB649 SS 904L Ring Joint Flanges",
+          "UNS N08904 Ring Type Joint Flanges",
+          "ASME SB649 SS 904L Lap Joint Flanges",
+          "SS 904L Spectacle Blind Flanges",
+          "SS 904L Spacer Ring Flanges",
+          "SS 904L Orifice Flanges",
+          "SS 904L Nipo Flanges",
+        ],
+        image: "/stock/ss904l-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 904L", uns: "N08904", werkstoff: "1.4539", standard: "ASTM" },
+    { grade: "SS F904L", uns: "N08904", werkstoff: "1.4539", standard: "ASTM B649" },
+    { grade: "UNS N08904", uns: "N08904", werkstoff: "1.4539", standard: "—" },
+    { grade: "SUS 904L", uns: "N08904", werkstoff: "1.4539", standard: "JIS" },
+    { grade: "EN X1NiCrMoCu25-20-5", uns: "N08904", werkstoff: "1.4539", standard: "EN" },
+    { grade: "DIN 1.4539", uns: "N08904", werkstoff: "1.4539", standard: "DIN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 904L",
+      c: "0.020 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "23.00 – 28.00",
+      mo: "4.00 – 5.00",
+      other: "P: 0.045 max, S: 0.035 max, Cu: 1.00 – 2.00, N: 0.10 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 904L",
+      tensile: "490 MPa (71 ksi) min",
+      yield: "220 MPa (32 ksi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.00 g/cm³",
+      meltingPoint: "1300 – 1390 °C (2372 – 2534 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1060°C – 1140°C (1940°F – 2084°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "904L Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 904L Pipe Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Stainless Steel 904L Weld Neck Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM B649 904L Stainless Steel Plate Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "904L Pipe Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 904L SORF Flanges",
+    "UNS N08904 SS 347H Flanges",
+    "WNR. 1.4539 Pipe Flanges",
+    "SS 904L Blind Flanges",
+    "SS 904L Spacer Ring Flanges",
+    "UNS N08904",
+    "UNS N08904 Ring Type Joint Flanges",
+    "SS 904L",
+    "SS 904L Flat Flange",
+    "SS 904L Nipo Flange",
+    "SS 904L Long Weld Neck Flanges",
+    "SS 904L Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182 / B649",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Marine Industry",
+    "Offshore Oil Drilling Companies",
+    "Pharmaceutical Equipment",
+    "Seawater Equipment",
+    "Heat Exchangers",
+    "Condensers",
+    "Pulp & Paper Industry",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 904L Flanges Supplier in Mumbai, India",
+    "ASTM B649 SS F904L Threaded Flanges Exporter",
+    "Werkstoff 1.4539 SS Socket Weld Flanges Stockist in India",
+    "SS 904L RTJ Flanges Dealer",
+    "904L SS WNRF Flanges Manufacturer",
+    "SS 904L Blind Flanges Supplier",
+    "SS 904L Weld Neck Flange Exporter",
+    "SS 904L Slip-On Flanges Manufacturer",
+    "SS 904L Socket Weld Flanges Supplier",
+    "SS 904L Spectacle Blind Flanges Exporter",
+    "SS 904L Ring Joint Flanges Dealer",
+    "SS 904L Spacer Ring Flanges Manufacturer",
+    "SS 904L Orifice Flanges Supplier",
+    "SS 904L Nipo Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 904L Flanges Price List",
+    "SS 904L Flange Weight Calculator",
+    "SS 904L Flange Dimensions",
+    "SS 904L Flange Price Per Kg in India",
+    "SS 904L Flange Manufacturer in Mumbai",
+    "SS 904L Flange Supplier in India",
+    "SS 904L Flange Thickness Tolerance",
+    "SS 904L Flange Price List PDF",
+    "SS 904L Flange Mechanical Properties",
+    "SS 904L Flange Chemical Composition",
+    "SS 904L Flange Stockist in Pune",
+    "SS 904L Flange Exporter",
+    "SS 904L Flange Price in Mumbai",
+    "SS 904L Flange Size Chart",
+    "SS 904L Slip-On Flange Price",
+    "SS 904L Weld Neck Flange Supplier",
+    "SS 904L Blind Flange Manufacturers",
+    "SS 904L Flange Catalog PDF",
+    "SS 904L Flange Equivalent Grades",
+    "SS 904L Flange Price per Piece",
+    "SS 904L Flange updated price list",
+    "SS 904L Flange Size Chart 1/2 to 48 inch",
+    "SS 904L Flange Manufacturers in Gujarat",
+    "SS 904L Flange Stockyards in India",
+    "SS 904L Flange thickness chart",
+    "SS 904L Flange Price in India",
+    "Top 100 SS 904L Flange Dealers in Mumbai",
+    "Buy SS 904L Flange Online",
+    "SS 904L Flange leading manufacturers in India",
+    "UNS N08904 Flange Price India",
+    "Werkstoff 1.4539 Flange Price India",
+    "SS 904L Flange Heat Treatment",
+    "SS 904L Flange Solution Annealing Temperature",
+    "SS 904L Flange Hardness Range",
+    "SS 904L Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+
   {
     id: 9,
     slug: "duplex-steel-flanges",
@@ -14947,6 +27502,969 @@ export const flanges: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
+  {
+  id: 11,
+  slug: "carbon-steel-a105-flanges",
+  image: "/stock/a105-carbon-steel-flanges.jpg",
+  title:
+    "Carbon Steel A105 Flanges Supplier – ASTM A105 / ASME SA105 / UNS K03504 (ANSI B16.5)",
+  shortDescription:
+    "ASTM A105 Carbon Steel Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A105 / ASME SA105 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Carbon Steel alloy A105 threaded flanges possess excellent strength. A105 flanges are made using good quality raw material and the latest updated technology, which enables customers to use them for a long period without defects. Carbon Steel alloy A105 Ring Joint type flanges have excellent corrosion resistance. Carbon Steel alloy A105 threaded flanges possess excellent strength and machining properties. Carbon Steel A105 Lap Joint flanges contain some molybdenum, enabling excellent corrosion resistance to oxidizing media. The main differentiation between Carbon Steel A105 Slip-On flanges and other austenitic steel is that carbon steel alloy has more hardness. Carbon Steel A105 Socket Weld flanges usually perform at temperatures between 500°C – 550°C. Carbon Steel Alloy A105 mostly performs annealing and stress relieving by cold working process, such as rapid cooling in water or air. Carbon Steel A105 Weld Neck flanges are often used to develop properties that tend to perform thermal treatment. Carbon Steel A105 Ring Joint type flanges are mostly used in seawater equipment and pharmaceutical equipment. Carbon Steel A105 Lap Joint flanges are also used for power generation and petrochemicals. Carbon Steel Weld Neck flanges are used for condensers, chemical equipment, and the pulp and paper industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Carbon Steel A105 (UNS K03504)":
+        "ASTM A105 / ASME SA105 (UNS K03504) is a forged carbon steel piping component material with excellent strength, machining properties, and corrosion resistance to oxidizing media. Contains Molybdenum content that enhances corrosion resistance. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A105, ASME SA105",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F92 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A105 / ASME SA105 / ANSI B16.5 / B16.47",
+    grade: "Carbon Steel ASTM A105",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Carbon Steel A105 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A105 Slip-On Flanges (SORF)",
+          "ASME SA105 Slip-On Raised Face Flanges",
+          "ANSI B16.5 CS A105 SORF Flanges",
+          "CS ASTM A105 Slip-On Flat Face Flanges",
+          "ANSI B16.47 A105 SORF Flanges",
+        ],
+        image: "/stock/a105-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Carbon Steel A105 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A105 Weld Neck Flanges (WNRF)",
+          "ASME SA105 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 CS A105 WNRF Flanges",
+          "CS ASTM A105 Long Weld Neck Flanges",
+          "ANSI B16.47 A105 WNRF Flanges",
+        ],
+        image: "/stock/a105-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Carbon Steel A105 Blind Flanges Stock Available",
+        items: [
+          "ASTM A105 Blind Flanges",
+          "ASME SA105 Blind Raised Face Flanges",
+          "ANSI B16.5 CS A105 Blind Flanges",
+          "CS ASTM A105 Blind Flat Face Flanges",
+          "ANSI B16.47 A105 Blind Flanges",
+        ],
+        image: "/stock/a105-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Carbon Steel A105 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A105 Threaded Flanges",
+          "ASME SA105 Threaded Raised Face Flanges",
+          "ANSI B16.5 CS A105 Threaded Flanges",
+          "CS ASTM A105 Threaded Flat Face Flanges",
+          "ANSI B16.47 A105 Threaded Flanges",
+        ],
+        image: "/stock/a105-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Carbon Steel A105 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A105 Socket Weld Flanges",
+          "ASME SA105 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 CS A105 Socket Weld Flanges",
+          "CS ASTM A105 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 A105 Socket Weld Flanges",
+        ],
+        image: "/stock/a105-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Carbon Steel A105 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A105 Ring Type Joint (RTJ) Flanges",
+          "ASME SA105 Ring Joint Flanges",
+          "ANSI B16.5 CS A105 RTJ Flanges",
+          "CS ASTM A105 Lap Joint Flanges",
+          "ASTM A105 Spectacle Blind Flanges",
+          "ASTM A105 Spacer Ring Flanges",
+          "ASTM A105 Orifice Flanges",
+        ],
+        image: "/stock/a105-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A105", uns: "K03504", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASME SA105", uns: "K03504", werkstoff: "—", standard: "ASME" },
+    { grade: "A105", uns: "K03504", werkstoff: "—", standard: "—" },
+    { grade: "UNS K03504", uns: "K03504", werkstoff: "—", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A105 (Min.)",
+      c: "—",
+      mn: "0.5",
+      si: "0.17",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "S, P, Cu",
+    },
+    {
+      grade: "ASTM A105 (Max.)",
+      c: "0.42",
+      mn: "0.8",
+      si: "0.37",
+      cr: "0.25",
+      ni: "0.3",
+      mo: "—",
+      other: "S: 0.035, P: 0.035, Cu: 0.25",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A105",
+      tensile: "485 MPa (70,000 psi)",
+      yield: "250 MPa (36,000 psi)",
+      elongation: "22%",
+      reduction: "30%",
+      hardness: "187 HB max",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "ASTM A105 CS SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "CS ASTM A105 Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "ANSI B16.5 CS Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "CS ASTM A105 Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "ASTM A105 CS Flat Flange", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "ASTM A105 CS SORF Flanges",
+    "CS ASTM A105 Flanges",
+    "ASME SA105 CS Pipe Flanges",
+    "CS ASTM A105 Blind Flanges",
+    "ANSI B16.47 ASTM A105 Spacer Ring Flanges",
+    "ASME SA105 Carbon Steel",
+    "Carbon Steel ASTM A105 Ring Type Joint Flanges",
+    "ANSI B16.5 CS",
+    "ASTM A105 CS Flat Flange",
+    "ASME SA105 Carbon Steel Nipo Flange",
+    "ASTM A105 CS Long Weld Neck Flanges",
+    "Carbon Steel A105 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A105",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Power Generation",
+    "Petrochemicals",
+    "Condensers",
+    "Chemical Equipment",
+    "Pulp & Paper Industry",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Shipbuilding",
+    "Pipelines & Fluid Handling",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "ASTM A105 Carbon Steel Flanges Supplier in Mumbai, India",
+    "ASME SA105 Carbon Steel Flanges Exporter",
+    "UNS K03504 Flanges Stockist in India",
+    "ANSI B16.5 Carbon Steel A105 Flanges Dealer",
+    "A105 Slip-On Flanges (SORF) Manufacturer",
+    "A105 Weld Neck Flanges (WNRF) Supplier",
+    "A105 Blind Flanges Stockist",
+    "A105 Threaded Flanges Exporter",
+    "A105 Socket Weld Flanges Manufacturer",
+    "A105 Ring Type Joint (RTJ) Flanges Supplier",
+    "A105 Lap Joint Flanges Dealer",
+    "A105 Spectacle Blind Flanges Manufacturer",
+    "A105 Spacer Ring Flanges Supplier",
+    "A105 Orifice Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "ASTM A105 Carbon Steel Flanges Price List",
+    "A105 Flange Weight Calculator",
+    "A105 Flange Dimensions",
+    "A105 Flange Price Per Kg in India",
+    "A105 Flange Manufacturer in Mumbai",
+    "A105 Flange Supplier in India",
+    "A105 Flange Thickness Tolerance",
+    "A105 Flange Price List PDF",
+    "A105 Flange Mechanical Properties",
+    "A105 Flange Chemical Composition",
+    "A105 Flange Stockist in Pune",
+    "A105 Flange Exporter",
+    "A105 Flange Price in Mumbai",
+    "A105 Flange Size Chart",
+    "A105 Slip-On Flange Price",
+    "A105 Weld Neck Flange Supplier",
+    "A105 Blind Flange Manufacturers",
+    "A105 Flange Catalog PDF",
+    "A105 Flange Equivalent Grades",
+    "A105 Flange Price per Piece",
+    "A105 Flange updated price list",
+    "A105 Flange Size Chart 1/2 to 48 inch",
+    "A105 Flange Manufacturers in Gujarat",
+    "A105 Flange Stockyards in India",
+    "A105 Flange thickness chart",
+    "A105 Flange Price in India",
+    "Top 100 A105 Flange Dealers in Mumbai",
+    "Buy A105 Flange Online",
+    "A105 Flange leading manufacturers in India",
+    "UNS K03504 Flange Price India",
+    "ANSI B16.5 A105 Flange Price India",
+    "A105 Flange Heat Treatment",
+    "A105 Flange Stress Relieving Temperature",
+    "A105 Flange Hardness Range",
+    "A105 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 12,
+  slug: "carbon-steel-a350-lf2-flanges",
+  image: "/stock/a350-lf2-carbon-steel-flanges.jpg",
+  title:
+    "Carbon Steel A350 LF2 Flanges Supplier – ASTM A350 / ASME SA350 / UNS K03011 (Low Temperature)",
+  shortDescription:
+    "ASTM A350 LF2 Carbon Steel Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A350 / ASME SA350 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Carbon Steel A350 LF2 threaded flanges tend to perform better at low temperature. A350 LF2 flanges are made using good quality raw material and the latest updated technology, which enables customers to use them for a long period without defects. Carbon Steel A350 LF2 flanges have excellent corrosion resistance. Carbon Steel A350 LF2 threaded flanges possess excellent strength and machining properties. Carbon Steel A350 LF2 lap joint flanges contain some portion of molybdenum, enabling excellent corrosion resistance to oxidizing media. The main differentiation between Carbon Steel A350 LF2 slip-on flanges and other austenitic steel is that carbon steel alloy has more hardness. Carbon Steel A350 LF2 socket weld flanges usually perform at temperatures between 500°C – 550°C. Carbon Steel Alloy A350 LF2 flanges mostly perform annealing and stress relieving by cold working process, such as rapid cooling in water or air. Carbon Steel A350 LF2 weld neck flanges are often used to develop properties that tend to perform on thermal treatment. Carbon Steel A350 LF2 Ring Joint type flanges are mostly used in seawater equipment and pharmaceutical equipment. Carbon Steel A350 LF2 lap joint flanges are also used for power generation and petrochemicals. Carbon Steel weld neck flanges are used for condensers, chemical equipment, and the pulp and paper industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Carbon Steel A350 LF2 (UNS K03011)":
+        "ASTM A350 LF2 / ASME SA350 (UNS K03011 / Werkstoff 1.0508) is a low-temperature carbon steel (LTCS) forged flange material with excellent corrosion resistance, excellent strength, and machining properties. Contains Molybdenum content that enhances corrosion resistance to oxidizing media. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A350 / ASME SA350",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F92 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A350 / ASME SA350 / ANSI B16.5 / B16.47",
+    grade: "Carbon Steel ASTM A350 LF2",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Carbon Steel A350 LF2 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A350 LF2 Slip-On Flanges (SORF)",
+          "ASME SA350 LF2 Slip-On Raised Face Flanges",
+          "ANSI B16.5 LTCS A350 LF2 SORF Flanges",
+          "CS ASTM A350 LF2 Slip-On Flat Face Flanges",
+          "ANSI B16.47 A350 LF2 SORF Flanges",
+        ],
+        image: "/stock/a350-lf2-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Carbon Steel A350 LF2 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A350 LF2 Weld Neck Flanges (WNRF)",
+          "ASME SA350 LF2 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 LTCS A350 LF2 WNRF Flanges",
+          "CS ASTM A350 LF2 Long Weld Neck Flanges",
+          "ANSI B16.47 A350 LF2 WNRF Flanges",
+        ],
+        image: "/stock/a350-lf2-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Carbon Steel A350 LF2 Blind Flanges Stock Available",
+        items: [
+          "ASTM A350 LF2 Blind Flanges",
+          "ASME SA350 LF2 Blind Raised Face Flanges",
+          "ANSI B16.5 LTCS A350 LF2 Blind Flanges",
+          "CS ASTM A350 LF2 Blind Flat Face Flanges",
+          "ANSI B16.47 A350 LF2 Blind Flanges",
+        ],
+        image: "/stock/a350-lf2-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Carbon Steel A350 LF2 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A350 LF2 Threaded Flanges",
+          "ASME SA350 LF2 Threaded Raised Face Flanges",
+          "ANSI B16.5 LTCS A350 LF2 Threaded Flanges",
+          "CS ASTM A350 LF2 Threaded Flat Face Flanges",
+          "ANSI B16.47 A350 LF2 Threaded Flanges",
+        ],
+        image: "/stock/a350-lf2-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Carbon Steel A350 LF2 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A350 LF2 Socket Weld Flanges",
+          "ASME SA350 LF2 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 LTCS A350 LF2 Socket Weld Flanges",
+          "CS ASTM A350 LF2 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 A350 LF2 Socket Weld Flanges",
+        ],
+        image: "/stock/a350-lf2-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Carbon Steel A350 LF2 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A350 LF2 Ring Type Joint (RTJ) Flanges",
+          "ASME SA350 LF2 Ring Joint Flanges",
+          "ANSI B16.5 LTCS A350 LF2 RTJ Flanges",
+          "CS ASTM A350 LF2 Lap Joint Flanges",
+          "ASTM A350 LF2 Spectacle Blind Flanges",
+          "ASTM A350 LF2 Spacer Ring Flanges",
+          "ASTM A350 LF2 Orifice Flanges",
+          "ASTM A350 LF2 Nipo Flanges",
+        ],
+        image: "/stock/a350-lf2-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A350 LF2", uns: "K03011", werkstoff: "1.0508", standard: "ASTM" },
+    { grade: "ASME SA350 LF2", uns: "K03011", werkstoff: "1.0508", standard: "ASME" },
+    { grade: "A350 LF2", uns: "K03011", werkstoff: "1.0508", standard: "—" },
+    { grade: "UNS K03011", uns: "K03011", werkstoff: "1.0508", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A350 LF2 (Min.)",
+      c: "—",
+      mn: "0.6",
+      si: "0.17",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "S,P",
+    },
+    {
+      grade: "ASTM A350 LF2 (Max.)",
+      c: "0.30",
+      mn: "1.35",
+      si: "0.37",
+      cr: "—",
+      ni: "0.40",
+      mo: "—",
+      other: "S: 0.040, P: 0.035",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A350 LF2",
+      tensile: "485 – 655 MPa (70 – 95 ksi)",
+      yield: "250 MPa (36 ksi) min",
+      elongation: "22% min",
+      reduction: "30% min",
+      hardness: "197 HB max",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "ASTM A350 CS SORF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "CS ASTM A350 Blind Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "ASTM A350 Spacer Ring Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM A350 CS Flat Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "A350 CS Long Weld Neck Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "ASTM A350 CS SORF Flanges",
+    "CS ASTM A350 Flanges",
+    "ASME SA350 LTCS Pipe Flanges",
+    "CS ASTM A350 Blind Flanges",
+    "ANSI B16.47 LTCS ASTM A350 Spacer Ring Flanges",
+    "ASME SA350 Carbon Steel",
+    "Carbon Steel ASTM A350 Ring Type Joint Flanges",
+    "ANSI B16.5 LF2 A350",
+    "ASTM A350 CS Flat Flange",
+    "ASME SA350 Carbon Steel Nipo Flange",
+    "ASTM A350 CS Long Weld Neck Flanges",
+    "Carbon Steel A350 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A350",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Impact Toughness (Charpy V-Notch) at Low Temperature",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370 — LTCS",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Power Generation",
+    "Petrochemicals",
+    "Condensers",
+    "Chemical Equipment",
+    "Pulp & Paper Industry",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Low Temperature Services (LTCS)",
+    "Shipbuilding",
+    "Pipelines & Fluid Handling",
+  ],
+
+  specializedIn: [
+    "ASTM A350 LF2 Carbon Steel Flanges Supplier in Mumbai, India",
+    "ASME SA350 LF2 Carbon Steel Flanges Exporter",
+    "UNS K03011 Flanges Stockist in India",
+    "ANSI B16.5 LTCS A350 LF2 Flanges Dealer",
+    "A350 LF2 Slip-On Flanges (SORF) Manufacturer",
+    "A350 LF2 Weld Neck Flanges (WNRF) Supplier",
+    "A350 LF2 Blind Flanges Stockist",
+    "A350 LF2 Threaded Flanges Exporter",
+    "A350 LF2 Socket Weld Flanges Manufacturer",
+    "A350 LF2 Ring Type Joint (RTJ) Flanges Supplier",
+    "A350 LF2 Lap Joint Flanges Dealer",
+    "A350 LF2 Spectacle Blind Flanges Manufacturer",
+    "A350 LF2 Spacer Ring Flanges Supplier",
+    "A350 LF2 Orifice Flanges Exporter",
+  ],
+
+  relatedSearches: [
+    "ASTM A350 LF2 Carbon Steel Flanges Price List",
+    "A350 LF2 Flange Weight Calculator",
+    "A350 LF2 Flange Dimensions",
+    "A350 LF2 Flange Price Per Kg in India",
+    "A350 LF2 Flange Manufacturer in Mumbai",
+    "A350 LF2 Flange Supplier in India",
+    "A350 LF2 Flange Thickness Tolerance",
+    "A350 LF2 Flange Price List PDF",
+    "A350 LF2 Flange Mechanical Properties",
+    "A350 LF2 Flange Chemical Composition",
+    "A350 LF2 Flange Stockist in Pune",
+    "A350 LF2 Flange Exporter",
+    "A350 LF2 Flange Price in Mumbai",
+    "A350 LF2 Flange Size Chart",
+    "A350 LF2 Slip-On Flange Price",
+    "A350 LF2 Weld Neck Flange Supplier",
+    "A350 LF2 Blind Flange Manufacturers",
+    "A350 LF2 Flange Catalog PDF",
+    "A350 LF2 Flange Equivalent Grades",
+    "A350 LF2 Flange Price per Piece",
+    "A350 LF2 Flange updated price list",
+    "A350 LF2 Flange Size Chart 1/2 to 48 inch",
+    "A350 LF2 Flange Manufacturers in Gujarat",
+    "A350 LF2 Flange Stockyards in India",
+    "A350 LF2 Flange thickness chart",
+    "A350 LF2 Flange Price in India",
+    "Top 100 A350 LF2 Flange Dealers in Mumbai",
+    "Buy A350 LF2 Flange Online",
+    "A350 LF2 Flange leading manufacturers in India",
+    "UNS K03011 Flange Price India",
+    "ANSI B16.5 A350 LF2 Flange Price India",
+    "A350 LF2 Flange Heat Treatment",
+    "A350 LF2 Flange Stress Relieving Temperature",
+    "A350 LF2 Flange Hardness Range",
+    "A350 LF2 Ring Type Joint Flange",
+    "Low Temperature Carbon Steel Flanges",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 13,
+  slug: "carbon-steel-a694-flanges",
+  image: "/stock/a694-carbon-steel-flanges.jpg",
+  title:
+    "Carbon Steel A694 Flanges Supplier – ASTM A694 / ASME SA694 / F60 / F65 (High Yield)",
+  shortDescription:
+    "ASTM A694 Carbon Steel Flanges in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms. Available in 1/2\" to 48\" sizes with 150# to 2500# class ratings. Manufactured to ASTM A694 / ASME SA694 / ANSI B16.5 / B16.47 standards.",
+
+  technicalOverview:
+    "Carbon Steel A694 threaded flanges tend to perform better at low temperature. A694 flanges are made using good quality raw material and latest updated technology, which enables customers to use them for a long period without defects. Carbon Steel A694 flanges have excellent corrosion resistance. Carbon Steel A694 threaded flanges possess excellent strength and machining properties. Carbon Steel A694 lap joint flanges contain some portion of molybdenum, enabling excellent corrosion resistance to oxidizing media. The main differentiation between Carbon Steel A694 slip-on flanges and other austenitic steel is that carbon steel alloy has more hardness. Carbon Steel A694 socket weld flanges usually perform at temperatures between 500°C – 550°C. Carbon Steel Alloy A694 flanges mostly perform annealing and stress relieving by cold working process, such as rapid cooling in water or air. Carbon Steel A694 weld neck flanges are often used to develop properties that tend to perform on thermal treatment. Carbon Steel A694 Ring Joint type flanges are mostly used in seawater equipment and pharmaceutical equipment. Carbon Steel A694 lap joint flanges are also used for power generation and petrochemicals. Carbon Steel weld neck flanges are used for condensers, chemical equipment, and the pulp and paper industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Carbon Steel A694 F60 / F65 (High Yield)":
+        "ASTM A694 / ASME SA694 (F60 / F65 high yield carbon steel) is a forged carbon steel piping component material with excellent corrosion resistance, excellent strength, and machining properties. Contains Molybdenum content that enhances corrosion resistance to oxidizing media. Higher hardness compared to austenitic steel. Available in Slip-On (SORF), Threaded, Weld Neck (WNRF), Blind, Socket Weld, Lap Joint, Ring Type Joint (RTJ), Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A694 / ASME SA694",
+    dimensionalStandards:
+      "ANSI / ASME B16.5, B16.47 Series A & B, B16.48, BS4504, BS10, DIN, EN-1092, MSS SP44",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    sizeRange: "1/2\" – 48\"",
+    pressureRating:
+      "150 Class, 300 Class, F92 Class, 900 Class, 1500 Class, 2500 Class, PN6, PN10, PN16, PN25, PN40, PN64",
+  },
+
+  specifications: {
+    standard: "ASTM A694 / ASME SA694 / ANSI B16.5 / B16.47",
+    grade: "Carbon Steel A694 (F60 / F65 High Yield)",
+    size: "1/2\" – 48\"",
+    classRating:
+      "150#, 300#, 600#, 900#, 1500#, 2500#, PN6, PN10, PN16, PN25, PN40, PN64",
+    form:
+      "Slip-On, Threaded, Weld Neck, Blind, Socket Weld, Lap Joint, RTJ, Spectacle Blind, Spacer Ring, Long Weld Neck, Nipo, Plate, Flat, Orifice, Forged",
+    flangeFaceType: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    slipOn: [
+      {
+        title: "Carbon Steel A694 Slip-On Flanges Stock Available",
+        items: [
+          "ASTM A694 F60 Slip-On Flanges (SORF)",
+          "ASME SA694 F65 Slip-On Raised Face Flanges",
+          "ANSI B16.5 High Yield A694 SORF Flanges",
+          "CS ASTM A694 Slip-On Flat Face Flanges",
+          "ANSI B16.47 A694 SORF Flanges",
+        ],
+        image: "/stock/a694-sorf-flanges.jpg",
+      },
+    ],
+    weldNeck: [
+      {
+        title: "Carbon Steel A694 Weld Neck Flanges Stock Available",
+        items: [
+          "ASTM A694 F60 Weld Neck Flanges (WNRF)",
+          "ASME SA694 F65 Weld Neck Raised Face Flanges",
+          "ANSI B16.5 High Yield A694 WNRF Flanges",
+          "CS ASTM A694 Long Weld Neck Flanges",
+          "ANSI B16.47 A694 WNRF Flanges",
+        ],
+        image: "/stock/a694-wnrf-flanges.jpg",
+      },
+    ],
+    blind: [
+      {
+        title: "Carbon Steel A694 Blind Flanges Stock Available",
+        items: [
+          "ASTM A694 F60 Blind Flanges",
+          "ASME SA694 F65 Blind Raised Face Flanges",
+          "ANSI B16.5 High Yield A694 Blind Flanges",
+          "CS ASTM A694 Blind Flat Face Flanges",
+          "ANSI B16.47 A694 Blind Flanges",
+        ],
+        image: "/stock/a694-blind-flanges.jpg",
+      },
+    ],
+    threaded: [
+      {
+        title: "Carbon Steel A694 Threaded Flanges Stock Available",
+        items: [
+          "ASTM A694 F60 Threaded Flanges",
+          "ASME SA694 F65 Threaded Raised Face Flanges",
+          "ANSI B16.5 High Yield A694 Threaded Flanges",
+          "CS ASTM A694 Threaded Flat Face Flanges",
+          "ANSI B16.47 A694 Threaded Flanges",
+        ],
+        image: "/stock/a694-threaded-flanges.jpg",
+      },
+    ],
+    socketWeld: [
+      {
+        title: "Carbon Steel A694 Socket Weld Flanges Stock Available",
+        items: [
+          "ASTM A694 F60 Socket Weld Flanges",
+          "ASME SA694 F65 Socket Weld Raised Face Flanges",
+          "ANSI B16.5 High Yield A694 Socket Weld Flanges",
+          "CS ASTM A694 Socket Weld Flat Face Flanges",
+          "ANSI B16.47 A694 Socket Weld Flanges",
+        ],
+        image: "/stock/a694-socket-weld-flanges.jpg",
+      },
+    ],
+    ringJoint: [
+      {
+        title: "Carbon Steel A694 Ring Type Joint Flanges Stock Available",
+        items: [
+          "ASTM A694 F60 Ring Type Joint (RTJ) Flanges",
+          "ASME SA694 F65 Ring Joint Flanges",
+          "ANSI B16.5 High Yield A694 RTJ Flanges",
+          "CS ASTM A694 Lap Joint Flanges",
+          "ASTM A694 Spectacle Blind Flanges",
+          "ASTM A694 Spacer Ring Flanges",
+          "ASTM A694 Orifice Flanges",
+          "ASTM A694 Nipo Flanges",
+        ],
+        image: "/stock/a694-rtj-flanges.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A694 F60", uns: "—", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASTM A694 F65", uns: "—", werkstoff: "—", standard: "ASTM" },
+    { grade: "ASME SA694", uns: "—", werkstoff: "—", standard: "ASME" },
+    { grade: "F60 High Yield Carbon Steel", uns: "—", werkstoff: "—", standard: "—" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A694 F65",
+      c: "0.26 – 0.265",
+      mn: "1.60 – 1.64",
+      si: "0.15 – 0.35",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "P: 0.025 – 0.030, S: 0.025 – 0.030",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A694 F60",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "415 MPa (60 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+    {
+      grade: "ASTM A694 F65",
+      tensile: "530 MPa (77 ksi) min",
+      yield: "450 MPa (65 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "600°C – 650°C",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Carbon Steel A694 Orifice Flange", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Carbon Steel F60 Slip On Flanges", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Carbon Steel Threaded Flanges", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Carbon Steel WNRF Flanges", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Carbon Steel A694 SORF Flanges", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Carbon Steel A694 SORF Flanges",
+    "Carbon Steel A694 Flanges",
+    "CS F60 Pipe Flanges",
+    "Carbon Steel A694 Blind Flanges",
+    "ANSI B16.47 LT Carbon Steel A694 Spacer Ring Flanges",
+    "ASME A694 Carbon Steel",
+    "Carbon Steel ASTM A694 Ring Type Joint Flanges",
+    "A694",
+    "Carbon Steel A694 Flat Flange",
+    "ASME A694 Carbon Steel Nipo Flange",
+    "Carbon Steel A694 Long Weld Neck Flanges",
+    "Carbon Steel F60 Lap Joint Flanges",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A694",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each flange",
+      method: "ANSI B16.5 / B16.47",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each flange",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Power Generation",
+    "Petrochemicals",
+    "Condensers",
+    "Chemical Equipment",
+    "Pulp & Paper Industry",
+    "Oil & Natural Gas",
+    "Refineries",
+    "High Yield Piping Systems",
+    "Shipbuilding",
+    "Pipelines & Fluid Handling",
+  ],
+
+  specializedIn: [
+    "ASTM A694 Carbon Steel Flanges Supplier in Mumbai, India",
+    "ASME SA694 Carbon Steel Flanges Exporter",
+    "F60 High Yield Carbon Steel Flanges Stockist in India",
+    "F65 High Yield Carbon Steel Flanges Dealer",
+    "ANSI B16.5 High Yield A694 Flanges Manufacturer",
+    "A694 F60 Slip-On Flanges (SORF) Supplier",
+    "A694 F60 Weld Neck Flanges (WNRF) Exporter",
+    "A694 F65 Blind Flanges Stockist",
+    "A694 Threaded Flanges Manufacturer",
+    "A694 Socket Weld Flanges Supplier",
+    "A694 Ring Type Joint (RTJ) Flanges Exporter",
+    "A694 Lap Joint Flanges Dealer",
+    "A694 Spectacle Blind Flanges Manufacturer",
+    "A694 Orifice Flanges Supplier",
+  ],
+
+  relatedSearches: [
+    "ASTM A694 Carbon Steel Flanges Price List",
+    "A694 Flange Weight Calculator",
+    "A694 Flange Dimensions",
+    "A694 Flange Price Per Kg in India",
+    "A694 Flange Manufacturer in Mumbai",
+    "A694 Flange Supplier in India",
+    "A694 Flange Thickness Tolerance",
+    "A694 Flange Price List PDF",
+    "A694 Flange Mechanical Properties",
+    "A694 Flange Chemical Composition",
+    "A694 Flange Stockist in Pune",
+    "A694 Flange Exporter",
+    "A694 Flange Price in Mumbai",
+    "A694 Flange Size Chart",
+    "A694 Slip-On Flange Price",
+    "A694 Weld Neck Flange Supplier",
+    "A694 Blind Flange Manufacturers",
+    "A694 Flange Catalog PDF",
+    "A694 Flange Equivalent Grades",
+    "A694 Flange Price per Piece",
+    "A694 Flange updated price list",
+    "A694 Flange Size Chart 1/2 to 48 inch",
+    "A694 Flange Manufacturers in Gujarat",
+    "A694 Flange Stockyards in India",
+    "A694 Flange thickness chart",
+    "A694 Flange Price in India",
+    "Top 100 A694 Flange Dealers in Mumbai",
+    "Buy A694 Flange Online",
+    "A694 Flange leading manufacturers in India",
+    "F60 High Yield Carbon Steel Flange Price India",
+    "ANSI B16.5 A694 Flange Price India",
+    "A694 Flange Heat Treatment",
+    "A694 Flange Stress Relieving Temperature",
+    "A694 Flange Hardness Range",
+    "A694 Ring Type Joint Flange",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+
 ];
 
 // 8. Forged Fitting
@@ -28391,6 +41909,1882 @@ stockAvailability: {
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
+
+  // carbon
+{
+  id: 1,
+  slug: "astm-a105-carbon-steel-round-bars",
+  image: "/stock/a105-carbon-steel-round-bars.jpg",
+  title:
+    "ASTM A105 Carbon Steel Round Bars Supplier – UNS K03504 / 1.0460 (ASME SA105)",
+  shortDescription:
+    "ASTM A105 Carbon Steel Round Bars with the best corrosion resistance to flowing seawater. Can be used up to 300°C. Available in Round, Bright, Hex, Square, Flat, Threaded, and Polished forms. Manufactured to ASTM A105 and ASME SA105 standards. Sizes from 4mm to 500mm OD with custom cut lengths.",
+
+  technicalOverview:
+    "Carbon Steel A105 Round Bar has the best corrosion resistance to flowing seawater. Carbon Steel A105 Threaded Bar can be used up to 300°C. Carbon Steel A105 Hex bars have the best corrosion resistance to general corrosion. Carbon Steel A105 Square Bar consists of high mechanical strength and mechanical properties. Carbon Steel A105 Hexagonal bars have the best corrosion resistance to oxidation corrosion. Carbon Steel A105 Flat bars have a wide range of usage in different industries. Carbon Steel A105 Polished bars are mostly used in automobile industries. Carbon Steel A105 Rods are also used in offshore oil industries and seawater equipment. Carbon Steel A105 Round bars are often used in pumps, condensers, and heat exchangers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A105 / ASME SA105":
+        "Carbon Steel A105 (UNS K03504) is a forged carbon steel piping component material with excellent corrosion resistance to flowing seawater, general corrosion, and oxidation corrosion. Can be used up to 300°C. Consists of high mechanical strength and mechanical properties. Available in Round, Bright, Hex, Square, Flat, Threaded, Polished, Cold Drawn, Hot Rolled, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A105, ASME SA105",
+    internationalStandards: "EN, DIN, JIS, ASTM, BS, ASME, AISI, IS",
+    technique:
+      "Hot Rolled, Cold Rolled, Cold Drawn, Forged Round Bar, Rod",
+    tolerance:
+      "H8, H9, H10, H11, H12, H13, K9, K10, K11, K12 or as per clients' requirements",
+    finish:
+      "Black, Bright, Peeled and Polished, Solution Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A105 / ASME SA105",
+    grade: "ASTM A105, ASME SA105",
+    roundBars: "OD 4mm – 500mm (as per customer requirement)",
+    brightBars: "OD 4mm – 500mm (as per customer requirement)",
+    hexBars: "18mm – 57mm (11/16\" to 2-3/4\")",
+    squareBars: "18mm – 47mm (11/16\" to 1-3/4\")",
+    flatBars: "1/2\" to 10\" thickness range 2mm – 150mm",
+    length: "1 to 6 Meters, Custom Cut Lengths",
+    finish: "Black, Bright, Peeled and Polished, Solution Annealed",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "ASTM A105 Hot Rolled Stock Available",
+        items: [
+          "ASTM A105 Hot Rolled Round Bars",
+          "ASTM A105 Hot Rolled Square Bars",
+          "ASTM A105 Hot Rolled Hex Bars",
+          "ASTM A105 Hot Rolled Flat Bars",
+          "ASME SA105 Hot Rolled Bars",
+        ],
+        image: "/stock/a105-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "ASTM A105 Cold Rolled Stock Available",
+        items: [
+          "ASTM A105 Cold Rolled Round Bars",
+          "ASTM A105 Cold Rolled Flat Bars",
+          "ASTM A105 Cold Rolled Square Bars",
+          "ASTM A105 Cold Rolled Hex Bars",
+          "ASME SA105 Cold Rolled Bars",
+        ],
+        image: "/stock/a105-cr-bar.jpg",
+      },
+    ],
+    coldDrawn: [
+      {
+        title: "ASTM A105 Cold Drawn Stock Available",
+        items: [
+          "ASTM A105 Cold Drawn Round Bars",
+          "ASTM A105 Cold Drawn Bright Bars",
+          "ASTM A105 Cold Drawn Shaft Bars",
+          "ASTM A105 Cold Drawn Precision Bars",
+          "ASME SA105 Cold Drawn Bars",
+        ],
+        image: "/stock/a105-cold-drawn-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "ASTM A105 Bright Stock Available",
+        items: [
+          "ASTM A105 Bright Round Bars",
+          "ASTM A105 Bright Square Bars",
+          "ASTM A105 Bright Hex Bars",
+          "ASTM A105 Bright Flat Bars",
+          "ASTM A105 Bright Shafting Bars",
+        ],
+        image: "/stock/a105-bright-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "ASTM A105 Forged Stock Available",
+        items: [
+          "ASTM A105 Forged Round Bars",
+          "ASTM A105 Forged Square Bars",
+          "ASTM A105 Forged Blocks",
+          "ASTM A105 Forged Step Shafts",
+          "ASTM A105 Forged Components",
+        ],
+        image: "/stock/a105-forged-bar.jpg",
+      },
+    ],
+    polished: [
+      {
+        title: "ASTM A105 Polished Stock Available",
+        items: [
+          "ASTM A105 Polished Round Bars",
+          "ASTM A105 Peeled & Polished Bars",
+          "ASTM A105 Solution Annealed Bars",
+          "ASTM A105 Precision Polished Bars",
+          "ASTM A105 Automotive Grade Polished Bars",
+        ],
+        image: "/stock/a105-polished-bar.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A105", uns: "K03504", werkstoff: "1.0460" },
+    { grade: "ASME SA105", uns: "K03504", werkstoff: "1.0460" },
+    { grade: "A105", uns: "K03504", werkstoff: "1.0460" },
+    { grade: "UNS K03504", uns: "K03504", werkstoff: "1.0460" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A105 (Min.)",
+      c: "—",
+      mn: "0.5",
+      si: "0.17",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "S,P,Cu",
+    },
+    {
+      grade: "ASTM A105 (Max.)",
+      c: "0.42",
+      mn: "0.8",
+      si: "0.37",
+      cr: "0.25",
+      ni: "0.3",
+      mo: "—",
+      other: "S: 0.035, P: 0.035, Cu: 0.25",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A105",
+      tensile: "485 MPa (70,000 psi)",
+      yield: "250 MPa (36,000 psi)",
+      elongation: "22%",
+      reduction: "30%",
+      hardness: "187 HB max",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Quenching & Tempering",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "A105 Carbon Steel Bars", price: "US $1000 – 2500 / Ton" },
+    { item: "ASTM A105 Carbon Steel Rods", price: "US $2000 – 3000 / Ton" },
+    { item: "Carbon Steel Hex Bar A105", price: "US $1.5 – 4.5 / Kilogram" },
+    { item: "ASTM A105 Carbon Steel Round Bar", price: "US $1800 – 2300 / Ton" },
+    { item: "Carbon Steel A105 Square Bar", price: "US $1550 – 2400 / Ton" },
+    { item: "A105 Carbon Steel Bar Supplier", price: "US $1800 – 2300 / Ton" },
+    { item: "ASTM A105 Gr. A105 Rods", price: "US $1300 – 2600 / Metric Ton" },
+  ],
+
+  otherForms: [
+    "A105 Carbon Steel Round Bars",
+    "A105 CS Flat Bars",
+    "A105 Carbon Steel Square Bars",
+    "A105 Carbon Steel Tie Rods",
+    "A105 CS Threaded Bars",
+    "A105 CS Bright Bars",
+    "A105 Carbon Steel Hex Bars",
+    "A105 Carbon Steel Flat Bars",
+    "Alloy UNS K03504 Hexagonal Bars",
+    "Alloy Steel UNS K03504 Round Rods",
+    "WNR. 1.0460 Rectangular Bars",
+    "A105 Carbon Steel Hollow Bars",
+    "Werkstoff Nr. 1.0460 Bars",
+    "UNS K03504 Polished Bars",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A105",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Visual",
+    },
+    {
+      test: "Ultrasonic Inspection",
+      frequency: "When required",
+      method: "ASTM A388",
+    },
+  ],
+
+  applicationIndustries: [
+    "Pumps",
+    "Condensers",
+    "Heat Exchangers",
+    "Offshore Oil Industries",
+    "Seawater Equipment",
+    "Automobile Industries",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Power Generation",
+    "Chemicals",
+    "Ship Builders",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "ASTM A105 Carbon Steel Round Bars Supplier in Mumbai, India",
+    "ASME SA105 Carbon Steel Bars Exporter",
+    "UNS K03504 Round Bar Stockist in India",
+    "Werkstoff 1.0460 Round Bars Dealer",
+    "Carbon Steel A105 Bright Bar Manufacturer",
+    "A105 Carbon Steel Threaded Bar Supplier",
+    "A105 Carbon Steel Hex Bars Stockist",
+    "A105 Carbon Steel Square Bars Exporter",
+    "A105 Carbon Steel Flat Bars Manufacturer",
+    "A105 Carbon Steel Polished Bars Supplier",
+    "A105 Carbon Steel Rods Dealer",
+    "A105 Cold Drawn Round Bar Manufacturer",
+    "A105 Hot Rolled Round Bar Supplier",
+    "A105 PSQ Shaft Bar Exporter",
+  ],
+
+  relatedSearches: [
+    "ASTM A105 Carbon Steel Round Bars Price List",
+    "ASTM A105 Round Bar Weight Calculator",
+    "ASTM A105 Round Bar Dimensions",
+    "ASTM A105 Round Bar Price Per Kg in India",
+    "ASTM A105 Round Bar Manufacturer in Mumbai",
+    "ASTM A105 Round Bar Supplier in India",
+    "ASTM A105 Round Bar Thickness Tolerance",
+    "ASTM A105 Round Bar Price List PDF",
+    "ASTM A105 Round Bar Mechanical Properties",
+    "ASTM A105 Round Bar Chemical Composition",
+    "ASTM A105 Round Bar Stockist in Pune",
+    "ASTM A105 Round Bar Exporter",
+    "ASTM A105 Round Bar Price in Mumbai",
+    "ASTM A105 Round Bar Size Chart",
+    "ASTM A105 Round Bar Price per Meter",
+    "A105 Carbon Steel Hex Bar Price",
+    "A105 Carbon Steel Square Bar Supplier",
+    "A105 Carbon Steel Flat Bar Manufacturers",
+    "ASTM A105 Round Bar Catalog PDF",
+    "ASTM A105 Round Bar Equivalent Grades",
+    "ASTM A105 Round Bar Price per Piece",
+    "ASTM A105 Round Bar updated price list",
+    "ASTM A105 Round Bar Size Chart",
+    "ASTM A105 Round Bar Manufacturers in Gujarat",
+    "ASTM A105 Round Bar Stockyards in India",
+    "ASTM A105 Round Bar thickness chart",
+    "ASTM A105 Round Bar Price in India",
+    "Top 100 ASTM A105 Round Bar Dealers in Mumbai",
+    "Buy ASTM A105 Round Bar Online",
+    "ASTM A105 Round Bar leading manufacturers in India",
+    "UNS K03504 Round Bar Price India",
+    "Werkstoff 1.0460 Round Bar Price India",
+    "ASTM A105 Round Bar Heat Treatment",
+    "ASTM A105 Round Bar Normalizing Temperature",
+    "ASTM A105 Round Bar Hardness Range",
+    "A105 Carbon Steel PSQ Shaft Bar",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 2,
+  slug: "astm-a350-lf2-carbon-steel-round-bars",
+  image: "/stock/a350-lf2-carbon-steel-round-bars.jpg",
+  title:
+    "ASTM A350 LF2 Carbon Steel Round Bars Supplier – UNS K03011 / 1.0508 (ASME SA350)",
+  shortDescription:
+    "ASTM A350 LF2 Carbon Steel Round Bars perform well at elevated temperatures. Offers good ductility and best creep properties. Available in Round, Bright, Hex, Square, Flat, Threaded, and Polished forms. Manufactured to ASTM A350 and ASME SA350 standards. Sizes from 4mm to 500mm OD with custom cut lengths.",
+
+  technicalOverview:
+    "Carbon Steel LF2 Round Bars tend to perform well at elevated temperatures. Carbon Steel LF2 Threaded Bar offers good ductility and best creep properties. The carbon steel LF2 Polished bar has the best corrosion resistance to oxidation corrosion. Carbon Steel LF2 Flat Bars possess high tensile strength and toughness. Carbon Steel LF2 Square bars can be hardened further, as it tends to harden rapidly compared to other grades. Carbon Steel LF2 Rods are mostly used in food processing units and pulp and paper industries. Carbon Steel LF2 Threaded Bars are often used for pharmaceutical equipment. Carbon Steel LF2 Round Bars are also used extensively in shafts and valves.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A350 LF2 / ASME SA350":
+        "Carbon Steel A350 LF2 (UNS K03011 / Werkstoff 1.0508) is a low-temperature carbon steel (LTCS) material with good ductility, best creep properties, high tensile strength and toughness. It performs well at elevated temperatures and can be hardened further as it tends to harden rapidly compared to other grades. Available in Round, Bright, Hex, Square, Flat, Threaded, Polished, Cold Drawn, Hot Rolled, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A350 / ASME SA350",
+    internationalStandards: "EN, DIN, JIS, ASTM, BS, ASME, AISI, IS",
+    technique:
+      "Hot Rolled, Cold Rolled, Cold Drawn, Forged Round Bar, Rod",
+    tolerance:
+      "H8, H9, H10, H11, H12, H13, K9, K10, K11, K12 or as per clients' requirements",
+    finish:
+      "Black, Bright, Peeled and Polished, Solution Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A350 / ASME SA350",
+    grade: "Carbon Steel A350 LF2",
+    roundBars: "OD 4mm – 500mm (as per customer requirement)",
+    brightBars: "OD 4mm – 500mm (as per customer requirement)",
+    hexBars: "18mm – 57mm (11/16\" to 2-3/4\")",
+    squareBars: "18mm – 47mm (11/16\" to 1-3/4\")",
+    flatBars: "1/2\" to 10\" thickness range 2mm – 150mm",
+    length: "1 to 6 Meters, Custom Cut Lengths",
+    finish: "Black, Bright, Peeled and Polished, Solution Annealed",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "ASTM A350 LF2 Hot Rolled Stock Available",
+        items: [
+          "ASTM A350 LF2 Hot Rolled Round Bars",
+          "ASTM A350 LF2 Hot Rolled Square Bars",
+          "ASTM A350 LF2 Hot Rolled Hex Bars",
+          "ASTM A350 LF2 Hot Rolled Flat Bars",
+          "ASME SA350 LF2 Hot Rolled Bars",
+        ],
+        image: "/stock/a350-lf2-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "ASTM A350 LF2 Cold Rolled Stock Available",
+        items: [
+          "ASTM A350 LF2 Cold Rolled Round Bars",
+          "ASTM A350 LF2 Cold Rolled Flat Bars",
+          "ASTM A350 LF2 Cold Rolled Square Bars",
+          "ASTM A350 LF2 Cold Rolled Hex Bars",
+          "ASME SA350 LF2 Cold Rolled Bars",
+        ],
+        image: "/stock/a350-lf2-cr-bar.jpg",
+      },
+    ],
+    coldDrawn: [
+      {
+        title: "ASTM A350 LF2 Cold Drawn Stock Available",
+        items: [
+          "ASTM A350 LF2 Cold Drawn Round Bars",
+          "ASTM A350 LF2 Cold Drawn Bright Bars",
+          "ASTM A350 LF2 Cold Drawn Shaft Bars",
+          "ASTM A350 LF2 Cold Drawn Precision Bars",
+          "ASME SA350 LF2 Cold Drawn Bars",
+        ],
+        image: "/stock/a350-lf2-cold-drawn-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "ASTM A350 LF2 Bright Stock Available",
+        items: [
+          "ASTM A350 LF2 Bright Round Bars",
+          "ASTM A350 LF2 Bright Square Bars",
+          "ASTM A350 LF2 Bright Hex Bars",
+          "ASTM A350 LF2 Bright Flat Bars",
+          "ASTM A350 LF2 Bright Shafting Bars",
+        ],
+        image: "/stock/a350-lf2-bright-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "ASTM A350 LF2 Forged Stock Available",
+        items: [
+          "ASTM A350 LF2 Forged Round Bars",
+          "ASTM A350 LF2 Forged Square Bars",
+          "ASTM A350 LF2 Forged Blocks",
+          "ASTM A350 LF2 Forged Step Shafts",
+          "ASTM A350 LF2 Forged Components",
+        ],
+        image: "/stock/a350-lf2-forged-bar.jpg",
+      },
+    ],
+    polished: [
+      {
+        title: "ASTM A350 LF2 Polished Stock Available",
+        items: [
+          "ASTM A350 LF2 Polished Round Bars",
+          "ASTM A350 LF2 Peeled & Polished Bars",
+          "ASTM A350 LF2 Solution Annealed Bars",
+          "ASTM A350 LF2 Precision Polished Bars",
+          "ASTM A350 LF2 LTCS Polished Bars",
+        ],
+        image: "/stock/a350-lf2-polished-bar.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A350 LF2", uns: "K03011", werkstoff: "1.0508" },
+    { grade: "ASME SA350 LF2", uns: "K03011", werkstoff: "1.0508" },
+    { grade: "A350 LF2", uns: "K03011", werkstoff: "1.0508" },
+    { grade: "UNS K03011", uns: "K03011", werkstoff: "1.0508" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A350 LF2 (Min.)",
+      c: "—",
+      mn: "0.6",
+      si: "0.17",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "S, P",
+    },
+    {
+      grade: "ASTM A350 LF2 (Max.)",
+      c: "0.30",
+      mn: "1.35",
+      si: "0.37",
+      cr: "—",
+      ni: "0.40",
+      mo: "—",
+      other: "S: 0.040, P: 0.035",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A350 LF2",
+      tensile: "485 – 655 MPa (70 – 95 ksi)",
+      yield: "250 MPa (36 ksi) min",
+      elongation: "22% min",
+      reduction: "30% min",
+      hardness: "197 HB max",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Quenching & Tempering",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "A350 LF2 Carbon Steel Bars", price: "US $1000 – 2500 / Ton" },
+    { item: "ASTM A350 LF2 Carbon Steel Rods", price: "US $2000 – 3000 / Ton" },
+    { item: "Carbon Steel Hex Bar A350 LF2", price: "US $1.5 – 4.5 / Kilogram" },
+    { item: "ASTM A350 LF2 Carbon Steel Round Bar", price: "US $1800 – 2300 / Ton" },
+    { item: "Carbon Steel A350 LF2 Square Bar", price: "US $1550 – 2400 / Ton" },
+    { item: "A350 LF2 Carbon Steel Bar Supplier", price: "US $1800 – 2300 / Ton" },
+    { item: "ASTM A350 Gr. A350 LF2 Rods", price: "US $1300 – 2600 / Metric Ton" },
+  ],
+
+  otherForms: [
+    "ASTM A350 CS Hex Bar",
+    "CS ASTM Bright Bar",
+    "ASME SA350 LTCS Hex Bar",
+    "CS Hexagonal Bar",
+    "ANSI B16.47 LTCS Bright Bar",
+    "ASME SA350 Carbon Steel Bar",
+    "Carbon Steel ASTM A350 Hexagonal Bar",
+    "ANSI B16.5 LF2 A350 Round Bars",
+    "ASTM A350 CS Round Bars",
+    "ASME SA350 Carbon Steel Round Bars",
+    "ASTM A350 CS Round Bars",
+    "Carbon Steel A350 Round Bars",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A350",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Impact Toughness (Charpy V-Notch)",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370 — at low temperature",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Visual",
+    },
+  ],
+
+  applicationIndustries: [
+    "Shafts & Valves",
+    "Food Processing Units",
+    "Pulp & Paper Industries",
+    "Pharmaceutical Equipment",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Power Generation",
+    "Chemicals",
+    "Ship Builders",
+    "Steel Industries",
+    "Low-Temperature Services (LTCS)",
+  ],
+
+  specializedIn: [
+    "ASTM A350 LF2 Carbon Steel Round Bars Supplier in Mumbai, India",
+    "ASME SA350 LF2 Carbon Steel Bars Exporter",
+    "UNS K03011 Round Bar Stockist in India",
+    "Werkstoff 1.0508 Round Bars Dealer",
+    "Carbon Steel A350 LF2 Bright Bar Manufacturer",
+    "A350 LF2 Carbon Steel Threaded Bar Supplier",
+    "A350 LF2 Carbon Steel Hex Bars Stockist",
+    "A350 LF2 Carbon Steel Square Bars Exporter",
+    "A350 LF2 Carbon Steel Flat Bars Manufacturer",
+    "A350 LF2 Carbon Steel Polished Bars Supplier",
+    "A350 LF2 Carbon Steel Rods Dealer",
+    "A350 LF2 Cold Drawn Round Bar Manufacturer",
+    "A350 LF2 Hot Rolled Round Bar Supplier",
+    "A350 LF2 LTCS Round Bar Exporter",
+  ],
+
+  relatedSearches: [
+    "ASTM A350 LF2 Carbon Steel Round Bars Price List",
+    "ASTM A350 LF2 Round Bar Weight Calculator",
+    "ASTM A350 LF2 Round Bar Dimensions",
+    "ASTM A350 LF2 Round Bar Price Per Kg in India",
+    "ASTM A350 LF2 Round Bar Manufacturer in Mumbai",
+    "ASTM A350 LF2 Round Bar Supplier in India",
+    "ASTM A350 LF2 Round Bar Thickness Tolerance",
+    "ASTM A350 LF2 Round Bar Price List PDF",
+    "ASTM A350 LF2 Round Bar Mechanical Properties",
+    "ASTM A350 LF2 Round Bar Chemical Composition",
+    "ASTM A350 LF2 Round Bar Stockist in Pune",
+    "ASTM A350 LF2 Round Bar Exporter",
+    "ASTM A350 LF2 Round Bar Price in Mumbai",
+    "ASTM A350 LF2 Round Bar Size Chart",
+    "ASTM A350 LF2 Round Bar Price per Meter",
+    "A350 LF2 Carbon Steel Hex Bar Price",
+    "A350 LF2 Carbon Steel Square Bar Supplier",
+    "A350 LF2 Carbon Steel Flat Bar Manufacturers",
+    "ASTM A350 LF2 Round Bar Catalog PDF",
+    "ASTM A350 LF2 Round Bar Equivalent Grades",
+    "ASTM A350 LF2 Round Bar Price per Piece",
+    "ASTM A350 LF2 Round Bar updated price list",
+    "ASTM A350 LF2 Round Bar Size Chart",
+    "ASTM A350 LF2 Round Bar Manufacturers in Gujarat",
+    "ASTM A350 LF2 Round Bar Stockyards in India",
+    "ASTM A350 LF2 Round Bar thickness chart",
+    "ASTM A350 LF2 Round Bar Price in India",
+    "Top 100 ASTM A350 LF2 Round Bar Dealers in Mumbai",
+    "Buy ASTM A350 LF2 Round Bar Online",
+    "ASTM A350 LF2 Round Bar leading manufacturers in India",
+    "UNS K03011 Round Bar Price India",
+    "Werkstoff 1.0508 Round Bar Price India",
+    "ASTM A350 LF2 Round Bar Heat Treatment",
+    "ASTM A350 LF2 Round Bar Normalizing Temperature",
+    "ASTM A350 LF2 Round Bar Hardness Range",
+    "A350 LF2 LTCS Round Bar",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 3,
+  slug: "astm-a350-lf3-carbon-steel-round-bars",
+  image: "/stock/a350-lf3-carbon-steel-round-bars.jpg",
+  title:
+    "ASTM A350 LF3 Carbon Steel Round Bars Supplier – UNS K03011 / 1.0508 (ASME SA350)",
+  shortDescription:
+    "ASTM A350 LF3 Carbon Steel Round Bars with the best corrosion resistance to general corrosion. Offers good ductility and best creep properties. Available in Round, Bright, Hex, Square, Flat, Threaded, and Polished forms. Manufactured to ASTM A350 and ASME SA350 standards. Sizes from 4mm to 500mm OD with custom cut lengths.",
+
+  technicalOverview:
+    "Carbon Steel LF3 Round bars have the best corrosion resistance to general corrosion. Carbon Steel LF3 Threaded Bar offers good ductility and best creep properties. The carbon steel LF3 Polished bar has the best corrosion resistance to oxidation corrosion. Carbon Steel LF3 Flat Bars possess the best welding and fabricating properties. Carbon Steel LF3 Square bars can be used effectively in a high-temperature environment. Carbon Steel LF3 Rods are mostly used for the construction of skyscrapers, bridges, and shipbuilding. Carbon Steel LF3 Threaded Bars are often used for pharmaceutical equipment. Carbon Steel LF3 Round Bars are also used extensively in heat exchangers and valves.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A350 LF3 / ASME SA350":
+        "Carbon Steel A350 LF3 (UNS K03011 / Werkstoff 1.0508) is a low-temperature carbon steel (LTCS) material with good ductility, best creep properties, and the best corrosion resistance to general and oxidation corrosion. It has the best welding and fabricating properties and can be used effectively in high-temperature environments. Available in Round, Bright, Hex, Square, Flat, Threaded, Polished, Cold Drawn, Hot Rolled, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A350 / ASME SA350",
+    internationalStandards: "EN, DIN, JIS, ASTM, BS, ASME, AISI, IS",
+    flangeStandards:
+      "ANSI B16.5, ANSI B16.47, B16.48, BS4504, BS 10, EN-1092",
+    technique:
+      "Hot Rolled, Cold Rolled, Cold Drawn, Forged Round Bar, Rod",
+    tolerance:
+      "H8, H9, H10, H11, H12, H13, K9, K10, K11, K12 or as per clients' requirements",
+    finish:
+      "Black, Bright, Peeled and Polished, Solution Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A350 / ASME SA350",
+    grade: "Carbon Steel A350 LF3",
+    roundBars: "OD 4mm – 500mm (as per customer requirement)",
+    brightBars: "OD 4mm – 500mm (as per customer requirement)",
+    hexBars: "18mm – 57mm (11/16\" to 2-3/4\")",
+    squareBars: "18mm – 47mm (11/16\" to 1-3/4\")",
+    flatBars: "1/2\" to 10\" thickness range 2mm – 150mm",
+    length: "1 to 6 Meters, Custom Cut Lengths",
+    finish: "Black, Bright, Peeled and Polished, Solution Annealed",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "ASTM A350 LF3 Hot Rolled Stock Available",
+        items: [
+          "ASTM A350 LF3 Hot Rolled Round Bars",
+          "ASTM A350 LF3 Hot Rolled Square Bars",
+          "ASTM A350 LF3 Hot Rolled Hex Bars",
+          "ASTM A350 LF3 Hot Rolled Flat Bars",
+          "ASME SA350 LF3 Hot Rolled Bars",
+        ],
+        image: "/stock/a350-lf3-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "ASTM A350 LF3 Cold Rolled Stock Available",
+        items: [
+          "ASTM A350 LF3 Cold Rolled Round Bars",
+          "ASTM A350 LF3 Cold Rolled Flat Bars",
+          "ASTM A350 LF3 Cold Rolled Square Bars",
+          "ASTM A350 LF3 Cold Rolled Hex Bars",
+          "ASME SA350 LF3 Cold Rolled Bars",
+        ],
+        image: "/stock/a350-lf3-cr-bar.jpg",
+      },
+    ],
+    coldDrawn: [
+      {
+        title: "ASTM A350 LF3 Cold Drawn Stock Available",
+        items: [
+          "ASTM A350 LF3 Cold Drawn Round Bars",
+          "ASTM A350 LF3 Cold Drawn Bright Bars",
+          "ASTM A350 LF3 Cold Drawn Shaft Bars",
+          "ASTM A350 LF3 Cold Drawn Precision Bars",
+          "ASME SA350 LF3 Cold Drawn Bars",
+        ],
+        image: "/stock/a350-lf3-cold-drawn-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "ASTM A350 LF3 Bright Stock Available",
+        items: [
+          "ASTM A350 LF3 Bright Round Bars",
+          "ASTM A350 LF3 Bright Square Bars",
+          "ASTM A350 LF3 Bright Hex Bars",
+          "ASTM A350 LF3 Bright Flat Bars",
+          "ASTM A350 LF3 Bright Shafting Bars",
+        ],
+        image: "/stock/a350-lf3-bright-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "ASTM A350 LF3 Forged Stock Available",
+        items: [
+          "ASTM A350 LF3 Forged Round Bars",
+          "ASTM A350 LF3 Forged Square Bars",
+          "ASTM A350 LF3 Forged Blocks",
+          "ASTM A350 LF3 Forged Step Shafts",
+          "ASTM A350 LF3 Forged Components",
+        ],
+        image: "/stock/a350-lf3-forged-bar.jpg",
+      },
+    ],
+    polished: [
+      {
+        title: "ASTM A350 LF3 Polished Stock Available",
+        items: [
+          "ASTM A350 LF3 Polished Round Bars",
+          "ASTM A350 LF3 Peeled & Polished Bars",
+          "ASTM A350 LF3 Solution Annealed Bars",
+          "ASTM A350 LF3 Precision Polished Bars",
+          "ASTM A350 LF3 LTCS Polished Bars",
+        ],
+        image: "/stock/a350-lf3-polished-bar.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A350 LF3", uns: "K03011", werkstoff: "1.0508" },
+    { grade: "ASME SA350 LF3", uns: "K03011", werkstoff: "1.0508" },
+    { grade: "A350 LF3", uns: "K03011", werkstoff: "1.0508" },
+    { grade: "UNS K03011", uns: "K03011", werkstoff: "1.0508" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A350 LF3 (Min.)",
+      c: "—",
+      mn: "0.6",
+      si: "0.17",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "S, P",
+    },
+    {
+      grade: "ASTM A350 LF3 (Max.)",
+      c: "0.30",
+      mn: "1.35",
+      si: "0.37",
+      cr: "—",
+      ni: "0.40",
+      mo: "—",
+      other: "S: 0.040, P: 0.035",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A350 LF3",
+      tensile: "485 – 655 MPa (70 – 95 ksi)",
+      yield: "250 MPa (36 ksi) min",
+      elongation: "22% min",
+      reduction: "30% min",
+      hardness: "197 HB max",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Quenching & Tempering",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "A350 LF3 Carbon Steel Bars", price: "US $1000 – 2500 / Ton" },
+    { item: "ASTM A350 LF3 Carbon Steel Rods", price: "US $2000 – 3000 / Ton" },
+    { item: "Carbon Steel Hex Bar A350 LF3", price: "US $1.5 – 4.5 / Kilogram" },
+    { item: "ASTM A350 LF3 Carbon Steel Round Bar", price: "US $1800 – 2300 / Ton" },
+    { item: "Carbon Steel A350 LF3 Square Bar", price: "US $1550 – 2400 / Ton" },
+    { item: "A350 LF3 Carbon Steel Bar Supplier", price: "US $1800 – 2300 / Ton" },
+    { item: "ASTM A350 Gr. A350 LF3 Rods", price: "US $1300 – 2600 / Metric Ton" },
+  ],
+
+  otherForms: [
+    "ASTM A350 CS Hex Bar",
+    "CS ASTM Bright Bar",
+    "ASME SA350 LTCS Hex Bar",
+    "CS Hexagonal Bar",
+    "ANSI B16.47 LTCS Bright Bar",
+    "ASME SA350 Carbon Steel Bar",
+    "Carbon Steel ASTM A350 Hexagonal Bar",
+    "ANSI B16.5 LF3 A350 Round Bars",
+    "ASTM A350 CS Round Bars",
+    "ASME SA350 Carbon Steel Round Bars",
+    "ASTM A350 CS Round Bars",
+    "Carbon Steel A350 Round Bars",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A350",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Impact Toughness (Charpy V-Notch)",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370 — at low temperature",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Visual",
+    },
+  ],
+
+  applicationIndustries: [
+    "Skyscrapers & Bridges",
+    "Shipbuilding",
+    "Heat Exchangers & Valves",
+    "Pharmaceutical Equipment",
+    "Food Processing Units",
+    "Pulp & Paper Industries",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Power Generation",
+    "Chemicals",
+    "Steel Industries",
+    "Low-Temperature Services (LTCS)",
+  ],
+
+  specializedIn: [
+    "ASTM A350 LF3 Carbon Steel Round Bars Supplier in Mumbai, India",
+    "ASME SA350 LF3 Carbon Steel Bars Exporter",
+    "UNS K03011 Round Bar Stockist in India",
+    "Werkstoff 1.0508 Round Bars Dealer",
+    "Carbon Steel A350 LF3 Bright Bar Manufacturer",
+    "A350 LF3 Carbon Steel Threaded Bar Supplier",
+    "A350 LF3 Carbon Steel Hex Bars Stockist",
+    "A350 LF3 Carbon Steel Square Bars Exporter",
+    "A350 LF3 Carbon Steel Flat Bars Manufacturer",
+    "A350 LF3 Carbon Steel Polished Bars Supplier",
+    "A350 LF3 Carbon Steel Rods Dealer",
+    "A350 LF3 Cold Drawn Round Bar Manufacturer",
+    "A350 LF3 Hot Rolled Round Bar Supplier",
+    "A350 LF3 LTCS Round Bar Exporter",
+  ],
+
+  relatedSearches: [
+    "ASTM A350 LF3 Carbon Steel Round Bars Price List",
+    "ASTM A350 LF3 Round Bar Weight Calculator",
+    "ASTM A350 LF3 Round Bar Dimensions",
+    "ASTM A350 LF3 Round Bar Price Per Kg in India",
+    "ASTM A350 LF3 Round Bar Manufacturer in Mumbai",
+    "ASTM A350 LF3 Round Bar Supplier in India",
+    "ASTM A350 LF3 Round Bar Thickness Tolerance",
+    "ASTM A350 LF3 Round Bar Price List PDF",
+    "ASTM A350 LF3 Round Bar Mechanical Properties",
+    "ASTM A350 LF3 Round Bar Chemical Composition",
+    "ASTM A350 LF3 Round Bar Stockist in Pune",
+    "ASTM A350 LF3 Round Bar Exporter",
+    "ASTM A350 LF3 Round Bar Price in Mumbai",
+    "ASTM A350 LF3 Round Bar Size Chart",
+    "ASTM A350 LF3 Round Bar Price per Meter",
+    "A350 LF3 Carbon Steel Hex Bar Price",
+    "A350 LF3 Carbon Steel Square Bar Supplier",
+    "A350 LF3 Carbon Steel Flat Bar Manufacturers",
+    "ASTM A350 LF3 Round Bar Catalog PDF",
+    "ASTM A350 LF3 Round Bar Equivalent Grades",
+    "ASTM A350 LF3 Round Bar Price per Piece",
+    "ASTM A350 LF3 Round Bar updated price list",
+    "ASTM A350 LF3 Round Bar Size Chart",
+    "ASTM A350 LF3 Round Bar Manufacturers in Gujarat",
+    "ASTM A350 LF3 Round Bar Stockyards in India",
+    "ASTM A350 LF3 Round Bar thickness chart",
+    "ASTM A350 LF3 Round Bar Price in India",
+    "Top 100 ASTM A350 LF3 Round Bar Dealers in Mumbai",
+    "Buy ASTM A350 LF3 Round Bar Online",
+    "ASTM A350 LF3 Round Bar leading manufacturers in India",
+    "UNS K03011 Round Bar Price India",
+    "Werkstoff 1.0508 Round Bar Price India",
+    "ASTM A350 LF3 Round Bar Heat Treatment",
+    "ASTM A350 LF3 Round Bar Normalizing Temperature",
+    "ASTM A350 LF3 Round Bar Hardness Range",
+    "A350 LF3 LTCS Round Bar",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 4,
+  slug: "carbon-steel-st52-round-bar",
+  image: "/stock/st52-carbon-steel-round-bar.jpg",
+  title:
+    "Carbon Steel ST 52 Round Bar Supplier – DIN 1.0580 / S355JR / High Yield Strength ST 52",
+  shortDescription:
+    "Carbon Steel ST 52 Round Bars with high yield strength, manganese content up to 1.2%, chromium up to 0.55%, and carbon up to 0.20%. Available in Round, Bright, Hex, Square, Flat, Threaded, and Polished forms. Manufactured to DIN 1.0580 / S355JR / ST52-3 standards. Sizes from 4mm to 500mm OD with custom cut lengths.",
+
+  technicalOverview:
+    "Carbon Steel alloy ST 52 Round Bar contains manganese content up to 1.2%, chromium content up to 0.55%, and carbon content up to 0.20%. Carbon Steel alloy ST 52 Round Bar can be hardened further. Carbon steel ST 52 Threaded Bar offers good ductility and annealing properties. Carbon Steel ST 52 Flat bar possesses good creep rupture strength. Carbon Steel ST 52 Hex bar has the best corrosion resistance to oxidation corrosion. Carbon Steel ST 52 Polished bars are mostly used in household applications. Carbon Steel ST 52 Hexagonal bars are often used in petrochemical industries. Carbon Steel ST 52 Square bars can also be used in gas processing units and chemical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Carbon Steel ST 52 (DIN 1.0580)":
+        "Carbon Steel ST 52 (DIN 1.0580 / ST52-3 / S355JR) is a high-yield-strength low-carbon steel with manganese up to 1.2%, chromium up to 0.55%, and carbon up to 0.20%. Offers good ductility and annealing properties, good creep rupture strength, and the best corrosion resistance to oxidation corrosion. Can be hardened further. Available in Round, Bright, Hex, Square, Flat, Threaded, Polished, Cold Drawn, Hot Rolled, and Forged forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "DIN 2391, DIN 1.0580, EN, JIS, ASTM, BS, ASME, AISI, IS",
+    internationalStandards:
+      "DIN ST52-3, EN S355JR, JIS SM490A, ISO FE510B, ASTM E36-2, ASTM A572 Gr.50, GB Q345B",
+    technique:
+      "Hot Rolled, Cold Rolled, Cold Drawn, Forged Round Bar, Rod",
+    tolerance:
+      "H8, H9, H10, H11, H12, H13, K9, K10, K11, K12 or as per clients' requirements",
+    finish:
+      "Black, Bright, Peeled and Polished, Solution Annealed",
+  },
+
+  specifications: {
+    standard: "DIN 2391 / DIN 1.0580 / S355JR / ST52-3",
+    grade: "Carbon Steel ST 52",
+    roundBars: "OD 4mm – 500mm (as per customer requirement)",
+    brightBars: "OD 4mm – 500mm (as per customer requirement)",
+    hexBars: "18mm – 57mm (11/16\" to 2-3/4\")",
+    squareBars: "18mm – 47mm (11/16\" to 1-3/4\")",
+    flatBars: "1/2\" to 10\" thickness range 2mm – 150mm",
+    length: "1 to 6 Meters, Custom Cut Lengths",
+    finish: "Black, Bright, Peeled and Polished, Solution Annealed",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "Carbon Steel ST 52 Hot Rolled Stock Available",
+        items: [
+          "Carbon Steel ST 52 Hot Rolled Round Bars",
+          "Carbon Steel ST 52 Hot Rolled Square Bars",
+          "Carbon Steel ST 52 Hot Rolled Hex Bars",
+          "Carbon Steel ST 52 Hot Rolled Flat Bars",
+          "DIN 1.0580 ST 52 Hot Rolled Bars",
+        ],
+        image: "/stock/st52-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "Carbon Steel ST 52 Cold Rolled Stock Available",
+        items: [
+          "Carbon Steel ST 52 Cold Rolled Round Bars",
+          "Carbon Steel ST 52 Cold Rolled Flat Bars",
+          "Carbon Steel ST 52 Cold Rolled Square Bars",
+          "Carbon Steel ST 52 Cold Rolled Hex Bars",
+          "DIN 1.0580 ST 52 Cold Rolled Bars",
+        ],
+        image: "/stock/st52-cr-bar.jpg",
+      },
+    ],
+    coldDrawn: [
+      {
+        title: "Carbon Steel ST 52 Cold Drawn Stock Available",
+        items: [
+          "Carbon Steel ST 52 Cold Drawn Round Bars",
+          "Carbon Steel ST 52 Cold Drawn Bright Bars",
+          "Carbon Steel ST 52 Cold Drawn Shaft Bars",
+          "Carbon Steel ST 52 Cold Drawn Precision Bars",
+          "DIN 2391 ST 52 Cold Drawn Bars",
+        ],
+        image: "/stock/st52-cold-drawn-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "Carbon Steel ST 52 Bright Stock Available",
+        items: [
+          "Carbon Steel ST 52 Bright Round Bars",
+          "Carbon Steel ST 52 Bright Square Bars",
+          "Carbon Steel ST 52 Bright Hex Bars",
+          "Carbon Steel ST 52 Bright Flat Bars",
+          "Carbon Steel ST 52 Bright Shafting Bars",
+        ],
+        image: "/stock/st52-bright-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "Carbon Steel ST 52 Forged Stock Available",
+        items: [
+          "Carbon Steel ST 52 Forged Round Bars",
+          "Carbon Steel ST 52 Forged Square Bars",
+          "Carbon Steel ST 52 Forged Blocks",
+          "Carbon Steel ST 52 Forged Step Shafts",
+          "Carbon Steel ST 52 Forged Components",
+        ],
+        image: "/stock/st52-forged-bar.jpg",
+      },
+    ],
+    polished: [
+      {
+        title: "Carbon Steel ST 52 Polished Stock Available",
+        items: [
+          "Carbon Steel ST 52 Polished Round Bars",
+          "Carbon Steel ST 52 Peeled & Polished Bars",
+          "Carbon Steel ST 52 Solution Annealed Bars",
+          "Carbon Steel ST 52 Precision Polished Bars",
+          "Carbon Steel ST 52 Household Grade Polished Bars",
+        ],
+        image: "/stock/st52-polished-bar.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ST52-3", uns: "—", werkstoff: "1.0580", standard: "DIN" },
+    { grade: "S355JR", uns: "—", werkstoff: "1.0045", standard: "EN" },
+    { grade: "SM490A", uns: "—", werkstoff: "—", standard: "JIS" },
+    { grade: "FE510B", uns: "—", werkstoff: "—", standard: "ISO" },
+    { grade: "E36-2", uns: "—", werkstoff: "—", standard: "ASTM" },
+    { grade: "A572 Gr.50", uns: "—", werkstoff: "—", standard: "ASTM" },
+    { grade: "Q345B", uns: "—", werkstoff: "—", standard: "GB" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Carbon Steel ST 52",
+      c: "0.22 max",
+      mn: "1.60 max",
+      si: "0.55 max",
+      cr: "0.55 max",
+      ni: "—",
+      mo: "—",
+      other: "P: 0.030 max, S: 0.030 max, Cu: 0.55 max, N: 0.012 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Carbon Steel ST 52",
+      tensile: "510 – 680 MPa",
+      yield: "355 MPa min",
+      elongation: "22% min",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "880°C – 920°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "850°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Quenching & Tempering",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "Carbon Steel ST 52 Bars", price: "US $1000 – 2500 / Ton" },
+    { item: "Carbon Steel ST 52 Rods", price: "US $2000 – 3000 / Ton" },
+    { item: "Carbon Steel ST 52 Hex Bar", price: "US $1.5 – 4.5 / Kilogram" },
+    { item: "Carbon Steel ST 52 Round Bar", price: "US $1800 – 2300 / Ton" },
+    { item: "Carbon Steel ST 52 Square Bar", price: "US $1550 – 2400 / Ton" },
+    { item: "Carbon Steel ST 52 Bar Supplier", price: "US $1800 – 2300 / Ton" },
+    { item: "Carbon Steel ST 52 Rods", price: "US $1300 – 2600 / Metric Ton" },
+  ],
+
+  otherForms: [
+    "ASTM ST 52 CS Hex Bar",
+    "CS ASTM Bright Bar",
+    "ASME ST 52 LTCS Hex Bar",
+    "CS Hexagonal Bar",
+    "ANSI B16.47 LTCS Bright Bar",
+    "ASME ST 52 Carbon Steel Bar",
+    "Carbon Steel ASTM ST 52 Hexagonal Bar",
+    "ANSI B16.5 LF2 ST 52 Round Bars",
+    "ASTM ST 52 CS Round Bars",
+    "ASME ST 52 Carbon Steel Round Bars",
+    "ASTM ST 52 CS Round Bars",
+    "Carbon Steel ST 52 Round Bars",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "DIN 1.0580 / ST52-3",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Impact Toughness (Charpy V-Notch)",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Visual",
+    },
+  ],
+
+  applicationIndustries: [
+    "Household Applications",
+    "Petrochemical Industries",
+    "Gas Processing Units",
+    "Chemical Equipment",
+    "Skyscrapers & Bridges",
+    "Shipbuilding",
+    "Heat Exchangers & Valves",
+    "Pharmaceutical Equipment",
+    "Food Processing Units",
+    "Pulp & Paper Industries",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Carbon Steel ST 52 Round Bar Supplier in Mumbai, India",
+    "DIN 1.0580 ST 52 Carbon Steel Bars Exporter",
+    "High Yield Strength ST 52 Bar Stockist in India",
+    "ST52-3 Mild Steel Round Bar Dealer",
+    "Carbon Steel ST 52 Bright Bar Manufacturer",
+    "ST 52 Carbon Steel Threaded Bar Supplier",
+    "ST 52 Carbon Steel Hex Bars Stockist",
+    "ST 52 Carbon Steel Square Bars Exporter",
+    "ST 52 Carbon Steel Flat Bars Manufacturer",
+    "ST 52 Carbon Steel Polished Bars Supplier",
+    "ST 52 Carbon Steel Rods Dealer",
+    "ST 52 Cold Drawn Round Bar Manufacturer",
+    "ST 52 Hot Rolled Round Bar Supplier",
+    "DIN 2391 Low Carbon Steel Bars Exporter",
+  ],
+
+  relatedSearches: [
+    "Carbon Steel ST 52 Round Bar Price List",
+    "ST 52 Round Bar Weight Calculator",
+    "ST 52 Round Bar Dimensions",
+    "ST 52 Round Bar Price Per Kg in India",
+    "ST 52 Round Bar Manufacturer in Mumbai",
+    "ST 52 Round Bar Supplier in India",
+    "ST 52 Round Bar Thickness Tolerance",
+    "ST 52 Round Bar Price List PDF",
+    "ST 52 Round Bar Mechanical Properties",
+    "ST 52 Round Bar Chemical Composition",
+    "ST 52 Round Bar Stockist in Pune",
+    "ST 52 Round Bar Exporter",
+    "ST 52 Round Bar Price in Mumbai",
+    "ST 52 Round Bar Size Chart",
+    "ST 52 Round Bar Price per Meter",
+    "ST 52 Carbon Steel Hex Bar Price",
+    "ST 52 Carbon Steel Square Bar Supplier",
+    "ST 52 Carbon Steel Flat Bar Manufacturers",
+    "ST 52 Round Bar Catalog PDF",
+    "ST 52 Round Bar Equivalent Grades",
+    "ST 52 Round Bar Price per Piece",
+    "ST 52 Round Bar updated price list",
+    "ST 52 Round Bar Size Chart",
+    "ST 52 Round Bar Manufacturers in Gujarat",
+    "ST 52 Round Bar Stockyards in India",
+    "ST 52 Round Bar thickness chart",
+    "ST 52 Round Bar Price in India",
+    "Top 100 ST 52 Round Bar Dealers in Mumbai",
+    "Buy ST 52 Round Bar Online",
+    "ST 52 Round Bar leading manufacturers in India",
+    "DIN 1.0580 Round Bar Price India",
+    "S355JR Round Bar Price India",
+    "ST 52 Round Bar Heat Treatment",
+    "ST 52 Round Bar Normalizing Temperature",
+    "ST 52 Round Bar Hardness Range",
+    "DIN 2391 Low Carbon Steel Bar",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 5,
+  slug: "astm-a36-carbon-steel-round-bar",
+  image: "/stock/a36-carbon-steel-round-bar.jpg",
+  title:
+    "ASTM A36 Carbon Steel Round Bar Supplier – UNS K02600 / ASME SA36 / A36 Mild Steel",
+  shortDescription:
+    "ASTM A36 Carbon Steel Round Bars with the best corrosion resistance to crevice and pitting corrosion, and the best welding and mechanical properties. Contains Ferrum up to 98%, Molybdenum up to 1.03%, and Silicon up to 0.30%. Manufactured to ASTM A36 and ASME SA36 standards. Sizes from 4mm to 500mm OD with custom cut lengths.",
+
+  technicalOverview:
+    "Carbon Steel A36 Round Bar has the best corrosion resistance to crevice and pitting corrosion. Carbon Steel A36 Threaded Bar consists of the best welding and mechanical properties. Carbon Steel alloy A36 can be hardened further by the heat working process. Carbon Steel A36 Hex consists of good heat resistance. Carbon Steel alloy A36 Round Bar contains Ferrum content up to 98%, Molybdenum content up to 1.03%, and silicon content up to 0.30%. Carbon Steel A36 Hexagonal bars are mostly used in the marine industry, offshore oil drilling companies, and seawater equipment. Carbon Steel A36 Polished Bars are often used in pharmaceutical equipment and chemical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "ASTM A36 / ASME SA36":
+        "ASTM A36 (UNS K02600) is a low carbon steel grade with the best corrosion resistance to crevice and pitting corrosion, best welding and mechanical properties, good heat resistance, and can be hardened further by the heat working process. Contains Ferrum up to 98%, Molybdenum up to 1.03%, and Silicon up to 0.30%. Available in Round, Bright, Hex, Square, Flat, Threaded, Polished, Cold Rolled, Cold Finished, Forged, and Hollow Bar forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A36, ASME SA36",
+    internationalStandards: "EN, DIN, JIS, ASTM, BS, ASME, AISI, IS",
+    technique:
+      "Hot Rolled, Cold Rolled, Cold Drawn, Forged Round Bar, Rod",
+    tolerance:
+      "H8, H9, H10, H11, H12, H13, K9, K10, K11, K12 or as per clients' requirements",
+    finish:
+      "Black, Bright, Peeled and Polished, Solution Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A36 / ASME SA36",
+    grade: "ASTM A36 Steel Round Bar",
+    roundBars: "OD 4mm – 500mm (as per customer requirement)",
+    brightBars: "OD 4mm – 500mm (as per customer requirement)",
+    hexBars: "18mm – 57mm (11/16\" to 2-3/4\")",
+    squareBars: "18mm – 47mm (11/16\" to 1-3/4\")",
+    flatBars: "1/2\" to 10\" thickness range 2mm – 150mm",
+    length: "1 to 6 Meters, Custom Cut Lengths",
+    finish: "Black, Bright, Peeled and Polished, Solution Annealed",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "ASTM A36 Hot Rolled Stock Available",
+        items: [
+          "ASTM A36 Hot Rolled Round Bars",
+          "ASTM A36 Hot Rolled Square Bars",
+          "ASTM A36 Hot Rolled Hex Bars",
+          "ASTM A36 Hot Rolled Flat Bars",
+          "ASME SA36 Hot Rolled Bars",
+        ],
+        image: "/stock/a36-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "ASTM A36 Cold Rolled Stock Available",
+        items: [
+          "ASTM A36 Cold Rolled Round Bars",
+          "ASTM A36 Cold Rolled Flat Bars",
+          "ASTM A36 Cold Rolled Square Bars",
+          "ASTM A36 Cold Rolled Hex Bars",
+          "ASTM A36 Cold Finished Round Bars",
+        ],
+        image: "/stock/a36-cr-bar.jpg",
+      },
+    ],
+    coldDrawn: [
+      {
+        title: "ASTM A36 Cold Drawn Stock Available",
+        items: [
+          "ASTM A36 Cold Drawn Round Bars",
+          "ASTM A36 Cold Drawn Bright Bars",
+          "ASTM A36 Cold Drawn Shaft Bars",
+          "ASTM A36 Cold Drawn Precision Bars",
+          "ASME SA36 Cold Drawn Bars",
+        ],
+        image: "/stock/a36-cold-drawn-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "ASTM A36 Bright Stock Available",
+        items: [
+          "ASTM A36 Bright Round Bars",
+          "ASTM A36 Bright Square Bars",
+          "ASTM A36 Bright Hex Bars",
+          "ASTM A36 Bright Flat Bars",
+          "ASTM A36 Bright Shafting Bars",
+        ],
+        image: "/stock/a36-bright-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "ASTM A36 Forged Stock Available",
+        items: [
+          "ASTM A36 Forged Round Bars",
+          "ASTM A36 Forged Square Bars",
+          "ASTM A36 Forged Blocks",
+          "ASTM A36 Forged Step Shafts",
+          "ASTM A36 Forged Components",
+        ],
+        image: "/stock/a36-forged-bar.jpg",
+      },
+    ],
+    polished: [
+      {
+        title: "ASTM A36 Polished Stock Available",
+        items: [
+          "ASTM A36 Polished Round Bars",
+          "ASTM A36 Peeled & Polished Bars",
+          "ASTM A36 Solution Annealed Bars",
+          "ASTM A36 Precision Polished Bars",
+          "ASTM A36 Pharma & Chemical Grade Polished Bars",
+        ],
+        image: "/stock/a36-polished-bar.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "ASTM A36", uns: "K02600", werkstoff: "—", standard: "ASTM" },
+    { grade: "Fe360D2", uns: "—", werkstoff: "—", standard: "EN" },
+    { grade: "S235J2G4", uns: "—", werkstoff: "1.0117", standard: "EN" },
+    { grade: "Q235D", uns: "—", werkstoff: "—", standard: "GB" },
+    { grade: "40EE", uns: "—", werkstoff: "—", standard: "BS" },
+    { grade: "SM 400 A", uns: "—", werkstoff: "—", standard: "JIS" },
+    { grade: "Fe 360B", uns: "—", werkstoff: "—", standard: "ISO" },
+    { grade: "IS 226", uns: "—", werkstoff: "—", standard: "IS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "ASTM A36",
+      c: "0.27 max",
+      mn: "1.20 max",
+      si: "0.15 – 0.40",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "P: 0.04 max, S: 0.05 max, Co: 0.20 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "ASTM A36",
+      tensile: "400 – 550 MPa (58 – 80 ksi)",
+      yield: "250 MPa (36 ksi) min",
+      elongation: "20% min (in 8 in.) / 23% min (in 2 in.)",
+      hardness: "—",
+      density: "7.85 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "870°C – 920°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "840°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Quenching & Tempering",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "—",
+    },
+  ],
+
+  priceList: [
+    { item: "A36 Carbon Steel Rectangle Bar", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "A36 Carbon Steel Cold Rolled Round Bar", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "ASTM A36 Carbon Steel Forged Bar", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASTM A36 Carbon Steel Bright Bar", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "ASTM A36 Carbon Steel Square Bar", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "ASTM A36 Carbon Steel Hollow Bar",
+    "ASTM A36 Carbon Steel Square Bar",
+    "ASTM A36 Carbon Steel Hex Bar",
+    "ASTM A36 Carbon Steel Flat Bar",
+    "ASTM A36 Carbon Steel Bright Bar",
+    "ASTM A36 Carbon Steel Round Bar",
+    "ASTM A36 Carbon Steel Forged Bar",
+    "ASTM A36 Carbon Steel Threaded Bar",
+    "ASTM A36 Carbon Steel Welding Rods",
+    "ASTM A36 Carbon Steel Rod",
+    "ASTM A36 Carbon Steel Shaft",
+    "ASTM A36 Carbon Steel Rectangle Bar",
+    "ASTM A36 Carbon Steel Hexagonal Bar",
+    "ASTM A36 Carbon Steel Rectangular Bar",
+    "ASTM A36 Carbon Steel Cold Rolled Round Bar",
+    "ASTM A36 Carbon Steel Hindalco Round Bar",
+    "ASTM A36 Carbon Steel Threaded Rod",
+    "ASTM A36 Carbon Steel Cold Finished Round Bar",
+    "ASTM A36 Carbon Steel Polished Round Bar",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A36",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Impact Toughness (Charpy V-Notch)",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Visual",
+    },
+  ],
+
+  applicationIndustries: [
+    "Marine Industry",
+    "Offshore Oil Drilling Companies",
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Chemical Equipment",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Skyscrapers & Bridges",
+    "Shipbuilding",
+    "Heat Exchangers & Valves",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "ASTM A36 Carbon Steel Round Bar Supplier in Mumbai, India",
+    "ASME SA36 Carbon Steel Bars Exporter",
+    "UNS K02600 Round Bar Stockist in India",
+    "A36 Mild Steel Round Bar Dealer",
+    "Carbon Steel A36 Bright Bar Manufacturer",
+    "A36 Carbon Steel Threaded Bar Supplier",
+    "A36 Carbon Steel Hex Bars Stockist",
+    "A36 Carbon Steel Square Bars Exporter",
+    "A36 Carbon Steel Flat Bars Manufacturer",
+    "A36 Carbon Steel Polished Bars Supplier",
+    "A36 Carbon Steel Rods Dealer",
+    "A36 Cold Drawn Round Bar Manufacturer",
+    "A36 Hot Rolled Round Bar Supplier",
+    "A36 Low Carbon Steel Round Bar Exporter",
+  ],
+
+  relatedSearches: [
+    "ASTM A36 Carbon Steel Round Bar Price List",
+    "A36 Round Bar Weight Calculator",
+    "A36 Round Bar Dimensions",
+    "A36 Round Bar Price Per Kg in India",
+    "A36 Round Bar Manufacturer in Mumbai",
+    "A36 Round Bar Supplier in India",
+    "A36 Round Bar Thickness Tolerance",
+    "A36 Round Bar Price List PDF",
+    "A36 Round Bar Mechanical Properties",
+    "A36 Round Bar Chemical Composition",
+    "A36 Round Bar Stockist in Pune",
+    "A36 Round Bar Exporter",
+    "A36 Round Bar Price in Mumbai",
+    "A36 Round Bar Size Chart",
+    "A36 Round Bar Price per Meter",
+    "A36 Carbon Steel Hex Bar Price",
+    "A36 Carbon Steel Square Bar Supplier",
+    "A36 Carbon Steel Flat Bar Manufacturers",
+    "A36 Round Bar Catalog PDF",
+    "A36 Round Bar Equivalent Grades",
+    "A36 Round Bar Price per Piece",
+    "A36 Round Bar updated price list",
+    "A36 Round Bar Size Chart",
+    "A36 Round Bar Manufacturers in Gujarat",
+    "A36 Round Bar Stockyards in India",
+    "A36 Round Bar thickness chart",
+    "A36 Round Bar Price in India",
+    "Top 100 A36 Round Bar Dealers in Mumbai",
+    "Buy A36 Round Bar Online",
+    "A36 Round Bar leading manufacturers in India",
+    "UNS K02600 Round Bar Price India",
+    "ASTM A36 Round Bar Price India",
+    "A36 Round Bar Heat Treatment",
+    "A36 Round Bar Normalizing Temperature",
+    "A36 Round Bar Hardness Range",
+    "A36 Mild Steel Round Bar",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 6,
+  slug: "carbon-steel-a1018-round-bars",
+  image: "/stock/a1018-carbon-steel-round-bars.jpg",
+  title:
+    "Carbon Steel A1018 Round Bars Supplier – AISI 1018 / SAE 1018 / ASTM A1018 (Mild Steel)",
+  shortDescription:
+    "Carbon Steel AISI 1018 Round Bars with the best corrosion resistance to stress corrosion cracking, and the best fabricating and welding properties. Contains Ferrum up to 99%, Molybdenum up to 0.25%, and Silicon up to 0.35%. Manufactured to ASTM A1018 and ASME SA1018 standards. Sizes from 4mm to 500mm OD with custom cut lengths.",
+
+  technicalOverview:
+    "Carbon Steel AISI 1018 Round Bar has the best corrosion resistance to stress corrosion cracking. Carbon Steel AISI 1018 Threaded Bar consists of the best fabricating and welding properties. Carbon Steel alloy AISI 1018 can be hardened further by the heat working process. Carbon Steel AISI 1018 consists of good heat resistance. Carbon Steel alloy AISI 1018 Round Bar contains Ferrum content up to 99%, Molybdenum content up to 0.25%, and silicon content up to 0.35%. Carbon Steel AISI 1018 Hexagonal bars are mostly used in the pulp and paper industry. Carbon Steel AISI 1018 Polished Bars are often used for petrochemical industries and gas processing units. Carbon Steel AISI 1018 Rods are also used in heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Carbon Steel A1018 / AISI 1018 / SAE 1018":
+        "Carbon Steel AISI 1018 (UNS S41000 / Werkstoff 1.4006) is a mild low-carbon steel grade with the best corrosion resistance to stress corrosion cracking, best fabricating and welding properties, good heat resistance, and can be hardened further by the heat working process. Contains Ferrum up to 99%, Molybdenum up to 0.25%, and Silicon up to 0.35%. Available in Round, Bright, Hex, Square, Flat, Threaded, Polished, Cold Rolled, Cold Drawn, Forged, Hollow, and Black Bar forms.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A1018, ASME SA1018",
+    internationalStandards: "EN, DIN, JIS, ASTM, BS, ASME, AISI, IS",
+    technique:
+      "Hot Rolled, Cold Rolled, Cold Drawn, Forged Round Bar, Rod",
+    tolerance:
+      "H8, H9, H10, H11, H12, H13, K9, K10, K11, K12 or as per clients' requirements",
+    finish:
+      "Black, Bright, Peeled and Polished, Solution Annealed",
+  },
+
+  specifications: {
+    standard: "ASTM A1018 / ASME SA1018",
+    grade: "Carbon Steel A1018 Round Bars",
+    roundBars: "OD 4mm – 500mm (as per customer requirement)",
+    brightBars: "OD 4mm – 500mm (as per customer requirement)",
+    hexBars: "18mm – 57mm (11/16\" to 2-3/4\")",
+    squareBars: "18mm – 47mm (11/16\" to 1-3/4\")",
+    flatBars: "1/2\" to 10\" thickness range 2mm – 150mm",
+    length: "1 to 6 Meters, Custom Cut Lengths",
+    finish: "Black, Bright, Peeled and Polished, Solution Annealed",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    hotRolled: [
+      {
+        title: "Carbon Steel A1018 Hot Rolled Stock Available",
+        items: [
+          "Carbon Steel A1018 Hot Rolled Round Bars",
+          "Carbon Steel A1018 Hot Rolled Square Bars",
+          "Carbon Steel A1018 Hot Rolled Hex Bars",
+          "Carbon Steel A1018 Hot Rolled Flat Bars",
+          "SAE 1018 Carbon Hot Rolled Bars",
+        ],
+        image: "/stock/a1018-hr-bar.jpg",
+      },
+    ],
+    coldRolled: [
+      {
+        title: "Carbon Steel A1018 Cold Rolled Stock Available",
+        items: [
+          "Carbon Steel A1018 Cold Rolled Round Bars",
+          "Carbon Steel A1018 Cold Rolled Flat Bars",
+          "Carbon Steel A1018 Cold Rolled Square Bars",
+          "Carbon Steel A1018 Cold Rolled Hex Bars",
+          "1018 Carbon Cold Drawn Round Bar (CDB)",
+        ],
+        image: "/stock/a1018-cr-bar.jpg",
+      },
+    ],
+    coldDrawn: [
+      {
+        title: "Carbon Steel A1018 Cold Drawn Stock Available",
+        items: [
+          "Carbon Steel A1018 Cold Drawn Round Bars",
+          "Carbon Steel A1018 Cold Drawn Bright Bars",
+          "Carbon Steel A1018 Cold Drawn Shaft Bars",
+          "Carbon Steel A1018 Cold Drawn Precision Bars",
+          "SAE 1018 Carbon Cold Drawn Bars",
+        ],
+        image: "/stock/a1018-cold-drawn-bar.jpg",
+      },
+    ],
+    bright: [
+      {
+        title: "Carbon Steel A1018 Bright Stock Available",
+        items: [
+          "Carbon Steel A1018 Bright Round Bars",
+          "Carbon Steel A1018 Bright Square Bars",
+          "Carbon Steel A1018 Bright Hex Bars",
+          "Carbon Steel A1018 Bright Flat Bars",
+          "Carbon 1018 Bright Bar",
+        ],
+        image: "/stock/a1018-bright-bar.jpg",
+      },
+    ],
+    forged: [
+      {
+        title: "Carbon Steel A1018 Forged Stock Available",
+        items: [
+          "Carbon Steel A1018 Forged Round Bars",
+          "Carbon Steel A1018 Forged Square Bars",
+          "Carbon Steel A1018 Forged Blocks",
+          "Carbon Steel A1018 Forged Step Shafts",
+          "1018 Carbon Steel Forged Bars",
+        ],
+        image: "/stock/a1018-forged-bar.jpg",
+      },
+    ],
+    polished: [
+      {
+        title: "Carbon Steel A1018 Polished Stock Available",
+        items: [
+          "Carbon Steel A1018 Polished Round Bars",
+          "Carbon Steel A1018 Peeled & Polished Bars",
+          "Carbon Steel A1018 Solution Annealed Bars",
+          "Carbon Steel A1018 Precision Polished Bars",
+          "Carbon Steel 1018 Polished Rods",
+        ],
+        image: "/stock/a1018-polished-bar.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "CS A1018", uns: "S41000", werkstoff: "1.4006", standard: "ASTM" },
+    { grade: "AISI 1018", uns: "G10180", werkstoff: "—", standard: "AISI" },
+    { grade: "SAE 1018", uns: "G10180", werkstoff: "—", standard: "SAE" },
+    { grade: "SUS 410", uns: "S41000", werkstoff: "1.4006", standard: "JIS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "AISI 1018",
+      c: "0.28 – 0.33",
+      mn: "0.4 – 0.8",
+      si: "0.15 – 0.35",
+      cr: "0.8 – 1.1",
+      ni: "—",
+      mo: "0.15 – 0.25",
+      other: "P: 0.035 max, S: 0.04 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Carbon Steel A1018",
+      tensile: "440 MPa (64 ksi) min",
+      yield: "370 MPa (54 ksi) min",
+      elongation: "15% min",
+      hardness: "126 – 170 HB",
+      density: "7.87 g/cm³",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "870°C – 920°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "840°C – 900°C",
+      timeAtTemperature: "—",
+      atmosphere: "Furnace",
+    },
+    {
+      processStep: "Case Hardening / Carburizing",
+      temperatureRange: "900°C – 950°C",
+      timeAtTemperature: "—",
+      atmosphere: "Carbon-rich",
+    },
+  ],
+
+  priceList: [
+    { item: "Carbon 1018 Bright Bar", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SAE 1018 Carbon Hollow Bars", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Carbon Steel 1018 Polished Rods", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "CS 1018 Round Bars", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SAE 1018 Carbon Square Bar", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Carbon 1018 Bright Bar",
+    "Carbon SAE 1018 Square Bar",
+    "CS AISI 1018 Hexagonal Bar",
+    "SAE 1018 Carbon Hollow Bars",
+    "Carbon 1018 Threaded Rods",
+    "CS SAE 1018 Flat Bar",
+    "Carbon Steel 1018 Polished Rods",
+    "AISI 1018 Carbon Rectangular Bar",
+    "1018 Carbon Cold Drawn Round Bar (CDB)",
+    "CS 1018 Threaded Bar",
+    "SAE 1018 Carbon Square Bar",
+    "1018 Carbon Steel Forged Bars",
+    "CS 1018 Round Bars",
+    "AISI 1018 Carbon 1018 Rods",
+    "1018 CS Hex Bars",
+    "Carbon SAE 1018 Hot Rolled Bars",
+    "Carbon SAE 1018 Polished Bars",
+    "Carbon Steel 1018 Black Bars",
+    "AISI 1018 Carbon Round Rods",
+    "CS SAE 1018 Rectangular Bar",
+    "Carbon AISI 1018 Round Hex Bar",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A1018",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Impact Toughness (Charpy V-Notch)",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each bar",
+      method: "Visual",
+    },
+  ],
+
+  applicationIndustries: [
+    "Pulp & Paper Industry",
+    "Petrochemical Industries",
+    "Gas Processing Units",
+    "Heat Exchangers & Condensers",
+    "Pharmaceutical Equipment",
+    "Chemical Equipment",
+    "Automotive Components",
+    "Shafts & Gears",
+    "Fasteners & Bolts",
+    "Bridges & Structural Components",
+    "Shipbuilding",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Carbon Steel A1018 Round Bars Supplier in Mumbai, India",
+    "ASME SA1018 Carbon Steel Bars Exporter",
+    "AISI 1018 Round Bar Stockist in India",
+    "SAE 1018 Carbon Steel Bars Dealer",
+    "A1018 Mild Steel Round Bar Manufacturer",
+    "Carbon Steel A1018 Bright Bar Supplier",
+    "CS 1018 Threaded Bar Stockist",
+    "SAE 1018 Carbon Square Bar Exporter",
+    "A1018 Carbon Steel Flat Bar Manufacturer",
+    "A1018 Carbon Steel Polished Bars Supplier",
+    "CS 1018 Round Bars Dealer",
+    "1018 Carbon Cold Drawn Round Bar Manufacturer",
+    "Carbon SAE 1018 Hot Rolled Bars Supplier",
+    "A1018 Grade 80 / A656 Grade 80 Round Bar Exporter",
+  ],
+
+  relatedSearches: [
+    "Carbon Steel A1018 Round Bars Price List",
+    "AISI 1018 Round Bar Weight Calculator",
+    "A1018 Round Bar Dimensions",
+    "A1018 Round Bar Price Per Kg in India",
+    "A1018 Round Bar Manufacturer in Mumbai",
+    "A1018 Round Bar Supplier in India",
+    "A1018 Round Bar Thickness Tolerance",
+    "A1018 Round Bar Price List PDF",
+    "A1018 Round Bar Mechanical Properties",
+    "A1018 Round Bar Chemical Composition",
+    "A1018 Round Bar Stockist in Pune",
+    "A1018 Round Bar Exporter",
+    "A1018 Round Bar Price in Mumbai",
+    "A1018 Round Bar Size Chart",
+    "A1018 Round Bar Price per Meter",
+    "1018 Carbon Steel Hex Bar Price",
+    "SAE 1018 Carbon Square Bar Supplier",
+    "A1018 Carbon Steel Flat Bar Manufacturers",
+    "A1018 Round Bar Catalog PDF",
+    "A1018 Round Bar Equivalent Grades",
+    "A1018 Round Bar Price per Piece",
+    "A1018 Round Bar updated price list",
+    "A1018 Round Bar Size Chart",
+    "A1018 Round Bar Manufacturers in Gujarat",
+    "A1018 Round Bar Stockyards in India",
+    "A1018 Round Bar thickness chart",
+    "A1018 Round Bar Price in India",
+    "Top 100 A1018 Round Bar Dealers in Mumbai",
+    "Buy A1018 Round Bar Online",
+    "A1018 Round Bar leading manufacturers in India",
+    "UNS S41000 Round Bar Price India",
+    "AISI 1018 Equivalent Indian Standard",
+    "AISI 1018 Properties",
+    "1018 Chemical Composition",
+    "A1018 Grade 80 / A656 Grade 80 Round Bar",
+    "Carbon Steel 1018 Round Bar Properties",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+}
 ];
 
 // 14. Sheets

@@ -1168,6 +1168,236 @@ const MaterialDetail: React.FC = () => {
                       </div>
                     </div>
                   )}
+
+                {/* ===== MANUFACTURING STANDARDS ===== */}
+                {hasData(material.manufacturingStandards) && (
+                  <div className="md-spec-block">
+                    <h3>Manufacturing Standards</h3>
+
+                    {material.manufacturingStandards.specifications && (
+                      <div className="md-spec-row">
+                        <span className="md-spec-label">Specifications</span>
+                        <span className="md-spec-value">
+                          {material.manufacturingStandards.specifications}
+                        </span>
+                      </div>
+                    )}
+
+                    {material.manufacturingStandards.forms &&
+                      Array.isArray(material.manufacturingStandards.forms) &&
+                      material.manufacturingStandards.forms.length > 0 && (
+                        <div style={{ marginTop: "14px" }}>
+                          <h4>Available Forms</h4>
+                          <ul className="md-check-list">
+                            {material.manufacturingStandards.forms.map(
+                              (f: string, i: number) => (
+                                <li key={i}>✓ {f}</li>
+                              ),
+                            )}
+                          </ul>
+                        </div>
+                      )}
+
+                    {/* any other keys inside manufacturingStandards */}
+                    {Object.entries(material.manufacturingStandards)
+                      .filter(
+                        ([k, v]) =>
+                          !["specifications", "forms"].includes(k) &&
+                          v !== undefined &&
+                          v !== null &&
+                          v !== "",
+                      )
+                      .map(([key, value]) => {
+                        if (Array.isArray(value)) {
+                          return (
+                            <div key={key} style={{ marginTop: "14px" }}>
+                              <h4>
+                                {key
+                                  .replace(/([A-Z])/g, " $1")
+                                  .replace(/^./, (s) => s.toUpperCase())}
+                              </h4>
+                              <ul className="md-check-list">
+                                {value.map((v: string, i: number) => (
+                                  <li key={i}>✓ {v}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          );
+                        }
+                        return (
+                          <div key={key} className="md-spec-row">
+                            <span className="md-spec-label">
+                              {key
+                                .replace(/([A-Z])/g, " $1")
+                                .replace(/^./, (s) => s.toUpperCase())}
+                            </span>
+                            <span className="md-spec-value">
+                              {String(value)}
+                            </span>
+                          </div>
+                        );
+                      })}
+                  </div>
+                )}
+
+                {/* ===== HEAT TREATMENT ===== */}
+                {hasData(material.heatTreatment) &&
+                  Array.isArray(material.heatTreatment) &&
+                  material.heatTreatment.length > 0 && (
+                    <div className="md-table-block">
+                      <h3>Heat Treatment</h3>
+                      <div className="md-table-wrap">
+                        <table className="md-table">
+                          <thead>
+                            <tr>
+                              {Object.keys(material.heatTreatment[0]).map(
+                                (key) => (
+                                  <th key={key}>
+                                    {key
+                                      .replace(/_/g, " ")
+                                      .replace(/([A-Z])/g, " $1")
+                                      .trim()
+                                      .toUpperCase()}
+                                  </th>
+                                ),
+                              )}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {material.heatTreatment.map(
+                              (item: any, idx: number) => (
+                                <tr key={idx}>
+                                  {Object.values(item).map(
+                                    (value: any, colIdx: number) => (
+                                      <td key={colIdx}>{value || "—"}</td>
+                                    ),
+                                  )}
+                                </tr>
+                              ),
+                            )}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  )}
+
+                {/* ===== PRICE LIST ===== */}
+                {hasData(material.priceList) &&
+                  Array.isArray(material.priceList) &&
+                  material.priceList.length > 0 && (
+                    <div className="md-table-block">
+                      <h3>Price List</h3>
+                      <p className="md-muted">
+                        Indicative price range — final price depends on grade,
+                        size, and quantity.
+                      </p>
+                      <div className="md-table-wrap">
+                        <table className="md-table">
+                          <thead>
+                            <tr>
+                              {Object.keys(material.priceList[0]).map((key) => (
+                                <th key={key}>
+                                  {key
+                                    .replace(/_/g, " ")
+                                    .replace(/([A-Z])/g, " $1")
+                                    .trim()
+                                    .toUpperCase()}
+                                </th>
+                              ))}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {material.priceList.map(
+                              (item: any, idx: number) => (
+                                <tr key={idx}>
+                                  {Object.values(item).map(
+                                    (value: any, colIdx: number) => (
+                                      <td key={colIdx}>{value || "—"}</td>
+                                    ),
+                                  )}
+                                </tr>
+                              ),
+                            )}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  )}
+
+                {/* ===== TEST REQUIREMENTS ===== */}
+                {hasData(material.testRequirements) &&
+                  Array.isArray(material.testRequirements) &&
+                  material.testRequirements.length > 0 && (
+                    <div className="md-table-block">
+                      <h3>Test Requirements</h3>
+                      <div className="md-table-wrap">
+                        <table className="md-table">
+                          <thead>
+                            <tr>
+                              {Object.keys(material.testRequirements[0]).map(
+                                (key) => (
+                                  <th key={key}>
+                                    {key
+                                      .replace(/_/g, " ")
+                                      .replace(/([A-Z])/g, " $1")
+                                      .trim()
+                                      .toUpperCase()}
+                                  </th>
+                                ),
+                              )}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {material.testRequirements.map(
+                              (item: any, idx: number) => (
+                                <tr key={idx}>
+                                  {Object.values(item).map(
+                                    (value: any, colIdx: number) => (
+                                      <td key={colIdx}>{value || "—"}</td>
+                                    ),
+                                  )}
+                                </tr>
+                              ),
+                            )}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  )}
+
+                {/* ===== APPLICATION INDUSTRIES ===== */}
+                {hasData(material.applicationIndustries) &&
+                  Array.isArray(material.applicationIndustries) &&
+                  material.applicationIndustries.length > 0 && (
+                    <div className="md-feature-block">
+                      <h3>Application Industries</h3>
+                      <ul className="md-feature-list">
+                        {material.applicationIndustries.map(
+                          (industry: string, i: number) => (
+                            <li key={i}>
+                              <CheckCircle size={16} /> <span>{industry}</span>
+                            </li>
+                          ),
+                        )}
+                      </ul>
+                    </div>
+                  )}
+
+                {/* ===== OTHER FORMS ===== */}
+                {hasData(material.otherForms) &&
+                  Array.isArray(material.otherForms) &&
+                  material.otherForms.length > 0 && (
+                    <div className="md-feature-block">
+                      <h3>Other Forms / Products Available</h3>
+                      <ul className="md-feature-list">
+                        {material.otherForms.map((form: string, i: number) => (
+                          <li key={i}>
+                            <CheckCircle size={16} /> <span>{form}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
               </div>
 
               {/* ===== APPLICATIONS ===== */}
