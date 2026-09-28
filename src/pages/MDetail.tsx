@@ -3,7 +3,7 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import materials, { categoryToMaterialMap } from "../data/materials";
 import { productCategoryMap } from "../data/productIndex";
 import { ChevronRight, ArrowRight } from "lucide-react";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const heroImage = "/img/home/banner-industrial.jpg";
 
@@ -28,48 +28,33 @@ const materialFallbackImages: Record<string, string> = {
 
 // ===== PRODUCT TYPE TO IMAGE MAPPING =====
 const productTypeImages: Record<string, string> = {
-  // Pipes & Tubes
   pipes: "/stock/steel-pipes.jpg",
   pipe: "/stock/steel-pipes.jpg",
   tubes: "/stock/tubes.jpg",
   tube: "/stock/tubes.jpg",
   tubing: "/stock/tubes.jpg",
-
-  // Bars & Rods
   "round-bars": "/stock/rod.jpg",
   "round-bar": "/stock/rod.jpg",
   bars: "/stock/rod.jpg",
   bar: "/stock/rod.jpg",
   rods: "/stock/rod.jpg",
   rod: "/stock/rod.jpg",
-
-  // Sheets & Plates
   sheets: "/stock/sheets.jpg",
   sheet: "/stock/sheets.jpg",
   plates: "/stock/plates.jpg",
   plate: "/stock/plates.jpg",
-
-  // Wires
   wires: "/stock/wires.jpg",
   wire: "/stock/wires.jpg",
-
-  // Flanges
   flanges: "/stock/flanges.jpg",
   flange: "/stock/flanges.jpg",
-
-  // Fasteners
   fasteners: "/stock/fastener.jpg",
   fastener: "/stock/fastener.jpg",
   bolts: "/stock/fastener.jpg",
   nuts: "/stock/fastener.jpg",
-
-  // Fittings
   "pipe-fittings": "/stock/buttweld.jpg",
   buttweld: "/stock/buttweld.jpg",
   "forged-fittings": "/stock/forged-fittings.jpg",
   fittings: "/stock/buttweld.jpg",
-
-  // Other
   coils: "/stock/coils.jpg",
   coil: "/stock/coils.jpg",
   strips: "/stock/strips.jpg",
@@ -83,11 +68,6 @@ const getProductImage = (
 ): string => {
   const slugLower = productSlug.toLowerCase();
 
-  // ===== STEP 1: Check for exact product match using product's own image =====
-  // This is handled in the ProductCard component via product.image
-
-  // ===== STEP 2: Try to find a material-specific image =====
-  // Check if the slug contains material names
   const materialKeywords = [
     { key: "stainless-steel", img: "/stock/stainless-steel-pipes.jpg" },
     { key: "carbon-steel", img: "/stock/carbon-steel-pipes.jpg" },
@@ -110,11 +90,9 @@ const getProductImage = (
 
   for (const material of materialKeywords) {
     if (slugLower.includes(material.key)) {
-      // Check if it's a pipe/tube product
       if (slugLower.includes("pipe") || slugLower.includes("tube")) {
         return material.img;
       }
-      // If not a pipe, try to use material-specific image for other product types
       const materialNameKey = material.key.replace(/-/g, " ");
       const fallback =
         materialFallbackImages[materialNameKey] || `/stock/${material.key}.jpg`;
@@ -122,13 +100,9 @@ const getProductImage = (
     }
   }
 
-  // ===== STEP 3: Detect product type from slug =====
   const slugParts = slugLower.split("-");
-
-  // Check for product type keywords in order of specificity
   const productTypeKeys = Object.keys(productTypeImages);
 
-  // First check multi-word product types
   for (const key of productTypeKeys) {
     if (key.includes("-")) {
       if (slugLower.includes(key)) {
@@ -137,21 +111,12 @@ const getProductImage = (
     }
   }
 
-  // Then check individual parts
   for (const part of slugParts) {
-    // Check exact match
-    if (productTypeImages[part]) {
-      return productTypeImages[part];
-    }
-    // Check singular form (remove trailing 's')
+    if (productTypeImages[part]) return productTypeImages[part];
     const singular = part.replace(/s$/, "");
-    if (productTypeImages[singular]) {
-      return productTypeImages[singular];
-    }
+    if (productTypeImages[singular]) return productTypeImages[singular];
   }
 
-  // ===== STEP 4: Try to construct a generic image path =====
-  // Try to find the first meaningful word that could be a product type
   const productTypes = [
     "pipe",
     "tube",
@@ -167,23 +132,18 @@ const getProductImage = (
   ];
   for (const type of productTypes) {
     if (slugLower.includes(type)) {
-      // Try material-specific + type combination
       for (const material of materialKeywords) {
         if (slugLower.includes(material.key)) {
           return `/stock/${material.key}-${type}s.jpg`;
         }
       }
-      // Fallback to generic type image
       return productTypeImages[`${type}s`] || `/stock/${type}s.jpg`;
     }
   }
 
-  // ===== STEP 5: Final fallback =====
-  // Try to construct from slug
   const firstPart = slugParts[0];
   const lastPart = slugParts[slugParts.length - 1];
 
-  // If last part is a product type, use it
   if (
     productTypeImages[lastPart] ||
     productTypeImages[lastPart.replace(/s$/, "")]
@@ -195,42 +155,18 @@ const getProductImage = (
     );
   }
 
-  // If first part is a material, use it
   for (const material of materialKeywords) {
     if (firstPart.includes(material.key)) {
       return `/stock/${material.key}.jpg`;
     }
   }
 
-  // Ultimate fallback - return a default image
   return "/stock/default-product.jpg";
-};
-
-// ===== GET ICON FOR PRODUCT TYPE =====
-const getProductTypeIcon = (productSlug: string): string => {
-  const slugLower = productSlug.toLowerCase();
-
-  if (slugLower.includes("pipe") || slugLower.includes("tube")) return "";
-  if (slugLower.includes("bar") || slugLower.includes("rod")) return "";
-  if (slugLower.includes("sheet") || slugLower.includes("plate")) return "";
-  if (slugLower.includes("wire")) return "";
-  if (slugLower.includes("flange")) return "";
-  if (
-    slugLower.includes("fastener") ||
-    slugLower.includes("bolt") ||
-    slugLower.includes("nut")
-  )
-    return "🔩";
-  if (slugLower.includes("fitting")) return "🔗";
-  if (slugLower.includes("coil")) return "🌀";
-
-  return "📦";
 };
 
 // ===== GET PRODUCT TYPE NAME =====
 const getProductTypeName = (productSlug: string): string => {
   const slugLower = productSlug.toLowerCase();
-
   if (slugLower.includes("pipe")) return "Pipes";
   if (slugLower.includes("tube")) return "Tubes";
   if (slugLower.includes("round-bar") || slugLower.includes("rod"))
@@ -243,7 +179,6 @@ const getProductTypeName = (productSlug: string): string => {
     return "Fasteners";
   if (slugLower.includes("fitting")) return "Fittings";
   if (slugLower.includes("coil")) return "Coils";
-
   return "Products";
 };
 
@@ -272,19 +207,17 @@ const getCategoryForMaterialProduct = (materialProductSlug: string): string => {
     coil: "coils",
   };
 
-  // Check if the slug contains any of the product types
   for (const [key, category] of Object.entries(productTypeMap)) {
     if (materialProductSlug.includes(key)) {
       return category;
     }
   }
 
-  // Try to find in categoryToMaterialMap (reverse lookup) - fallback
   for (const [categoryKey, categoryProducts] of Object.entries(
     productCategoryMap,
   )) {
     const productExists = categoryProducts.some(
-      (p) =>
+      (p: any) =>
         p.slug === materialProductSlug ||
         p.slug.includes(materialProductSlug) ||
         materialProductSlug.includes(p.slug),
@@ -304,15 +237,11 @@ const getCategoryForMaterialProduct = (materialProductSlug: string): string => {
 const ProductCard = ({ product, materialName, onClick }: any) => {
   const [imgError, setImgError] = useState(false);
 
-  // Get product image - prioritize product.image, then use resolver
   const productImage =
     product.image || getProductImage(product.slug, materialName);
 
-  // Get product info for fallback
-  const icon = getProductTypeIcon(product.slug);
   const productType = getProductTypeName(product.slug);
 
-  // Check if this is a material-specific product
   const isSpecialMaterial =
     product.slug.includes("nickel") ||
     product.slug.includes("alloy") ||
@@ -326,7 +255,6 @@ const ProductCard = ({ product, materialName, onClick }: any) => {
     product.slug.includes("stainless") ||
     product.slug.includes("carbon");
 
-  // Extract short name for fallback display
   const shortName =
     product.title.split("–")[0]?.trim() ||
     product.title.split("-")[0]?.trim() ||
@@ -354,8 +282,7 @@ const ProductCard = ({ product, materialName, onClick }: any) => {
             }`}
           >
             <div className="text-center p-4">
-              <span className="text-4xl block mb-1">{icon}</span>
-              <span className="text-gray-700 text-xs font-semibold block line-clamp-2 px-2">
+              <span className="text-gray-700 text-sm font-semibold block line-clamp-2 px-2">
                 {shortName}
               </span>
               <span className="text-gray-500 text-[10px] block mt-0.5">
@@ -421,12 +348,358 @@ const MDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
 
-  // Find the material from materials data
   const material = materials.find((m) => m.slug === slug);
-  const products = material?.items || [];
 
-  const handleProductClick = (productSlug: string) => {
-    const categorySlug = getCategoryForMaterialProduct(productSlug);
+  // ===== MERGE MATERIALS ITEMS + PRODUCT CATEGORY MAP =====
+  const products = useMemo(() => {
+    if (!material) return [];
+
+    const materialNameLower = material.name.toLowerCase();
+    const materialSlugLower = material.slug.toLowerCase();
+
+    // ===== DEFINE EXCLUSION KEYWORDS FOR EACH MATERIAL =====
+    const allMaterialKeywords: Record<string, string[]> = {
+      "stainless-steel": [
+        "stainless",
+        "ss-",
+        "ss ",
+        "304",
+        "316",
+        "310",
+        "317",
+        "321",
+        "347",
+        "904",
+        "904l",
+        "410",
+        "420",
+        "422",
+        "15-5",
+        "17-4",
+        "13 cr",
+        "l80",
+      ],
+      "carbon-steel": ["carbon", "cs-", "a105", "a350", "a694"],
+      "alloy-steel": [
+        "alloy",
+        "f1",
+        "f5",
+        "f9",
+        "f11",
+        "f12",
+        "f22",
+        "f91",
+        "f92",
+      ],
+      "nickel-alloy": [
+        "nickel",
+        "nickel-alloy",
+        "nickel alloy",
+        "200",
+        "201",
+        "ni-200",
+        "ni-201",
+      ],
+      duplex: ["duplex", "s31803", "s32205"],
+      "super-duplex": ["super-duplex", "s32750", "s32760", "s32950"],
+      hastelloy: ["hastelloy", "c22", "c276", "c2000", "c59", "c4"],
+      inconel: ["inconel", "600", "601", "625", "718", "x750"],
+      incoloy: ["incoloy", "800", "800h", "800ht", "825", "925"],
+      monel: ["monel", "400", "k500"],
+      "copper-nickel": [
+        "copper-nickel",
+        "cu-ni",
+        "cupro",
+        "90/10",
+        "70/30",
+        "c70600",
+        "c71500",
+      ],
+      titanium: ["titanium", "grade-2", "grade-5", "ti-"],
+      nimonic: ["nimonic", "80a", "90", "105", "115"],
+      brass: ["brass", "copper-zinc", "cuzn"],
+      bronze: ["bronze", "copper-tin", "cusn"],
+      aluminum: ["aluminum", "aluminium", "al-"],
+    };
+
+    // ===== ALL OTHER MATERIALS (TO EXCLUDE) =====
+    const allOtherMaterialKeywords = [
+      // other materials
+      "stainless",
+      "ss-",
+      "ss ",
+      "304",
+      "316",
+      "310",
+      "317",
+      "321",
+      "347",
+      "904",
+      "904l",
+      "410",
+      "420",
+      "422",
+      "15-5",
+      "17-4",
+      "13 cr",
+      "l80",
+      "carbon",
+      "cs-",
+      "a105",
+      "a350",
+      "a694",
+      "alloy",
+      "f1",
+      "f5",
+      "f9",
+      "f11",
+      "f12",
+      "f22",
+      "f91",
+      "f92",
+      "nickel",
+      "monel",
+      "inconel",
+      "incoloy",
+      "hastelloy",
+      "200",
+      "201",
+      "400",
+      "k500",
+      "600",
+      "601",
+      "625",
+      "718",
+      "800",
+      "825",
+      "925",
+      "c22",
+      "c276",
+      "c2000",
+      "duplex",
+      "s31803",
+      "s32205",
+      "super-duplex",
+      "s32750",
+      "s32760",
+      "s32950",
+      "copper-nickel",
+      "cu-ni",
+      "cupro",
+      "90/10",
+      "70/30",
+      "c70600",
+      "c71500",
+      "titanium",
+      "grade-2",
+      "grade-5",
+      "ti-",
+      "nimonic",
+      "80a",
+      "90",
+      "105",
+      "115",
+      "brass",
+      "copper-zinc",
+      "cuzn",
+      "bronze",
+      "copper-tin",
+      "cusn",
+      "aluminum",
+      "aluminium",
+      "al-",
+      "copper",
+      "cu-",
+      "cu ",
+    ];
+
+    // Get current material's own keywords
+    const currentMaterialKey = Object.keys(allMaterialKeywords).find(
+      (key) =>
+        materialSlugLower.includes(key) || materialNameLower.includes(key),
+    );
+
+    const currentMaterialOwnKeywords = currentMaterialKey
+      ? allMaterialKeywords[currentMaterialKey] || []
+      : [];
+
+    // Exclusion keywords = all other material keywords MINUS current material's own keywords
+    const exclusionKeywords = allOtherMaterialKeywords.filter(
+      (keyword) =>
+        !currentMaterialOwnKeywords.includes(keyword) &&
+        !materialSlugLower.includes(keyword) &&
+        !materialNameLower.includes(keyword),
+    );
+
+    // 1) Start with material.items
+    const baseItems: any[] = [...(material.items || [])];
+
+    // 2) Add products from productCategoryMap that belong to this material
+    const extraItems: any[] = [];
+
+    for (const [categorySlug, categoryProducts] of Object.entries(
+      productCategoryMap,
+    )) {
+      for (const product of categoryProducts as any[]) {
+        const productSlugLower = product.slug?.toLowerCase?.() || "";
+        const productTitleLower = product.title?.toLowerCase?.() || "";
+        const combinedText = `${productSlugLower} ${productTitleLower}`;
+
+        // ❌ Check if product belongs to ANOTHER material
+        const belongsToOtherMaterial = exclusionKeywords.some((keyword) => {
+          return (
+            productSlugLower.includes(keyword) ||
+            productTitleLower.includes(keyword)
+          );
+        });
+
+        // Skip if belongs to other material
+        if (belongsToOtherMaterial) {
+          continue;
+        }
+
+        // ✅ Check if product belongs to THIS material (strict match)
+        const belongsToThisMaterial =
+          // Match material slug in product slug
+          productSlugLower.includes(materialSlugLower) ||
+          // Match material name in product title
+          productTitleLower.includes(materialNameLower) ||
+          // Match material name with hyphens in product slug
+          productSlugLower.includes(materialNameLower.replace(/\s+/g, "-")) ||
+          // Match material name with spaces in product title
+          productTitleLower.includes(materialNameLower.replace(/-/g, " ")) ||
+          // Special case for stainless steel
+          (materialSlugLower.includes("stainless-steel") &&
+            (productSlugLower.includes("stainless") ||
+              productSlugLower.includes("ss-") ||
+              productSlugLower.includes("ss ") ||
+              productSlugLower.includes("304") ||
+              productSlugLower.includes("316") ||
+              productSlugLower.includes("310") ||
+              productSlugLower.includes("317") ||
+              productSlugLower.includes("321") ||
+              productSlugLower.includes("347") ||
+              productSlugLower.includes("904") ||
+              productSlugLower.includes("410") ||
+              productSlugLower.includes("420") ||
+              productSlugLower.includes("422") ||
+              productSlugLower.includes("15-5") ||
+              productSlugLower.includes("17-4") ||
+              productSlugLower.includes("13 cr") ||
+              productSlugLower.includes("l80"))) ||
+          // Special case for carbon steel
+          (materialSlugLower.includes("carbon-steel") &&
+            (productSlugLower.includes("carbon") ||
+              productSlugLower.includes("cs-") ||
+              productSlugLower.includes("a105") ||
+              productSlugLower.includes("a350") ||
+              productSlugLower.includes("a694"))) ||
+          // Special case for alloy steel
+          (materialSlugLower.includes("alloy-steel") &&
+            (productSlugLower.includes("alloy") ||
+              productSlugLower.includes("f1") ||
+              productSlugLower.includes("f5") ||
+              productSlugLower.includes("f9") ||
+              productSlugLower.includes("f11") ||
+              productSlugLower.includes("f12") ||
+              productSlugLower.includes("f22") ||
+              productSlugLower.includes("f91") ||
+              productSlugLower.includes("f92"))) ||
+          // Special case for nickel alloy
+          (materialSlugLower.includes("nickel-alloy") &&
+            (productSlugLower.includes("nickel") ||
+              productSlugLower.includes("monel") ||
+              productSlugLower.includes("inconel") ||
+              productSlugLower.includes("incoloy") ||
+              productSlugLower.includes("hastelloy") ||
+              productSlugLower.includes("200") ||
+              productSlugLower.includes("201") ||
+              productSlugLower.includes("400") ||
+              productSlugLower.includes("k500") ||
+              productSlugLower.includes("600") ||
+              productSlugLower.includes("601") ||
+              productSlugLower.includes("625") ||
+              productSlugLower.includes("718") ||
+              productSlugLower.includes("800") ||
+              productSlugLower.includes("825") ||
+              productSlugLower.includes("925") ||
+              productSlugLower.includes("c22") ||
+              productSlugLower.includes("c276") ||
+              productSlugLower.includes("c2000"))) ||
+          // Special case for duplex
+          (materialSlugLower.includes("duplex") &&
+            !materialSlugLower.includes("super-duplex") &&
+            (productSlugLower.includes("duplex") ||
+              productSlugLower.includes("s31803") ||
+              productSlugLower.includes("s32205"))) ||
+          // Special case for super duplex
+          (materialSlugLower.includes("super-duplex") &&
+            (productSlugLower.includes("super-duplex") ||
+              productSlugLower.includes("s32750") ||
+              productSlugLower.includes("s32760") ||
+              productSlugLower.includes("s32950"))) ||
+          // Special case for hastelloy
+          (materialSlugLower.includes("hastelloy") &&
+            (productSlugLower.includes("hastelloy") ||
+              productSlugLower.includes("c22") ||
+              productSlugLower.includes("c276") ||
+              productSlugLower.includes("c2000"))) ||
+          // Special case for inconel
+          (materialSlugLower.includes("inconel") &&
+            (productSlugLower.includes("inconel") ||
+              productSlugLower.includes("600") ||
+              productSlugLower.includes("601") ||
+              productSlugLower.includes("625") ||
+              productSlugLower.includes("718"))) ||
+          // Special case for incoloy
+          (materialSlugLower.includes("incoloy") &&
+            (productSlugLower.includes("incoloy") ||
+              productSlugLower.includes("800") ||
+              productSlugLower.includes("825") ||
+              productSlugLower.includes("925"))) ||
+          // Special case for monel
+          (materialSlugLower.includes("monel") &&
+            (productSlugLower.includes("monel") ||
+              productSlugLower.includes("400") ||
+              productSlugLower.includes("k500"))) ||
+          // Special case for copper-nickel
+          (materialSlugLower.includes("copper-nickel") &&
+            (productSlugLower.includes("copper-nickel") ||
+              productSlugLower.includes("cu-ni") ||
+              productSlugLower.includes("cupro") ||
+              productSlugLower.includes("90/10") ||
+              productSlugLower.includes("70/30") ||
+              productSlugLower.includes("c70600") ||
+              productSlugLower.includes("c71500")));
+
+        if (belongsToThisMaterial) {
+          extraItems.push({
+            ...product,
+            __categorySlug: categorySlug,
+          });
+        }
+      }
+    }
+
+    // 3) Merge and deduplicate by slug
+    const merged = [...baseItems, ...extraItems];
+
+    const seen = new Set<string>();
+    const unique = merged.filter((item: any) => {
+      const key = item.slug || item.title;
+      if (!key) return false;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+
+    return unique;
+  }, [material]);
+
+  const handleProductClick = (product: any) => {
+    const productSlug = product.slug || product.title;
+    const categorySlug =
+      product.__categorySlug || getCategoryForMaterialProduct(productSlug);
     navigate(`/products/${categorySlug}/${productSlug}`);
   };
 
@@ -532,12 +805,12 @@ const MDetail = () => {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-              {products.map((product, index) => (
+              {products.map((product: any, index: number) => (
                 <ProductCard
-                  key={index}
+                  key={product.slug || index}
                   product={product}
                   materialName={material.name}
-                  onClick={() => handleProductClick(product.slug)}
+                  onClick={() => handleProductClick(product)}
                 />
               ))}
             </div>

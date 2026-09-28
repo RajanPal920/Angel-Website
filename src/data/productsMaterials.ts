@@ -1151,2554 +1151,7 @@ export const dairypharmaValves: ProductMaterial[] = [
 
 // 3. Buttweld Fitting
 export const buttweldFitting: ProductMaterial[] = [
-  {
-    id: 2,
-    slug: "incoloy-pipe-fittings",
-    image: "/stock/buttweld-fittings.jpg",
-    title:
-      "Incoloy Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-    shortDescription:
-      "Premium Incoloy pipe fittings manufacturer, stockist, supplier and exporter operating from Mumbai, India since 2013. Wrought nickel-iron-chromium alloy fittings certified to ASTM B366 / ASME SB-366, with butt-weld geometry controlled to ASME B16.9 and MSS SP-43 for light-wall CR grades. Available in Incoloy 800HT (UNS N08811) and Incoloy 825 (UNS N08825) grades. Seamless elbows, tees, reducers, end caps, stub ends, and crosses span 1/2 inch to 10 inch NB with schedules SCH 10S, SCH 40S, SCH 80S, SCH 160, and XXS.",
-    technicalOverview:
-      "Incoloy pipe fittings are manufactured from nickel-iron-chromium superalloys that combine high-temperature strength with exceptional corrosion resistance. Two grades form the stock range. Incoloy 800HT (UNS N08811) carries aluminium and titanium within a controlled band and serves sustained high-temperature circuits, while Incoloy 825 (UNS N08825) spreads its resistance across four elements: nickel holds off chloride stress-corrosion cracking, nickel with molybdenum and copper resists reducing acids such as sulphuric and phosphoric, molybdenum adds pitting and crevice resistance, and chromium handles oxidising media such as nitric acid and nitrates. One grade handles furnace heat, the other wet chemistry. Roughly 60 to 70 tonnes of nickel alloy stock stand at the Mumbai facility at any time. Cutting, machining, threading, fabrication, testing and packing all happen in-house.",
-    materialGroup: "Incoloy Fitting",
-    standards: "ASTM B366, ASME SB-366, ASME B16.9, ASME B16.28, MSS SP-43",
-    forms:
-      "Elbows, Tees, Reducers, Caps, Stub Ends, Crosses, Short Radius Elbows, 180° Returns",
-    application:
-      "Incoloy pipe fittings are widely used in refinery heaters, chemical reactors, furnace manifolds, thermal processing lines, pollution control ductwork, process piping, heat exchanger connections, chemical industry, oil & gas, powerplant, petrochemical, offshore, pumps & valves, fertiliser, and pollution control industry.",
-    applications: [
-      "Chemical Industry",
-      "Oil & Gas Industry",
-      "Powerplant Industry",
-      "Petrochemical Industry",
-      "Offshore Industry",
-      "Pumps & Valves Industry",
-      "Fertiliser Industry",
-      "Pollution Control Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Incoloy 800HT":
-          "UNS N08811 – Nickel-iron-chromium alloy with controlled aluminium and titanium content for creep-rupture strength. Wrought buttweld fittings to ASTM B366 / ASME SB-366. Used in reformer outlets, furnace manifolds, thermal processing lines and pollution control ductwork. Holds sustained high-temperature circuits.",
-        "Incoloy 825":
-          "UNS N08825 – Nickel-iron-chromium alloy with molybdenum and copper for reducing acids such as sulphuric and phosphoric. Molybdenum adds pitting and crevice resistance, while nickel content holds off chloride stress-corrosion cracking. Used in process piping, heat exchanger connections, and corrosive circuits.",
-      },
-    },
-    specifications: {
-      standard: "ASTM B366 / ASME SB-366",
-      materialStandard: "ASTM B366 / ASME SB-366",
-      productClass:
-        "WPNIC11 / CRNIC11 (UNS N08811) and WPNICMC / CRNICMC (UNS N08825), wrought nickel alloy welding fittings",
-      dimensionalStandards:
-        "ASME B16.9 (WP grades, including short-radius elbows and 180° returns); MSS SP-43 (CR grades, light wall)",
-      grades: "Incoloy 800HT (UNS N08811), Incoloy 825 (UNS N08825)",
-      sizeSeamless: "1/2 inch to 10 inch NB",
-      sizeWeldedFabricated: "1/2 inch to 48 inch NB",
-      schedule:
-        "SCH 10S, SCH 40S, SCH 80S to ASME B36.19M (up to 30 inch NB); SCH 160 and XXS to ASME B36.10M; larger or heavier walls supplied to a stated wall thickness",
-      endPreparation: "Bevelled for buttwelding",
-      construction: "Seamless, welded, fabricated",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    fittingTypes: [
-      "Elbows (90° & 45°)",
-      "Tees (Straight & Reducing)",
-      "Crosses",
-      "Reducers (Concentric & Eccentric)",
-      "Caps",
-      "Stub Ends",
-      "Short Radius Elbows",
-      "180° Returns",
-    ],
-    sizeRange: {
-      seamlessFittings: {
-        fittingGroup: "Seamless buttweld fittings",
-        governingStandard: "ASME B16.9 / ASME B36.19M",
-        sizeRange: "1/2 inch to 10 inch NB",
-        wallClass: "SCH 10S, SCH 40S, SCH 80S, SCH 160, XXS",
-      },
-      weldedFabricated: {
-        fittingGroup: "Welded and fabricated butt-weld fittings",
-        governingStandard: "ASME B16.9 / ASME B36.10M",
-        sizeRange: "1/2 inch to 48 inch NB",
-        wallClass:
-          "SCH 10S, SCH 40S, SCH 80S up to 30 inch NB; SCH 160 and XXS within ASME B36.10M; above these limits, wall quoted to drawing",
-      },
-      customFittings: {
-        fittingGroup: "Custom bores and special geometry",
-        governingStandard: "To drawing",
-        sizeRange: "Made to order",
-        wallClass: "To drawing",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM B366 / ASME SB-366",
-        scope: "Factory-made wrought nickel alloy welding fittings",
-      },
-      {
-        standard: "ASME B16.9",
-        scope: "Buttweld fitting dimensions and tolerances",
-      },
-      {
-        standard: "ASME B16.28",
-        scope:
-          "Butt-welding fitting dimensions and tolerances, NPS 1/2 to NPS 48, including the short-radius elbows and 180° returns (NPS 1 to NPS 24) absorbed from the withdrawn ASME B16.28",
-      },
-      {
-        standard: "MSS SP-43",
-        scope: "Light-wall corrosion-resistant buttweld fittings",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Material Standard": "ASTM B366 / ASME SB-366",
-        "Product Class":
-          "WPNIC11 / CRNIC11 (UNS N08811) and WPNICMC / CRNICMC (UNS N08825)",
-        "Dimensional Standards": "ASME B16.9; MSS SP-43 for light wall",
-        Grades: "Incoloy 800HT (UNS N08811), Incoloy 825 (UNS N08825)",
-        "Size Seamless": "1/2 inch to 10 inch NB",
-        "Size Welded/Fabricated": "1/2 inch to 48 inch NB",
-        Schedule:
-          "SCH 10S, 40S, 80S to ASME B36.19M; SCH 160 and XXS to ASME B36.10M",
-        "End Preparation": "Bevelled for buttwelding",
-        Construction: "Seamless, welded, fabricated",
-      },
-      fittingSizeTable: [
-        {
-          fittingGroup: "Seamless buttweld fittings",
-          governingStandard: "ASME B16.9 / ASME B36.19M",
-          sizeRange: "1/2 inch to 10 inch NB",
-          wallClass: "SCH 10S, SCH 40S, SCH 80S, SCH 160, XXS",
-        },
-        {
-          fittingGroup: "Welded and fabricated butt-weld fittings",
-          governingStandard: "ASME B16.9 / ASME B36.10M",
-          sizeRange: "1/2 inch to 48 inch NB",
-          wallClass:
-            "SCH 10S, SCH 40S, SCH 80S up to 30 inch NB; SCH 160 and XXS within ASME B36.10M; above these limits, wall quoted to drawing",
-        },
-        {
-          fittingGroup: "Custom bores and special geometry",
-          governingStandard: "To drawing",
-          sizeRange: "Made to order",
-          wallClass: "To drawing",
-        },
-      ],
-      applicableStandardsTable: [
-        {
-          standard: "ASTM B366 / ASME SB-366",
-          scope: "Factory-made wrought nickel alloy welding fittings",
-        },
-        {
-          standard: "ASME B16.9",
-          scope: "Buttweld fitting dimensions and tolerances",
-        },
-        {
-          standard: "ASME B16.28",
-          scope:
-            "Butt-welding fitting dimensions and tolerances, NPS 1/2 to NPS 48",
-        },
-        {
-          standard: "MSS SP-43",
-          scope: "Light-wall corrosion-resistant buttweld fittings",
-        },
-      ],
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI) on every heat",
-        "Dimensional inspection per ASME B16.9",
-        "MSS SP-43 verification for light-wall CR-grade fittings",
-        "Visual inspection of weld bevels",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back.",
-    },
-    stockAvailability: {
-      seamlessFittings: [
-        {
-          title: "Seamless Buttweld Fittings",
-          items: [
-            "ASTM B366 Incoloy 800HT Seamless Elbows",
-            "ASME SB-366 Incoloy 825 Seamless Tees",
-            "UNS N08811 Seamless Reducers",
-            "Incoloy 800HT Seamless Caps",
-            "Incoloy 825 Seamless Stub Ends",
-            "Incoloy 800HT Seamless Crosses",
-            "Incoloy 825 Short Radius Elbows",
-            "ASME B16.9 Incoloy Buttweld Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      weldedFabricated: [
-        {
-          title: "Welded & Fabricated Fittings",
-          items: [
-            "ASME B16.9 Incoloy 825 Welded Elbows",
-            "Incoloy 800HT Welded Tees",
-            "Incoloy 825 Welded Reducers",
-            "Incoloy 800HT Welded Caps",
-            "Incoloy 825 Welded Stub Ends",
-            "Incoloy 800HT Welded Crosses",
-            "Custom Fabricated Incoloy Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      customFittings: [
-        {
-          title: "Custom & Special Bores",
-          items: [
-            "Custom Radius Elbows",
-            "Special Geometry Reducers",
-            "Non-Standard Size Fittings",
-            "Made-to-Order Incoloy Fittings",
-            "Fabricated Short Radius Returns",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Incoloy Pipe Fittings Manufacturer in India",
-      "ASTM B366 Incoloy 800HT/825 Fittings Supplier",
-      "ASME SB-366 Incoloy Buttweld Fittings Stockist",
-      "Incoloy Pipe Fittings Exporter to USA, Gulf, Europe, Asia",
-      "Incoloy 800HT Pipe Fittings (UNS N08811) WPNIC11 Grade",
-      "Incoloy 825 Pipe Fittings (UNS N08825) WPNICMC Grade",
-      "ASME B16.9 Incoloy Buttweld Fittings",
-      "Incoloy Seamless & Welded Fittings Manufacturer",
-      "Incoloy Pipe Fittings with EN 10204 3.1 MTC",
-      "Incoloy Fittings for Chemical, Oil & Gas, Power Industry",
-    ],
-    relatedSearches: [
-      "incoloy pipe fittings manufacturer in india",
-      "incoloy buttweld fittings supplier mumbai",
-      "astm b366 incoloy 825 fittings exporter",
-      "incoloy 800ht pipe fittings price",
-      "incoloy 825 pipe fittings stockist",
-      "asme b16.9 incoloy fittings supplier",
-      "incoloy seamless fittings manufacturer",
-      "incoloy welded fittings supplier",
-      "incoloy pipe fittings for chemical industry",
-      "incoloy fittings with en 10204 3.1 certificate",
-      "incoloy 800ht wpnic11 fittings",
-      "incoloy 825 wpnicmc fittings",
-      "incoloy pipe fittings for oil and gas",
-      "incoloy fittings for power plant piping",
-      "incoloy 825 fittings for acid service",
-      "incoloy 800ht fittings for high temperature",
-      "asme b16.9 incoloy buttweld fittings",
-      "incoloy fittings with mtc certification",
-      "incoloy fittings for petrochemical industry",
-      "incoloy fittings for offshore industry",
-      "incoloy fittings for fertiliser industry",
-      "incoloy fittings for pollution control industry",
-      "incoloy fittings for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
-  },
-  {
-    id: 3,
-    slug: "hastelloy-pipe-fittings",
-    image: "/stock/hastelloy-pipe-fittings.jpg",
-    title:
-      "Hastelloy Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-    shortDescription:
-      "Premium Hastelloy pipe fittings manufacturer, stockist, supplier and exporter operating from Mumbai, India since 2013. Butt-weld elbows, tees, reducers, end caps and stub ends certified to ASTM B366 / ASME SB-366 with dimensions to ASME B16.9, while forged socket weld and threaded fittings follow ASTM B564 / ASME SB-564 under ASME B16.11. Available in Hastelloy C276 (UNS N10276) and Hastelloy C22 (UNS N06022) grades. Sizes open at 1/2 inch NB with walls to SCH 10S, 40S, 80S, 160 and XXS.",
-    technicalOverview:
-      "Hastelloy pipe fittings are manufactured from nickel-chromium-molybdenum superalloys that offer exceptional corrosion resistance in severe environments. Two grades carry the range. Hastelloy C276 pipe fittings (UNS N10276) hold the WPHC276 designation and remain the most widely specified fitting grade of the family, covering the broadest range of reducing and mixed acid duty. Hastelloy C22 pipe fittings (UNS N06022) are certified as WPHC22 and are used in oxidising media. Nickel, molybdenum and chromium form the matrix of both alloys; tungsten adds pitting resistance, and low carbon protects the weld heat-affected zone during fabrication. Wet chlorine, hot brine, seawater and mixed acid streams are the routine service media. Roughly 60 to 70 tonnes of nickel alloy material stand ready in Mumbai, and cutting, machining, threading, fabrication, testing and packing all happen in-house.",
-    materialGroup: "Hastelloy Fitting",
-    standards:
-      "ASTM B366, ASME SB-366, ASTM B564, ASME SB-564, ASTM B575, ASME B16.9, ASME B16.11, MSS SP-43",
-    forms:
-      "Elbows, Tees, Reducers, Caps, Stub Ends, Crosses, Long Radius Elbows, Short Radius Elbows, 180° Returns, Socket Weld Fittings, Threaded Fittings",
-    application:
-      "Hastelloy pipe fittings are widely used in chemical plants, refineries, offshore platforms, effluent lines, wet chlorine, hot brine, seawater, mixed acid streams, chemical industry, petrochemical, oil & gas, marine, offshore, pumps & valves, water treatment, and pharmaceutical industry.",
-    applications: [
-      "Chemical Industry",
-      "Petrochemical Industry",
-      "Oil & Gas Industry",
-      "Marine Industry",
-      "Offshore Industry",
-      "Pumps & Valves Industry",
-      "Water Treatment Industry",
-      "Pharmaceutical Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Hastelloy C276":
-          "UNS N10276 – Nickel-chromium-molybdenum alloy with tungsten addition for pitting resistance. Covers the broadest range of reducing and mixed acid duty. Sulphuric acid mixtures, wet chlorine, brine and seawater all fall inside WPHC276 service. Wrought buttweld fittings to ASTM B366 / ASME SB-366. Carbon capped at 0.010% restricts grain boundary precipitates in the heat-affected zone.",
-        "Hastelloy C22":
-          "UNS N06022 – Nickel-chromium-molybdenum alloy with higher chromium for oxidising media resistance. WPHC22 fittings withstand nitric acid and other oxidising media. Carbon capped at 0.015% restricts grain boundary precipitates in the heat-affected zone.",
-      },
-    },
-    specifications: {
-      standardButtweld: "ASTM B366 / ASME SB-366",
-      standardForged: "ASTM B564 / ASME SB-564",
-      dimensionalStandards: "ASME B16.9, ASME B16.11, MSS SP-43",
-      grades: "Hastelloy C22 (UNS N06022), Hastelloy C276 (UNS N10276)",
-      b366FittingDesignations: "WPHC22, WPHC276",
-      size: "1/2 inch NB upward; larger bores against drawings",
-      schedule:
-        "SCH 10S, 40S and 80S (ASME B36.19M); SCH 40, 80, 160 and XXS (ASME B36.10M)",
-      endPreparation: "Bevelled buttweld, socket weld, threaded",
-      construction: "Seamless and welded",
-      supplyCondition: "Solution annealed",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    fittingTypes: [
-      "Elbows (90° & 45°)",
-      "Tees (Straight & Reducing)",
-      "Crosses",
-      "Reducers (Concentric & Eccentric)",
-      "Caps",
-      "Stub Ends",
-      "Long Radius Elbows 45°, 90° and 180° Returns",
-      "Short Radius 90° Elbows and 180° Returns",
-      "Socket Weld Elbows",
-      "Socket Weld Tees",
-      "Threaded Elbows",
-      "Threaded Tees",
-    ],
-    sizeRange: {
-      buttweldFittings: {
-        fittingGroup: "Buttweld elbows, tees, reducers, end caps and stub ends",
-        governingStandard: "ASME B16.9",
-        sizeRange: "NPS 1/2 to NPS 48 (DN 15 to DN 1200)",
-        wallClass: "SCH 10S, 40S, 80S and XXS",
-      },
-      radiusElbows: {
-        fittingGroup:
-          "Long radius elbows 45°, 90° and 180° returns; short radius 90° elbows and 180° returns",
-        governingStandard: "ASME B16.9",
-        sizeRange: "NPS 1/2 to NPS 48 (DN 15 to DN 1200)",
-        wallClass: "Matched to the connecting pipe schedule",
-      },
-      forgedFittings: {
-        fittingGroup: "Forged socket weld and threaded fittings",
-        governingStandard: "ASME B16.11",
-        sizeRange: "Quoted per enquiry",
-        wallClass: "Pressure class to order",
-      },
-      specialBends: {
-        fittingGroup: "Special bends, radii and non-standard bores",
-        governingStandard: "To drawing",
-        sizeRange: "Made to order",
-        wallClass: "Formed by mandrel bending",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM B366 / ASME SB-366",
-        scope: "Factory-made wrought nickel alloy fittings",
-      },
-      {
-        standard: "ASTM B564 / ASME SB-564",
-        scope: "Nickel alloy forgings for socket weld and threaded fittings",
-      },
-      {
-        standard: "ASTM B575",
-        scope: "Parent plate chemistry behind the WPHC22 and WPHC276 grades",
-      },
-      {
-        standard: "ASME B16.9",
-        scope: "Buttwelding fitting dimensions and tolerances",
-      },
-      {
-        standard: "ASME B16.11",
-        scope: "Forged fittings, socket welding and threaded",
-      },
-      {
-        standard: "MSS SP-43",
-        scope: "Light weight buttweld fittings and lap joint stub ends",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Standard Buttweld": "ASTM B366 / ASME SB-366",
-        "Standard Forged": "ASTM B564 / ASME SB-564",
-        "Dimensional Standards": "ASME B16.9, ASME B16.11, MSS SP-43",
-        Grades: "Hastelloy C22 (UNS N06022), Hastelloy C276 (UNS N10276)",
-        "B366 Fitting Designations": "WPHC22, WPHC276",
-        Size: "1/2 inch NB upward; larger bores against drawings",
-        Schedule:
-          "SCH 10S, 40S and 80S (ASME B36.19M); SCH 40, 80, 160 and XXS (ASME B36.10M)",
-        "End Preparation": "Bevelled buttweld, socket weld, threaded",
-        Construction: "Seamless and welded",
-        "Supply Condition": "Solution annealed",
-      },
-      fittingSizeTable: [
-        {
-          fittingGroup:
-            "Buttweld elbows, tees, reducers, end caps and stub ends",
-          governingStandard: "ASME B16.9",
-          sizeRange: "NPS 1/2 to NPS 48 (DN 15 to DN 1200)",
-          wallClass: "SCH 10S, 40S, 80S and XXS",
-        },
-        {
-          fittingGroup:
-            "Long radius elbows 45°, 90° and 180° returns; short radius 90° elbows and 180° returns",
-          governingStandard: "ASME B16.9",
-          sizeRange: "NPS 1/2 to NPS 48 (DN 15 to DN 1200)",
-          wallClass: "Matched to the connecting pipe schedule",
-        },
-        {
-          fittingGroup: "Forged socket weld and threaded fittings",
-          governingStandard: "ASME B16.11",
-          sizeRange: "Quoted per enquiry",
-          wallClass: "Pressure class to order",
-        },
-        {
-          fittingGroup: "Special bends, radii and non-standard bores",
-          governingStandard: "To drawing",
-          sizeRange: "Made to order",
-          wallClass: "Formed by mandrel bending",
-        },
-      ],
-      applicableStandardsTable: [
-        {
-          standard: "ASTM B366 / ASME SB-366",
-          scope: "Factory-made wrought nickel alloy fittings",
-        },
-        {
-          standard: "ASTM B564 / ASME SB-564",
-          scope: "Nickel alloy forgings for socket weld and threaded fittings",
-        },
-        {
-          standard: "ASTM B575",
-          scope: "Parent plate chemistry behind the WPHC22 and WPHC276 grades",
-        },
-        {
-          standard: "ASME B16.9",
-          scope: "Buttwelding fitting dimensions and tolerances",
-        },
-        {
-          standard: "ASME B16.11",
-          scope: "Forged fittings, socket welding and threaded",
-        },
-        {
-          standard: "MSS SP-43",
-          scope: "Light weight buttweld fittings and lap joint stub ends",
-        },
-      ],
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Dimensional check against ASME B16.9 / B16.11",
-        "Visual inspection of weld bevels",
-        "Mechanical testing",
-        "Chemical analysis",
-        "Non-destructive examination (upon request)",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back.",
-    },
-    stockAvailability: {
-      buttweldFittings: [
-        {
-          title: "Hastelloy Buttweld Fittings",
-          items: [
-            "ASTM B366 Hastelloy C276 Buttweld Elbows",
-            "ASME SB-366 Hastelloy C22 Tees",
-            "UNS N10276 Buttweld Reducers",
-            "Hastelloy C276 Caps",
-            "Hastelloy C22 Stub Ends",
-            "Hastelloy C276 Crosses",
-            "Long Radius Elbows 45° & 90°",
-            "Short Radius Elbows",
-            "ASME B16.9 Hastelloy Buttweld Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      socketWeldFittings: [
-        {
-          title: "Hastelloy Socket Weld Fittings",
-          items: [
-            "ASME B16.11 Hastelloy C276 Socket Weld Elbows",
-            "Hastelloy C22 Socket Weld Tees",
-            "Hastelloy C276 Socket Weld Couplings",
-            "UNS N10276 Socket Weld Unions",
-            "Hastelloy C22 Socket Weld Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      threadedFittings: [
-        {
-          title: "Hastelloy Threaded Fittings",
-          items: [
-            "ASME B16.11 Hastelloy C276 Threaded Elbows",
-            "Hastelloy C22 Threaded Tees",
-            "Hastelloy C276 Threaded Couplings",
-            "UNS N10276 Threaded Unions",
-            "Hastelloy C22 Threaded Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-    },
 
-    specializedIn: [
-      "Hastelloy Pipe Fittings Manufacturer in India",
-      "ASTM B366 Hastelloy C276/C22 Fittings Supplier",
-      "ASME SB-366 Hastelloy Buttweld Fittings Stockist",
-      "Hastelloy Pipe Fittings Exporter to USA, Gulf, Europe, Asia",
-      "Hastelloy C276 Pipe Fittings (UNS N10276) WPHC276 Grade",
-      "Hastelloy C22 Pipe Fittings (UNS N06022) WPHC22 Grade",
-      "ASME B16.9 Hastelloy Buttweld Fittings",
-      "ASME B16.11 Hastelloy Socket Weld & Threaded Fittings",
-      "Hastelloy Pipe Fittings with EN 10204 3.1 MTC",
-      "Hastelloy Fittings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Hastelloy Fittings for Chemical, Petrochemical, Oil & Gas Industry",
-    ],
-    relatedSearches: [
-      "hastelloy pipe fittings manufacturer in india",
-      "hastelloy buttweld fittings supplier mumbai",
-      "astm b366 hastelloy c276 fittings exporter",
-      "hastelloy c22 pipe fittings price",
-      "hastelloy c276 pipe fittings stockist",
-      "asme b16.9 hastelloy fittings supplier",
-      "hastelloy socket weld fittings manufacturer",
-      "hastelloy threaded fittings supplier",
-      "hastelloy pipe fittings for chemical industry",
-      "hastelloy fittings with en 10204 3.1 certificate",
-      "hastelloy c276 wphc276 fittings",
-      "hastelloy c22 wphc22 fittings",
-      "hastelloy pipe fittings for oil and gas",
-      "hastelloy fittings for marine industry",
-      "hastelloy c276 fittings for acid service",
-      "hastelloy c22 fittings for oxidising media",
-      "asme b16.11 hastelloy forged fittings",
-      "hastelloy fittings with mtc certification",
-      "hastelloy fittings for petrochemical industry",
-      "hastelloy fittings for offshore industry",
-      "hastelloy fittings for water treatment industry",
-      "hastelloy fittings for pharmaceutical industry",
-      "hastelloy fittings for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
-  },
-  {
-    id: 4,
-    slug: "monel-pipe-fittings",
-    image: "/stock/titanium-buttweld-fittings.jpg",
-    title:
-      "Monel Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-    shortDescription:
-      "Premium Monel pipe fittings manufacturer, stockist, supplier and exporter based in Mumbai, active in nickel alloy piping since 2013. Production covers butt-weld elbows, tees, reducers, caps and stub ends to ASTM B366 / ASME SB-366 in grade WPNC, dimensioned under ASME B16.9, with MSS SP-43 for lightweight walls, plus forged socket-weld and threaded pieces to ASME B16.11 from ASTM B564 forgings. Available in Monel 400 (UNS N04400) grade. Seamless fittings span 1/2 inch to 10 inch NB, welded construction extends coverage to 48 inch NB, and schedules run SCH 5 through SCH XXS.",
-    technicalOverview:
-      "Monel pipe fittings are manufactured from nickel-copper alloy that offers exceptional corrosion resistance in severe environments. Monel 400 (UNS N04400) holds nominally 67% nickel with 30% copper, and that balance withstands rapidly flowing seawater, hydrofluoric acid, brine and alkali service from subzero temperatures to approximately 538°C (1,000°F). Monel 400 fittings resist the chloride stress corrosion cracking that fractures austenitic stainless lines, and the alloy hardens only by cold working, never by heat treatment. Twelve stocked patterns handle direction change, branching, bore reduction and termination. Cutting, machining, threading, fabrication, testing and packing are handled at our own facility, and roughly 60 to 70 tonnes of nickel alloy stock wait in Mumbai for quick dispatch.",
-    materialGroup: "Monel Fitting",
-    standards:
-      "ASTM B366, ASME SB-366, ASTM B564, ASME SB-564, ASME B16.9, ASME B16.11, ASME B16.28, MSS SP-43, MSS SP-95, MSS SP-97",
-    forms:
-      "Elbows, Tees, Reducers, Caps, Stub Ends, Crosses, Socket Weld Fittings, Threaded Fittings, Swage Nipples, Bull Plugs",
-    application:
-      "Monel pipe fittings are widely used in marine, shipbuilding, oil and gas, chemical, petrochemical, pumps & valves, offshore, and powerplant industries for seawater, brine, hydrofluoric acid, and alkali services.",
-    applications: [
-      "Marine Industry",
-      "Shipbuilding Industry",
-      "Oil & Gas Industry",
-      "Chemical Industry",
-      "Petrochemical Industry",
-      "Pumps & Valves Industry",
-      "Offshore Industry",
-      "Powerplant Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Monel 400":
-          "UNS N04400 – Nickel-copper alloy with nominally 67% nickel and 30% copper. Resists chloride stress corrosion cracking, rapidly flowing seawater, hydrofluoric acid, brine and alkali service from subzero temperatures to approximately 538°C (1,000°F). Hardens only by cold working, never by heat treatment. Wrought buttweld fittings to ASTM B366 / ASME SB-366 grade WPNC.",
-      },
-    },
-    specifications: {
-      standardButtweld: "ASTM B366 / ASME SB-366, grade WPNC",
-      standardForged: "ASTM B564 / ASME SB-564",
-      dimensionalStandards:
-        "ASME B16.9 (long and short radius elbows and returns), MSS SP-43 for lightweight corrosion resistant walls; ASME B16.11 for forged items",
-      grade: "Monel 400 (UNS N04400)",
-      sizeSeamlessButtweld: "1/2 inch to 10 inch NB",
-      sizeWeldedButtweld: "1/2 inch to 48 inch NB (DN15 to DN1200)",
-      sizeForged: "1/8 inch to 4 inch NPS, to ASME B16.11",
-      schedule:
-        "SCH 5, 10, 20, 30, STD, 40, 60, XS, 80, 100, 120, 140, 160, XXS",
-      pressureClassForged:
-        "Socket-weld: Class 3000 (1/8 in to 4 in), Class 6000 (1/8 in to 2 in), Class 9000 (1/2 in to 2 in). Threaded: Class 2000, Class 3000 and Class 6000 (1/8 in to 4 in)",
-      endPreparation: "Bevelled buttweld; socket weld; threaded NPT, BSP, BSPT",
-      bendRadius:
-        "1D (short radius) and 1.5D (long radius) for butt-weld elbows to ASME B16.9. Larger radii of 3D, 5D, 6D, 8D, 10D and custom are supplied as fabricated or induction pipe bends, not as B16.9 fittings.",
-      construction: "Seamless and welded",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    fittingTypes: [
-      "Elbows (90° & 45°)",
-      "Tees (Straight & Reducing)",
-      "Crosses",
-      "Reducers (Concentric & Eccentric)",
-      "Caps",
-      "Stub Ends",
-      "Socket Weld Elbows",
-      "Socket Weld Tees",
-      "Socket Weld Couplings",
-      "Socket Weld Unions",
-      "Threaded Elbows",
-      "Threaded Tees",
-      "Threaded Couplings",
-      "Threaded Unions",
-      "Swage Nipples",
-      "Bull Plugs",
-    ],
-    sizeRange: {
-      seamlessFittings: {
-        fittingGroup:
-          "Seamless butt-weld elbows, tees, reducers, caps, crosses, and stub ends",
-        governingStandard: "ASTM B366 with ASME B16.9",
-        sizeRange: "1/2 inch to 10 inch NB",
-        wallClass: "SCH 5 through SCH XXS",
-      },
-      weldedFittings: {
-        fittingGroup:
-          "Welded butt-weld fittings, radiographed or ultrasonically tested classes included",
-        governingStandard: "ASTM B366 dimensioned to ASME B16.9",
-        sizeRange: "1/2 inch to 48 inch NB (DN 15 to DN 1200)",
-        wallClass: "SCH 5 through SCH XXS",
-      },
-      forgedFittings: {
-        fittingGroup: "Forged socket weld and threaded fittings",
-        governingStandard:
-          "ASTM B366 grade WPNC dimensioned to ASME B16.11, forgings to ASTM B564",
-        sizeRange: "1/8 inch to 4 inches NPS",
-        wallClass:
-          "Socket-weld Class 3000 (to 4 in), Class 6000 (to 2 in), Class 9000 (1/2 in to 2 in); threaded Class 2000, 3000 and 6000 (to 4 in)",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM B366 / ASME SB-366",
-        scope:
-          "Wrought nickel and nickel alloy welding fittings, Monel buttweld items in grade WPNC",
-      },
-      {
-        standard: "ASTM B564 / ASME SB-564",
-        scope:
-          "Nickel alloy forgings, the base material for socket weld and threaded fittings",
-      },
-      {
-        standard: "ASME B16.9",
-        scope: "Factory-made wrought buttwelding fittings",
-      },
-      {
-        standard: "ASME B16.28",
-        scope:
-          "Factory-made wrought buttwelding fittings, NPS 1/2 to NPS 48 (DN 15 to DN 1200), long and short radius elbows and returns included since 2001",
-      },
-      {
-        standard: "MSS SP-95 / MSS SP-97",
-        scope:
-          "Swage nipples and bull plugs; integrally reinforced forged branch outlet fittings",
-      },
-      {
-        standard: "ASME B16.11",
-        scope: "Forged fittings, socket welding and threaded",
-      },
-      {
-        standard: "MSS SP-43",
-        scope:
-          "Lightweight wrought buttwelding fittings, including the CR corrosion-resistant class",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Standard Buttweld": "ASTM B366 / ASME SB-366, grade WPNC",
-        "Standard Forged": "ASTM B564 / ASME SB-564",
-        "Dimensional Standards":
-          "ASME B16.9 (long and short radius elbows and returns), MSS SP-43 for lightweight corrosion resistant walls; ASME B16.11 for forged items",
-        Grade: "Monel 400 (UNS N04400)",
-        "Size Seamless Buttweld": "1/2 inch to 10 inch NB",
-        "Size Welded Buttweld": "1/2 inch to 48 inch NB (DN15 to DN1200)",
-        "Size Forged": "1/8 inch to 4 inch NPS, to ASME B16.11",
-        Schedule:
-          "SCH 5, 10, 20, 30, STD, 40, 60, XS, 80, 100, 120, 140, 160, XXS",
-        "Pressure Class Forged":
-          "Socket-weld: Class 3000 (to 4 in), Class 6000 (to 2 in), Class 9000 (1/2 in to 2 in); Threaded: Class 2000, 3000 and 6000 (to 4 in)",
-        "End Preparation":
-          "Bevelled buttweld; socket weld; threaded NPT, BSP, BSPT",
-        Construction: "Seamless and welded",
-      },
-      fittingSizeTable: [
-        {
-          fittingGroup:
-            "Seamless butt-weld elbows, tees, reducers, caps, crosses, and stub ends",
-          governingStandard: "ASTM B366 with ASME B16.9",
-          sizeRange: "1/2 inch to 10 inch NB",
-          wallClass: "SCH 5 through SCH XXS",
-        },
-        {
-          fittingGroup:
-            "Welded butt-weld fittings, radiographed or ultrasonically tested classes included",
-          governingStandard: "ASTM B366 dimensioned to ASME B16.9",
-          sizeRange: "1/2 inch to 48 inch NB (DN 15 to DN 1200)",
-          wallClass: "SCH 5 through SCH XXS",
-        },
-        {
-          fittingGroup: "Forged socket weld and threaded fittings",
-          governingStandard:
-            "ASTM B366 grade WPNC dimensioned to ASME B16.11, forgings to ASTM B564",
-          sizeRange: "1/8 inch to 4 inches NPS",
-          wallClass:
-            "Socket-weld Class 3000 (to 4 in), Class 6000 (to 2 in), Class 9000 (1/2 in to 2 in); threaded Class 2000, 3000 and 6000 (to 4 in)",
-        },
-      ],
-      applicableStandardsTable: [
-        {
-          standard: "ASTM B366 / ASME SB-366",
-          scope:
-            "Wrought nickel and nickel alloy welding fittings, Monel buttweld items in grade WPNC",
-        },
-        {
-          standard: "ASTM B564 / ASME SB-564",
-          scope:
-            "Nickel alloy forgings, the base material for socket weld and threaded fittings",
-        },
-        {
-          standard: "ASME B16.9",
-          scope: "Factory-made wrought buttwelding fittings",
-        },
-        {
-          standard: "ASME B16.28",
-          scope:
-            "Factory-made wrought buttwelding fittings, NPS 1/2 to NPS 48 (DN 15 to DN 1200)",
-        },
-        {
-          standard: "MSS SP-95 / MSS SP-97",
-          scope:
-            "Swage nipples and bull plugs; integrally reinforced forged branch outlet fittings",
-        },
-        {
-          standard: "ASME B16.11",
-          scope: "Forged fittings, socket welding and threaded",
-        },
-        {
-          standard: "MSS SP-43",
-          scope:
-            "Lightweight wrought buttwelding fittings, including the CR corrosion-resistant class",
-        },
-      ],
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Dimensional verification against ASME B16.9 / B16.11",
-        "Visual inspection of weld bevels",
-        "Mechanical testing",
-        "Chemical analysis",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back.",
-    },
-    stockAvailability: {
-      seamlessFittings: [
-        {
-          title: "Monel 400 Seamless Buttweld Fittings",
-          items: [
-            "ASTM B366 Monel 400 Seamless Elbows",
-            "ASME SB-366 Monel 400 Seamless Tees",
-            "UNS N04400 Seamless Reducers",
-            "Monel 400 Seamless Caps",
-            "Monel 400 Seamless Stub Ends",
-            "Monel 400 Seamless Crosses",
-            "ASME B16.9 Monel Buttweld Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      weldedFittings: [
-        {
-          title: "Monel 400 Welded Buttweld Fittings",
-          items: [
-            "ASTM B366 Monel 400 Welded Elbows",
-            "ASME SB-366 Monel 400 Welded Tees",
-            "UNS N04400 Welded Reducers",
-            "Monel 400 Welded Caps",
-            "Monel 400 Welded Stub Ends",
-            "Monel 400 Welded Crosses",
-            "ASME B16.9 Monel Welded Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      forgedFittings: [
-        {
-          title: "Monel 400 Forged Socket Weld & Threaded Fittings",
-          items: [
-            "ASME B16.11 Monel 400 Socket Weld Elbows",
-            "Monel 400 Socket Weld Tees",
-            "Monel 400 Socket Weld Couplings",
-            "Monel 400 Threaded Elbows",
-            "Monel 400 Threaded Tees",
-            "Monel 400 Threaded Couplings",
-            "UNS N04400 Forged Unions",
-            "Monel 400 Swage Nipples",
-            "Monel 400 Bull Plugs",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Monel Pipe Fittings Manufacturer in India",
-      "ASTM B366 Monel 400 Fittings Supplier",
-      "ASME SB-366 Monel Buttweld Fittings Stockist",
-      "Monel Pipe Fittings Exporter to USA, Gulf, Europe, Asia",
-      "Monel 400 Pipe Fittings (UNS N04400) WPNC Grade",
-      "ASME B16.9 Monel Buttweld Fittings",
-      "ASME B16.11 Monel Socket Weld & Threaded Fittings",
-      "Monel Seamless & Welded Fittings Manufacturer",
-      "Monel Pipe Fittings with EN 10204 3.1 MTC",
-      "Monel Fittings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Monel Fittings for Marine, Shipbuilding, Oil & Gas Industry",
-    ],
-    relatedSearches: [
-      "monel pipe fittings manufacturer in india",
-      "monel buttweld fittings supplier mumbai",
-      "astm b366 monel 400 fittings exporter",
-      "monel 400 pipe fittings price",
-      "monel pipe fittings stockist",
-      "asme b16.9 monel fittings supplier",
-      "monel socket weld fittings manufacturer",
-      "monel threaded fittings supplier",
-      "monel pipe fittings for marine industry",
-      "monel fittings with en 10204 3.1 certificate",
-      "monel 400 wpnc fittings",
-      "monel pipe fittings for shipbuilding",
-      "monel fittings for seawater applications",
-      "monel 400 fittings for hydrofluoric acid service",
-      "monel fittings for oil and gas industry",
-      "monel fittings for chemical industry",
-      "asme b16.11 monel forged fittings",
-      "monel fittings with mtc certification",
-      "monel fittings for petrochemical industry",
-      "monel fittings for offshore industry",
-      "monel fittings for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
-  },
-  {
-    id: 5,
-    slug: "nickel-pipe-fittings",
-    image: "/stock/Nickel-Alloy-Buttweld-Fittings.jpg",
-    title:
-      "Nickel Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-    shortDescription:
-      "Premium nickel alloy pipe fittings manufacturer, stockist and exporter established in Mumbai, India, in 2013. Wrought fittings certified to ASTM B366 / ASME SB-366, with buttweld dimensions held to ASME B16.9 and MSS SP-43 for light-wall pieces. Available in Nickel 200 (UNS N02200) for service at or below 315 °C and Nickel 201 (UNS N02201) for high-temperature applications. Seamless elbows, tees, reducers, caps and stub ends span 1/2 inch to 10 inch NB; welded and fabricated construction extends the bore to 48 inch NB.",
-    technicalOverview:
-      "Nickel pipe fittings are manufactured from commercially pure nickel grades that offer exceptional corrosion resistance in caustic and high-purity environments. Two commercially pure grades make up the supplied range: Nickel 200 (UNS N02200) and Nickel 201 (UNS N02201). Carbon content sets the two apart. Nickel 200 permits 0.15% maximum and covers service at or below 315 °C; Nickel 201 caps carbon at 0.02% and takes the lines running hotter. Both grades hold 99.0% minimum nickel plus cobalt, a purity suited to caustic soda, chlor-alkali, fluorine and food processing circuits. Roughly 60 to 70 tonnes of alloy stock held in Mumbai. Own-works processing covers cutting, machining, threading, fabrication, testing and packing.",
-    materialGroup: "Nickel Fitting",
-    standards: "ASTM B366, ASME SB-366, ASME B16.9, ASME B16.11, MSS SP-43",
-    forms:
-      "Elbows, Tees, Reducers, Caps, Stub Ends, Crosses, Socket Weld Fittings, Threaded Fittings",
-    application:
-      "Nickel pipe fittings are widely used in caustic concentration plants, chlor-alkali cells, food processing lines, chemical industry, oil & gas, marine, offshore, pumps & valves, food processing, water treatment, and powerplant industry.",
-    applications: [
-      "Chemical Industry",
-      "Oil & Gas Industry",
-      "Marine Industry",
-      "Offshore Industry",
-      "Pumps & Valves Industry",
-      "Food Processing Industry",
-      "Water Treatment Industry",
-      "Powerplant Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Nickel 200":
-          "UNS N02200 – Commercially pure nickel with 99.0% minimum nickel plus cobalt and 0.15% maximum carbon. Serves caustic concentration plants, chlor-alkali cells and food processing lines with metal temperatures at or below 315 °C. Wrought buttweld fittings to ASTM B366 / ASME SB-366.",
-        "Nickel 201":
-          "UNS N02201 – Commercially pure nickel with 99.0% minimum nickel plus cobalt and 0.02% maximum carbon. Withstands extremely heated conditions above 315 °C. The low carbon ceiling stops graphitisation from embrittling the fitting wall over long service. Wrought buttweld fittings to ASTM B366 / ASME SB-366.",
-      },
-    },
-    specifications: {
-      materialStandard: "ASTM B366 / ASME SB-366",
-      dimensionalStandards:
-        "ASME B16.9, MSS SP-43 (buttweld); ASME B16.11 (forged)",
-      grades: "Nickel 200 (UNS N02200), Nickel 201 (UNS N02201)",
-      sizeButtweldSeamless: "1/2 inch to 10 inch NB",
-      sizeButtweldWelded: "1/2 inch to 48 inch NB",
-      sizeForged:
-        "Socket weld: Class 3000, 1/4 inch to 3 inch; Class 6000, 1/4 inch to 2 inch; Class 9000, 1/2 inch to 2 inch. Threaded: Class 2000, 3000 and 6000, 1/4 inch to 3 inch",
-      schedule:
-        "Sch 5S, Sch 10S, Sch 40, Sch 80, Sch 160 and Sch XXS, each in the sizes for which that wall is tabulated (Sch 5S and 10S to NPS 30 under ASME B36.19M)",
-      lightGauge: "20 SWG to 10 SWG",
-      pressureClassForged:
-        "Socket weld: Class 3000, 6000, 9000. Threaded: Class 2000, 3000, 6000",
-      endPreparation: "Bevelled buttweld, socket weld, threaded NPT",
-      construction: "Seamless, welded, fabricated, forged",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    fittingTypes: [
-      "Elbows (90° & 45°)",
-      "Tees (Straight & Reducing)",
-      "Crosses",
-      "Reducers (Concentric & Eccentric)",
-      "Caps",
-      "Stub Ends",
-      "Socket Weld Elbows",
-      "Socket Weld Tees",
-      "Socket Weld Couplings",
-      "Socket Weld Unions",
-      "Socket Weld Bushings",
-      "Threaded Elbows",
-      "Threaded Tees",
-      "Threaded Couplings",
-      "Threaded Unions",
-      "Threaded Bushings",
-    ],
-    sizeRange: {
-      seamlessFittings: {
-        fittingGroup: "Seamless buttweld fittings",
-        governingStandard: "ASME B16.9 / ASME B36.10M",
-        sizeRange: "1/2 inch to 10 inch NB",
-        wallClass: "Sch 5 to Sch XXS",
-      },
-      weldedFabricated: {
-        fittingGroup: "Welded and fabricated butt-weld fittings",
-        governingStandard: "ASME B16.9 / ASME B36.19M / ASME B36.10M",
-        sizeRange: "1/2 inch to 48 inch NB",
-        wallClass:
-          "Sch 5S and 10S to NPS 30 (ASME B36.19M); Sch 40, Sch 80, Sch 160 and Sch XXS in the sizes for which those walls are tabulated in ASME B36.10M; 20 SWG to 10 SWG",
-      },
-      forgedSocketWeld: {
-        fittingGroup: "Forged socket weld fittings",
-        governingStandard: "ASME B16.11",
-        sizeRange:
-          "Class 3000: 1/4 inch to 3 inch; Class 6000: 1/4 inch to 2 inch; Class 9000: 1/2 inch to 2 inch",
-        wallClass: "3000 lb, 6000 lb, 9000 lb",
-      },
-      forgedThreaded: {
-        fittingGroup: "Forged threaded fittings",
-        governingStandard: "ASME B16.11",
-        sizeRange: "1/4 inch to 3 inch",
-        wallClass: "2000 lb, 3000 lb, 6000 lb",
-      },
-      specialBores: {
-        fittingGroup: "Special bores and custom geometry",
-        governingStandard: "To drawing",
-        sizeRange: "Made to order",
-        wallClass: "To drawing",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM B366 / ASME SB-366",
-        scope: "Factory-made wrought nickel and nickel alloy welding fittings",
-      },
-      {
-        standard: "ASME B16.9",
-        scope:
-          "Buttweld fitting dimensions and tolerances, NPS 1/2 to NPS 48, including short radius elbows and returns",
-      },
-      {
-        standard: "MSS SP-43",
-        scope: "Light-wall Sch 5S and 10S corrosion-resistant fittings",
-      },
-      {
-        standard: "ASME B16.11",
-        scope: "Forged socket weld and threaded fitting dimensions",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Material Standard": "ASTM B366 / ASME SB-366",
-        "Dimensional Standards":
-          "ASME B16.9, MSS SP-43 (buttweld); ASME B16.11 (forged)",
-        Grades: "Nickel 200 (UNS N02200), Nickel 201 (UNS N02201)",
-        "Size Buttweld Seamless": "1/2 inch to 10 inch NB",
-        "Size Buttweld Welded": "1/2 inch to 48 inch NB",
-        "Size Forged":
-          "Socket weld: Class 3000 (to 3 in), Class 6000 (to 2 in), Class 9000 (1/2 in to 2 in); Threaded: Class 2000, 3000 and 6000 (to 3 in)",
-        Schedule: "Sch 5S, Sch 10S, Sch 40, Sch 80, Sch 160 and Sch XXS",
-        "Light Gauge": "20 SWG to 10 SWG",
-        "Pressure Class Forged":
-          "Socket weld: Class 3000, 6000, 9000. Threaded: Class 2000, 3000, 6000",
-        "End Preparation": "Bevelled buttweld, socket weld, threaded NPT",
-        Construction: "Seamless, welded, fabricated, forged",
-      },
-      fittingSizeTable: [
-        {
-          fittingGroup: "Seamless buttweld fittings",
-          governingStandard: "ASME B16.9 / ASME B36.10M",
-          sizeRange: "1/2 inch to 10 inch NB",
-          wallClass: "Sch 5 to Sch XXS",
-        },
-        {
-          fittingGroup: "Welded and fabricated butt-weld fittings",
-          governingStandard: "ASME B16.9 / ASME B36.19M / ASME B36.10M",
-          sizeRange: "1/2 inch to 48 inch NB",
-          wallClass:
-            "Sch 5S and 10S to NPS 30 (ASME B36.19M); Sch 40, Sch 80, Sch 160 and Sch XXS in the sizes for which those walls are tabulated in ASME B36.10M; 20 SWG to 10 SWG",
-        },
-        {
-          fittingGroup: "Forged socket weld fittings",
-          governingStandard: "ASME B16.11",
-          sizeRange:
-            "Class 3000: 1/4 inch to 3 inch; Class 6000: 1/4 inch to 2 inch; Class 9000: 1/2 inch to 2 inch",
-          wallClass: "3000 lb, 6000 lb, 9000 lb",
-        },
-        {
-          fittingGroup: "Forged threaded fittings",
-          governingStandard: "ASME B16.11",
-          sizeRange: "1/4 inch to 3 inch",
-          wallClass: "2000 lb, 3000 lb, 6000 lb",
-        },
-        {
-          fittingGroup: "Special bores and custom geometry",
-          governingStandard: "To drawing",
-          sizeRange: "Made to order",
-          wallClass: "To drawing",
-        },
-      ],
-      applicableStandardsTable: [
-        {
-          standard: "ASTM B366 / ASME SB-366",
-          scope:
-            "Factory-made wrought nickel and nickel alloy welding fittings",
-        },
-        {
-          standard: "ASME B16.9",
-          scope:
-            "Buttweld fitting dimensions and tolerances, NPS 1/2 to NPS 48, including short radius elbows and returns",
-        },
-        {
-          standard: "MSS SP-43",
-          scope: "Light-wall Sch 5S and 10S corrosion-resistant fittings",
-        },
-        {
-          standard: "ASME B16.11",
-          scope: "Forged socket weld and threaded fitting dimensions",
-        },
-      ],
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Carbon confirmation by optical emission spectrometry or combustion analysis",
-        "Heat-number traceability back to the mill certificate",
-        "Dimensional checks against ASME B16.9 / B16.11",
-        "Visual inspection of weld bevels",
-        "Visual inspection of socket bore or thread form on forged items",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back.",
-    },
-    stockAvailability: {
-      seamlessFittings: [
-        {
-          title: "Nickel 200/201 Seamless Buttweld Fittings",
-          items: [
-            "ASTM B366 Nickel 200 Seamless Elbows",
-            "ASME SB-366 Nickel 201 Seamless Tees",
-            "UNS N02200 Seamless Reducers",
-            "Nickel 200 Seamless Caps",
-            "Nickel 201 Seamless Stub Ends",
-            "Nickel 200 Seamless Crosses",
-            "ASME B16.9 Nickel Buttweld Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      weldedFabricated: [
-        {
-          title: "Nickel 200/201 Welded & Fabricated Fittings",
-          items: [
-            "ASTM B366 Nickel 200 Welded Elbows",
-            "ASME SB-366 Nickel 201 Welded Tees",
-            "UNS N02201 Welded Reducers",
-            "Nickel 200 Welded Caps",
-            "Nickel 201 Welded Stub Ends",
-            "Nickel 200 Welded Crosses",
-            "Custom Fabricated Nickel Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      forgedFittings: [
-        {
-          title: "Nickel 200/201 Forged Socket Weld & Threaded Fittings",
-          items: [
-            "ASME B16.11 Nickel 200 Socket Weld Elbows",
-            "Nickel 201 Socket Weld Tees",
-            "Nickel 200 Socket Weld Couplings",
-            "Nickel 201 Threaded Elbows",
-            "Nickel 200 Threaded Tees",
-            "Nickel 201 Threaded Couplings",
-            "UNS N02200 Forged Unions",
-            "Nickel 200 Bushings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Nickel Pipe Fittings Manufacturer in India",
-      "ASTM B366 Nickel 200/201 Fittings Supplier",
-      "ASME SB-366 Nickel Buttweld Fittings Stockist",
-      "Nickel Pipe Fittings Exporter to USA, Gulf, Europe, Asia",
-      "Nickel 200 Pipe Fittings (UNS N02200)",
-      "Nickel 201 Pipe Fittings (UNS N02201)",
-      "ASME B16.9 Nickel Buttweld Fittings",
-      "ASME B16.11 Nickel Socket Weld & Threaded Fittings",
-      "Nickel Seamless & Welded Fittings Manufacturer",
-      "Nickel Pipe Fittings with EN 10204 3.1 MTC",
-      "Nickel Fittings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Nickel Fittings for Caustic, Chlor-Alkali, Food Processing Industry",
-    ],
-    relatedSearches: [
-      "nickel pipe fittings manufacturer in india",
-      "nickel buttweld fittings supplier mumbai",
-      "astm b366 nickel 200 fittings exporter",
-      "nickel 201 pipe fittings price",
-      "nickel pipe fittings stockist",
-      "asme b16.9 nickel fittings supplier",
-      "nickel socket weld fittings manufacturer",
-      "nickel threaded fittings supplier",
-      "nickel pipe fittings for chemical industry",
-      "nickel fittings with en 10204 3.1 certificate",
-      "nickel 200 uns n02200 fittings",
-      "nickel 201 uns n02201 fittings",
-      "nickel pipe fittings for caustic soda service",
-      "nickel fittings for chlor-alkali industry",
-      "nickel 200 fittings for food processing",
-      "nickel 201 fittings for high temperature",
-      "asme b16.11 nickel forged fittings",
-      "nickel fittings with mtc certification",
-      "nickel fittings for marine industry",
-      "nickel fittings for offshore industry",
-      "nickel fittings for water treatment industry",
-      "nickel fittings for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
-  },
-  {
-    id: 6,
-    slug: "titanium-buttweld-fittings",
-    image: "/stock/titanium-buttweld-fittings.jpg",
-    title:
-      "Titanium Pipe Fittings Manufacturer & Supplier - ASTM B363 / ASME SB-363",
-    shortDescription:
-      "Premium titanium pipe fittings manufacturer, stockist and exporter working out of Mumbai, India, trading titanium pipe and fittings since 2013. Certified to ASTM B363 / ASME SB-363, grade WPT1 for Titanium Grade 1 and grade WPT2 for Titanium Grade 2, with couplings machined from ASTM B348 bar. Buttweld dimensions follow ASME B16.9 and ASME B16.28. Elbows, tees and caps available from 1/2 inch to 24 inch NPS, stub ends from 1 inch to 24 inch, and reducers from 1 inch × 1/2 inch to 12 inch × 10 inch, in Schedule 10 and Schedule 40.",
-    technicalOverview:
-      "Titanium pipe fittings are manufactured from commercially pure titanium grades that offer exceptional corrosion resistance in demanding environments. Titanium Grade 1 (UNS R50250) is the softest commercially pure titanium grade, offering excellent formability for thin-wall corrosion-resistant titanium fittings. Titanium Grade 2 (UNS R50400) is commercially pure titanium with higher strength than Grade 1, widely used in seawater, chemical and pulp applications. Titanium resists chlorides and oxidising acids because its surface forms a tight protective oxide layer that rapidly reforms when damaged. This corrosion resistance can reduce the need for corrosion allowance compared with conventional steel piping systems. Cutting, machining, threading, fabrication, testing and packing are carried out in-house.",
-    materialGroup: "Titanium Fitting",
-    standards:
-      "ASTM B363, ASME SB-363, ASTM B348, ASME SB-348, ASTM B381, ASME SB-381, ASME B16.9, ASME B16.28, ASME B16.11",
-    forms:
-      "Elbows, Tees, Reducers, Caps, Stub Ends, Crosses, Couplings, Socket Weld Fittings, Threaded Fittings",
-    application:
-      "Titanium pipe fittings are widely used in desalination trains, chemical process lines, bleach plant circuits, condenser headers, offshore piping, chemical industry, oil & gas, offshore, marine, desalination & water treatment, pulp & paper, powerplant, and pumps & valves industry.",
-    applications: [
-      "Chemical Industry",
-      "Oil & Gas Industry",
-      "Offshore Industry",
-      "Marine Industry",
-      "Desalination & Water Treatment Industry",
-      "Pulp & Paper Industry",
-      "Powerplant Industry",
-      "Pumps & Valves Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Titanium Grade 1":
-          "UNS R50250 – Commercially pure titanium, the softest grade offering excellent formability for thin-wall corrosion-resistant titanium fittings. Wrought buttweld fittings to ASTM B363 / ASME SB-363 grade WPT1.",
-        "Titanium Grade 2":
-          "UNS R50400 – Commercially pure titanium with higher strength than Grade 1, widely used in seawater, chemical and pulp applications. Wrought buttweld fittings to ASTM B363 / ASME SB-363 grade WPT2.",
-      },
-    },
-    specifications: {
-      materialStandardFittings:
-        "ASTM B363 / ASME SB-363 — WPT1 (Titanium Grade 1), WPT2 (Titanium Grade 2)",
-      materialStandardCouplings: "ASTM B348 / ASME SB-348 bar",
-      dimensionalStandard:
-        "ASME B16.9 and ASME B16.28 (buttweld); ASME B16.11 dimensions (socket weld and threaded)",
-      grades: "Titanium Grade 1 and Grade 2",
-      grade1Designation: "UNS R50250",
-      grade2Designation: "UNS R50400",
-      size: '1/2" to 24" nominal bore',
-      schedule: "SCH 10 and SCH 40; SCH 10S, 40S, 80S, 160 and XXS to order",
-      endType: "Buttweld bevelled end, socket weld, threaded NPT",
-      manufacture: "Seamless and welded",
-      fittingRange:
-        "Elbows, tees, reducers, end caps, stub ends, crosses and couplings",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    fittingTypes: [
-      "Elbows (90° Long Radius)",
-      "Elbows (90° Short Radius)",
-      "Elbows (45° Long Radius)",
-      "180° Elbows and Returns",
-      "Concentric Reducers",
-      "Eccentric Reducers",
-      "Straight Tees",
-      "Reducing Tees",
-      "Weld Neck Stub Ends",
-      "Lap Joint Stub Ends",
-      "Crosses",
-      "Couplings (Half and Full)",
-    ],
-    sizeRange: {
-      buttweldFittings: {
-        fittingGroup: "Buttweld fittings",
-        governingStandard: "ASME B16.9 / ASME B16.28",
-        sizeRange: '1/2" to 24" NPS',
-        wallClass: "SCH 10 and SCH 40; additional schedules to order",
-      },
-      elbowsLongRadius: {
-        fittingGroup: "90° Elbow, Long Radius",
-        governingStandard: "ASME B16.9",
-        sizeRange: '1/2" to 24"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      elbowsShortRadius: {
-        fittingGroup: "90° Elbow, Short Radius",
-        governingStandard: "ASME B16.9 / ASME B16.28",
-        sizeRange: '1" to 24"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      elbows45: {
-        fittingGroup: "45° Elbow, Long Radius",
-        governingStandard: "ASME B16.9",
-        sizeRange: '1/2" to 24"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      elbows180: {
-        fittingGroup: "180° Elbow and Return",
-        governingStandard: "ASME B16.9 / ASME B16.28",
-        sizeRange: '1" to 24"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      concentricReducers: {
-        fittingGroup: "Concentric Reducer",
-        governingStandard: "ASME B16.9",
-        sizeRange: '1" × 1/2" to 24" × 20"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      eccentricReducers: {
-        fittingGroup: "Eccentric Reducer",
-        governingStandard: "ASME B16.9",
-        sizeRange: '1" × 1/2" to 12" × 10"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      straightTees: {
-        fittingGroup: "Straight Tee",
-        governingStandard: "ASME B16.9",
-        sizeRange: '1/2" to 24"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      reducingTees: {
-        fittingGroup: "Reducing Tee",
-        governingStandard: "ASME B16.9",
-        sizeRange: '1" × 1" × 1/2" to 20" × 20" × 16"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      stubEnds: {
-        fittingGroup: "Weld Neck and Lap Joint Stub End",
-        governingStandard: "ASME B16.9 / MSS SP-43",
-        sizeRange: '1" to 24"',
-        wallClass: "SCH 10, SCH 40",
-      },
-      couplings: {
-        fittingGroup: "Coupling, Half and Full (ASTM B348)",
-        governingStandard: "ASTM B348 / ASME SB-348",
-        sizeRange: '1/2" to 2"',
-        wallClass: "Machined from bar",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM B363 / ASME SB-363",
-        scope:
-          "Seamless and welded wrought titanium welding fittings; grades WPT1 and WPT2",
-      },
-      {
-        standard: "ASTM B348 / ASME SB-348",
-        scope:
-          "Standard Specification for Titanium and Titanium Alloy Bars and Billets",
-      },
-      {
-        standard: "ASTM B381 / ASME SB-381",
-        scope: "Titanium forgings used as stock for forged fittings",
-      },
-      {
-        standard: "ASME B16.9",
-        scope: "Factory-made wrought buttweld fitting dimensions",
-      },
-      {
-        standard: "ASME B16.28",
-        scope: "Short-radius buttweld elbows and returns",
-      },
-      {
-        standard: "ASME B16.11",
-        scope: "Forged socket weld and threaded fitting dimensions",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Material Standard (fittings)":
-          "ASTM B363 / ASME SB-363 — WPT1 (Titanium Grade 1), WPT2 (Titanium Grade 2)",
-        "Material Standard (couplings)": "ASTM B348 / ASME SB-348 bar",
-        "Dimensional Standard":
-          "ASME B16.9 and ASME B16.28 (buttweld); ASME B16.11 dimensions (socket weld and threaded)",
-        Grades: "Titanium Grade 1 and Grade 2",
-        "Grade 1 Designation": "UNS R50250",
-        "Grade 2 Designation": "UNS R50400",
-        Size: '1/2" to 24" nominal bore',
-        Schedule: "SCH 10 and SCH 40; SCH 10S, 40S, 80S, 160 and XXS to order",
-        "End Type": "Buttweld bevelled end, socket weld, threaded NPT",
-        Manufacture: "Seamless and welded",
-        "Fitting Range":
-          "Elbows, tees, reducers, end caps, stub ends, crosses and couplings",
-      },
-      fittingSizeTable: [
-        {
-          fittingGroup: "90° Elbow, Long Radius",
-          governingStandard: "ASME B16.9",
-          sizeRange: '1/2" to 24"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "90° Elbow, Short Radius",
-          governingStandard: "ASME B16.9 / ASME B16.28",
-          sizeRange: '1" to 24"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "45° Elbow, Long Radius",
-          governingStandard: "ASME B16.9",
-          sizeRange: '1/2" to 24"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "180° Elbow and Return",
-          governingStandard: "ASME B16.9 / ASME B16.28",
-          sizeRange: '1" to 24"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "Concentric Reducer",
-          governingStandard: "ASME B16.9",
-          sizeRange: '1" × 1/2" to 24" × 20"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "Eccentric Reducer",
-          governingStandard: "ASME B16.9",
-          sizeRange: '1" × 1/2" to 12" × 10"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "Straight Tee",
-          governingStandard: "ASME B16.9",
-          sizeRange: '1/2" to 24"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "Reducing Tee",
-          governingStandard: "ASME B16.9",
-          sizeRange: '1" × 1" × 1/2" to 20" × 20" × 16"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "Weld Neck and Lap Joint Stub End",
-          governingStandard: "ASME B16.9 / MSS SP-43",
-          sizeRange: '1" to 24"',
-          wallClass: "SCH 10, SCH 40",
-        },
-        {
-          fittingGroup: "Coupling, Half and Full (ASTM B348)",
-          governingStandard: "ASTM B348 / ASME SB-348",
-          sizeRange: '1/2" to 2"',
-          wallClass: "Machined from bar",
-        },
-      ],
-      applicableStandardsTable: [
-        {
-          standard: "ASTM B363 / ASME SB-363",
-          scope:
-            "Seamless and welded wrought titanium welding fittings; grades WPT1 and WPT2",
-        },
-        {
-          standard: "ASTM B348 / ASME SB-348",
-          scope:
-            "Standard Specification for Titanium and Titanium Alloy Bars and Billets",
-        },
-        {
-          standard: "ASTM B381 / ASME SB-381",
-          scope: "Titanium forgings used as stock for forged fittings",
-        },
-        {
-          standard: "ASME B16.9",
-          scope: "Factory-made wrought buttweld fitting dimensions",
-        },
-        {
-          standard: "ASME B16.28",
-          scope: "Short-radius buttweld elbows and returns",
-        },
-        {
-          standard: "ASME B16.11",
-          scope: "Forged socket weld and threaded fitting dimensions",
-        },
-      ],
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Dimensional checks against ASME B16.9",
-        "Visual inspection of bevel ends",
-        "Positive Material Identification (PMI) to confirm unalloyed titanium",
-        "Mill test certificate records heat number, oxygen and iron content, mechanical test results",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "Third-party inspection witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back. Separation of Grade 1 from Grade 2 is established by the mill test certificate since portable PMI equipment cannot measure oxygen.",
-    },
-    stockAvailability: {
-      buttweldFittings: [
-        {
-          title: "Titanium Grade 1 & 2 Buttweld Fittings",
-          items: [
-            "ASTM B363 Titanium Grade 1 90° Elbows",
-            "ASME SB-363 Titanium Grade 2 Long Radius Elbows",
-            "UNS R50250 Titanium Tees",
-            "Titanium Grade 1 Reducers (Concentric & Eccentric)",
-            "Titanium Grade 2 Caps",
-            "Titanium Grade 1 Stub Ends",
-            "Titanium Grade 2 Crosses",
-            "ASME B16.9 Titanium Buttweld Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      socketWeldFittings: [
-        {
-          title: "Titanium Socket Weld Fittings",
-          items: [
-            "ASME B16.11 Titanium Grade 2 Socket Weld Elbows",
-            "Titanium Grade 1 Socket Weld Tees",
-            "Titanium Grade 2 Socket Weld Couplings",
-            "Titanium Grade 1 Socket Weld Unions",
-            "Titanium Grade 2 Socket Weld Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      threadedFittings: [
-        {
-          title: "Titanium Threaded Fittings",
-          items: [
-            "ASME B16.11 Titanium Grade 1 Threaded Elbows",
-            "Titanium Grade 2 Threaded Tees",
-            "Titanium Grade 1 Threaded Couplings",
-            "Titanium Grade 2 Threaded Unions",
-            "Titanium Grade 1 Threaded Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      couplings: [
-        {
-          title: "Titanium Couplings (ASTM B348)",
-          items: [
-            "Titanium Grade 2 Half Couplings",
-            "Titanium Grade 1 Full Couplings",
-            'UNS R50400 Titanium Couplings 1/2" to 2"',
-            "Titanium Grade 2 Threaded Couplings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Titanium Pipe Fittings Manufacturer in India",
-      "ASTM B363 Titanium Grade 1/2 Fittings Supplier",
-      "ASME SB-363 Titanium Buttweld Fittings Stockist",
-      "Titanium Pipe Fittings Exporter to USA, Gulf, Europe, Asia",
-      "Titanium Grade 1 Pipe Fittings (UNS R50250) WPT1 Grade",
-      "Titanium Grade 2 Pipe Fittings (UNS R50400) WPT2 Grade",
-      "ASME B16.9 Titanium Buttweld Fittings",
-      "ASME B16.11 Titanium Socket Weld & Threaded Fittings",
-      "Titanium Seamless & Welded Fittings Manufacturer",
-      "Titanium Pipe Fittings with EN 10204 3.1 MTC",
-      "Titanium Fittings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Titanium Fittings for Desalination, Chemical, Marine Industry",
-    ],
-    relatedSearches: [
-      "titanium pipe fittings manufacturer in india",
-      "titanium buttweld fittings supplier mumbai",
-      "astm b363 titanium grade 2 fittings exporter",
-      "titanium grade 1 pipe fittings price",
-      "titanium pipe fittings stockist",
-      "asme b16.9 titanium fittings supplier",
-      "titanium socket weld fittings manufacturer",
-      "titanium threaded fittings supplier",
-      "titanium pipe fittings for chemical industry",
-      "titanium fittings with en 10204 3.1 certificate",
-      "titanium grade 1 wpt1 fittings",
-      "titanium grade 2 wpt2 fittings",
-      "titanium pipe fittings for desalination plants",
-      "titanium fittings for marine industry",
-      "titanium grade 2 fittings for seawater service",
-      "titanium fittings for pulp and paper industry",
-      "asme b16.11 titanium forged fittings",
-      "titanium fittings with mtc certification",
-      "titanium fittings for offshore industry",
-      "titanium fittings for water treatment industry",
-      "titanium fittings for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
-  },
-  {
-    id: 7,
-    slug: "stainless-steel-pipe-fittings",
-    image: "/stock/duplex-steel-buttweld-fittings.jpg",
-    title:
-      "Stainless Steel Pipe Fittings Manufacturer & Supplier - ASTM A403 / ASME B16.9",
-    shortDescription:
-      "Premium stainless steel pipe fittings manufacturer, stockist and supplier in India, supplying OEMs, valve builders and process contractors since 2013. Butt-weld elbows, tees, reducers, caps and stub ends to ASTM A403 / ASME B16.9 in 1/2 inch to 24 inch NB, across Sch 10S, Sch 40S, Sch 80S and Sch 160. Forged socket weld and threaded fittings follow ASTM A182 / ASME B16.11. Available in 8 austenitic grades: 304L, 316 & 316L, 317 & 317L, 321, 347, 310, 316Ti and 904L.",
-    technicalOverview:
-      "Stainless steel pipe fittings are manufactured from austenitic stainless steel grades offering excellent corrosion resistance and high-temperature strength. Molybdenum in 316 and 316L answers chloride service. Grade 321 carries a titanium addition that holds the microstructure stable after welding heat. Refineries, chemical plants, power stations and water treatment works take the output. Around 60 to 70 tonnes sit in the Mumbai stockyard; urgent lots clear in 1 to 2 days and made-to-order work takes about 30 days. Cutting, machining, threading and fabrication run in-house.",
-    materialGroup: "Stainless Steel Fitting",
-    standards:
-      "ASTM A403, ASME SA-403, ASTM A182, ASME SA-182, ASME B16.9, ASME B16.28, ASME B16.11, MSS SP-43, EN 10253-4, DIN 2605, JIS B2312, GB/T 12459",
-    forms:
-      "Elbows, Tees, Reducers, Caps, Stub Ends, Crosses, Socket Weld Fittings, Threaded Fittings",
-    application:
-      "Stainless steel pipe fittings are widely used in refineries, chemical plants, power stations, water treatment works, oil & gas, petrochemical, chemical, powerplant, water treatment, pharmaceutical, pumps & valves, and marine industry.",
-    applications: [
-      "Oil & Gas Industry",
-      "Petrochemical Industry",
-      "Chemical Industry",
-      "Powerplant Industry",
-      "Water Treatment Industry",
-      "Pharmaceutical Industry",
-      "Pumps & Valves Industry",
-      "Marine Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "304L":
-          "UNS S30403 – Low-carbon austenitic stainless steel that welds without carbide precipitation in the heat affected zone. Used in general corrosive service.",
-        "310":
-          "UNS S31000 – High-temperature austenitic stainless steel providing excellent oxidation resistance and strength in elevated-temperature environments.",
-        "316 & 316L":
-          "UNS S31600 & S31603 – Molybdenum-bearing austenitic grades that lift pitting resistance. Chloride bearing process lines, seawater circuits and marine deck piping take these fittings.",
-        "317 & 317L":
-          "UNS S31700 & S31703 – Molybdenum-rich austenitic grades offering enhanced corrosion resistance against acids, chlorides, and aggressive chemical environments.",
-        "321":
-          "UNS S32100 – Titanium-stabilised austenitic grade that keeps fittings clear of intergranular attack after welding. Used in exhaust ducting, refinery heaters and cycling steam lines.",
-        "347":
-          "UNS S34700 – Columbium-stabilised austenitic stainless steel providing resistance to intergranular corrosion during elevated-temperature service applications.",
-        "316Ti":
-          "UNS S31635 – Titanium-stabilised 316 stainless steel offering improved intergranular corrosion resistance during elevated-temperature service applications.",
-        "904L":
-          "UNS N08904 – Copper and raised molybdenum equip this grade for sulphuric and phosphoric acid duty. Used in fertiliser plant, pickling lines and scrubber circuits.",
-      },
-    },
-    specifications: {
-      standardButtweld:
-        "ASTM A403 / ASME SA-403, ASME B16.9, ASME B16.28, MSS SP-43",
-      standardForged: "ASTM A182 / ASME SA-182, ASME B16.11",
-      grades: "304L, 316 & 316L, 317 & 317L, 321, 347, 310, 316Ti, 904L",
-      sizeButtweld: "1/2 inch to 24 inch NB",
-      sizeForged: "1/4 inch to 4 inch NB",
-      schedule: "Sch 10S, Sch 40S, Sch 80S, Sch 160",
-      pressureClassForged: "Class 3000 lb and Class 6000 lb",
-      endType: "Bevelled buttweld, socket weld, threaded NPT, BSP and BSPT",
-      form: "Seamless, welded and forged",
-      finish: "Pickled and passivated",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    fittingTypes: [
-      "Elbows (90° & 45°)",
-      "Elbows (Long Radius 1.5D)",
-      "Elbows (Short Radius 1D)",
-      "180° Returns",
-      "Tees (Straight & Reducing)",
-      "Crosses",
-      "Reducers (Concentric & Eccentric)",
-      "Caps",
-      "Lap Joint Stub Ends (Type A and Type C)",
-      "Socket Weld Elbows",
-      "Socket Weld Tees",
-      "Threaded Elbows",
-      "Threaded Tees",
-    ],
-    sizeRange: {
-      buttweldFittings: {
-        fittingGroup: "Buttweld elbows, tees, reducers, caps and crosses",
-        governingStandard: "ASTM A403 / ASME B16.9",
-        sizeRange: "1/2 inch to 24 inch NB",
-        wallClass: "Sch 10S, 40S, 80S and 160",
-      },
-      radiusElbows: {
-        fittingGroup: "Long radius 1.5D and short radius 1D elbows",
-        governingStandard: "ASME B16.9 and B16.28",
-        sizeRange: "1/2 inch to 24 inch NB",
-        wallClass: "Matched to pipe schedule",
-      },
-      lapJointStubEnds: {
-        fittingGroup: "Lap joint stub ends",
-        governingStandard: "ASME B16.9 and MSS SP-43",
-        sizeRange: "1/2 inch to 24 inch NB",
-        wallClass: "Type A and Type C",
-      },
-      forgedFittings: {
-        fittingGroup: "Forged socket weld and threaded fittings",
-        governingStandard: "ASTM A182 / ASME B16.11",
-        sizeRange: "1/4 inch to 4 inch NB",
-        wallClass: "Class 3000 and Class 6000",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM A403 / ASME SA-403",
-        scope:
-          "Wrought austenitic stainless steel piping fittings; grades WP304L, WP316, WP316L; classes S, W, WX and WU",
-      },
-      {
-        standard: "ASTM A182 / ASME SA-182",
-        scope:
-          "Forged stainless steel pipe fittings, flanges and valve components",
-      },
-      {
-        standard: "ASME B16.9",
-        scope: "Factory-made wrought buttwelding fittings",
-      },
-      {
-        standard: "ASME B16.28",
-        scope: "Wrought steel buttwelding short radius elbows and returns",
-      },
-      {
-        standard: "ASME B16.11",
-        scope: "Forged fittings, socket welding and threaded",
-      },
-      {
-        standard: "MSS SP-43",
-        scope:
-          "Wrought and Fabricated Butt-Welding Fittings for Low Pressure, Corrosion Resistant Applications",
-      },
-      {
-        standard: "EN 10253-4, DIN 2605, JIS B2312, GB/T 12459",
-        scope:
-          "International butt-welding fitting standards supplied on request",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Standard Buttweld":
-          "ASTM A403 / ASME SA-403, ASME B16.9, ASME B16.28, MSS SP-43",
-        "Standard Forged": "ASTM A182 / ASME SA-182, ASME B16.11",
-        Grades: "304L, 316 & 316L, 317 & 317L, 321, 347, 310, 316Ti, 904L",
-        "Size Buttweld": "1/2 inch to 24 inch NB",
-        "Size Forged": "1/4 inch to 4 inch NB",
-        Schedule: "Sch 10S, Sch 40S, Sch 80S, Sch 160",
-        "Pressure Class Forged": "Class 3000 lb and Class 6000 lb",
-        "End Type":
-          "Bevelled buttweld, socket weld, threaded NPT, BSP and BSPT",
-        Form: "Seamless, welded and forged",
-        Finish: "Pickled and passivated",
-      },
-      fittingSizeTable: [
-        {
-          fittingGroup: "Buttweld elbows, tees, reducers, caps and crosses",
-          governingStandard: "ASTM A403 / ASME B16.9",
-          sizeRange: "1/2 inch to 24 inch NB",
-          wallClass: "Sch 10S, 40S, 80S and 160",
-        },
-        {
-          fittingGroup: "Long radius 1.5D and short radius 1D elbows",
-          governingStandard: "ASME B16.9 and B16.28",
-          sizeRange: "1/2 inch to 24 inch NB",
-          wallClass: "Matched to pipe schedule",
-        },
-        {
-          fittingGroup: "Lap joint stub ends",
-          governingStandard: "ASME B16.9 and MSS SP-43",
-          sizeRange: "1/2 inch to 24 inch NB",
-          wallClass: "Type A and Type C",
-        },
-        {
-          fittingGroup: "Forged socket weld and threaded fittings",
-          governingStandard: "ASTM A182 / ASME B16.11",
-          sizeRange: "1/4 inch to 4 inch NB",
-          wallClass: "Class 3000 and Class 6000",
-        },
-      ],
-      applicableStandardsTable: [
-        {
-          standard: "ASTM A403 / ASME SA-403",
-          scope:
-            "Wrought austenitic stainless steel piping fittings; grades WP304L, WP316, WP316L; classes S, W, WX and WU",
-        },
-        {
-          standard: "ASTM A182 / ASME SA-182",
-          scope:
-            "Forged stainless steel pipe fittings, flanges and valve components",
-        },
-        {
-          standard: "ASME B16.9",
-          scope: "Factory-made wrought buttwelding fittings",
-        },
-        {
-          standard: "ASME B16.28",
-          scope: "Wrought steel buttwelding short radius elbows and returns",
-        },
-        {
-          standard: "ASME B16.11",
-          scope: "Forged fittings, socket welding and threaded",
-        },
-        {
-          standard: "MSS SP-43",
-          scope:
-            "Wrought and Fabricated Butt-Welding Fittings for Low Pressure, Corrosion Resistant Applications",
-        },
-        {
-          standard: "EN 10253-4, DIN 2605, JIS B2312, GB/T 12459",
-          scope:
-            "International butt-welding fitting standards supplied on request",
-        },
-      ],
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Dimensional verification against ASME B16.9 / B16.11",
-        "Positive Material Identification (PMI)",
-        "Visual examination of the bevel",
-        "Mechanical testing",
-        "Chemical analysis",
-      ],
-      certificationTypes: [
-        "Mill Test Certificate (standard)",
-        "Third-party inspection witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back.",
-    },
-    stockAvailability: {
-      buttweldFittings: [
-        {
-          title: "Stainless Steel Buttweld Fittings",
-          items: [
-            "ASTM A403 SS 304L Buttweld Elbows",
-            "ASME SA-403 SS 316L Tees",
-            "UNS S31600 Buttweld Reducers",
-            "SS 321 Buttweld Caps",
-            "SS 347 Buttweld Stub Ends",
-            "SS 310 Crosses",
-            "SS 316Ti Long Radius Elbows",
-            "SS 904L Buttweld Fittings",
-            "ASME B16.9 Stainless Steel Buttweld Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      socketWeldFittings: [
-        {
-          title: "Stainless Steel Socket Weld Fittings",
-          items: [
-            "ASME B16.11 SS 304L Socket Weld Elbows",
-            "SS 316L Socket Weld Tees",
-            "SS 317L Socket Weld Couplings",
-            "SS 316 Socket Weld Unions",
-            "SS 321 Socket Weld Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      threadedFittings: [
-        {
-          title: "Stainless Steel Threaded Fittings",
-          items: [
-            "ASME B16.11 SS 304L Threaded Elbows",
-            "SS 316L Threaded Tees",
-            "SS 317L Threaded Couplings",
-            "SS 316 Threaded Unions",
-            "SS 321 Threaded Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Stainless Steel Pipe Fittings Manufacturer in India",
-      "ASTM A403 Stainless Steel Buttweld Fittings Supplier",
-      "ASME SA-403 SS 304L/316L Fittings Stockist",
-      "Stainless Steel Pipe Fittings Exporter to USA, Gulf, Europe, Asia",
-      "SS 304L Pipe Fittings (UNS S30403)",
-      "SS 316L Pipe Fittings (UNS S31603)",
-      "SS 321 Pipe Fittings (UNS S32100)",
-      "SS 347 Pipe Fittings (UNS S34700)",
-      "SS 310 High-Temperature Fittings",
-      "SS 316Ti Pipe Fittings",
-      "SS 904L Pipe Fittings (UNS N08904)",
-      "ASME B16.9 Stainless Steel Buttweld Fittings",
-      "ASME B16.11 SS Socket Weld & Threaded Fittings",
-      "Stainless Steel Fittings with EN 10204 3.1 MTC",
-      "SS Fittings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    ],
-    relatedSearches: [
-      "stainless steel pipe fittings manufacturer in india",
-      "ss buttweld fittings supplier mumbai",
-      "astm a403 stainless steel fittings exporter",
-      "ss 316l pipe fittings price",
-      "stainless steel pipe fittings stockist",
-      "asme b16.9 ss fittings supplier",
-      "stainless steel socket weld fittings manufacturer",
-      "ss threaded fittings supplier",
-      "stainless steel pipe fittings for chemical industry",
-      "ss fittings with en 10204 3.1 certificate",
-      "ss 304l wp304l fittings",
-      "ss 316l wp316l fittings",
-      "stainless steel fittings for oil and gas",
-      "ss 321 fittings for high temperature",
-      "ss 904l fittings for acid service",
-      "ss 310 fittings for oxidation resistance",
-      "asme b16.11 stainless steel forged fittings",
-      "ss fittings with mtc certification",
-      "stainless steel fittings for marine industry",
-      "ss fittings for water treatment industry",
-      "ss fittings for pharmaceutical industry",
-      "ss fittings for pumps and valves industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
-  },
-  {
-    id: 8,
-    slug: "duplex-steel-pipe-fittings",
-    image: "/stock/duplex-steel-pipe-fittings.jpg",
-    title:
-      "Duplex Steel Pipe Fittings Manufacturer & Supplier - ASTM A815 / ASME SA-815",
-    shortDescription:
-      "Premium duplex steel pipe fittings manufacturer, stockist, supplier and exporter based in Mumbai since 2013. Butt-weld elbows, tees, reducers, end caps and stub ends certified to ASTM A815/ASME SA-815 in classes WP-S, WP-W, WP-WX and WP-WU, with ASME B16.9 covering dimensions, while forged socket-weld and threaded pieces follow ASTM A182 grade F51 under ASME B16.11. Available in Duplex S31803 grade. Sizes span 1/2 inch to 12 inches NB across SCH 10S to XXS.",
-    technicalOverview:
-      "Duplex steel pipe fittings are manufactured from ferritic/austenitic stainless steel that pairs high strength with chloride resistance. One grade anchors the range: Duplex S31803. Ferrite and austenite split the microstructure almost evenly. SA-815 sets the S31803 floor at 90 ksi (620 MPa) tensile and 65 ksi (450 MPa) yield. Chromium held at 21.0 to 23.0%, with 2.5 to 3.5% molybdenum and 0.08 to 0.20% nitrogen, resists pitting and stress corrosion cracking in chloride-bearing and brine circuits. Chemical plants, oil and gas processing, marine piping and water treatment lines take the bulk of dispatches. Cutting, machining, threading, fabrication, testing and packing all run inside our own works, and roughly 60 to 70 tonnes of material stands ready in Mumbai.",
-    materialGroup: "Duplex Steel Fitting",
-    standards:
-      "ASTM A815, ASME SA-815, ASTM A182, ASME SA-182, ASME B16.9, ASME B16.11, MSS SP-43, EN 10253-4, ASTM A790, NACE MR0175 / ISO 15156",
-    forms:
-      "Elbows, Tees, Reducers, Caps, Stub Ends, Crosses, Socket Weld Fittings, Threaded Fittings",
-    application:
-      "Duplex steel pipe fittings are widely used in chemical plants, oil and gas processing, marine piping, water treatment lines, oil & gas, chemical, petrochemical, marine, pumps & valves, water treatment, paper & pulp, and powerplant industry.",
-    applications: [
-      "Oil & Gas Industry",
-      "Chemical Industry",
-      "Petrochemical Industry",
-      "Marine Industry",
-      "Pumps & Valves Industry",
-      "Water Treatment Industry",
-      "Paper & Pulp Industry",
-      "Powerplant Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Duplex S31803":
-          "UNS S31803 – Duplex stainless steel with ferritic/austenitic microstructure. Chromium 21.0-23.0%, molybdenum 2.5-3.5%, nitrogen 0.08-0.20%. Tensile 90 ksi (620 MPa) min, yield 65 ksi (450 MPa) min. Resists pitting and stress corrosion cracking in chloride-bearing and brine circuits. Werkstoff number 1.4462, SUS 329J3L equivalent. Wrought buttweld fittings to ASTM A815 / ASME SA-815.",
-      },
-    },
-    specifications: {
-      standardButtweld:
-        "ASTM A815 / ASME SA-815, classes WP-S, WP-W, WP-WX, WP-WU",
-      standardForged: "ASTM A182 / ASME SA-182, grade F51",
-      dimensionalStandards: "ASME B16.9, ASME B16.11, MSS SP-43, EN 10253-4",
-      grades: "Duplex S31803",
-      size: "1/2 inch to 12 inch NB. Forged socket weld and threaded: 1/8 inch to 4 inch NB",
-      schedule: "SCH 10S, 40S, 80S, 160 and XXS",
-      endPreparation: "Bevelled buttweld, socket weld, threaded",
-      construction: "Seamless and welded",
-      supplyCondition: "Solution annealed, water quenched",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    fittingTypes: [
-      "Elbows (90° & 45°)",
-      "Long Radius Elbows (1.5D)",
-      "Short Radius Elbows (1D)",
-      "Long Radius 180° Returns",
-      "Short Radius 180° Returns",
-      "Tees (Straight & Reducing)",
-      "Crosses",
-      "Reducers (Concentric & Eccentric)",
-      "Caps",
-      "Stub Ends",
-      "Socket Weld Fittings",
-      "Threaded Fittings",
-    ],
-    sizeRange: {
-      buttweldFittings: {
-        fittingGroup:
-          "Buttweld elbows, tees, reducers, caps, crosses and stub ends",
-        governingStandard: "ASME B16.9",
-        sizeRange: "1/2 inch to 12 inch NB",
-        wallClass: "SCH 10S, 40S, 80S, 160 and XXS",
-      },
-      longRadiusElbows: {
-        fittingGroup: "Long-radius and short-radius elbows",
-        governingStandard: "ASME B16.9",
-        sizeRange: "1/2 inch to 12 inch NB",
-        wallClass: "Matched to the connecting pipe",
-      },
-      longRadiusReturns: {
-        fittingGroup: "Long-radius elbows and returns",
-        governingStandard: "ASME B16.9",
-        sizeRange: "1/2 inch to 12 inch NB",
-        wallClass: "Matched to the connecting pipe",
-      },
-      shortRadiusReturns: {
-        fittingGroup: "Short-radius elbows and returns",
-        governingStandard: "ASME B16.9",
-        sizeRange: "1 inch to 12 inch NB",
-        wallClass: "Matched to the connecting pipe",
-      },
-      forgedFittings: {
-        fittingGroup: "Forged socket weld and threaded fittings",
-        governingStandard: "ASME B16.11",
-        sizeRange: "Quoted per enquiry",
-        wallClass: "Pressure class to order",
-      },
-      boresAbove12: {
-        fittingGroup: "Bores above 12 inch NB",
-        governingStandard: "ASME B16.9",
-        sizeRange: "Up to 48 inch NB, made to order",
-        wallClass: "To pipe schedule",
-      },
-      nonStandard: {
-        fittingGroup: "Non-standard geometry or dimensions",
-        governingStandard:
-          "ASME B16.9 para. 4.4.2, marked with suffix S58 (ASTM A960)",
-        sizeRange: "Made to order",
-        wallClass: "To drawing",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM A815 / ASME SA-815",
-        scope: "Wrought ferritic/austenitic stainless steel piping fittings",
-      },
-      {
-        standard: "ASTM A182 / ASME SA-182",
-        scope: "Duplex forgings for socket weld and threaded fittings, F51",
-      },
-      {
-        standard: "ASME B16.9",
-        scope: "Factory-made wrought buttwelding fittings",
-      },
-      {
-        standard: "ASME B16.11",
-        scope: "Forged fittings, socket welding and threaded",
-      },
-      {
-        standard: "MSS SP-43",
-        scope:
-          "Wrought and fabricated butt-welding fittings for low pressure, corrosion resistant applications; basis of ASTM A815 class CR",
-      },
-      {
-        standard: "EN 10253-4",
-        scope: "European butt-welding fittings, austenitic-ferritic grades",
-      },
-      {
-        standard: "ASTM A790",
-        scope: "Companion duplex pipe the fittings are welded into",
-      },
-      {
-        standard: "NACE MR0175 / ISO 15156",
-        scope: "Sour service material qualification, on request",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Standard Buttweld":
-          "ASTM A815 / ASME SA-815, classes WP-S, WP-W, WP-WX, WP-WU",
-        "Standard Forged": "ASTM A182 / ASME SA-182, grade F51",
-        "Dimensional Standards":
-          "ASME B16.9, ASME B16.11, MSS SP-43, EN 10253-4",
-        Grades: "Duplex S31803",
-        Size: "1/2 inch to 12 inch NB. Forged: 1/8 inch to 4 inch NB",
-        Schedule: "SCH 10S, 40S, 80S, 160 and XXS",
-        "End Preparation": "Bevelled buttweld, socket weld, threaded",
-        Construction: "Seamless and welded",
-        "Supply Condition": "Solution annealed, water quenched",
-      },
-      fittingSizeTable: [
-        {
-          fittingGroup:
-            "Buttweld elbows, tees, reducers, caps, crosses and stub ends",
-          governingStandard: "ASME B16.9",
-          sizeRange: "1/2 inch to 12 inch NB",
-          wallClass: "SCH 10S, 40S, 80S, 160 and XXS",
-        },
-        {
-          fittingGroup: "Long-radius and short-radius elbows",
-          governingStandard: "ASME B16.9",
-          sizeRange: "1/2 inch to 12 inch NB",
-          wallClass: "Matched to the connecting pipe",
-        },
-        {
-          fittingGroup: "Long-radius elbows and returns",
-          governingStandard: "ASME B16.9",
-          sizeRange: "1/2 inch to 12 inch NB",
-          wallClass: "Matched to the connecting pipe",
-        },
-        {
-          fittingGroup: "Short-radius elbows and returns",
-          governingStandard: "ASME B16.9",
-          sizeRange: "1 inch to 12 inch NB",
-          wallClass: "Matched to the connecting pipe",
-        },
-        {
-          fittingGroup: "Forged socket weld and threaded fittings",
-          governingStandard: "ASME B16.11",
-          sizeRange: "Quoted per enquiry",
-          wallClass: "Pressure class to order",
-        },
-        {
-          fittingGroup: "Bores above 12 inch NB",
-          governingStandard: "ASME B16.9",
-          sizeRange: "Up to 48 inch NB, made to order",
-          wallClass: "To pipe schedule",
-        },
-        {
-          fittingGroup: "Non-standard geometry or dimensions",
-          governingStandard: "ASME B16.9 para. 4.4.2, marked with suffix S58",
-          sizeRange: "Made to order",
-          wallClass: "To drawing",
-        },
-      ],
-      applicableStandardsTable: [
-        {
-          standard: "ASTM A815 / ASME SA-815",
-          scope: "Wrought ferritic/austenitic stainless steel piping fittings",
-        },
-        {
-          standard: "ASTM A182 / ASME SA-182",
-          scope: "Duplex forgings for socket weld and threaded fittings, F51",
-        },
-        {
-          standard: "ASME B16.9",
-          scope: "Factory-made wrought buttwelding fittings",
-        },
-        {
-          standard: "ASME B16.11",
-          scope: "Forged fittings, socket welding and threaded",
-        },
-        {
-          standard: "MSS SP-43",
-          scope:
-            "Wrought and fabricated butt-welding fittings for low pressure, corrosion resistant applications",
-        },
-        {
-          standard: "EN 10253-4",
-          scope: "European butt-welding fittings, austenitic-ferritic grades",
-        },
-        {
-          standard: "ASTM A790",
-          scope: "Companion duplex pipe the fittings are welded into",
-        },
-        {
-          standard: "NACE MR0175 / ISO 15156",
-          scope: "Sour service material qualification, on request",
-        },
-      ],
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Dimensional check against ASME B16.9 / B16.11",
-        "Visual inspection of bevel ends",
-        "A923 screening for detrimental intermetallic phase (upon request)",
-        "Radiographic testing (class WP-W / WP-WX)",
-        "Ultrasonic testing (class WP-WU)",
-        "Mechanical testing",
-      ],
-      weldClasses: {
-        "WP-S": "Standard seamless fittings",
-        "WP-W": "Fittings whose fabrication welds have been radiographed",
-        "WP-WX": "Fittings whose welds have all been radiographed",
-        "WP-WU": "Fittings whose welds have all been ultrasonically tested",
-      },
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back.",
-    },
-    stockAvailability: {
-      buttweldFittings: [
-        {
-          title: "Duplex S31803 Buttweld Fittings",
-          items: [
-            "ASTM A815 Duplex S31803 Buttweld Elbows",
-            "ASME SA-815 Duplex S31803 Tees",
-            "UNS S31803 Buttweld Reducers",
-            "Duplex S31803 Caps",
-            "Duplex S31803 Stub Ends",
-            "Duplex S31803 Crosses",
-            "Long Radius Elbows 45° & 90°",
-            "Short Radius Elbows",
-            "ASME B16.9 Duplex Buttweld Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      socketWeldFittings: [
-        {
-          title: "Duplex S31803 Socket Weld Fittings",
-          items: [
-            "ASME B16.11 Duplex S31803 Socket Weld Elbows",
-            "Duplex S31803 Socket Weld Tees",
-            "Duplex S31803 Socket Weld Couplings",
-            "Duplex S31803 Socket Weld Unions",
-            "Duplex S31803 Socket Weld Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      threadedFittings: [
-        {
-          title: "Duplex S31803 Threaded Fittings",
-          items: [
-            "ASME B16.11 Duplex S31803 Threaded Elbows",
-            "Duplex S31803 Threaded Tees",
-            "Duplex S31803 Threaded Couplings",
-            "Duplex S31803 Threaded Unions",
-            "Duplex S31803 Threaded Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      forgedFittings: [
-        {
-          title: "Duplex S31803 Forged Fittings (ASTM A182 F51)",
-          items: [
-            "ASTM A182 Duplex F51 Forged Elbows",
-            "ASME SA-182 Duplex F51 Forged Tees",
-            "Duplex F51 Forged Couplings",
-            "Duplex F51 Forged Unions",
-            "Duplex F51 Forged Bushings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Duplex Steel Pipe Fittings Manufacturer in India",
-      "ASTM A815 Duplex S31803 Fittings Supplier",
-      "ASME SA-815 Duplex Buttweld Fittings Stockist",
-      "Duplex Steel Pipe Fittings Exporter to USA, Gulf, Europe, Asia",
-      "Duplex S31803 Pipe Fittings (UNS S31803) 1.4462",
-      "ASTM A182 Duplex F51 Forged Fittings",
-      "ASME B16.9 Duplex Buttweld Fittings",
-      "ASME B16.11 Duplex Socket Weld & Threaded Fittings",
-      "Duplex Seamless & Welded Fittings Manufacturer",
-      "Duplex Pipe Fittings with EN 10204 3.1 MTC",
-      "Duplex Fittings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Duplex Fittings for Oil & Gas, Chemical, Marine Industry",
-    ],
-    relatedSearches: [
-      "duplex steel pipe fittings manufacturer in india",
-      "duplex buttweld fittings supplier mumbai",
-      "astm a815 duplex s31803 fittings exporter",
-      "duplex s31803 pipe fittings price",
-      "duplex pipe fittings stockist",
-      "asme b16.9 duplex fittings supplier",
-      "duplex socket weld fittings manufacturer",
-      "duplex threaded fittings supplier",
-      "duplex pipe fittings for chemical industry",
-      "duplex fittings with en 10204 3.1 certificate",
-      "duplex s31803 1.4462 fittings",
-      "duplex s31803 sus 329j3l fittings",
-      "duplex pipe fittings for oil and gas",
-      "duplex fittings for marine industry",
-      "duplex s31803 fittings for chloride service",
-      "duplex fittings for water treatment",
-      "asme b16.11 duplex forged fittings",
-      "duplex fittings with mtc certification",
-      "duplex fittings for petrochemical industry",
-      "duplex fittings for paper and pulp industry",
-      "duplex fittings for pumps and valves industry",
-      "duplex fittings nace mr0175 certified",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
-  },
-  {
-    id: 9,
-    slug: "super-duplex-steel-pipe-fittings",
-    image: "/stock/super-duplex-steel-pipe-fittings.jpg",
-    title:
-      "Super Duplex Steel Pipe Fittings Manufacturer & Supplier - ASTM A815 / ASME SA-815",
-    shortDescription:
-      "Premium super duplex steel pipe fittings manufacturer, stockist and exporter in Mumbai, India, supplying duplex piping components since 2013. Buttweld range certified to ASTM A815 / ASME SA-815 in classes WP-S, WP-W and WP-WX, dimensioned under ASME B16.9. Forged socket weld and threaded items follow ASTM A182 F53 and F55 under ASME B16.11. Available in UNS S32750 and UNS S32760 grades. Elbows, tees, reducers, caps and stub ends run from 1/2 inch to 12 inch NB, with wider bores produced to drawing.",
-    technicalOverview:
-      "Super duplex stainless steel pipe fittings carry a microstructure split close to 50/50 between ferrite and austenite, and that balance lifts strength without costing ductility. In UNS S32750, the chemistry runs 24.0 to 26.0% chromium, 3.0 to 5.0% molybdenum and 0.24 to 0.32% nitrogen, lifting the pitting resistance equivalent past 40, so chloride pitting, crevice attack and stress corrosion cracking stay in check. SA-815 sets the floor for UNS S32750 fittings at 116 ksi (800 MPa) tensile and 80 ksi (550 MPa) yield. Offshore risers, seawater circuits and desalination trains absorb most of the output. Cutting, machining, threading, fabrication, testing and packing run in-house. Around 60 to 70 tonnes of stock sits in Mumbai.",
-    materialGroup: "Super Duplex Steel Fitting",
-    standards:
-      "ASTM A815, ASME SA-815, ASTM A182, ASME SA-182, ASME B16.9, ASME B16.11, MSS SP-43, EN 10253, ASTM A790, ASTM A928, ASTM A960/A960M",
-    forms:
-      "Elbows, Tees, Reducers, Caps, Stub Ends, Crosses, Socket Weld Fittings, Threaded Fittings",
-    application:
-      "Super duplex pipe fittings are widely used in offshore risers, seawater circuits, desalination trains, offshore, oil & gas, marine, desalination, chemical, petrochemical, pumps & valves, and powerplant industry.",
-    applications: [
-      "Offshore Industry",
-      "Oil & Gas Industry",
-      "Marine Industry",
-      "Desalination Industry",
-      "Chemical Industry",
-      "Petrochemical Industry",
-      "Pumps & Valves Industry",
-      "Powerplant Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "UNS S32750":
-          "UNS S32750 (2507 / F53) – Super duplex stainless steel with 24.0-26.0% chromium, 3.0-5.0% molybdenum, 0.24-0.32% nitrogen. PREN > 40. Tensile 116 ksi (800 MPa) min, yield 80 ksi (550 MPa) min. No deliberate tungsten, copper capped at 0.50%. Wrought buttweld fittings to ASTM A815 / ASME SA-815. Forged fittings to ASTM A182 F53.",
-        "UNS S32760":
-          "UNS S32760 (F55) – Super duplex stainless steel with copper and tungsten at 0.50-1.00%. Molybdenum 3.0-4.0%. Tensile 109 ksi (750 MPa) min. Wrought buttweld fittings to ASTM A815 / ASME SA-815. Forged fittings to ASTM A182 F55.",
-      },
-    },
-    specifications: {
-      standardButtweld: "ASTM A815 / ASME SA-815, classes WP-S, WP-W, WP-WX",
-      standardForged: "ASTM A182 / ASME SA-182, grades F53, F55",
-      dimensionalStandard:
-        "ASME B16.9, ASME B16.11, MSS SP-43 (Sch 5S/10S only), EN 10253",
-      grades: "UNS S32750, UNS S32760",
-      size: "1/2 inch to 12 inch NB",
-      schedule: "SCH 10S, 40S, 80S, 160 and XXS",
-      endType: "Bevelled buttweld, socket weld, threaded",
-      construction: "Seamless and welded",
-      mechanicalMinimum_S32750:
-        "116 ksi (800 MPa) tensile, 80 ksi (550 MPa) yield",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    fittingTypes: [
-      "Elbows (90° & 45°)",
-      "Long Radius Elbows (1.5D)",
-      "Short Radius Elbows (1D)",
-      "180° Returns",
-      "Tees (Straight & Reducing)",
-      "Crosses",
-      "Reducers (Concentric & Eccentric)",
-      "Caps",
-      "Stub Ends",
-      "Socket Weld Fittings",
-      "Threaded Fittings",
-    ],
-    sizeRange: {
-      buttweldFittings: {
-        fittingGroup: "Buttweld elbows, tees, reducers, caps and crosses",
-        governingStandard: "ASTM A815, ASME B16.9",
-        sizeRange: "1/2 inch to 12 inch NB",
-        wallClass: "SCH 10S, 40S, 80S, 160 and XXS",
-      },
-      radiusElbows: {
-        fittingGroup: "Long radius 1.5D and short radius 1D elbows",
-        governingStandard: "ASME B16.9",
-        sizeRange: "1/2 inch to 12 inch NB",
-        wallClass: "Matched to the pipe",
-      },
-      forgedFittings: {
-        fittingGroup: "Forged socket weld, threaded fittings",
-        governingStandard: "ASTM A182, ASME B16.11",
-        sizeRange: "Quoted per enquiry",
-        wallClass: "Class rating to order",
-      },
-      above12NB: {
-        fittingGroup: "Sizes above 12 inch NB or special geometry",
-        governingStandard: "ASTM A960/A960M, Supplementary Requirement S58",
-        sizeRange: "Made to order",
-        wallClass: "To drawing",
-      },
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM A815 / ASME SA-815",
-        scope: "Wrought ferritic/austenitic stainless steel piping fittings",
-      },
-      {
-        standard: "ASTM A182 / ASME SA-182",
-        scope: "Forged fittings: F53 (S32750), F55 (S32760)",
-      },
-      {
-        standard: "ASME B16.9",
-        scope: "Factory-made wrought buttwelding fittings",
-      },
-      {
-        standard: "ASME B16.11",
-        scope: "Forged socket welding and threaded fittings",
-      },
-      {
-        standard: "MSS SP-43",
-        scope:
-          "Wrought and fabricated butt-welding fittings for low pressure, corrosion resistant applications (Sch 5S and 10S)",
-      },
-      { standard: "EN 10253", scope: "European butt-welding pipe fittings" },
-      {
-        standard: "ASTM A790 / A928",
-        scope: "Base pipe from which A815 fittings are fabricated",
-      },
-    ],
-    standardTables: {
-      specificationsTable: {
-        "Standard Buttweld":
-          "ASTM A815 / ASME SA-815, classes WP-S, WP-W, WP-WX",
-        "Standard Forged": "ASTM A182 / ASME SA-182, grades F53, F55",
-        "Dimensional Standard":
-          "ASME B16.9, ASME B16.11, MSS SP-43 (Sch 5S/10S only), EN 10253",
-        Grades: "UNS S32750, UNS S32760",
-        Size: "1/2 inch to 12 inch NB",
-        Schedule: "SCH 10S, 40S, 80S, 160 and XXS",
-        "End Type": "Bevelled buttweld, socket weld, threaded",
-        Construction: "Seamless and welded",
-        "Mechanical Minimum (S32750)":
-          "116 ksi (800 MPa) tensile, 80 ksi (550 MPa) yield",
-      },
-      fittingSizeTable: [
-        {
-          fittingGroup: "Buttweld elbows, tees, reducers, caps and crosses",
-          governingStandard: "ASTM A815, ASME B16.9",
-          sizeRange: "1/2 inch to 12 inch NB",
-          wallClass: "SCH 10S, 40S, 80S, 160 and XXS",
-        },
-        {
-          fittingGroup: "Long radius 1.5D and short radius 1D elbows",
-          governingStandard: "ASME B16.9",
-          sizeRange: "1/2 inch to 12 inch NB",
-          wallClass: "Matched to the pipe",
-        },
-        {
-          fittingGroup: "Forged socket weld, threaded fittings",
-          governingStandard: "ASTM A182, ASME B16.11",
-          sizeRange: "Quoted per enquiry",
-          wallClass: "Class rating to order",
-        },
-        {
-          fittingGroup: "Sizes above 12 inch NB or special geometry",
-          governingStandard: "ASTM A960/A960M, Supplementary Requirement S58",
-          sizeRange: "Made to order",
-          wallClass: "To drawing",
-        },
-      ],
-      applicableStandardsTable: [
-        {
-          standard: "ASTM A815 / ASME SA-815",
-          scope: "Wrought ferritic/austenitic stainless steel piping fittings",
-        },
-        {
-          standard: "ASTM A182 / ASME SA-182",
-          scope: "Forged fittings: F53 (S32750), F55 (S32760)",
-        },
-        {
-          standard: "ASME B16.9",
-          scope: "Factory-made wrought buttwelding fittings",
-        },
-        {
-          standard: "ASME B16.11",
-          scope: "Forged socket welding and threaded fittings",
-        },
-        {
-          standard: "MSS SP-43",
-          scope:
-            "Wrought and fabricated butt-welding fittings for low pressure, corrosion resistant applications (Sch 5S and 10S)",
-        },
-        { standard: "EN 10253", scope: "European butt-welding pipe fittings" },
-        {
-          standard: "ASTM A790 / A928",
-          scope: "Base pipe from which A815 fittings are fabricated",
-        },
-      ],
-    },
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Dimensional verification against ASME B16.9 / B16.11",
-        "Visual inspection of bevel ends",
-        "A923 testing for detrimental intermetallic phase (upon request)",
-        "Phase balance verification",
-        "Mechanical testing",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back.",
-    },
-    stockAvailability: {
-      buttweldFittings: [
-        {
-          title: "Super Duplex S32750/S32760 Buttweld Fittings",
-          items: [
-            "ASTM A815 Super Duplex S32750 Buttweld Elbows",
-            "ASME SA-815 Super Duplex S32760 Tees",
-            "UNS S32750 Buttweld Reducers",
-            "Super Duplex S32750 Caps",
-            "Super Duplex S32760 Stub Ends",
-            "Super Duplex S32750 Crosses",
-            "Long Radius Elbows 45° & 90°",
-            "Short Radius Elbows",
-            "ASME B16.9 Super Duplex Buttweld Fittings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      socketWeldFittings: [
-        {
-          title: "Super Duplex Socket Weld Fittings (ASTM A182 F53/F55)",
-          items: [
-            "ASME B16.11 Super Duplex S32750 Socket Weld Elbows",
-            "Super Duplex S32760 Socket Weld Tees",
-            "Super Duplex S32750 Socket Weld Couplings",
-            "Super Duplex S32760 Socket Weld Unions",
-            "Super Duplex S32750 Socket Weld Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      threadedFittings: [
-        {
-          title: "Super Duplex Threaded Fittings (ASTM A182 F53/F55)",
-          items: [
-            "ASME B16.11 Super Duplex S32750 Threaded Elbows",
-            "Super Duplex S32760 Threaded Tees",
-            "Super Duplex S32750 Threaded Couplings",
-            "Super Duplex S32760 Threaded Unions",
-            "Super Duplex S32750 Threaded Caps",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-      forgedFittings: [
-        {
-          title: "Super Duplex Forged Fittings (ASTM A182 F53/F55)",
-          items: [
-            "ASTM A182 Super Duplex F53 Forged Elbows",
-            "ASME SA-182 Super Duplex F55 Forged Tees",
-            "Super Duplex F53 Forged Couplings",
-            "Super Duplex F55 Forged Unions",
-            "Super Duplex F53 Forged Bushings",
-          ],
-          image: "/stock/buttweld-fittings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "Super Duplex Steel Pipe Fittings Manufacturer in India",
-      "ASTM A815 Super Duplex S32750/S32760 Fittings Supplier",
-      "ASME SA-815 Super Duplex Buttweld Fittings Stockist",
-      "Super Duplex Pipe Fittings Exporter to USA, Gulf, Europe, Asia",
-      "Super Duplex S32750 Pipe Fittings (2507 / F53)",
-      "Super Duplex S32760 Pipe Fittings (F55)",
-      "ASTM A182 Super Duplex F53/F55 Forged Fittings",
-      "ASME B16.9 Super Duplex Buttweld Fittings",
-      "ASME B16.11 Super Duplex Socket Weld & Threaded Fittings",
-      "Super Duplex Seamless & Welded Fittings Manufacturer",
-      "Super Duplex Pipe Fittings with EN 10204 3.1 MTC",
-      "Super Duplex Fittings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-      "Super Duplex Fittings for Offshore, Oil & Gas, Marine Industry",
-    ],
-    relatedSearches: [
-      "super duplex steel pipe fittings manufacturer in india",
-      "super duplex buttweld fittings supplier mumbai",
-      "astm a815 super duplex s32750 fittings exporter",
-      "super duplex s32750 pipe fittings price",
-      "super duplex pipe fittings stockist",
-      "asme b16.9 super duplex fittings supplier",
-      "super duplex socket weld fittings manufacturer",
-      "super duplex threaded fittings supplier",
-      "super duplex pipe fittings for offshore industry",
-      "super duplex fittings with en 10204 3.1 certificate",
-      "super duplex s32750 2507 fittings",
-      "super duplex s32760 f55 fittings",
-      "super duplex pipe fittings for oil and gas",
-      "super duplex fittings for marine industry",
-      "super duplex s32750 fittings for seawater service",
-      "super duplex fittings for desalination plants",
-      "asme b16.11 super duplex forged fittings",
-      "super duplex fittings with mtc certification",
-      "super duplex fittings for chemical industry",
-      "super duplex fittings for petrochemical industry",
-      "super duplex fittings for pumps and valves industry",
-      "super duplex fittings a923 tested",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
-  },
   {
   id: 9,
   slug: "carbon-steel-a234-buttweld-fittings",
@@ -10405,6 +7858,4185 @@ export const buttweldFitting: ProductMaterial[] = [
     "SS 347 Fitting Solution Annealing Temperature",
     "SS 347 Fitting Hardness Range",
     "SS 347H 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 29,
+  slug: "stainless-steel-904l-buttweld-fittings",
+  image: "/stock/ss-904l-buttweld-fittings.jpg",
+  title:
+    "Stainless Steel 904L Buttweld Fittings Supplier – ASTM A403 / ASME SA403 / UNS N08904 / WNR. 1.4539 (Super Austenitic)",
+  shortDescription:
+    "Stainless Steel 904L Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Stainless Steel 904 buttweld fittings have the best corrosion resistance to atmospheric corrosion. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Stainless Steel 904 / 904L butt weld pipe fittings are available in different sizes and shapes. Stainless Steel 904 butt weld pipe fittings have better corrosion resistance to oxidation up to 1550°F. Stainless Steel 904L end caps have the best corrosion resistance to atmospheric corrosion. Stainless Steel 904L butt weld pipe fittings cannot be used at temperatures above 1600°F. Stainless Steel 904L butt weld pipe fittings have a wide range of applications in different industries. Stainless Steel 904 elbows are used in condensers and offshore oil drilling companies. Stainless Steel 904 Cross butt weld pipe fittings can extensively be used in pharmaceutical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 904L (UNS N08904)":
+        "A super-austenitic stainless steel with high nickel (23-28%) and molybdenum (4-5%) content, providing the best corrosion resistance to atmospheric corrosion and increased acid attacks. Better corrosion resistance to oxidation up to 1550°F, but cannot be used at temperatures above 1600°F. Offers excellent formability, weldability by standard shop fabrication practices, and long durable functioning life. Widely used in condensers, offshore oil drilling companies, pharmaceutical equipment, and chemical processing. Werkstoff Nr. 1.4539.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A403 / ASME SA403",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A403 / ASME SA403 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "SS 904L (UNS N08904 / WNR. 1.4539)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "SS 904L Elbows Stock Available",
+        items: [
+          "ASTM A403 WP 904L 90° Elbow",
+          "SS 904L 90° Elbow",
+          "SS WP 904L 45° Elbow",
+          "SS 904L Long Radius Elbow",
+          "SS 904L Short Radius Elbow",
+        ],
+        image: "/stock/ss904l-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "SS 904L Tees Stock Available",
+        items: [
+          "SS 904L Equal Tee",
+          "UNS N08904 Equal Tee",
+          "SS 904L Unequal Tee",
+          "SS 904L Lateral Tee",
+          "SS 904L Fitting Cross",
+        ],
+        image: "/stock/ss904l-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "SS 904L Reducers Stock Available",
+        items: [
+          "SS 904L Eccentric Reducer",
+          "SS 904L Concentric Reducer",
+          "Stainless Steel 904L Concentric Reducer",
+          "Stainless Steel 904L Reducers",
+          "ASTM A403 SS 904L Reducers",
+        ],
+        image: "/stock/ss904l-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "SS 904L Pipe Bends Stock Available",
+        items: [
+          "Stainless Steel 904L 1.5D Pipe Bends",
+          "SS 904L 3D Pipe Bend",
+          "SS 904L 5D Pipe Bend",
+          "SS 904L 10D Pipe Bend",
+          "Stainless Steel 904L U Bend",
+        ],
+        image: "/stock/ss904l-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "SS 904L Stub Ends Stock Available",
+        items: [
+          "ASTM A403 SS 904L Long Stub End",
+          "UNS N08904 Short Stub End",
+          "SS 904L Stub End",
+          "WNR. 1.4539 Stub End",
+        ],
+        image: "/stock/ss904l-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "SS 904L Caps Stock Available",
+        items: [
+          "UNS N08904 End Cap",
+          "Stainless Steel 904L End Cap",
+          "Stainless Steel 904L Dish Cap",
+          "ASTM A403 SS 904L End Caps",
+        ],
+        image: "/stock/ss904l-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "SS 904L", uns: "N08904", werkstoff: "1.4539", standard: "ASTM" },
+    { grade: "WP 904L", uns: "N08904", werkstoff: "1.4539", standard: "ASTM A403" },
+    { grade: "UNS N08904", uns: "N08904", werkstoff: "1.4539", standard: "—" },
+    { grade: "SUS 904L", uns: "N08904", werkstoff: "1.4539", standard: "JIS" },
+    { grade: "EN X1NiCrMoCu25-20-5", uns: "N08904", werkstoff: "1.4539", standard: "EN" },
+    { grade: "DIN 1.4539", uns: "N08904", werkstoff: "1.4539", standard: "DIN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 904L",
+      c: "0.020 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "23.00 – 28.00",
+      mo: "4.00 – 5.00",
+      other: "P: 0.045 max, S: 0.035 max, Cu: 1.00 – 2.00, N: 0.10 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 904L",
+      tensile: "490 MPa (71 ksi) min",
+      yield: "220 MPa (32 ksi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.00 g/cm³",
+      meltingPoint: "1300 – 1390 °C (2372 – 2534 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1060°C – 1140°C (1940°F – 2084°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 904L Eccentric Reducer", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 904L Pipe Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N08904 Equal Tee", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "SS 904L Seamless Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WNR. 1.4301 Stub End", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS 904L Pipe Fitting",
+    "Stainless Steel 904L Buttweld Fitting",
+    "SS 904L Seamless Fitting",
+    "Stainless Steel 904L Welded Fitting",
+    "SS 904L 90° Elbow",
+    "Stainless Steel 904L 45° Elbow",
+    "SS 904L Long Radius Elbow",
+    "Stainless Steel 904L Short Radius Elbow",
+    "SS 904L Concentric Reducer",
+    "SS 904L Eccentric Reducer",
+    "UNS N08904 Equal Tee",
+    "Stainless Steel 904L Unequal Tee",
+    "SS 904L Lateral Tee",
+    "SS UNS N08904 Fitting Cross",
+    "SS 904L Pipe Bends",
+    "Stainless Steel 904L U Bend",
+    "Stainless Steel 904L 90° Bend",
+    "UNS N08904 Short Stub End",
+    "WNR. 1.4539 Stub End",
+    "UNS N08904 End Cap",
+    "Stainless Steel 904L Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A403",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Corrosion Resistance Test",
+      frequency: "When required",
+      method: "ASTM G48 / G28",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Condensers",
+    "Offshore Oil Drilling Companies",
+    "Pharmaceutical Equipment",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Marine Industry",
+    "Seawater Equipment",
+    "Heat Exchangers",
+    "Pulp & Paper Industry",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 904L Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM A403 Stainless Steel 904L Buttweld Fittings Exporter",
+    "SS WP 904L 45° Elbow Stockist in India",
+    "SS 904L Pipe Fittings Dealer",
+    "SS 904L Short Radius Elbow Supplier",
+    "SS WERKSTOFF NR. 1.4539 Cross Exporter",
+    "Stainless Steel 904L 1.5D Pipe Bends Fittings Manufacturer",
+    "SS 904L 3D Pipe Bend Supplier",
+    "Stainless Steel 904L Seamless Fittings Manufacturer",
+    "UNS N08904 Seamless Pipe Fittings Supplier",
+    "SS 904L Pipe Elbow Exporter",
+    "Stainless Steel 904L Long Stub End Manufacturer",
+    "ASTM A/ASME SA403 SS 904L Long Stub Supplier",
+    "Stainless Steel 904L Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 904L Buttweld Fittings Price List",
+    "SS 904L Fitting Weight Calculator",
+    "SS 904L Fitting Dimensions",
+    "SS 904L Fitting Price Per Kg in India",
+    "SS 904L Fitting Manufacturer in Mumbai",
+    "SS 904L Fitting Supplier in India",
+    "SS 904L Fitting Thickness Tolerance",
+    "SS 904L Fitting Price List PDF",
+    "SS 904L Fitting Mechanical Properties",
+    "SS 904L Fitting Chemical Composition",
+    "SS 904L Fitting Stockist in Pune",
+    "SS 904L Fitting Exporter",
+    "SS 904L Fitting Price in Mumbai",
+    "SS 904L Fitting Size Chart",
+    "SS 904L Elbow Price",
+    "SS 904L Tee Supplier",
+    "SS 904L Reducer Manufacturers",
+    "SS 904L Fitting Catalog PDF",
+    "SS 904L Fitting Equivalent Grades",
+    "SS 904L Fitting Price per Piece",
+    "SS 904L Fitting updated price list",
+    "SS 904L Fitting Size Chart 1/2 to 48 inch",
+    "SS 904L Fitting Manufacturers in Gujarat",
+    "SS 904L Fitting Stockyards in India",
+    "SS 904L Fitting thickness chart",
+    "SS 904L Fitting Price in India",
+    "Top 100 SS 904L Fitting Dealers in Mumbai",
+    "Buy SS 904L Fitting Online",
+    "SS 904L Fitting leading manufacturers in India",
+    "UNS N08904 Fitting Price India",
+    "Werkstoff 1.4539 Fitting Price India",
+    "SS 904L Fitting Heat Treatment",
+    "SS 904L Fitting Solution Annealing Temperature",
+    "SS 904L Fitting Hardness Range",
+    "SS 904L 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 30,
+  slug: "nickel-alloy-200-buttweld-fittings",
+  image: "/stock/nickel-200-buttweld-fittings.jpg",
+  title:
+    "Nickel Alloy 200 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N02200 (99.6% Pure Nickel)",
+  shortDescription:
+    "Nickel Alloy 200 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Nickel 200 buttweld fittings have very lightweight and are long durable. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Nickel 200 buttweld fittings are available in different sizes and shapes. Nickel 200 buttweld pipe fittings have the best corrosion resistance to many corrosives. They also have good mechanical properties over different temperatures. Nickel 200 pipe bends are often used in storage and chemical processing. Nickel 200 pipe fittings have excellent corrosion resistance to hydroxides. To maintain Nickel 200 elbow's ductility, buttweld pipe fittings can be cold worked at a high strength level. Nickel 200 pipe end caps have good ductility, relatively low hardness, and malleability. Nickel 200 pipe blends are highly fabricable. Nickel 200 buttweld pipe fittings have wide usage in different industries. Nickel 200 reducers are often used in off-shore oil drilling companies and the pulp and paper industry. Nickel 200 pipe blends are also used in seawater equipment and condensers. Nickel 200 pipe end caps are used in heat exchangers and pharmaceutical equipment. Nickel 200 elbow pipe fittings can be used for pharmaceuticals and specialty chemicals.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Nickel Alloy 200 (UNS N02200)":
+        "A commercially pure wrought nickel (99.6% Ni) with 0.15% carbon content. Offers the best corrosion resistance to many corrosives, excellent resistance to hydroxides, good mechanical properties over different temperatures, good ductility, relatively low hardness, and malleability. Highly fabricable and can be cold worked at a high strength level. Widely used in off-shore oil drilling, pulp and paper industry, seawater equipment, condensers, storage and chemical processing, heat exchangers, pharmaceutical equipment, and specialty chemicals. Werkstoff Nr. 2.4066.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Nickel Alloy 200 (UNS N02200)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Nickel Alloy 200 Elbows Stock Available",
+        items: [
+          "ASTM B366 Nickel Alloy 200 90° Elbow",
+          "200 Nickel Alloy 90° Elbow",
+          "Nickel Alloy 200 45° Elbow",
+          "UNS N02200 Long Radius Elbow",
+          "B366 Alloy 200 Short Radius Elbow",
+        ],
+        image: "/stock/nickel200-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Nickel Alloy 200 Tees Stock Available",
+        items: [
+          "Alloy 200 Equal Tee",
+          "Nickel Alloy 200 Equal Tee",
+          "Nickel Alloy N02200 Unequal Tee",
+          "Alloy 200 Lateral Tee",
+          "200 Nickel Alloy Fitting Cross",
+        ],
+        image: "/stock/nickel200-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Nickel Alloy 200 Reducers Stock Available",
+        items: [
+          "Nickel Alloy 200 Concentric Reducer",
+          "Nickel Alloy 200 Eccentric Reducer",
+          "200 Nickel Alloy Reducer",
+          "UNS N02200 Reducers",
+          "ASTM B366 Nickel Alloy 200 Reducers",
+        ],
+        image: "/stock/nickel200-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Nickel Alloy 200 Pipe Bends Stock Available",
+        items: [
+          "Nickel 1.5D Pipe Bend",
+          "Nickel Alloy 200 3D Pipe Bend",
+          "Nickel 10D Pipe Bend",
+          "Alloy 200 U Bend",
+          "Nickel Alloy 200 180° Bend",
+        ],
+        image: "/stock/nickel200-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Nickel Alloy 200 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Alloy 200 Long Stub",
+          "ASTM B366 Alloy 200 Short Stub End",
+          "Alloy 200 Long Stub End",
+          "Nickel Alloy 200 Short Stub End",
+        ],
+        image: "/stock/nickel200-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Nickel Alloy 200 Caps Stock Available",
+        items: [
+          "Nickel Alloy 200 End Cap",
+          "200 Nickel Alloy End Cap",
+          "Alloy 200 Dish Cap",
+          "ASTM B366 Nickel Alloy 200 End Caps",
+        ],
+        image: "/stock/nickel200-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Nickel Alloy 200", uns: "N02200", werkstoff: "2.4066", standard: "ASTM" },
+    { grade: "Alloy 200", uns: "N02200", werkstoff: "2.4066", standard: "—" },
+    { grade: "UNS N02200", uns: "N02200", werkstoff: "2.4066", standard: "—" },
+    { grade: "NCF 200", uns: "N02200", werkstoff: "2.4066", standard: "JIS" },
+    { grade: "NA 11", uns: "N02200", werkstoff: "2.4066", standard: "BS" },
+    { grade: "GOST НП-2", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Nickel Alloy 200",
+      c: "0.15 max",
+      mn: "0.35 max",
+      si: "0.35 max",
+      cr: "—",
+      ni: "99.00 min",
+      mo: "—",
+      other: "Fe: 0.40 max, Cu: 0.25 max, S: 0.010 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Nickel Alloy 200",
+      tensile: "462 MPa (67,000 psi) min",
+      yield: "148 MPa (21,500 psi) min",
+      elongation: "45% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.89 g/cm³",
+      meltingPoint: "1446 °C (2635 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing (Stress Relieving)",
+      temperatureRange: "593°C – 927°C (1100°F – 1700°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "705°C – 925°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "UNS N02200 Long Radius Elbow", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 200 Lateral Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy 200 U Bend", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy 200 Long Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Nickel Alloy 200 180° Bend", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Nickel Alloy 200 Pipe Fitting",
+    "ASTM B366 Alloy 200 Buttweld Fitting",
+    "Nickel Alloy 200 Seamless Fitting",
+    "200 Alloy Welded Fitting",
+    "200 Alloy 90° Elbow",
+    "Alloy UNS N02200 45° Elbow",
+    "Alloy UNS N02200 Long Radius Elbow",
+    "B366 Alloy 200 Short Radius Elbow",
+    "Nickel Alloy 200 Concentric Reducer",
+    "Nickel Alloy 200 Eccentric Reducer",
+    "Alloy 200 Equal Tee",
+    "Nickel Alloy N02200 Unequal Tee",
+    "Alloy 200 Lateral Tee",
+    "200 Nickel Alloy Fitting Cross",
+    "Nickel Alloy N02200 Pipe Bends",
+    "Alloy 200 U Bend",
+    "Nickel Alloy 200 180° Bend",
+    "ASTM B366 Alloy 200 Short Stub End",
+    "Alloy 200 Long Stub End",
+    "Nickel Alloy 200 End Cap",
+    "Alloy 200 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Off-shore Oil Drilling Companies",
+    "Pulp & Paper Industry",
+    "Seawater Equipment",
+    "Condensers",
+    "Storage & Chemical Processing",
+    "Heat Exchangers",
+    "Pharmaceutical Equipment",
+    "Specialty Chemicals",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Power Generation",
+  ],
+
+  specializedIn: [
+    "Nickel Alloy 200 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Nickel Alloy 200 Buttweld Fittings Exporter",
+    "ANSI B16.9 Nickel 200 Welded Buttweld Fittings Stockist in India",
+    "Nickel Alloy 200 Pipe Fittings Dealer",
+    "Nickel Alloy 200 90° Elbow Supplier",
+    "Nickel Alloy 200 45° Elbow Manufacturer",
+    "Nickel 1.5D Pipe Bend Exporter",
+    "200 Nickel Alloy End Cap Supplier",
+    "ASTM B366 200 Nickel Alloy 90° Elbow Exporter",
+    "Nickel Alloy 200 Equal Tee Manufacturer",
+    "ASME SB366 Alloy 200 Long Stub Supplier",
+    "Nickel Alloy 200 Reducer Manufacturer",
+    "Nickel 10D Pipe Bend Supplier",
+    "Alloy 200 Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Nickel Alloy 200 Buttweld Fittings Price List",
+    "Nickel Alloy 200 Fitting Weight Calculator",
+    "Nickel Alloy 200 Fitting Dimensions",
+    "Nickel Alloy 200 Fitting Price Per Kg in India",
+    "Nickel Alloy 200 Fitting Manufacturer in Mumbai",
+    "Nickel Alloy 200 Fitting Supplier in India",
+    "Nickel Alloy 200 Fitting Thickness Tolerance",
+    "Nickel Alloy 200 Fitting Price List PDF",
+    "Nickel Alloy 200 Fitting Mechanical Properties",
+    "Nickel Alloy 200 Fitting Chemical Composition",
+    "Nickel Alloy 200 Fitting Stockist in Pune",
+    "Nickel Alloy 200 Fitting Exporter",
+    "Nickel Alloy 200 Fitting Price in Mumbai",
+    "Nickel Alloy 200 Fitting Size Chart",
+    "Nickel Alloy 200 Elbow Price",
+    "Nickel Alloy 200 Tee Supplier",
+    "Nickel Alloy 200 Reducer Manufacturers",
+    "Nickel Alloy 200 Fitting Catalog PDF",
+    "Nickel Alloy 200 Fitting Equivalent Grades",
+    "Nickel Alloy 200 Fitting Price per Piece",
+    "Nickel Alloy 200 Fitting updated price list",
+    "Nickel Alloy 200 Fitting Size Chart 1/2 to 48 inch",
+    "Nickel Alloy 200 Fitting Manufacturers in Gujarat",
+    "Nickel Alloy 200 Fitting Stockyards in India",
+    "Nickel Alloy 200 Fitting thickness chart",
+    "Nickel Alloy 200 Fitting Price in India",
+    "Top 100 Nickel Alloy 200 Fitting Dealers in Mumbai",
+    "Buy Nickel Alloy 200 Fitting Online",
+    "Nickel Alloy 200 Fitting leading manufacturers in India",
+    "UNS N02200 Fitting Price India",
+    "Werkstoff 2.4066 Fitting Price India",
+    "Nickel Alloy 200 Fitting Heat Treatment",
+    "Nickel Alloy 200 Fitting Annealing Temperature",
+    "Nickel Alloy 200 Fitting Hardness Range",
+    "Nickel 200 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 31,
+  slug: "nickel-alloy-201-buttweld-fittings",
+  image: "/stock/nickel-201-buttweld-fittings.jpg",
+  title:
+    "Nickel Alloy 201 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N02201 (Low Carbon Pure Nickel)",
+  shortDescription:
+    "Nickel Alloy 201 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Nickel 201 butt weld pipe fittings have the best corrosion resistance to hydrogen sulfide. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Nickel 201 butt weld pipe fittings are available in different sizes and shapes. Nickel 201 butt weld pipe fittings have the best corrosion resistance to many corrosives. Nickel 201 butt weld pipe fittings have the best corrosion resistance to distilled and natural water. Nickel 201 butt weld fittings have the best corrosion resistance to hydrogen sulfide and carbon dioxide. Sometimes Nickel 201 reducer butt weld pipe fittings have high corrosion resistance in hot water up to 950°C. Nickel 201 Cross butt weld pipe fittings are often used for oil well strainers. Nickel 201 end pipe caps have the best excellence to flowing seawater at high velocity. Nickel 201 butt weld pipe fittings are mostly used in seawater equipment and the marine industry. Nickel 201 Cross butt weld pipe fittings are often used for oil well strainers, offshore oil drilling companies, and the marine industry. Nickel butt weld fittings are also used in chemical equipment, condensers, and the pulp and paper industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Nickel Alloy 201 (UNS N02201)":
+        "A commercially pure wrought nickel with low carbon content (0.02% max) offering superior high-temperature properties compared to Nickel 200. The low carbon content prevents graphitization and maintains ductility at temperatures above 600°F (315°C). Offers the best corrosion resistance to many corrosives, distilled and natural water, hydrogen sulfide, and carbon dioxide. High corrosion resistance in hot water up to 950°C. End pipe caps have excellent resistance to flowing seawater at high velocity. Widely used in seawater equipment, marine industry, oil well strainers, offshore oil drilling companies, chemical equipment, condensers, and pulp & paper industry. Werkstoff Nr. 2.4068.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Nickel Alloy 201 (UNS N02201)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Nickel Alloy 201 Elbows Stock Available",
+        items: [
+          "ASTM B366 Nickel Alloy 201 90° Elbow",
+          "201 Nickel Alloy 90° Elbow",
+          "Nickel Alloy 201 45° Elbow",
+          "UNS N02201 Long Radius Elbow",
+          "B366 Alloy 201 Short Radius Elbow",
+        ],
+        image: "/stock/nickel201-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Nickel Alloy 201 Tees Stock Available",
+        items: [
+          "Alloy 201 Equal Tee",
+          "Nickel Alloy 201 Equal Tee",
+          "Nickel Alloy N02201 Unequal Tee",
+          "Alloy 201 Lateral Tee",
+          "201 Nickel Alloy Fitting Cross",
+        ],
+        image: "/stock/nickel201-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Nickel Alloy 201 Reducers Stock Available",
+        items: [
+          "Nickel Alloy 201 Concentric Reducer",
+          "Nickel Alloy 201 Eccentric Reducer",
+          "201 Nickel Alloy Reducer",
+          "UNS N02201 Reducers",
+          "ASTM B366 Nickel Alloy 201 Reducers",
+        ],
+        image: "/stock/nickel201-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Nickel Alloy 201 Pipe Bends Stock Available",
+        items: [
+          "Nickel 1.5D Pipe Bend",
+          "Nickel Alloy 201 3D Pipe Bend",
+          "Nickel 10D Pipe Bend",
+          "Alloy 201 U Bend",
+          "Nickel Alloy 201 180° Bend",
+        ],
+        image: "/stock/nickel201-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Nickel Alloy 201 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Alloy 201 Long Stub",
+          "ASTM B366 Alloy 201 Short Stub End",
+          "Alloy 201 Long Stub End",
+          "Nickel Alloy 201 Short Stub End",
+        ],
+        image: "/stock/nickel201-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Nickel Alloy 201 Caps Stock Available",
+        items: [
+          "Nickel Alloy 201 End Cap",
+          "201 Nickel Alloy End Cap",
+          "Alloy 201 Dish Cap",
+          "ASTM B366 Nickel Alloy 201 End Caps",
+        ],
+        image: "/stock/nickel201-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Nickel Alloy 201", uns: "N02201", werkstoff: "2.4068", standard: "ASTM" },
+    { grade: "Alloy 201", uns: "N02201", werkstoff: "2.4068", standard: "—" },
+    { grade: "UNS N02201", uns: "N02201", werkstoff: "2.4068", standard: "—" },
+    { grade: "NCF 201", uns: "N02201", werkstoff: "2.4068", standard: "JIS" },
+    { grade: "NA 12", uns: "N02201", werkstoff: "2.4068", standard: "BS" },
+    { grade: "GOST НП-2", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Nickel Alloy 201",
+      c: "0.02 max",
+      mn: "0.35 max",
+      si: "0.35 max",
+      cr: "—",
+      ni: "99.00 min",
+      mo: "—",
+      other: "Fe: 0.40 max, Cu: 0.25 max, S: 0.010 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Nickel Alloy 201",
+      tensile: "403 MPa (58,500 psi) min",
+      yield: "103 MPa (15,000 psi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.89 g/cm³",
+      meltingPoint: "1446 °C (2635 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing (Stress Relieving)",
+      temperatureRange: "593°C – 927°C (1100°F – 1700°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "705°C – 925°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Nickel Alloy 201 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "201 Alloy Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N02201 Long Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy 201 Lateral Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 201 U Bend", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Nickel Alloy 201 Pipe Fitting",
+    "ASTM B366 Alloy 201 Buttweld Fitting",
+    "Nickel Alloy 201 Seamless Fitting",
+    "201 Alloy Welded Fitting",
+    "201 Alloy 90° Elbow",
+    "Alloy UNS N02201 45° Elbow",
+    "Alloy UNS N02201 Long Radius Elbow",
+    "B366 Alloy 201 Short Radius Elbow",
+    "Nickel Alloy 201 Concentric Reducer",
+    "Nickel Alloy 201 Eccentric Reducer",
+    "Alloy 201 Equal Tee",
+    "Nickel Alloy N02201 Unequal Tee",
+    "Alloy 201 Lateral Tee",
+    "201 Nickel Alloy Fitting Cross",
+    "Nickel Alloy N02201 Pipe Bends",
+    "Alloy 201 U Bend",
+    "Nickel Alloy 201 180° Bend",
+    "ASTM B366 Alloy 201 Short Stub End",
+    "Alloy 201 Long Stub End",
+    "Nickel Alloy 201 End Cap",
+    "Alloy 201 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Seawater Equipment",
+    "Marine Industry",
+    "Oil Well Strainers",
+    "Offshore Oil Drilling Companies",
+    "Chemical Equipment",
+    "Condensers",
+    "Pulp & Paper Industry",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Heat Exchangers",
+    "Power Generation",
+  ],
+
+  specializedIn: [
+    "Nickel Alloy 201 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Nickel Alloy 201 Buttweld Fittings Exporter",
+    "ANSI B16.9 Nickel 201 Welded Buttweld Fittings Stockist in India",
+    "Nickel Alloy 201 Pipe Fittings Dealer",
+    "Nickel Alloy 201 90° Elbow Supplier",
+    "Nickel Alloy 201 45° Elbow Manufacturer",
+    "Nickel 1.5D Pipe Bend Exporter",
+    "201 Nickel Alloy End Cap Supplier",
+    "ASTM B366 201 Nickel Alloy 90° Elbow Exporter",
+    "Nickel Alloy 201 Equal Tee Manufacturer",
+    "ASME SB366 Alloy 201 Long Stub Supplier",
+    "Nickel Alloy 201 Reducer Manufacturer",
+    "Nickel 10D Pipe Bend Supplier",
+    "Alloy 201 Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Nickel Alloy 201 Buttweld Fittings Price List",
+    "Nickel Alloy 201 Fitting Weight Calculator",
+    "Nickel Alloy 201 Fitting Dimensions",
+    "Nickel Alloy 201 Fitting Price Per Kg in India",
+    "Nickel Alloy 201 Fitting Manufacturer in Mumbai",
+    "Nickel Alloy 201 Fitting Supplier in India",
+    "Nickel Alloy 201 Fitting Thickness Tolerance",
+    "Nickel Alloy 201 Fitting Price List PDF",
+    "Nickel Alloy 201 Fitting Mechanical Properties",
+    "Nickel Alloy 201 Fitting Chemical Composition",
+    "Nickel Alloy 201 Fitting Stockist in Pune",
+    "Nickel Alloy 201 Fitting Exporter",
+    "Nickel Alloy 201 Fitting Price in Mumbai",
+    "Nickel Alloy 201 Fitting Size Chart",
+    "Nickel Alloy 201 Elbow Price",
+    "Nickel Alloy 201 Tee Supplier",
+    "Nickel Alloy 201 Reducer Manufacturers",
+    "Nickel Alloy 201 Fitting Catalog PDF",
+    "Nickel Alloy 201 Fitting Equivalent Grades",
+    "Nickel Alloy 201 Fitting Price per Piece",
+    "Nickel Alloy 201 Fitting updated price list",
+    "Nickel Alloy 201 Fitting Size Chart 1/2 to 48 inch",
+    "Nickel Alloy 201 Fitting Manufacturers in Gujarat",
+    "Nickel Alloy 201 Fitting Stockyards in India",
+    "Nickel Alloy 201 Fitting thickness chart",
+    "Nickel Alloy 201 Fitting Price in India",
+    "Top 100 Nickel Alloy 201 Fitting Dealers in Mumbai",
+    "Buy Nickel Alloy 201 Fitting Online",
+    "Nickel Alloy 201 Fitting leading manufacturers in India",
+    "UNS N02201 Fitting Price India",
+    "Werkstoff 2.4068 Fitting Price India",
+    "Nickel Alloy 201 Fitting Heat Treatment",
+    "Nickel Alloy 201 Fitting Annealing Temperature",
+    "Nickel Alloy 201 Fitting Hardness Range",
+    "Nickel 201 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 32,
+  slug: "monel-400-buttweld-fittings",
+  image: "/stock/monel-400-buttweld-fittings.jpg",
+  title:
+    "Monel 400 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N04400 / WNR. 2.4360 (Nickel-Copper Alloy)",
+  shortDescription:
+    "Monel 400 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Monel 400 butt weld fittings have the best corrosion resistance to seawater and salt solution. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Monel 400 buttweld fittings are available in different sizes and shapes. Monel alloy 400 butt weld pipe fittings have the best corrosion resistance to seawater. Monel 400 pipe elbow has excellent corrosion resistance to salt and caustic solution and also to steam at increasing temperature. Monel 400 end cap pipe fittings have the best corrosion resistance to hydrofluoric acid, alkalis, sulfuric acid, and seawater. Monel 400 bend pipe fittings can be fabricated by both hot and cold working and also by machining and welding. Monel 400 buttweld pipe fittings have the best corrosion resistance to reducing environments than pure nickel alloy, and they also have excellent corrosion resistance to oxidizing environments than copper alloy. Monel 400 tee pipe fittings have the best strength and are capable of working at different temperatures. Monel 400 butt weld pipe fittings have a wide range of usage in different industries due to their distinct features. They are mostly used for power generation and gas processing equipment. Monel 400 end cap fittings are used in heat exchangers, condensers, and seawater equipment. Monel 400 reducers are used in petrochemical, pharmaceuticals, and chemical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Monel 400 (UNS N04400)":
+        "A nickel-copper alloy (approximately 63% Ni and 30% Cu) that is a solid solution alloy, hardened only by cold working. Offers the best corrosion resistance to seawater, salt solution, hydrofluoric acid, alkalis, sulfuric acid, and steam at increasing temperatures. Can be fabricated by both hot and cold working as well as by machining and welding. Better corrosion resistance to reducing environments than pure nickel alloy, and excellent resistance to oxidizing environments than copper alloy. High strength and capable of working at different temperatures. Widely used in power generation, gas processing equipment, heat exchangers, condensers, seawater equipment, petrochemicals, pharmaceuticals, and chemical equipment. Werkstoff Nr. 2.4360.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Monel 400 (UNS N04400 / WNR. 2.4360)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Monel 400 Elbows Stock Available",
+        items: [
+          "ASTM B366 Monel 400 90° Elbow",
+          "Monel 400 90° Elbow",
+          "Monel 400 45° Elbow",
+          "UNS N04400 Long Radius Elbow",
+          "WNR. 2.4360 Short Radius Elbow",
+        ],
+        image: "/stock/monel400-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Monel 400 Tees Stock Available",
+        items: [
+          "Monel 400 Equal Tee",
+          "Alloy 400 Equal Tee",
+          "Monel 400 Unequal Tee",
+          "Monel 400 Lateral Tee",
+          "UNS N04400 Fitting Cross",
+        ],
+        image: "/stock/monel400-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Monel 400 Reducers Stock Available",
+        items: [
+          "Monel 400 Concentric Reducer",
+          "Monel 400 Eccentric Reducer",
+          "Monel 400 Reducers",
+          "UNS N04400 Reducers",
+          "ASTM B366 Monel 400 Reducers",
+        ],
+        image: "/stock/monel400-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Monel 400 Pipe Bends Stock Available",
+        items: [
+          "Monel 400 1.5D Pipe Bend",
+          "Monel 400 3D Pipe Bend",
+          "Monel 400 5D Pipe Bend",
+          "Monel 400 10D Pipe Bend",
+          "Monel 400 U Bend",
+        ],
+        image: "/stock/monel400-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Monel 400 Stub Ends Stock Available",
+        items: [
+          "Monel 400 Short Stub End",
+          "UNS N04400 Stub End",
+          "Monel 400 Long Stub End",
+          "ASTM B366 Monel 400 Stub Ends",
+        ],
+        image: "/stock/monel400-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Monel 400 Caps Stock Available",
+        items: [
+          "Monel 400 End Cap",
+          "Monel 400 Dish Cap",
+          "Alloy 400 End Cap",
+          "ASTM B366 Monel 400 End Caps",
+        ],
+        image: "/stock/monel400-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Monel 400", uns: "N04400", werkstoff: "2.4360", standard: "ASTM" },
+    { grade: "Alloy 400", uns: "N04400", werkstoff: "2.4360", standard: "—" },
+    { grade: "UNS N04400", uns: "N04400", werkstoff: "2.4360", standard: "—" },
+    { grade: "NCF 400", uns: "N04400", werkstoff: "2.4360", standard: "JIS" },
+    { grade: "NA 13", uns: "N04400", werkstoff: "2.4360", standard: "BS" },
+    { grade: "GOST МНЖМц 28-2,5-1,5", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Monel 400",
+      c: "0.30 max",
+      mn: "2.00 max",
+      si: "0.50 max",
+      cr: "—",
+      ni: "63.00 min",
+      mo: "—",
+      other: "Cu: 28.00 – 34.00, Fe: 2.50 max, S: 0.024 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Monel 400",
+      tensile: "550 MPa (80,000 psi) min",
+      yield: "240 MPa (35,000 psi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.80 g/cm³",
+      meltingPoint: "1350 °C (2460 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing (Stress Relieving)",
+      temperatureRange: "593°C – 927°C (1100°F – 1700°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "760°C – 980°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "UNS N04400 Long Radius Elbow", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Monel 400 Eccentric Reducer", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "WNR. 2.4360 Short Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "UNS N04400 Fitting Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Monel 400 Pipe Bends", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Monel 400 Pipe Fitting",
+    "Monel 400 Buttweld Fitting",
+    "Monel 400 Seamless Fitting",
+    "Monel 400 Welded Fitting",
+    "Monel 400 90° Elbow",
+    "Monel 400 45° Elbow",
+    "UNS N04400 Long Radius Elbow",
+    "WNR. 2.4360 Short Radius Elbow",
+    "Monel 400 Concentric Reducer",
+    "Monel 400 Eccentric Reducer",
+    "Monel 400 Equal Tee",
+    "Monel 400 Unequal Tee",
+    "Monel 400 Lateral Tee",
+    "UNS N04400 Fitting Cross",
+    "Monel 400 Pipe Bends",
+    "Monel 400 U Bend",
+    "Monel 400 180° Bend",
+    "Monel 400 Short Stub End",
+    "UNS N04400 Stub End",
+    "Monel 400 End Cap",
+    "Monel 400 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Power Generation",
+    "Gas Processing Equipment",
+    "Heat Exchangers & Condensers",
+    "Seawater Equipment",
+    "Petrochemicals",
+    "Pharmaceuticals",
+    "Chemical Equipment",
+    "Marine Industry",
+    "Offshore Oil Drilling Companies",
+    "Oil & Natural Gas",
+    "Pulp & Paper Industry",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Monel 400 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Monel 400 Buttweld Fittings Exporter",
+    "ANSI B16.9 Monel 400 Welded Buttweld Fittings Stockist in India",
+    "Monel 400 Pipe Fittings Dealer",
+    "Monel 400 90° Elbow Supplier",
+    "Monel 400 45° Elbow Manufacturer",
+    "Alloy 400 Short Radius Elbow Supplier",
+    "ASTM B366 400 Monel Alloy 90° Elbow Exporter",
+    "Monel 400 Equal Tee Manufacturer",
+    "Monel DIN 2.4360 Cross Exporter",
+    "Monel 400 Reducer Manufacturer",
+    "Monel 400 180° Bend Supplier",
+    "UNS N04400 Fitting Cross Manufacturer",
+    "Monel 400 Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Monel 400 Buttweld Fittings Price List",
+    "Monel 400 Fitting Weight Calculator",
+    "Monel 400 Fitting Dimensions",
+    "Monel 400 Fitting Price Per Kg in India",
+    "Monel 400 Fitting Manufacturer in Mumbai",
+    "Monel 400 Fitting Supplier in India",
+    "Monel 400 Fitting Thickness Tolerance",
+    "Monel 400 Fitting Price List PDF",
+    "Monel 400 Fitting Mechanical Properties",
+    "Monel 400 Fitting Chemical Composition",
+    "Monel 400 Fitting Stockist in Pune",
+    "Monel 400 Fitting Exporter",
+    "Monel 400 Fitting Price in Mumbai",
+    "Monel 400 Fitting Size Chart",
+    "Monel 400 Elbow Price",
+    "Monel 400 Tee Supplier",
+    "Monel 400 Reducer Manufacturers",
+    "Monel 400 Fitting Catalog PDF",
+    "Monel 400 Fitting Equivalent Grades",
+    "Monel 400 Fitting Price per Piece",
+    "Monel 400 Fitting updated price list",
+    "Monel 400 Fitting Size Chart 1/2 to 48 inch",
+    "Monel 400 Fitting Manufacturers in Gujarat",
+    "Monel 400 Fitting Stockyards in India",
+    "Monel 400 Fitting thickness chart",
+    "Monel 400 Fitting Price in India",
+    "Top 100 Monel 400 Fitting Dealers in Mumbai",
+    "Buy Monel 400 Fitting Online",
+    "Monel 400 Fitting leading manufacturers in India",
+    "UNS N04400 Fitting Price India",
+    "Werkstoff 2.4360 Fitting Price India",
+    "Monel 400 Fitting Heat Treatment",
+    "Monel 400 Fitting Annealing Temperature",
+    "Monel 400 Fitting Hardness Range",
+    "Monel 400 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 33,
+  slug: "monel-k500-buttweld-fittings",
+  image: "/stock/monel-k500-buttweld-fittings.jpg",
+  title:
+    "Monel K500 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N05500 / WNR. 2.4375 (Precipitation Hardenable)",
+  shortDescription:
+    "Monel K500 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Monel K500 butt weld pipe fittings have more hardness than Monel alloy 400 butt weld pipe fittings. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Monel K500 butt weld pipe fittings are available in different sizes and shapes. Monel K500 butt weld pipe fittings have the best corrosion resistance. Monel K500 reducer pipe fittings have higher strength and hardness. Monel K500 cross pipe fittings have the same corrosion resistance characteristic as Monel alloy 400 pipe fittings. Monel K500 end pipe caps are known for their best features like durability, stability, and rustproof. Monel K500 dish cap pipe fittings have excellent dimensional stability. Usually, Monel K500 lateral tee pipe fittings are difficult for the machining process. Monel K500 butt weld pipe fittings have a wide range of usage pertaining to different industries due to their distinct features. Monel K500 butt weld pipe fittings are often used by the pulp and paper industry and offshore oil drilling companies. Monel K500 lateral tee pipe fittings are mostly used in pharmaceutical equipment and seawater equipment. Monel K500 end cap pipes are used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Monel K500 (UNS N05500)":
+        "A precipitation-hardenable nickel-copper alloy with aluminum and titanium additions that provides greater strength and hardness than Monel 400. Offers the best corrosion resistance (same as Monel 400), higher strength and hardness, excellent dimensional stability, and rustproof durability. Reducers have higher strength and hardness while dish caps have excellent dimensional stability. Lateral tees are typically difficult for the machining process. Widely used in pulp and paper industry, offshore oil drilling companies, pharmaceutical equipment, seawater equipment, heat exchangers, and condensers. Werkstoff Nr. 2.4375.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Monel K500 (UNS N05500 / WNR. 2.4375)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Monel K500 Elbows Stock Available",
+        items: [
+          "ASTM B366 Monel K500 90° Elbow",
+          "Monel K500 90° Elbow",
+          "Monel K500 45° Elbow",
+          "WNR. 2.4375 Long Radius Elbow",
+          "Alloy K500 Short Radius Elbow",
+        ],
+        image: "/stock/monelk500-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Monel K500 Tees Stock Available",
+        items: [
+          "Monel K500 Equal Tee",
+          "Alloy Equal Tee",
+          "Monel K500 Unequal Tee",
+          "Monel K500 Lateral Tee",
+          "UNS N05500 Fitting Cross",
+        ],
+        image: "/stock/monelk500-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Monel K500 Reducers Stock Available",
+        items: [
+          "UNS N05500 Concentric Reducer",
+          "Monel K500 Eccentric Reducer",
+          "Monel K500 Reducers",
+          "UNS N05500 Reducers",
+          "ASTM B366 Monel K500 Reducers",
+        ],
+        image: "/stock/monelk500-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Monel K500 Pipe Bends Stock Available",
+        items: [
+          "Monel K500 1.5D Pipe Bend",
+          "Monel 3D Pipe Bend",
+          "Monel K500 5D Pipe Bend",
+          "Monel K500 10D Pipe Bend",
+          "Monel K500 U Bend",
+        ],
+        image: "/stock/monelk500-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Monel K500 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Alloy K500 Long Stub",
+          "Monel K500 Short Stub End",
+          "UNS N05500 Stub End",
+          "ASTM B366 Monel K500 Stub Ends",
+        ],
+        image: "/stock/monelk500-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Monel K500 Caps Stock Available",
+        items: [
+          "Monel K500 End Cap",
+          "K500 Monel Alloy End Cap",
+          "Monel K500 Dish Cap",
+          "ASTM B366 Monel K500 End Caps",
+        ],
+        image: "/stock/monelk500-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Monel K500", uns: "N05500", werkstoff: "2.4375", standard: "ASTM" },
+    { grade: "Alloy K500", uns: "N05500", werkstoff: "2.4375", standard: "—" },
+    { grade: "UNS N05500", uns: "N05500", werkstoff: "2.4375", standard: "—" },
+    { grade: "NCF K500", uns: "N05500", werkstoff: "2.4375", standard: "JIS" },
+    { grade: "NA 18", uns: "N05500", werkstoff: "2.4375", standard: "BS" },
+    { grade: "GOST МНЖМц 28-2,5-1,5", uns: "—", werkstoff: "—", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Monel K500",
+      c: "0.25 max",
+      mn: "1.50 max",
+      si: "0.50 max",
+      cr: "—",
+      ni: "63.00 min",
+      mo: "—",
+      other: "Cu: 27.00 – 33.00, Fe: 2.00 max, Al: 2.30 – 3.15, Ti: 0.35 – 0.85, S: 0.010 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Monel K500",
+      tensile: "965 MPa (140,000 psi) min",
+      yield: "690 MPa (100,000 psi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.44 g/cm³",
+      meltingPoint: "1350 °C (2460 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "980°C – 1010°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench",
+    },
+    {
+      processStep: "Age Hardening (Precipitation)",
+      temperatureRange: "480°C – 595°C",
+      timeAtTemperature: "6 – 16 hours",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "UNS N05500 Welded Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WNR. 2.4375 Long Radius Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Monel K500 Eccentric Reducer", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "UNS N05500 Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N05500 Fitting Cross", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Monel K500 Pipe Fitting",
+    "Monel K500 Buttweld Fitting",
+    "Monel K500 Seamless Fitting",
+    "UNS N05500 Welded Fitting",
+    "Monel K500 90° Elbow",
+    "Monel K500 45° Elbow",
+    "WNR. 2.4375 Long Radius Elbow",
+    "Monel K500 Short Radius Elbow",
+    "UNS N05500 Concentric Reducer",
+    "Monel K500 Eccentric Reducer",
+    "Monel K500 Equal Tee",
+    "Monel K500 Unequal Tee",
+    "Monel K500 Lateral Tee",
+    "UNS N05500 Fitting Cross",
+    "Monel K500 Pipe Bends",
+    "Monel K500 U Bend",
+    "Monel K500 180° Bend",
+    "Monel K500 Short Stub End",
+    "UNS N05500 Stub End",
+    "Monel K500 End Cap",
+    "Monel K500 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Pulp & Paper Industry",
+    "Offshore Oil Drilling Companies",
+    "Pharmaceutical Equipment",
+    "Seawater Equipment",
+    "Heat Exchangers & Condensers",
+    "Marine Industry",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Power Generation",
+    "Desalination Plants",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Monel K500 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Monel K500 Buttweld Fittings Exporter",
+    "ANSI B16.9 Monel K500 Welded Buttweld Fittings Stockist in India",
+    "Monel K500 Pipe Fittings Dealer",
+    "Monel K500 90° Elbow Supplier",
+    "Monel K500 45° Elbow Manufacturer",
+    "Alloy K500 Short Radius Elbow Supplier",
+    "ASTM B366 K500 Monel Alloy 90° Elbow Exporter",
+    "Monel K500 Equal Tee Manufacturer",
+    "Monel DIN 2.4375 Cross Exporter",
+    "Monel K500 Reducer Manufacturer",
+    "Monel K500 180° Bend Supplier",
+    "Monel 1.5D Pipe Bend Manufacturer",
+    "Monel K500 Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Monel K500 Buttweld Fittings Price List",
+    "Monel K500 Fitting Weight Calculator",
+    "Monel K500 Fitting Dimensions",
+    "Monel K500 Fitting Price Per Kg in India",
+    "Monel K500 Fitting Manufacturer in Mumbai",
+    "Monel K500 Fitting Supplier in India",
+    "Monel K500 Fitting Thickness Tolerance",
+    "Monel K500 Fitting Price List PDF",
+    "Monel K500 Fitting Mechanical Properties",
+    "Monel K500 Fitting Chemical Composition",
+    "Monel K500 Fitting Stockist in Pune",
+    "Monel K500 Fitting Exporter",
+    "Monel K500 Fitting Price in Mumbai",
+    "Monel K500 Fitting Size Chart",
+    "Monel K500 Elbow Price",
+    "Monel K500 Tee Supplier",
+    "Monel K500 Reducer Manufacturers",
+    "Monel K500 Fitting Catalog PDF",
+    "Monel K500 Fitting Equivalent Grades",
+    "Monel K500 Fitting Price per Piece",
+    "Monel K500 Fitting updated price list",
+    "Monel K500 Fitting Size Chart 1/2 to 48 inch",
+    "Monel K500 Fitting Manufacturers in Gujarat",
+    "Monel K500 Fitting Stockyards in India",
+    "Monel K500 Fitting thickness chart",
+    "Monel K500 Fitting Price in India",
+    "Top 100 Monel K500 Fitting Dealers in Mumbai",
+    "Buy Monel K500 Fitting Online",
+    "Monel K500 Fitting leading manufacturers in India",
+    "UNS N05500 Fitting Price India",
+    "Werkstoff 2.4375 Fitting Price India",
+    "Monel K500 Fitting Heat Treatment",
+    "Monel K500 Fitting Annealing Temperature",
+    "Monel K500 Fitting Hardness Range",
+    "Monel K500 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 34,
+  slug: "inconel-600-buttweld-fittings",
+  image: "/stock/inconel-600-buttweld-fittings.jpg",
+  title:
+    "Inconel 600 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N06600 / WNR. 2.4816 (Nickel-Chromium Superalloy)",
+  shortDescription:
+    "Inconel 600 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Inconel 600 butt weld fittings have the best corrosion resistance to pressure and temperature. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Inconel 600 butt weld fittings are available in different sizes and shapes. Inconel 600 long radius elbow pipe fittings have the best corrosion resistance to oxidation. Inconel 600 concentric reducer has good mechanical properties and good corrosion resistance to ordinary corrosions. Inconel 600 butt weld pipe fittings have the best corrosion resistance to pressure and temperature. Inconel 600 short radius pipe fittings have the best corrosion resistance to carburized and chloride containing environments. Inconel 600 butt weld pipe fittings also have the best corrosion resistance to chloride-ion stress-corrosion cracking. Inconel 600 buttweld pipe fittings are the kind of material that could be used for applications which need resistance to heat and corrosions. Inconel 600 long radius elbow pipe fittings are mostly used for power generation and gas processing equipment. Inconel 600 long radius elbow pipe fittings are usually for pharmaceutical equipment, chemical equipment, and seawater equipment. Inconel 600 concentric reducers are used in heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 600 (UNS N06600)":
+        "A nickel-chromium superalloy with excellent resistance to pressure and temperature, oxidation, carburization, and chloride-ion stress-corrosion cracking. Offers good mechanical properties and good corrosion resistance to ordinary corrosions. Resistant to carburized and chloride-containing environments. Widely used in applications that need resistance to heat and corrosion, including power generation, gas processing equipment, pharmaceutical equipment, chemical equipment, seawater equipment, heat exchangers, and condensers. Werkstoff Nr. 2.4816.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Inconel 600 (UNS N06600 / WNR. 2.4816)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Inconel 600 Elbows Stock Available",
+        items: [
+          "ASTM B366 Inconel 600 90° Elbow",
+          "Inconel 600 90° Elbow",
+          "Supplier of Inconel 600 45° Elbow",
+          "Alloy UNS N06600 Long Radius Elbow",
+          "B366 Alloy 600 Short Radius Elbow",
+        ],
+        image: "/stock/inconel600-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Inconel 600 Tees Stock Available",
+        items: [
+          "Alloy 600 Equal Tee",
+          "Inconel 600 Equal Tee",
+          "Inconel N06600 Unequal Tee",
+          "Alloy 600 Lateral Tee",
+          "600 Inconel Fitting Cross",
+        ],
+        image: "/stock/inconel600-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Inconel 600 Reducers Stock Available",
+        items: [
+          "Inconel 600 Concentric Reducer",
+          "Inconel 600 Eccentric Reducer",
+          "Inconel 600 Reducers",
+          "UNS N06600 Reducers",
+          "ASTM B366 Inconel 600 Reducers",
+        ],
+        image: "/stock/inconel600-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Inconel 600 Pipe Bends Stock Available",
+        items: [
+          "Inconel 600 1.5D Pipe Bend",
+          "Inconel 5D Pipe Bend",
+          "Inconel 600 3D Pipe Bend",
+          "Inconel 10D Pipe Bend",
+          "Inconel N06600 Pipe Bends",
+        ],
+        image: "/stock/inconel600-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Inconel 600 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Inconel 600 Long Stub",
+          "ASTM B366 Alloy 600 Short Stub End",
+          "Alloy 600 Long Stub End",
+          "Inconel 600 Short Stub End",
+        ],
+        image: "/stock/inconel600-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Inconel 600 Caps Stock Available",
+        items: [
+          "Inconel 600 End Cap",
+          "600 Inconel End Cap",
+          "Alloy 600 Dish Cap",
+          "ASTM B366 Inconel 600 End Caps",
+        ],
+        image: "/stock/inconel600-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 600", uns: "N06600", werkstoff: "2.4816", standard: "ASTM" },
+    { grade: "Alloy 600", uns: "N06600", werkstoff: "2.4816", standard: "—" },
+    { grade: "UNS N06600", uns: "N06600", werkstoff: "2.4816", standard: "—" },
+    { grade: "NCF 600", uns: "N06600", werkstoff: "2.4816", standard: "JIS" },
+    { grade: "NA 13", uns: "N06600", werkstoff: "2.4816", standard: "BS" },
+    { grade: "NC15FE", uns: "N06600", werkstoff: "2.4816", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 600",
+      c: "0.15 max",
+      mn: "1.00 max",
+      si: "0.50 max",
+      cr: "14.00 – 17.00",
+      ni: "72.00 min",
+      mo: "—",
+      other: "P: 0.015 max, S: 0.015 max, Cu: 0.50 max, Fe: 6.00 – 10.00",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 600",
+      tensile: "550 MPa (80 ksi) min",
+      yield: "240 MPa (35 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.47 g/cm³",
+      meltingPoint: "1413 °C (2575 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1095°C – 1175°C (2000°F – 2150°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "540°C – 600°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Inconel 600 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy UNS N06600 45° Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N06600 Long Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Inconel N06600 Pipe Bends", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 600 U Bend", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Inconel 600 Pipe Fitting",
+    "ASTM B366 Alloy 600 Buttweld Fitting",
+    "Inconel 600 Seamless Fitting",
+    "600 Alloy Welded Fitting",
+    "600 Alloy 90° Elbow",
+    "Alloy UNS N06600 45° Elbow",
+    "Alloy UNS N06600 Long Radius Elbow",
+    "B366 Alloy 600 Short Radius Elbow",
+    "Inconel 600 Concentric Reducer",
+    "Inconel 600 Eccentric Reducer",
+    "Alloy 600 Equal Tee",
+    "Inconel N06600 Unequal Tee",
+    "Alloy 600 Lateral Tee",
+    "600 Inconel Fitting Cross",
+    "Inconel N06600 Pipe Bends",
+    "Alloy 600 U Bend",
+    "Inconel 600 180° Bend",
+    "ASTM B366 Alloy 600 Short Stub End",
+    "Alloy 600 Long Stub End",
+    "Inconel 600 End Cap",
+    "Alloy 600 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Power Generation",
+    "Gas Processing Equipment",
+    "Pharmaceutical Equipment",
+    "Chemical Equipment",
+    "Seawater Equipment",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Nuclear Reactors",
+    "Aerospace",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Inconel 600 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Inconel 600 Buttweld Fittings Exporter",
+    "Inconel 600 Pipe Elbow Manufacturer in India",
+    "Inconel 600 Pipe Fittings Dealer",
+    "Inconel 600 90° Elbow Supplier",
+    "Supplier of Inconel 600 45° Elbow",
+    "Alloy 600 Short Radius Elbow Supplier",
+    "ASTM B366 600 Inconel Alloy 90° Elbow Exporter",
+    "Inconel 600 Equal Tee Manufacturer",
+    "Inconel WERKSTOFF NR. 2.4816 Cross Exporter",
+    "Inconel 600 Reducer Manufacturer",
+    "Inconel 600 180° Bend Supplier",
+    "Inconel 5D Pipe Bend Manufacturer",
+    "ASME SB366 Inconel 600 Long Stub Supplier",
+  ],
+
+  relatedSearches: [
+    "Inconel 600 Buttweld Fittings Price List",
+    "Inconel 600 Fitting Weight Calculator",
+    "Inconel 600 Fitting Dimensions",
+    "Inconel 600 Fitting Price Per Kg in India",
+    "Inconel 600 Fitting Manufacturer in Mumbai",
+    "Inconel 600 Fitting Supplier in India",
+    "Inconel 600 Fitting Thickness Tolerance",
+    "Inconel 600 Fitting Price List PDF",
+    "Inconel 600 Fitting Mechanical Properties",
+    "Inconel 600 Fitting Chemical Composition",
+    "Inconel 600 Fitting Stockist in Pune",
+    "Inconel 600 Fitting Exporter",
+    "Inconel 600 Fitting Price in Mumbai",
+    "Inconel 600 Fitting Size Chart",
+    "Inconel 600 Elbow Price",
+    "Inconel 600 Tee Supplier",
+    "Inconel 600 Reducer Manufacturers",
+    "Inconel 600 Fitting Catalog PDF",
+    "Inconel 600 Fitting Equivalent Grades",
+    "Inconel 600 Fitting Price per Piece",
+    "Inconel 600 Fitting updated price list",
+    "Inconel 600 Fitting Size Chart 1/2 to 48 inch",
+    "Inconel 600 Fitting Manufacturers in Gujarat",
+    "Inconel 600 Fitting Stockyards in India",
+    "Inconel 600 Fitting thickness chart",
+    "Inconel 600 Fitting Price in India",
+    "Top 100 Inconel 600 Fitting Dealers in Mumbai",
+    "Buy Inconel 600 Fitting Online",
+    "Inconel 600 Fitting leading manufacturers in India",
+    "UNS N06600 Fitting Price India",
+    "Werkstoff 2.4816 Fitting Price India",
+    "Inconel 600 Fitting Heat Treatment",
+    "Inconel 600 Fitting Solution Annealing Temperature",
+    "Inconel 600 Fitting Hardness Range",
+    "Inconel 600 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 35,
+  slug: "inconel-601-buttweld-fittings",
+  image: "/stock/inconel-601-buttweld-fittings.jpg",
+  title:
+    "Inconel 601 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N06601 / WNR. 2.4851 (High-Temp Oxidation Resistant)",
+  shortDescription:
+    "Inconel 601 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Inconel 601 butt weld pipe fittings have the best corrosion resistance to high-temperature oxidation. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Inconel 601 buttweld pipe fittings are available in different sizes and shapes. Inconel 601 butt weld fittings are also known as an engineering material, and the main characteristic of Inconel 601 butt weld fitting is that it retains its ductility even after long service. Inconel 601 short radius is often used in petrochemicals. Inconel 601 eccentric reducer has mechanical properties even at high elevated temperatures. Inconel 601 unequal steel butt weld fittings are often used for grinding and milling. Inconel 601 lateral steel butt weld pipe fittings have excellent strength at elevated temperatures. Inconel 601 Cross butt weld pipe fittings have a cubic solid solution to maintain metallurgical stability to a high degree. Inconel 601 lateral steel butt weld pipe fittings are mostly used in heat exchangers and condensers. Inconel 601 short radius is often used in petrochemicals and pharmaceuticals. Inconel 601 butt weld pipe fittings are also used in process equipment such as turning, milling, and grinding.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 601 (UNS N06601)":
+        "A nickel-chromium-iron alloy with high oxidation resistance at temperatures up to 2200°F, resisting spalling even under thermal cycling conditions. Highly resistant to carburization, with good creep rupture strength, metallurgical stability, and outstanding mechanical strength. Retains ductility even after long service. The Cross fittings have a cubic solid solution for metallurgical stability. Contains 58-63% Nickel, 21-25% Chromium, 1.0-1.7% Aluminum, and balance Iron. Widely used in thermal processing equipment, radiant tubes, heat-treating industry, chemical processing, heat exchangers, condensers, petrochemicals, pharmaceuticals, and process equipment such as turning, milling, and grinding. Werkstoff Nr. 2.4851.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Inconel 601 (UNS N06601 / WNR. 2.4851)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Inconel 601 Elbows Stock Available",
+        items: [
+          "ASTM B366 Inconel 601 90° Elbow",
+          "Inconel 601 90° Elbow",
+          "Inconel 601 45° Elbow",
+          "Alloy UNS N06601 Long Radius Elbow",
+          "B366 Alloy 601 Short Radius Elbow",
+        ],
+        image: "/stock/inconel601-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Inconel 601 Tees Stock Available",
+        items: [
+          "Alloy 601 Equal Tee",
+          "Inconel® Alloy 601 Equal Tee",
+          "Inconel N06601 Unequal Tee",
+          "Alloy 601 Lateral Tee",
+          "601 Inconel Fitting Cross",
+        ],
+        image: "/stock/inconel601-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Inconel 601 Reducers Stock Available",
+        items: [
+          "Inconel 601 Concentric Reducer",
+          "Inconel 601 Eccentric Reducer",
+          "Inconel 601 Reducers",
+          "UNS N06601 Reducers",
+          "ASTM B366 Inconel 601 Reducers",
+        ],
+        image: "/stock/inconel601-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Inconel 601 Pipe Bends Stock Available",
+        items: [
+          "Inconel 601 1.5D Pipe Bend",
+          "Inconel 3D Pipe Bend",
+          "Inconel 10D Pipe Bend",
+          "Inconel® Alloy 601 180° Bend",
+          "Inconel N06601 Pipe Bends",
+        ],
+        image: "/stock/inconel601-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Inconel 601 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Inconel 601 Long Stub",
+          "ASTM B366 Alloy 601 Short Stub End",
+          "Alloy 601 Long Stub End",
+          "Inconel 601 Short Stub End",
+        ],
+        image: "/stock/inconel601-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Inconel 601 Caps Stock Available",
+        items: [
+          "Inconel 601 End Cap",
+          "601 Inconel End Cap",
+          "Alloy 601 Dish Cap",
+          "ASTM B366 Inconel 601 End Caps",
+        ],
+        image: "/stock/inconel601-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 601", uns: "N06601", werkstoff: "2.4851", standard: "ASTM" },
+    { grade: "Alloy 601", uns: "N06601", werkstoff: "2.4851", standard: "—" },
+    { grade: "UNS N06601", uns: "N06601", werkstoff: "2.4851", standard: "—" },
+    { grade: "NCF 601", uns: "N06601", werkstoff: "2.4851", standard: "JIS" },
+    { grade: "NA 49", uns: "N06601", werkstoff: "2.4851", standard: "BS" },
+    { grade: "NC23FeA", uns: "N06601", werkstoff: "2.4851", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 601",
+      c: "0.10 max",
+      mn: "1.00 max",
+      si: "0.50 max",
+      cr: "21.00 – 25.00",
+      ni: "58.00 – 63.00",
+      mo: "—",
+      other: "P: 0.020 max, S: 0.015 max, Al: 1.00 – 1.70, Cu: 1.00 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 601",
+      tensile: "550 MPa (80 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.10 g/cm³",
+      meltingPoint: "1411 °C (2572 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1100°C – 1200°C",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "400°C – 500°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "601 Alloy Welded Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Inconel 601 Pipe Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Inconel N06601 Unequal Tee", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "601 Inconel Fitting Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Inconel 601 Seamless Fitting", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Inconel 601 Pipe Fitting",
+    "ASTM B366 Alloy 601 Buttweld Fitting",
+    "Inconel 601 Seamless Fitting",
+    "601 Alloy Welded Fitting",
+    "601 Alloy 90° Elbow",
+    "Alloy UNS N06601 45° Elbow",
+    "Alloy UNS N06601 Long Radius Elbow",
+    "B366 Alloy 601 Short Radius Elbow",
+    "Inconel 601 Concentric Reducer",
+    "Inconel 601 Eccentric Reducer",
+    "Alloy 601 Equal Tee",
+    "Inconel N06601 Unequal Tee",
+    "Alloy 601 Lateral Tee",
+    "601 Inconel Fitting Cross",
+    "Inconel N06601 Pipe Bends",
+    "Alloy 601 U Bend",
+    "Inconel 601 180° Bend",
+    "ASTM B366 Alloy 601 Short Stub End",
+    "Alloy 601 Long Stub End",
+    "Inconel 601 End Cap",
+    "Alloy 601 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Thermal Processing Equipment",
+    "Radiant Tubes",
+    "Heat-Treating Industry",
+    "Chemical Processing",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Pharmaceuticals",
+    "Aerospace Pollution Control",
+    "Power Generation",
+    "Process Equipment (Turning, Milling, Grinding)",
+    "Refineries",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Inconel 601 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Inconel 601 Buttweld Fittings Exporter",
+    "ANSI B16.9 Inconel 601 Welded Buttweld Fittings Stockist in India",
+    "Inconel 601 Pipe Fittings Dealer",
+    "Inconel 601 90° Elbow Supplier",
+    "Inconel 601 45° Elbow Manufacturer",
+    "Alloy 601 Short Radius Elbow Supplier",
+    "Inconel 10D Pipe Bend Exporter",
+    "Inconel 601 Equal Tee Manufacturer",
+    "Inconel WERKSTOFF NR. 2.4851 Cross Exporter",
+    "Inconel 601 Reducer Manufacturer",
+    "Inconel® Alloy 601 180° Bend Supplier",
+    "Inconel UNS N06601 Seamless Pipe Fittings Exporter",
+    "Alloy 601 Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Inconel 601 Buttweld Fittings Price List",
+    "Inconel 601 Fitting Weight Calculator",
+    "Inconel 601 Fitting Dimensions",
+    "Inconel 601 Fitting Price Per Kg in India",
+    "Inconel 601 Fitting Manufacturer in Mumbai",
+    "Inconel 601 Fitting Supplier in India",
+    "Inconel 601 Fitting Thickness Tolerance",
+    "Inconel 601 Fitting Price List PDF",
+    "Inconel 601 Fitting Mechanical Properties",
+    "Inconel 601 Fitting Chemical Composition",
+    "Inconel 601 Fitting Stockist in Pune",
+    "Inconel 601 Fitting Exporter",
+    "Inconel 601 Fitting Price in Mumbai",
+    "Inconel 601 Fitting Size Chart",
+    "Inconel 601 Elbow Price",
+    "Inconel 601 Tee Supplier",
+    "Inconel 601 Reducer Manufacturers",
+    "Inconel 601 Fitting Catalog PDF",
+    "Inconel 601 Fitting Equivalent Grades",
+    "Inconel 601 Fitting Price per Piece",
+    "Inconel 601 Fitting updated price list",
+    "Inconel 601 Fitting Size Chart 1/2 to 48 inch",
+    "Inconel 601 Fitting Manufacturers in Gujarat",
+    "Inconel 601 Fitting Stockyards in India",
+    "Inconel 601 Fitting thickness chart",
+    "Inconel 601 Fitting Price in India",
+    "Top 100 Inconel 601 Fitting Dealers in Mumbai",
+    "Buy Inconel 601 Fitting Online",
+    "Inconel 601 Fitting leading manufacturers in India",
+    "UNS N06601 Fitting Price India",
+    "Werkstoff 2.4851 Fitting Price India",
+    "Inconel 601 Fitting Heat Treatment",
+    "Inconel 601 Fitting Solution Annealing Temperature",
+    "Inconel 601 Fitting Hardness Range",
+    "Inconel 601 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 36,
+  slug: "inconel-625-buttweld-fittings",
+  image: "/stock/inconel-625-buttweld-fittings.jpg",
+  title:
+    "Inconel 625 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N06625 / WNR. 2.4856 (Nickel-Chromium-Molybdenum Superalloy)",
+  shortDescription:
+    "Inconel 625 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Inconel 625 buttweld fittings have the best corrosion resistance to elevated temperatures. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Inconel 625 buttweld fittings are available in different sizes and shapes. Inconel 625 butt weld pipe fittings have the best corrosion resistance to corrosive media. Inconel 625 short radius elbow has excellent corrosion resistance for elevated temperature. Inconel 625 equal tee is used in the marine industry and chemical processing equipment. Inconel 625 eccentric reducer butt weld pipe fittings contain niobium and molybdenum, giving more strength to the alloy. Inconel 625 elbow butt weld fittings also have corrosion resistance to oxidation and are non-magnetic. Inconel 625 eccentric reducer has high strength properties and has excellent corrosion resistance to carburization. Inconel equal tee is used for steam-line piping. Inconel 625 unequal tee butt weld fittings are used in heat exchangers and condensers. Inconel 625 lateral tee butt weld pipe fittings are often used in aerospace, marine industry, and chemical processing equipment. Inconel 625 short radius elbow is also used in offshore oil drilling companies and petrochemicals.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 625 (UNS N06625)":
+        "A nickel-chromium-molybdenum superalloy with niobium additions for high strength and excellent corrosion resistance to corrosive media at elevated temperatures. Non-magnetic and resistant to oxidation and carburization. Contains 20-23% Chromium, 8-10% Molybdenum, and 3.15-4.15% Niobium. Widely used in marine industry, chemical processing equipment, steam-line piping, heat exchangers, condensers, aerospace, offshore oil drilling companies, and petrochemicals. Werkstoff Nr. 2.4856.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Inconel 625 (UNS N06625 / WNR. 2.4856)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Inconel 625 Elbows Stock Available",
+        items: [
+          "ASTM B366 Inconel 625 90° Elbow",
+          "Inconel 625 90° Elbow",
+          "Alloy 625 45° Elbow",
+          "Alloy UNS N06625 Long Radius Elbow",
+          "Alloy 625 Short Radius Elbow Supplier",
+        ],
+        image: "/stock/inconel625-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Inconel 625 Tees Stock Available",
+        items: [
+          "Alloy 625 Equal Tee",
+          "Inconel® Alloy 625 Equal Tee",
+          "Inconel N06625 Unequal Tee",
+          "Alloy 625 Lateral Tee",
+          "625 Inconel Fitting Cross",
+        ],
+        image: "/stock/inconel625-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Inconel 625 Reducers Stock Available",
+        items: [
+          "Inconel 625 Concentric Reducer",
+          "Inconel 625 Eccentric Reducer",
+          "Inconel 625 Reducers",
+          "UNS N06625 Reducers",
+          "ASTM B366 Inconel 625 Reducers",
+        ],
+        image: "/stock/inconel625-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Inconel 625 Pipe Bends Stock Available",
+        items: [
+          "Inconel 1.5D Pipe Bend",
+          "Inconel 3D Pipe Bend",
+          "Inconel 625 5D Pipe Bend",
+          "Inconel 625 10D Pipe Bend",
+          "Inconel N06625 Pipe Bends",
+        ],
+        image: "/stock/inconel625-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Inconel 625 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Inconel 625 Long Stub",
+          "ASTM B366 Alloy 625 Short Stub End",
+          "Alloy 625 Long Stub End",
+          "Inconel 625 Short Stub End",
+        ],
+        image: "/stock/inconel625-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Inconel 625 Caps Stock Available",
+        items: [
+          "Inconel 625 End Cap",
+          "625 Inconel End Cap",
+          "Alloy 625 Dish Cap",
+          "ASTM B366 Inconel 625 End Caps",
+        ],
+        image: "/stock/inconel625-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 625", uns: "N06625", werkstoff: "2.4856", standard: "ASTM" },
+    { grade: "Alloy 625", uns: "N06625", werkstoff: "2.4856", standard: "—" },
+    { grade: "UNS N06625", uns: "N06625", werkstoff: "2.4856", standard: "—" },
+    { grade: "NCF 625", uns: "N06625", werkstoff: "2.4856", standard: "JIS" },
+    { grade: "NA 21", uns: "N06625", werkstoff: "2.4856", standard: "BS" },
+    { grade: "NC22DNB4M", uns: "N06625", werkstoff: "2.4856", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 625",
+      c: "0.10 max",
+      mn: "0.50 max",
+      si: "0.50 max",
+      cr: "20.00 – 23.00",
+      ni: "58.00 min",
+      mo: "8.00 – 10.00",
+      other: "P: 0.015 max, S: 0.015 max, Nb+Ta: 3.15 – 4.15, Al: 0.40 max, Ti: 0.40 max, Fe: 5.00 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 625",
+      tensile: "827 MPa (120 ksi) min",
+      yield: "414 MPa (60 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.44 g/cm³",
+      meltingPoint: "1290 – 1350 °C (2350 – 2460 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1093°C – 1204°C (2000°F – 2200°F)",
+      timeAtTemperature: "—",
+      atmosphere: "Water Quench / Air Cool",
+    },
+    {
+      processStep: "Stress Relieving",
+      temperatureRange: "540°C – 600°C",
+      timeAtTemperature: "—",
+      atmosphere: "Air",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy 625 U Bend", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Inconel 625 180° Bend", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy 625 Long Stub End", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Inconel 625 End Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 625 Dish Cap", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Inconel 625 Pipe Fitting",
+    "ASTM B366 Alloy 625 Buttweld Fitting",
+    "Inconel 625 Seamless Fitting",
+    "625 Alloy Welded Fitting",
+    "625 Alloy 90° Elbow",
+    "Alloy UNS N06625 45° Elbow",
+    "Alloy UNS N06625 Long Radius Elbow",
+    "B366 Alloy 625 Short Radius Elbow",
+    "Inconel 625 Concentric Reducer",
+    "Inconel 625 Eccentric Reducer",
+    "Alloy 625 Equal Tee",
+    "Inconel N06625 Unequal Tee",
+    "Alloy 625 Lateral Tee",
+    "625 Inconel Fitting Cross",
+    "Inconel N06625 Pipe Bends",
+    "Alloy 625 U Bend",
+    "Inconel 625 180° Bend",
+    "ASTM B366 Alloy 625 Short Stub End",
+    "Alloy 625 Long Stub End",
+    "Inconel 625 End Cap",
+    "Alloy 625 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Marine Industry",
+    "Chemical Processing Equipment",
+    "Steam-Line Piping",
+    "Heat Exchangers & Condensers",
+    "Aerospace",
+    "Offshore Oil Drilling Companies",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pharmaceutical Equipment",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Inconel 625 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Inconel 625 Buttweld Fittings Exporter",
+    "ANSI B16.9 Inconel 625 Welded Buttweld Fittings Stockist in India",
+    "Inconel 625 Pipe Fittings Dealer",
+    "Inconel 625 90° Elbow Supplier",
+    "Alloy 625 45° Elbow Manufacturer",
+    "Alloy 625 Short Radius Elbow Supplier",
+    "Inconel 3D Pipe Bend Exporter",
+    "Inconel 625 Equal Tee Manufacturer",
+    "Inconel WERKSTOFF NR. 2.4856 Cross Exporter",
+    "Inconel 625 Reducer Manufacturer",
+    "Inconel 625 180° Bend Supplier",
+    "Inconel UNS N06625 Seamless Pipe Fittings Exporter",
+    "Alloy 625 Dish Cap Exporter",
+  ],
+
+  relatedSearches: [
+    "Inconel 625 Buttweld Fittings Price List",
+    "Inconel 625 Fitting Weight Calculator",
+    "Inconel 625 Fitting Dimensions",
+    "Inconel 625 Fitting Price Per Kg in India",
+    "Inconel 625 Fitting Manufacturer in Mumbai",
+    "Inconel 625 Fitting Supplier in India",
+    "Inconel 625 Fitting Thickness Tolerance",
+    "Inconel 625 Fitting Price List PDF",
+    "Inconel 625 Fitting Mechanical Properties",
+    "Inconel 625 Fitting Chemical Composition",
+    "Inconel 625 Fitting Stockist in Pune",
+    "Inconel 625 Fitting Exporter",
+    "Inconel 625 Fitting Price in Mumbai",
+    "Inconel 625 Fitting Size Chart",
+    "Inconel 625 Elbow Price",
+    "Inconel 625 Tee Supplier",
+    "Inconel 625 Reducer Manufacturers",
+    "Inconel 625 Fitting Catalog PDF",
+    "Inconel 625 Fitting Equivalent Grades",
+    "Inconel 625 Fitting Price per Piece",
+    "Inconel 625 Fitting updated price list",
+    "Inconel 625 Fitting Size Chart 1/2 to 48 inch",
+    "Inconel 625 Fitting Manufacturers in Gujarat",
+    "Inconel 625 Fitting Stockyards in India",
+    "Inconel 625 Fitting thickness chart",
+    "Inconel 625 Fitting Price in India",
+    "Top 100 Inconel 625 Fitting Dealers in Mumbai",
+    "Buy Inconel 625 Fitting Online",
+    "Inconel 625 Fitting leading manufacturers in India",
+    "UNS N06625 Fitting Price India",
+    "Werkstoff 2.4856 Fitting Price India",
+    "Inconel 625 Fitting Heat Treatment",
+    "Inconel 625 Fitting Solution Annealing Temperature",
+    "Inconel 625 Fitting Hardness Range",
+    "Inconel 625 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 37,
+  slug: "inconel-718-buttweld-fittings",
+  image: "/stock/inconel-718-buttweld-fittings.jpg",
+  title:
+    "Inconel 718 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N07718 / WNR. 2.4668 (Age-Hardenable Superalloy)",
+  shortDescription:
+    "Inconel 718 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Inconel 718 butt weld pipe fittings have the best corrosion resistance to post-weld cracking. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Inconel 718 butt weld pipe fittings are available in different sizes and shapes. Inconel 718 stub end pipe fittings contain nickel and chromium, which gives more hardness to the alloy. Inconel 718 Cross pipe fittings have the best weldability. Inconel 718 butt weld fittings have the best corrosion resistance to post-weld cracking. Inconel 718 Bend pipe fittings can be worked hard, and they can also be easily fabricated. Inconel 718 fittings can effectively be used for high strength at cryogenic temperature up to 1400°F. Inconel 718 butt weld pipe fittings are mostly used in aerospace industries. Inconel 718 stub end pipe fittings are often used in the pulp and paper industry and offshore oil drilling companies. Inconel 718 Cross pipe fittings are also used for seawater equipment and chemical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 718 (UNS N07718)":
+        "An age-hardenable nickel-chromium-iron superalloy with high tensile and yield strength, excellent creep and rupture strength, and high weldability. Best corrosion resistance to post-weld cracking. Contains nickel and chromium for hardness. Can be worked hard and easily fabricated. High strength at cryogenic temperature up to 1400°F. Widely used in aerospace industries, pulp and paper industry, offshore oil drilling companies, seawater equipment, and chemical equipment. Werkstoff Nr. 2.4668.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Inconel 718 (UNS N07718 / WNR. 2.4668)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Inconel 718 Elbows Stock Available",
+        items: [
+          "ASTM B366 Inconel 718 90° Elbow",
+          "Inconel 718 90° Elbow",
+          "Alloy 718 45° Elbow",
+          "Alloy UNS N07718 Long Radius Elbow",
+          "B366 Alloy 718 Short Radius Elbow",
+        ],
+        image: "/stock/inconel718-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Inconel 718 Tees Stock Available",
+        items: [
+          "Alloy 718 Equal Tee",
+          "Inconel® Alloy 718 Equal Tee",
+          "Inconel N07718 Unequal Tee",
+          "Alloy 718 Lateral Tee",
+          "718 Inconel Fitting Cross",
+        ],
+        image: "/stock/inconel718-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Inconel 718 Reducers Stock Available",
+        items: [
+          "Inconel 718 Concentric Reducer",
+          "Inconel 718 Eccentric Reducer",
+          "Inconel 718 Reducers",
+          "UNS N07718 Reducers",
+          "ASTM B366 Inconel 718 Reducers",
+        ],
+        image: "/stock/inconel718-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Inconel 718 Pipe Bends Stock Available",
+        items: [
+          "Inconel 718 1.5D Pipe Bend",
+          "Inconel 3D Pipe Bend",
+          "Inconel 10D Pipe Bend",
+          "Inconel 718 180° Bend",
+          "Inconel N07718 Pipe Bends",
+        ],
+        image: "/stock/inconel718-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Inconel 718 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Inconel 718 Long Stub",
+          "ASTM B366 Alloy 718 Short Stub End",
+          "Alloy 718 Long Stub End",
+          "Inconel 718 Short Stub End",
+        ],
+        image: "/stock/inconel718-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Inconel 718 Caps Stock Available",
+        items: [
+          "Inconel 718 End Cap",
+          "718 Inconel End Cap",
+          "Alloy 718 Dish Cap",
+          "ASTM B366 Inconel 718 End Caps",
+        ],
+        image: "/stock/inconel718-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 718", uns: "N07718", werkstoff: "2.4668", standard: "ASTM" },
+    { grade: "Alloy 718", uns: "N07718", werkstoff: "2.4668", standard: "—" },
+    { grade: "UNS N07718", uns: "N07718", werkstoff: "2.4668", standard: "—" },
+    { grade: "NCF 718", uns: "N07718", werkstoff: "2.4668", standard: "JIS" },
+    { grade: "NA 51", uns: "N07718", werkstoff: "2.4668", standard: "BS" },
+    { grade: "NC19FeNb", uns: "N07718", werkstoff: "2.4668", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 718",
+      c: "0.08 max",
+      mn: "0.35 max",
+      si: "0.35 max",
+      cr: "17.00 – 21.00",
+      ni: "50.00 – 55.00",
+      mo: "2.80 – 3.30",
+      other: "P: 0.015 max, S: 0.015 max, Nb+Ta: 4.75 – 5.50, Ti: 0.65 – 1.15, Al: 0.20 – 0.80, B: 0.006 max, Cu: 0.30 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 718",
+      tensile: "930 MPa (135 ksi) min",
+      yield: "482 MPa (70 ksi) min",
+      elongation: "45% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.19 g/cm³",
+      meltingPoint: "1336 °C (2437 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "954°C – 982°C (1750°F – 1800°F)",
+      timeAtTemperature: "1 hour",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Age Hardening (Precipitation)",
+      temperatureRange: "718°C – 760°C (1325°F – 1400°F)",
+      timeAtTemperature: "8 hours + 620°C (1150°F) for 8 hours",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Inconel 718 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy UNS N07718 45° Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N07718 Long Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy 718 Equal Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Inconel N07718 Pipe Bends", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Inconel 718 Pipe Fitting",
+    "ASTM B366 Alloy 718 Buttweld Fitting",
+    "Inconel 718 Seamless Fitting",
+    "718 Alloy Welded Fitting",
+    "718 Alloy 90° Elbow",
+    "Alloy UNS N07718 45° Elbow",
+    "Alloy UNS N07718 Long Radius Elbow",
+    "B366 Alloy 718 Short Radius Elbow",
+    "Inconel 718 Concentric Reducer",
+    "Inconel 718 Eccentric Reducer",
+    "Alloy 718 Equal Tee",
+    "Inconel N07718 Unequal Tee",
+    "Alloy 718 Lateral Tee",
+    "718 Inconel Fitting Cross",
+    "Inconel N07718 Pipe Bends",
+    "Alloy 718 U Bend",
+    "Inconel 718 180° Bend",
+    "ASTM B366 Alloy 718 Short Stub End",
+    "Alloy 718 Long Stub End",
+    "Inconel 718 End Cap",
+    "Alloy 718 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Aerospace Industries",
+    "Pulp & Paper Industry",
+    "Offshore Oil Drilling Companies",
+    "Seawater Equipment",
+    "Chemical Equipment",
+    "Heat Exchangers & Condensers",
+    "Gas Turbine Engines",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Steel Industries",
+  ],
+
+  specializedIn: [
+    "Inconel 718 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Inconel 718 Buttweld Fittings Exporter",
+    "ANSI B16.9 Inconel 718 Welded Buttweld Fittings Stockist in India",
+    "Inconel 718 Pipe Fittings Dealer",
+    "Inconel 718 90° Elbow Supplier",
+    "Supplier of Inconel 718 45° Elbow",
+    "Alloy 718 Short Radius Elbow Supplier",
+    "Inconel 10D Pipe Bend Exporter",
+    "Inconel 718 Equal Tee Manufacturer",
+    "Inconel WERKSTOFF NR. 2.4668 Cross Exporter",
+    "Inconel 718 Reducer Manufacturer",
+    "Inconel 718 180° Bend Supplier",
+    "Inconel UNS N07718 Seamless Pipe Fittings Exporter",
+    "ASME SB366 Inconel 718 Long Stub Supplier",
+  ],
+
+  relatedSearches: [
+    "Inconel 718 Buttweld Fittings Price List",
+    "Inconel 718 Fitting Weight Calculator",
+    "Inconel 718 Fitting Dimensions",
+    "Inconel 718 Fitting Price Per Kg in India",
+    "Inconel 718 Fitting Manufacturer in Mumbai",
+    "Inconel 718 Fitting Supplier in India",
+    "Inconel 718 Fitting Thickness Tolerance",
+    "Inconel 718 Fitting Price List PDF",
+    "Inconel 718 Fitting Mechanical Properties",
+    "Inconel 718 Fitting Chemical Composition",
+    "Inconel 718 Fitting Stockist in Pune",
+    "Inconel 718 Fitting Exporter",
+    "Inconel 718 Fitting Price in Mumbai",
+    "Inconel 718 Fitting Size Chart",
+    "Inconel 718 Elbow Price",
+    "Inconel 718 Tee Supplier",
+    "Inconel 718 Reducer Manufacturers",
+    "Inconel 718 Fitting Catalog PDF",
+    "Inconel 718 Fitting Equivalent Grades",
+    "Inconel 718 Fitting Price per Piece",
+    "Inconel 718 Fitting updated price list",
+    "Inconel 718 Fitting Size Chart 1/2 to 48 inch",
+    "Inconel 718 Fitting Manufacturers in Gujarat",
+    "Inconel 718 Fitting Stockyards in India",
+    "Inconel 718 Fitting thickness chart",
+    "Inconel 718 Fitting Price in India",
+    "Top 100 Inconel 718 Fitting Dealers in Mumbai",
+    "Buy Inconel 718 Fitting Online",
+    "Inconel 718 Fitting leading manufacturers in India",
+    "UNS N07718 Fitting Price India",
+    "Werkstoff 2.4668 Fitting Price India",
+    "Inconel 718 Fitting Heat Treatment",
+    "Inconel 718 Fitting Solution Annealing Temperature",
+    "Inconel 718 Fitting Hardness Range",
+    "Inconel 718 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 38,
+  slug: "incoloy-800-800h-800ht-buttweld-fittings",
+  image: "/stock/incoloy-800-800h-800ht-buttweld-fittings.jpg",
+  title:
+    "Incoloy 800 / 800H / 800HT Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N08800 / N08810 / N08811 / WNR. 1.4876 / 1.4958 / 1.4859",
+  shortDescription:
+    "Incoloy 800 / 800H / 800HT Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Incoloy 800 / 800H / 800HT butt weld pipe fittings have the best corrosion resistance to hydrogen sulfide. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Incoloy 800 / 800H / 800HT butt weld pipe fittings are available in different sizes and shapes. Incoloy 800H short radius elbow pipe fittings have high tensile strength and hardness. Incoloy 800 concentric reducer has the best corrosion resistance to carburization and oxidation. Incoloy 800HT long radius elbow has high creep rupture strength. Incoloy 800 concentric reducer pipe fittings contain titanium and aluminum, which gives high-temperature properties to an alloy. Incoloy alloy 800HT long radius elbow contains iron, nickel, and chromium. Incoloy 800 butt weld pipe fittings have good resistance to high – temperature corrosion. Inconel 800H alloy is a modified version of Incoloy 800H, corrosion resistance features of both alloys are mostly similar. The application of Incoloy 800 butt weld pipe fittings are wide. Incoloy 800 buttweld pipe fittings are mostly used in heat exchangers and condensers. Incoloy 800H is used for power generation and gas processing equipment. Incoloy 800HT butt weld pipe fittings are used in seawater, chemical, and pharmaceutical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Incoloy 800 (UNS N08800 / WNR. 1.4876)":
+        "An austenitic nickel-iron-chromium alloy with good resistance to high-temperature corrosion, carburization, and oxidation. Contains titanium and aluminum for high-temperature properties. Used in heat exchangers and condensers.",
+      "Incoloy 800H (UNS N08810 / WNR. 1.4958 / 1.4876)":
+        "A modified version of Incoloy 800 with high tensile strength and hardness. Has best corrosion resistance to hydrogen sulfide. Used for power generation and gas processing equipment.",
+      "Incoloy 800HT (UNS N08811 / WNR. 1.4859 / 1.4876)":
+        "A modified version of Incoloy 800H with high creep rupture strength. Contains iron, nickel, and chromium. Used in seawater, chemical, and pharmaceutical equipment.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Incoloy 800 (UNS N08800 / WNR. 1.4876), Incoloy 800H (UNS N08810 / WNR. 1.4958 / 1.4876), Incoloy 800HT (UNS N08811 / WNR. 1.4859 / 1.4876)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Incoloy 800 / 800H / 800HT Elbows Stock Available",
+        items: [
+          "ASTM B366 Incoloy 800 90° Elbow",
+          "Incoloy 800H 90° Elbow",
+          "Alloy 800HT 45° Elbow",
+          "Alloy UNS N08800 Long Radius Elbow",
+          "B366 Alloy 800 Short Radius Elbow",
+        ],
+        image: "/stock/incoloy800-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Incoloy 800 / 800H / 800HT Tees Stock Available",
+        items: [
+          "Alloy 800 Equal Tee",
+          "Incoloy® Alloy 800H Equal Tee",
+          "Incoloy N08800 Unequal Tee",
+          "Alloy N08811 Lateral Tee",
+          "800 Incoloy Fitting Cross",
+        ],
+        image: "/stock/incoloy800-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Incoloy 800 / 800H / 800HT Reducers Stock Available",
+        items: [
+          "Incoloy 800 Concentric Reducer",
+          "Incoloy 800 Eccentric Reducer",
+          "Incoloy 800H Reducers",
+          "UNS N08810 Reducers",
+          "ASTM B366 Incoloy 800HT Reducers",
+        ],
+        image: "/stock/incoloy800-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Incoloy 800 / 800H / 800HT Pipe Bends Stock Available",
+        items: [
+          "Incoloy 800 1.5D Pipe Bend",
+          "Incoloy 800H 3D Pipe Bend",
+          "Incoloy 800HT 10D Pipe Bend",
+          "Incoloy 800 180° Bend",
+          "Incoloy N08810 Pipe Bends",
+        ],
+        image: "/stock/incoloy800-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Incoloy 800 / 800H / 800HT Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Incoloy 800 Long Stub",
+          "ASTM B366 Alloy 800H Short Stub End",
+          "Alloy 800HT Long Stub End",
+          "Incoloy 800 Short Stub End",
+        ],
+        image: "/stock/incoloy800-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Incoloy 800 / 800H / 800HT Caps Stock Available",
+        items: [
+          "Incoloy 800 End Cap",
+          "800H Incoloy End Cap",
+          "Alloy 800HT Dish Cap",
+          "ASTM B366 Incoloy 800 End Caps",
+        ],
+        image: "/stock/incoloy800-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Incoloy 800", uns: "N08800", werkstoff: "1.4876", standard: "ASTM" },
+    { grade: "Incoloy 800H", uns: "N08810", werkstoff: "1.4958 / 1.4876", standard: "ASTM" },
+    { grade: "Incoloy 800HT", uns: "N08811", werkstoff: "1.4859 / 1.4876", standard: "ASTM" },
+    { grade: "NCF 800", uns: "N08800", werkstoff: "1.4876", standard: "JIS" },
+    { grade: "NCF 800H", uns: "N08810", werkstoff: "1.4958 / 1.4876", standard: "JIS" },
+    { grade: "NCF 800HT", uns: "N08811", werkstoff: "1.4859 / 1.4876", standard: "JIS" },
+    { grade: "NA 15", uns: "N08800", werkstoff: "1.4876", standard: "BS" },
+    { grade: "NA 15(H)", uns: "N08810", werkstoff: "1.4958 / 1.4876", standard: "BS" },
+    { grade: "NA 15(HT)", uns: "N08811", werkstoff: "1.4859 / 1.4876", standard: "BS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Incoloy 800",
+      c: "0.10 max",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "S: 0.015 max, Cu: 0.75 max, Fe: 39.50 min, Al: 0.15 – 0.60, Ti: 0.15 – 0.60",
+    },
+    {
+      grade: "Incoloy 800H",
+      c: "0.05 – 0.10",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "S: 0.015 max, Cu: 0.75 max, Fe: 39.50 min, Al: 0.15 – 0.60, Ti: 0.15 – 0.60",
+    },
+    {
+      grade: "Incoloy 800HT",
+      c: "0.06 – 0.10",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "S: 0.015 max, Cu: 0.75 max, Fe: 39.50 min, Al: 0.15 – 0.60ᴬ, Ti: 0.15 – 0.60ᴬ",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "800 / 800H / 800HT",
+      tensile: "520 MPa (75,000 psi)",
+      yield: "205 MPa (30,000 psi)",
+      elongation: "30%",
+      reduction: "—",
+      hardness: "—",
+      density: "7.94 g/cm³",
+      meltingPoint: "1385 °C (2525 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "980°C – 1150°C (1800°F – 2100°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy 800 Long Stub End", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Incoloy 800 End Cap", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy 800 Dish Cap", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Incoloy 800 180 Deg bend", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 800 U Bend", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Incoloy 800 Pipe Fitting",
+    "ASTM B366 Alloy 800 Butt weld Fitting",
+    "Incoloy 800 Seamless Fitting",
+    "N08810 Alloy Welded Fitting",
+    "800 Alloy 90 Elbow",
+    "Alloy UNS N08811 45 Elbow",
+    "Alloy UNS N08800 Long Radius Elbow",
+    "B366 Alloy 800 Short Radius Elbow",
+    "Incoloy 800 Concentric Reducer",
+    "Incoloy 800 Eccentric Reducer",
+    "Alloy 800 Equal Tee",
+    "Incoloy N08800 Unequal Tee",
+    "Alloy N08811 Lateral Tee",
+    "800 Incoloy Fitting Cross",
+    "Incoloy N08810 Pipe Bends",
+    "Alloy 800 U Bend",
+    "Incoloy 800 180 Deg bend",
+    "ASTM B366 Alloy 800 Short Stub end",
+    "Alloy 800 Long Stub End",
+    "Incoloy 800 End Cap",
+    "Alloy 800 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Heat Exchangers & Condensers",
+    "Power Generation",
+    "Gas Processing Equipment",
+    "Seawater Equipment",
+    "Chemical Equipment",
+    "Pharmaceutical Equipment",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Aerospace Industries",
+    "Pulp & Paper Industry",
+    "Offshore Oil Drilling Companies",
+  ],
+
+  specializedIn: [
+    "Incoloy 800 / 800H / 800HT Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Incoloy 800 Buttweld Fittings Exporter",
+    "ANSI B16.9 Incoloy 800H Welded Buttweld Fittings Stockist in India",
+    "Incoloy 800 Pipe Fittings Dealer",
+    "Incoloy 800 90° Elbow Supplier",
+    "Supplier of Incoloy 800H 45° Elbow",
+    "Alloy 800HT Short Radius Elbow Supplier",
+    "Incoloy 10D Pipe Bend Exporter",
+    "Incoloy 800 Equal Tee Manufacturer",
+    "Incoloy WERKSTOFF NR. 1.4876 / 1.4958 / 1.4859 Cross Exporter",
+    "Incoloy 800 Reducer Manufacturer",
+    "Incoloy 800 180° Bend Supplier",
+    "Incoloy UNS N08800 Seamless Pipe Fittings Exporter",
+    "ASME SB366 Incoloy 800 Long Stub Supplier",
+  ],
+
+  relatedSearches: [
+    "Incoloy 800 Buttweld Fittings Price List",
+    "Incoloy 800H Fitting Weight Calculator",
+    "Incoloy 800HT Fitting Dimensions",
+    "Incoloy 800 Fitting Price Per Kg in India",
+    "Incoloy 800 Fitting Manufacturer in Mumbai",
+    "Incoloy 800 Fitting Supplier in India",
+    "Incoloy 800H Fitting Thickness Tolerance",
+    "Incoloy 800HT Fitting Price List PDF",
+    "Incoloy 800 Fitting Mechanical Properties",
+    "Incoloy 800 Fitting Chemical Composition",
+    "Incoloy 800 Fitting Stockist in Pune",
+    "Incoloy 800 Fitting Exporter",
+    "Incoloy 800 Fitting Price in Mumbai",
+    "Incoloy 800 Fitting Size Chart",
+    "Incoloy 800 Elbow Price",
+    "Incoloy 800 Tee Supplier",
+    "Incoloy 800 Reducer Manufacturers",
+    "Incoloy 800 Fitting Catalog PDF",
+    "Incoloy 800 Fitting Equivalent Grades",
+    "Incoloy 800 Fitting Price per Piece",
+    "Incoloy 800 Fitting updated price list",
+    "Incoloy 800 Fitting Size Chart 1/2 to 48 inch",
+    "Incoloy 800 Fitting Manufacturers in Gujarat",
+    "Incoloy 800 Fitting Stockyards in India",
+    "Incoloy 800 Fitting thickness chart",
+    "Incoloy 800 Fitting Price in India",
+    "Top 100 Incoloy 800 Fitting Dealers in Mumbai",
+    "Buy Incoloy 800 Fitting Online",
+    "Incoloy 800 Fitting leading manufacturers in India",
+    "UNS N08800 Fitting Price India",
+    "Werkstoff 1.4876 Fitting Price India",
+    "Incoloy 800H Fitting Heat Treatment",
+    "Incoloy 800HT Fitting Solution Annealing Temperature",
+    "Incoloy 800 Fitting Hardness Range",
+    "Incoloy 800 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 39,
+  slug: "incoloy-825-buttweld-fittings",
+  image: "/stock/incoloy-825-buttweld-fittings.jpg",
+  title:
+    "Incoloy 825 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N08825 / WNR. 2.4858 (Nickel-Iron-Chromium Alloy)",
+  shortDescription:
+    "Incoloy 825 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Incoloy 825 butt weld pipe fittings have the best corrosion resistance to neutral chloride media. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Incoloy 825 buttweld fittings are available in different sizes and shapes. Incoloy 825 butt weld pipe fittings have the best corrosion resistance to stress – corrosion cracking and neutral chloride media. Incoloy 825 butt weld pipe fittings also have good corrosion resistance to pitting and crevice corrosion. Incoloy 825 concentric pipe fittings have the best mechanical properties up to high temperatures. Incoloy 825 lateral tee pipe fittings can be used in oxidizing and reducing environments. Incoloy 825 eccentric reducer can be hardened by the machining process. Incoloy 825 equal tee pipe fittings ensure high strength. Incoloy alloy 825 butt weld pipe fittings contain nickel. Thus, it has an extremely stable structure. Incoloy 825 unequal tee pipe fittings have excellent corrosion resistance to sulfuric and phosphoric acids. Incoloy 825 short stub bend pipe fittings are used in tank heater, hooks, and pickling equipment. Incoloy 825 long stub bend is used for pollution control and chemical processing equipment. Incoloy 825 butt weld pipe fittings are also used for acid production, nuclear fuel reprocessing, and oil and gas well piping.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Incoloy 825 (UNS N08825 / WNR. 2.4858)":
+        "A nickel-iron-chromium alloy with excellent corrosion resistance to stress-corrosion cracking, pitting, and crevice corrosion. Best corrosion resistance to neutral chloride media. Contains nickel for an extremely stable structure. Good corrosion resistance to sulfuric and phosphoric acids. Can be used in oxidizing and reducing environments. Can be hardened by machining process. Werkstoff Nr. 2.4858.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Incoloy 825 (UNS N08825 / WNR. 2.4858)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Incoloy 825 Elbows Stock Available",
+        items: [
+          "ASTM B366 Incoloy 825 90° Elbow",
+          "Incoloy 825 90° Elbow",
+          "Alloy 825 45° Elbow",
+          "Alloy UNS N08825 Long Radius Elbow",
+          "B366 Alloy 825 Short Radius Elbow",
+        ],
+        image: "/stock/incoloy825-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Incoloy 825 Tees Stock Available",
+        items: [
+          "Alloy 825 Equal Tee",
+          "Incoloy® Alloy 825 Equal Tee",
+          "Incoloy N08825 Unequal Tee",
+          "Alloy 825 Lateral Tee",
+          "825 Incoloy Fitting Cross",
+        ],
+        image: "/stock/incoloy825-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Incoloy 825 Reducers Stock Available",
+        items: [
+          "Incoloy 825 Concentric Reducer",
+          "Incoloy 825 Eccentric Reducer",
+          "Incoloy 825 Reducers",
+          "UNS N08825 Reducers",
+          "ASTM B366 Incoloy 825 Reducers",
+        ],
+        image: "/stock/incoloy825-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Incoloy 825 Pipe Bends Stock Available",
+        items: [
+          "Incoloy 825 1.5D Pipe Bend",
+          "Incoloy 825 3D Pipe Bend",
+          "Incoloy 825 5D Pipe Bend",
+          "Incoloy 825 10D Pipe Bend",
+          "Incoloy 825 180° Bend",
+          "Incoloy N08825 Pipe Bends",
+        ],
+        image: "/stock/incoloy825-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Incoloy 825 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Incoloy 825 Long Stub",
+          "ASTM B366 Alloy 825 Short Stub End",
+          "Alloy 825 Long Stub End",
+          "Incoloy 825 Short Stub End",
+        ],
+        image: "/stock/incoloy825-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Incoloy 825 Caps Stock Available",
+        items: [
+          "Incoloy 825 End Cap",
+          "825 Incoloy End Cap",
+          "Alloy 825 Dish Cap",
+          "ASTM B366 Incoloy 825 End Caps",
+        ],
+        image: "/stock/incoloy825-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Incoloy 825", uns: "N08825", werkstoff: "2.4858", standard: "ASTM" },
+    { grade: "Alloy 825", uns: "N08825", werkstoff: "2.4858", standard: "—" },
+    { grade: "UNS N08825", uns: "N08825", werkstoff: "2.4858", standard: "—" },
+    { grade: "NCF 825", uns: "N08825", werkstoff: "2.4858", standard: "JIS" },
+    { grade: "NA 16", uns: "N08825", werkstoff: "2.4858", standard: "BS" },
+    { grade: "NC21FeDu", uns: "N08825", werkstoff: "2.4858", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Incoloy 825",
+      c: "0.05 max",
+      mn: "1.00 max",
+      si: "0.50 max",
+      cr: "19.50 – 23.50",
+      ni: "38.00 – 46.00",
+      mo: "2.50 – 3.50",
+      other: "S: 0.03 max, Cu: 1.50 – 3.00, Fe: 22.00 min, Al: 0.20 max, Ti: 0.60 – 1.20",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Incoloy 825",
+      tensile: "586 MPa (85 ksi) min",
+      yield: "241 MPa (35 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.14 g/cm³",
+      meltingPoint: "1370 °C – 1400 °C (2500 °F – 2550 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "925°C – 980°C (1700°F – 1800°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "UNS N08825 Long Radius Elbow", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Incoloy 825 Eccentric Reducer", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy 825 Lateral Tee", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy 825 U Bend", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 825 Long Stub End", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Incoloy 825 Pipe Fitting",
+    "ASTM B366 Alloy 825 Butt weld Fitting",
+    "Incoloy 825 Seamless Fitting",
+    "825 Alloy Welded Fitting",
+    "825 Alloy 90 Elbow",
+    "Alloy UNS N08825 45 Elbow",
+    "Alloy UNS N08825 Long Radius Elbow",
+    "B366 Alloy 825 Short Radius Elbow",
+    "Incoloy 825 Concentric Reducer",
+    "Incoloy 825 Eccentric Reducer",
+    "Alloy 825 Equal Tee",
+    "Incoloy N08825 Unequal Tee",
+    "Alloy 825 Lateral Tee",
+    "825 Incoloy Fitting Cross",
+    "Incoloy N08825 Pipe Bends",
+    "Alloy 825 U Bend",
+    "Incoloy 825 180 Deg bend",
+    "ASTM B366 Alloy 825 Short Stub end",
+    "Alloy 825 Long Stub End",
+    "Incoloy 825 End Cap",
+    "Alloy 825 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Tank Heater, Hooks & Pickling Equipment",
+    "Pollution Control Equipment",
+    "Chemical Processing Equipment",
+    "Acid Production",
+    "Nuclear Fuel Reprocessing",
+    "Oil & Gas Well Piping",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Refineries",
+    "Power Generation",
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+  ],
+
+  specializedIn: [
+    "Incoloy 825 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Incoloy 825 Buttweld Fittings Exporter",
+    "ANSI B16.9 Incoloy 825 Welded Buttweld Fittings Stockist in India",
+    "Incoloy 825 Pipe Fittings Dealer",
+    "Incoloy 825 90° Elbow Supplier",
+    "Supplier of Incoloy 825 45° Elbow",
+    "Alloy 825 Short Radius Elbow Supplier",
+    "Incoloy 825 10D Pipe Bend Exporter",
+    "Incoloy 825 Equal Tee Manufacturer",
+    "Incoloy WERKSTOFF NR. 2.4858 Cross Exporter",
+    "Incoloy 825 Reducer Manufacturer",
+    "Incoloy 825 180° Bend Supplier",
+    "Incoloy UNS N08825 Seamless Pipe Fittings Exporter",
+    "ASME SB366 Incoloy 825 Long Stub Supplier",
+  ],
+
+  relatedSearches: [
+    "Incoloy 825 Buttweld Fittings Price List",
+    "Incoloy 825 Fitting Weight Calculator",
+    "Incoloy 825 Fitting Dimensions",
+    "Incoloy 825 Fitting Price Per Kg in India",
+    "Incoloy 825 Fitting Manufacturer in Mumbai",
+    "Incoloy 825 Fitting Supplier in India",
+    "Incoloy 825 Fitting Thickness Tolerance",
+    "Incoloy 825 Fitting Price List PDF",
+    "Incoloy 825 Fitting Mechanical Properties",
+    "Incoloy 825 Fitting Chemical Composition",
+    "Incoloy 825 Fitting Stockist in Pune",
+    "Incoloy 825 Fitting Exporter",
+    "Incoloy 825 Fitting Price in Mumbai",
+    "Incoloy 825 Fitting Size Chart",
+    "Incoloy 825 Elbow Price",
+    "Incoloy 825 Tee Supplier",
+    "Incoloy 825 Reducer Manufacturers",
+    "Incoloy 825 Fitting Catalog PDF",
+    "Incoloy 825 Fitting Equivalent Grades",
+    "Incoloy 825 Fitting Price per Piece",
+    "Incoloy 825 Fitting updated price list",
+    "Incoloy 825 Fitting Size Chart 1/2 to 48 inch",
+    "Incoloy 825 Fitting Manufacturers in Gujarat",
+    "Incoloy 825 Fitting Stockyards in India",
+    "Incoloy 825 Fitting thickness chart",
+    "Incoloy 825 Fitting Price in India",
+    "Top 100 Incoloy 825 Fitting Dealers in Mumbai",
+    "Buy Incoloy 825 Fitting Online",
+    "Incoloy 825 Fitting leading manufacturers in India",
+    "UNS N08825 Fitting Price India",
+    "Werkstoff 2.4858 Fitting Price India",
+    "Incoloy 825 Fitting Heat Treatment",
+    "Incoloy 825 Fitting Solution Annealing Temperature",
+    "Incoloy 825 Fitting Hardness Range",
+    "Incoloy 825 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 40,
+  slug: "hastelloy-c22-buttweld-fittings",
+  image: "/stock/hastelloy-c22-buttweld-fittings.jpg",
+  title:
+    "Hastelloy C22 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N06022 / DIN 2.4602 (Nickel-Chromium-Molybdenum-Tungsten Alloy)",
+  shortDescription:
+    "Hastelloy C22 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Hastelloy C22 butt weld pipe fittings have the best corrosion resistance to oxidizing media. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. C22 buttweld pipe fittings are available in different sizes and shapes. Hastelloy C22 stub end has the best corrosion resistance to oxidizing and reducing environments. Hastelloy C22 bend pipe fittings can be used at a temperature up to 1250 Degree F. Hastelloy C22 end cap pipe fittings are ductile and made by the cold working process. Hastelloy C22 lateral tee pipe fittings contain tungsten, chromium, molybdenum, and nickel. Thus it has the best corrosion resistance to the crevice, pitting, and stress corrosion cracking. Hastelloy C22 end cap pipe fittings are used for petrochemicals and specialty chemicals. Hastelloy C22 buttweld pipe fittings are also used in the pulp and paper industry, aerospace and offshore oil drilling companies. Hastelloy C22 lateral tee pipe fittings are used in seawater equipment, chemical equipment, and pharmaceutical equipment. Hastelloy C22 bend pipe fittings are also used in heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Hastelloy C22 (UNS N06022 / DIN 2.4602)":
+        "A nickel-chromium-molybdenum-tungsten alloy with best corrosion resistance to oxidizing media. Best corrosion resistance to oxidizing and reducing environments. Can be used at temperature up to 1250°F. Ductile and made by cold working process. Contains tungsten, chromium, molybdenum, and nickel for best corrosion resistance to crevice, pitting, and stress corrosion cracking. DIN 2.4602.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Hastelloy C22 (UNS N06022 / DIN 2.4602)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Hastelloy C22 Elbows Stock Available",
+        items: [
+          "ASTM B366 Hastelloy C22 90° Elbow",
+          "Hastelloy C22 90° Elbow",
+          "Alloy C22 45° Elbow",
+          "Alloy UNS N06022 Long Radius Elbow",
+          "B366 Alloy C22 Short Radius Elbow",
+        ],
+        image: "/stock/hastelloyc22-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Hastelloy C22 Tees Stock Available",
+        items: [
+          "Alloy C22 Equal Tee",
+          "Hastelloy® Alloy C22 Equal Tee",
+          "Hastelloy N06022 Unequal Tee",
+          "Alloy C22 Lateral Tee",
+          "C22 Hastelloy Fitting Cross",
+        ],
+        image: "/stock/hastelloyc22-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Hastelloy C22 Reducers Stock Available",
+        items: [
+          "Hastelloy C22 Concentric Reducer",
+          "Hastelloy C22 Eccentric Reducer",
+          "Hastelloy C22 Reducers",
+          "UNS N06022 Reducers",
+          "ASTM B366 Hastelloy C22 Reducers",
+        ],
+        image: "/stock/hastelloyc22-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Hastelloy C22 Pipe Bends Stock Available",
+        items: [
+          "Hastelloy C22 1.5D Pipe Bend",
+          "Hastelloy C22 3D Pipe Bend",
+          "Hastelloy C22 5D Pipe Bend",
+          "Hastelloy C22 10D Pipe Bend",
+          "Hastelloy C22 180° Bend",
+          "Hastelloy N06022 Pipe Bends",
+        ],
+        image: "/stock/hastelloyc22-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Hastelloy C22 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Hastelloy C22 Long Stub",
+          "ASTM B366 Alloy C22 Short Stub End",
+          "Alloy C22 Long Stub End",
+          "Hastelloy C22 Short Stub End",
+        ],
+        image: "/stock/hastelloyc22-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Hastelloy C22 Caps Stock Available",
+        items: [
+          "Hastelloy C22 End Cap",
+          "C22 Hastelloy End Cap",
+          "Alloy C22 Dish Cap",
+          "ASTM B366 Hastelloy C22 End Caps",
+        ],
+        image: "/stock/hastelloyc22-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Hastelloy C22", uns: "N06022", werkstoff: "2.4602", standard: "ASTM" },
+    { grade: "Alloy C22", uns: "N06022", werkstoff: "2.4602", standard: "—" },
+    { grade: "UNS N06022", uns: "N06022", werkstoff: "2.4602", standard: "—" },
+    { grade: "NCF 622", uns: "N06022", werkstoff: "2.4602", standard: "JIS" },
+    { grade: "NA 22", uns: "N06022", werkstoff: "2.4602", standard: "BS" },
+    { grade: "NC22DNb", uns: "N06022", werkstoff: "2.4602", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Hastelloy C22",
+      c: "0.015 max",
+      mn: "0.50 max",
+      si: "0.08 max",
+      cr: "20.00 – 22.50",
+      ni: "50.00 – 56.00",
+      mo: "12.50 – 14.50",
+      other: "P: 0.02 max, S: 0.02 max, Co: 2.50 max, W: 2.50 – 3.50, V: 0.35 max, Fe: 2.00 – 6.00",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Hastelloy C22",
+      tensile: "690 MPa (100 ksi) min",
+      yield: "283 MPa (41 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.69 g/cm³",
+      meltingPoint: "1357 °C – 1397 °C (2475 °F – 2545 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1120°C – 1180°C (2050°F – 2150°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Rapid Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Hastelloy C22 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "C22 Alloy Welded Fitting", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy UNS N06022 Long Radius Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy C22 Lateral Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy C22 U Bend", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Hastelloy C22 Pipe Fitting",
+    "ASTM B366 Alloy C22 Butt weld Fitting",
+    "Hastelloy C22 Seamless Fitting",
+    "C22 Alloy Welded Fitting",
+    "C22 Alloy 90 Elbow",
+    "Alloy UNS N06022 45 Elbow",
+    "Alloy UNS N06022 Long Radius Elbow",
+    "B366 Alloy C22 Short Radius Elbow",
+    "Hastelloy C22 Concentric Reducer",
+    "Hastelloy C22 Eccentric Reducer",
+    "Alloy C22 Equal Tee",
+    "Hastelloy N06022 Unequal Tee",
+    "Alloy C22 Lateral Tee",
+    "C22 Hastelloy Fitting Cross",
+    "Hastelloy N06022 Pipe Bends",
+    "Alloy C22 U Bend",
+    "Hastelloy C22 180 Deg bend",
+    "ASTM B366 Alloy C22 Short Stub end",
+    "Alloy C22 Long Stub End",
+    "Hastelloy C22 End Cap",
+    "Alloy C22 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Petrochemicals & Specialty Chemicals",
+    "Pulp & Paper Industry",
+    "Aerospace Industries",
+    "Offshore Oil Drilling Companies",
+    "Seawater Equipment",
+    "Chemical Equipment",
+    "Pharmaceutical Equipment",
+    "Heat Exchangers & Condensers",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Nuclear Fuel Reprocessing",
+  ],
+
+  specializedIn: [
+    "Hastelloy C22 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Hastelloy C22 Buttweld Fittings Exporter",
+    "ANSI B16.9 Hastelloy C22 Welded Buttweld Fittings Stockist in India",
+    "Hastelloy C22 Pipe Fittings Dealer",
+    "Hastelloy C22 90° Elbow Supplier",
+    "Supplier of Hastelloy C22 45° Elbow",
+    "Alloy C22 Short Radius Elbow Supplier",
+    "Hastelloy C22 10D Pipe Bend Exporter",
+    "Hastelloy C22 Equal Tee Manufacturer",
+    "Hastelloy DIN 2.4602 Cross Exporter",
+    "Hastelloy C22 Reducer Manufacturer",
+    "Hastelloy C22 180° Bend Supplier",
+    "Hastelloy UNS N06022 Seamless Pipe Fittings Exporter",
+    "ASME SB366 Hastelloy C22 Long Stub Supplier",
+  ],
+
+  relatedSearches: [
+    "Hastelloy C22 Buttweld Fittings Price List",
+    "Hastelloy C22 Fitting Weight Calculator",
+    "Hastelloy C22 Fitting Dimensions",
+    "Hastelloy C22 Fitting Price Per Kg in India",
+    "Hastelloy C22 Fitting Manufacturer in Mumbai",
+    "Hastelloy C22 Fitting Supplier in India",
+    "Hastelloy C22 Fitting Thickness Tolerance",
+    "Hastelloy C22 Fitting Price List PDF",
+    "Hastelloy C22 Fitting Mechanical Properties",
+    "Hastelloy C22 Fitting Chemical Composition",
+    "Hastelloy C22 Fitting Stockist in Pune",
+    "Hastelloy C22 Fitting Exporter",
+    "Hastelloy C22 Fitting Price in Mumbai",
+    "Hastelloy C22 Fitting Size Chart",
+    "Hastelloy C22 Elbow Price",
+    "Hastelloy C22 Tee Supplier",
+    "Hastelloy C22 Reducer Manufacturers",
+    "Hastelloy C22 Fitting Catalog PDF",
+    "Hastelloy C22 Fitting Equivalent Grades",
+    "Hastelloy C22 Fitting Price per Piece",
+    "Hastelloy C22 Fitting updated price list",
+    "Hastelloy C22 Fitting Size Chart 1/2 to 48 inch",
+    "Hastelloy C22 Fitting Manufacturers in Gujarat",
+    "Hastelloy C22 Fitting Stockyards in India",
+    "Hastelloy C22 Fitting thickness chart",
+    "Hastelloy C22 Fitting Price in India",
+    "Top 100 Hastelloy C22 Fitting Dealers in Mumbai",
+    "Buy Hastelloy C22 Fitting Online",
+    "Hastelloy C22 Fitting leading manufacturers in India",
+    "UNS N06022 Fitting Price India",
+    "Werkstoff 2.4602 Fitting Price India",
+    "Hastelloy C22 Fitting Heat Treatment",
+    "Hastelloy C22 Fitting Solution Annealing Temperature",
+    "Hastelloy C22 Fitting Hardness Range",
+    "Hastelloy C22 180 Deg Bend Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 41,
+  slug: "hastelloy-c276-buttweld-fittings",
+  image: "/stock/hastelloy-c276-buttweld-fittings.jpg",
+  title:
+    "Hastelloy C276 Buttweld Fittings Supplier – ASTM B366 / ASME SB366 / UNS N10276 / DIN 2.4819 (Nickel-Molybdenum-Chromium Alloy)",
+  shortDescription:
+    "Hastelloy C276 Buttweld Fittings in 90° Elbow, 45° Elbow, Long/Short Radius Elbow, Concentric/Eccentric Reducer, Equal/Unequal/Lateral Tee, Cross, Bends (1.5D, 3D, 5D, 10D), U Bend, 180° Bend, Short/Long Stub End, End Cap, Dish Cap, and Lap Joint forms. Available in 1/2\" NB to 48\" NB sizes with SCH 5 to SCH XXS. Manufactured to ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43 standards.",
+
+  technicalOverview:
+    "Hastelloy C276 butt weld pipe fittings have the best corrosion resistance to corrosive media. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Hastelloy C276 pipe fittings are available in different sizes and shapes. Hastelloy C276 cross butt weld pipe fittings have the best corrosion resistance to a wide range of environments. Hastelloy alloy C276 tee butt weld pipe fittings contain nickel, chromium, tungsten, and molybdenum. Hastelloy C276 lateral tee pipe fittings are often used in the desulfurization of flue gas equipment. Hastelloy C276 butt weld pipe fittings have the best corrosion resistance to corrosive media. Hastelloy C276 stub end pipe fittings have the best corrosion resistance to chloride ions and Sulphur compounds. Hastelloy C276 butt weld pipe fittings are mostly used in chemical process equipment. Hastelloy C276 cross buttweld pipe fittings are also used for petrochemicals and power generation. Hastelloy C276 lateral tee pipe fittings are often used to desulfurize flue gas equipment. Hastelloy C276 butt weld pipe fittings are mostly used in gas processing, specialty chemicals, and chemical equipment. Hastelloy C276 stub end pipe fittings are used in heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Hastelloy C276 (UNS N10276 / DIN 2.4819)":
+        "A nickel-molybdenum-chromium alloy with best corrosion resistance to corrosive media. Best corrosion resistance to a wide range of environments. Contains nickel, chromium, tungsten, and molybdenum for excellent corrosion resistance to chloride ions and sulphur compounds. Often used in the desulfurization of flue gas equipment. Used in chemical process equipment, petrochemicals, power generation, gas processing, specialty chemicals, and chemical equipment. DIN 2.4819.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B366 / ASME SB366",
+    dimensionalStandards: "ASME B16.28, ASME/ANSI B16.9, MSS-SP-43",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 to SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    type: "Seamless / Welded / Fabricated",
+    ends: "Bevelled / Plain / Threaded, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B366 / ASME SB366 / ASME B16.9 / B16.28 / MSS-SP-43",
+    grade: "Hastelloy C276 (UNS N10276 / DIN 2.4819)",
+    sizeRange:
+      "Seamless: 1/2\" NB – 10\" NB | Welded: 1/2\" NB – 48\" NB",
+    schedule: "SCH 5 To SCH XXS",
+    wallThickness: "2 mm – 40 mm",
+    form:
+      "90° Elbow, 45° Elbow, Long Radius Elbow, Short Radius Elbow, Concentric Reducer, Eccentric Reducer, Equal Tee, Unequal Tee, Lateral Tee, Cross, Bends 1.5D, 3D, 5D, 10D, U Bend, 180° Bend, Short Stub End, Long Stub End, End Cap, Dish Cap, Lap-Joint",
+    type: "Seamless / Welded / Fabricated",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  stockAvailability: {
+    elbows: [
+      {
+        title: "Hastelloy C276 Elbows Stock Available",
+        items: [
+          "ASTM B366 Hastelloy C276 90° Elbow",
+          "Hastelloy C276 90° Elbow",
+          "Alloy C276 45° Elbow",
+          "Alloy UNS N10276 Long Radius Elbow",
+          "B366 Alloy C276 Short Radius Elbow",
+        ],
+        image: "/stock/hastelloyc276-elbows.jpg",
+      },
+    ],
+    tees: [
+      {
+        title: "Hastelloy C276 Tees Stock Available",
+        items: [
+          "Alloy C276 Equal Tee",
+          "Hastelloy® Alloy C276 Equal Tee",
+          "Hastelloy N10276 Unequal Tee",
+          "Alloy C276 Lateral Tee",
+          "C276 Hastelloy Fitting Cross",
+        ],
+        image: "/stock/hastelloyc276-tees.jpg",
+      },
+    ],
+    reducers: [
+      {
+        title: "Hastelloy C276 Reducers Stock Available",
+        items: [
+          "Hastelloy C276 Concentric Reducer",
+          "Hastelloy C276 Eccentric Reducer",
+          "Hastelloy C276 Reducers",
+          "UNS N10276 Reducers",
+          "ASTM B366 Hastelloy C276 Reducers",
+        ],
+        image: "/stock/hastelloyc276-reducers.jpg",
+      },
+    ],
+    bends: [
+      {
+        title: "Hastelloy C276 Pipe Bends Stock Available",
+        items: [
+          "Hastelloy C276 1.5D Pipe Bend",
+          "Hastelloy C276 3D Pipe Bend",
+          "Hastelloy C276 5D Pipe Bend",
+          "Hastelloy C276 10D Pipe Bend",
+          "Hastelloy C276 180° Bend",
+          "Hastelloy N10276 Pipe Bends",
+        ],
+        image: "/stock/hastelloyc276-bends.jpg",
+      },
+    ],
+    stubEnds: [
+      {
+        title: "Hastelloy C276 Stub Ends Stock Available",
+        items: [
+          "ASME SB366 Hastelloy C276 Long Stub",
+          "ASTM B366 Alloy C276 Short Stub End",
+          "Alloy C276 Long Stub End",
+          "Hastelloy C276 Short Stub End",
+        ],
+        image: "/stock/hastelloyc276-stub-ends.jpg",
+      },
+    ],
+    caps: [
+      {
+        title: "Hastelloy C276 Caps Stock Available",
+        items: [
+          "Hastelloy C276 End Cap",
+          "C276 Hastelloy End Cap",
+          "Alloy C276 Dish Cap",
+          "ASTM B366 Hastelloy C276 End Caps",
+        ],
+        image: "/stock/hastelloyc276-caps.jpg",
+      },
+    ],
+  },
+
+  equivalentGrades: [
+    { grade: "Hastelloy C276", uns: "N10276", werkstoff: "2.4819", standard: "ASTM" },
+    { grade: "Alloy C276", uns: "N10276", werkstoff: "2.4819", standard: "—" },
+    { grade: "UNS N10276", uns: "N10276", werkstoff: "2.4819", standard: "—" },
+    { grade: "NCF 276", uns: "N10276", werkstoff: "2.4819", standard: "JIS" },
+    { grade: "NA 14", uns: "N10276", werkstoff: "2.4819", standard: "BS" },
+    { grade: "NC17D", uns: "N10276", werkstoff: "2.4819", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Hastelloy C276",
+      c: "0.010 max",
+      mn: "1.00 max",
+      si: "0.08 max",
+      cr: "14.50 – 16.50",
+      ni: "Bal",
+      mo: "15.00 – 17.00",
+      other: "P: 0.04 max, S: 0.03 max, Co: 2.50 max, W: 3.00 – 4.50, V: 0.35 max, Fe: 4.00 – 7.00",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Hastelloy C276",
+      tensile: "690 MPa (100 ksi) min",
+      yield: "283 MPa (41 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.89 g/cm³",
+      meltingPoint: "1370 °C (2500 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1120°C – 1177°C (2050°F – 2150°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Rapid Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Hastelloy C276 Pipe Fitting", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N10276 Long Radius Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Hastelloy C276 Eccentric Reducer", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy C276 U Bend", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy C276 Equal Tee", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Hastelloy C276 Pipe Fitting",
+    "ASTM B366 Alloy C276 Butt weld Fitting",
+    "Hastelloy C276 Seamless Fitting",
+    "C276 Alloy Welded Fitting",
+    "C276 Alloy 90 Elbow",
+    "Alloy UNS N10276 45 Elbow",
+    "Alloy UNS N10276 Long Radius Elbow",
+    "B366 Alloy C276 Short Radius Elbow",
+    "Hastelloy C276 Concentric Reducer",
+    "Hastelloy C276 Eccentric Reducer",
+    "Alloy C276 Equal Tee",
+    "Hastelloy N10276 Unequal Tee",
+    "Alloy C276 Lateral Tee",
+    "C276 Hastelloy Fitting Cross",
+    "Hastelloy N10276 Pipe Bends",
+    "Alloy C276 U Bend",
+    "Hastelloy C276 180 Deg bend",
+    "ASTM B366 Alloy C276 Short Stub end",
+    "Alloy C276 Long Stub End",
+    "Hastelloy C276 End Cap",
+    "Alloy C276 Dish Cap",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B366",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.9 / B16.28",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Process Equipment",
+    "Petrochemicals",
+    "Power Generation",
+    "Gas Processing",
+    "Specialty Chemicals",
+    "Chemical Equipment",
+    "Heat Exchangers & Condensers",
+    "Flue Gas Desulfurization Equipment",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Pulp & Paper Industry",
+    "Pharmaceutical Equipment",
+  ],
+
+  specializedIn: [
+    "Hastelloy C276 Buttweld Fittings Supplier in Mumbai, India",
+    "ASTM B366 Hastelloy C276 Buttweld Fittings Exporter",
+    "ANSI B16.9 Hastelloy C276 Welded Buttweld Fittings Stockist in India",
+    "Hastelloy C276 Pipe Fittings Dealer",
+    "Hastelloy C276 90° Elbow Supplier",
+    "Supplier of Hastelloy C276 45° Elbow",
+    "Alloy C276 Short Radius Elbow Supplier",
+    "Hastelloy C276 10D Pipe Bend Exporter",
+    "Hastelloy C276 Equal Tee Manufacturer",
+    "Hastelloy DIN 2.4819 Cross Exporter",
+    "Hastelloy C276 Reducer Manufacturer",
+    "Hastelloy C276 180° Bend Supplier",
+    "Hastelloy UNS N10276 Seamless Pipe Fittings Exporter",
+    "ASME SB366 Hastelloy C276 Long Stub Supplier",
+  ],
+
+  relatedSearches: [
+    "Hastelloy C276 Buttweld Fittings Price List",
+    "Hastelloy C276 Fitting Weight Calculator",
+    "Hastelloy C276 Fitting Dimensions",
+    "Hastelloy C276 Fitting Price Per Kg in India",
+    "Hastelloy C276 Fitting Manufacturer in Mumbai",
+    "Hastelloy C276 Fitting Supplier in India",
+    "Hastelloy C276 Fitting Thickness Tolerance",
+    "Hastelloy C276 Fitting Price List PDF",
+    "Hastelloy C276 Fitting Mechanical Properties",
+    "Hastelloy C276 Fitting Chemical Composition",
+    "Hastelloy C276 Fitting Stockist in Pune",
+    "Hastelloy C276 Fitting Exporter",
+    "Hastelloy C276 Fitting Price in Mumbai",
+    "Hastelloy C276 Fitting Size Chart",
+    "Hastelloy C276 Elbow Price",
+    "Hastelloy C276 Tee Supplier",
+    "Hastelloy C276 Reducer Manufacturers",
+    "Hastelloy C276 Fitting Catalog PDF",
+    "Hastelloy C276 Fitting Equivalent Grades",
+    "Hastelloy C276 Fitting Price per Piece",
+    "Hastelloy C276 Fitting updated price list",
+    "Hastelloy C276 Fitting Size Chart 1/2 to 48 inch",
+    "Hastelloy C276 Fitting Manufacturers in Gujarat",
+    "Hastelloy C276 Fitting Stockyards in India",
+    "Hastelloy C276 Fitting thickness chart",
+    "Hastelloy C276 Fitting Price in India",
+    "Top 100 Hastelloy C276 Fitting Dealers in Mumbai",
+    "Buy Hastelloy C276 Fitting Online",
+    "Hastelloy C276 Fitting leading manufacturers in India",
+    "UNS N10276 Fitting Price India",
+    "Werkstoff 2.4819 Fitting Price India",
+    "Hastelloy C276 Fitting Heat Treatment",
+    "Hastelloy C276 Fitting Solution Annealing Temperature",
+    "Hastelloy C276 Fitting Hardness Range",
+    "Hastelloy C276 180 Deg Bend Fittings",
   ],
 
   exportCountries: EXPORT_COUNTRIES,
@@ -28469,843 +30101,7259 @@ export const flanges: ProductMaterial[] = [
 
 // 8. Forged Fitting
 export const forgedfitting: ProductMaterial[] = [
+
   {
-    id: 1,
-    slug: "carbon-alloy-steel-forged-fittings",
-    image: "/stock/carbon-alloy-steel-forged-fittings.jpg",
-    title: "Carbon Alloy Steel Forged Fittings",
-    shortDescription:
-      "ASTM A105, A350 LF2, ASTM A182 F5, F11, F22, F91 Class 3000 / 6000 / 9000 High-Pressure Socket Weld & Threaded Unions.",
-    materialGroup: "Carbon & Alloy Steel",
-    standards: "ASTM A105, A350 LF2, ASTM A182 F5, F11, F22, F91",
-    forms:
-      "Class 3000 / 6000 / 9000 High-Pressure Socket Weld & Threaded Unions",
-    application:
-      "High-pressure piping systems, refineries, power plants, oil & gas, and heavy engineering",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+  id: 42,
+  slug: "nickel-200-forged-fittings",
+  image: "/stock/nickel-200-forged-fittings.jpg",
+  title:
+    "Nickel 200 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N02200 / WNR. 2.4066 (Commercially Pure Nickel)",
+  shortDescription:
+    "Nickel 200 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Nickel alloy 200 threaded forged fittings have the best corrosion resistance to an alkaline solution. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Nickel alloy 200 threaded forged fittings are available in different sizes and shapes. Nickel alloy 200 threaded forged fittings have the best corrosion resistance to alkaline and acid solution. Nickel 200 forged threaded union contains high magnetic properties. Nickel 200 forged threaded cross has excellent electrical and thermal properties. Nickel 200 forged threaded bushing has excellent corrosion resistance to neutral salt as well. Nickel alloy 200 threaded forged fittings are mostly used in the food processing industry. Nickel 200 forged threaded unions are also used in the automobile sector, such as in the making of machinery parts and car headers. Nickel 200 forged threaded fittings are also used for household applications.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Nickel 200 (UNS N02200 / WNR. 2.4066)":
+        "A commercially pure nickel alloy with best corrosion resistance to alkaline and acid solutions. High magnetic properties. Excellent electrical and thermal properties. Excellent corrosion resistance to neutral salt. Used in food processing industry, automobile sector for machinery parts and car headers, and household applications. Werkstoff Nr. 2.4066.",
+    },
   },
-  {
-    id: 2,
-    slug: "hastelloy-forged-fittings",
-    image: "/stock/hastelloy-forged-fittings.jpg",
-    title: "Hastelloy Forged Fittings",
-    shortDescription:
-      "Hastelloy C276, C22, B2, B3, Alloy X Forged Crosses, Tees, and Full Couplings for Harsh Chemical Corrosive Streams.",
-    materialGroup: "Hastelloy Core",
-    standards: "Hastelloy C276, C22, B2, B3, Alloy X",
-    forms: "Forged Crosses, Tees, and Full Couplings",
-    application:
-      "Highly corrosive chemicals, acids, and aggressive industrial processing environments",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
   },
-  {
-    id: 3,
-    slug: "incoloy-forged-fittings",
-    image: "/productImage/forged-fittings.jpg",
-    title: "Incoloy Forged Fittings",
-    shortDescription:
-      "Incoloy 800, 800H, 800HT, 825 Forged Swage Nipples, Street Elbows, and Hex Plugs for High-Stress Processing Lines.",
-    materialGroup: "Incoloy Superalloy",
-    standards: "Incoloy 800, 800H, 800HT, 825",
-    forms: "Forged Swage Nipples, Street Elbows, and Hex Plugs",
-    application: "Heat exchangers and process industries",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Nickel 200 (UNS N02200 / WNR. 2.4066)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
   },
-  {
-    id: 4,
-    slug: "inconel-forged-fittings",
-    image: "/stock/incoloy-forged-fittings.jpg",
-    title: "Inconel Forged Fittings",
-    shortDescription:
-      "Inconel 600, 625, 718, X-750 Oxidation-Resistant Half Couplings and Socket Weld Reducing Tees for Nuclear & Aerospace Engineering.",
-    materialGroup: "Inconel Core",
-    standards: "Inconel 600, 625, 718, X-750",
-    forms: "Oxidation-Resistant Half Couplings and Socket Weld Reducing Tees",
-    application:
-      "Extreme temperatures, high-pressure systems, aerospace, petrochemical, and power generation",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  equivalentGrades: [
+    { grade: "Nickel 200", uns: "N02200", werkstoff: "2.4066", standard: "ASTM" },
+    { grade: "Alloy 200", uns: "N02200", werkstoff: "2.4066", standard: "—" },
+    { grade: "UNS N02200", uns: "N02200", werkstoff: "2.4066", standard: "—" },
+    { grade: "NCF 200", uns: "N02200", werkstoff: "2.4066", standard: "JIS" },
+    { grade: "NA 11", uns: "N02200", werkstoff: "2.4066", standard: "BS" },
+    { grade: "N100", uns: "N02200", werkstoff: "2.4066", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Nickel 200",
+      c: "0.15 max",
+      mn: "0.35 max",
+      si: "0.35 max",
+      cr: "—",
+      ni: "99.00 min",
+      mo: "—",
+      other: "Fe: 0.40 max, S: 0.010 max, Cu: 0.25 max, Ti: 0.10 max, Mg: 0.10 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Nickel 200",
+      tensile: "462 MPa (67 ksi) min",
+      yield: "148 MPa (21.5 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.89 g/cm³",
+      meltingPoint: "1446 °C (2635 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing",
+      temperatureRange: "705°C – 925°C (1300°F – 1700°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 2.4066 Alloy Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N02200 Threaded Lateral Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy 200 45 Deg Forged Threaded Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "WNR. 2.4066 Alloy Threaded Tees", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N02200 Hexagonal Plug", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4066 Alloy Threaded Forged Fittings",
+    "Nickel Alloy 200 Threaded Fittings",
+    "UNS N02200 Threaded Lateral Tee",
+    "Alloy 200 45 Deg Forged Threaded Elbow",
+    "UNS N02200 90 Deg Threaded Elbow",
+    "Nickel Alloy 200 Threaded Cross",
+    "200 Alloy Threaded Cross",
+    "Nickel Alloy 200 Threaded Cap",
+    "Alloy 200 Threaded Coupling",
+    "Nickel Alloy 200 Threaded Union",
+    "Alloy 200 Threaded Bushing",
+    "Nickel Alloy 200 Forged Threaded Plug",
+    "Nickel Alloy 200 Threaded Hex Plug",
+    "UNS N02200 Hexagonal Plug",
+    "WNR. 2.4066 Alloy Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
   },
-  {
-    id: 5,
-    slug: "monel-forged-fittings",
-    image: "/stock/monel-forged-fittings.jpg",
-    title: "Monel Forged Fittings",
-    shortDescription:
-      "Monel 400, Monel K500 Forged Threaded Caps, Bosses, and Reducing Inserts Built for High-Salinity Marine Piping.",
-    materialGroup: "Monel Alloy",
-    standards: "Monel 400, Monel K500",
-    forms: "Forged Threaded Caps, Bosses, and Reducing Inserts",
-    application: "Seawater, acids, alkalis, and marine environments",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  applicationIndustries: [
+    "Food Processing Industry",
+    "Automobile Sector (Machinery Parts & Car Headers)",
+    "Household Applications",
+    "Chemical Equipment",
+    "Electrical & Thermal Equipment",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pharmaceutical Equipment",
+    "Seawater Equipment",
+    "Heat Exchangers & Condensers",
+  ],
+
+  specializedIn: [
+    "Nickel 200 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Nickel 200 Forged Fittings Exporter",
+    "ANSI B16.11 Nickel 200 Threaded Forged Fittings Stockist in India",
+    "Nickel 200 Forged Fittings Dealer",
+    "Nickel 200 Threaded 90° Elbow Supplier",
+    "Supplier of Nickel 200 Threaded 45° Elbow",
+    "Alloy 200 Threaded Tee Manufacturer",
+    "Nickel 200 Threaded Cross Exporter",
+    "Nickel 200 Threaded Union Manufacturer",
+    "Nickel WERKSTOFF NR. 2.4066 Threaded Coupling Exporter",
+    "Nickel 200 Threaded Cap Supplier",
+    "Nickel 200 Hexagonal Plug Supplier",
+    "Nickel UNS N02200 Threaded Forged Fittings Exporter",
+    "ASME SB564 Nickel 200 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Nickel 200 Forged Fittings Price List",
+    "Nickel 200 Forged Fittings Weight Calculator",
+    "Nickel 200 Forged Fittings Dimensions",
+    "Nickel 200 Forged Fittings Price Per Kg in India",
+    "Nickel 200 Forged Fittings Manufacturer in Mumbai",
+    "Nickel 200 Forged Fittings Supplier in India",
+    "Nickel 200 Forged Fittings Thickness Tolerance",
+    "Nickel 200 Forged Fittings Price List PDF",
+    "Nickel 200 Forged Fittings Mechanical Properties",
+    "Nickel 200 Forged Fittings Chemical Composition",
+    "Nickel 200 Forged Fittings Stockist in Pune",
+    "Nickel 200 Forged Fittings Exporter",
+    "Nickel 200 Forged Fittings Price in Mumbai",
+    "Nickel 200 Forged Fittings Size Chart",
+    "Nickel 200 Threaded Elbow Price",
+    "Nickel 200 Threaded Tee Supplier",
+    "Nickel 200 Threaded Cross Manufacturers",
+    "Nickel 200 Forged Fittings Catalog PDF",
+    "Nickel 200 Forged Fittings Equivalent Grades",
+    "Nickel 200 Forged Fittings Price per Piece",
+    "Nickel 200 Forged Fittings updated price list",
+    "Nickel 200 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Nickel 200 Forged Fittings Manufacturers in Gujarat",
+    "Nickel 200 Forged Fittings Stockyards in India",
+    "Nickel 200 Forged Fittings thickness chart",
+    "Nickel 200 Forged Fittings Price in India",
+    "Top 100 Nickel 200 Forged Fittings Dealers in Mumbai",
+    "Buy Nickel 200 Forged Fittings Online",
+    "Nickel 200 Forged Fittings leading manufacturers in India",
+    "UNS N02200 Forged Fittings Price India",
+    "Werkstoff 2.4066 Forged Fittings Price India",
+    "Nickel 200 Forged Fittings Heat Treatment",
+    "Nickel 200 Forged Fittings Annealing Temperature",
+    "Nickel 200 Forged Fittings Hardness Range",
+    "Nickel 200 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 43,
+  slug: "nickel-201-forged-fittings",
+  image: "/stock/nickel-201-forged-fittings.jpg",
+  title:
+    "Nickel 201 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N02201 / WNR. 2.4066 (Low Carbon Pure Nickel)",
+  shortDescription:
+    "Nickel 201 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Nickel alloy 201 forged fittings have the best corrosion resistance to an acid solution. They are made using good quality raw material and latest technology, which further enables our customers to use them for an extended period without having any defects. Nickel alloy 201 threaded forged fittings are available in different sizes and shapes. Nickel alloy 201 threaded forged fittings have excellent hardness. Nickel alloy 201 threaded forged fittings have high ductility compared to nickel alloy 200 threaded forged fittings. Nickel alloy 201 forged threaded tee has high corrosion resistance to anhydrous hydrofluoric acid. Nickel 201 forged threaded cap is advisable to use up to the temperature of 80 Degree C for aqueous solution. Nickel alloy 201 threaded forged fittings are mostly used in chemical processing industries and petrochemicals. Nickel 201 forged fittings cap are also used for power generation and gas processing units. Nickel alloy 201 forged threaded tee mostly used for chemical equipment. Nickel 201 threaded cross is often used in food processing equipment and offshore oil drilling companies.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Nickel 201 (UNS N02201 / WNR. 2.4066)":
+        "A low carbon commercially pure nickel alloy with best corrosion resistance to acid solutions. Excellent hardness and high ductility compared to Nickel 200. High corrosion resistance to anhydrous hydrofluoric acid. Advisable for use up to 80°C for aqueous solutions. Used in chemical processing industries, petrochemicals, power generation, gas processing units, chemical equipment, food processing equipment, and offshore oil drilling companies. Werkstoff Nr. 2.4066.",
+    },
   },
-  {
-    id: 6,
-    slug: "nickel-copper-alloy-forged-fittings",
-    image: "/stock/nicke-alloy-forged-fittings.jpg",
-    title: "Nickel Copper Alloy Forged Fittings",
-    shortDescription:
-      "Copper-Nickel 70/30, 90/10 Forged Lateral Tees, Weldolets, and Threaded Elbows for Offshore Marine Platforms.",
-    materialGroup: "Nickel Copper",
-    standards: "Copper-Nickel 70/30, 90/10",
-    forms: "Forged Lateral Tees, Weldolets, and Threaded Elbows",
-    application:
-      "Marine engineering, offshore platforms, condensers, and chemical processing",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
   },
-  {
-    id: 7,
-    slug: "stainless-duplex-steel-forged-fittings",
-    image: "/stock/carbon-alloy-steel-forged-fittings.jpg",
-    title: "Stainless & Duplex Steel Forged Fittings",
-    shortDescription:
-      "ASTM A182 F304L, F316L, F321, F347, 904L / Duplex F51, F53, F60 / Super Duplex F55 Structural Branch Connections & Sockolets.",
-    materialGroup: "Stainless & Duplex",
-    standards:
-      "ASTM A182 F304L, F316L, F321, F347, 904L, Duplex F51, F53, F60, Super Duplex F55",
-    forms: "Structural Branch Connections & Sockolets",
-    application:
-      "Demanding industrial environments requiring corrosion resistance and high strength",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Nickel 201 (UNS N02201 / WNR. 2.4066)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
   },
-  {
-    id: 8,
-    slug: "tantalum-forged-fittings",
-    image: "/stock/monel-forged-fittings.jpg",
-    title: "Tantalum Forged Fittings",
-    shortDescription:
-      "Pure Tantalum UNS R05200, Tantalum-Tungsten Alloys (Ta-10W, Ta-2.5W) Specialized High-Acid Chemical Process Hardware.",
-    materialGroup: "Tantalum Rare Core",
-    standards:
-      "Pure Tantalum UNS R05200, Tantalum-Tungsten Alloys (Ta-10W, Ta-2.5W)",
-    forms: "Specialized High-Acid Chemical Process Hardware",
-    application:
-      "Highly corrosive chemical processing applications requiring exceptional chemical resistance and purity",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  equivalentGrades: [
+    { grade: "Nickel 201", uns: "N02201", werkstoff: "2.4066", standard: "ASTM" },
+    { grade: "Alloy 201", uns: "N02201", werkstoff: "2.4066", standard: "—" },
+    { grade: "UNS N02201", uns: "N02201", werkstoff: "2.4066", standard: "—" },
+    { grade: "NCF 201", uns: "N02201", werkstoff: "2.4066", standard: "JIS" },
+    { grade: "NA 12", uns: "N02201", werkstoff: "2.4066", standard: "BS" },
+    { grade: "N201", uns: "N02201", werkstoff: "2.4066", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Nickel 201",
+      c: "0.02 max",
+      mn: "0.35 max",
+      si: "0.35 max",
+      cr: "—",
+      ni: "99.00 min",
+      mo: "—",
+      other: "Fe: 0.40 max, S: 0.010 max, Cu: 0.25 max, Ti: 0.10 max, Mg: 0.10 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Nickel 201",
+      tensile: "403 MPa (58.5 ksi) min",
+      yield: "103 MPa (15 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.89 g/cm³",
+      meltingPoint: "1446 °C (2635 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing",
+      temperatureRange: "705°C – 925°C (1300°F – 1700°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "201 Alloy Threaded Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WNR. 2.4066 Alloy Threaded Forged Fittings", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N02201 90 Deg Threaded Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy 201 Threaded Bushing", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Nickel Alloy 201 Threaded Hex Plug", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4066 Alloy Threaded Forged Fittings",
+    "Nickel Alloy 201 Threaded Fittings",
+    "UNS N02201 Threaded Lateral Tee",
+    "Alloy 201 45 Deg Forged Threaded Elbow",
+    "UNS N02201 90 Deg Threaded Elbow",
+    "Nickel Alloy 201 Threaded Cross",
+    "201 Alloy Threaded Cross",
+    "Nickel Alloy 201 Threaded Cap",
+    "Alloy 201 Threaded Coupling",
+    "Nickel Alloy 201 Threaded Union",
+    "Alloy 201 Threaded Bushing",
+    "Nickel Alloy 201 Forged Threaded Plug",
+    "Nickel Alloy 201 Threaded Hex Plug",
+    "UNS N02201 Hexagonal Plug",
+    "WNR. 2.4066 Alloy Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
   },
-  {
-    id: 9,
-    slug: "titanium-forged-fittings",
-    image: "/stock/hastelloy-forged-fittings.jpg",
-    title: "Titanium Forged Fittings",
-    shortDescription:
-      "ASTM B381 Gr. 1, Gr. 2, Gr. 5 (Ti-6Al-4V), Gr. 7 High Strength-to-Weight Threadolets and Socket Weld Fittings.",
-    materialGroup: "Titanium Core",
-    standards: "ASTM B381 Gr. 1, Gr. 2, Gr. 5 (Ti-6Al-4V), Gr. 7",
-    forms: "High Strength-to-Weight Threadolets and Socket Weld Fittings",
-    application: "Aerospace, marine, and chemical industries",
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  applicationIndustries: [
+    "Chemical Processing Industries",
+    "Petrochemicals",
+    "Power Generation",
+    "Gas Processing Units",
+    "Chemical Equipment",
+    "Food Processing Equipment",
+    "Offshore Oil Drilling Companies",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Pharmaceutical Equipment",
+    "Seawater Equipment",
+    "Heat Exchangers & Condensers",
+  ],
+
+  specializedIn: [
+    "Nickel 201 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Nickel 201 Forged Fittings Exporter",
+    "ANSI B16.11 Nickel 201 Threaded Forged Fittings Stockist in India",
+    "Nickel 201 Forged Fittings Dealer",
+    "Nickel 201 Threaded 90° Elbow Supplier",
+    "Supplier of Nickel 201 Threaded 45° Elbow",
+    "Alloy 201 Threaded Tee Manufacturer",
+    "Nickel 201 Threaded Cross Exporter",
+    "Nickel 201 Threaded Union Manufacturer",
+    "Nickel WERKSTOFF NR. 2.4066 Threaded Coupling Exporter",
+    "Nickel 201 Threaded Cap Supplier",
+    "Nickel 201 Hexagonal Plug Supplier",
+    "Nickel UNS N02201 Threaded Forged Fittings Exporter",
+    "ASME SB564 Nickel 201 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Nickel 201 Forged Fittings Price List",
+    "Nickel 201 Forged Fittings Weight Calculator",
+    "Nickel 201 Forged Fittings Dimensions",
+    "Nickel 201 Forged Fittings Price Per Kg in India",
+    "Nickel 201 Forged Fittings Manufacturer in Mumbai",
+    "Nickel 201 Forged Fittings Supplier in India",
+    "Nickel 201 Forged Fittings Thickness Tolerance",
+    "Nickel 201 Forged Fittings Price List PDF",
+    "Nickel 201 Forged Fittings Mechanical Properties",
+    "Nickel 201 Forged Fittings Chemical Composition",
+    "Nickel 201 Forged Fittings Stockist in Pune",
+    "Nickel 201 Forged Fittings Exporter",
+    "Nickel 201 Forged Fittings Price in Mumbai",
+    "Nickel 201 Forged Fittings Size Chart",
+    "Nickel 201 Threaded Elbow Price",
+    "Nickel 201 Threaded Tee Supplier",
+    "Nickel 201 Threaded Cross Manufacturers",
+    "Nickel 201 Forged Fittings Catalog PDF",
+    "Nickel 201 Forged Fittings Equivalent Grades",
+    "Nickel 201 Forged Fittings Price per Piece",
+    "Nickel 201 Forged Fittings updated price list",
+    "Nickel 201 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Nickel 201 Forged Fittings Manufacturers in Gujarat",
+    "Nickel 201 Forged Fittings Stockyards in India",
+    "Nickel 201 Forged Fittings thickness chart",
+    "Nickel 201 Forged Fittings Price in India",
+    "Top 100 Nickel 201 Forged Fittings Dealers in Mumbai",
+    "Buy Nickel 201 Forged Fittings Online",
+    "Nickel 201 Forged Fittings leading manufacturers in India",
+    "UNS N02201 Forged Fittings Price India",
+    "Werkstoff 2.4066 Forged Fittings Price India",
+    "Nickel 201 Forged Fittings Heat Treatment",
+    "Nickel 201 Forged Fittings Annealing Temperature",
+    "Nickel 201 Forged Fittings Hardness Range",
+    "Nickel 201 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 44,
+  slug: "monel-400-forged-fittings",
+  image: "/stock/monel-400-forged-fittings.jpg",
+  title:
+    "Monel 400 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N04400 / WNR. 2.4360 (Nickel-Copper Alloy)",
+  shortDescription:
+    "Monel 400 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Monel 400 forged fittings have the best corrosion resistance properties. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Monel alloy 400 threaded forged fittings are available in different sizes and shapes. Monel 400 Forged threaded plugs have excellent corrosion resistance properties. Monel 400 Forged threaded cap has high strength and excellent dimensions. Monel 400 Forged threaded bushing usually contains 29 – 34 % copper and some portion of nickel, chromium, and molybdenum. Monel 400 forged threaded can be easily cold worked. Monel 400 Forged threaded coupling has excellent annealing properties. Monel alloy 400 threaded forged fittings are mostly used in marine industries and offshore oil drilling companies. Monel 400 forged threaded plug is used for pumps, and fittings. Monel 400 threaded forged fittings tee can be used for industrial and household applications. Monel 400 forged threaded bushings are used for heat exchangers, condensers, and fasteners. Monel 400 forged threaded coupling is also used for shafts and valves.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Monel 400 (UNS N04400 / WNR. 2.4360)":
+        "A nickel-copper alloy with best corrosion resistance properties. Contains 29 – 34% copper with nickel, chromium, and molybdenum. Can be easily cold worked. Excellent annealing properties. High strength and excellent dimensions. Used in marine industries, offshore oil drilling companies, pumps, fittings, industrial and household applications, heat exchangers, condensers, fasteners, shafts, and valves. Werkstoff Nr. 2.4360.",
+    },
   },
-  {
-    id: 10,
-    slug: "stainless-steel-316-316l-forgings",
-    image: "/stock/stainless-steel-316-316l-forgings.jpg",
-    title:
-      "Stainless Steel 316 & 316L Forging Manufacturer & Supplier - ASTM A182 / ASME SA182",
-    shortDescription:
-      "Premium Stainless Steel 316 & 316L forgings manufacturer, supplier, stockist and exporter from Mumbai, India. Forged components to ASTM A182 F316/F316L and ASME SA182, with 16.0–18.0% chromium and 2.00–3.00% molybdenum addition for chloride pitting resistance. Available in F316 (UNS S31600) and F316L (UNS S31603) grades, offering solution-annealed forgings for pressure and general industrial service.",
-    technicalOverview:
-      "Stainless Steel 316 and 316L forgings are austenitic stainless steels containing 16.0–18.0% chromium with a 2.00–3.00% molybdenum addition, which provides resistance to pitting in chloride media. Carbon separates the pair: grade 316 permits 0.08% max, while 316L is held to 0.030% max, so weld zones resist intergranular attack without further heat treatment. Minimum tensile strength stands at 515 MPa for F316 and 485 MPa for F316L, both solution-annealed. European and Japanese drawings use different code names (EN 1.4401/1.4404 and SUS316/316L) for the same broad grade family. We forge rings, discs, shafts, blocks, round bars and flange blanks against order drawings, then finish cutting, machining, threading, fabrication, testing and packing in-house. Finished 316/316L forged components are used in chemical plants, offshore platforms, pump and valve assemblies and food-processing lines.",
-    materialGroup: "Stainless Steel",
-    standards: "ASTM A182 F316 / F316L, ASME SA182, ASTM A473",
-    forms:
-      "Forgings rough machined or proof machined; Rings, Discs, Shafts, Blocks, Round Bars, Flange Blanks, Custom Shapes",
-    application:
-      "SS 316 and 316L forged components are widely used in oil & gas, marine, chemical, pumps & valves, offshore, pharmaceutical, food processing, and powerplant industries for chloride-exposed and hygienic duties.",
-    applications: [
-      "Oil & Gas Industry",
-      "Marine Industry",
-      "Chemical Industry",
-      "Pumps & Valves Industry",
-      "Offshore Industry",
-      "Pharmaceutical Industry",
-      "Food Processing Industry",
-      "Powerplant Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Stainless Steel 316":
-          "UNS S31600 (1.4401) – Austenitic stainless steel with 0.08% max Carbon. Carries 16.0–18.0% Chromium, 10.0–14.0% Nickel, and 2.00–3.00% Molybdenum. Minimum tensile strength of 515 MPa. Used for pressure-boundary components. Forged to ASTM A182 grade F316.",
-        "Stainless Steel 316L":
-          "UNS S31603 (1.4404) – Low-carbon version with 0.030% max Carbon. Resists intergranular attack after welding without further heat treatment. Minimum tensile strength of 485 MPa. Forged to ASTM A182 grade F316L.",
-      },
-    },
-    specifications: {
-      standard: "ASTM A182 F316 / F316L, ASME SA182, ASTM A473",
-      form: "Forgings rough machined or proof machined",
-      supplyCondition: "Forged and solution annealed",
-      certification: "Mill test certificate against each heat",
-      inspection: "Third-party inspection arranged on request",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM A182 F316 / F316L",
-        scope:
-          "Forged flanges, valve parts and pressure components for high-temperature service",
-      },
-      {
-        standard: "ASME SA182 F316 / F316L",
-        scope: "Boiler and pressure vessel code orders",
-      },
-      {
-        standard: "ASTM A473 Type 316 / 316L",
-        scope: "Stainless steel forgings for general industrial service",
-      },
-    ],
-    chemicalComposition: [
-      {
-        grade: "F316",
-        c: "0.08 max",
-        mn: "2.00 max",
-        p: "0.045 max",
-        s: "0.030 max",
-        si: "1.00 max",
-        cr: "16.0-18.0",
-        ni: "10.0-14.0",
-        mo: "2.00-3.00",
-        n: "0.10 max",
-      },
-      {
-        grade: "F316L",
-        c: "0.030 max",
-        mn: "2.00 max",
-        p: "0.045 max",
-        s: "0.030 max",
-        si: "1.00 max",
-        cr: "16.0-18.0",
-        ni: "10.0-15.0",
-        mo: "2.00-3.00",
-        n: "0.10 max",
-      },
-    ],
-    mechanicalProperties: [
-      {
-        grade: "F316",
-        tensile: "515 MPa (75 ksi) min",
-        yield: "205 MPa (30 ksi) min",
-        elongation: "30% min",
-        reductionOfArea: "50% min",
-      },
-      {
-        grade: "F316L",
-        tensile: "485 MPa (70 ksi) min",
-        yield: "170 MPa (25 ksi) min",
-        elongation: "30% min",
-        reductionOfArea: "50% min",
-      },
-    ],
-    equivalentGrades: [
-      {
-        grade: "SS 316",
-        uns: "S31600",
-        wnr: "1.4401",
-        en: "X5CrNiMo17-12-2",
-        jis: "SUS316",
-        bs: "316S31",
-        afnor: "Z6CND17-12",
-        gost: "08Kh17N13M2",
-        china: "06Cr17Ni12Mo2",
-        india: "X04Cr17Ni12Mo2",
-      },
-      {
-        grade: "SS 316L",
-        uns: "S31603",
-        wnr: "1.4404",
-        en: "X2CrNiMo17-12-2",
-        jis: "SUS316L",
-        bs: "316S11",
-        afnor: "Z3CND17-12-02",
-        gost: "03Kh17N14M3",
-        china: "022Cr17Ni12Mo2",
-        india: "X02Cr17Ni12Mo2",
-      },
-    ],
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Dimensional verification against order drawings",
-        "Mechanical testing (tensile, yield, elongation, reduction of area)",
-        "Chemical analysis",
-        "Visual inspection",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back from final inspection to its mill heat.",
-    },
-    priceInfo: {
-      indiaPrice:
-        "₹310 per kg (base material, finished forging priced above this based on work)",
-      internationalPrice: "US$3.25 per kg (base material)",
-      factors:
-        "Grade, piece weight, section, quantity, forging work, solution annealing, machining allowance and testing determine the final quotation.",
-    },
-    stockAvailability: {
-      ringsDiscsShafts: [
-        {
-          title: "SS 316/316L Forged Rings & Discs",
-          items: [
-            "ASTM A182 F316 Forged Rings",
-            "ASME SA182 F316L Forged Discs",
-            "UNS S31600 Forged Rings",
-            "UNS S31603 Forged Discs",
-            "Custom Forged Rings & Discs to Drawing",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      blocksRoundBars: [
-        {
-          title: "SS 316/316L Forged Blocks & Round Bars",
-          items: [
-            "ASTM A182 F316 Forged Blocks",
-            "ASME SA182 F316L Forged Round Bars",
-            "UNS S31603 Forged Blocks",
-            "UNS S31600 Forged Round Bars",
-            "Custom Forged Blocks & Bars to Drawing",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      flangeBlanks: [
-        {
-          title: "SS 316/316L Forged Flange Blanks",
-          items: [
-            "ASTM A182 F316 Flange Blanks",
-            "ASME SA182 F316L Flange Blanks",
-            "UNS S31600 Forged Flange Blanks",
-            "Custom Flange Blanks to Drawing",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      customShapes: [
-        {
-          title: "Custom Forged Shapes",
-          items: [
-            "SS 316 Custom Forgings to Drawing",
-            "SS 316L Custom Forgings to Drawing",
-            "Dual-Certified F316/F316L Custom Forgings",
-            "Complex Forged Components",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "SS 316 and 316L Forged Components Manufacturer in India",
-      "ASTM A182 F316/F316L Forgings Supplier",
-      "ASME SA182 F316/F316L Forged Rings and Discs Stockist",
-      "SS 316/316L Forgings Exporter to USA, Gulf, Europe, Asia",
-      "F316 (UNS S31600) and F316L (UNS S31603) Forged Parts",
-      "Custom Forgings to Drawing with In-House Machining",
-      "Dual-Certified F316/F316L Forgings for Welded and Non-Welded Duties",
-      "SS 316/316L Forgings with EN 10204 3.1 MTC",
-      "Forgings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    ],
-    relatedSearches: [
-      "ss 316 forgings manufacturer in india",
-      "astm a182 f316 forgings supplier",
-      "ss 316l forged rings exporter",
-      "ss 316 forgings price per kg",
-      "uns s31600 forged round bars stockist",
-      "asme sa182 f316l forged discs",
-      "ss 316 forged blocks manufacturer",
-      "ss 316l flange blanks supplier",
-      "ss 316 forgings for chemical industry",
-      "ss 316 forgings with en 10204 3.1 certificate",
-      "ss 316 forged components for oil and gas industry",
-      "ss 316 forgings for marine industry",
-      "ss 316 forgings for pumps and valves industry",
-      "dual certified f316/f316l forgings",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
   },
-  {
-    id: 11,
-    slug: "stainless-steel-410-forgings",
-    image: "/stock/stainless-steel-410-forgings.jpg",
-    title:
-      "Stainless Steel 410 Forging Manufacturer & Supplier - ASTM A182 F6a",
-    shortDescription:
-      "Premium Stainless Steel 410 forgings manufacturer, supplier, stockist and exporter from Mumbai, India. Martensitic stainless steel forgings with 11.50–13.50% chromium, supplied to ASTM A473 and ASTM A182 Grade F6a for pressure and general industrial service. Available in four heat-treatment classes (Class 1 to 4), offering tensile strength from 485 MPa to 895 MPa for pumps, valves, turbines and wellhead assemblies.",
-    technicalOverview:
-      "Grade 410 is a martensitic stainless steel with 11.50–13.50% chromium; carbon is capped at 0.15%. That chemistry lets a forged section quench-harden to the strength a drawing demands, then temper back for toughness. The chromium level also gives resistance to steam, fresh water and mild chemical media. Minimum tensile strength runs from 485 MPa in Class 1 to 895 MPa in Class 4, a span that covers annealed valve internals as well as fully hardened shafts. International drawings may name the material UNS S41000, EN 1.4006 or JIS SUS410. We forge rings, discs, shafts, blanks and flanges to the dimensions fixed on each order drawing. Finished 410 SS components run in pumps, valves, turbines and wellhead assemblies. Cutting, machining, threading, fabrication, testing and packing stay in-house.",
-    materialGroup: "Stainless Steel",
-    standards: "ASTM A473, ASTM A182 F6a, ASME SA182 F6a",
-    forms:
-      "Forgings supplied rough or proof machined; Rings, Discs, Shafts, Blanks, Flanges, Custom Shapes",
-    application:
-      "SS 410 forgings are widely used in oil & gas, pumps & valves, powerplant, chemical, petrochemical, defence, water treatment, and mining industries for hardened rotating and pressure-holding parts.",
-    applications: [
-      "Oil & Gas Industry",
-      "Pumps & Valves Industry",
-      "Powerplant Industry",
-      "Chemical Industry",
-      "Petrochemical Industry",
-      "Defence Industry",
-      "Water Treatment Industry",
-      "Mining Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Stainless Steel 410":
-          "UNS S41000 (1.4006) – Martensitic stainless steel with 11.50–13.50% Chromium, 0.15% max Carbon, and 0.50% max Nickel. Can be quench-hardened and tempered to achieve tensile strength from 485 MPa (Class 1) to 895 MPa (Class 4). Resists steam, fresh water and mild chemical media. Forged to ASTM A182 grade F6a (pressure service) or ASTM A473 (general industrial).",
-      },
-    },
-    specifications: {
-      standard: "ASTM A473, ASTM A182 F6a / ASME SA182 F6a",
-      form: "Forgings supplied rough or proof machined",
-      supplyCondition:
-        "Annealed, or normalised and tempered (Class 1 to Class 4)",
-      certification: "Mill test certificate against each heat",
-      inspection: "Third-party inspection arranged on request",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    },
-    applicableStandards: [
-      {
-        standard: "ASTM A473",
-        scope:
-          "Stainless steel forgings for general use, and for low- or high-temperature service",
-      },
-      {
-        standard: "ASTM A182 F6a / ASME SA182 F6a",
-        scope:
-          "Forged flanges, valve components and pressure parts for high-temperature service",
-      },
-    ],
-    chemicalComposition: [
-      {
-        grade: "SS 410 (F6a)",
-        c: "0.15 max",
-        mn: "1.00 max",
-        p: "0.040 max",
-        s: "0.030 max",
-        si: "1.00 max",
-        cr: "11.50–13.50",
-        ni: "0.50 max",
-      },
-    ],
-    mechanicalProperties: [
-      {
-        grade: "F6a Class 1",
-        tensile: "485 MPa (70 ksi) min",
-        yield: "275 MPa (40 ksi) min",
-        elongation: "18% min",
-        reductionOfArea: "35% min",
-        hardness: "143–207 HBW",
-        temperingTemp: "725°C min",
-      },
-      {
-        grade: "F6a Class 2",
-        tensile: "585 MPa (85 ksi) min",
-        yield: "380 MPa (55 ksi) min",
-        elongation: "18% min",
-        reductionOfArea: "35% min",
-        hardness: "167–229 HBW",
-        temperingTemp: "675°C min",
-      },
-      {
-        grade: "F6a Class 3",
-        tensile: "760 MPa (110 ksi) min",
-        yield: "585 MPa (85 ksi) min",
-        elongation: "15% min",
-        reductionOfArea: "35% min",
-        hardness: "235–302 HBW",
-        temperingTemp: "595°C min",
-      },
-      {
-        grade: "F6a Class 4",
-        tensile: "895 MPa (130 ksi) min",
-        yield: "760 MPa (110 ksi) min",
-        elongation: "12% min",
-        reductionOfArea: "35% min",
-        hardness: "263–321 HBW",
-        temperingTemp: "540°C min",
-      },
-    ],
-    equivalentGrades: [
-      {
-        grade: "SS 410",
-        uns: "S41000",
-        wnr: "1.4006",
-        en: "X12Cr13",
-        din: "X10Cr13",
-        jis: "SUS410",
-        bs: "410S21",
-        afnor: "Z12C13",
-        china: "12Cr13 / 1Cr13",
-        gost: "12Kh13",
-        india: "X12Cr12",
-      },
-    ],
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Dimensional verification against order drawings",
-        "Mechanical testing (tensile, yield, elongation, reduction of area, hardness)",
-        "Chemical analysis",
-        "Visual inspection",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back from final inspection to its mill heat.",
-    },
-    priceInfo: {
-      indiaPrice: "₹92–₹355 per kg",
-      internationalPrice: "US$1.00–US$5.00 per kg",
-      factors:
-        "Piece weight, section size, F6a class, testing scope and machining allowance determine the final quotation.",
-    },
-    stockAvailability: {
-      ringsDiscs: [
-        {
-          title: "SS 410 Forged Rings & Discs",
-          items: [
-            "ASTM A182 F6a Forged Rings",
-            "ASME SA182 F6a Forged Discs",
-            "UNS S41000 Forged Rings",
-            "Custom Forged Rings & Discs to Drawing",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      shaftsBlanks: [
-        {
-          title: "SS 410 Forged Shafts & Blanks",
-          items: [
-            "ASTM A473 Forged Shafts",
-            "ASME SA182 F6a Forged Blanks",
-            "UNS S41000 Forged Shafts",
-            "Custom Forged Shafts & Blanks to Drawing",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      flanges: [
-        {
-          title: "SS 410 Forged Flanges",
-          items: [
-            "ASTM A182 F6a Forged Flanges",
-            "ASME SA182 F6a Flange Blanks",
-            "UNS S41000 Forged Flanges",
-            "Custom Flanges to Drawing",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      customShapes: [
-        {
-          title: "Custom Forged Shapes",
-          items: [
-            "SS 410 Custom Forgings to Drawing",
-            "Complex Forged Components",
-            "Heat-Treated Forgings (Class 1-4)",
-            "Rough or Proof Machined Forgings",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-    },
-    specializedIn: [
-      "SS 410 Forged Components Manufacturer in India",
-      "ASTM A182 F6a Forgings Supplier",
-      "ASME SA182 F6a Forged Rings and Discs Stockist",
-      "SS 410 Forgings Exporter to USA, Gulf, Europe, Asia",
-      "F6a Class 1 to 4 Heat-Treated Forgings",
-      "Custom Forgings to Drawing with In-House Machining",
-      "Martensitic Stainless Steel Forgings for Pumps, Valves, Turbines",
-      "SS 410 Forgings with EN 10204 3.1 MTC",
-      "Forgings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    ],
-    relatedSearches: [
-      "ss 410 forgings manufacturer in india",
-      "astm a182 f6a forgings supplier",
-      "ss 410 forged rings exporter",
-      "ss 410 forgings price per kg",
-      "uns s41000 forged shafts stockist",
-      "asme sa182 f6a forged discs",
-      "ss 410 forged flanges manufacturer",
-      "ss 410 forgings for pumps and valves industry",
-      "ss 410 forgings with en 10204 3.1 certificate",
-      "ss 410 forged components for oil and gas industry",
-      "ss 410 class 4 forgings",
-      "ss 410 forgings for powerplant industry",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Monel 400 (UNS N04400 / WNR. 2.4360)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
   },
-  {
-    id: 12,
-    slug: "stainless-steel-17-4-ph-forgings",
-    image: "/stock/stainless-steel-17-4-ph-forgings.jpg",
-    title:
-      "Stainless Steel 17-4 PH Forging Manufacturer & Supplier - ASTM A705 / ASME SA-705",
-    shortDescription:
-      "Premium Stainless Steel 17-4 PH (UNS S17400 / AISI 630) forgings manufacturer, supplier, and exporter from Mumbai, India. Precipitation-hardening martensitic stainless steel with 15.00-17.50% Chromium, 3.00-5.00% Nickel, and Copper addition for age-hardening. Supplied in Condition A (solution annealed) or aged to H900 through H1150, offering tensile strength from 930 MPa to 1310 MPa for valve trim, pump shafts, aerospace fittings, and oilfield hardware.",
-    technicalOverview:
-      "17-4 PH is a martensitic precipitation-hardening stainless steel, registered as UNS S17400 and AISI Type 630. Its name records the chemistry: close to 17% chromium and 4% nickel, with a copper addition that hardens the steel during ageing. We forge and supply the grade to ASTM A705 / ASME SA-705, either solution-annealed in Condition A or age-hardened to any condition from H900 through H1150. At H900, the material reaches a minimum tensile strength of 1310 MPa, and each step up the ageing ladder trades strength for toughness in defined increments. That property range puts forged 17-4 PH into valve trim, pump shafts, aerospace structural fittings and oilfield hardware, with the exact condition chosen against the duty of the finished component. Every consignment is despatched with test documentation covering chemistry and mechanical properties. Cutting, machining, threading, fabrication, testing and packing are carried out in-house, so a forging can be delivered as-forged, rough machined or finished to drawing.",
-    materialGroup: "Stainless Steel",
-    standards: "ASTM A705 / A705M, ASME SA-705 / SA-705M",
-    forms:
-      "Forgings, produced to drawing; As-forged, rough machined, or machined to drawing; Rings, Discs, Shafts, Blocks, Flanges, Custom Shapes",
-    application:
-      "17-4 PH forgings are widely used in aerospace, pumps & valves, oil & gas, marine, chemical, defence, powerplant, and food processing industries where high strength must pair with corrosion resistance.",
-    applications: [
-      "Aerospace Industry",
-      "Pumps & Valves Industry",
-      "Oil & Gas Industry",
-      "Marine Industry",
-      "Chemical Industry",
-      "Defence Industry",
-      "Powerplant Industry",
-      "Food Processing Industry",
-    ],
-    gradeDetails: {
-      standardGrades: {
-        "Stainless Steel 17-4 PH":
-          "UNS S17400 (1.4542 / AISI 630) – Martensitic precipitation-hardening stainless steel. Contains 15.00-17.50% Chromium, 3.00-5.00% Nickel, 3.00-5.00% Copper, and 0.15-0.45% Niobium+Tantalum. Age-hardened to achieve tensile strength from 930 MPa (H1150) to 1310 MPa (H900). Combines high strength with corrosion resistance comparable to Type 304. Forged to ASTM A705 / ASME SA-705.",
-      },
+
+  equivalentGrades: [
+    { grade: "Monel 400", uns: "N04400", werkstoff: "2.4360", standard: "ASTM" },
+    { grade: "Alloy 400", uns: "N04400", werkstoff: "2.4360", standard: "—" },
+    { grade: "UNS N04400", uns: "N04400", werkstoff: "2.4360", standard: "—" },
+    { grade: "NCF 400", uns: "N04400", werkstoff: "2.4360", standard: "JIS" },
+    { grade: "NA 13", uns: "N04400", werkstoff: "2.4360", standard: "BS" },
+    { grade: "NU 30", uns: "N04400", werkstoff: "2.4360", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Monel 400",
+      c: "0.30 max",
+      mn: "2.00 max",
+      si: "0.50 max",
+      cr: "—",
+      ni: "63.00 – 70.00",
+      mo: "—",
+      other: "Cu: 28.00 – 34.00, Fe: 2.50 max, S: 0.024 max",
     },
-    specifications: {
-      standard: "ASTM A705 / A705M, ASME SA-705 / SA-705M",
-      materialClass: "Martensitic precipitation-hardening stainless steel",
-      form: "Forgings, produced to drawing",
-      supplyCondition:
-        "Condition A (solution annealed), H900, H925, H1025, H1075, H1100, H1150, H1150M",
-      finish: "As-forged, rough machined, machined to drawing",
-      inHouseProcessing:
-        "Cutting, machining, threading, fabrication, testing, packing",
-      stockQuantity: "60-70 tonnes in Mumbai",
-      certifications: "AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Monel 400",
+      tensile: "550 MPa (80 ksi) min",
+      yield: "240 MPa (35 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.80 g/cm³",
+      meltingPoint: "1300 °C – 1350 °C (2372 °F – 2462 °F)",
     },
-    applicableStandards: [
-      {
-        standard: "ASTM A705 / A705M",
-        scope: "Age-hardening stainless steel forgings, Type 630",
-      },
-      {
-        standard: "ASME SA-705 / SA-705M",
-        scope: "BPVC Section II Part A adoption, identical to ASTM A705/A705M",
-      },
-      {
-        standard: "ASTM A484 / A484M",
-        scope:
-          "General requirements for stainless steel bars, billets and forgings",
-      },
-      {
-        standard: "ASTM A370",
-        scope: "Mechanical testing methods for steel products",
-      },
-    ],
-    chemicalComposition: [
-      {
-        grade: "17-4 PH (S17400)",
-        c: "0.07 max",
-        mn: "1.00 max",
-        p: "0.040 max",
-        s: "0.030 max",
-        si: "1.00 max",
-        cr: "15.00-17.50",
-        ni: "3.00-5.00",
-        cu: "3.00-5.00",
-        nb_ta: "0.15-0.45",
-        fe: "Balance",
-      },
-    ],
-    mechanicalProperties: [
-      {
-        grade: "H900",
-        condition: "Ageing Treatment: 480°C, 1 h, air cool",
-        tensile: "1310 MPa (190 ksi) min",
-        yield: "1170 MPa (170 ksi) min",
-        elongation: "10% min",
-        hardness: "40 HRC min",
-      },
-      {
-        grade: "H925",
-        condition: "Ageing Treatment: 495°C, 4 h, air cool",
-        tensile: "1170 MPa (170 ksi) min",
-        yield: "1070 MPa (155 ksi) min",
-        elongation: "10% min",
-        hardness: "38 HRC min",
-      },
-      {
-        grade: "H1025",
-        condition: "Ageing Treatment: 550°C, 4 h, air cool",
-        tensile: "1070 MPa (155 ksi) min",
-        yield: "1000 MPa (145 ksi) min",
-        elongation: "12% min",
-        hardness: "35 HRC min",
-      },
-      {
-        grade: "H1075",
-        condition: "Ageing Treatment: 580°C, 4 h, air cool",
-        tensile: "1000 MPa (145 ksi) min",
-        yield: "860 MPa (125 ksi) min",
-        elongation: "13% min",
-        hardness: "32 HRC min",
-      },
-      {
-        grade: "H1100",
-        condition: "Ageing Treatment: 595°C, 4 h, air cool",
-        tensile: "965 MPa (140 ksi) min",
-        yield: "795 MPa (115 ksi) min",
-        elongation: "14% min",
-        hardness: "31 HRC min",
-      },
-      {
-        grade: "H1150",
-        condition: "Ageing Treatment: 620°C, 4 h, air cool",
-        tensile: "930 MPa (135 ksi) min",
-        yield: "725 MPa (105 ksi) min",
-        elongation: "16% min",
-        hardness: "28 HRC min",
-      },
-    ],
-    equivalentGrades: [
-      {
-        grade: "17-4 PH",
-        uns: "S17400",
-        wnr: "1.4542",
-        en: "X5CrNiCuNb16-4",
-        jis: "SUS 630 / SUSF630 (JIS G 3214)",
-        china: "05Cr17Ni4Cu4Nb",
-        common: "AISI 630",
-      },
-    ],
-    testingAndCertification: {
-      testingMethods: [
-        "Positive Material Identification (PMI)",
-        "Dimensional verification against order drawings",
-        "Mechanical testing (tensile, yield, elongation, hardness per ASTM A370)",
-        "Chemical analysis by optical emission spectrometry",
-        "Ultrasonic examination (upon request)",
-        "Impact testing (upon request)",
-      ],
-      certificationTypes: [
-        "EN 10204 3.1 Mill Test Certificate (standard)",
-        "EN 10204 3.2 with third-party witness (upon request)",
-        "AS 9120B Certification",
-        "PED Certification",
-        "ISO 9001:2015",
-        "ISO 45001:2018",
-      ],
-      traceability:
-        "Full traceability from original mill certificates to our own test reports, so every batch can be traced back from final inspection to its mill heat.",
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Annealing",
+      temperatureRange: "760°C – 980°C (1400°F – 1800°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
     },
-    priceInfo: {
-      indiaPrice: "₹200–₹280 per kg",
-      internationalPrice: "US$2.10–$2.95 per kg",
-      factors:
-        "Forged weight, section size, shape complexity, heat-treatment condition, machining allowance, testing requirements, and order quantity determine the final quotation.",
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
     },
-    stockAvailability: {
-      ringsDiscs: [
-        {
-          title: "17-4 PH Forged Rings & Discs",
-          items: [
-            "ASTM A705 Type 630 Forged Rings",
-            "ASME SA-705 17-4 PH Forged Discs",
-            "UNS S17400 Forged Rings",
-            "Custom Forged Rings & Discs to Drawing",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      shaftsBlocks: [
-        {
-          title: "17-4 PH Forged Shafts & Blocks",
-          items: [
-            "ASTM A705 Forged Shafts",
-            "ASME SA-705 Forged Blocks",
-            "UNS S17400 Forged Shafts",
-            "Custom Forged Shafts & Blocks to Drawing",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      flangesCustom: [
-        {
-          title: "17-4 PH Forged Flanges & Custom Shapes",
-          items: [
-            "ASTM A705 Forged Flanges",
-            "ASME SA-705 Flange Blanks",
-            "Custom 17-4 PH Forgings to Drawing",
-            "Complex Forged Components",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
-      heatTreated: [
-        {
-          title: "Heat-Treated 17-4 PH Forgings",
-          items: [
-            "Condition A (Solution Annealed) Forgings",
-            "H900 Aged Forgings",
-            "H1025 Aged Forgings",
-            "H1150 Aged Forgings",
-            "Custom Ageing Conditions (H925 to H1150M)",
-          ],
-          image: "/stock/ss-forgings.jpg",
-        },
-      ],
+  ],
+
+  priceList: [
+    { item: "WNR. 2.4360 Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Monel 400 Forged Fittings", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N04400 Threaded Lateral Tee", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "WNR. 2.4360 Threaded Tees", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Monel 400 Hexagonal Plug", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4360 Threaded Forged Fittings",
+    "Monel 400 Forged Fittings",
+    "UNS N04400 Threaded Lateral Tee",
+    "Monel 400 45 Deg Forged Threaded Elbow",
+    "ASTM B564 TP 400 90 Deg Threaded Elbow",
+    "Monel 400 Threaded Cross",
+    "ASTM B564 TP 400 Threaded Cross",
+    "ASME 16.11 Monel 400 Threaded Cap",
+    "MSS SP-79 Monel 400 Threaded Coupling",
+    "Monel 400 Threaded Union",
+    "Monel 400 Threaded Bushing",
+    "Monel 400 Forged Threaded Plug",
+    "Monel 400 Threaded Hex Plug",
+    "Monel 400 Hexagonal Plug",
+    "WNR. 2.4360 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
     },
-    specializedIn: [
-      "17-4 PH Forged Components Manufacturer in India",
-      "ASTM A705 Type 630 Forgings Supplier",
-      "ASME SA-705 17-4 PH Forged Rings and Discs Stockist",
-      "17-4 PH Forgings Exporter to USA, Gulf, Europe, Asia",
-      "UNS S17400 / AISI 630 Forged Parts",
-      "Custom Forgings to Drawing with In-House Machining",
-      "Condition A to H1150 Heat-Treated Forgings",
-      "17-4 PH Forgings with EN 10204 3.1 MTC",
-      "Forgings with AS 9120B, PED, ISO 9001:2015, ISO 45001:2018",
-    ],
-    relatedSearches: [
-      "17-4 ph forgings manufacturer in india",
-      "astm a705 type 630 forgings supplier",
-      "17-4 ph forged rings exporter",
-      "17-4 ph forgings price per kg",
-      "uns s17400 forged shafts stockist",
-      "asme sa-705 17-4 ph forged discs",
-      "17-4 ph condition a forgings",
-      "17-4 ph h900 forgings",
-      "17-4 ph h1150 forgings",
-      "17-4 ph forgings for aerospace industry",
-      "17-4 ph forgings for pumps and valves industry",
-      "17-4 ph forgings with en 10204 3.1 certificate",
-      "17-4 ph forged components for oil and gas industry",
-      "aisi 630 forgings supplier",
-    ],
-    exportCountries: EXPORT_COUNTRIES,
-    supplyCities: SUPPLY_CITIES,
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
   },
+
+  applicationIndustries: [
+    "Marine Industries",
+    "Offshore Oil Drilling Companies",
+    "Pumps & Fittings",
+    "Industrial & Household Applications",
+    "Heat Exchangers & Condensers",
+    "Fasteners",
+    "Shafts & Valves",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+  ],
+
+  specializedIn: [
+    "Monel 400 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Monel 400 Forged Fittings Exporter",
+    "ANSI B16.11 Monel 400 Threaded Forged Fittings Stockist in India",
+    "Monel 400 Forged Fittings Dealer",
+    "Monel 400 Threaded 90° Elbow Supplier",
+    "Supplier of Monel 400 Threaded 45° Elbow",
+    "Alloy 400 Threaded Tee Manufacturer",
+    "Monel 400 Threaded Cross Exporter",
+    "Monel 400 Threaded Union Manufacturer",
+    "Monel WERKSTOFF NR. 2.4360 Threaded Coupling Exporter",
+    "Monel 400 Threaded Cap Supplier",
+    "Monel 400 Hexagonal Plug Supplier",
+    "Monel UNS N04400 Threaded Forged Fittings Exporter",
+    "ASME SB564 Monel 400 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Monel 400 Forged Fittings Price List",
+    "Monel 400 Forged Fittings Weight Calculator",
+    "Monel 400 Forged Fittings Dimensions",
+    "Monel 400 Forged Fittings Price Per Kg in India",
+    "Monel 400 Forged Fittings Manufacturer in Mumbai",
+    "Monel 400 Forged Fittings Supplier in India",
+    "Monel 400 Forged Fittings Thickness Tolerance",
+    "Monel 400 Forged Fittings Price List PDF",
+    "Monel 400 Forged Fittings Mechanical Properties",
+    "Monel 400 Forged Fittings Chemical Composition",
+    "Monel 400 Forged Fittings Stockist in Pune",
+    "Monel 400 Forged Fittings Exporter",
+    "Monel 400 Forged Fittings Price in Mumbai",
+    "Monel 400 Forged Fittings Size Chart",
+    "Monel 400 Threaded Elbow Price",
+    "Monel 400 Threaded Tee Supplier",
+    "Monel 400 Threaded Cross Manufacturers",
+    "Monel 400 Forged Fittings Catalog PDF",
+    "Monel 400 Forged Fittings Equivalent Grades",
+    "Monel 400 Forged Fittings Price per Piece",
+    "Monel 400 Forged Fittings updated price list",
+    "Monel 400 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Monel 400 Forged Fittings Manufacturers in Gujarat",
+    "Monel 400 Forged Fittings Stockyards in India",
+    "Monel 400 Forged Fittings thickness chart",
+    "Monel 400 Forged Fittings Price in India",
+    "Top 100 Monel 400 Forged Fittings Dealers in Mumbai",
+    "Buy Monel 400 Forged Fittings Online",
+    "Monel 400 Forged Fittings leading manufacturers in India",
+    "UNS N04400 Forged Fittings Price India",
+    "Werkstoff 2.4360 Forged Fittings Price India",
+    "Monel 400 Forged Fittings Heat Treatment",
+    "Monel 400 Forged Fittings Annealing Temperature",
+    "Monel 400 Forged Fittings Hardness Range",
+    "Monel 400 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 45,
+  slug: "monel-k500-forged-fittings",
+  image: "/stock/monel-k500-forged-fittings.jpg",
+  title:
+    "Monel K500 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N05500 / WNR. 2.4375 (Nickel-Copper-Aluminum-Titanium Alloy)",
+  shortDescription:
+    "Monel K500 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Monel K500 forged fittings have the best corrosion resistance properties. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Monel alloy K500 threaded forged fittings are available in different sizes and shapes. Monel alloy K500 Forged Threaded Bushing is usually a nickel-copper alloy, and it also contains some portion of aluminum and titanium. Monel K500 forged threaded elbow has excellent tensile strength and high yield strength as well. Monel alloy K500 threaded forged fittings have excellent fabrication and annealing properties. Monel K500 forged threaded coupling has such properties that it can be hardened by cold working and hot working processes. Monel K500 forged threaded fittings tee have excellent mechanical properties. Monel K500 Forged threaded fittings are mostly used in pump shafts, and valves. Monel K500 forged threaded elbow is also used for electronic components and offshore oil drilling companies. Monel K500 forged threaded bushing is also used for chemical and pharmaceutical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Monel K500 (UNS N05500 / WNR. 2.4375)":
+        "A nickel-copper-aluminum-titanium alloy with best corrosion resistance properties. Contains aluminum and titanium in addition to nickel-copper. Excellent tensile strength and high yield strength. Excellent fabrication and annealing properties. Can be hardened by cold working and hot working processes. Excellent mechanical properties. Used in pump shafts, valves, electronic components, offshore oil drilling companies, chemical and pharmaceutical equipment. Werkstoff Nr. 2.4375.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Monel K500 (UNS N05500 / WNR. 2.4375)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Monel K500", uns: "N05500", werkstoff: "2.4375", standard: "ASTM" },
+    { grade: "Alloy K500", uns: "N05500", werkstoff: "2.4375", standard: "—" },
+    { grade: "UNS N05500", uns: "N05500", werkstoff: "2.4375", standard: "—" },
+    { grade: "NCF K500", uns: "N05500", werkstoff: "2.4375", standard: "JIS" },
+    { grade: "NA 18", uns: "N05500", werkstoff: "2.4375", standard: "BS" },
+    { grade: "NU 30", uns: "N05500", werkstoff: "2.4375", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Monel K500",
+      c: "0.25 max",
+      mn: "1.50 max",
+      si: "0.50 max",
+      cr: "—",
+      ni: "63.00 – 70.00",
+      mo: "—",
+      other: "Cu: 27.00 – 33.00, Fe: 2.00 max, S: 0.010 max, Al: 2.30 – 3.15, Ti: 0.35 – 0.85",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Monel K500",
+      tensile: "965 MPa (140 ksi) min",
+      yield: "690 MPa (100 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.44 g/cm³",
+      meltingPoint: "1315 °C – 1350 °C (2400 °F – 2460 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "980°C – 1010°C (1800°F – 1850°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Age Hardening (Precipitation)",
+      temperatureRange: "480°C – 595°C (900°F – 1100°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 2.4375 Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N05500 Threaded Bushing", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Monel K500 Hexagonal Plug", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "UNS N05500 Threaded Lateral Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "ASME 16.11 Monel K500 Threaded Cap", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4375 Threaded Forged Fittings",
+    "Monel K500 Forged Fittings",
+    "UNS N05500 Threaded Lateral Tee",
+    "Monel K500 45 Deg Forged Threaded Elbow",
+    "ASTM B564 TP K500 90 Deg Threaded Elbow",
+    "Monel K500 Threaded Cross",
+    "ASTM B564 TP K500 Threaded Cross",
+    "ASME 16.11 Monel K500 Threaded Cap",
+    "MSS SP-79 Monel K500 Threaded Coupling",
+    "Monel K500 Threaded Union",
+    "UNS N05500 Threaded Bushing",
+    "Monel K500 Forged Threaded Plug",
+    "Monel K500 Threaded Hex Plug",
+    "Monel K500 Hexagonal Plug",
+    "WNR. 2.4375 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Pump Shafts & Valves",
+    "Electronic Components",
+    "Offshore Oil Drilling Companies",
+    "Chemical Equipment",
+    "Pharmaceutical Equipment",
+    "Marine Industries",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Fasteners",
+  ],
+
+  specializedIn: [
+    "Monel K500 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Monel K500 Forged Fittings Exporter",
+    "ANSI B16.11 Monel K500 Threaded Forged Fittings Stockist in India",
+    "Monel K500 Forged Fittings Dealer",
+    "Monel K500 Threaded 90° Elbow Supplier",
+    "Supplier of Monel K500 Threaded 45° Elbow",
+    "Alloy K500 Threaded Tee Manufacturer",
+    "Monel K500 Threaded Cross Exporter",
+    "Monel K500 Threaded Union Manufacturer",
+    "Monel WERKSTOFF NR. 2.4375 Threaded Coupling Exporter",
+    "Monel K500 Threaded Cap Supplier",
+    "Monel K500 Hexagonal Plug Supplier",
+    "Monel UNS N05500 Threaded Forged Fittings Exporter",
+    "ASME SB564 Monel K500 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Monel K500 Forged Fittings Price List",
+    "Monel K500 Forged Fittings Weight Calculator",
+    "Monel K500 Forged Fittings Dimensions",
+    "Monel K500 Forged Fittings Price Per Kg in India",
+    "Monel K500 Forged Fittings Manufacturer in Mumbai",
+    "Monel K500 Forged Fittings Supplier in India",
+    "Monel K500 Forged Fittings Thickness Tolerance",
+    "Monel K500 Forged Fittings Price List PDF",
+    "Monel K500 Forged Fittings Mechanical Properties",
+    "Monel K500 Forged Fittings Chemical Composition",
+    "Monel K500 Forged Fittings Stockist in Pune",
+    "Monel K500 Forged Fittings Exporter",
+    "Monel K500 Forged Fittings Price in Mumbai",
+    "Monel K500 Forged Fittings Size Chart",
+    "Monel K500 Threaded Elbow Price",
+    "Monel K500 Threaded Tee Supplier",
+    "Monel K500 Threaded Cross Manufacturers",
+    "Monel K500 Forged Fittings Catalog PDF",
+    "Monel K500 Forged Fittings Equivalent Grades",
+    "Monel K500 Forged Fittings Price per Piece",
+    "Monel K500 Forged Fittings updated price list",
+    "Monel K500 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Monel K500 Forged Fittings Manufacturers in Gujarat",
+    "Monel K500 Forged Fittings Stockyards in India",
+    "Monel K500 Forged Fittings thickness chart",
+    "Monel K500 Forged Fittings Price in India",
+    "Top 100 Monel K500 Forged Fittings Dealers in Mumbai",
+    "Buy Monel K500 Forged Fittings Online",
+    "Monel K500 Forged Fittings leading manufacturers in India",
+    "UNS N05500 Forged Fittings Price India",
+    "Werkstoff 2.4375 Forged Fittings Price India",
+    "Monel K500 Forged Fittings Heat Treatment",
+    "Monel K500 Forged Fittings Annealing Temperature",
+    "Monel K500 Forged Fittings Hardness Range",
+    "Monel K500 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 46,
+  slug: "inconel-600-forged-fittings",
+  image: "/stock/inconel-600-forged-fittings.jpg",
+  title:
+    "Inconel 600 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N06600 / WNR. 2.4816 (Nickel-Chromium-Iron Alloy)",
+  shortDescription:
+    "Inconel 600 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Inconel alloy 600 threaded forged fittings have the best corrosion resistance properties. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Inconel alloy 600 forged fittings are available in different sizes and shapes. Inconel alloy 600 threaded forged fittings have high atmospheric corrosion resistance. Inconel 600 forged threaded cap has high stress – cracking resistance. Inconel 600 forged threaded fittings have excellent ductility properties and high durability. Inconel 600 forged threaded cross can only be hardened by cold working. Inconel 600 elbow forged fittings cannot be annealed by the heat working process. Inconel 600 forged threaded fittings are non – magnetic alloys and they possess high strength properties. Inconel alloy 600 threaded forged fittings have a wide range of usage in different industries due to their excellent features. Inconel 600 forged threaded fittings are mostly used for food processing equipment and chemical equipment. Inconel 600 elbow forged fittings are also used for valves. Inconel 600 forged threaded cross are also used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 600 (UNS N06600 / WNR. 2.4816)":
+        "A nickel-chromium-iron alloy with best corrosion resistance properties. High atmospheric corrosion resistance. High stress-cracking resistance. Excellent ductility properties and high durability. Can only be hardened by cold working. Cannot be annealed by the heat working process. Non-magnetic alloy with high strength properties. Used for food processing equipment, chemical equipment, valves, heat exchangers, and condensers. Werkstoff Nr. 2.4816.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Inconel 600 (UNS N06600 / WNR. 2.4816)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 600", uns: "N06600", werkstoff: "2.4816", standard: "ASTM" },
+    { grade: "Alloy 600", uns: "N06600", werkstoff: "2.4816", standard: "—" },
+    { grade: "UNS N06600", uns: "N06600", werkstoff: "2.4816", standard: "—" },
+    { grade: "NCF 600", uns: "N06600", werkstoff: "2.4816", standard: "JIS" },
+    { grade: "NA 13", uns: "N06600", werkstoff: "2.4816", standard: "BS" },
+    { grade: "NC15Fe", uns: "N06600", werkstoff: "2.4816", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 600",
+      c: "0.15 max",
+      mn: "1.00 max",
+      si: "0.50 max",
+      cr: "14.00 – 17.00",
+      ni: "72.00 min",
+      mo: "—",
+      other: "Fe: 6.00 – 10.00, S: 0.015 max, Cu: 0.50 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 600",
+      tensile: "550 MPa (80 ksi) min",
+      yield: "240 MPa (35 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.47 g/cm³",
+      meltingPoint: "1354 °C – 1413 °C (2470 °F – 2575 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1093°C – 1177°C (2000°F – 2150°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 2.4816 Alloy Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 600 45 Deg Forged Threaded Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N06600 90 Deg Threaded Elbow", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Inconel 600 Threaded Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy 600 Threaded Coupling", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4816 Alloy Threaded Forged Fittings",
+    "Inconel 600 Threaded Fittings",
+    "UNS N06600 Threaded Lateral Tee",
+    "Alloy 600 45 Deg Forged Threaded Elbow",
+    "UNS N06600 90 Deg Threaded Elbow",
+    "Inconel Alloy 600 Threaded Cross",
+    "600 Alloy Threaded Cross",
+    "Inconel 600 Threaded Cap",
+    "Alloy 600 Threaded Coupling",
+    "Inconel 600 Threaded Union",
+    "Alloy 600 Threaded Bushing",
+    "Inconel 600 Forged Threaded Plug",
+    "Inconel Alloy 600 Threaded Hex Plug",
+    "UNS N06600 Hexagonal Plug",
+    "WNR. 2.4816 Alloy Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Food Processing Equipment",
+    "Chemical Equipment",
+    "Valves",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Aerospace Industries",
+    "Nuclear Fuel Reprocessing",
+    "Pharmaceutical Equipment",
+    "Marine Industries",
+  ],
+
+  specializedIn: [
+    "Inconel 600 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Inconel 600 Forged Fittings Exporter",
+    "ANSI B16.11 Inconel 600 Threaded Forged Fittings Stockist in India",
+    "Inconel 600 Forged Fittings Dealer",
+    "Inconel 600 Threaded 90° Elbow Supplier",
+    "Supplier of Inconel 600 Threaded 45° Elbow",
+    "Alloy 600 Threaded Tee Manufacturer",
+    "Inconel 600 Threaded Cross Exporter",
+    "Inconel 600 Threaded Union Manufacturer",
+    "Inconel WERKSTOFF NR. 2.4816 Threaded Coupling Exporter",
+    "Inconel 600 Threaded Cap Supplier",
+    "Inconel 600 Hexagonal Plug Supplier",
+    "Inconel UNS N06600 Threaded Forged Fittings Exporter",
+    "ASME SB564 Inconel 600 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Inconel 600 Forged Fittings Price List",
+    "Inconel 600 Forged Fittings Weight Calculator",
+    "Inconel 600 Forged Fittings Dimensions",
+    "Inconel 600 Forged Fittings Price Per Kg in India",
+    "Inconel 600 Forged Fittings Manufacturer in Mumbai",
+    "Inconel 600 Forged Fittings Supplier in India",
+    "Inconel 600 Forged Fittings Thickness Tolerance",
+    "Inconel 600 Forged Fittings Price List PDF",
+    "Inconel 600 Forged Fittings Mechanical Properties",
+    "Inconel 600 Forged Fittings Chemical Composition",
+    "Inconel 600 Forged Fittings Stockist in Pune",
+    "Inconel 600 Forged Fittings Exporter",
+    "Inconel 600 Forged Fittings Price in Mumbai",
+    "Inconel 600 Forged Fittings Size Chart",
+    "Inconel 600 Threaded Elbow Price",
+    "Inconel 600 Threaded Tee Supplier",
+    "Inconel 600 Threaded Cross Manufacturers",
+    "Inconel 600 Forged Fittings Catalog PDF",
+    "Inconel 600 Forged Fittings Equivalent Grades",
+    "Inconel 600 Forged Fittings Price per Piece",
+    "Inconel 600 Forged Fittings updated price list",
+    "Inconel 600 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Inconel 600 Forged Fittings Manufacturers in Gujarat",
+    "Inconel 600 Forged Fittings Stockyards in India",
+    "Inconel 600 Forged Fittings thickness chart",
+    "Inconel 600 Forged Fittings Price in India",
+    "Top 100 Inconel 600 Forged Fittings Dealers in Mumbai",
+    "Buy Inconel 600 Forged Fittings Online",
+    "Inconel 600 Forged Fittings leading manufacturers in India",
+    "UNS N06600 Forged Fittings Price India",
+    "Werkstoff 2.4816 Forged Fittings Price India",
+    "Inconel 600 Forged Fittings Heat Treatment",
+    "Inconel 600 Forged Fittings Annealing Temperature",
+    "Inconel 600 Forged Fittings Hardness Range",
+    "Inconel 600 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 47,
+  slug: "inconel-601-forged-fittings",
+  image: "/stock/inconel-601-forged-fittings.jpg",
+  title:
+    "Inconel 601 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N06601 / WNR. 2.4851 (Nickel-Chromium-Iron Alloy)",
+  shortDescription:
+    "Inconel 601 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Inconel 601 forged fittings have the best corrosion resistance to sulfide. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Inconel alloy 601 threaded forged fittings are available in different sizes and shapes. Inconel alloy 601 threaded forged fittings have excellent welding and machining properties. Inconel 601 forged threaded hex plug has the best corrosion resistance to corrosive media. Inconel 601 forged threaded hexagonal plug has best corrosion resistance to aqueous corrosion. Inconel 601 forged threaded bushings have excellent corrosion resistance to oxidation at the temperature of 2200 degree F, and they also have corrosion resistance to high-temperature environments.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 601 (UNS N06601 / WNR. 2.4851)":
+        "A nickel-chromium-iron alloy with best corrosion resistance to sulfide. Excellent welding and machining properties. Best corrosion resistance to corrosive media. Best corrosion resistance to aqueous corrosion. Excellent corrosion resistance to oxidation at 2200°F and high-temperature environments. Werkstoff Nr. 2.4851.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Inconel 601 (UNS N06601 / WNR. 2.4851)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 601", uns: "N06601", werkstoff: "2.4851", standard: "ASTM" },
+    { grade: "Alloy 601", uns: "N06601", werkstoff: "2.4851", standard: "—" },
+    { grade: "UNS N06601", uns: "N06601", werkstoff: "2.4851", standard: "—" },
+    { grade: "NCF 601", uns: "N06601", werkstoff: "2.4851", standard: "JIS" },
+    { grade: "NA 49", uns: "N06601", werkstoff: "2.4851", standard: "BS" },
+    { grade: "NC23FeA", uns: "N06601", werkstoff: "2.4851", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 601",
+      c: "0.10 max",
+      mn: "1.00 max",
+      si: "0.50 max",
+      cr: "21.00 – 25.00",
+      ni: "58.00 – 63.00",
+      mo: "—",
+      other: "Fe: Bal, S: 0.015 max, Cu: 1.00 max, Al: 1.00 – 1.70",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 601",
+      tensile: "550 MPa (80 ksi) min",
+      yield: "240 MPa (35 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.11 g/cm³",
+      meltingPoint: "1360 °C – 1411 °C (2480 °F – 2571 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1093°C – 1177°C (2000°F – 2150°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "601 Alloy Threaded Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N06601 90 Deg Threaded Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Inconel Alloy 601 Threaded Cross", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy 601 Threaded Coupling", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WNR. 2.4851 Alloy Threaded Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4851 Alloy Threaded Forged Fittings",
+    "Inconel 601 Threaded Fittings",
+    "UNS N06601 Threaded Lateral Tee",
+    "Alloy 601 45 Deg Forged Threaded Elbow",
+    "UNS N06601 90 Deg Threaded Elbow",
+    "Inconel Alloy 601 Threaded Cross",
+    "601 Alloy Threaded Cross",
+    "Inconel 601 Threaded Cap",
+    "Alloy 601 Threaded Coupling",
+    "Inconel 601 Threaded Union",
+    "Alloy 601 Threaded Bushing",
+    "Inconel 601 Forged Threaded Plug",
+    "Inconel Alloy 601 Threaded Hex Plug",
+    "UNS N06601 Hexagonal Plug",
+    "WNR. 2.4851 Alloy Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Processing",
+    "Petrochemicals",
+    "Heat Exchangers & Condensers",
+    "Power Generation",
+    "Gas Processing",
+    "Aerospace Industries",
+    "Industrial Furnaces",
+    "Refineries",
+    "Oil & Natural Gas",
+    "Pharmaceutical Equipment",
+    "Pollution Control Equipment",
+    "Nuclear Fuel Reprocessing",
+  ],
+
+  specializedIn: [
+    "Inconel 601 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Inconel 601 Forged Fittings Exporter",
+    "ANSI B16.11 Inconel 601 Threaded Forged Fittings Stockist in India",
+    "Inconel 601 Forged Fittings Dealer",
+    "Inconel 601 Threaded 90° Elbow Supplier",
+    "Supplier of Inconel 601 Threaded 45° Elbow",
+    "Alloy 601 Threaded Tee Manufacturer",
+    "Inconel 601 Threaded Cross Exporter",
+    "Inconel 601 Threaded Union Manufacturer",
+    "Inconel WERKSTOFF NR. 2.4851 Threaded Coupling Exporter",
+    "Inconel 601 Threaded Cap Supplier",
+    "Inconel 601 Hexagonal Plug Supplier",
+    "Inconel UNS N06601 Threaded Forged Fittings Exporter",
+    "ASME SB564 Inconel 601 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Inconel 601 Forged Fittings Price List",
+    "Inconel 601 Forged Fittings Weight Calculator",
+    "Inconel 601 Forged Fittings Dimensions",
+    "Inconel 601 Forged Fittings Price Per Kg in India",
+    "Inconel 601 Forged Fittings Manufacturer in Mumbai",
+    "Inconel 601 Forged Fittings Supplier in India",
+    "Inconel 601 Forged Fittings Thickness Tolerance",
+    "Inconel 601 Forged Fittings Price List PDF",
+    "Inconel 601 Forged Fittings Mechanical Properties",
+    "Inconel 601 Forged Fittings Chemical Composition",
+    "Inconel 601 Forged Fittings Stockist in Pune",
+    "Inconel 601 Forged Fittings Exporter",
+    "Inconel 601 Forged Fittings Price in Mumbai",
+    "Inconel 601 Forged Fittings Size Chart",
+    "Inconel 601 Threaded Elbow Price",
+    "Inconel 601 Threaded Tee Supplier",
+    "Inconel 601 Threaded Cross Manufacturers",
+    "Inconel 601 Forged Fittings Catalog PDF",
+    "Inconel 601 Forged Fittings Equivalent Grades",
+    "Inconel 601 Forged Fittings Price per Piece",
+    "Inconel 601 Forged Fittings updated price list",
+    "Inconel 601 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Inconel 601 Forged Fittings Manufacturers in Gujarat",
+    "Inconel 601 Forged Fittings Stockyards in India",
+    "Inconel 601 Forged Fittings thickness chart",
+    "Inconel 601 Forged Fittings Price in India",
+    "Top 100 Inconel 601 Forged Fittings Dealers in Mumbai",
+    "Buy Inconel 601 Forged Fittings Online",
+    "Inconel 601 Forged Fittings leading manufacturers in India",
+    "UNS N06601 Forged Fittings Price India",
+    "Werkstoff 2.4851 Forged Fittings Price India",
+    "Inconel 601 Forged Fittings Heat Treatment",
+    "Inconel 601 Forged Fittings Annealing Temperature",
+    "Inconel 601 Forged Fittings Hardness Range",
+    "Inconel 601 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 48,
+  slug: "inconel-625-forged-fittings",
+  image: "/stock/inconel-625-forged-fittings.jpg",
+  title:
+    "Inconel 625 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N06625 / WNR. 2.4856 (Nickel-Chromium-Molybdenum-Niobium Alloy)",
+  shortDescription:
+    "Inconel 625 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Inconel alloy 625 threaded forged fittings have the best corrosion resistance to crevice and pitting corrosion. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Inconel alloy 625 threaded forged fittings are available in different sizes and shapes. Inconel 625 forged threaded elbow excellent welding and machining properties. Inconel 625 forged threaded cap is suitable for both low and high temperatures. Inconel 625 forged threaded bushing has high tensile strength. Inconel alloy 625 threaded forged fittings have the best corrosion resistance to crevice and pitting corrosion. Inconel 625 forged threaded plug has the best corrosion resistance to stress – cracking corrosion and chloride. Inconel 625 forged threaded coupling is mostly used for heat exchangers and condensers. Inconel 625 forged threaded fittings union is often used in marine and shipbuilding companies. Inconel 625 threaded forged fittings are also used for seawater equipment and offshore oil drilling companies. Inconel 625 forged threaded plug is extensively used in chemical equipment and pharmaceutical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Inconel 625 (UNS N06625 / WNR. 2.4856)":
+        "A nickel-chromium-molybdenum-niobium alloy with best corrosion resistance to crevice and pitting corrosion. Excellent welding and machining properties. Suitable for both low and high temperatures. High tensile strength. Best corrosion resistance to stress-cracking corrosion and chloride. Used for heat exchangers, condensers, marine and shipbuilding companies, seawater equipment, offshore oil drilling companies, chemical equipment, and pharmaceutical equipment. Werkstoff Nr. 2.4856.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Inconel 625 (UNS N06625 / WNR. 2.4856)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Inconel 625", uns: "N06625", werkstoff: "2.4856", standard: "ASTM" },
+    { grade: "Alloy 625", uns: "N06625", werkstoff: "2.4856", standard: "—" },
+    { grade: "UNS N06625", uns: "N06625", werkstoff: "2.4856", standard: "—" },
+    { grade: "NCF 625", uns: "N06625", werkstoff: "2.4856", standard: "JIS" },
+    { grade: "NA 21", uns: "N06625", werkstoff: "2.4856", standard: "BS" },
+    { grade: "NC22DNb", uns: "N06625", werkstoff: "2.4856", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Inconel 625",
+      c: "0.10 max",
+      mn: "0.50 max",
+      si: "0.50 max",
+      cr: "20.00 – 23.00",
+      ni: "58.00 min",
+      mo: "8.00 – 10.00",
+      other: "Fe: 5.00 max, S: 0.015 max, Al: 0.40 max, Ti: 0.40 max, Nb+Ta: 3.15 – 4.15, Co: 1.00 max",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Inconel 625",
+      tensile: "827 MPa (120 ksi) min",
+      yield: "414 MPa (60 ksi) min",
+      elongation: "30% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.44 g/cm³",
+      meltingPoint: "1290 °C – 1350 °C (2350 °F – 2460 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1093°C – 1177°C (2000°F – 2150°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 2.4856 Alloy Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N06625 90 Deg Threaded Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy 625 Threaded Bushing", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "UNS N06625 Hexagonal Plug", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Inconel Alloy 625 Threaded Hex Plug", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4856 Alloy Threaded Forged Fittings",
+    "Inconel 625 Threaded Fittings",
+    "UNS N06625 Threaded Lateral Tee",
+    "Alloy 625 45 Deg Forged Threaded Elbow",
+    "UNS N06625 90 Deg Threaded Elbow",
+    "Inconel Alloy 625 Threaded Cross",
+    "625 Alloy Threaded Cross",
+    "Inconel 625 Threaded Cap",
+    "Alloy 625 Threaded Coupling",
+    "Inconel 625 Threaded Union",
+    "Alloy 625 Threaded Bushing",
+    "Inconel 625 Forged Threaded Plug",
+    "Inconel Alloy 625 Threaded Hex Plug",
+    "UNS N06625 Hexagonal Plug",
+    "WNR. 2.4856 Alloy Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Heat Exchangers & Condensers",
+    "Marine & Shipbuilding Companies",
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Chemical Equipment",
+    "Pharmaceutical Equipment",
+    "Aerospace Industries",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Nuclear Fuel Reprocessing",
+  ],
+
+  specializedIn: [
+    "Inconel 625 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Inconel 625 Forged Fittings Exporter",
+    "ANSI B16.11 Inconel 625 Threaded Forged Fittings Stockist in India",
+    "Inconel 625 Forged Fittings Dealer",
+    "Inconel 625 Threaded 90° Elbow Supplier",
+    "Supplier of Inconel 625 Threaded 45° Elbow",
+    "Alloy 625 Threaded Tee Manufacturer",
+    "Inconel 625 Threaded Cross Exporter",
+    "Inconel 625 Threaded Union Manufacturer",
+    "Inconel WERKSTOFF NR. 2.4856 Threaded Coupling Exporter",
+    "Inconel 625 Threaded Cap Supplier",
+    "Inconel 625 Hexagonal Plug Supplier",
+    "Inconel UNS N06625 Threaded Forged Fittings Exporter",
+    "ASME SB564 Inconel 625 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Inconel 625 Forged Fittings Price List",
+    "Inconel 625 Forged Fittings Weight Calculator",
+    "Inconel 625 Forged Fittings Dimensions",
+    "Inconel 625 Forged Fittings Price Per Kg in India",
+    "Inconel 625 Forged Fittings Manufacturer in Mumbai",
+    "Inconel 625 Forged Fittings Supplier in India",
+    "Inconel 625 Forged Fittings Thickness Tolerance",
+    "Inconel 625 Forged Fittings Price List PDF",
+    "Inconel 625 Forged Fittings Mechanical Properties",
+    "Inconel 625 Forged Fittings Chemical Composition",
+    "Inconel 625 Forged Fittings Stockist in Pune",
+    "Inconel 625 Forged Fittings Exporter",
+    "Inconel 625 Forged Fittings Price in Mumbai",
+    "Inconel 625 Forged Fittings Size Chart",
+    "Inconel 625 Threaded Elbow Price",
+    "Inconel 625 Threaded Tee Supplier",
+    "Inconel 625 Threaded Cross Manufacturers",
+    "Inconel 625 Forged Fittings Catalog PDF",
+    "Inconel 625 Forged Fittings Equivalent Grades",
+    "Inconel 625 Forged Fittings Price per Piece",
+    "Inconel 625 Forged Fittings updated price list",
+    "Inconel 625 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Inconel 625 Forged Fittings Manufacturers in Gujarat",
+    "Inconel 625 Forged Fittings Stockyards in India",
+    "Inconel 625 Forged Fittings thickness chart",
+    "Inconel 625 Forged Fittings Price in India",
+    "Top 100 Inconel 625 Forged Fittings Dealers in Mumbai",
+    "Buy Inconel 625 Forged Fittings Online",
+    "Inconel 625 Forged Fittings leading manufacturers in India",
+    "UNS N06625 Forged Fittings Price India",
+    "Werkstoff 2.4856 Forged Fittings Price India",
+    "Inconel 625 Forged Fittings Heat Treatment",
+    "Inconel 625 Forged Fittings Annealing Temperature",
+    "Inconel 625 Forged Fittings Hardness Range",
+    "Inconel 625 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 50,
+  slug: "incoloy-800-800h-800ht-forged-fittings",
+  image: "/stock/incoloy-800-800h-800ht-forged-fittings.jpg",
+  title:
+    "Incoloy 800 / 800H / 800HT Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N08800 / N08810 / N08811 / WNR. 1.4876 / 1.4958 / 1.4859",
+  shortDescription:
+    "Incoloy 800 / 800H / 800HT Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Inconel alloy 800 / 800H / 800HT threaded forged fittings have the best corrosion resistance to an acidic solution. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Inconel alloy 800 / 800H / 800HT threaded forged fittings are available in different sizes and shapes. Incoloy 800H forged threaded cross has excellent corrosion resistance to sulfidation and acidic solution. Incoloy 800HT forged threaded coupling also has high corrosion resistance to stress – cracking solution and oxidization. Incoloy 800HT forged threaded union has high annealing and welding properties. Incoloy 800 forged threaded coupling is suitable to use in both low and high-temperature environments. Incoloy 800H forged threaded fittings have outstanding corrosion resistance to carburization solution. Incoloy 800 forged threaded hexagonal plus are usually used for heat exchangers and condensers. Incoloy 800HT forged threaded coupling can be used in valves. Incoloy 800H forged threaded fittings are often used in seawater equipment and offshore oil drilling companies.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Incoloy 800 (UNS N08800 / WNR. 1.4876)":
+        "An austenitic nickel-iron-chromium alloy with best corrosion resistance to acidic solutions. Suitable for use in both low and high-temperature environments. Used for heat exchangers, condensers, and general corrosion-resistant applications. Werkstoff Nr. 1.4876.",
+      "Incoloy 800H (UNS N08810 / WNR. 1.4958 / 1.4876)":
+        "A modified version of Incoloy 800 with excellent corrosion resistance to sulfidation and acidic solutions. Outstanding corrosion resistance to carburization solution. Used in seawater equipment and offshore oil drilling companies. Werkstoff Nr. 1.4958 / 1.4876.",
+      "Incoloy 800HT (UNS N08811 / WNR. 1.4859 / 1.4876)":
+        "A modified version of Incoloy 800H with high corrosion resistance to stress-cracking solutions and oxidization. High annealing and welding properties. Used in valves and high-temperature applications. Werkstoff Nr. 1.4859 / 1.4876.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Incoloy 800 (UNS N08800 / WNR. 1.4876), Incoloy 800H (UNS N08810 / WNR. 1.4958 / 1.4876), Incoloy 800HT (UNS N08811 / WNR. 1.4859 / 1.4876)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Incoloy 800", uns: "N08800", werkstoff: "1.4876", standard: "ASTM" },
+    { grade: "Incoloy 800H", uns: "N08810", werkstoff: "1.4958 / 1.4876", standard: "ASTM" },
+    { grade: "Incoloy 800HT", uns: "N08811", werkstoff: "1.4859 / 1.4876", standard: "ASTM" },
+    { grade: "NCF 800", uns: "N08800", werkstoff: "1.4876", standard: "JIS" },
+    { grade: "NCF 800H", uns: "N08810", werkstoff: "1.4958 / 1.4876", standard: "JIS" },
+    { grade: "NCF 800HT", uns: "N08811", werkstoff: "1.4859 / 1.4876", standard: "JIS" },
+    { grade: "NA 15", uns: "N08800", werkstoff: "1.4876", standard: "BS" },
+    { grade: "NA 15(H)", uns: "N08810", werkstoff: "1.4958 / 1.4876", standard: "BS" },
+    { grade: "NA 15(HT)", uns: "N08811", werkstoff: "1.4859 / 1.4876", standard: "BS" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Incoloy 800",
+      c: "0.10 max",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "S: 0.015 max, Cu: 0.75 max, Fe: 39.50 min, Al: 0.15 – 0.60, Ti: 0.15 – 0.60",
+    },
+    {
+      grade: "Incoloy 800H",
+      c: "0.05 – 0.10",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "S: 0.015 max, Cu: 0.75 max, Fe: 39.50 min, Al: 0.15 – 0.60, Ti: 0.15 – 0.60",
+    },
+    {
+      grade: "Incoloy 800HT",
+      c: "0.06 – 0.10",
+      mn: "1.50 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "30.00 – 35.00",
+      mo: "—",
+      other: "S: 0.015 max, Cu: 0.75 max, Fe: 39.50 min, Al: 0.15 – 0.60ᴬ, Ti: 0.15 – 0.60ᴬ",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "800 / 800H / 800HT",
+      tensile: "520 MPa (75,000 psi)",
+      yield: "205 MPa (30,000 psi)",
+      elongation: "30%",
+      reduction: "—",
+      hardness: "—",
+      density: "7.94 g/cm³",
+      meltingPoint: "1385 °C (2525 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "980°C – 1150°C (1800°F – 2100°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 1.4876 Alloy Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N08800 90 Deg Threaded Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Incoloy 800 Threaded Fittings", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "UNS N08800 Threaded Lateral Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WNR. 1.4876 Alloy Threaded Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 1.4876 Alloy Threaded Forged Fittings",
+    "Incoloy 800 Threaded Fittings",
+    "UNS N08800 Threaded Lateral Tee",
+    "Alloy 800HT 45 Deg Forged Threaded Elbow",
+    "UNS N08800 90 Deg Threaded Elbow",
+    "Incoloy Alloy 800H Threaded Cross",
+    "800 Alloy Threaded Cross",
+    "Incoloy 800H Threaded Cap",
+    "Alloy 800 Threaded Coupling",
+    "Incoloy 800 Threaded Union",
+    "Alloy 800 Threaded Bushing",
+    "Incoloy 800HT Forged Threaded Plug",
+    "Incoloy Alloy 800H Threaded Hex Plug",
+    "UNS N08800 Hexagonal Plug",
+    "WNR. 1.4876 Alloy Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Heat Exchangers & Condensers",
+    "Valves",
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Power Generation",
+    "Gas Processing Equipment",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Pharmaceutical Equipment",
+    "Food Processing Equipment",
+  ],
+
+  specializedIn: [
+    "Incoloy 800 / 800H / 800HT Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Incoloy 800 Forged Fittings Exporter",
+    "ANSI B16.11 Incoloy 800H Threaded Forged Fittings Stockist in India",
+    "Incoloy 800 Forged Fittings Dealer",
+    "Incoloy 800 Threaded 90° Elbow Supplier",
+    "Supplier of Incoloy 800H Threaded 45° Elbow",
+    "Alloy 800HT Threaded Tee Manufacturer",
+    "Incoloy 800 Threaded Cross Exporter",
+    "Incoloy 800H Threaded Union Manufacturer",
+    "Incoloy WERKSTOFF NR. 1.4876 / 1.4958 Threaded Coupling Exporter",
+    "Incoloy 800HT Threaded Cap Supplier",
+    "Incoloy 800 Hexagonal Plug Supplier",
+    "Incoloy UNS N08800 Threaded Forged Fittings Exporter",
+    "ASME SB564 Incoloy 800H Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Incoloy 800 Forged Fittings Price List",
+    "Incoloy 800H Forged Fittings Weight Calculator",
+    "Incoloy 800HT Forged Fittings Dimensions",
+    "Incoloy 800 Forged Fittings Price Per Kg in India",
+    "Incoloy 800 Forged Fittings Manufacturer in Mumbai",
+    "Incoloy 800 Forged Fittings Supplier in India",
+    "Incoloy 800H Forged Fittings Thickness Tolerance",
+    "Incoloy 800HT Forged Fittings Price List PDF",
+    "Incoloy 800 Forged Fittings Mechanical Properties",
+    "Incoloy 800 Forged Fittings Chemical Composition",
+    "Incoloy 800 Forged Fittings Stockist in Pune",
+    "Incoloy 800 Forged Fittings Exporter",
+    "Incoloy 800 Forged Fittings Price in Mumbai",
+    "Incoloy 800 Forged Fittings Size Chart",
+    "Incoloy 800 Threaded Elbow Price",
+    "Incoloy 800 Threaded Tee Supplier",
+    "Incoloy 800 Threaded Cross Manufacturers",
+    "Incoloy 800 Forged Fittings Catalog PDF",
+    "Incoloy 800 Forged Fittings Equivalent Grades",
+    "Incoloy 800 Forged Fittings Price per Piece",
+    "Incoloy 800 Forged Fittings updated price list",
+    "Incoloy 800 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Incoloy 800 Forged Fittings Manufacturers in Gujarat",
+    "Incoloy 800 Forged Fittings Stockyards in India",
+    "Incoloy 800 Forged Fittings thickness chart",
+    "Incoloy 800 Forged Fittings Price in India",
+    "Top 100 Incoloy 800 Forged Fittings Dealers in Mumbai",
+    "Buy Incoloy 800 Forged Fittings Online",
+    "Incoloy 800 Forged Fittings leading manufacturers in India",
+    "UNS N08800 Forged Fittings Price India",
+    "Werkstoff 1.4876 Forged Fittings Price India",
+    "Incoloy 800 Forged Fittings Heat Treatment",
+    "Incoloy 800H Forged Fittings Annealing Temperature",
+    "Incoloy 800 Forged Fittings Hardness Range",
+    "Incoloy 800HT Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 51,
+  slug: "hastelloy-c22-forged-fittings",
+  image: "/stock/hastelloy-c22-forged-fittings.jpg",
+  title:
+    "Hastelloy C22 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N06022 / DIN 2.4602 (Nickel-Chromium-Molybdenum-Tungsten Alloy)",
+  shortDescription:
+    "Hastelloy C22 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Hastelloy alloy C22 threaded forged fittings have the best corrosion resistance to oxidizing media. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Hastelloy alloy C22 forged fittings are available in different sizes and shapes. Hastelloy C22 forged threaded union can be annealed at the temperature of 2020 - 2150 Degree F. Hastelloy alloy C22 threaded forged fittings have the best corrosion resistance to oxidizing media, such as to wet chlorine and chlorine ions. Hastelloy C22 forged threaded tee fittings have outstanding corrosion resistance to oxidizing and reducing environments. Hastelloy C22 Forged threaded plug can be cold worked at the temperature between 1400 – 1800 Degree F. Hastelloy C22 forged threaded bend fittings have excellent resistance to nitric acid, natural and artificial solution. Hastelloy C22 forged threaded coupling fittings are mostly used for chemical equipment. Hastelloy C22 forged tee fittings are also used for petrochemicals and gas processing units. Hastelloy C22 forged threaded union is used for pharmaceutical equipment and heat exchangers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Hastelloy C22 (UNS N06022 / DIN 2.4602)":
+        "A nickel-chromium-molybdenum-tungsten alloy with best corrosion resistance to oxidizing media. Best corrosion resistance to oxidizing media such as wet chlorine and chlorine ions. Outstanding corrosion resistance to oxidizing and reducing environments. Can be annealed at 2020-2150°F. Can be cold worked at 1400-1800°F. Excellent resistance to nitric acid, natural and artificial solutions. Used for chemical equipment, petrochemicals, gas processing units, pharmaceutical equipment, and heat exchangers. DIN 2.4602.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Hastelloy C22 (UNS N06022 / DIN 2.4602)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Hastelloy C22", uns: "N06022", werkstoff: "2.4602", standard: "ASTM" },
+    { grade: "Alloy C22", uns: "N06022", werkstoff: "2.4602", standard: "—" },
+    { grade: "UNS N06022", uns: "N06022", werkstoff: "2.4602", standard: "—" },
+    { grade: "NCF 622", uns: "N06022", werkstoff: "2.4602", standard: "JIS" },
+    { grade: "NA 22", uns: "N06022", werkstoff: "2.4602", standard: "BS" },
+    { grade: "NC22DNb", uns: "N06022", werkstoff: "2.4602", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Hastelloy C22",
+      c: "0.015 max",
+      mn: "0.50 max",
+      si: "0.08 max",
+      cr: "20.00 – 22.50",
+      ni: "50.00 – 56.00",
+      mo: "12.50 – 14.50",
+      other: "P: 0.02 max, S: 0.02 max, Co: 2.50 max, W: 2.50 – 3.50, V: 0.35 max, Fe: 2.00 – 6.00",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Hastelloy C22",
+      tensile: "690 MPa (100 ksi) min",
+      yield: "283 MPa (41 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.69 g/cm³",
+      meltingPoint: "1357 °C – 1397 °C (2475 °F – 2545 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1120°C – 1180°C (2050°F – 2150°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Rapid Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 2.4602 Alloy Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS N06022 Threaded Lateral Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Hastelloy C22 Threaded Cross", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "C22 Alloy Threaded Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Hastelloy C22 Threaded Union", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4602 Alloy Threaded Forged Fittings",
+    "Hastelloy C22 Threaded Fittings",
+    "UNS N06022 Threaded Lateral Tee",
+    "Alloy C22 45 Deg Forged Threaded Elbow",
+    "UNS N06022 90 Deg Threaded Elbow",
+    "Hastelloy C22 Threaded Cross",
+    "C22 Alloy Threaded Cross",
+    "Hastelloy C22 Threaded Cap",
+    "Alloy C22 Threaded Coupling",
+    "Hastelloy C22 Threaded Union",
+    "Alloy C22 Threaded Bushing",
+    "Hastelloy C22 Forged Threaded Plug",
+    "Hastelloy C22 Threaded Hex Plug",
+    "UNS N06022 Hexagonal Plug",
+    "WNR. 2.4602 Alloy Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Equipment",
+    "Petrochemicals",
+    "Gas Processing Units",
+    "Pharmaceutical Equipment",
+    "Heat Exchangers & Condensers",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pulp & Paper Industry",
+    "Seawater Equipment",
+    "Pollution Control Equipment",
+    "Nuclear Fuel Reprocessing",
+  ],
+
+  specializedIn: [
+    "Hastelloy C22 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Hastelloy C22 Forged Fittings Exporter",
+    "ANSI B16.11 Hastelloy C22 Threaded Forged Fittings Stockist in India",
+    "Hastelloy C22 Forged Fittings Dealer",
+    "Hastelloy C22 Threaded 90° Elbow Supplier",
+    "Supplier of Hastelloy C22 Threaded 45° Elbow",
+    "Alloy C22 Threaded Tee Manufacturer",
+    "Hastelloy C22 Threaded Cross Exporter",
+    "Hastelloy C22 Threaded Union Manufacturer",
+    "Hastelloy DIN 2.4602 Threaded Coupling Exporter",
+    "Hastelloy C22 Threaded Cap Supplier",
+    "Hastelloy C22 Hexagonal Plug Supplier",
+    "Hastelloy UNS N06022 Threaded Forged Fittings Exporter",
+    "ASME SB564 Hastelloy C22 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Hastelloy C22 Forged Fittings Price List",
+    "Hastelloy C22 Forged Fittings Weight Calculator",
+    "Hastelloy C22 Forged Fittings Dimensions",
+    "Hastelloy C22 Forged Fittings Price Per Kg in India",
+    "Hastelloy C22 Forged Fittings Manufacturer in Mumbai",
+    "Hastelloy C22 Forged Fittings Supplier in India",
+    "Hastelloy C22 Forged Fittings Thickness Tolerance",
+    "Hastelloy C22 Forged Fittings Price List PDF",
+    "Hastelloy C22 Forged Fittings Mechanical Properties",
+    "Hastelloy C22 Forged Fittings Chemical Composition",
+    "Hastelloy C22 Forged Fittings Stockist in Pune",
+    "Hastelloy C22 Forged Fittings Exporter",
+    "Hastelloy C22 Forged Fittings Price in Mumbai",
+    "Hastelloy C22 Forged Fittings Size Chart",
+    "Hastelloy C22 Threaded Elbow Price",
+    "Hastelloy C22 Threaded Tee Supplier",
+    "Hastelloy C22 Threaded Cross Manufacturers",
+    "Hastelloy C22 Forged Fittings Catalog PDF",
+    "Hastelloy C22 Forged Fittings Equivalent Grades",
+    "Hastelloy C22 Forged Fittings Price per Piece",
+    "Hastelloy C22 Forged Fittings updated price list",
+    "Hastelloy C22 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Hastelloy C22 Forged Fittings Manufacturers in Gujarat",
+    "Hastelloy C22 Forged Fittings Stockyards in India",
+    "Hastelloy C22 Forged Fittings thickness chart",
+    "Hastelloy C22 Forged Fittings Price in India",
+    "Top 100 Hastelloy C22 Forged Fittings Dealers in Mumbai",
+    "Buy Hastelloy C22 Forged Fittings Online",
+    "Hastelloy C22 Forged Fittings leading manufacturers in India",
+    "UNS N06022 Forged Fittings Price India",
+    "Werkstoff 2.4602 Forged Fittings Price India",
+    "Hastelloy C22 Forged Fittings Heat Treatment",
+    "Hastelloy C22 Forged Fittings Annealing Temperature",
+    "Hastelloy C22 Forged Fittings Hardness Range",
+    "Hastelloy C22 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 52,
+  slug: "hastelloy-c276-forged-fittings",
+  image: "/stock/hastelloy-c276-forged-fittings.jpg",
+  title:
+    "Hastelloy C276 Forged Fittings Supplier – ASTM B564 / ASME SB564 / UNS N10276 / DIN 2.4819 (Nickel-Molybdenum-Chromium Alloy)",
+  shortDescription:
+    "Hastelloy C276 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Hastelloy alloy C276 threaded forged fittings have the best corrosion resistance to chemical environments. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Hastelloy alloy C276 threaded forged fittings are available in different sizes and shapes. Hastelloy C276 Forged threaded tee fittings have the best corrosion resistance to a wide range of harsh solutions. Hastelloy C276 forged threaded coupling fittings are suitable to use in welding conditions. Hastelloy C276 Forged fittings are not advisable to use at extreme heat conditions. Hastelloy C276 forged threaded union has the best corrosion resistance to a wide range of chemical solutions. Hastelloy C276 forged threaded coupling fittings are mostly used in petrochemicals and chemical equipment. Hastelloy C276 forged threaded union is used for petrochemicals. Hastelloy C276 forged threaded bushing fittings are also used for pharmaceuticals and a wide range of pharmaceutical equipment. Hastelloy C276 forged threaded fittings are often used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Hastelloy C276 (UNS N10276 / DIN 2.4819)":
+        "A nickel-molybdenum-chromium alloy with best corrosion resistance to chemical environments. Best corrosion resistance to a wide range of harsh solutions and chemical solutions. Suitable for use in welding conditions. Not advisable to use at extreme heat conditions. Used in petrochemicals, chemical equipment, pharmaceuticals, and heat exchangers. DIN 2.4819.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM B564 / ASME SB564",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM B564 / ASME SB564 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Hastelloy C276 (UNS N10276 / DIN 2.4819)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Hastelloy C276", uns: "N10276", werkstoff: "2.4819", standard: "ASTM" },
+    { grade: "Alloy C276", uns: "N10276", werkstoff: "2.4819", standard: "—" },
+    { grade: "UNS N10276", uns: "N10276", werkstoff: "2.4819", standard: "—" },
+    { grade: "NCF 276", uns: "N10276", werkstoff: "2.4819", standard: "JIS" },
+    { grade: "NA 14", uns: "N10276", werkstoff: "2.4819", standard: "BS" },
+    { grade: "NC17D", uns: "N10276", werkstoff: "2.4819", standard: "AFNOR" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Hastelloy C276",
+      c: "0.010 max",
+      mn: "1.00 max",
+      si: "0.08 max",
+      cr: "14.50 – 16.50",
+      ni: "Bal",
+      mo: "15.00 – 17.00",
+      other: "P: 0.04 max, S: 0.03 max, Co: 2.50 max, W: 3.00 – 4.50, V: 0.35 max, Fe: 4.00 – 7.00",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Hastelloy C276",
+      tensile: "690 MPa (100 ksi) min",
+      yield: "283 MPa (41 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.89 g/cm³",
+      meltingPoint: "1370 °C (2500 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1120°C – 1177°C (2050°F – 2150°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Rapid Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 2.4602 Alloy Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "C276 Alloy Threaded Cross", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "UNS N06022 Hexagonal Plug", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "UNS N06022 Threaded Lateral Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WNR. 2.4602 Alloy Threaded Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 2.4602 Alloy Threaded Forged Fittings",
+    "Hastelloy C276 Threaded Fittings",
+    "UNS N06022 Threaded Lateral Tee",
+    "Alloy C276 45 Deg Forged Threaded Elbow",
+    "UNS N06022 90 Deg Threaded Elbow",
+    "Hastelloy C276 Threaded Cross",
+    "C276 Alloy Threaded Cross",
+    "Hastelloy C276 Threaded Cap",
+    "Alloy C276 Threaded Coupling",
+    "Hastelloy C276 Threaded Union",
+    "Alloy C276 Threaded Bushing",
+    "Hastelloy C276 Forged Threaded Plug",
+    "Hastelloy C276 Threaded Hex Plug",
+    "UNS N06022 Hexagonal Plug",
+    "WNR. 2.4602 Alloy Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM B564",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Petrochemicals",
+    "Chemical Equipment",
+    "Pharmaceuticals & Pharmaceutical Equipment",
+    "Heat Exchangers & Condensers",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Gas Processing Units",
+    "Pulp & Paper Industry",
+    "Seawater Equipment",
+    "Pollution Control Equipment",
+    "Nuclear Fuel Reprocessing",
+  ],
+
+  specializedIn: [
+    "Hastelloy C276 Forged Fittings Supplier in Mumbai, India",
+    "ASTM B564 Hastelloy C276 Forged Fittings Exporter",
+    "ANSI B16.11 Hastelloy C276 Threaded Forged Fittings Stockist in India",
+    "Hastelloy C276 Forged Fittings Dealer",
+    "Hastelloy C276 Threaded 90° Elbow Supplier",
+    "Supplier of Hastelloy C276 Threaded 45° Elbow",
+    "Alloy C276 Threaded Tee Manufacturer",
+    "Hastelloy C276 Threaded Cross Exporter",
+    "Hastelloy C276 Threaded Union Manufacturer",
+    "Hastelloy DIN 2.4819 Threaded Coupling Exporter",
+    "Hastelloy C276 Threaded Cap Supplier",
+    "Hastelloy C276 Hexagonal Plug Supplier",
+    "Hastelloy UNS N10276 Threaded Forged Fittings Exporter",
+    "ASME SB564 Hastelloy C276 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Hastelloy C276 Forged Fittings Price List",
+    "Hastelloy C276 Forged Fittings Weight Calculator",
+    "Hastelloy C276 Forged Fittings Dimensions",
+    "Hastelloy C276 Forged Fittings Price Per Kg in India",
+    "Hastelloy C276 Forged Fittings Manufacturer in Mumbai",
+    "Hastelloy C276 Forged Fittings Supplier in India",
+    "Hastelloy C276 Forged Fittings Thickness Tolerance",
+    "Hastelloy C276 Forged Fittings Price List PDF",
+    "Hastelloy C276 Forged Fittings Mechanical Properties",
+    "Hastelloy C276 Forged Fittings Chemical Composition",
+    "Hastelloy C276 Forged Fittings Stockist in Pune",
+    "Hastelloy C276 Forged Fittings Exporter",
+    "Hastelloy C276 Forged Fittings Price in Mumbai",
+    "Hastelloy C276 Forged Fittings Size Chart",
+    "Hastelloy C276 Threaded Elbow Price",
+    "Hastelloy C276 Threaded Tee Supplier",
+    "Hastelloy C276 Threaded Cross Manufacturers",
+    "Hastelloy C276 Forged Fittings Catalog PDF",
+    "Hastelloy C276 Forged Fittings Equivalent Grades",
+    "Hastelloy C276 Forged Fittings Price per Piece",
+    "Hastelloy C276 Forged Fittings updated price list",
+    "Hastelloy C276 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Hastelloy C276 Forged Fittings Manufacturers in Gujarat",
+    "Hastelloy C276 Forged Fittings Stockyards in India",
+    "Hastelloy C276 Forged Fittings thickness chart",
+    "Hastelloy C276 Forged Fittings Price in India",
+    "Top 100 Hastelloy C276 Forged Fittings Dealers in Mumbai",
+    "Buy Hastelloy C276 Forged Fittings Online",
+    "Hastelloy C276 Forged Fittings leading manufacturers in India",
+    "UNS N10276 Forged Fittings Price India",
+    "Werkstoff 2.4819 Forged Fittings Price India",
+    "Hastelloy C276 Forged Fittings Heat Treatment",
+    "Hastelloy C276 Forged Fittings Annealing Temperature",
+    "Hastelloy C276 Forged Fittings Hardness Range",
+    "Hastelloy C276 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 53,
+  slug: "stainless-steel-304-forged-fittings",
+  image: "/stock/stainless-steel-304-forged-fittings.jpg",
+  title:
+    "Stainless Steel 304 / 304L / 304H Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S30400 / WNR. 1.4301 (Austenitic Stainless Steel)",
+  shortDescription:
+    "Stainless Steel 304 / 304L / 304H Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Stainless steel alloy 304 / 304L / 304H forged fittings have the best corrosion resistance to pitting and crevice corrosion. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Stainless steel 304 / 304L / 304H threaded forged fittings are available in different sizes and shapes. Stainless steel 304 forged threaded cap has high tensile strength and excellent yield strength. Stainless steel 304 forged fittings have good mechanical properties and high hardness. Stainless steel 304 forged threaded cross has excellent resistance to pitting and crevice corrosion. Stainless steel 304L forged cap cannot be annealed by the cold working process. Stainless steel 304H forged threaded couplings are suggested to be welded by a cold working process only. Stainless steel 304H forged threaded union has the best corrosion resistance to sulphide. Stainless steel 304 forged threaded fittings are mostly used in marine industries. Stainless steel 304L forged threaded elbow extensively used in the shipbuilding companies. Stainless steel 304H threaded bushing is also used for offshore oil drilling companies and home application.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Stainless Steel 304 (UNS S30400 / WNR. 1.4301)":
+        "An austenitic stainless steel with best corrosion resistance to pitting and crevice corrosion. High tensile strength and excellent yield strength. Good mechanical properties and high hardness. Best corrosion resistance to sulphide. Used in marine industries and general corrosion-resistant applications. Werkstoff Nr. 1.4301.",
+      "Stainless Steel 304L (UNS S30403 / WNR. 1.4307)":
+        "A low carbon version of 304 stainless steel with best corrosion resistance to pitting and crevice corrosion. Cannot be annealed by the cold working process. Extensively used in shipbuilding companies. Werkstoff Nr. 1.4307.",
+      "Stainless Steel 304H (UNS S30409 / WNR. 1.4948)":
+        "A high carbon version of 304 stainless steel with best corrosion resistance to pitting and crevice corrosion. Suggested to be welded by cold working process only. Best corrosion resistance to sulphide. Used for offshore oil drilling companies and home applications. Werkstoff Nr. 1.4948.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Stainless Steel 304 (UNS S30400 / WNR. 1.4301), Stainless Steel 304L (UNS S30403 / WNR. 1.4307), Stainless Steel 304H (UNS S30409 / WNR. 1.4948)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "SS 304", uns: "S30400", werkstoff: "1.4301", standard: "ASTM" },
+    { grade: "SS 304L", uns: "S30403", werkstoff: "1.4307", standard: "ASTM" },
+    { grade: "SS 304H", uns: "S30409", werkstoff: "1.4948", standard: "ASTM" },
+    { grade: "SUS 304", uns: "S30400", werkstoff: "1.4301", standard: "JIS" },
+    { grade: "SUS 304L", uns: "S30403", werkstoff: "1.4307", standard: "JIS" },
+    { grade: "SUS 304H", uns: "S30409", werkstoff: "1.4948", standard: "JIS" },
+    { grade: "304S31", uns: "S30400", werkstoff: "1.4301", standard: "BS" },
+    { grade: "304S11", uns: "S30403", werkstoff: "1.4307", standard: "BS" },
+    { grade: "Z7CN18-09", uns: "S30400", werkstoff: "1.4301", standard: "AFNOR" },
+    { grade: "08Х18Н10", uns: "S30400", werkstoff: "1.4301", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 304",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 11.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+    {
+      grade: "SS 304L",
+      c: "0.035 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+    {
+      grade: "SS 304H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "18.00 – 20.00",
+      ni: "8.00 – 11.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 304 / 304L / 304H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.00 g/cm³",
+      meltingPoint: "1400 °C – 1455 °C (2550 °F – 2650 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1010°C – 1120°C (1850°F – 2050°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 1.4301 45 Deg Threaded Elbow", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S30400 Hexagonal Plug", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "ASME SA182 Forged Fittings", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Stainless Steel 304 Threaded Tees", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 304 Threaded Cap", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS ASTM A182 Threaded Forged Fittings",
+    "ASME SA182 Forged Fittings",
+    "SS 304 Threaded Lateral Tee",
+    "304 Stainless Steel 45 Deg Forged Threaded Elbow",
+    "SS WNR. 1.4301 45 Deg Threaded Elbow",
+    "ASTM A182 304 Stainless Steel Threaded Cross",
+    "SS 304 Threaded Cross",
+    "SS 304 Threaded Cap",
+    "ASME B16.11 SS Threaded Coupling",
+    "SS 304 Threaded Union",
+    "SS 304 Threaded Bushing",
+    "SS 304 Forged Threaded Plug",
+    "Stainless Steel 304 Threaded Hex Plug",
+    "UNS S30400 Hexagonal Plug",
+    "Stainless Steel 304 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Marine Industries",
+    "Shipbuilding Companies",
+    "Offshore Oil Drilling Companies",
+    "Home Applications",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Food Processing Equipment",
+    "Pharmaceutical Equipment",
+    "Heat Exchangers & Condensers",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 304 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Stainless Steel 304 Forged Fittings Exporter",
+    "ANSI B16.11 SS 304 Threaded Forged Fittings Stockist in India",
+    "Stainless Steel 304 Forged Fittings Dealer",
+    "SS 304 Threaded 90° Elbow Supplier",
+    "Supplier of SS 304L Threaded 45° Elbow",
+    "SS 304H Threaded Tee Manufacturer",
+    "Stainless Steel 304 Threaded Cross Exporter",
+    "SS 304 Threaded Union Manufacturer",
+    "SS WERKSTOFF NR. 1.4301 Threaded Coupling Exporter",
+    "Stainless Steel 304 Threaded Cap Supplier",
+    "SS 304 Hexagonal Plug Supplier",
+    "SS UNS S30400 Threaded Forged Fittings Exporter",
+    "ASME SA182 SS 304 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 304 Forged Fittings Price List",
+    "SS 304 Forged Fittings Weight Calculator",
+    "SS 304L Forged Fittings Dimensions",
+    "Stainless Steel 304 Forged Fittings Price Per Kg in India",
+    "SS 304 Forged Fittings Manufacturer in Mumbai",
+    "Stainless Steel 304 Forged Fittings Supplier in India",
+    "SS 304H Forged Fittings Thickness Tolerance",
+    "Stainless Steel 304 Forged Fittings Price List PDF",
+    "SS 304 Forged Fittings Mechanical Properties",
+    "SS 304 Forged Fittings Chemical Composition",
+    "SS 304 Forged Fittings Stockist in Pune",
+    "Stainless Steel 304 Forged Fittings Exporter",
+    "SS 304 Forged Fittings Price in Mumbai",
+    "SS 304 Forged Fittings Size Chart",
+    "SS 304 Threaded Elbow Price",
+    "SS 304 Threaded Tee Supplier",
+    "SS 304 Threaded Cross Manufacturers",
+    "SS 304 Forged Fittings Catalog PDF",
+    "SS 304 Forged Fittings Equivalent Grades",
+    "SS 304 Forged Fittings Price per Piece",
+    "SS 304 Forged Fittings updated price list",
+    "SS 304 Forged Fittings Size Chart 1/8 to 4 inch",
+    "SS 304 Forged Fittings Manufacturers in Gujarat",
+    "SS 304 Forged Fittings Stockyards in India",
+    "SS 304 Forged Fittings thickness chart",
+    "Stainless Steel 304 Forged Fittings Price in India",
+    "Top 100 SS 304 Forged Fittings Dealers in Mumbai",
+    "Buy Stainless Steel 304 Forged Fittings Online",
+    "Stainless Steel 304 Forged Fittings leading manufacturers in India",
+    "UNS S30400 Forged Fittings Price India",
+    "Werkstoff 1.4301 Forged Fittings Price India",
+    "SS 304 Forged Fittings Heat Treatment",
+    "SS 304 Forged Fittings Annealing Temperature",
+    "SS 304 Forged Fittings Hardness Range",
+    "Stainless Steel 304 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 54,
+  slug: "stainless-steel-310-forged-fittings",
+  image: "/stock/stainless-steel-310-forged-fittings.jpg",
+  title:
+    "Stainless Steel 310 / 310S / 310H Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S31000 / S31008 / S31009 / WNR. 1.4841 / 1.4845",
+  shortDescription:
+    "Stainless Steel 310 / 310S / 310H Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Stainless Steel 310 / 310S / 310H Forged Fittings are high-temperature austenitic stainless steel fittings designed for elevated temperature service. Grade 310 offers excellent oxidation resistance up to 2010°F (1100°C) under mildly cyclic conditions and resists sulfidation [citation:17]. The high chromium (24-26%) and moderate nickel (19-22%) content provides superior high-temperature properties combined with good ductility and weldability [citation:6]. Grade 310H has a carbon content restricted to 0.04-0.10% for high-temperature strength, making it preferred for high-temperature applications [citation:6]. Grade 310S with carbon max 0.08% is used where moist corrodents are present at lower temperatures [citation:6]. These fittings are manufactured to ASTM A182 specifications for forged fittings, ensuring dense grain structure and reliable performance in critical high-pressure and high-temperature systems [citation:14].",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 310 (UNS S31000 / WNR. 1.4841)":
+        "An austenitic stainless steel with excellent high-temperature oxidation resistance up to 1100°C. Contains 24-26% chromium and 19-22% nickel. Resists sulfidation and is used in moderately carburizing atmospheres. Excellent toughness even at cryogenic temperatures [citation:17]. Werkstoff Nr. 1.4841.",
+      "SS 310S (UNS S31008 / WNR. 1.4845)":
+        "A low-carbon version of 310 stainless steel with carbon max 0.08%. Used when the application environment involves moist corrodents at temperatures lower than normal high-temperature service. Reduced high-temperature strength compared to 310H. Often dual certified with 310H [citation:6]. Werkstoff Nr. 1.4845.",
+      "SS 310H (UNS S31009)":
+        "A high-carbon version of 310 stainless steel with carbon content restricted to 0.04-0.10%. The grade of choice for high-temperature applications requiring elevated temperature strength. Often dual certified with 310S in plate and pipe forms [citation:6].",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, MSS SP-95, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket Weld Forged Fittings",
+    ends: "Threaded (NPT/BSP/BSPT) / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Stainless Steel 310 (UNS S31000 / WNR. 1.4841), Stainless Steel 310S (UNS S31008 / WNR. 1.4845), Stainless Steel 310H (UNS S31009)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket Weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "SS 310", uns: "S31000", werkstoff: "1.4841", standard: "ASTM" },
+    { grade: "SS 310S", uns: "S31008", werkstoff: "1.4845", standard: "ASTM" },
+    { grade: "SS 310H", uns: "S31009", werkstoff: "—", standard: "ASTM" },
+    { grade: "SUS 310", uns: "S31000", werkstoff: "1.4841", standard: "JIS" },
+    { grade: "SUS 310S", uns: "S31008", werkstoff: "1.4845", standard: "JIS" },
+    { grade: "310S24", uns: "S31000", werkstoff: "1.4841", standard: "BS" },
+    { grade: "X15CrNiSi25-20", uns: "S31000", werkstoff: "1.4841", standard: "EN" },
+    { grade: "X8CrNi25-21", uns: "S31008", werkstoff: "1.4845", standard: "EN" },
+    { grade: "20Ch25N20S2", uns: "S31000", werkstoff: "1.4841", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 310",
+      c: "0.25 max",
+      mn: "2.00 max",
+      si: "1.50 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+    {
+      grade: "SS 310S",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "1.50 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+    {
+      grade: "SS 310H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "24.00 – 26.00",
+      ni: "19.00 – 22.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 310 / 310S / 310H",
+      tensile: "515 MPa (75,000 psi) min",
+      yield: "205 MPa (30,000 psi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "217 HB max",
+      density: "7.9 g/cm³",
+      meltingPoint: "1402 °C (2555 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1040°C – 1120°C (1900°F – 2050°F)",
+      timeAtTemperature: "30 minutes per inch of section thickness",
+      atmosphere: "Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath (HNO3 + HF)",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 310 Forged Fittings (General)", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 310S Forged Elbow (Class 3000, 1/2\" NB)", price: "US $18.50 – $22.00 / Piece (FOB) [citation:13]" },
+    { item: "SS 310S Forged Elbow (Class 6000, 1/2\" NB)", price: "US $28.00 – $32.50 / Piece (FOB) [citation:13]" },
+    { item: "SS 310 Threaded Tee", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 310 Hexagonal Plug", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "SS ASTM A182 Threaded Forged Fittings",
+    "ASME SA182 Forged Fittings",
+    "SS 310 Threaded Lateral Tee",
+    "310 Stainless Steel 45 Deg Forged Threaded Elbow",
+    "SS WNR. 1.4841 45 Deg Threaded Elbow",
+    "ASTM A182 310 Stainless Steel Threaded Cross",
+    "SS 310 Threaded Cross",
+    "SS 310 Threaded Cap",
+    "ASME B16.11 SS Threaded Coupling",
+    "SS 310 Threaded Union",
+    "SS 310 Threaded Bushing",
+    "SS 310 Forged Threaded Plug",
+    "Stainless Steel 310 Threaded Hex Plug",
+    "UNS S31000 Hexagonal Plug",
+    "Stainless Steel 310 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Heat Treatment & Process Industries",
+    "Furnace Parts & Thermal Processing Equipment",
+    "Petrochemicals",
+    "Chemical Processing",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Marine Industries",
+    "Pharmaceutical Equipment",
+    "Food Processing Equipment",
+    "Heat Exchangers & Condensers",
+    "Cryogenic Applications",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 310 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Stainless Steel 310 Forged Fittings Exporter",
+    "ANSI B16.11 SS 310 Threaded Forged Fittings Stockist in India",
+    "Stainless Steel 310 Forged Fittings Dealer",
+    "SS 310 Threaded 90° Elbow Supplier",
+    "Supplier of SS 310S Threaded 45° Elbow",
+    "SS 310H Threaded Tee Manufacturer",
+    "Stainless Steel 310 Threaded Cross Exporter",
+    "SS 310 Threaded Union Manufacturer",
+    "SS WERKSTOFF NR. 1.4841 Threaded Coupling Exporter",
+    "Stainless Steel 310 Threaded Cap Supplier",
+    "SS 310 Hexagonal Plug Supplier",
+    "SS UNS S31000 Threaded Forged Fittings Exporter",
+    "ASME SA182 SS 310 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 310 Forged Fittings Price List",
+    "SS 310 Forged Fittings Weight Calculator",
+    "SS 310S Forged Fittings Dimensions",
+    "Stainless Steel 310 Forged Fittings Price Per Kg in India",
+    "SS 310 Forged Fittings Manufacturer in Mumbai",
+    "Stainless Steel 310 Forged Fittings Supplier in India",
+    "SS 310H Forged Fittings Thickness Tolerance",
+    "Stainless Steel 310 Forged Fittings Price List PDF",
+    "SS 310 Forged Fittings Mechanical Properties",
+    "SS 310 Forged Fittings Chemical Composition",
+    "SS 310 Forged Fittings Stockist in Pune",
+    "Stainless Steel 310 Forged Fittings Exporter",
+    "SS 310 Forged Fittings Price in Mumbai",
+    "SS 310 Forged Fittings Size Chart",
+    "SS 310 Threaded Elbow Price",
+    "SS 310 Threaded Tee Supplier",
+    "SS 310 Threaded Cross Manufacturers",
+    "SS 310 Forged Fittings Catalog PDF",
+    "SS 310 Forged Fittings Equivalent Grades",
+    "SS 310 Forged Fittings Price per Piece",
+    "SS 310 Forged Fittings updated price list",
+    "SS 310 Forged Fittings Size Chart 1/8 to 4 inch",
+    "SS 310 Forged Fittings Manufacturers in Gujarat",
+    "SS 310 Forged Fittings Stockyards in India",
+    "SS 310 Forged Fittings thickness chart",
+    "Stainless Steel 310 Forged Fittings Price in India",
+    "Top 100 SS 310 Forged Fittings Dealers in Mumbai",
+    "Buy Stainless Steel 310 Forged Fittings Online",
+    "Stainless Steel 310 Forged Fittings leading manufacturers in India",
+    "UNS S31000 Forged Fittings Price India",
+    "Werkstoff 1.4841 Forged Fittings Price India",
+    "SS 310 Forged Fittings Heat Treatment",
+    "SS 310 Forged Fittings Annealing Temperature",
+    "SS 310 Forged Fittings Hardness Range",
+    "Stainless Steel 310 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 55,
+  slug: "stainless-steel-316-forged-fittings",
+  image: "/stock/stainless-steel-316-forged-fittings.jpg",
+  title:
+    "Stainless Steel 316 / 316L / 316Ti Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S31600 / S31603 / WNR. 1.4401 / 1.4404 / 1.4571 (Austenitic Stainless Steel)",
+  shortDescription:
+    "Stainless Steel 316 / 316L / 316Ti Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Stainless steel 316 / 316L / 316Ti forged fittings have the best corrosion resistance to intergranular corrosion. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Stainless steel 316 / 316L / 316Ti threaded forged fittings are available in different sizes and shapes. Stainless steel 316 forged threaded coupling can be easily hardened by the cold working process. Stainless steel 316Ti forged threaded cap is capable of performing under cold working process and heat working process as well. Stainless steel 316L forged threaded cross has better corrosion resistance to heat corrosion. Stainless steel 316Ti forged threaded tee has better corrosion resistance to inter-granular corrosion. Stainless steel 316 forged threaded elbow has excellent corrosion resistance to chloride pitting corrosion. Stainless steel 316 alloy threaded forged fittings have a wide range of usage in different industries. Stainless steel 316 forged threaded bushing is mostly used for the pulp and paper industry. Stainless steel 316Ti forged threaded union is mostly used in food processing units and household applications. Stainless steel 316L forged threaded plug is mostly used in chemical processing and pharmaceutical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Stainless Steel 316 (UNS S31600 / WNR. 1.4401)":
+        "An austenitic stainless steel with best corrosion resistance to intergranular corrosion. Excellent corrosion resistance to chloride pitting corrosion. Can be easily hardened by cold working process. Used for pulp and paper industry and general corrosive applications. Werkstoff Nr. 1.4401.",
+      "Stainless Steel 316L (UNS S31603 / WNR. 1.4404)":
+        "A low carbon version of 316 stainless steel with better corrosion resistance to heat corrosion. Best corrosion resistance to intergranular corrosion. Used in chemical processing and pharmaceutical equipment. Werkstoff Nr. 1.4404.",
+      "Stainless Steel 316Ti (UNS S31635 / WNR. 1.4571)":
+        "A titanium-stabilized version of 316 stainless steel with better corrosion resistance to inter-granular corrosion. Capable of performing under cold working and heat working processes. Used in food processing units and household applications. Werkstoff Nr. 1.4571.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Stainless Steel 316 (UNS S31600 / WNR. 1.4401), Stainless Steel 316L (UNS S31603 / WNR. 1.4404), Stainless Steel 316Ti (UNS S31635 / WNR. 1.4571)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "SS 316", uns: "S31600", werkstoff: "1.4401", standard: "ASTM" },
+    { grade: "SS 316L", uns: "S31603", werkstoff: "1.4404", standard: "ASTM" },
+    { grade: "SS 316Ti", uns: "S31635", werkstoff: "1.4571", standard: "ASTM" },
+    { grade: "SUS 316", uns: "S31600", werkstoff: "1.4401", standard: "JIS" },
+    { grade: "SUS 316L", uns: "S31603", werkstoff: "1.4404", standard: "JIS" },
+    { grade: "SUS 316Ti", uns: "S31635", werkstoff: "1.4571", standard: "JIS" },
+    { grade: "316S31", uns: "S31600", werkstoff: "1.4401", standard: "BS" },
+    { grade: "316S11", uns: "S31603", werkstoff: "1.4404", standard: "BS" },
+    { grade: "316S33", uns: "S31635", werkstoff: "1.4571", standard: "BS" },
+    { grade: "Z7CND17-11-02", uns: "S31600", werkstoff: "1.4401", standard: "AFNOR" },
+    { grade: "Z7CND17-12-02", uns: "S31603", werkstoff: "1.4404", standard: "AFNOR" },
+    { grade: "08Ch17N13M2", uns: "S31600", werkstoff: "1.4401", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 316",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 14.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+    {
+      grade: "SS 316L",
+      c: "0.035 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 14.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+    {
+      grade: "SS 316Ti",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "16.00 – 18.00",
+      ni: "10.00 – 14.00",
+      mo: "2.00 – 3.00",
+      other: "P: 0.045 max, S: 0.030 max, Ti: 5x(C+N) min – 0.70 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 316 / 316L / 316Ti",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.00 g/cm³",
+      meltingPoint: "1375 °C – 1400 °C (2500 °F – 2550 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1010°C – 1120°C (1850°F – 2050°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 316/316L Threaded Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 316/316L Threaded Union", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 316/316L Hexagonal Plug", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "SS 316/316L Threaded Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "45 Deg Threaded Elbow", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Stainless Steel 316/316L Threaded Forged Fittings",
+    "ASME SA182 SS 316/316L Forged Fittings",
+    "Steel 316/316L Threaded Lateral Tee",
+    "SS 316/316L 45 Deg Forged Threaded Elbow",
+    "SS 316/316L 45 Deg Threaded Elbow",
+    "SS 316/316L Threaded Cross",
+    "SS 316/316L Threaded Cap",
+    "BS 3799 SS 316/316L Threaded Coupling",
+    "SS 316/316L Threaded Union",
+    "SS 316/316L Threaded Bushing",
+    "SS 316/316L Forged Threaded Plug",
+    "Stainless Steel 316/316L Threaded Hex Plug",
+    "SS 316/316L Hexagonal Plug",
+    "Stainless Steel 316/316L Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Pulp & Paper Industry",
+    "Food Processing Units",
+    "Household Applications",
+    "Chemical Processing",
+    "Pharmaceutical Equipment",
+    "Marine Industries",
+    "Shipbuilding Companies",
+    "Offshore Oil Drilling Companies",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Heat Exchangers & Condensers",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 316 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Stainless Steel 316 Forged Fittings Exporter",
+    "ANSI B16.11 SS 316 Threaded Forged Fittings Stockist in India",
+    "Stainless Steel 316 Forged Fittings Dealer",
+    "SS 316 Threaded 90° Elbow Supplier",
+    "Supplier of SS 316L Threaded 45° Elbow",
+    "SS 316Ti Threaded Tee Manufacturer",
+    "Stainless Steel 316 Threaded Cross Exporter",
+    "SS 316 Threaded Union Manufacturer",
+    "SS WERKSTOFF NR. 1.4401 Threaded Coupling Exporter",
+    "Stainless Steel 316 Threaded Cap Supplier",
+    "SS 316 Hexagonal Plug Supplier",
+    "SS UNS S31600 Threaded Forged Fittings Exporter",
+    "ASME SA182 SS 316 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 316 Forged Fittings Price List",
+    "SS 316 Forged Fittings Weight Calculator",
+    "SS 316L Forged Fittings Dimensions",
+    "Stainless Steel 316 Forged Fittings Price Per Kg in India",
+    "SS 316 Forged Fittings Manufacturer in Mumbai",
+    "Stainless Steel 316 Forged Fittings Supplier in India",
+    "SS 316Ti Forged Fittings Thickness Tolerance",
+    "Stainless Steel 316 Forged Fittings Price List PDF",
+    "SS 316 Forged Fittings Mechanical Properties",
+    "SS 316 Forged Fittings Chemical Composition",
+    "SS 316 Forged Fittings Stockist in Pune",
+    "Stainless Steel 316 Forged Fittings Exporter",
+    "SS 316 Forged Fittings Price in Mumbai",
+    "SS 316 Forged Fittings Size Chart",
+    "SS 316 Threaded Elbow Price",
+    "SS 316 Threaded Tee Supplier",
+    "SS 316 Threaded Cross Manufacturers",
+    "SS 316 Forged Fittings Catalog PDF",
+    "SS 316 Forged Fittings Equivalent Grades",
+    "SS 316 Forged Fittings Price per Piece",
+    "SS 316 Forged Fittings updated price list",
+    "SS 316 Forged Fittings Size Chart 1/8 to 4 inch",
+    "SS 316 Forged Fittings Manufacturers in Gujarat",
+    "SS 316 Forged Fittings Stockyards in India",
+    "SS 316 Forged Fittings thickness chart",
+    "Stainless Steel 316 Forged Fittings Price in India",
+    "Top 100 SS 316 Forged Fittings Dealers in Mumbai",
+    "Buy Stainless Steel 316 Forged Fittings Online",
+    "Stainless Steel 316 Forged Fittings leading manufacturers in India",
+    "UNS S31600 Forged Fittings Price India",
+    "Werkstoff 1.4401 Forged Fittings Price India",
+    "SS 316 Forged Fittings Heat Treatment",
+    "SS 316 Forged Fittings Annealing Temperature",
+    "SS 316 Forged Fittings Hardness Range",
+    "Stainless Steel 316 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 56,
+  slug: "stainless-steel-317-forged-fittings",
+  image: "/stock/stainless-steel-317-forged-fittings.jpg",
+  title:
+    "Stainless Steel 317 / 317L Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S31700 / S31703 / WNR. 1.4449 / 1.4438 (Molybdenum-Bearing Austenitic Stainless Steel)",
+  shortDescription:
+    "Stainless Steel 317 / 317L Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Stainless Steel 317 / 317L Forged Fittings are molybdenum-bearing austenitic stainless steel fittings that provide superior corrosion resistance compared to 316/316L grades. The higher molybdenum content (3-4%) and increased chromium and nickel levels deliver improved resistance to pitting, crevice corrosion, and general corrosion in chloride-rich and acidic environments [citation:5][citation:16]. SS 317L, the low-carbon variant, is designed to minimize sensitization and intergranular corrosion during welding, making it ideal for welded joints and heavy-duty chemical service [citation:5]. These forged fittings are manufactured to ASTM A182 specifications, ensuring dense grain structure and reliable performance in critical high-pressure and high-temperature systems [citation:14].",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 317 (UNS S31700 / WNR. 1.4449)":
+        "A molybdenum-bearing austenitic stainless steel with 3-4% molybdenum content. Provides superior resistance to general corrosion, pitting, and crevice corrosion compared to 304 and 316 grades. Excellent tensile strength, toughness, and ductility at both ambient and elevated temperatures [citation:5][citation:16]. Werkstoff Nr. 1.4449.",
+      "SS 317L (UNS S31703 / WNR. 1.4438)":
+        "A low-carbon version of 317 stainless steel with carbon max 0.035%. Designed to minimize sensitization and intergranular corrosion during welding operations. Improved resistance to chlorides relative to Type 316L. Non-magnetic in the annealed condition but may become slightly magnetic as a result of welding [citation:12][citation:16]. Werkstoff Nr. 1.4438.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME B16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket Weld Forged Fittings",
+    ends: "Threaded (NPT/BSP/BSPT) / Socketweld, as applicable",
+    finish: "Pickled / Passivated / Shot Blasted / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Stainless Steel 317 (UNS S31700 / WNR. 1.4449), Stainless Steel 317L (UNS S31703 / WNR. 1.4438)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket Weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "SS 317", uns: "S31700", werkstoff: "1.4449", standard: "ASTM" },
+    { grade: "SS 317L", uns: "S31703", werkstoff: "1.4438", standard: "ASTM" },
+    { grade: "SUS 317", uns: "S31700", werkstoff: "1.4449", standard: "JIS" },
+    { grade: "SUS 317L", uns: "S31703", werkstoff: "1.4438", standard: "JIS" },
+    { grade: "SUSF317L", uns: "S31703", werkstoff: "1.4438", standard: "JIS G 3214" },
+    { grade: "X2CrNiMo18-15-4", uns: "S31703", werkstoff: "1.4438", standard: "EN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 317",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "18.00 – 20.00",
+      ni: "11.00 – 15.00",
+      mo: "3.00 – 4.00",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+    {
+      grade: "SS 317L",
+      c: "0.035 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "18.00 – 20.00",
+      ni: "11.00 – 15.00",
+      mo: "3.00 – 4.00",
+      other: "P: 0.045 max, S: 0.030 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 317 / 317L",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "95 HRB max",
+      density: "8.00 g/cm³",
+      meltingPoint: "1375 °C – 1400 °C (2500 °F – 2550 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1040°C – 1120°C (1900°F – 2050°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Water Quench / Rapid Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath (HNO3 + HF)",
+    },
+  ],
+
+  priceList: [
+    { item: "SS 317/317L Forged Fittings (General)", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 317L Forged Elbow 90°", price: "₹ 520 – 650 / kg (India Market) [citation:7]" },
+    { item: "SS 317L Forged Tee", price: "₹ 500 – 640 / kg (India Market) [citation:7]" },
+    { item: "SS 317L Forged Reducer", price: "₹ 510 – 670 / kg (India Market) [citation:7]" },
+    { item: "SS 317L Forged End Cap", price: "₹ 480 – 620 / kg (India Market) [citation:7]" },
+  ],
+
+  otherForms: [
+    "Stainless Steel 317/317L Threaded Forged Fittings",
+    "ASME SA182 SS 317/317L Forged Fittings",
+    "SS 317/317L Threaded Lateral Tee",
+    "SS 317/317L 45 Deg Forged Threaded Elbow",
+    "SS 317/317L 90 Deg Threaded Elbow",
+    "SS 317/317L Threaded Cross",
+    "SS 317/317L Threaded Cap",
+    "BS 3799 SS 317/317L Threaded Coupling",
+    "SS 317/317L Threaded Union",
+    "SS 317/317L Threaded Bushing",
+    "SS 317/317L Forged Threaded Plug",
+    "Stainless Steel 317/317L Threaded Hex Plug",
+    "SS 317/317L Hexagonal Plug",
+    "Stainless Steel 317/317L Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Gas",
+    "Power Generation",
+    "Pharmaceutical Equipment",
+    "Chemical Equipment",
+    "Sea Water Equipment",
+    "Heat Exchangers & Condensers",
+    "Pulp and Paper Industry",
+    "Off-Shore Oil Drilling Companies",
+    "Gas Processing",
+    "Specialty Chemicals",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 317 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Stainless Steel 317 Forged Fittings Exporter",
+    "ANSI B16.11 SS 317 Threaded Forged Fittings Stockist in India",
+    "Stainless Steel 317 Forged Fittings Dealer",
+    "SS 317 Threaded 90° Elbow Supplier",
+    "Supplier of SS 317L Threaded 45° Elbow",
+    "SS 317L Threaded Tee Manufacturer",
+    "Stainless Steel 317 Threaded Cross Exporter",
+    "SS 317 Threaded Union Manufacturer",
+    "SS WERKSTOFF NR. 1.4449 Threaded Coupling Exporter",
+    "Stainless Steel 317 Threaded Cap Supplier",
+    "SS 317 Hexagonal Plug Supplier",
+    "SS UNS S31700 Threaded Forged Fittings Exporter",
+    "ASME SA182 SS 317 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 317 Forged Fittings Price List",
+    "SS 317 Forged Fittings Weight Calculator",
+    "SS 317L Forged Fittings Dimensions",
+    "Stainless Steel 317 Forged Fittings Price Per Kg in India",
+    "SS 317 Forged Fittings Manufacturer in Mumbai",
+    "Stainless Steel 317 Forged Fittings Supplier in India",
+    "SS 317L Forged Fittings Thickness Tolerance",
+    "Stainless Steel 317 Forged Fittings Price List PDF",
+    "SS 317 Forged Fittings Mechanical Properties",
+    "SS 317 Forged Fittings Chemical Composition",
+    "SS 317 Forged Fittings Stockist in Pune",
+    "Stainless Steel 317 Forged Fittings Exporter",
+    "SS 317 Forged Fittings Price in Mumbai",
+    "SS 317 Forged Fittings Size Chart",
+    "SS 317 Threaded Elbow Price",
+    "SS 317 Threaded Tee Supplier",
+    "SS 317 Threaded Cross Manufacturers",
+    "SS 317 Forged Fittings Catalog PDF",
+    "SS 317 Forged Fittings Equivalent Grades",
+    "SS 317 Forged Fittings Price per Piece",
+    "SS 317 Forged Fittings updated price list",
+    "SS 317 Forged Fittings Size Chart 1/8 to 4 inch",
+    "SS 317 Forged Fittings Manufacturers in Gujarat",
+    "SS 317 Forged Fittings Stockyards in India",
+    "SS 317 Forged Fittings thickness chart",
+    "Stainless Steel 317 Forged Fittings Price in India",
+    "Top 100 SS 317 Forged Fittings Dealers in Mumbai",
+    "Buy Stainless Steel 317 Forged Fittings Online",
+    "Stainless Steel 317 Forged Fittings leading manufacturers in India",
+    "UNS S31700 Forged Fittings Price India",
+    "Werkstoff 1.4449 Forged Fittings Price India",
+    "SS 317 Forged Fittings Heat Treatment",
+    "SS 317 Forged Fittings Annealing Temperature",
+    "SS 317 Forged Fittings Hardness Range",
+    "Stainless Steel 317 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 57,
+  slug: "stainless-steel-321-forged-fittings",
+  image: "/stock/stainless-steel-321-forged-fittings.jpg",
+  title:
+    "Stainless Steel 321 / 321H Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S32100 / S32109 / WNR. 1.4541 / 1.4878 (Titanium-Stabilized Austenitic Stainless Steel)",
+  shortDescription:
+    "Stainless Steel 321 / 321H Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Stainless steel 321 / 321H forged fittings have the best corrosion resistance to chromium carbide precipitation. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Stainless steel 321 / 321H threaded forged fittings are available in different sizes and shapes. The heat treatment process cannot harden stainless steel 321 forged threaded fittings, and it can only be hardened and strengthened by a cold working process only. Stainless steel coupling fittings have the best creep rupture strength. Stainless steel 321 forged threaded bend has the best corrosion resistance to chromium carbide precipitation. Stainless steel 321 forged threaded bend possesses high tensile strength. Stainless steel 321H forged threaded unions are mostly used for joints. Stainless steel 321 forged threaded cap is used for furnace parts and fasteners. Stainless steel 321H forged threaded bend is also used in thermal plant.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 321 (UNS S32100 / WNR. 1.4541)":
+        "A titanium-stabilized austenitic stainless steel with best corrosion resistance to chromium carbide precipitation. Cannot be hardened by heat treatment process; can only be hardened and strengthened by cold working process. Best creep rupture strength. High tensile strength. Used for furnace parts and fasteners. Werkstoff Nr. 1.4541.",
+      "SS 321H (UNS S32109 / WNR. 1.4878)":
+        "A high carbon version of 321 stainless steel with titanium stabilization for high-temperature applications. Best corrosion resistance to chromium carbide precipitation. Best creep rupture strength. Used for joints and thermal plant applications. Werkstoff Nr. 1.4878.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Stainless Steel 321 (UNS S32100 / WNR. 1.4541), Stainless Steel 321H (UNS S32109 / WNR. 1.4878)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "SS 321", uns: "S32100", werkstoff: "1.4541", standard: "ASTM" },
+    { grade: "SS 321H", uns: "S32109", werkstoff: "1.4878", standard: "ASTM" },
+    { grade: "SUS 321", uns: "S32100", werkstoff: "1.4541", standard: "JIS" },
+    { grade: "SUS 321H", uns: "S32109", werkstoff: "1.4878", standard: "JIS" },
+    { grade: "321S31", uns: "S32100", werkstoff: "1.4541", standard: "BS" },
+    { grade: "321S51", uns: "S32109", werkstoff: "1.4878", standard: "BS" },
+    { grade: "Z6CNT18-10", uns: "S32100", werkstoff: "1.4541", standard: "AFNOR" },
+    { grade: "08Ch18N10T", uns: "S32100", werkstoff: "1.4541", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 321",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Ti: 5x(C+N) min – 0.70 max, Fe: Bal",
+    },
+    {
+      grade: "SS 321H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 12.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Ti: 4x(C+N) min – 0.70 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 321 / 321H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.00 g/cm³",
+      meltingPoint: "1400 °C – 1455 °C (2550 °F – 2650 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1010°C – 1120°C (1850°F – 2050°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 1.4449 Threaded Tees", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S32109 Threaded Bushing", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 321 Threaded Fittings", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "SS 321H Threaded Pipe Elbow", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Stainless Steel Threaded Fitting", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Stainless Steel 321/321H Threaded Forged Fittings",
+    "ASME SA182 SS 321/321H Forged Fittings",
+    "Steel 321/321H Threaded Lateral Tee",
+    "SS 321/321H 45 Deg Forged Threaded Elbow",
+    "UNS S321/321H00 45 Deg Threaded Elbow",
+    "ASTM A182 321/321H Stainless Steel Threaded Cross",
+    "SS 321/321H Threaded Cross",
+    "SS 321/321H Threaded Cap",
+    "SS 321/321H Threaded Coupling",
+    "SS 321/321H Threaded Union",
+    "SS 321/321H Threaded Bushing",
+    "SS 321/321H Forged Threaded Plug",
+    "Stainless Steel 321/321H Threaded Hex Plug",
+    "SS 321/321H Hexagonal Plug",
+    "WNR. 1.4449 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Furnace Parts & Fasteners",
+    "Thermal Plant",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Heat Exchangers & Condensers",
+    "Aerospace Industries",
+    "Pharmaceutical Equipment",
+    "Food Processing Equipment",
+    "Marine Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 321 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Stainless Steel 321 Forged Fittings Exporter",
+    "ANSI B16.11 SS 321 Threaded Forged Fittings Stockist in India",
+    "Stainless Steel 321 Forged Fittings Dealer",
+    "SS 321 Threaded 90° Elbow Supplier",
+    "Supplier of SS 321H Threaded 45° Elbow",
+    "SS 321H Threaded Tee Manufacturer",
+    "Stainless Steel 321 Threaded Cross Exporter",
+    "SS 321 Threaded Union Manufacturer",
+    "SS WERKSTOFF NR. 1.4541 Threaded Coupling Exporter",
+    "Stainless Steel 321 Threaded Cap Supplier",
+    "SS 321 Hexagonal Plug Supplier",
+    "SS UNS S32100 Threaded Forged Fittings Exporter",
+    "ASME SA182 SS 321 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 321 Forged Fittings Price List",
+    "SS 321 Forged Fittings Weight Calculator",
+    "SS 321H Forged Fittings Dimensions",
+    "Stainless Steel 321 Forged Fittings Price Per Kg in India",
+    "SS 321 Forged Fittings Manufacturer in Mumbai",
+    "Stainless Steel 321 Forged Fittings Supplier in India",
+    "SS 321H Forged Fittings Thickness Tolerance",
+    "Stainless Steel 321 Forged Fittings Price List PDF",
+    "SS 321 Forged Fittings Mechanical Properties",
+    "SS 321 Forged Fittings Chemical Composition",
+    "SS 321 Forged Fittings Stockist in Pune",
+    "Stainless Steel 321 Forged Fittings Exporter",
+    "SS 321 Forged Fittings Price in Mumbai",
+    "SS 321 Forged Fittings Size Chart",
+    "SS 321 Threaded Elbow Price",
+    "SS 321 Threaded Tee Supplier",
+    "SS 321 Threaded Cross Manufacturers",
+    "SS 321 Forged Fittings Catalog PDF",
+    "SS 321 Forged Fittings Equivalent Grades",
+    "SS 321 Forged Fittings Price per Piece",
+    "SS 321 Forged Fittings updated price list",
+    "SS 321 Forged Fittings Size Chart 1/8 to 4 inch",
+    "SS 321 Forged Fittings Manufacturers in Gujarat",
+    "SS 321 Forged Fittings Stockyards in India",
+    "SS 321 Forged Fittings thickness chart",
+    "Stainless Steel 321 Forged Fittings Price in India",
+    "Top 100 SS 321 Forged Fittings Dealers in Mumbai",
+    "Buy Stainless Steel 321 Forged Fittings Online",
+    "Stainless Steel 321 Forged Fittings leading manufacturers in India",
+    "UNS S32100 Forged Fittings Price India",
+    "Werkstoff 1.4541 Forged Fittings Price India",
+    "SS 321 Forged Fittings Heat Treatment",
+    "SS 321 Forged Fittings Annealing Temperature",
+    "SS 321 Forged Fittings Hardness Range",
+    "Stainless Steel 321 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 58,
+  slug: "stainless-steel-347-forged-fittings",
+  image: "/stock/stainless-steel-347-forged-fittings.jpg",
+  title:
+    "Stainless Steel 347 / 347H Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S34700 / S34709 / WNR. 1.4550 / 1.4961 (Niobium-Stabilized Austenitic Stainless Steel)",
+  shortDescription:
+    "Stainless Steel 347 / 347H Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Stainless steel alloy 347 forged fittings have the best corrosion resistance to pitting and crevice corrosion. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Stainless steel 347 threaded forged fittings are available in different sizes and shapes. Stainless steel 347 forged threaded fittings can be heat worked above 927 Degree C. stainless steel 347 forged threaded coupling has the best corrosion resistance properties. Stainless steel 347 bushing has the best mechanical and welding properties. Stainless steel alloy 347 threaded forged fittings have the best corrosion resistance to pitting and crevice corrosion. Stainless steel 347 forged threaded cross has the best ductility and workability properties. Stainless steel 347 forged threaded cap contains 12 to 13% chromium content. Stainless steel 347 forged threaded union has the best corrosion resistance to corrosive media. Stainless steel 347 forged threaded tee is often used for valves, and expansion joints. Stainless steel 347 forged threaded union is mostly used for heat exchangers and condensers. Stainless steel 347 forged threaded union is also used for home appliances, food processing, and marine industries.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 347 (UNS S34700 / WNR. 1.4550)":
+        "A niobium-stabilized austenitic stainless steel with best corrosion resistance to pitting and crevice corrosion. Best corrosion resistance properties. Best mechanical and welding properties. Best ductility and workability properties. Contains 12 to 13% chromium content. Best corrosion resistance to corrosive media. Can be heat worked above 927°C. Used for valves, expansion joints, heat exchangers, condensers, home appliances, food processing, and marine industries. Werkstoff Nr. 1.4550.",
+      "SS 347H (UNS S34709 / WNR. 1.4961)":
+        "A high carbon version of 347 stainless steel with niobium stabilization for high-temperature applications. Best corrosion resistance to pitting and crevice corrosion. Best corrosion resistance properties. Used for high-temperature applications requiring elevated temperature strength. Werkstoff Nr. 1.4961.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Stainless Steel 347 (UNS S34700 / WNR. 1.4550), Stainless Steel 347H (UNS S34709 / WNR. 1.4961)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "SS 347", uns: "S34700", werkstoff: "1.4550", standard: "ASTM" },
+    { grade: "SS 347H", uns: "S34709", werkstoff: "1.4961", standard: "ASTM" },
+    { grade: "SUS 347", uns: "S34700", werkstoff: "1.4550", standard: "JIS" },
+    { grade: "SUS 347H", uns: "S34709", werkstoff: "1.4961", standard: "JIS" },
+    { grade: "347S31", uns: "S34700", werkstoff: "1.4550", standard: "BS" },
+    { grade: "347S51", uns: "S34709", werkstoff: "1.4961", standard: "BS" },
+    { grade: "Z6CNNb18-10", uns: "S34700", werkstoff: "1.4550", standard: "AFNOR" },
+    { grade: "08Ch18N12B", uns: "S34700", werkstoff: "1.4550", standard: "GOST" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 347",
+      c: "0.08 max",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 13.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Nb+Ta: 10xC min – 1.10 max, Fe: Bal",
+    },
+    {
+      grade: "SS 347H",
+      c: "0.04 – 0.10",
+      mn: "2.00 max",
+      si: "0.75 max",
+      cr: "17.00 – 19.00",
+      ni: "9.00 – 13.00",
+      mo: "—",
+      other: "P: 0.045 max, S: 0.030 max, Nb+Ta: 8xC min – 1.10 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 347 / 347H",
+      tensile: "515 MPa (75 ksi) min",
+      yield: "205 MPa (30 ksi) min",
+      elongation: "40% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.00 g/cm³",
+      meltingPoint: "1400 °C – 1455 °C (2550 °F – 2650 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1010°C – 1120°C (1850°F – 2050°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Water Quench",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 1.4550 Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "UNS S34700 45 Deg Threaded Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 347 Forged Fittings", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "ASME 16.11 347 Threaded Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "MSS SP-79 347 Threaded Coupling", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 1.4550 Threaded Forged Fittings",
+    "SS 347 Forged Fittings",
+    "UNS S34700 Threaded Lateral Tee",
+    "SS 347 45 Deg Forged Threaded Elbow",
+    "UNS S34700 45 Deg Threaded Elbow",
+    "SS 347 Stainless Steel Threaded Cross",
+    "ASME SA182 347 Threaded Cross",
+    "ASME 16.11 347 Threaded Cap",
+    "MSS SP-79 347 Threaded Coupling",
+    "SS 347 Threaded Union",
+    "SS 347 Threaded Bushing",
+    "SS 347 Forged Threaded Plug",
+    "Stainless Steel 347 Threaded Hex Plug",
+    "SS 347 Hexagonal Plug",
+    "WNR. 1.4550 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Valves & Expansion Joints",
+    "Heat Exchangers & Condensers",
+    "Home Appliances",
+    "Food Processing",
+    "Marine Industries",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pharmaceutical Equipment",
+    "Aerospace Industries",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 347 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Stainless Steel 347 Forged Fittings Exporter",
+    "ANSI B16.11 SS 347 Threaded Forged Fittings Stockist in India",
+    "Stainless Steel 347 Forged Fittings Dealer",
+    "SS 347 Threaded 90° Elbow Supplier",
+    "Supplier of SS 347H Threaded 45° Elbow",
+    "SS 347H Threaded Tee Manufacturer",
+    "Stainless Steel 347 Threaded Cross Exporter",
+    "SS 347 Threaded Union Manufacturer",
+    "SS WERKSTOFF NR. 1.4550 Threaded Coupling Exporter",
+    "Stainless Steel 347 Threaded Cap Supplier",
+    "SS 347 Hexagonal Plug Supplier",
+    "SS UNS S34700 Threaded Forged Fittings Exporter",
+    "ASME SA182 SS 347 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 347 Forged Fittings Price List",
+    "SS 347 Forged Fittings Weight Calculator",
+    "SS 347H Forged Fittings Dimensions",
+    "Stainless Steel 347 Forged Fittings Price Per Kg in India",
+    "SS 347 Forged Fittings Manufacturer in Mumbai",
+    "Stainless Steel 347 Forged Fittings Supplier in India",
+    "SS 347H Forged Fittings Thickness Tolerance",
+    "Stainless Steel 347 Forged Fittings Price List PDF",
+    "SS 347 Forged Fittings Mechanical Properties",
+    "SS 347 Forged Fittings Chemical Composition",
+    "SS 347 Forged Fittings Stockist in Pune",
+    "Stainless Steel 347 Forged Fittings Exporter",
+    "SS 347 Forged Fittings Price in Mumbai",
+    "SS 347 Forged Fittings Size Chart",
+    "SS 347 Threaded Elbow Price",
+    "SS 347 Threaded Tee Supplier",
+    "SS 347 Threaded Cross Manufacturers",
+    "SS 347 Forged Fittings Catalog PDF",
+    "SS 347 Forged Fittings Equivalent Grades",
+    "SS 347 Forged Fittings Price per Piece",
+    "SS 347 Forged Fittings updated price list",
+    "SS 347 Forged Fittings Size Chart 1/8 to 4 inch",
+    "SS 347 Forged Fittings Manufacturers in Gujarat",
+    "SS 347 Forged Fittings Stockyards in India",
+    "SS 347 Forged Fittings thickness chart",
+    "Stainless Steel 347 Forged Fittings Price in India",
+    "Top 100 SS 347 Forged Fittings Dealers in Mumbai",
+    "Buy Stainless Steel 347 Forged Fittings Online",
+    "Stainless Steel 347 Forged Fittings leading manufacturers in India",
+    "UNS S34700 Forged Fittings Price India",
+    "Werkstoff 1.4550 Forged Fittings Price India",
+    "SS 347 Forged Fittings Heat Treatment",
+    "SS 347 Forged Fittings Annealing Temperature",
+    "SS 347 Forged Fittings Hardness Range",
+    "Stainless Steel 347 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 59,
+  slug: "stainless-steel-904l-forged-fittings",
+  image: "/stock/stainless-steel-904l-forged-fittings.jpg",
+  title:
+    "Stainless Steel 904L Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS N08904 / WNR. 1.4539 (Super Austenitic Stainless Steel)",
+  shortDescription:
+    "Stainless Steel 904L Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Stainless steel alloy 904L forged fittings have the best corrosion resistance to stress corrosion cracking. They are made using good quality raw material and latest technology, which further enables our customers to use them for a long period without having any defects. Stainless steel 904L threaded forged fittings are available in different sizes and shapes. Stainless steel 904L forged threaded fittings have the best corrosion resistance to reducing acids, e.g., sulfuric acid. Stainless steel 904L forged threaded bushing has high toughness and welding ability with relatively less tensile strength. Stainless steel 904L forged threaded cap has the best corrosion resistance to pitting and crevice corrosion. Stainless steel 904L forged threaded coupling is a non – magnetic alloy and it has the best formability properties. Stainless steel 904L forged threaded cross usually contains copper, nickel, molybdenum, and low carbon content. Stainless steel alloy 904L threaded forged fittings have the best corrosion resistance to stress corrosion cracking. Stainless steel 904L forged threaded fittings are mostly used in seawater equipment and pharmaceutical equipment. Stainless steel 904L forged threaded bushing is also used in the marine industry and offshore oil drilling companies. Stainless steel 904L forged threaded cap is mostly used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "SS 904L (UNS N08904 / WNR. 1.4539)":
+        "A super austenitic stainless steel with best corrosion resistance to stress corrosion cracking. Best corrosion resistance to reducing acids, e.g., sulfuric acid. High toughness and welding ability with relatively less tensile strength. Best corrosion resistance to pitting and crevice corrosion. Non-magnetic alloy with best formability properties. Contains copper, nickel, molybdenum, and low carbon content. Used in seawater equipment, pharmaceutical equipment, marine industry, offshore oil drilling companies, heat exchangers, and condensers. Werkstoff Nr. 1.4539.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Stainless Steel 904L (UNS N08904 / WNR. 1.4539)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "SS 904L", uns: "N08904", werkstoff: "1.4539", standard: "ASTM" },
+    { grade: "Alloy 904L", uns: "N08904", werkstoff: "1.4539", standard: "—" },
+    { grade: "UNS N08904", uns: "N08904", werkstoff: "1.4539", standard: "—" },
+    { grade: "SUS 904L", uns: "N08904", werkstoff: "1.4539", standard: "JIS" },
+    { grade: "904S13", uns: "N08904", werkstoff: "1.4539", standard: "BS" },
+    { grade: "Z2NCDU25-20", uns: "N08904", werkstoff: "1.4539", standard: "AFNOR" },
+    { grade: "X1NiCrMoCu25-20-5", uns: "N08904", werkstoff: "1.4539", standard: "EN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "SS 904L",
+      c: "0.020 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "19.00 – 23.00",
+      ni: "23.00 – 28.00",
+      mo: "4.00 – 5.00",
+      other: "P: 0.045 max, S: 0.035 max, Cu: 1.00 – 2.00, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "SS 904L",
+      tensile: "490 MPa (71 ksi) min",
+      yield: "220 MPa (32 ksi) min",
+      elongation: "35% min",
+      reduction: "—",
+      hardness: "—",
+      density: "8.00 g/cm³",
+      meltingPoint: "1300 °C – 1390 °C (2372 °F – 2534 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1090°C – 1170°C (1995°F – 2140°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Water Quench / Rapid Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "UNS N08904 Threaded Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "WNR. 1.4539 Threaded Forged Fittings", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "SS 904L Hexagonal Plug", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "SS 904L Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "SS 904L Threaded Bushing", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 1.4539 Threaded Forged Fittings",
+    "SS 904L Forged Fittings",
+    "UNS N08904 Threaded Lateral Tee",
+    "SS 904L 45 Deg Forged Threaded Elbow",
+    "SS 904L 45 Deg Threaded Elbow",
+    "SS 904L Threaded Cross",
+    "UNS N08904 Threaded Cross",
+    "BS 3799 904L Threaded Cap",
+    "SS 904L Threaded Coupling",
+    "SS 904L Threaded Union",
+    "SS 904L Threaded Bushing",
+    "SS 904L Forged Threaded Plug",
+    "SS 904L Threaded Hex Plug",
+    "SS 904L Hexagonal Plug",
+    "SS 904L Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Marine Industry",
+    "Offshore Oil Drilling Companies",
+    "Heat Exchangers & Condensers",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pulp & Paper Industry",
+    "Food Processing Equipment",
+  ],
+
+  specializedIn: [
+    "Stainless Steel 904L Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Stainless Steel 904L Forged Fittings Exporter",
+    "ANSI B16.11 SS 904L Threaded Forged Fittings Stockist in India",
+    "Stainless Steel 904L Forged Fittings Dealer",
+    "SS 904L Threaded 90° Elbow Supplier",
+    "Supplier of SS 904L Threaded 45° Elbow",
+    "SS 904L Threaded Tee Manufacturer",
+    "Stainless Steel 904L Threaded Cross Exporter",
+    "SS 904L Threaded Union Manufacturer",
+    "SS WERKSTOFF NR. 1.4539 Threaded Coupling Exporter",
+    "Stainless Steel 904L Threaded Cap Supplier",
+    "SS 904L Hexagonal Plug Supplier",
+    "SS UNS N08904 Threaded Forged Fittings Exporter",
+    "ASME SA182 SS 904L Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Stainless Steel 904L Forged Fittings Price List",
+    "SS 904L Forged Fittings Weight Calculator",
+    "SS 904L Forged Fittings Dimensions",
+    "Stainless Steel 904L Forged Fittings Price Per Kg in India",
+    "SS 904L Forged Fittings Manufacturer in Mumbai",
+    "Stainless Steel 904L Forged Fittings Supplier in India",
+    "SS 904L Forged Fittings Thickness Tolerance",
+    "Stainless Steel 904L Forged Fittings Price List PDF",
+    "SS 904L Forged Fittings Mechanical Properties",
+    "SS 904L Forged Fittings Chemical Composition",
+    "SS 904L Forged Fittings Stockist in Pune",
+    "Stainless Steel 904L Forged Fittings Exporter",
+    "SS 904L Forged Fittings Price in Mumbai",
+    "SS 904L Forged Fittings Size Chart",
+    "SS 904L Threaded Elbow Price",
+    "SS 904L Threaded Tee Supplier",
+    "SS 904L Threaded Cross Manufacturers",
+    "SS 904L Forged Fittings Catalog PDF",
+    "SS 904L Forged Fittings Equivalent Grades",
+    "SS 904L Forged Fittings Price per Piece",
+    "SS 904L Forged Fittings updated price list",
+    "SS 904L Forged Fittings Size Chart 1/8 to 4 inch",
+    "SS 904L Forged Fittings Manufacturers in Gujarat",
+    "SS 904L Forged Fittings Stockyards in India",
+    "SS 904L Forged Fittings thickness chart",
+    "Stainless Steel 904L Forged Fittings Price in India",
+    "Top 100 SS 904L Forged Fittings Dealers in Mumbai",
+    "Buy Stainless Steel 904L Forged Fittings Online",
+    "Stainless Steel 904L Forged Fittings leading manufacturers in India",
+    "UNS N08904 Forged Fittings Price India",
+    "Werkstoff 1.4539 Forged Fittings Price India",
+    "SS 904L Forged Fittings Heat Treatment",
+    "SS 904L Forged Fittings Annealing Temperature",
+    "SS 904L Forged Fittings Hardness Range",
+    "Stainless Steel 904L Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 60,
+  slug: "alloy-steel-f1-forged-fittings",
+  image: "/stock/alloy-steel-f1-forged-fittings.jpg",
+  title:
+    "Alloy Steel F1 Forged Fittings Supplier – ASTM A182 / ASME SA182 / Chrome Moly (Low Alloy Steel)",
+  shortDescription:
+    "Alloy Steel F1 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Alloy steel F1 threaded forged fittings have low corrosion resistance properties. They are made using good quality raw material and the latest technology, which further enables our customers to use them for a long period without having any defects. Alloy steel F1 threaded forged fittings are available in different sizes and shapes. Alloy steel F1 forged threaded cross fittings can be hardened by the cold working process. Alloy steel F1 forged threaded tee fittings have high tensile strength and hardness. Alloy steel F1 forged threaded cap fittings contain titanium, molybdenum, and aluminum. Alloy steel F1 forged threaded bend fittings cannot be hardened by thermal treatment. Alloy steel F1 forged threaded union fittings contain chromium content up to 18% and nickel content up to 10%. Alloy steel F1 forged threaded fittings have a wide range of usage in different industries. Alloy steel F1 forged threaded cross fittings are often used in chemical equipment and seawater equipment. Alloy steel F1 forged threaded cap fittings are used for pharmaceuticals and pharmaceutical equipment. Alloy steel F1 forged threaded bend fittings are often used in heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F1 (Chrome Moly)":
+        "A low alloy steel (Chrome Moly) with low corrosion resistance properties. Can be hardened by cold working process. High tensile strength and hardness. Contains titanium, molybdenum, and aluminum. Cannot be hardened by thermal treatment. Contains chromium content up to 18% and nickel content up to 10%. Used in chemical equipment, seawater equipment, pharmaceuticals, pharmaceutical equipment, heat exchangers, and condensers.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Alloy Steel F1 (Chrome Moly)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy Steel F1", uns: "K12822", werkstoff: "1.5415", standard: "ASTM" },
+    { grade: "Chrome Moly F1", uns: "K12822", werkstoff: "1.5415", standard: "—" },
+    { grade: "Grade F1", uns: "K12822", werkstoff: "1.5415", standard: "—" },
+    { grade: "A182 F1", uns: "K12822", werkstoff: "1.5415", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy Steel F1",
+      c: "0.28 max",
+      mn: "0.60 – 1.00",
+      si: "0.15 – 0.35",
+      cr: "—",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.045 max, S: 0.045 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy Steel F1",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "275 MPa (40 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "620°C – 700°C (1150°F – 1300°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy F1 Socket weld Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F1 Socket weld Hex Plug", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy Steel F1 Socket weld Union", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F1 Socket weld Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F1 Socket weld Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy F1 Socket weld Forged Fittings",
+    "Alloy Steel F1 Socket weld Fittings",
+    "Alloy Steel F1 Socket weld Lateral Tee",
+    "Alloy F1 45 Deg Forged Socket weld Elbow",
+    "Alloy Steel F1 90 Deg Socket weld Elbow",
+    "Alloy Steel F1 Socket weld Cross",
+    "Alloy Steel F1 Socket weld Hex Plug",
+    "Alloy Steel F1 Socket weld Cap",
+    "Alloy F1 Socket weld Coupling",
+    "Alloy Steel F1 Socket weld Union",
+    "Alloy Steel F1 Socket weld Tees",
+    "Alloy Steel F1 Forged Socket weld Plug",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Equipment",
+    "Seawater Equipment",
+    "Pharmaceuticals & Pharmaceutical Equipment",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pulp & Paper Industry",
+    "Marine Industries",
+    "Offshore Oil Drilling Companies",
+    "Food Processing Equipment",
+  ],
+
+  specializedIn: [
+    "Alloy Steel F1 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Alloy Steel F1 Forged Fittings Exporter",
+    "ANSI B16.11 Alloy Steel F1 Threaded Forged Fittings Stockist in India",
+    "Alloy Steel F1 Forged Fittings Dealer",
+    "Alloy Steel F1 Threaded 90° Elbow Supplier",
+    "Supplier of Alloy Steel F1 Threaded 45° Elbow",
+    "Alloy Steel F1 Threaded Tee Manufacturer",
+    "Alloy Steel F1 Threaded Cross Exporter",
+    "Alloy Steel F1 Threaded Union Manufacturer",
+    "F1 Chrome Moly Threaded Coupling Exporter",
+    "Alloy Steel F1 Threaded Cap Supplier",
+    "Alloy Steel F1 Hexagonal Plug Supplier",
+    "Grade F1 Alloy Threaded Forged Fittings Exporter",
+    "ASME SA182 Alloy Steel F1 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel F1 Forged Fittings Price List",
+    "Alloy Steel F1 Forged Fittings Weight Calculator",
+    "Alloy Steel F1 Forged Fittings Dimensions",
+    "Alloy Steel F1 Forged Fittings Price Per Kg in India",
+    "Alloy Steel F1 Forged Fittings Manufacturer in Mumbai",
+    "Alloy Steel F1 Forged Fittings Supplier in India",
+    "Alloy Steel F1 Forged Fittings Thickness Tolerance",
+    "Alloy Steel F1 Forged Fittings Price List PDF",
+    "Alloy Steel F1 Forged Fittings Mechanical Properties",
+    "Alloy Steel F1 Forged Fittings Chemical Composition",
+    "Alloy Steel F1 Forged Fittings Stockist in Pune",
+    "Alloy Steel F1 Forged Fittings Exporter",
+    "Alloy Steel F1 Forged Fittings Price in Mumbai",
+    "Alloy Steel F1 Forged Fittings Size Chart",
+    "Alloy Steel F1 Threaded Elbow Price",
+    "Alloy Steel F1 Threaded Tee Supplier",
+    "Alloy Steel F1 Threaded Cross Manufacturers",
+    "Alloy Steel F1 Forged Fittings Catalog PDF",
+    "Alloy Steel F1 Forged Fittings Equivalent Grades",
+    "Alloy Steel F1 Forged Fittings Price per Piece",
+    "Alloy Steel F1 Forged Fittings updated price list",
+    "Alloy Steel F1 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Alloy Steel F1 Forged Fittings Manufacturers in Gujarat",
+    "Alloy Steel F1 Forged Fittings Stockyards in India",
+    "Alloy Steel F1 Forged Fittings thickness chart",
+    "Alloy Steel F1 Forged Fittings Price in India",
+    "Top 100 Alloy Steel F1 Forged Fittings Dealers in Mumbai",
+    "Buy Alloy Steel F1 Forged Fittings Online",
+    "Alloy Steel F1 Forged Fittings leading manufacturers in India",
+    "Chrome Moly F1 Forged Fittings Price India",
+    "Grade F1 Alloy Forged Fittings Price India",
+    "Alloy Steel F1 Forged Fittings Heat Treatment",
+    "Alloy Steel F1 Forged Fittings Normalizing Temperature",
+    "Alloy Steel F1 Forged Fittings Hardness Range",
+    "Alloy Steel F1 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 61,
+  slug: "alloy-steel-f5-forged-fittings",
+  image: "/stock/alloy-steel-f5-forged-fittings.jpg",
+  title:
+    "Alloy Steel F5 Forged Fittings Supplier – ASTM A182 / ASME SA182 / Chrome Moly (5% Chromium Low Alloy Steel)",
+  shortDescription:
+    "Alloy Steel F5 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Alloy steel F5 threaded forged fittings have low corrosion resistance properties. They are made using good quality raw material and latest technology, which further enables our customers to use it for a long period without having any defects. Alloy steel F5 threaded forged fittings are available in different sizes and shapes. Alloy steel F5 forged threaded fittings have the best corrosion resistance to chemical environments. Alloy steel F5 threaded forged plug fittings can be effectively used at the temperature up to 705 Degree C for continuing servicing. Alloy steel F5 threaded forged fittings have low corrosion resistance properties. Alloy steel F5 threaded forged union fittings can be used at the temperature above 811 Degree C for intermittent service. alloy steel F5 forged threaded cap fittings have better corrosion resistance to chemical environments. Alloy steel F5 forged threaded fittings can be used for household applications and food processing units. Alloy steel F5 forged union fittings can be used for seawater equipment and pharmaceutical equipment. Alloy steel F5 forged threaded bend fittings are mostly used for chemical equipment. Alloy steel F5 forged threaded bushing fittings are also used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F5 (Chrome Moly)":
+        "A 5% chromium low alloy steel (Chrome Moly) with low corrosion resistance properties. Best corrosion resistance to chemical environments. Can be effectively used at temperature up to 705°C for continuing service. Can be used at temperature above 811°C for intermittent service. Better corrosion resistance to chemical environments. Used in household applications, food processing units, seawater equipment, pharmaceutical equipment, chemical equipment, heat exchangers, and condensers.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Alloy Steel F5 (Chrome Moly)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy Steel F5", uns: "K41545", werkstoff: "1.7362", standard: "ASTM" },
+    { grade: "Chrome Moly F5", uns: "K41545", werkstoff: "1.7362", standard: "—" },
+    { grade: "Grade F5", uns: "K41545", werkstoff: "1.7362", standard: "—" },
+    { grade: "A182 F5", uns: "K41545", werkstoff: "1.7362", standard: "ASTM" },
+    { grade: "A182 F5a", uns: "K41545", werkstoff: "1.7362", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy Steel F5",
+      c: "0.15 max",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "4.00 – 6.00",
+      ni: "0.50 max",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max, Cu: 0.50 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy Steel F5",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "275 MPa (40 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "620°C – 700°C (1150°F – 1300°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy F5 Socket weld Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F5 Socket weld Hex Plug", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy Steel F5 Socket weld Union", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F5 Socket weld Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F5 Socket weld Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy F5 Socket weld Forged Fittings",
+    "Alloy Steel F5 Socket weld Fittings",
+    "Alloy Steel F5 Socket weld Lateral Tee",
+    "Alloy F5 45 Deg Forged Socket weld Elbow",
+    "Alloy Steel F5 90 Deg Socket weld Elbow",
+    "Alloy Steel F5 Socket weld Cross",
+    "Alloy Steel F5 Socket weld Hex Plug",
+    "Alloy Steel F5 Socket weld Cap",
+    "Alloy F5 Socket weld Coupling",
+    "Alloy Steel F5 Socket weld Union",
+    "Alloy Steel F5 Socket weld Tees",
+    "Alloy Steel F5 Forged Socket weld Plug",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Household Applications",
+    "Food Processing Units",
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Chemical Equipment",
+    "Heat Exchangers & Condensers",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pulp & Paper Industry",
+    "Marine Industries",
+  ],
+
+  specializedIn: [
+    "Alloy Steel F5 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Alloy Steel F5 Forged Fittings Exporter",
+    "ANSI B16.11 Alloy Steel F5 Threaded Forged Fittings Stockist in India",
+    "Alloy Steel F5 Forged Fittings Dealer",
+    "Alloy Steel F5 Threaded 90° Elbow Supplier",
+    "Supplier of Alloy Steel F5 Threaded 45° Elbow",
+    "Alloy Steel F5 Threaded Tee Manufacturer",
+    "Alloy Steel F5 Threaded Cross Exporter",
+    "Alloy Steel F5 Threaded Union Manufacturer",
+    "F5 Chrome Moly Threaded Coupling Exporter",
+    "Alloy Steel F5 Threaded Cap Supplier",
+    "Alloy Steel F5 Hexagonal Plug Supplier",
+    "Grade F5 Alloy Threaded Forged Fittings Exporter",
+    "ASME SA182 Alloy Steel F5 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel F5 Forged Fittings Price List",
+    "Alloy Steel F5 Forged Fittings Weight Calculator",
+    "Alloy Steel F5 Forged Fittings Dimensions",
+    "Alloy Steel F5 Forged Fittings Price Per Kg in India",
+    "Alloy Steel F5 Forged Fittings Manufacturer in Mumbai",
+    "Alloy Steel F5 Forged Fittings Supplier in India",
+    "Alloy Steel F5 Forged Fittings Thickness Tolerance",
+    "Alloy Steel F5 Forged Fittings Price List PDF",
+    "Alloy Steel F5 Forged Fittings Mechanical Properties",
+    "Alloy Steel F5 Forged Fittings Chemical Composition",
+    "Alloy Steel F5 Forged Fittings Stockist in Pune",
+    "Alloy Steel F5 Forged Fittings Exporter",
+    "Alloy Steel F5 Forged Fittings Price in Mumbai",
+    "Alloy Steel F5 Forged Fittings Size Chart",
+    "Alloy Steel F5 Threaded Elbow Price",
+    "Alloy Steel F5 Threaded Tee Supplier",
+    "Alloy Steel F5 Threaded Cross Manufacturers",
+    "Alloy Steel F5 Forged Fittings Catalog PDF",
+    "Alloy Steel F5 Forged Fittings Equivalent Grades",
+    "Alloy Steel F5 Forged Fittings Price per Piece",
+    "Alloy Steel F5 Forged Fittings updated price list",
+    "Alloy Steel F5 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Alloy Steel F5 Forged Fittings Manufacturers in Gujarat",
+    "Alloy Steel F5 Forged Fittings Stockyards in India",
+    "Alloy Steel F5 Forged Fittings thickness chart",
+    "Alloy Steel F5 Forged Fittings Price in India",
+    "Top 100 Alloy Steel F5 Forged Fittings Dealers in Mumbai",
+    "Buy Alloy Steel F5 Forged Fittings Online",
+    "Alloy Steel F5 Forged Fittings leading manufacturers in India",
+    "Chrome Moly F5 Forged Fittings Price India",
+    "Grade F5 Alloy Forged Fittings Price India",
+    "Alloy Steel F5 Forged Fittings Heat Treatment",
+    "Alloy Steel F5 Forged Fittings Normalizing Temperature",
+    "Alloy Steel F5 Forged Fittings Hardness Range",
+    "Alloy Steel F5 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 62,
+  slug: "alloy-steel-f9-forged-fittings",
+  image: "/stock/alloy-steel-f9-forged-fittings.jpg",
+  title:
+    "Alloy Steel F9 Forged Fittings Supplier – ASTM A182 / ASME SA182 / Chrome Moly (9% Chromium Low Alloy Steel)",
+  shortDescription:
+    "Alloy Steel F9 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Alloy steel F9 threaded forged fittings have low corrosion resistance properties. They are made using good quality raw material and the latest technology, which further enables our customers to use it for a long period without having any defects. Alloy steel F9 threaded forged fittings are available in different sizes and shapes. Chromium content is the differentiation factor between alloy steel F9 threaded fittings and carbon steel alloy. Alloy steel F9 forged threaded cap fittings contain titanium, chromium, and aluminum. Alloy steel F9 forged threaded coupling fittings are used in modern kitchens and cutlery items. Alloy steel F9 Forged threaded bend fittings are mostly used in household applications and food handling equipment. Alloy steel F9 threaded forged bushing fittings contain chromium content up to 18% and nickel content up to 10%. Alloy steel F9 forged threaded fittings are mostly used in marine industries and shipbuilding companies. Alloy steel F9 Forged bushing fittings are often used in buildings and skyscrapers. Alloy steel F9 forged threaded bend fittings are also used in fasteners and valves. Alloy steel F9 forged threaded fittings are used in seawater equipment and chemical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F9 (Chrome Moly)":
+        "A 9% chromium low alloy steel (Chrome Moly) with low corrosion resistance properties. Contains titanium, chromium, and aluminum. Contains chromium content up to 18% and nickel content up to 10%. Used in modern kitchens, cutlery items, household applications, food handling equipment, marine industries, shipbuilding companies, buildings, skyscrapers, fasteners, valves, seawater equipment, and chemical equipment.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Alloy Steel F9 (Chrome Moly)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy Steel F9", uns: "K90941", werkstoff: "1.7386", standard: "ASTM" },
+    { grade: "Chrome Moly F9", uns: "K90941", werkstoff: "1.7386", standard: "—" },
+    { grade: "Grade F9", uns: "K90941", werkstoff: "1.7386", standard: "—" },
+    { grade: "A182 F9", uns: "K90941", werkstoff: "1.7386", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy Steel F9",
+      c: "0.15 max",
+      mn: "0.30 – 0.60",
+      si: "0.50 – 1.00",
+      cr: "8.00 – 10.00",
+      ni: "—",
+      mo: "0.90 – 1.10",
+      other: "P: 0.030 max, S: 0.030 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy Steel F9",
+      tensile: "585 MPa (85 ksi) min",
+      yield: "380 MPa (55 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "620°C – 700°C (1150°F – 1300°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy F9 Socket weld Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "F9 45 Deg Forged Socket weld Elbow", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "F9 Socket weld Cap", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F9 Socket weld Tees", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F9 Socket weld Cross", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy F9 Socket weld Forged Fittings",
+    "Alloy Steel F9 Socket weld Fittings",
+    "Alloy Steel F9 Socket weld Lateral Tee",
+    "Alloy F9 45 Deg Forged Socket weld Elbow",
+    "Alloy Steel F9 90 Deg Socket weld Elbow",
+    "Alloy Steel F9 Socket weld Cross",
+    "Alloy Steel F9 Socket weld Hex Plug",
+    "Alloy Steel F9 Socket weld Cap",
+    "Alloy F9 Socket weld Coupling",
+    "Alloy Steel F9 Socket weld Union",
+    "Alloy Steel F9 Socket weld Tees",
+    "Alloy Steel F9 Forged Socket weld Plug",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Modern Kitchens & Cutlery Items",
+    "Household Applications",
+    "Food Handling Equipment",
+    "Marine Industries",
+    "Shipbuilding Companies",
+    "Buildings & Skyscrapers",
+    "Fasteners & Valves",
+    "Seawater Equipment",
+    "Chemical Equipment",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Heat Exchangers & Condensers",
+  ],
+
+  specializedIn: [
+    "Alloy Steel F9 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Alloy Steel F9 Forged Fittings Exporter",
+    "ANSI B16.11 Alloy Steel F9 Threaded Forged Fittings Stockist in India",
+    "Alloy Steel F9 Forged Fittings Dealer",
+    "Alloy Steel F9 Threaded 90° Elbow Supplier",
+    "Supplier of Alloy Steel F9 Threaded 45° Elbow",
+    "Alloy Steel F9 Threaded Tee Manufacturer",
+    "Alloy Steel F9 Threaded Cross Exporter",
+    "Alloy Steel F9 Threaded Union Manufacturer",
+    "F9 Chrome Moly Threaded Coupling Exporter",
+    "Alloy Steel F9 Threaded Cap Supplier",
+    "Alloy Steel F9 Hexagonal Plug Supplier",
+    "Grade F9 Alloy Threaded Forged Fittings Exporter",
+    "ASME SA182 Alloy Steel F9 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel F9 Forged Fittings Price List",
+    "Alloy Steel F9 Forged Fittings Weight Calculator",
+    "Alloy Steel F9 Forged Fittings Dimensions",
+    "Alloy Steel F9 Forged Fittings Price Per Kg in India",
+    "Alloy Steel F9 Forged Fittings Manufacturer in Mumbai",
+    "Alloy Steel F9 Forged Fittings Supplier in India",
+    "Alloy Steel F9 Forged Fittings Thickness Tolerance",
+    "Alloy Steel F9 Forged Fittings Price List PDF",
+    "Alloy Steel F9 Forged Fittings Mechanical Properties",
+    "Alloy Steel F9 Forged Fittings Chemical Composition",
+    "Alloy Steel F9 Forged Fittings Stockist in Pune",
+    "Alloy Steel F9 Forged Fittings Exporter",
+    "Alloy Steel F9 Forged Fittings Price in Mumbai",
+    "Alloy Steel F9 Forged Fittings Size Chart",
+    "Alloy Steel F9 Threaded Elbow Price",
+    "Alloy Steel F9 Threaded Tee Supplier",
+    "Alloy Steel F9 Threaded Cross Manufacturers",
+    "Alloy Steel F9 Forged Fittings Catalog PDF",
+    "Alloy Steel F9 Forged Fittings Equivalent Grades",
+    "Alloy Steel F9 Forged Fittings Price per Piece",
+    "Alloy Steel F9 Forged Fittings updated price list",
+    "Alloy Steel F9 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Alloy Steel F9 Forged Fittings Manufacturers in Gujarat",
+    "Alloy Steel F9 Forged Fittings Stockyards in India",
+    "Alloy Steel F9 Forged Fittings thickness chart",
+    "Alloy Steel F9 Forged Fittings Price in India",
+    "Top 100 Alloy Steel F9 Forged Fittings Dealers in Mumbai",
+    "Buy Alloy Steel F9 Forged Fittings Online",
+    "Alloy Steel F9 Forged Fittings leading manufacturers in India",
+    "Chrome Moly F9 Forged Fittings Price India",
+    "Grade F9 Alloy Forged Fittings Price India",
+    "Alloy Steel F9 Forged Fittings Heat Treatment",
+    "Alloy Steel F9 Forged Fittings Normalizing Temperature",
+    "Alloy Steel F9 Forged Fittings Hardness Range",
+    "Alloy Steel F9 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 63,
+  slug: "alloy-steel-f11-forged-fittings",
+  image: "/stock/alloy-steel-f11-forged-fittings.jpg",
+  title:
+    "Alloy Steel F11 Forged Fittings Supplier – ASTM A182 / ASME SA182 / Chrome Moly (1.25% Chromium – 0.5% Molybdenum Low Alloy Steel)",
+  shortDescription:
+    "Alloy Steel F11 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Alloy steel F11 threaded forged fittings have low corrosion resistance to oxidizing media. They are made using good quality raw material and the latest technology, which further enables our customers to use it for a long period without having any defects. F11 threaded forged fittings are available in different sizes and shapes. Alloy steel F11 forged threaded fittings have high tensile strength and yield strength. Alloy steel F11 forged threaded cross fittings have the best formability, and machining properties. Alloy steel F11 threaded forged fittings have the best corrosion resistance to oxidizing media. Alloy steel F11 Forged threaded cap fittings have high hardness and can be more hardened by heat treatment. Alloy steel F11 forged threaded bend fittings have the best corrosion resistance to corrosive aqueous media. Alloy steel F11 forged threaded coupling fittings have good welding properties. Alloy steel F11 threaded forged bushing has the best corrosion resistance to oxidizing acids like nitric acid. Alloy steel F11 forged threaded fittings are mostly used for household applications and food handling equipment. Alloy steel F11 forged threaded bushing fittings are often used in the pulp and paper industry. Alloy steel F11 forged threaded bend fittings are also used in the marine industry.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F11 (Chrome Moly)":
+        "A 1.25% chromium – 0.5% molybdenum low alloy steel (Chrome Moly) with low corrosion resistance to oxidizing media. High tensile strength and yield strength. Best formability and machining properties. Best corrosion resistance to oxidizing media. High hardness and can be more hardened by heat treatment. Best corrosion resistance to corrosive aqueous media. Good welding properties. Best corrosion resistance to oxidizing acids like nitric acid. Used in household applications, food handling equipment, pulp and paper industry, and marine industry.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Alloy Steel F11 (Chrome Moly)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy Steel F11", uns: "K11572", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "Chrome Moly F11", uns: "K11572", werkstoff: "1.7335", standard: "—" },
+    { grade: "Grade F11", uns: "K11572", werkstoff: "1.7335", standard: "—" },
+    { grade: "A182 F11", uns: "K11572", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "A182 F11 Class 1", uns: "K11572", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "A182 F11 Class 2", uns: "K11572", werkstoff: "1.7335", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy Steel F11",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 – 1.00",
+      cr: "1.00 – 1.50",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy Steel F11",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "275 MPa (40 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "620°C – 700°C (1150°F – 1300°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy F11 Socket weld Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F11 Socket weld Hex Plug", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy Steel F11 Socket weld Hex Plug", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F11 Socket weld Tees", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F11 Socket weld Cross", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy F11 Socket weld Forged Fittings",
+    "Alloy Steel F11 Socket weld Fittings",
+    "Alloy Steel F11 Socket weld Lateral Tee",
+    "Alloy F11 45 Deg Forged Socket weld Elbow",
+    "Alloy Steel F11 90 Deg Socket weld Elbow",
+    "Alloy Steel F11 Socket weld Cross",
+    "Alloy Steel F11 Socket weld Hex Plug",
+    "Alloy Steel F11 Socket weld Cap",
+    "Alloy F11 Socket weld Coupling",
+    "Alloy Steel F11 Socket weld Union",
+    "Alloy Steel F11 Socket weld Tees",
+    "Alloy Steel F11 Forged Socket weld Plug",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Household Applications",
+    "Food Handling Equipment",
+    "Pulp & Paper Industry",
+    "Marine Industry",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Heat Exchangers & Condensers",
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+  ],
+
+  specializedIn: [
+    "Alloy Steel F11 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Alloy Steel F11 Forged Fittings Exporter",
+    "ANSI B16.11 Alloy Steel F11 Threaded Forged Fittings Stockist in India",
+    "Alloy Steel F11 Forged Fittings Dealer",
+    "Alloy Steel F11 Threaded 90° Elbow Supplier",
+    "Supplier of Alloy Steel F11 Threaded 45° Elbow",
+    "Alloy Steel F11 Threaded Tee Manufacturer",
+    "Alloy Steel F11 Threaded Cross Exporter",
+    "Alloy Steel F11 Threaded Union Manufacturer",
+    "F11 Chrome Moly Threaded Coupling Exporter",
+    "Alloy Steel F11 Threaded Cap Supplier",
+    "Alloy Steel F11 Hexagonal Plug Supplier",
+    "Grade F11 Alloy Threaded Forged Fittings Exporter",
+    "ASME SA182 Alloy Steel F11 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel F11 Forged Fittings Price List",
+    "Alloy Steel F11 Forged Fittings Weight Calculator",
+    "Alloy Steel F11 Forged Fittings Dimensions",
+    "Alloy Steel F11 Forged Fittings Price Per Kg in India",
+    "Alloy Steel F11 Forged Fittings Manufacturer in Mumbai",
+    "Alloy Steel F11 Forged Fittings Supplier in India",
+    "Alloy Steel F11 Forged Fittings Thickness Tolerance",
+    "Alloy Steel F11 Forged Fittings Price List PDF",
+    "Alloy Steel F11 Forged Fittings Mechanical Properties",
+    "Alloy Steel F11 Forged Fittings Chemical Composition",
+    "Alloy Steel F11 Forged Fittings Stockist in Pune",
+    "Alloy Steel F11 Forged Fittings Exporter",
+    "Alloy Steel F11 Forged Fittings Price in Mumbai",
+    "Alloy Steel F11 Forged Fittings Size Chart",
+    "Alloy Steel F11 Threaded Elbow Price",
+    "Alloy Steel F11 Threaded Tee Supplier",
+    "Alloy Steel F11 Threaded Cross Manufacturers",
+    "Alloy Steel F11 Forged Fittings Catalog PDF",
+    "Alloy Steel F11 Forged Fittings Equivalent Grades",
+    "Alloy Steel F11 Forged Fittings Price per Piece",
+    "Alloy Steel F11 Forged Fittings updated price list",
+    "Alloy Steel F11 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Alloy Steel F11 Forged Fittings Manufacturers in Gujarat",
+    "Alloy Steel F11 Forged Fittings Stockyards in India",
+    "Alloy Steel F11 Forged Fittings thickness chart",
+    "Alloy Steel F11 Forged Fittings Price in India",
+    "Top 100 Alloy Steel F11 Forged Fittings Dealers in Mumbai",
+    "Buy Alloy Steel F11 Forged Fittings Online",
+    "Alloy Steel F11 Forged Fittings leading manufacturers in India",
+    "Chrome Moly F11 Forged Fittings Price India",
+    "Grade F11 Alloy Forged Fittings Price India",
+    "Alloy Steel F11 Forged Fittings Heat Treatment",
+    "Alloy Steel F11 Forged Fittings Normalizing Temperature",
+    "Alloy Steel F11 Forged Fittings Hardness Range",
+    "Alloy Steel F11 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 64,
+  slug: "alloy-steel-f12-forged-fittings",
+  image: "/stock/alloy-steel-f12-forged-fittings.jpg",
+  title:
+    "Alloy Steel F12 Forged Fittings Supplier – ASTM A182 / ASME SA182 / Chrome Moly (1.25% Chromium – 0.5% Molybdenum Low Alloy Steel)",
+  shortDescription:
+    "Alloy Steel F12 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Alloy steel F12 forged fittings has low corrosion resistance properties. They are made using good quality raw material and the latest technology, which further enables our customers to use it for a long period without having any defects. Alloy steel F12 threaded forged fittings are available in different sizes and shapes. Alloy steel F12 threaded forged bushing fittings has high tensile strength and excellent hardness. Alloy steel F12 forged threaded cap fittings can be transformed from austenite to martensitic by the cold working process. Alloy steel F12 forged threaded cross fittings can be hardened by heat treatment. Alloy steel F12 threaded forged coupling fittings has the best corrosion resistance to chromium carbide precipitation. Alloy steel F12 forged threaded bend fittings have excellent welding properties. Alloy steel F12 forged threaded tee fittings are mostly used in the marine industry and aerospace industry. Alloy steel F12 forged threaded elbow fittings can be used for food processing equipment. Alloy steel F12 forged threaded union fittings are mostly used in the pulp and paper industry. Alloy steel F12 forged threaded cap fittings are also used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F12 (Chrome Moly)":
+        "A 1.25% chromium – 0.5% molybdenum low alloy steel (Chrome Moly) with low corrosion resistance properties. High tensile strength and excellent hardness. Can be transformed from austenite to martensitic by the cold working process. Can be hardened by heat treatment. Best corrosion resistance to chromium carbide precipitation. Excellent welding properties. Used in marine industry, aerospace industry, food processing equipment, pulp and paper industry, heat exchangers, and condensers.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Alloy Steel F12 (Chrome Moly)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy Steel F12", uns: "K11562", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "Chrome Moly F12", uns: "K11562", werkstoff: "1.7335", standard: "—" },
+    { grade: "Grade F12", uns: "K11562", werkstoff: "1.7335", standard: "—" },
+    { grade: "A182 F12", uns: "K11562", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "A182 F12 Class 1", uns: "K11562", werkstoff: "1.7335", standard: "ASTM" },
+    { grade: "A182 F12 Class 2", uns: "K11562", werkstoff: "1.7335", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy Steel F12",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "0.80 – 1.25",
+      ni: "—",
+      mo: "0.44 – 0.65",
+      other: "P: 0.030 max, S: 0.030 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy Steel F12",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "275 MPa (40 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "620°C – 700°C (1150°F – 1300°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy F12 Socket weld Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F12 Socket weld Hex Plug", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy Steel F12 Socket weld Union", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F12 Socket weld Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F12 Socket weld Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy F12 Socket weld Forged Fittings",
+    "Alloy Steel F12 Socket weld Fittings",
+    "Alloy Steel F12 Socket weld Lateral Tee",
+    "Alloy F12 45 Deg Forged Socket weld Elbow",
+    "Alloy Steel F12 90 Deg Socket weld Elbow",
+    "Alloy Steel F12 Socket weld Cross",
+    "Alloy Steel F12 Socket weld Hex Plug",
+    "Alloy Steel F12 Socket weld Cap",
+    "Alloy F12 Socket weld Coupling",
+    "Alloy Steel F12 Socket weld Union",
+    "Alloy Steel F12 Socket weld Tees",
+    "Alloy Steel F12 Forged Socket weld Plug",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Marine Industry",
+    "Aerospace Industry",
+    "Food Processing Equipment",
+    "Pulp & Paper Industry",
+    "Heat Exchangers & Condensers",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+  ],
+
+  specializedIn: [
+    "Alloy Steel F12 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Alloy Steel F12 Forged Fittings Exporter",
+    "ANSI B16.11 Alloy Steel F12 Threaded Forged Fittings Stockist in India",
+    "Alloy Steel F12 Forged Fittings Dealer",
+    "Alloy Steel F12 Threaded 90° Elbow Supplier",
+    "Supplier of Alloy Steel F12 Threaded 45° Elbow",
+    "Alloy Steel F12 Threaded Tee Manufacturer",
+    "Alloy Steel F12 Threaded Cross Exporter",
+    "Alloy Steel F12 Threaded Union Manufacturer",
+    "F12 Chrome Moly Threaded Coupling Exporter",
+    "Alloy Steel F12 Threaded Cap Supplier",
+    "Alloy Steel F12 Hexagonal Plug Supplier",
+    "Grade F12 Alloy Threaded Forged Fittings Exporter",
+    "ASME SA182 Alloy Steel F12 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel F12 Forged Fittings Price List",
+    "Alloy Steel F12 Forged Fittings Weight Calculator",
+    "Alloy Steel F12 Forged Fittings Dimensions",
+    "Alloy Steel F12 Forged Fittings Price Per Kg in India",
+    "Alloy Steel F12 Forged Fittings Manufacturer in Mumbai",
+    "Alloy Steel F12 Forged Fittings Supplier in India",
+    "Alloy Steel F12 Forged Fittings Thickness Tolerance",
+    "Alloy Steel F12 Forged Fittings Price List PDF",
+    "Alloy Steel F12 Forged Fittings Mechanical Properties",
+    "Alloy Steel F12 Forged Fittings Chemical Composition",
+    "Alloy Steel F12 Forged Fittings Stockist in Pune",
+    "Alloy Steel F12 Forged Fittings Exporter",
+    "Alloy Steel F12 Forged Fittings Price in Mumbai",
+    "Alloy Steel F12 Forged Fittings Size Chart",
+    "Alloy Steel F12 Threaded Elbow Price",
+    "Alloy Steel F12 Threaded Tee Supplier",
+    "Alloy Steel F12 Threaded Cross Manufacturers",
+    "Alloy Steel F12 Forged Fittings Catalog PDF",
+    "Alloy Steel F12 Forged Fittings Equivalent Grades",
+    "Alloy Steel F12 Forged Fittings Price per Piece",
+    "Alloy Steel F12 Forged Fittings updated price list",
+    "Alloy Steel F12 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Alloy Steel F12 Forged Fittings Manufacturers in Gujarat",
+    "Alloy Steel F12 Forged Fittings Stockyards in India",
+    "Alloy Steel F12 Forged Fittings thickness chart",
+    "Alloy Steel F12 Forged Fittings Price in India",
+    "Top 100 Alloy Steel F12 Forged Fittings Dealers in Mumbai",
+    "Buy Alloy Steel F12 Forged Fittings Online",
+    "Alloy Steel F12 Forged Fittings leading manufacturers in India",
+    "Chrome Moly F12 Forged Fittings Price India",
+    "Grade F12 Alloy Forged Fittings Price India",
+    "Alloy Steel F12 Forged Fittings Heat Treatment",
+    "Alloy Steel F12 Forged Fittings Normalizing Temperature",
+    "Alloy Steel F12 Forged Fittings Hardness Range",
+    "Alloy Steel F12 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 65,
+  slug: "alloy-steel-f22-forged-fittings",
+  image: "/stock/alloy-steel-f22-forged-fittings.jpg",
+  title:
+    "Alloy Steel F22 Forged Fittings Supplier – ASTM A182 / ASME SA182 / Chrome Moly (2.25% Chromium – 1% Molybdenum Low Alloy Steel)",
+  shortDescription:
+    "Alloy Steel F22 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Alloy steel F22 threaded forged fittings has the best corrosion resistance properties. They are made using good quality raw material and the latest technology, which further enables our customers to use it for a long period without having any defects. Alloy steel F22 forged fittings are available in different sizes and shapes. Alloy steel F22 threaded forged fittings can be easily cold worked. Alloy steel F22 forged threaded cross fittings do not require a re-strengthening process once the heat has worked. Alloy steel F22 threaded forged fittings have best corrosion resistance properties alloy steel F22 threaded forged union fittings requires pre-heat treatment working process at the temperature between 180 Degree C to 205 Degree C. Alloy steel F22 forged threaded cap fittings have the best machining and welding properties. Alloy steel F22 threaded forged cross fittings are also used for screws and household application. Alloy steel F22 forged threaded tee fittings are mostly used in the pulp and paper industry. Alloy steel F22 Forged threaded bend fittings are also used for heat exchangers and condensers.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F22 (Chrome Moly)":
+        "A 2.25% chromium – 1% molybdenum low alloy steel (Chrome Moly) with the best corrosion resistance properties. Can be easily cold worked. Does not require a re-strengthening process once heat worked. Requires pre-heat treatment working process at temperature between 180°C to 205°C. Best machining and welding properties. Used for screws, household applications, pulp and paper industry, heat exchangers, and condensers.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Alloy Steel F22 (Chrome Moly)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy Steel F22", uns: "K21590", werkstoff: "1.7380", standard: "ASTM" },
+    { grade: "Chrome Moly F22", uns: "K21590", werkstoff: "1.7380", standard: "—" },
+    { grade: "Grade F22", uns: "K21590", werkstoff: "1.7380", standard: "—" },
+    { grade: "A182 F22", uns: "K21590", werkstoff: "1.7380", standard: "ASTM" },
+    { grade: "A182 F22 Class 1", uns: "K21590", werkstoff: "1.7380", standard: "ASTM" },
+    { grade: "A182 F22 Class 3", uns: "K21590", werkstoff: "1.7380", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy Steel F22",
+      c: "0.05 – 0.15",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "2.00 – 2.50",
+      ni: "—",
+      mo: "0.87 – 1.13",
+      other: "P: 0.030 max, S: 0.030 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy Steel F22",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "275 MPa (40 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "620°C – 700°C (1150°F – 1300°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy F22 Socket weld Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F22 Socket weld Hex Plug", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy Steel F22 Socket weld Union", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F22 Socket weld Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F22 Socket weld Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy F22 Socket weld Forged Fittings",
+    "Alloy Steel F22 Socket weld Fittings",
+    "Alloy Steel F22 Socket weld Lateral Tee",
+    "Alloy F22 45 Deg Forged Socket weld Elbow",
+    "Alloy Steel F22 90 Deg Socket weld Elbow",
+    "Alloy Steel F22 Socket weld Cross",
+    "Alloy Steel F22 Socket weld Hex Plug",
+    "Alloy Steel F22 Socket weld Cap",
+    "Alloy F22 Socket weld Coupling",
+    "Alloy Steel F22 Socket weld Union",
+    "Alloy Steel F22 Socket weld Tees",
+    "Alloy Steel F22 Forged Socket weld Plug",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Screws & Household Applications",
+    "Pulp & Paper Industry",
+    "Heat Exchangers & Condensers",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Marine Industry",
+    "Aerospace Industry",
+  ],
+
+  specializedIn: [
+    "Alloy Steel F22 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Alloy Steel F22 Forged Fittings Exporter",
+    "ANSI B16.11 Alloy Steel F22 Threaded Forged Fittings Stockist in India",
+    "Alloy Steel F22 Forged Fittings Dealer",
+    "Alloy Steel F22 Threaded 90° Elbow Supplier",
+    "Supplier of Alloy Steel F22 Threaded 45° Elbow",
+    "Alloy Steel F22 Threaded Tee Manufacturer",
+    "Alloy Steel F22 Threaded Cross Exporter",
+    "Alloy Steel F22 Threaded Union Manufacturer",
+    "F22 Chrome Moly Threaded Coupling Exporter",
+    "Alloy Steel F22 Threaded Cap Supplier",
+    "Alloy Steel F22 Hexagonal Plug Supplier",
+    "Grade F22 Alloy Threaded Forged Fittings Exporter",
+    "ASME SA182 Alloy Steel F22 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel F22 Forged Fittings Price List",
+    "Alloy Steel F22 Forged Fittings Weight Calculator",
+    "Alloy Steel F22 Forged Fittings Dimensions",
+    "Alloy Steel F22 Forged Fittings Price Per Kg in India",
+    "Alloy Steel F22 Forged Fittings Manufacturer in Mumbai",
+    "Alloy Steel F22 Forged Fittings Supplier in India",
+    "Alloy Steel F22 Forged Fittings Thickness Tolerance",
+    "Alloy Steel F22 Forged Fittings Price List PDF",
+    "Alloy Steel F22 Forged Fittings Mechanical Properties",
+    "Alloy Steel F22 Forged Fittings Chemical Composition",
+    "Alloy Steel F22 Forged Fittings Stockist in Pune",
+    "Alloy Steel F22 Forged Fittings Exporter",
+    "Alloy Steel F22 Forged Fittings Price in Mumbai",
+    "Alloy Steel F22 Forged Fittings Size Chart",
+    "Alloy Steel F22 Threaded Elbow Price",
+    "Alloy Steel F22 Threaded Tee Supplier",
+    "Alloy Steel F22 Threaded Cross Manufacturers",
+    "Alloy Steel F22 Forged Fittings Catalog PDF",
+    "Alloy Steel F22 Forged Fittings Equivalent Grades",
+    "Alloy Steel F22 Forged Fittings Price per Piece",
+    "Alloy Steel F22 Forged Fittings updated price list",
+    "Alloy Steel F22 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Alloy Steel F22 Forged Fittings Manufacturers in Gujarat",
+    "Alloy Steel F22 Forged Fittings Stockyards in India",
+    "Alloy Steel F22 Forged Fittings thickness chart",
+    "Alloy Steel F22 Forged Fittings Price in India",
+    "Top 100 Alloy Steel F22 Forged Fittings Dealers in Mumbai",
+    "Buy Alloy Steel F22 Forged Fittings Online",
+    "Alloy Steel F22 Forged Fittings leading manufacturers in India",
+    "Chrome Moly F22 Forged Fittings Price India",
+    "Grade F22 Alloy Forged Fittings Price India",
+    "Alloy Steel F22 Forged Fittings Heat Treatment",
+    "Alloy Steel F22 Forged Fittings Normalizing Temperature",
+    "Alloy Steel F22 Forged Fittings Hardness Range",
+    "Alloy Steel F22 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 66,
+  slug: "alloy-steel-f91-forged-fittings",
+  image: "/stock/alloy-steel-f91-forged-fittings.jpg",
+  title:
+    "Alloy Steel F91 Forged Fittings Supplier – ASTM A182 / ASME SA182 / Chrome Moly (9% Chromium – 1% Molybdenum – Vanadium Low Alloy Steel)",
+  shortDescription:
+    "Alloy Steel F91 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Alloy steel F91 forged fittings have the best corrosion resistance to stress corrosion cracking. They are made using good quality raw material and the latest technology, which further enables our customers to use it for a long period without having any defects. Alloy steel F91 threaded forged fittings are available in different sizes and shapes. Alloy steel F91 forged threaded tee fittings have excellent machining and welding properties. Alloy steel F91 Forged threaded coupling fittings can be heated worked at a temperature up to 900 Degree C. Alloy steel F91 threaded forged fittings have the best corrosion resistance to stress corrosion cracking. Alloy steel F91 forged threaded fittings can be strengthened and hardened by the heat working process. Alloy steel F91 forged coupling fittings are mostly used in offshore oil drilling companies. Alloy steel F91 forged threaded bushing fittings can be used in seawater equipment and chemical equipment. Alloy steel F91 forged threaded bend fittings can also be used for condensers and heat exchangers. Alloy steel F91 forged threaded cross fittings are mostly used for food processing equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F91 (Chrome Moly)":
+        "A 9% chromium – 1% molybdenum – vanadium low alloy steel (Chrome Moly) with the best corrosion resistance to stress corrosion cracking. Excellent machining and welding properties. Can be heat worked at temperature up to 900°C. Can be strengthened and hardened by the heat working process. Used in offshore oil drilling companies, seawater equipment, chemical equipment, condensers, heat exchangers, and food processing equipment.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Alloy Steel F91 (Chrome Moly)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy Steel F91", uns: "K90901", werkstoff: "1.4903", standard: "ASTM" },
+    { grade: "Chrome Moly F91", uns: "K90901", werkstoff: "1.4903", standard: "—" },
+    { grade: "Grade F91", uns: "K90901", werkstoff: "1.4903", standard: "—" },
+    { grade: "A182 F91", uns: "K90901", werkstoff: "1.4903", standard: "ASTM" },
+    { grade: "A182 F91 Class 1", uns: "K90901", werkstoff: "1.4903", standard: "ASTM" },
+    { grade: "A182 F91 Class 2", uns: "K90901", werkstoff: "1.4903", standard: "ASTM" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy Steel F91",
+      c: "0.08 – 0.12",
+      mn: "0.30 – 0.60",
+      si: "0.20 – 0.50",
+      cr: "8.00 – 9.50",
+      ni: "0.40 max",
+      mo: "0.85 – 1.05",
+      other: "P: 0.020 max, S: 0.010 max, V: 0.18 – 0.25, Nb: 0.06 – 0.10, N: 0.030 – 0.070, Al: 0.02 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy Steel F91",
+      tensile: "585 MPa (85 ksi) min",
+      yield: "415 MPa (60 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "1040°C – 1080°C (1900°F – 1975°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "730°C – 800°C (1350°F – 1470°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "F91 Socket weld Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F91 Socket weld Hex Plug", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy Steel F91 Socket weld Union", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F91 Socket weld Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F91 Socket weld Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy F91 Socket weld Forged Fittings",
+    "Alloy Steel F91 Socket weld Fittings",
+    "Alloy Steel F91 Socket weld Lateral Tee",
+    "Alloy F91 45 Deg Forged Socket weld Elbow",
+    "Alloy Steel F91 90 Deg Socket weld Elbow",
+    "Alloy Steel F91 Socket weld Cross",
+    "Alloy Steel F91 Socket weld Hex Plug",
+    "Alloy Steel F91 Socket weld Cap",
+    "Alloy F91 Socket weld Coupling",
+    "Alloy Steel F91 Socket weld Union",
+    "Alloy Steel F91 Socket weld Tees",
+    "Alloy Steel F91 Forged Socket weld Plug",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Offshore Oil Drilling Companies",
+    "Seawater Equipment",
+    "Chemical Equipment",
+    "Condensers & Heat Exchangers",
+    "Food Processing Equipment",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Pulp & Paper Industry",
+    "Marine Industry",
+    "Aerospace Industry",
+  ],
+
+  specializedIn: [
+    "Alloy Steel F91 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Alloy Steel F91 Forged Fittings Exporter",
+    "ANSI B16.11 Alloy Steel F91 Threaded Forged Fittings Stockist in India",
+    "Alloy Steel F91 Forged Fittings Dealer",
+    "Alloy Steel F91 Threaded 90° Elbow Supplier",
+    "Supplier of Alloy Steel F91 Threaded 45° Elbow",
+    "Alloy Steel F91 Threaded Tee Manufacturer",
+    "Alloy Steel F91 Threaded Cross Exporter",
+    "Alloy Steel F91 Threaded Union Manufacturer",
+    "F91 Chrome Moly Threaded Coupling Exporter",
+    "Alloy Steel F91 Threaded Cap Supplier",
+    "Alloy Steel F91 Hexagonal Plug Supplier",
+    "Grade F91 Alloy Threaded Forged Fittings Exporter",
+    "ASME SA182 Alloy Steel F91 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel F91 Forged Fittings Price List",
+    "Alloy Steel F91 Forged Fittings Weight Calculator",
+    "Alloy Steel F91 Forged Fittings Dimensions",
+    "Alloy Steel F91 Forged Fittings Price Per Kg in India",
+    "Alloy Steel F91 Forged Fittings Manufacturer in Mumbai",
+    "Alloy Steel F91 Forged Fittings Supplier in India",
+    "Alloy Steel F91 Forged Fittings Thickness Tolerance",
+    "Alloy Steel F91 Forged Fittings Price List PDF",
+    "Alloy Steel F91 Forged Fittings Mechanical Properties",
+    "Alloy Steel F91 Forged Fittings Chemical Composition",
+    "Alloy Steel F91 Forged Fittings Stockist in Pune",
+    "Alloy Steel F91 Forged Fittings Exporter",
+    "Alloy Steel F91 Forged Fittings Price in Mumbai",
+    "Alloy Steel F91 Forged Fittings Size Chart",
+    "Alloy Steel F91 Threaded Elbow Price",
+    "Alloy Steel F91 Threaded Tee Supplier",
+    "Alloy Steel F91 Threaded Cross Manufacturers",
+    "Alloy Steel F91 Forged Fittings Catalog PDF",
+    "Alloy Steel F91 Forged Fittings Equivalent Grades",
+    "Alloy Steel F91 Forged Fittings Price per Piece",
+    "Alloy Steel F91 Forged Fittings updated price list",
+    "Alloy Steel F91 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Alloy Steel F91 Forged Fittings Manufacturers in Gujarat",
+    "Alloy Steel F91 Forged Fittings Stockyards in India",
+    "Alloy Steel F91 Forged Fittings thickness chart",
+    "Alloy Steel F91 Forged Fittings Price in India",
+    "Top 100 Alloy Steel F91 Forged Fittings Dealers in Mumbai",
+    "Buy Alloy Steel F91 Forged Fittings Online",
+    "Alloy Steel F91 Forged Fittings leading manufacturers in India",
+    "Chrome Moly F91 Forged Fittings Price India",
+    "Grade F91 Alloy Forged Fittings Price India",
+    "Alloy Steel F91 Forged Fittings Heat Treatment",
+    "Alloy Steel F91 Forged Fittings Normalizing Temperature",
+    "Alloy Steel F91 Forged Fittings Hardness Range",
+    "Alloy Steel F91 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 67,
+  slug: "alloy-steel-f92-forged-fittings",
+  image: "/stock/alloy-steel-f92-forged-fittings.jpg",
+  title:
+    "Alloy Steel F92 Forged Fittings Supplier – ASTM A182 / ASME SA182 / Chrome Moly (9% Chromium – 1.8% Tungsten – Vanadium Low Alloy Steel)",
+  shortDescription:
+    "Alloy Steel F92 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Alloy Steel F92 Forged Fittings belong to the 9% Cr martensitic heat-resistant steel family, an improved 9Cr steel with tungsten addition [citation:16]. F92 offers exceptional high-temperature strength and creep strength, significantly outperforming F91 in the 600°C-650°C temperature range [citation:16]. The alloy provides excellent resistance to oxidation and steam corrosion. Compared to austenitic stainless steels like 304H and 347H, F92 has better thermal conductivity and a lower coefficient of thermal expansion, reducing thermal stress and fatigue [citation:16]. The material is widely used in ultra-supercritical power plants, nuclear power systems, and chemical/petrochemical industries [citation:16][citation:19]. F92 requires strict preheating, interpass temperature control, and precise post-weld heat treatment due to higher weldability sensitivity than F91 [citation:16].",
+
+  gradeDetails: {
+    standardGrades: {
+      "Alloy Steel F92 (UNS K92460 / WNR. 1.4901)":
+        "A 9% chromium – 1.8% tungsten – vanadium low alloy steel (Chrome Moly) with excellent high-temperature strength and creep resistance. The tungsten addition is the key element distinguishing F92 from F91, providing solid solution strengthening [citation:16]. Vanadium forms fine carbonitrides for precipitation strengthening [citation:16]. Used in ultra-supercritical power plants, nuclear systems, and chemical processing. Werkstoff Nr. 1.4901 [citation:17].",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Alloy Steel F92 (UNS K92460 / WNR. 1.4901)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Alloy Steel F92", uns: "K92460", werkstoff: "1.4901", standard: "ASTM" },
+    { grade: "Chrome Moly F92", uns: "K92460", werkstoff: "1.4901", standard: "—" },
+    { grade: "Grade F92", uns: "K92460", werkstoff: "1.4901", standard: "—" },
+    { grade: "A182 F92", uns: "K92460", werkstoff: "1.4901", standard: "ASTM" },
+    { grade: "X10CrWMoVNb9-2", uns: "K92460", werkstoff: "1.4901", standard: "EN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Alloy Steel F92",
+      c: "0.07 – 0.13",
+      mn: "0.30 – 0.60",
+      si: "0.50 max",
+      cr: "8.50 – 9.50",
+      ni: "0.40 max",
+      mo: "0.30 – 0.60",
+      other: "P: 0.020 max, S: 0.010 max, W: 1.50 – 2.00, V: 0.15 – 0.25, Nb: 0.04 – 0.09, N: 0.030 – 0.070, B: 0.0010 – 0.0060, Al: 0.02 max, Fe: Bal [citation:1][citation:4]",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Alloy Steel F92",
+      tensile: "690 MPa (100 ksi) min [citation:1]",
+      yield: "500 MPa (72.5 ksi) min [citation:1]",
+      elongation: "22% min [citation:1]",
+      reduction: "51% [citation:4]",
+      hardness: "240 HB [citation:4]",
+      density: "7.9 g/cm³ [citation:1]",
+      meltingPoint: "1450 °C – 1490 °C (2642 °F – 2714 °F) [citation:4]",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "1040°C – 1070°C (1900°F – 1958°F)",
+      timeAtTemperature: "Soaking time 1 hour minimum",
+      atmosphere: "Air Cool (for wall thickness >75mm, accelerated cooling may be done to obtain fully martensitic structure) [citation:3][citation:5]",
+    },
+    {
+      processStep: "Tempering",
+      temperatureRange: "760°C ± 10°C (1400°F ± 18°F)",
+      timeAtTemperature: "Soaking time 1 hour minimum",
+      atmosphere: "Still Air Cooling [citation:3][citation:5]",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "Alloy F92 Socket weld Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F92 Socket weld Hex Plug", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Alloy Steel F92 Socket weld Union", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Alloy Steel F92 Socket weld Cap", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Alloy Steel F92 Socket weld Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "Alloy F92 Socket weld Forged Fittings",
+    "Alloy Steel F92 Socket weld Fittings",
+    "Alloy Steel F92 Socket weld Lateral Tee",
+    "Alloy F92 45 Deg Forged Socket weld Elbow",
+    "Alloy Steel F92 90 Deg Socket weld Elbow",
+    "Alloy Steel F92 Socket weld Cross",
+    "Alloy Steel F92 Socket weld Hex Plug",
+    "Alloy Steel F92 Socket weld Cap",
+    "Alloy F92 Socket weld Coupling",
+    "Alloy Steel F92 Socket weld Union",
+    "Alloy Steel F92 Socket weld Tees",
+    "Alloy Steel F92 Forged Socket weld Plug",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness (100% for F92)",
+      frequency: "100% each fitting",
+      method: "ASTM E10 / E18, Acceptance: 196-250 HBW [citation:3][citation:5][citation:9]",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+    {
+      test: "Photomicrograph (500x min)",
+      frequency: "One per heat, per size",
+      method: "Microstructure shall show tempered martensite, free from micro fissures [citation:3][citation:5]",
+    },
+    {
+      test: "MPI (Wet Magnetic Particle Inspection)",
+      frequency: "100% for F92",
+      method: "ASTM E-709, ASME B31.1 Clause 136.4.3 [citation:3][citation:18]",
+    },
+    {
+      test: "Ultrasonic Test",
+      frequency: "For size above 40mm",
+      method: "ASTM A388, ASME Sec.VIII Div.2 Cl.3.3.4 [citation:18]",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Ultra-Supercritical Power Plants",
+    "Nuclear Power Plant Systems",
+    "Chemical & Petrochemical Industries",
+    "Oil & Gas Industry",
+    "Power Generation",
+    "Steam Systems",
+    "High-Pressure & High-Temperature Applications",
+    "Turbine Components",
+    "Pressure Vessels",
+    "Refineries",
+    "Valves & Fittings",
+    "Aerospace & Defense [citation:19]",
+  ],
+
+  specializedIn: [
+    "Alloy Steel F92 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Alloy Steel F92 Forged Fittings Exporter",
+    "ANSI B16.11 Alloy Steel F92 Threaded Forged Fittings Stockist in India",
+    "Alloy Steel F92 Forged Fittings Dealer",
+    "Alloy Steel F92 Threaded 90° Elbow Supplier",
+    "Supplier of Alloy Steel F92 Threaded 45° Elbow",
+    "Alloy Steel F92 Threaded Tee Manufacturer",
+    "Alloy Steel F92 Threaded Cross Exporter",
+    "Alloy Steel F92 Threaded Union Manufacturer",
+    "F92 Chrome Moly Threaded Coupling Exporter",
+    "Alloy Steel F92 Threaded Cap Supplier",
+    "Alloy Steel F92 Hexagonal Plug Supplier",
+    "Grade F92 Alloy Threaded Forged Fittings Exporter",
+    "ASME SA182 Alloy Steel F92 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Alloy Steel F92 Forged Fittings Price List",
+    "Alloy Steel F92 Forged Fittings Weight Calculator",
+    "Alloy Steel F92 Forged Fittings Dimensions",
+    "Alloy Steel F92 Forged Fittings Price Per Kg in India",
+    "Alloy Steel F92 Forged Fittings Manufacturer in Mumbai",
+    "Alloy Steel F92 Forged Fittings Supplier in India",
+    "Alloy Steel F92 Forged Fittings Thickness Tolerance",
+    "Alloy Steel F92 Forged Fittings Price List PDF",
+    "Alloy Steel F92 Forged Fittings Mechanical Properties",
+    "Alloy Steel F92 Forged Fittings Chemical Composition",
+    "Alloy Steel F92 Forged Fittings Stockist in Pune",
+    "Alloy Steel F92 Forged Fittings Exporter",
+    "Alloy Steel F92 Forged Fittings Price in Mumbai",
+    "Alloy Steel F92 Forged Fittings Size Chart",
+    "Alloy Steel F92 Threaded Elbow Price",
+    "Alloy Steel F92 Threaded Tee Supplier",
+    "Alloy Steel F92 Threaded Cross Manufacturers",
+    "Alloy Steel F92 Forged Fittings Catalog PDF",
+    "Alloy Steel F92 Forged Fittings Equivalent Grades",
+    "Alloy Steel F92 Forged Fittings Price per Piece",
+    "Alloy Steel F92 Forged Fittings updated price list",
+    "Alloy Steel F92 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Alloy Steel F92 Forged Fittings Manufacturers in Gujarat",
+    "Alloy Steel F92 Forged Fittings Stockyards in India",
+    "Alloy Steel F92 Forged Fittings thickness chart",
+    "Alloy Steel F92 Forged Fittings Price in India",
+    "Top 100 Alloy Steel F92 Forged Fittings Dealers in Mumbai",
+    "Buy Alloy Steel F92 Forged Fittings Online",
+    "Alloy Steel F92 Forged Fittings leading manufacturers in India",
+    "Chrome Moly F92 Forged Fittings Price India",
+    "Grade F92 Alloy Forged Fittings Price India",
+    "Alloy Steel F92 Forged Fittings Heat Treatment",
+    "Alloy Steel F92 Forged Fittings Normalizing Temperature",
+    "Alloy Steel F92 Forged Fittings Hardness Range",
+    "Alloy Steel F92 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 68,
+  slug: "duplex-s31803-s32205-forged-fittings",
+  image: "/stock/duplex-s31803-s32205-forged-fittings.jpg",
+  title:
+    "Duplex Steel S31803 / S32205 Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S31803 / S32205 / WNR. 1.4462 (Duplex Stainless Steel)",
+  shortDescription:
+    "Duplex Steel S31803 / S32205 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Duplex Steel S31803 / S32205 threaded forged fittings have the best corrosion resistance to stress corrosion cracking. They are made using good quality raw material and latest technology, which further enables our customers to use it for a long period without having any defects. Duplex Steel UNS S31803 / S32205 threaded forged fittings are available in different sizes and shapes. Duplex steel S32205 forged threaded cross fittings can be cold worked at the temperature between 1300 Degree F to 1800 Degree F. Duplex steel S31803 threaded forged elbow fittings offer good ductility. Duplex steel S32205 forged threaded tee fittings possesses high tensile strength. Duplex steel S32205 threaded forged cap fittings have excellent hardness and good yield strength. Duplex steel S31803 forged threaded bend fittings have the best welding and machining properties. Duplex steel S32205 forged threaded bushing fittings are mostly used in household applications and food processing units. Duplex steel S31803 threaded fittings are also used in shipbuilding companies and marine industries. Duplex steel S31803 forged fittings are often used for aerospace crafts.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Duplex Steel S31803 (UNS S31803 / WNR. 1.4462)":
+        "A duplex stainless steel with best corrosion resistance to stress corrosion cracking. Good ductility. Best welding and machining properties. Used in shipbuilding companies and marine industries, and aerospace crafts. Werkstoff Nr. 1.4462.",
+      "Duplex Steel S32205 (UNS S32205 / WNR. 1.4462)":
+        "A duplex stainless steel with best corrosion resistance to stress corrosion cracking. Can be cold worked at temperature between 1300°F to 1800°F. High tensile strength. Excellent hardness and good yield strength. Used in household applications and food processing units. Werkstoff Nr. 1.4462.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Duplex Steel S31803 (UNS S31803 / WNR. 1.4462), Duplex Steel S32205 (UNS S32205 / WNR. 1.4462)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Duplex S31803", uns: "S31803", werkstoff: "1.4462", standard: "ASTM" },
+    { grade: "Duplex S32205", uns: "S32205", werkstoff: "1.4462", standard: "ASTM" },
+    { grade: "UNS S31803", uns: "S31803", werkstoff: "1.4462", standard: "—" },
+    { grade: "UNS S32205", uns: "S32205", werkstoff: "1.4462", standard: "—" },
+    { grade: "SUS 329J3L", uns: "S32205", werkstoff: "1.4462", standard: "JIS" },
+    { grade: "F51", uns: "S31803", werkstoff: "1.4462", standard: "—" },
+    { grade: "F60", uns: "S32205", werkstoff: "1.4462", standard: "—" },
+    { grade: "X2CrNiMoN22-5-3", uns: "S31803", werkstoff: "1.4462", standard: "EN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Duplex S31803",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "21.00 – 23.00",
+      ni: "4.50 – 6.50",
+      mo: "2.50 – 3.50",
+      other: "P: 0.030 max, S: 0.020 max, N: 0.08 – 0.20, Fe: Bal",
+    },
+    {
+      grade: "Duplex S32205",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "1.00 max",
+      cr: "22.00 – 23.00",
+      ni: "4.50 – 6.50",
+      mo: "3.00 – 3.50",
+      other: "P: 0.030 max, S: 0.020 max, N: 0.14 – 0.20, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Duplex S31803 / S32205",
+      tensile: "620 MPa (90 ksi) min",
+      yield: "450 MPa (65 ksi) min",
+      elongation: "25% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.80 g/cm³",
+      meltingPoint: "1420 °C – 1465 °C (2588 °F – 2669 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1020°C – 1100°C (1870°F – 2010°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Water Quench / Rapid Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 1.4462 Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Duplex S31803/S32205 Forged Fittings", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Duplex S31803/S32205 Threaded Coupling", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Duplex S31803/S32205 Threaded Bushing", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Duplex S31803/S32205 Hexagonal Plug", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 1.4462 Threaded Forged Fittings",
+    "Duplex S31803/S32205 Forged Fittings",
+    "Duplex S31803/S32205 Threaded Lateral Tee",
+    "Duplex S31803/S32205 45 Deg Forged Threaded Elbow",
+    "ASTM B182 Duplex S31803/S32205 90 Deg Threaded Elbow",
+    "Duplex S31803/S32205 Threaded Cross",
+    "Duplex S31803/S32205 Threaded Cap",
+    "Duplex S31803/S32205 Threaded Coupling",
+    "Duplex S31803/S32205 Threaded Union",
+    "Duplex S31803/S32205 Threaded Bushing",
+    "Duplex S31803/S32205 Forged Threaded Plug",
+    "Duplex S31803/S32205 Threaded Hex Plug",
+    "Duplex S31803/S32205 Hexagonal Plug",
+    "Duplex S31803/S32205 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Household Applications",
+    "Food Processing Units",
+    "Shipbuilding Companies",
+    "Marine Industries",
+    "Aerospace Crafts",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Seawater Equipment",
+    "Heat Exchangers & Condensers",
+  ],
+
+  specializedIn: [
+    "Duplex Steel S31803 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Duplex Steel S32205 Forged Fittings Exporter",
+    "ANSI B16.11 Duplex S31803 Threaded Forged Fittings Stockist in India",
+    "Duplex S31803 Forged Fittings Dealer",
+    "Duplex S32205 Threaded 90° Elbow Supplier",
+    "Supplier of Duplex S31803 Threaded 45° Elbow",
+    "Duplex S32205 Threaded Tee Manufacturer",
+    "Duplex S31803 Threaded Cross Exporter",
+    "Duplex S32205 Threaded Union Manufacturer",
+    "Duplex WERKSTOFF NR. 1.4462 Threaded Coupling Exporter",
+    "Duplex S31803 Threaded Cap Supplier",
+    "Duplex S32205 Hexagonal Plug Supplier",
+    "Duplex UNS S31803 Threaded Forged Fittings Exporter",
+    "ASME SA182 Duplex S32205 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Duplex S31803 Forged Fittings Price List",
+    "Duplex S32205 Forged Fittings Weight Calculator",
+    "Duplex S31803 Forged Fittings Dimensions",
+    "Duplex Steel Forged Fittings Price Per Kg in India",
+    "Duplex S31803 Forged Fittings Manufacturer in Mumbai",
+    "Duplex S32205 Forged Fittings Supplier in India",
+    "Duplex S31803 Forged Fittings Thickness Tolerance",
+    "Duplex S32205 Forged Fittings Price List PDF",
+    "Duplex S31803 Forged Fittings Mechanical Properties",
+    "Duplex S32205 Forged Fittings Chemical Composition",
+    "Duplex S31803 Forged Fittings Stockist in Pune",
+    "Duplex Steel Forged Fittings Exporter",
+    "Duplex S31803 Forged Fittings Price in Mumbai",
+    "Duplex S32205 Forged Fittings Size Chart",
+    "Duplex S31803 Threaded Elbow Price",
+    "Duplex S32205 Threaded Tee Supplier",
+    "Duplex S31803 Threaded Cross Manufacturers",
+    "Duplex Steel Forged Fittings Catalog PDF",
+    "Duplex S31803 Forged Fittings Equivalent Grades",
+    "Duplex S32205 Forged Fittings Price per Piece",
+    "Duplex S31803 Forged Fittings updated price list",
+    "Duplex S32205 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Duplex S31803 Forged Fittings Manufacturers in Gujarat",
+    "Duplex S32205 Forged Fittings Stockyards in India",
+    "Duplex S31803 Forged Fittings thickness chart",
+    "Duplex Steel Forged Fittings Price in India",
+    "Top 100 Duplex S31803 Forged Fittings Dealers in Mumbai",
+    "Buy Duplex S32205 Forged Fittings Online",
+    "Duplex Steel Forged Fittings leading manufacturers in India",
+    "UNS S31803 Forged Fittings Price India",
+    "UNS S32205 Forged Fittings Price India",
+    "Duplex S31803 Forged Fittings Heat Treatment",
+    "Duplex S32205 Forged Fittings Annealing Temperature",
+    "Duplex Steel Forged Fittings Hardness Range",
+    "Duplex S31803 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 69,
+  slug: "duplex-s32750-s32760-forged-fittings",
+  image: "/stock/duplex-s32750-s32760-forged-fittings.jpg",
+  title:
+    "Super Duplex S32750 / S32760 Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S32750 / S32760 / WNR. 1.4410 / 1.4501 (Super Duplex Stainless Steel)",
+  shortDescription:
+    "Super Duplex S32750 / S32760 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Super Duplex Steel S32750 / S32760 threaded forged fittings have the best corrosion resistance to stress corrosion cracking. They are made using good quality raw material and latest technology, which further enables our customers to use it for a long period without having any defects. Super Duplex Steel UNS S32750 / S32760 threaded forged fittings are available in different sizes and shapes. Duplex steel S32760 forged threaded cross fittings can be heated worked at the temperature between 1100 Degree C to 1250 Degree C. Duplex steel S32750 forged threaded bend fittings have good corrosion resistance to pitting and crevice corrosion. Duplex steel S32750 threaded forged elbow fittings offer good ductility. Duplex steel S32760 forged threaded tee fittings possesses high tensile strength. Duplex steel UNS S32760 forged threaded fittings have best corrosion resistance to stress cracking corrosion. Duplex steel S32750 threaded forged cap fittings have excellent hardness and good yield strength. Duplex steel S32750 forged threaded bushing fittings are mostly used in household applications and food processing units. Duplex steel S32760 forged threaded fittings are also used in shipbuilding and marine industries. Duplex steel S32750 forged fittings are often used for aerospace crafts.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Super Duplex S32750 (UNS S32750 / WNR. 1.4410)":
+        "A super duplex stainless steel with the best corrosion resistance to stress corrosion cracking. Good corrosion resistance to pitting and crevice corrosion. Good ductility. Excellent hardness and good yield strength. Used in household applications, food processing units, and aerospace crafts. Werkstoff Nr. 1.4410.",
+      "Super Duplex S32760 (UNS S32760 / WNR. 1.4501)":
+        "A super duplex stainless steel with the best corrosion resistance to stress cracking corrosion. Can be heat worked at temperature between 1100°C to 1250°C. High tensile strength. Used in shipbuilding and marine industries. Werkstoff Nr. 1.4501.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Super Duplex S32750 (UNS S32750 / WNR. 1.4410), Super Duplex S32760 (UNS S32760 / WNR. 1.4501)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Super Duplex S32750", uns: "S32750", werkstoff: "1.4410", standard: "ASTM" },
+    { grade: "Super Duplex S32760", uns: "S32760", werkstoff: "1.4501", standard: "ASTM" },
+    { grade: "UNS S32750", uns: "S32750", werkstoff: "1.4410", standard: "—" },
+    { grade: "UNS S32760", uns: "S32760", werkstoff: "1.4501", standard: "—" },
+    { grade: "F53", uns: "S32750", werkstoff: "1.4410", standard: "—" },
+    { grade: "F55", uns: "S32760", werkstoff: "1.4501", standard: "—" },
+    { grade: "SUS 329J4L", uns: "S32750", werkstoff: "1.4410", standard: "JIS" },
+    { grade: "X2CrNiMoN25-7-4", uns: "S32750", werkstoff: "1.4410", standard: "EN" },
+    { grade: "X2CrNiMoCuWN25-7-4", uns: "S32760", werkstoff: "1.4501", standard: "EN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Super Duplex S32750",
+      c: "0.030 max",
+      mn: "1.20 max",
+      si: "0.80 max",
+      cr: "24.00 – 26.00",
+      ni: "6.00 – 8.00",
+      mo: "3.00 – 5.00",
+      other: "P: 0.035 max, S: 0.020 max, N: 0.24 – 0.32, Cu: 0.50 max, Fe: Bal",
+    },
+    {
+      grade: "Super Duplex S32760",
+      c: "0.030 max",
+      mn: "1.00 max",
+      si: "1.00 max",
+      cr: "24.00 – 26.00",
+      ni: "6.00 – 8.00",
+      mo: "3.00 – 4.00",
+      other: "P: 0.030 max, S: 0.010 max, N: 0.20 – 0.30, Cu: 0.50 – 1.00, W: 0.50 – 1.00, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Super Duplex S32750 / S32760",
+      tensile: "800 MPa (116 ksi) min",
+      yield: "550 MPa (80 ksi) min",
+      elongation: "15% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.80 g/cm³",
+      meltingPoint: "1420 °C – 1465 °C (2588 °F – 2669 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1020°C – 1100°C (1870°F – 2010°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Water Quench / Rapid Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 1.4410 Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "S32750/S32760 Threaded Cross", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Super Duplex S32750/S32760 Hexagonal Plug", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Super Duplex S32750/S32760 Threaded Cross", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Super Duplex S32750/S32760 Threaded Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 1.4410 Threaded Forged Fittings",
+    "Super Duplex S32750/S32760 Forged Fittings",
+    "Super Duplex S32750/S32760 Threaded Lateral Tee",
+    "Super Duplex S32750/S32760 45 Deg Forged Threaded Elbow",
+    "ASTM B182 Super Duplex S32750/S32760 90 Deg Threaded Elbow",
+    "Super Duplex S32750/S32760 Threaded Cross",
+    "Super Duplex S32750/S32760 Threaded Cap",
+    "Super Duplex S32750/S32760 Threaded Coupling",
+    "Super Duplex S32750/S32760 Threaded Union",
+    "Super Duplex S32750/S32760 Threaded Bushing",
+    "Super Duplex S32750/S32760 Forged Threaded Plug",
+    "Super Duplex S32750/S32760 Threaded Hex Plug",
+    "Super Duplex S32750/S32760 Hexagonal Plug",
+    "Super Duplex S32750/S32760 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Household Applications",
+    "Food Processing Units",
+    "Shipbuilding & Marine Industries",
+    "Aerospace Crafts",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Seawater Equipment",
+    "Heat Exchangers & Condensers",
+    "Desalination Plants",
+  ],
+
+  specializedIn: [
+    "Super Duplex S32750 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Super Duplex S32760 Forged Fittings Exporter",
+    "ANSI B16.11 Super Duplex S32750 Threaded Forged Fittings Stockist in India",
+    "Super Duplex S32750 Forged Fittings Dealer",
+    "Super Duplex S32760 Threaded 90° Elbow Supplier",
+    "Supplier of Super Duplex S32750 Threaded 45° Elbow",
+    "Super Duplex S32760 Threaded Tee Manufacturer",
+    "Super Duplex S32750 Threaded Cross Exporter",
+    "Super Duplex S32760 Threaded Union Manufacturer",
+    "Super Duplex WERKSTOFF NR. 1.4410 Threaded Coupling Exporter",
+    "Super Duplex S32750 Threaded Cap Supplier",
+    "Super Duplex S32760 Hexagonal Plug Supplier",
+    "Super Duplex UNS S32750 Threaded Forged Fittings Exporter",
+    "ASME SA182 Super Duplex S32760 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Super Duplex S32750 Forged Fittings Price List",
+    "Super Duplex S32760 Forged Fittings Weight Calculator",
+    "Super Duplex S32750 Forged Fittings Dimensions",
+    "Super Duplex Steel Forged Fittings Price Per Kg in India",
+    "Super Duplex S32750 Forged Fittings Manufacturer in Mumbai",
+    "Super Duplex S32760 Forged Fittings Supplier in India",
+    "Super Duplex S32750 Forged Fittings Thickness Tolerance",
+    "Super Duplex S32760 Forged Fittings Price List PDF",
+    "Super Duplex S32750 Forged Fittings Mechanical Properties",
+    "Super Duplex S32760 Forged Fittings Chemical Composition",
+    "Super Duplex S32750 Forged Fittings Stockist in Pune",
+    "Super Duplex Steel Forged Fittings Exporter",
+    "Super Duplex S32750 Forged Fittings Price in Mumbai",
+    "Super Duplex S32760 Forged Fittings Size Chart",
+    "Super Duplex S32750 Threaded Elbow Price",
+    "Super Duplex S32760 Threaded Tee Supplier",
+    "Super Duplex S32750 Threaded Cross Manufacturers",
+    "Super Duplex Steel Forged Fittings Catalog PDF",
+    "Super Duplex S32750 Forged Fittings Equivalent Grades",
+    "Super Duplex S32760 Forged Fittings Price per Piece",
+    "Super Duplex S32750 Forged Fittings updated price list",
+    "Super Duplex S32760 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Super Duplex S32750 Forged Fittings Manufacturers in Gujarat",
+    "Super Duplex S32760 Forged Fittings Stockyards in India",
+    "Super Duplex S32750 Forged Fittings thickness chart",
+    "Super Duplex Steel Forged Fittings Price in India",
+    "Top 100 Super Duplex S32750 Forged Fittings Dealers in Mumbai",
+    "Buy Super Duplex S32760 Forged Fittings Online",
+    "Super Duplex Steel Forged Fittings leading manufacturers in India",
+    "UNS S32750 Forged Fittings Price India",
+    "UNS S32760 Forged Fittings Price India",
+    "Super Duplex S32750 Forged Fittings Heat Treatment",
+    "Super Duplex S32760 Forged Fittings Annealing Temperature",
+    "Super Duplex Steel Forged Fittings Hardness Range",
+    "Super Duplex S32750 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 70,
+  slug: "super-duplex-s32950-forged-fittings",
+  image: "/stock/super-duplex-s32950-forged-fittings.jpg",
+  title:
+    "Super Duplex S32950 Forged Fittings Supplier – ASTM A182 / ASME SA182 / UNS S32950 / WNR. 1.4410 (Super Duplex Stainless Steel)",
+  shortDescription:
+    "Super Duplex S32950 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A182 / ASME SA182 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Super Duplex Steel S32950 threaded forged fittings have the best corrosion resistance to stress corrosion cracking. They are made using good quality raw material and latest technology, which further enables our customers to use it for a long period without having any defects. UNS S32950 threaded forged fittings are available in different sizes and shapes. Super Duplex Steel S32950 forged threaded cross fittings can be heat worked at the temperature between 1100 Degree C to 1250 Degree C. Super Duplex steel S32950 threaded forged bend fittings have good corrosion resistance to pitting and crevice corrosion. Super Duplex Steel S32950 threaded forged elbow fittings offer good ductility. S32950 forged threaded tee fittings possesses high tensile strength. Super duplex steel UNS S32950 forged threaded fittings have the best corrosion resistance to stress cracking corrosion. Super duplex steel S32950 threaded forged cap fittings have excellent hardness and good yield strength. Super duplex steel S32950 forged threaded bushing fittings are mostly used in household applications and food processing units. Super duplex steel S32950 forged threaded fittings are also used in shipbuilding companies and marine industries. Super duplex steel S32950 forged threaded fittings are often used for aerospace crafts.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Super Duplex S32950 (UNS S32950 / WNR. 1.4410)":
+        "A super duplex stainless steel with the best corrosion resistance to stress corrosion cracking. Can be heat worked at temperature between 1100°C to 1250°C. Good corrosion resistance to pitting and crevice corrosion. Good ductility. High tensile strength. Best corrosion resistance to stress cracking corrosion. Excellent hardness and good yield strength. Used in household applications, food processing units, shipbuilding companies, marine industries, and aerospace crafts. Werkstoff Nr. 1.4410.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A182 / ASME SA182",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A182 / ASME SA182 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Super Duplex S32950 (UNS S32950 / WNR. 1.4410)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings / Socket weld Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Super Duplex S32950", uns: "S32950", werkstoff: "1.4410", standard: "ASTM" },
+    { grade: "UNS S32950", uns: "S32950", werkstoff: "1.4410", standard: "—" },
+    { grade: "F52", uns: "S32950", werkstoff: "1.4410", standard: "—" },
+    { grade: "SUS 329J4L", uns: "S32950", werkstoff: "1.4410", standard: "JIS" },
+    { grade: "X2CrNiMoN25-7-4", uns: "S32950", werkstoff: "1.4410", standard: "EN" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Super Duplex S32950",
+      c: "0.030 max",
+      mn: "2.00 max",
+      si: "0.60 max",
+      cr: "26.00 – 29.00",
+      ni: "3.50 – 5.20",
+      mo: "1.00 – 2.50",
+      other: "P: 0.035 max, S: 0.010 max, N: 0.15 – 0.35, Cu: 0.50 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Super Duplex S32950",
+      tensile: "690 MPa (100 ksi) min",
+      yield: "480 MPa (70 ksi) min",
+      elongation: "15% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.80 g/cm³",
+      meltingPoint: "1420 °C – 1465 °C (2588 °F – 2669 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Solution Annealing",
+      temperatureRange: "1020°C – 1100°C (1870°F – 2010°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Water Quench / Rapid Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "WNR. 1.4410 Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Duplex S32950 Forged Fittings", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "Duplex S32950 Threaded Cap", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "Duplex S32950 Hexagonal Plug", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "Duplex S32950 Threaded Tees", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "WNR. 1.4410 Threaded Forged Fittings",
+    "Duplex S32950 Forged Fittings",
+    "Duplex S32950 Threaded Lateral Tee",
+    "Duplex S32950 45 Deg Forged Threaded Elbow",
+    "ASTM B182 Duplex S32950 90 Deg Threaded Elbow",
+    "Duplex S32950 Threaded Cross",
+    "Duplex S32950 Threaded Cap",
+    "Duplex S32950 Threaded Coupling",
+    "Duplex S32950 Threaded Union",
+    "Duplex S32950 Threaded Bushing",
+    "Duplex S32950 Forged Threaded Plug",
+    "Duplex S32950 Threaded Hex Plug",
+    "Duplex S32950 Hexagonal Plug",
+    "Duplex S32950 Threaded Tees",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A182",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Household Applications",
+    "Food Processing Units",
+    "Shipbuilding Companies",
+    "Marine Industries",
+    "Aerospace Crafts",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Seawater Equipment",
+    "Heat Exchangers & Condensers",
+  ],
+
+  specializedIn: [
+    "Super Duplex S32950 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A182 Super Duplex S32950 Forged Fittings Exporter",
+    "ANSI B16.11 Super Duplex S32950 Threaded Forged Fittings Stockist in India",
+    "Super Duplex S32950 Forged Fittings Dealer",
+    "Super Duplex S32950 Threaded 90° Elbow Supplier",
+    "Supplier of Super Duplex S32950 Threaded 45° Elbow",
+    "Super Duplex S32950 Threaded Tee Manufacturer",
+    "Super Duplex S32950 Threaded Cross Exporter",
+    "Super Duplex S32950 Threaded Union Manufacturer",
+    "Super Duplex WERKSTOFF NR. 1.4410 Threaded Coupling Exporter",
+    "Super Duplex S32950 Threaded Cap Supplier",
+    "Super Duplex S32950 Hexagonal Plug Supplier",
+    "Super Duplex UNS S32950 Threaded Forged Fittings Exporter",
+    "ASME SA182 Super Duplex S32950 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Super Duplex S32950 Forged Fittings Price List",
+    "Super Duplex S32950 Forged Fittings Weight Calculator",
+    "Super Duplex S32950 Forged Fittings Dimensions",
+    "Super Duplex Steel Forged Fittings Price Per Kg in India",
+    "Super Duplex S32950 Forged Fittings Manufacturer in Mumbai",
+    "Super Duplex S32950 Forged Fittings Supplier in India",
+    "Super Duplex S32950 Forged Fittings Thickness Tolerance",
+    "Super Duplex S32950 Forged Fittings Price List PDF",
+    "Super Duplex S32950 Forged Fittings Mechanical Properties",
+    "Super Duplex S32950 Forged Fittings Chemical Composition",
+    "Super Duplex S32950 Forged Fittings Stockist in Pune",
+    "Super Duplex Steel Forged Fittings Exporter",
+    "Super Duplex S32950 Forged Fittings Price in Mumbai",
+    "Super Duplex S32950 Forged Fittings Size Chart",
+    "Super Duplex S32950 Threaded Elbow Price",
+    "Super Duplex S32950 Threaded Tee Supplier",
+    "Super Duplex S32950 Threaded Cross Manufacturers",
+    "Super Duplex Steel Forged Fittings Catalog PDF",
+    "Super Duplex S32950 Forged Fittings Equivalent Grades",
+    "Super Duplex S32950 Forged Fittings Price per Piece",
+    "Super Duplex S32950 Forged Fittings updated price list",
+    "Super Duplex S32950 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Super Duplex S32950 Forged Fittings Manufacturers in Gujarat",
+    "Super Duplex S32950 Forged Fittings Stockyards in India",
+    "Super Duplex S32950 Forged Fittings thickness chart",
+    "Super Duplex Steel Forged Fittings Price in India",
+    "Top 100 Super Duplex S32950 Forged Fittings Dealers in Mumbai",
+    "Buy Super Duplex S32950 Forged Fittings Online",
+    "Super Duplex Steel Forged Fittings leading manufacturers in India",
+    "UNS S32950 Forged Fittings Price India",
+    "Werkstoff 1.4410 Forged Fittings Price India",
+    "Super Duplex S32950 Forged Fittings Heat Treatment",
+    "Super Duplex S32950 Forged Fittings Annealing Temperature",
+    "Super Duplex Steel Forged Fittings Hardness Range",
+    "Super Duplex S32950 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 71,
+  slug: "carbon-steel-a105-forged-fittings",
+  image: "/stock/carbon-steel-a105-forged-fittings.jpg",
+  title:
+    "Carbon Steel A105 Forged Fittings Supplier – ASTM A105 / ASME SA105 / UNS K03504 (Carbon Steel Forged Fittings)",
+  shortDescription:
+    "Carbon Steel A105 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A105 / ASME SA105 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Carbon Steel A105 threaded forged fittings have the best corrosion resistance to stress corrosion cracking. They are made using good quality raw material and the latest technology, enabling our customers to use it for a long period without having any defects. Carbon Steel A105 threaded forged fittings are available in different sizes and shapes. Carbon steel A105 forged threaded cap fittings have the best corrosion resistance to oxidizing media. Carbon steel forged threaded cross fittings have high mechanical properties and high tensile strength. Carbon Steel A105 threaded forged fittings have the best corrosion resistance to stress corrosion cracking. Carbon steel A105 threaded forged bushing fittings have high welding and annealing properties. Carbon steel A105 forged threaded bend fittings have the best corrosion resistance oxidizing aqueous media. Carbon steel A105 forged threaded fittings are often used in marine industries and shipbuilding companies. Carbon steel A105 forged threaded plug fittings are mostly used in offshore oil drilling companies, and it is even used in aerospace crafts too. Carbon steel A105 forged threaded union fittings are also used in seawater equipment and chemical equipment.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Carbon Steel A105 (UNS K03504)":
+        "A carbon steel forging grade with the best corrosion resistance to stress corrosion cracking. Best corrosion resistance to oxidizing media. High mechanical properties and high tensile strength. High welding and annealing properties. Best corrosion resistance to oxidizing aqueous media. Used in marine industries, shipbuilding companies, offshore oil drilling companies, aerospace crafts, seawater equipment, and chemical equipment.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A105 / ASME SA105",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A105 / ASME SA105 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Carbon Steel A105 (UNS K03504)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Carbon Steel A105", uns: "K03504", werkstoff: "—", standard: "ASTM" },
+    { grade: "A105N CS", uns: "K03504", werkstoff: "—", standard: "ASTM" },
+    { grade: "CS ASTM A105", uns: "K03504", werkstoff: "—", standard: "—" },
+    { grade: "ASME SA105", uns: "K03504", werkstoff: "—", standard: "ASME" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Carbon Steel A105",
+      c: "0.42 max",
+      mn: "0.50 – 0.80",
+      si: "0.17 – 0.37",
+      cr: "0.25 max",
+      ni: "0.30 max",
+      mo: "—",
+      other: "P: 0.035 max, S: 0.035 max, Cu: 0.25 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Carbon Steel A105",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "250 MPa (36 ksi) min",
+      elongation: "22% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "CS ASTM A105 Threaded Hex Plus", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "CS ASTM A105 Threaded Union", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "ASME SA105 Threaded Forged Fittings", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "CS ASTM A105 Threaded Coupling", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "CS ASTM A105 Threaded Tee", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "ASME SA105 Threaded Forged Fittings",
+    "A105N CS ASTM A105 Forged Fittings",
+    "CS ASTM A105 Threaded Lateral Tee",
+    "CS ASTM A105 45 Deg Forged Threaded Elbow",
+    "CS ASTM A105 90 Deg Threaded Elbow",
+    "CS ASTM A105 Threaded Cross",
+    "CS ASTM A105 Threaded Hex Plus",
+    "CS ASTM A105 Threaded Cap",
+    "CS ASTM A105 Threaded Coupling",
+    "CS ASTM A105 Threaded Union",
+    "CS ASTM A105 Threaded Bushing",
+    "CS ASTM A105 Threaded Plug",
+    "CS ASTM A105 Threaded Tee",
+    "CS ASTM A105 Hexagonal Plus",
+    "CS ASTM A105 Threaded Bend",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A105",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Marine Industries",
+    "Shipbuilding Companies",
+    "Offshore Oil Drilling Companies",
+    "Aerospace Crafts",
+    "Seawater Equipment",
+    "Chemical Equipment",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Heat Exchangers & Condensers",
+    "Pulp & Paper Industry",
+  ],
+
+  specializedIn: [
+    "Carbon Steel A105 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A105 Carbon Steel A105 Forged Fittings Exporter",
+    "ANSI B16.11 Carbon Steel A105 Threaded Forged Fittings Stockist in India",
+    "Carbon Steel A105 Forged Fittings Dealer",
+    "Carbon Steel A105 Threaded 90° Elbow Supplier",
+    "Supplier of Carbon Steel A105 Threaded 45° Elbow",
+    "Carbon Steel A105 Threaded Tee Manufacturer",
+    "Carbon Steel A105 Threaded Cross Exporter",
+    "Carbon Steel A105 Threaded Union Manufacturer",
+    "Carbon Steel A105 Threaded Coupling Exporter",
+    "Carbon Steel A105 Threaded Cap Supplier",
+    "Carbon Steel A105 Hexagonal Plug Supplier",
+    "A105 Carbon Steel Threaded Forged Fittings Exporter",
+    "ASME SA105 Carbon Steel A105 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Carbon Steel A105 Forged Fittings Price List",
+    "Carbon Steel A105 Forged Fittings Weight Calculator",
+    "Carbon Steel A105 Forged Fittings Dimensions",
+    "Carbon Steel A105 Forged Fittings Price Per Kg in India",
+    "Carbon Steel A105 Forged Fittings Manufacturer in Mumbai",
+    "Carbon Steel A105 Forged Fittings Supplier in India",
+    "Carbon Steel A105 Forged Fittings Thickness Tolerance",
+    "Carbon Steel A105 Forged Fittings Price List PDF",
+    "Carbon Steel A105 Forged Fittings Mechanical Properties",
+    "Carbon Steel A105 Forged Fittings Chemical Composition",
+    "Carbon Steel A105 Forged Fittings Stockist in Pune",
+    "Carbon Steel A105 Forged Fittings Exporter",
+    "Carbon Steel A105 Forged Fittings Price in Mumbai",
+    "Carbon Steel A105 Forged Fittings Size Chart",
+    "Carbon Steel A105 Threaded Elbow Price",
+    "Carbon Steel A105 Threaded Tee Supplier",
+    "Carbon Steel A105 Threaded Cross Manufacturers",
+    "Carbon Steel A105 Forged Fittings Catalog PDF",
+    "Carbon Steel A105 Forged Fittings Equivalent Grades",
+    "Carbon Steel A105 Forged Fittings Price per Piece",
+    "Carbon Steel A105 Forged Fittings updated price list",
+    "Carbon Steel A105 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Carbon Steel A105 Forged Fittings Manufacturers in Gujarat",
+    "Carbon Steel A105 Forged Fittings Stockyards in India",
+    "Carbon Steel A105 Forged Fittings thickness chart",
+    "Carbon Steel A105 Forged Fittings Price in India",
+    "Top 100 Carbon Steel A105 Forged Fittings Dealers in Mumbai",
+    "Buy Carbon Steel A105 Forged Fittings Online",
+    "Carbon Steel A105 Forged Fittings leading manufacturers in India",
+    "UNS K03504 Forged Fittings Price India",
+    "A105N CS Forged Fittings Price India",
+    "Carbon Steel A105 Forged Fittings Heat Treatment",
+    "Carbon Steel A105 Forged Fittings Normalizing Temperature",
+    "Carbon Steel A105 Forged Fittings Hardness Range",
+    "Carbon Steel A105 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 72,
+  slug: "carbon-steel-a350-forged-fittings",
+  image: "/stock/carbon-steel-a350-forged-fittings.jpg",
+  title:
+    "Carbon Steel A350 LF2 Forged Fittings Supplier – ASTM A350 / ASME SA350 / UNS K03011 / WNR. 1.0508 (Low Temperature Carbon Steel)",
+  shortDescription:
+    "Carbon Steel A350 LF2 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A350 / ASME SA350 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Carbon Steel A350 LF2 threaded forged fittings have the best corrosion resistance to seawater. They are made using good quality raw material and the latest technology, which further enables our customers to use it for a long period without having any defects. Carbon Steel A350 threaded forged fittings are available in different sizes and shapes. Carbon steel A350 forged threaded plug fittings contain chromium and molybdenum. Carbon steel Forged threaded bushing fittings have high hardness and yield strength. Carbon steel A350 forged threaded cap fittings have the best corrosion resistance properties. Carbon steel A350 forged threaded cross fittings can be more hardened by heat treatment. Carbon steel A350 coupling fittings can be heated worked up to 40 Degree C. Carbon steel A350 forged threaded fittings have a wide range of usage in different industries. Carbon steel A350 forged threaded bend fittings are mostly used for seawater equipment and offshore oil drilling companies. Carbon steel A350 forged threaded fittings are mostly used in marine industries and shipbuilding companies. Carbon steel A350 forged threaded coupling fittings are often used for shafts and fasteners.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Carbon Steel A350 LF2 (UNS K03011 / WNR. 1.0508)":
+        "A low temperature carbon steel forging grade with the best corrosion resistance to seawater. Contains chromium and molybdenum. High hardness and yield strength. Best corrosion resistance properties. Can be more hardened by heat treatment. Can be heated worked up to 40°C. Used in seawater equipment, offshore oil drilling companies, marine industries, shipbuilding companies, shafts, and fasteners. Werkstoff Nr. 1.0508.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A350 / ASME SA350",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A350 / ASME SA350 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Carbon Steel A350 LF2 (UNS K03011 / WNR. 1.0508)",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Carbon Steel A350 LF2", uns: "K03011", werkstoff: "1.0508", standard: "ASTM" },
+    { grade: "CS ASTM A350", uns: "K03011", werkstoff: "1.0508", standard: "—" },
+    { grade: "A350 LF2", uns: "K03011", werkstoff: "1.0508", standard: "ASTM" },
+    { grade: "ASME SA350", uns: "K03011", werkstoff: "1.0508", standard: "ASME" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Carbon Steel A350 LF2",
+      c: "0.30 max",
+      mn: "0.60 – 1.35",
+      si: "0.17 – 0.37",
+      cr: "—",
+      ni: "0.40 max",
+      mo: "—",
+      other: "P: 0.035 max, S: 0.040 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Carbon Steel A350 LF2",
+      tensile: "485 MPa (70 ksi) min",
+      yield: "250 MPa (36 ksi) min",
+      elongation: "22% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "ASTM A350 Threaded Union", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "ASME SA350 Threaded Forged Fittings", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "CS ASTM A350 Threaded Cap", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "CS ASTM A350 Hexagonal Plus", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "CS ASTM A350 Threaded Plug", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "ASME SA350 Threaded Forged Fittings",
+    "CS ASTM A350 Forged Fittings",
+    "CS ASTM A350 Threaded Lateral Tee",
+    "CS ASTM A350 45 Deg Forged Threaded Elbow",
+    "CS ASTM A350 90 Deg Threaded Elbow",
+    "CS ASTM A350 Threaded Cross",
+    "CS ASTM A350 Threaded Hex Plus",
+    "CS ASTM A350 Threaded Cap",
+    "CS ASTM A350 Threaded Coupling",
+    "CS ASTM A350 Threaded Union",
+    "CS ASTM A350 Threaded Bushing",
+    "CS ASTM A350 Threaded Plug",
+    "CS ASTM A350 Threaded Tee",
+    "CS ASTM A350 Hexagonal Plus",
+    "CS ASTM A350 Threaded Bend",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A350",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Impact Test (Low Temperature)",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370 / ASTM E23",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Seawater Equipment",
+    "Offshore Oil Drilling Companies",
+    "Marine Industries",
+    "Shipbuilding Companies",
+    "Shafts & Fasteners",
+    "Chemical Processing",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Heat Exchangers & Condensers",
+    "Pulp & Paper Industry",
+  ],
+
+  specializedIn: [
+    "Carbon Steel A350 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A350 Carbon Steel A350 Forged Fittings Exporter",
+    "ANSI B16.11 Carbon Steel A350 Threaded Forged Fittings Stockist in India",
+    "Carbon Steel A350 Forged Fittings Dealer",
+    "Carbon Steel A350 Threaded 90° Elbow Supplier",
+    "Supplier of Carbon Steel A350 Threaded 45° Elbow",
+    "Carbon Steel A350 Threaded Tee Manufacturer",
+    "Carbon Steel A350 Threaded Cross Exporter",
+    "Carbon Steel A350 Threaded Union Manufacturer",
+    "Carbon Steel A350 Threaded Coupling Exporter",
+    "Carbon Steel A350 Threaded Cap Supplier",
+    "Carbon Steel A350 Hexagonal Plug Supplier",
+    "A350 Carbon Steel Threaded Forged Fittings Exporter",
+    "ASME SA350 Carbon Steel A350 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Carbon Steel A350 Forged Fittings Price List",
+    "Carbon Steel A350 Forged Fittings Weight Calculator",
+    "Carbon Steel A350 Forged Fittings Dimensions",
+    "Carbon Steel A350 Forged Fittings Price Per Kg in India",
+    "Carbon Steel A350 Forged Fittings Manufacturer in Mumbai",
+    "Carbon Steel A350 Forged Fittings Supplier in India",
+    "Carbon Steel A350 Forged Fittings Thickness Tolerance",
+    "Carbon Steel A350 Forged Fittings Price List PDF",
+    "Carbon Steel A350 Forged Fittings Mechanical Properties",
+    "Carbon Steel A350 Forged Fittings Chemical Composition",
+    "Carbon Steel A350 Forged Fittings Stockist in Pune",
+    "Carbon Steel A350 Forged Fittings Exporter",
+    "Carbon Steel A350 Forged Fittings Price in Mumbai",
+    "Carbon Steel A350 Forged Fittings Size Chart",
+    "Carbon Steel A350 Threaded Elbow Price",
+    "Carbon Steel A350 Threaded Tee Supplier",
+    "Carbon Steel A350 Threaded Cross Manufacturers",
+    "Carbon Steel A350 Forged Fittings Catalog PDF",
+    "Carbon Steel A350 Forged Fittings Equivalent Grades",
+    "Carbon Steel A350 Forged Fittings Price per Piece",
+    "Carbon Steel A350 Forged Fittings updated price list",
+    "Carbon Steel A350 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Carbon Steel A350 Forged Fittings Manufacturers in Gujarat",
+    "Carbon Steel A350 Forged Fittings Stockyards in India",
+    "Carbon Steel A350 Forged Fittings thickness chart",
+    "Carbon Steel A350 Forged Fittings Price in India",
+    "Top 100 Carbon Steel A350 Forged Fittings Dealers in Mumbai",
+    "Buy Carbon Steel A350 Forged Fittings Online",
+    "Carbon Steel A350 Forged Fittings leading manufacturers in India",
+    "UNS K03011 Forged Fittings Price India",
+    "Werkstoff 1.0508 Forged Fittings Price India",
+    "Carbon Steel A350 Forged Fittings Heat Treatment",
+    "Carbon Steel A350 Forged Fittings Normalizing Temperature",
+    "Carbon Steel A350 Forged Fittings Hardness Range",
+    "Carbon Steel A350 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+},
+{
+  id: 73,
+  slug: "carbon-steel-a694-forged-fittings",
+  image: "/stock/carbon-steel-a694-forged-fittings.jpg",
+  title:
+    "Carbon Steel A694 Forged Fittings Supplier – ASTM A694 / ASME SA694 / F65 / F70 (High Yield Carbon Steel Forged Fittings)",
+  shortDescription:
+    "Carbon Steel A694 Forged Fittings in Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, and Lateral Tee forms. Available in 1/8\" NB to 4\" NB sizes with Class 2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS. Manufactured to ASTM A694 / ASME SA694 / ASME B16.11 / MSS SP-79, 83, 95, 97 / BS 3799 standards.",
+
+  technicalOverview:
+    "Carbon Steel A694 threaded forged fittings have the best corrosion resistance properties. They are made using good quality raw material and the latest technology, which further enables our customers to use it for a long period without having any defects. Carbon Steel A694 threaded forged fittings are available in different sizes and shapes. Carbon steel A694 forged threaded plug fittings contain carbon and molybdenum. Carbon steel Forged threaded bushing fittings have high hardness and yield strength. Carbon steel A694 forged threaded cap fittings have the best corrosion resistance properties. Carbon steel A694 forged threaded cross fittings can be more hardened by heat treatment and cold working processes. Carbon steel A694 coupling fittings can be effectively annealed at a temperature up to 1100 Degree C. Carbon steel A694 forged threaded fittings have a wide range of usage in different industries. Carbon steel A694 forged threaded bend fittings are mostly used for chemical equipment and the pulp and paper industry. Carbon steel A694 forged threaded fittings are mostly used in heat exchangers and condensers. Carbon steel A694 forged threaded coupling fittings are often used for valves, shafts, and fasteners.",
+
+  gradeDetails: {
+    standardGrades: {
+      "Carbon Steel A694 F65":
+        "A high yield carbon steel forging grade with the best corrosion resistance properties. Contains carbon and molybdenum. High hardness and yield strength. Can be more hardened by heat treatment and cold working processes. Can be effectively annealed at temperature up to 1100°C. Used for chemical equipment, pulp and paper industry, heat exchangers, condensers, valves, shafts, and fasteners.",
+      "Carbon Steel A694 F70":
+        "A high yield carbon steel forging grade with the best corrosion resistance properties. Contains carbon and molybdenum. High hardness and yield strength. Can be more hardened by heat treatment and cold working processes. Can be effectively annealed at temperature up to 1100°C. Used for chemical equipment, pulp and paper industry, heat exchangers, condensers, valves, shafts, and fasteners.",
+    },
+  },
+
+  manufacturingStandards: {
+    specifications: "ASTM A694 / ASME SA694",
+    dimensionalStandards: "ASME 16.11, MSS SP-79, 83, 95, 97, BS 3799",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    type: "Threaded Forged Fittings",
+    ends: "Threaded / Socketweld, as applicable",
+    finish: "Pickled / Polished / As required",
+  },
+
+  specifications: {
+    standard: "ASTM A694 / ASME SA694 / ASME 16.11 / MSS SP-79, 83, 95, 97 / BS 3799",
+    grade: "Carbon Steel A694 F65, Carbon Steel A694 F70",
+    sizeRange: "1/8\" NB to 4\" NB (Socketweld & Screwed-Threaded)",
+    class: "2000 LBS, 3000 LBS, 6000 LBS, 9000 LBS",
+    form:
+      "Threaded 45° Elbow, Threaded 90° Elbow, Threaded Tee, Pipe Nipple, Threaded Cross, Threaded Cap, Threaded Bend, Threaded Coupling, Threaded Union, Threaded Bushing, Plug, Hex Plug, Hexagonal Plug, Lateral Tee",
+    type: "Threaded Forged Fittings",
+    testCertificate: "MTC EN 10204 3.1 / 3.2 Available",
+  },
+
+  equivalentGrades: [
+    { grade: "Carbon Steel A694 F65", uns: "K03014", werkstoff: "—", standard: "ASTM" },
+    { grade: "Carbon Steel A694 F70", uns: "K03014", werkstoff: "—", standard: "ASTM" },
+    { grade: "A694 F65", uns: "K03014", werkstoff: "—", standard: "—" },
+    { grade: "A694 F70", uns: "K03014", werkstoff: "—", standard: "—" },
+    { grade: "ASME SA694", uns: "K03014", werkstoff: "—", standard: "ASME" },
+  ],
+
+  chemicalComposition: [
+    {
+      grade: "Carbon Steel A694 F65",
+      c: "0.26 – 0.265",
+      mn: "1.60 – 1.64",
+      si: "0.15 – 0.35",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "P: 0.025 – 0.030 max, S: 0.025 – 0.030 max, Fe: Bal",
+    },
+    {
+      grade: "Carbon Steel A694 F70",
+      c: "0.26 – 0.265",
+      mn: "1.60 – 1.64",
+      si: "0.15 – 0.35",
+      cr: "—",
+      ni: "—",
+      mo: "—",
+      other: "P: 0.025 – 0.030 max, S: 0.025 – 0.030 max, Fe: Bal",
+    },
+  ],
+
+  mechanicalProperties: [
+    {
+      grade: "Carbon Steel A694 F65",
+      tensile: "530 MPa (77 ksi) min",
+      yield: "450 MPa (65 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+    {
+      grade: "Carbon Steel A694 F70",
+      tensile: "570 MPa (83 ksi) min",
+      yield: "485 MPa (70 ksi) min",
+      elongation: "20% min",
+      reduction: "—",
+      hardness: "—",
+      density: "7.85 g/cm³",
+      meltingPoint: "1425 °C – 1540 °C (2600 °F – 2800 °F)",
+    },
+  ],
+
+  heatTreatment: [
+    {
+      processStep: "Normalizing",
+      temperatureRange: "900°C – 955°C (1650°F – 1750°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool",
+    },
+    {
+      processStep: "Annealing",
+      temperatureRange: "Up to 1100°C (2012°F)",
+      timeAtTemperature: "As required",
+      atmosphere: "Air Cool / Furnace Cool",
+    },
+    {
+      processStep: "Pickling & Passivation",
+      temperatureRange: "As per requirement",
+      timeAtTemperature: "—",
+      atmosphere: "Acid Bath",
+    },
+  ],
+
+  priceList: [
+    { item: "ASME SA694 Threaded Forged Fittings", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "CS ASTM A694 Threaded Hex Plus", price: "US $300 – 500 / Ton (FOB)" },
+    { item: "CS ASTM A694 Threaded Union", price: "US $1 – 900 / Piece (FOB)" },
+    { item: "CS ASTM A694 Threaded Tee", price: "US $0.5 – 1000 / Piece (FOB)" },
+    { item: "CS ASTM A694 Threaded Cap", price: "US $1 – 300 / Piece (FOB)" },
+  ],
+
+  otherForms: [
+    "ASME SA694 Threaded Forged Fittings",
+    "A694N CS ASTM A694 Forged Fittings",
+    "CS ASTM A694 Threaded Lateral Tee",
+    "CS ASTM A694 45 Deg Forged Threaded Elbow",
+    "CS ASTM A694 90 Deg Threaded Elbow",
+    "CS ASTM A694 Threaded Cross",
+    "CS ASTM A694 Threaded Hex Plus",
+    "CS ASTM A694 Threaded Cap",
+    "CS ASTM A694 Threaded Coupling",
+    "CS ASTM A694 Threaded Union",
+    "CS ASTM A694 Threaded Bushing",
+    "CS ASTM A694 Threaded Plug",
+    "CS ASTM A694 Threaded Tee",
+    "CS ASTM A694 Hexagonal Plus",
+    "CS ASTM A694 Threaded Bend",
+  ],
+
+  testRequirements: [
+    {
+      test: "Chemical Composition",
+      frequency: "Once per heat",
+      method: "ASTM A694",
+    },
+    {
+      test: "Tensile Properties",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM A370",
+    },
+    {
+      test: "Hardness",
+      frequency: "Once per heat & heat treat batch",
+      method: "ASTM E18",
+    },
+    {
+      test: "Dimensional Inspection",
+      frequency: "100% each fitting",
+      method: "ASME B16.11",
+    },
+    {
+      test: "Surface Inspection",
+      frequency: "100% visual on each fitting",
+      method: "Visual",
+    },
+  ],
+
+  packaging: {
+    packingMethod:
+      "Wrapped in bubble wrap and foil wrap, then packed in wooden corrugated boxes",
+    marking: "Standard mill markings + Heat Number traceability",
+    deliveryTime: "As per order quantity and stock availability",
+    exportDestinations: "Worldwide (50+ countries)",
+    domesticCoverage: "Pan-India (Mumbai, Delhi, Pune, Chennai, Gujarat, etc.)",
+  },
+
+  applicationIndustries: [
+    "Chemical Equipment",
+    "Pulp & Paper Industry",
+    "Heat Exchangers & Condensers",
+    "Valves, Shafts & Fasteners",
+    "Petrochemicals",
+    "Oil & Natural Gas",
+    "Refineries",
+    "Power Generation",
+    "Seawater Equipment",
+    "Pharmaceutical Equipment",
+    "Marine Industries",
+    "Aerospace Industry",
+  ],
+
+  specializedIn: [
+    "Carbon Steel A694 Forged Fittings Supplier in Mumbai, India",
+    "ASTM A694 Carbon Steel A694 Forged Fittings Exporter",
+    "ANSI B16.11 Carbon Steel A694 Threaded Forged Fittings Stockist in India",
+    "Carbon Steel A694 Forged Fittings Dealer",
+    "Carbon Steel A694 Threaded 90° Elbow Supplier",
+    "Supplier of Carbon Steel A694 Threaded 45° Elbow",
+    "Carbon Steel A694 Threaded Tee Manufacturer",
+    "Carbon Steel A694 Threaded Cross Exporter",
+    "Carbon Steel A694 Threaded Union Manufacturer",
+    "Carbon Steel A694 Threaded Coupling Exporter",
+    "Carbon Steel A694 Threaded Cap Supplier",
+    "Carbon Steel A694 Hexagonal Plug Supplier",
+    "A694 Carbon Steel Threaded Forged Fittings Exporter",
+    "ASME SA694 Carbon Steel A694 Threaded Lateral Tee Supplier",
+  ],
+
+  relatedSearches: [
+    "Carbon Steel A694 Forged Fittings Price List",
+    "Carbon Steel A694 Forged Fittings Weight Calculator",
+    "Carbon Steel A694 Forged Fittings Dimensions",
+    "Carbon Steel A694 Forged Fittings Price Per Kg in India",
+    "Carbon Steel A694 Forged Fittings Manufacturer in Mumbai",
+    "Carbon Steel A694 Forged Fittings Supplier in India",
+    "Carbon Steel A694 Forged Fittings Thickness Tolerance",
+    "Carbon Steel A694 Forged Fittings Price List PDF",
+    "Carbon Steel A694 Forged Fittings Mechanical Properties",
+    "Carbon Steel A694 Forged Fittings Chemical Composition",
+    "Carbon Steel A694 Forged Fittings Stockist in Pune",
+    "Carbon Steel A694 Forged Fittings Exporter",
+    "Carbon Steel A694 Forged Fittings Price in Mumbai",
+    "Carbon Steel A694 Forged Fittings Size Chart",
+    "Carbon Steel A694 Threaded Elbow Price",
+    "Carbon Steel A694 Threaded Tee Supplier",
+    "Carbon Steel A694 Threaded Cross Manufacturers",
+    "Carbon Steel A694 Forged Fittings Catalog PDF",
+    "Carbon Steel A694 Forged Fittings Equivalent Grades",
+    "Carbon Steel A694 Forged Fittings Price per Piece",
+    "Carbon Steel A694 Forged Fittings updated price list",
+    "Carbon Steel A694 Forged Fittings Size Chart 1/8 to 4 inch",
+    "Carbon Steel A694 Forged Fittings Manufacturers in Gujarat",
+    "Carbon Steel A694 Forged Fittings Stockyards in India",
+    "Carbon Steel A694 Forged Fittings thickness chart",
+    "Carbon Steel A694 Forged Fittings Price in India",
+    "Top 100 Carbon Steel A694 Forged Fittings Dealers in Mumbai",
+    "Buy Carbon Steel A694 Forged Fittings Online",
+    "Carbon Steel A694 Forged Fittings leading manufacturers in India",
+    "A694 F65 Forged Fittings Price India",
+    "A694 F70 Forged Fittings Price India",
+    "Carbon Steel A694 Forged Fittings Heat Treatment",
+    "Carbon Steel A694 Forged Fittings Annealing Temperature",
+    "Carbon Steel A694 Forged Fittings Hardness Range",
+    "Carbon Steel A694 Threaded Forged Fittings",
+  ],
+
+  exportCountries: EXPORT_COUNTRIES,
+  supplyCities: SUPPLY_CITIES,
+}
 ];
 
 // 19. Circles
