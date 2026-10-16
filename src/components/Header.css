@@ -210,18 +210,45 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
-/* Prevent rightmost dropdowns from spilling outside the viewport on desktop */
-.nav-item:nth-last-child(-n+3) .dropdown-menu,
-.nav-item:nth-last-child(-n+3) .dropdown-menu--two-col {
-  left: auto;
+/* Invisible bridge to maintain hover between trigger button and menu */
+.dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
   right: 0;
-  transform: none;
+  height: 12px;
+  background: transparent;
 }
 
 .dropdown.open .dropdown-menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
+}
+
+/* Specific dropdown menu positioning & sizing (centered directly below hovered tab) */
+.dropdown-menu--dimensions {
+  min-width: 660px;
+  max-width: min(720px, calc(100vw - 32px));
+  left: 50%;
+  transform: translateX(-50%);
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+.dropdown-menu--certificate {
+  min-width: 380px;
+  max-width: 420px;
+  left: 50%;
+  transform: translateX(-50%);
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.dropdown-menu--materials {
+  min-width: 660px;
+  max-width: min(720px, calc(100vw - 32px));
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* For dropdowns with fewer items */
@@ -237,7 +264,7 @@ body {
 
 .dropdown-menu:has(li:nth-child(2):last-child) {
   grid-template-columns: 1fr 1fr;
-  min-width: 400px;
+  min-width: 380px;
 }
 
 .dropdown-menu:has(li:nth-child(1):last-child) {

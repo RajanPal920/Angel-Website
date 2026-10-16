@@ -927,9 +927,10 @@ const Dropdown: React.FC<DropdownProps> = ({
   const midpoint = Math.ceil(items.length / 2);
   const leftColumn = twoColumn ? items.slice(0, midpoint) : items;
   const rightColumn = twoColumn ? items.slice(midpoint) : [];
+  const slugClass = label.toLowerCase().replace(/\s+/g, "-");
 
   return (
-    <div className={`dropdown ${isOpen ? "open" : ""}`}>
+    <div className={`dropdown dropdown--${slugClass} ${isOpen ? "open" : ""}`}>
       <button
         className={`dropdown-trigger ${isActive ? "active" : ""}`}
         onClick={toggle}
@@ -950,7 +951,9 @@ const Dropdown: React.FC<DropdownProps> = ({
       </button>
 
       {twoColumn && !isMobile ? (
-        <div className="dropdown-menu dropdown-menu--two-col">
+        <div
+          className={`dropdown-menu dropdown-menu--two-col dropdown-menu--${slugClass}`}
+        >
           <ul className="dropdown-col">
             {leftColumn.map((item, index) => (
               <li key={`l-${index}`} role="none">
@@ -1005,7 +1008,7 @@ const Dropdown: React.FC<DropdownProps> = ({
           </ul>
         </div>
       ) : (
-        <ul className="dropdown-menu">
+        <ul className={`dropdown-menu dropdown-menu--${slugClass}`}>
           {items.map((item, index) => (
             <li key={index} role="none">
               <a
@@ -1337,6 +1340,43 @@ const Header: React.FC = () => {
     return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
+  const hoverTimeoutRef = useRef<number | null>(null);
+
+  const handleMouseEnter = (label: string, hasItems: boolean) => {
+    if (window.innerWidth <= 1024) return;
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+      hoverTimeoutRef.current = null;
+    }
+    if (hasItems) {
+      setOpenDropdown(label);
+    } else {
+      setOpenDropdown(null);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (window.innerWidth <= 1024) return;
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+    }
+    hoverTimeoutRef.current = window.setTimeout(() => {
+      setOpenDropdown(null);
+    }, 150);
+  };
+
+  useEffect(() => {
+    return () => {
+      if (hoverTimeoutRef.current) {
+        clearTimeout(hoverTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    setOpenDropdown(null);
+  }, [activePath]);
+
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
     if (!isMobileMenuOpen) setOpenDropdown(null);
@@ -1389,7 +1429,14 @@ const Header: React.FC = () => {
         <nav className="main-nav desktop-nav">
           <ul className="nav-list">
             {navItems.map((item) => (
-              <li key={item.label} className="nav-item">
+              <li
+                key={item.label}
+                className="nav-item"
+                onMouseEnter={() =>
+                  handleMouseEnter(item.label, Boolean(item.items))
+                }
+                onMouseLeave={handleMouseLeave}
+              >
                 {item.items ? (
                   <Dropdown
                     label={item.label}
