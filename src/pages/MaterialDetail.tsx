@@ -429,15 +429,11 @@ const MaterialDetail: React.FC = () => {
     { name: "Forged Fittings", slug: "forged-fittings" },
     { name: "Industrial Fasteners", slug: "fasteners" },
     { name: "Industrial Valves", slug: "valves" },
-    { name: "Patta & Patti", slug: "patta-patti" },
     { name: "Industrial Rings", slug: "rings" },
     { name: "Coils", slug: "coils" },
     { name: "Industrial Circles", slug: "circles" },
-    { name: "Industrial Strips", slug: "strips" },
-    { name: "Hose Pipes", slug: "hose-pipe" },
     { name: "Perforated Sheets", slug: "perforated-sheet" },
     { name: "Wire Mesh", slug: "wire-mesh" },
-    { name: "Anchor Fasteners", slug: "anchor-fastener" },
     { name: "Dairy & Pharma Valves", slug: "dairy-pharma-valves" },
   ];
 
@@ -1525,44 +1521,72 @@ const MaterialDetail: React.FC = () => {
 
                   {/* ALL cards from ALL categories → one single grid */}
                   <div className="md-stock-grid">
-                    {Object.entries(material.stockAvailability).map(
-                      ([categoryKey, categoryData]: [string, any]) => {
-                        if (
-                          !Array.isArray(categoryData) ||
-                          categoryData.length === 0
-                        )
-                          return null;
+                    {(() => {
+                      const seenImages = new Set<string>();
+                      return Object.entries(material.stockAvailability).map(
+                        ([categoryKey, categoryData]: [string, any]) => {
+                          if (
+                            !Array.isArray(categoryData) ||
+                            categoryData.length === 0
+                          )
+                            return null;
 
-                        return categoryData.map(
-                          (category: any, catIdx: number) => {
-                            const isCategory =
-                              typeof category === "object" && category.title;
-                            const categoryTitle = isCategory
-                              ? category.title
-                              : `Category ${catIdx + 1}`;
-                            const items = isCategory
-                              ? category.items
-                              : [category];
-                            const image = isCategory ? category.image : null;
+                          return categoryData.map(
+                            (category: any, catIdx: number) => {
+                              const isCategory =
+                                typeof category === "object" && category.title;
+                              const categoryTitle = isCategory
+                                ? category.title
+                                : `Category ${catIdx + 1}`;
+                              const items = isCategory
+                                ? category.items
+                                : [category];
+                              let image = isCategory ? category.image : null;
 
-                            return (
-                              <div
-                                key={`${categoryKey}-${catIdx}`}
-                                className="md-stock-category"
-                              >
-                                {image && (
-                                  <div className="md-stock-cat-image">
-                                    <img
-                                      src={image}
-                                      alt={categoryTitle}
-                                      loading="lazy"
-                                    />
-                                  </div>
-                                )}
+                              // Safeguard: Ensure no cards on the same page share the same image
+                              if (image && seenImages.has(image)) {
+                                const t = categoryTitle.toLowerCase();
+                                const altCandidates: string[] = [];
+                                if (t.includes("weld neck") || t.includes("wnrf")) {
+                                  altCandidates.push("/stock/ss316-wnrf-flanges.jpg", "/stock/a105-wnrf-flanges.jpg");
+                                } else if (t.includes("slip on") || t.includes("slip-on") || t.includes("sorf")) {
+                                  altCandidates.push("/stock/ss316-sorf-flanges.jpg", "/stock/a105-sorf-flanges.jpg");
+                                } else if (t.includes("blind")) {
+                                  altCandidates.push("/stock/ss316-blind-flanges.jpg", "/stock/a105-blind-flanges.jpg");
+                                } else if (t.includes("socket weld") || t.includes("swrf")) {
+                                  altCandidates.push("/stock/ss316-socket-weld-flanges.jpg", "/stock/a105-socket-weld-flanges.jpg");
+                                } else if (t.includes("threaded") || t.includes("screwed")) {
+                                  altCandidates.push("/stock/ss316-threaded-flanges.jpg", "/stock/a105-threaded-flanges.jpg");
+                                } else if (t.includes("special") || t.includes("rtj") || t.includes("ring")) {
+                                  altCandidates.push("/stock/ss316-rtj-flanges.jpg", "/stock/a105-rtj-flanges.jpg");
+                                }
+                                for (const candidate of altCandidates) {
+                                  if (!seenImages.has(candidate)) {
+                                    image = candidate;
+                                    break;
+                                  }
+                                }
+                              }
+                              if (image) seenImages.add(image);
 
-                                <h4 className="md-stock-cat-title">
-                                  {categoryTitle}
-                                </h4>
+                              return (
+                                <div
+                                  key={`${categoryKey}-${catIdx}`}
+                                  className="md-stock-category"
+                                >
+                                  {image && (
+                                    <div className="md-stock-cat-image">
+                                      <img
+                                        src={image}
+                                        alt={categoryTitle}
+                                        loading="lazy"
+                                      />
+                                    </div>
+                                  )}
+
+                                  <h4 className="md-stock-cat-title">
+                                    {categoryTitle}
+                                  </h4>
 
                                 <ul className="md-stock-cat-list">
                                   {items.map((item: any, idx: number) => {
@@ -1595,8 +1619,8 @@ const MaterialDetail: React.FC = () => {
                             );
                           },
                         );
-                      },
-                    )}
+                      });
+                    })()}
                   </div>
 
                   {hasData(material.thicknessAvailability) && (

@@ -74,18 +74,8 @@ const productItems = [
     icon: <Rows size={16} />,
     link: "/products/angle-channels",
   },
-  {
-    name: "Patta Patti",
-    icon: <Layers size={16} />,
-    link: "/products/patta-patti",
-  },
   { name: "Rings", icon: <Circle size={16} />, link: "/products/rings" },
   { name: "Circles", icon: <Circle size={16} />, link: "/products/circles" },
-  {
-    name: "Strips",
-    icon: <AlignJustify size={16} />,
-    link: "/products/strips",
-  },
   { name: "Valves", icon: <CircleDot size={16} />, link: "/products/valves" },
   {
     name: "Dairy Fittings",
@@ -107,12 +97,6 @@ const productItems = [
     name: "Perforated Sheet",
     icon: <SquareStack size={16} />,
     link: "/products/perforated-sheet",
-  },
-  { name: "Hose Pipe", icon: <Zap size={16} />, link: "/products/hose-pipe" },
-  {
-    name: "Anchor Fastener",
-    icon: <Box size={16} />,
-    link: "/products/anchor-fastener",
   },
   {
     name: "Hardox Plate",
@@ -157,7 +141,6 @@ const dimensionItems = [
     file: "/Dimensions/dimensions-forged-fittings.pdf",
   },
   { name: "Angle Channels", file: "/Dimensions/dimensions-angle-channels.pdf" },
-  { name: "Patta Patti", file: "/Dimensions/dimensions-patta-patti.pdf" },
 ];
 
 // Certificates Data

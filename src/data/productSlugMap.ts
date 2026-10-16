@@ -31,142 +31,6 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "categorySlug": "angle-channels",
     "canonicalSlug": "carbon-angle-channel-manufacturer-mumbai"
   },
-  "wedge-anchors": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "wedge-anchors-supplier-mumbai"
-  },
-  "wedge-anchors-supplier-mumbai": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "wedge-anchors-supplier-mumbai"
-  },
-  "sleeve-anchors": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "sleeve-anchors-manufacturer-mumbai"
-  },
-  "sleeve-anchors-manufacturer-mumbai": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "sleeve-anchors-manufacturer-mumbai"
-  },
-  "drop-in-anchors": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "drop-in-anchors-manufacturer-mumbai"
-  },
-  "drop-in-anchors-manufacturer-mumbai": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "drop-in-anchors-manufacturer-mumbai"
-  },
-  "shield-anchors": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "shield-anchors-supplier-mumbai"
-  },
-  "shield-anchors-supplier-mumbai": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "shield-anchors-supplier-mumbai"
-  },
-  "chemical-injection-anchors": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "chemical-injection-anchors-manufacturer-mumbai"
-  },
-  "chemical-injection-anchors-manufacturer-mumbai": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "chemical-injection-anchors-manufacturer-mumbai"
-  },
-  "toggle-bolts": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "toggle-bolts-manufacturer-mumbai"
-  },
-  "toggle-bolts-manufacturer-mumbai": {
-    "categorySlug": "anchor-fastener",
-    "canonicalSlug": "toggle-bolts-manufacturer-mumbai"
-  },
-  "annular-corrugated-hose": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "annular-corrugated-hose-supplier-mumbai"
-  },
-  "annular-corrugated-hose-supplier-mumbai": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "annular-corrugated-hose-supplier-mumbai"
-  },
-  "corrugated-ss-hose-pipe": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "corrugated-ss-hose-pipe-stockist-mumbai"
-  },
-  "corrugated-ss-hose-pipe-stockist-mumbai": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "corrugated-ss-hose-pipe-stockist-mumbai"
-  },
-  "high-pressure-ss-hose-assembly": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "high-pressure-ss-hose-assembly-supplier-mumbai"
-  },
-  "high-pressure-ss-hose-assembly-supplier-mumbai": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "high-pressure-ss-hose-assembly-supplier-mumbai"
-  },
-  "ptfe-lined-ss-hose-pipe": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "ptfe-lined-ss-hose-pipe-stockist-mumbai"
-  },
-  "ptfe-lined-ss-hose-pipe-stockist-mumbai": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "ptfe-lined-ss-hose-pipe-stockist-mumbai"
-  },
-  "ss-braided-hose-pipe": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "ss-braided-hose-pipe-supplier-mumbai"
-  },
-  "ss-braided-hose-pipe-supplier-mumbai": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "ss-braided-hose-pipe-supplier-mumbai"
-  },
-  "ss-hose-with-end-fittings": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "ss-hose-with-end-fittings-stockist-mumbai"
-  },
-  "ss-hose-with-end-fittings-stockist-mumbai": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "ss-hose-with-end-fittings-stockist-mumbai"
-  },
-  "strip-wound-hose-pipe": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "strip-wound-hose-pipe-supplier-mumbai"
-  },
-  "strip-wound-hose-pipe-supplier-mumbai": {
-    "categorySlug": "hose-pipe",
-    "canonicalSlug": "strip-wound-hose-pipe-supplier-mumbai"
-  },
-  "carbon-alloy-steel-flat-bars": {
-    "categorySlug": "patta-patti",
-    "canonicalSlug": "carbon-alloy-steel-flat-bars-manufacturer-mumbai"
-  },
-  "carbon-alloy-steel-flat-bars-manufacturer-mumbai": {
-    "categorySlug": "patta-patti",
-    "canonicalSlug": "carbon-alloy-steel-flat-bars-manufacturer-mumbai"
-  },
-  "carbon-alloy-steel-patti": {
-    "categorySlug": "patta-patti",
-    "canonicalSlug": "carbon-alloy-steel-patti-manufacturer-mumbai"
-  },
-  "carbon-alloy-steel-patti-manufacturer-mumbai": {
-    "categorySlug": "patta-patti",
-    "canonicalSlug": "carbon-alloy-steel-patti-manufacturer-mumbai"
-  },
-  "stainless-duplex-steel-patti": {
-    "categorySlug": "patta-patti",
-    "canonicalSlug": "stainless-duplex-steel-patti-supplier-mumbai"
-  },
-  "stainless-duplex-steel-patti-supplier-mumbai": {
-    "categorySlug": "patta-patti",
-    "canonicalSlug": "stainless-duplex-steel-patti-supplier-mumbai"
-  },
-  "stainless-steel-flat-bars": {
-    "categorySlug": "patta-patti",
-    "canonicalSlug": "stainless-steel-flat-bars-manufacturer-mumbai"
-  },
-  "stainless-steel-flat-bars-manufacturer-mumbai": {
-    "categorySlug": "patta-patti",
-    "canonicalSlug": "stainless-steel-flat-bars-manufacturer-mumbai"
-  },
   "stainless-duplex-steel-perforated-sheets": {
     "categorySlug": "perforated-sheet",
     "canonicalSlug": "stainless-duplex-steel-perforated-sheets-stockist-mumbai"
@@ -239,30 +103,6 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "categorySlug": "rings",
     "canonicalSlug": "carbon-mild-steel-rings-manufacturer-mumbai"
   },
-  "stainless-steel-strips": {
-    "categorySlug": "strips",
-    "canonicalSlug": "stainless-steel-strips-supplier-mumbai"
-  },
-  "stainless-steel-strips-supplier-mumbai": {
-    "categorySlug": "strips",
-    "canonicalSlug": "stainless-steel-strips-supplier-mumbai"
-  },
-  "nickel-high-alloy-strips": {
-    "categorySlug": "strips",
-    "canonicalSlug": "nickel-high-alloy-strips-stockist-mumbai"
-  },
-  "nickel-high-alloy-strips-stockist-mumbai": {
-    "categorySlug": "strips",
-    "canonicalSlug": "nickel-high-alloy-strips-stockist-mumbai"
-  },
-  "duplex-precision-carbon-strips": {
-    "categorySlug": "strips",
-    "canonicalSlug": "duplex-precision-carbon-strips-supplier-mumbai"
-  },
-  "duplex-precision-carbon-strips-supplier-mumbai": {
-    "categorySlug": "strips",
-    "canonicalSlug": "duplex-precision-carbon-strips-supplier-mumbai"
-  },
   "woven-wire-mesh": {
     "categorySlug": "wire-mesh",
     "canonicalSlug": "woven-wire-mesh-supplier-mumbai"
@@ -319,14 +159,6 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "categorySlug": "dairy-pharma-valves",
     "canonicalSlug": "hygienic-valve-systems-supplier-mumbai"
   },
-  "ss-butterfly-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-butterfly-valves-stockist-mumbai"
-  },
-  "ss-butterfly-valves-stockist-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-butterfly-valves-stockist-mumbai"
-  },
   "ss-diaphragm-valves": {
     "categorySlug": "dairy-pharma-valves",
     "canonicalSlug": "ss-diaphragm-valves-supplier-mumbai"
@@ -366,14 +198,6 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
   "pharma-grade-diaphragm-valves-supplier-mumbai": {
     "categorySlug": "dairy-pharma-valves",
     "canonicalSlug": "pharma-grade-diaphragm-valves-supplier-mumbai"
-  },
-  "sanitary-pharma-butterfly-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "sanitary-pharma-butterfly-valves-stockist-mumbai"
-  },
-  "sanitary-pharma-butterfly-valves-stockist-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "sanitary-pharma-butterfly-valves-stockist-mumbai"
   },
   "high-purity-ball-valves": {
     "categorySlug": "dairy-pharma-valves",
@@ -2647,46 +2471,6 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "categorySlug": "pipes-tubes",
     "canonicalSlug": "stainless-steel-310s-pipes-supplier-mumbai"
   },
-  "casting-components": {
-    "categorySlug": "casting",
-    "canonicalSlug": "casting-components-supplier-mumbai"
-  },
-  "casting-components-supplier-mumbai": {
-    "categorySlug": "casting",
-    "canonicalSlug": "casting-components-supplier-mumbai"
-  },
-  "pump-shaft-quality-bars": {
-    "categorySlug": "precision-machine-components",
-    "canonicalSlug": "pump-shaft-quality-bars-stockist-mumbai"
-  },
-  "pump-shaft-quality-bars-stockist-mumbai": {
-    "categorySlug": "precision-machine-components",
-    "canonicalSlug": "pump-shaft-quality-bars-stockist-mumbai"
-  },
-  "precision-machine-valve-pump-parts": {
-    "categorySlug": "precision-machine-components",
-    "canonicalSlug": "precision-machine-valve-pump-parts-stockist-mumbai"
-  },
-  "precision-machine-valve-pump-parts-stockist-mumbai": {
-    "categorySlug": "precision-machine-components",
-    "canonicalSlug": "precision-machine-valve-pump-parts-stockist-mumbai"
-  },
-  "ring-joint-gasket": {
-    "categorySlug": "gasket",
-    "canonicalSlug": "ring-joint-gasket-stockist-mumbai"
-  },
-  "ring-joint-gasket-stockist-mumbai": {
-    "categorySlug": "gasket",
-    "canonicalSlug": "ring-joint-gasket-stockist-mumbai"
-  },
-  "spiral-wound-gasket": {
-    "categorySlug": "gasket",
-    "canonicalSlug": "spiral-wound-gasket-stockist-mumbai"
-  },
-  "spiral-wound-gasket-stockist-mumbai": {
-    "categorySlug": "gasket",
-    "canonicalSlug": "spiral-wound-gasket-stockist-mumbai"
-  },
   "stainless-flange-316-l": {
     "categorySlug": "flanges",
     "canonicalSlug": "stainless-steel-316-316l-316ti-flanges-stockist-mumbai"
@@ -2699,14 +2483,4 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "categorySlug": "flanges",
     "canonicalSlug": "stainless-steel-316-316l-316ti-flanges-stockist-mumbai"
   }
-};
-
-export const getCanonicalProductUrl = (inputSlug: string, categorySlug?: string): string | null => {
-  if (!inputSlug) return null;
-  const normalized = inputSlug.trim().toLowerCase();
-  const info = productSlugRedirectMap[normalized];
-  if (info) {
-    return `/products/${info.categorySlug}/${info.canonicalSlug}`;
-  }
-  return null;
 };

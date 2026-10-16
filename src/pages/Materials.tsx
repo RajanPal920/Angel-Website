@@ -77,7 +77,7 @@ const getMaterialImage = (materialSlug: string): string => {
     monel: "/productImage/rings.jpg",
     titanium: "/productImage/wires.jpg",
     nimonic: "/productImage/sheets.jpg",
-    "special-materials": "/productImage/anchor-fastener.jpg",
+    "special-materials": "/productImage/steel-pipes.jpg",
     "other-materials": "/productImage/Flanges.jpg",
   };
 

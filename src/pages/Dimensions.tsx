@@ -18,7 +18,6 @@ const Dimensions: React.FC = () => {
     { name: "Fasteners", file: "dimensions-fasteners.pdf" },
     { name: "Flanges", file: "dimensions-flanges.pdf" },
     { name: "Forged Fittings", file: "dimensions-forged-fittings.pdf" },
-    { name: "Patta Patti", file: "dimensions-patta-patti.pdf" },
     { name: "Pipes", file: "dimensions-pipes.pdf" },
     { name: "Plates", file: "dimensions-plates.pdf" },
     { name: "Round Bars", file: "dimensions-round-bars.pdf" },

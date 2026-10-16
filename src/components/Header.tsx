@@ -1156,10 +1156,8 @@ const Header: React.FC = () => {
     });
   };
 
-  // ✅ UPDATED: includes Gasket, Casting, Precision Machine Components
   const buildProductItems = (): DropdownItem[] => {
     const products = [
-      { label: "Anchor Fastener", slug: "anchor-fastener", icon: Icons.Anchor },
       { label: "Angle Channels", slug: "angle-channels", icon: Icons.Angle },
       {
         label: "Buttweld Fittings",
@@ -1176,8 +1174,6 @@ const Header: React.FC = () => {
       { label: "Fasteners", slug: "fasteners", icon: Icons.Fastener },
       { label: "Flanges", slug: "flanges", icon: Icons.Flange },
       { label: "Forged Fittings", slug: "forged-fittings", icon: Icons.Forged },
-      { label: "Hose Pipes", slug: "hose-pipe", icon: Icons.Hose },
-      { label: "Patta Patti", slug: "patta-patti", icon: Icons.Patta },
       {
         label: "Perforated Sheets",
         slug: "perforated-sheet",
@@ -1191,18 +1187,9 @@ const Header: React.FC = () => {
         slug: "pipes-tubes",
         icon: Icons.SteelPipes,
       },
-      { label: "Strips", slug: "strips", icon: Icons.Strips },
       { label: "Valves", slug: "valves", icon: Icons.Valves },
       { label: "Wire Mesh", slug: "wire-mesh", icon: Icons.WireMesh },
       { label: "Wires", slug: "wires", icon: Icons.Wires },
-      // ✅ NEW products
-      { label: "Gasket", slug: "gasket", icon: Icons.Gasket },
-      { label: "Casting", slug: "casting", icon: Icons.Casting },
-      {
-        label: "Precision Machine Components",
-        slug: "precision-machine-components",
-        icon: Icons.Precision,
-      },
     ];
 
     return products.map((product) => ({
@@ -1240,11 +1227,6 @@ const Header: React.FC = () => {
         label: "Forged Fittings",
         file: "dimensions-forged-fittings.pdf",
         icon: Icons.DimForged,
-      },
-      {
-        label: "Patta Patti",
-        file: "dimensions-patta-patti.pdf",
-        icon: Icons.DimPatta,
       },
       { label: "Pipes", file: "dimensions-pipes.pdf", icon: Icons.DimPipe },
       { label: "Plates", file: "dimensions-plates.pdf", icon: Icons.DimPlate },

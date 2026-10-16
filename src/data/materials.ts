@@ -57,21 +57,21 @@ const buildItemsWithImages = (items: any[]) => {
       if (item.slug.includes("pipe") || item.slug.includes("tube")) {
         image = "/stock/nickel-alloy-pipes.jpg";
       } else if (item.slug.includes("bar") || item.slug.includes("rod")) {
-        image = "/stock/nickel-alloy-rod.jpg";
+        image = "/stock/nickel-alloy-200-201-round-bars.jpg";
       } else if (item.slug.includes("sheet")) {
-        image = "/stock/nickel-alloy-sheet.jpg";
+        image = "/stock/nickel-alloy-200-201-sheets.jpg";
       } else if (item.slug.includes("plate")) {
-        image = "/stock/nickel-alloy-plate.jpg";
+        image = "/stock/nickel-alloy-200-201-plates.jpg";
       } else if (item.slug.includes("flange")) {
-        image = "/stock/nickel-alloy-flanges.jpg";
+        image = "/stock/nickel-200-flanges.jpg";
       } else if (item.slug.includes("fastener")) {
-        image = "/stock/nickel-alloy-fastener.jpg";
+        image = "/stock/nickel-copper-alloy-fasteners.jpg";
       } else if (item.slug.includes("wire")) {
-        image = "/stock/nickel-alloy-wire.jpg";
+        image = "/stock/nickel-alloy-200-201-wires.jpg";
       } else if (item.slug.includes("coil")) {
-        image = "/stock/nickel-alloy-coil.jpg";
+        image = "/stock/nickel-alloy-200-201-coils.jpg";
       } else if (item.slug.includes("fitting")) {
-        image = "/stock/nickel-alloy-fitting.jpg";
+        image = "/stock/Nickel-Alloy-Buttweld-Fittings.jpg";
       }
     }
 

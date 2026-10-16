@@ -10,56 +10,57 @@ const heroImage = "/img/home/banner-industrial.jpg";
 
 // ===== MATERIAL TO FALLBACK IMAGE MAPPING =====
 const materialFallbackImages: Record<string, string> = {
-  "Stainless Steel": "/stock/stainless-steel.jpg",
-  "Carbon Steel": "/stock/carbon-steel.jpg",
-  "Alloy Steel": "/stock/alloy-steel.jpg",
-  "Nickel Alloy": "/stock/nickel-alloy.jpg",
-  Titanium: "/stock/titanium.jpg",
-  "Duplex Steel": "/stock/duplex-steel.jpg",
-  "Super Duplex": "/stock/super-duplex.jpg",
-  "Copper Nickel": "/stock/copper-nickel.jpg",
-  Hastelloy: "/stock/hastelloy.jpg",
-  Inconel: "/stock/inconel.jpg",
-  Incoloy: "/stock/incoloy.jpg",
-  Monel: "/stock/monel.jpg",
-  Aluminum: "/stock/aluminum.jpg",
-  Brass: "/stock/brass.jpg",
-  Bronze: "/stock/bronze.jpg",
+  "Stainless Steel": "/stock/stainless-steel-304-304l-pipes.jpg",
+  "Carbon Steel": "/productImage/steel-pipes.jpg",
+  "Alloy Steel": "/stock/alloy-20-seamless-pipes.jpg",
+  "Nickel Alloy": "/stock/nickel-alloy-pipes.jpg",
+  Titanium: "/stock/titanium-pipes.jpg",
+  "Duplex Steel": "/stock/duplex-steel-seamless-pipes.jpg",
+  "Super Duplex": "/stock/duplex-super-duplex-seamless-pipes.jpg",
+  "Copper Nickel": "/stock/copper-nickel-seamless-pipes.jpg",
+  Hastelloy: "/stock/hastelloy-pipes.jpg",
+  Inconel: "/stock/inconel-pipes.jpg",
+  Incoloy: "/stock/incoloy-pipes.jpg",
+  Monel: "/stock/monel-pipes.jpg",
+  Aluminum: "/stock/aluminum-perforated-sheets.jpg",
+  Brass: "/stock/brass-bars.jpg",
+  Bronze: "/stock/copper-nickel-seamless-pipes.jpg",
 };
 
 // ===== PRODUCT TYPE TO IMAGE MAPPING =====
 const productTypeImages: Record<string, string> = {
-  pipes: "/stock/steel-pipes.jpg",
-  pipe: "/stock/steel-pipes.jpg",
-  tubes: "/stock/tubes.jpg",
-  tube: "/stock/tubes.jpg",
-  tubing: "/stock/tubes.jpg",
-  "round-bars": "/stock/rod.jpg",
-  "round-bar": "/stock/rod.jpg",
-  bars: "/stock/rod.jpg",
-  bar: "/stock/rod.jpg",
-  rods: "/stock/rod.jpg",
-  rod: "/stock/rod.jpg",
-  sheets: "/stock/sheets.jpg",
-  sheet: "/stock/sheets.jpg",
-  plates: "/stock/plates.jpg",
-  plate: "/stock/plates.jpg",
-  wires: "/stock/wires.jpg",
-  wire: "/stock/wires.jpg",
-  flanges: "/stock/flanges.jpg",
-  flange: "/stock/flanges.jpg",
-  fasteners: "/stock/fastener.jpg",
-  fastener: "/stock/fastener.jpg",
-  bolts: "/stock/fastener.jpg",
-  nuts: "/stock/fastener.jpg",
-  "pipe-fittings": "/stock/buttweld.jpg",
-  buttweld: "/stock/buttweld.jpg",
-  "forged-fittings": "/stock/forged-fittings.jpg",
-  fittings: "/stock/buttweld.jpg",
-  coils: "/stock/coils.jpg",
-  coil: "/stock/coils.jpg",
-  strips: "/stock/strips.jpg",
-  strip: "/stock/strips.jpg",
+  pipes: "/productImage/steel-pipes.jpg",
+  pipe: "/productImage/steel-pipes.jpg",
+  tubes: "/productImage/tubes.jpg",
+  tube: "/productImage/tubes.jpg",
+  tubing: "/productImage/tubes.jpg",
+  "round-bars": "/productImage/rod.jpg",
+  "round-bar": "/productImage/rod.jpg",
+  bars: "/productImage/rod.jpg",
+  bar: "/productImage/rod.jpg",
+  rods: "/productImage/rod.jpg",
+  rod: "/productImage/rod.jpg",
+  sheets: "/productImage/sheets.jpg",
+  sheet: "/productImage/sheets.jpg",
+  plates: "/productImage/plates.jpg",
+  plate: "/productImage/plates.jpg",
+  wires: "/productImage/wires.jpg",
+  wire: "/productImage/wires.jpg",
+  flanges: "/productImage/Flanges.jpg",
+  flange: "/productImage/Flanges.jpg",
+  fasteners: "/productImage/fastener.jpg",
+  fastener: "/productImage/fastener.jpg",
+  bolts: "/productImage/fastener.jpg",
+  nuts: "/productImage/fastener.jpg",
+  "pipe-fittings": "/productImage/buttweld.jpg",
+  buttweld: "/productImage/buttweld.jpg",
+  "forged-fittings": "/productImage/forged-fittings.jpg",
+  fittings: "/productImage/buttweld.jpg",
+  coils: "/productImage/coil.jpg",
+  coil: "/productImage/coil.jpg",
+  circles: "/productImage/circles.jpg",
+  rings: "/productImage/rings.jpg",
+  valves: "/productImage/valves.jpg",
 };
 
 // ===== SMART IMAGE RESOLVER =====
@@ -70,23 +71,23 @@ const getProductImage = (
   const slugLower = productSlug.toLowerCase();
 
   const materialKeywords = [
-    { key: "stainless-steel", img: "/stock/stainless-steel-pipes.jpg" },
-    { key: "carbon-steel", img: "/stock/carbon-steel-pipes.jpg" },
-    { key: "alloy-steel", img: "/stock/alloy-steel-pipes.jpg" },
+    { key: "stainless-steel", img: "/stock/stainless-steel-304-304l-pipes.jpg" },
+    { key: "carbon-steel", img: "/productImage/steel-pipes.jpg" },
+    { key: "alloy-steel", img: "/stock/alloy-20-seamless-pipes.jpg" },
     { key: "nickel-alloy", img: "/stock/nickel-alloy-pipes.jpg" },
     { key: "nickel", img: "/stock/nickel-alloy-pipes.jpg" },
     { key: "titanium", img: "/stock/titanium-pipes.jpg" },
-    { key: "duplex", img: "/stock/duplex-steel-pipes.jpg" },
-    { key: "super-duplex", img: "/stock/super-duplex-pipes.jpg" },
-    { key: "copper-nickel", img: "/stock/copper-nickel-pipes.jpg" },
-    { key: "cu-ni", img: "/stock/copper-nickel-pipes.jpg" },
+    { key: "duplex", img: "/stock/duplex-steel-seamless-pipes.jpg" },
+    { key: "super-duplex", img: "/stock/duplex-super-duplex-seamless-pipes.jpg" },
+    { key: "copper-nickel", img: "/stock/copper-nickel-seamless-pipes.jpg" },
+    { key: "cu-ni", img: "/stock/copper-nickel-seamless-pipes.jpg" },
     { key: "hastelloy", img: "/stock/hastelloy-pipes.jpg" },
     { key: "inconel", img: "/stock/inconel-pipes.jpg" },
     { key: "incoloy", img: "/stock/incoloy-pipes.jpg" },
     { key: "monel", img: "/stock/monel-pipes.jpg" },
-    { key: "aluminum", img: "/stock/aluminum-pipes.jpg" },
-    { key: "brass", img: "/stock/brass-pipes.jpg" },
-    { key: "bronze", img: "/stock/bronze-pipes.jpg" },
+    { key: "aluminum", img: "/stock/aluminum-perforated-sheets.jpg" },
+    { key: "brass", img: "/stock/brass-bars.jpg" },
+    { key: "bronze", img: "/stock/copper-nickel-seamless-pipes.jpg" },
   ];
 
   for (const material of materialKeywords) {
@@ -152,17 +153,17 @@ const getProductImage = (
     return (
       productTypeImages[lastPart] ||
       productTypeImages[lastPart.replace(/s$/, "")] ||
-      "/stock/default-product.jpg"
+      "/productImage/steel-pipes.jpg"
     );
   }
 
   for (const material of materialKeywords) {
     if (firstPart.includes(material.key)) {
-      return `/stock/${material.key}.jpg`;
+      return material.img || `/stock/${material.key}-pipes.jpg`;
     }
   }
 
-  return "/stock/default-product.jpg";
+  return "/productImage/steel-pipes.jpg";
 };
 
 // ===== GET PRODUCT TYPE NAME =====

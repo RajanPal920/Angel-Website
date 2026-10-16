@@ -25,7 +25,6 @@ const specialNameMap: Record<string, string> = {
   "steel-rods-bars": "Steel Rods & Bars",
 
   // Fasteners & Fittings
-  "anchor-fastener": "Anchor Fastener",
   "angle-channels": "Angle Channels",
   "steel-angles-channels": "Steel Angles & Channels",
   "buttweld-fittings": "Buttweld Fittings",
@@ -43,11 +42,8 @@ const specialNameMap: Record<string, string> = {
   circles: "Circles",
   coils: "Coils",
   "steel-coils": "Steel Coils",
-  "hose-pipe": "Hose Pipe",
-  "patta-patti": "Patta Patti",
   "perforated-sheet": "Perforated Sheet",
   rings: "Rings",
-  strips: "Strips",
   "wire-mesh": "Wire Mesh",
   wires: "Wires",
 };
@@ -69,7 +65,6 @@ const getProductName = (slug: string): string => {
 // Get icon for each category
 const getCategoryIcon = (slug: string): string => {
   const iconMap: Record<string, string> = {
-    "anchor-fastener": "",
     "angle-channels": "",
     "buttweld-fittings": "",
     circles: "",
@@ -78,14 +73,11 @@ const getCategoryIcon = (slug: string): string => {
     fasteners: "",
     flanges: "",
     "forged-fittings": "",
-    "hose-pipe": "",
-    "patta-patti": "",
     "perforated-sheet": "",
     rings: "",
     "round-bars": "",
     "sheets-plates": "",
     "pipes-tubes": "",
-    strips: "",
     valves: "",
     "wire-mesh": "",
     wires: "",
@@ -96,8 +88,6 @@ const getCategoryIcon = (slug: string): string => {
 // Get subtitle for each category
 const getCategorySubtitle = (slug: string): string => {
   const subtitleMap: Record<string, string> = {
-    "anchor-fastener":
-      "Premium fastening solutions for industrial applications",
     "sheets-plates":
       "High-quality sheets and plates for various industrial needs",
     "pipes-tubes": "Premium pipes and tubes for demanding applications",

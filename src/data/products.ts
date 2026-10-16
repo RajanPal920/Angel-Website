@@ -4,42 +4,20 @@ import {
   ScrollText,
   Circle,
   Cable,
-  RectangleHorizontal,
-  AlignHorizontalSpaceAround,
   ShieldCheck,
   Grid2X2,
-  Bolt,
   Square,
   GitBranch,
   Nut,
   Disc3,
-  FlaskConical,
-  Waves,
-  Layers,
-  LayoutGrid,
   Cylinder,
   Wrench,
   Columns3,
   CircleDot,
-  Milk,
   Network,
-  // New icons for the added products
-  CircleDashed, // for Gasket
-  Box, // for Casting
-  Cog, // for Precision Machine Components
 } from "lucide-react";
 
 export const products = [
-  {
-    id: 1,
-    name: "Anchor Fastener",
-    slug: "anchor-fastener",
-    image: "/productImage/anchor-fastener.jpg",
-    icon: Bolt,
-    category: "Fasteners",
-    shortDescription:
-      "Heavy-duty anchor fasteners for industrial installations.",
-  },
   {
     id: 2,
     name: "Angle Channels",
@@ -117,25 +95,6 @@ export const products = [
     shortDescription: "High-pressure forged fittings.",
   },
   {
-    id: 10,
-    name: "Hose Pipe",
-    slug: "hose-pipe",
-    image: "/productImage/hose-pipe.jpg",
-    icon: Waves,
-    category: "Industrial Hose",
-    shortDescription: "Industrial hose pipes for chemical transfer.",
-  },
-  {
-    id: 11,
-    name: "Patta Patti",
-    slug: "patta-patti",
-    image: "/productImage/patta-patti.jpg",
-    icon: RectangleHorizontal,
-    category: "Flat Products",
-    shortDescription:
-      "Premium stainless steel patta patti in multiple dimensions.",
-  },
-  {
     id: 12,
     name: "Perforated Sheet",
     slug: "perforated-sheet",
@@ -183,15 +142,6 @@ export const products = [
     shortDescription: "Seamless and welded pipes available in multiple grades.",
   },
   {
-    id: 17,
-    name: "Strips",
-    slug: "strips",
-    image: "/productImage/strips.jpg",
-    icon: AlignHorizontalSpaceAround,
-    category: "Flat Products",
-    shortDescription: "Durable stainless steel strips for industrial use.",
-  },
-  {
     id: 19,
     name: "Valves",
     slug: "valves",
@@ -218,38 +168,5 @@ export const products = [
     icon: Cable,
     category: "Wire Products",
     shortDescription: "Industrial wires suitable for fabrication and welding.",
-  },
-  // ─────────────────────────────────────────────────────────────
-  // Newly added products
-  // ─────────────────────────────────────────────────────────────
-  {
-    id: 22,
-    name: "Gasket",
-    slug: "gasket",
-    image: "/productImage/gasket.jpg",
-    icon: CircleDashed,
-    category: "Sealing Products",
-    shortDescription:
-      "High-performance industrial gaskets for leak-proof sealing in critical applications.",
-  },
-  {
-    id: 23,
-    name: "Casting",
-    slug: "casting",
-    image: "/productImage/casting.jpg",
-    icon: Box,
-    category: "Castings",
-    shortDescription:
-      "Precision-engineered stainless steel and alloy castings for industrial use.",
-  },
-  {
-    id: 24,
-    name: "Precision Machine Components",
-    slug: "precision-machine-components",
-    image: "/productImage/precision-machine-components.jpg",
-    icon: Cog,
-    category: "Machined Components",
-    shortDescription:
-      "Custom precision machined components manufactured to exact specifications.",
   },
 ];
