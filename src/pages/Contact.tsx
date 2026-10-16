@@ -8,6 +8,7 @@ import {
   Send,
   ChevronDown,
   Clock,
+  CheckCircle2,
 } from "lucide-react";
 
 const Contact: React.FC = () => {
@@ -18,6 +19,7 @@ const Contact: React.FC = () => {
     subject: "",
     message: "",
   });
+  const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -40,6 +42,20 @@ const Contact: React.FC = () => {
     // Opens Gmail compose in a new tab
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${subject}&body=${body}`;
     window.open(gmailUrl, "_blank");
+
+    // Reset form to empty
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
+    });
+
+    setSubmitted(true);
+    setTimeout(() => {
+      setSubmitted(false);
+    }, 5000);
   };
   return (
     <div className="min-h-screen bg-white pb-16">
@@ -196,6 +212,13 @@ const Contact: React.FC = () => {
               Fill out the form below and we will get back to you shortly.
             </p>
 
+            {submitted && (
+              <div className="mb-5 p-3.5 bg-green-50 border border-green-200 text-green-700 rounded-lg text-sm font-semibold flex items-center gap-2.5 shadow-sm transition-all animate-fadeIn">
+                <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0" />
+                <span>Your enquiry has been opened in Gmail and the form has been reset!</span>
+              </div>
+            )}
+
             <form
               onSubmit={handleSubmit}
               className="space-y-5 flex-grow flex flex-col"
@@ -211,7 +234,7 @@ const Contact: React.FC = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all bg-slate-50"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all bg-slate-50 text-slate-900 placeholder:text-slate-400"
                     placeholder="Enter your name"
                   />
                 </div>
@@ -225,7 +248,7 @@ const Contact: React.FC = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all bg-slate-50"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all bg-slate-50 text-slate-900 placeholder:text-slate-400"
                     placeholder="Enter your email"
                   />
                 </div>
@@ -241,7 +264,7 @@ const Contact: React.FC = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all bg-slate-50"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all bg-slate-50 text-slate-900 placeholder:text-slate-400"
                     placeholder="Enter your phone number"
                   />
                 </div>
@@ -254,7 +277,7 @@ const Contact: React.FC = () => {
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all bg-slate-50"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all bg-slate-50 text-slate-900 placeholder:text-slate-400"
                     placeholder="How can we help?"
                   />
                 </div>
@@ -270,7 +293,7 @@ const Contact: React.FC = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full h-full min-h-[150px] px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all resize-none bg-slate-50"
+                  className="w-full h-full min-h-[150px] px-4 py-3 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-[#D71920]/20 outline-none transition-all resize-none bg-slate-50 text-slate-900 placeholder:text-slate-400"
                   placeholder="Write your message here..."
                 ></textarea>
               </div>

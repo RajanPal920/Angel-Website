@@ -38,6 +38,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+input:not([type="submit"]):not([type="button"]):not([type="reset"]),
+textarea,
+select {
+  color: #0f172a;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
