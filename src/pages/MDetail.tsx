@@ -267,7 +267,7 @@ const ProductCard = ({ product, materialName, onClick }: any) => {
       onClick={onClick}
       className="cursor-pointer group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:-translate-y-0.5 hover:border-primary-red/30"
     >
-      <div className="h-36 overflow-hidden bg-gray-100 relative">
+      <div className="h-36 overflow-hidden bg-white relative">
         {!imgError ? (
           <img
             src={productImage}
@@ -276,13 +276,7 @@ const ProductCard = ({ product, materialName, onClick }: any) => {
             onError={() => setImgError(true)}
           />
         ) : (
-          <div
-            className={`w-full h-full flex items-center justify-center ${
-              isSpecialMaterial
-                ? "bg-gradient-to-br from-gray-200 via-gray-300 to-gray-400"
-                : "bg-gradient-to-br from-gray-100 to-gray-200"
-            }`}
-          >
+          <div className="w-full h-full flex items-center justify-center bg-white border-b border-gray-100">
             <div className="text-center p-4">
               <span className="text-gray-700 text-sm font-semibold block line-clamp-2 px-2">
                 {shortName}

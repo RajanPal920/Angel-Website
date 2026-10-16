@@ -211,7 +211,7 @@
   position: relative;
   height: 240px;
   overflow: hidden;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+  background: #ffffff;
   flex-shrink: 0;
 }
 

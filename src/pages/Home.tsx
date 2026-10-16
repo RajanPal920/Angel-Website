@@ -838,9 +838,9 @@ const Home: React.FC = () => {
               <Link
                 key={index}
                 to={`/products/${product.slug}`}
-                className="group bg-gradient-to-br from-[#F5F7FA] to-white rounded-xl overflow-hidden border border-gray-100 hover:border-[#D71920]/30 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 block"
+                className="group bg-white rounded-xl overflow-hidden border border-gray-100 hover:border-[#D71920]/30 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 block"
               >
-                <div className="h-48 bg-gradient-to-br from-[#052A63]/5 to-[#D71920]/5 flex items-center justify-center overflow-hidden">
+                <div className="h-48 bg-white flex items-center justify-center overflow-hidden">
                   {product.image &&
                   typeof product.image === "string" &&
                   product.image.startsWith("/") ? (
@@ -979,7 +979,7 @@ const Home: React.FC = () => {
                 key={blog.id}
                 className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:border-[#D71920]/30 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 block"
               >
-                <div className="aspect-[16/10] bg-gradient-to-br from-[#052A63]/10 to-[#D71920]/10 overflow-hidden relative">
+                <div className="aspect-[16/10] bg-white overflow-hidden relative">
                   <img
                     src={blog.image}
                     alt={blog.title}

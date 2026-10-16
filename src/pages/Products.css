@@ -239,7 +239,7 @@
 .product-image-wrapper {
   height: 255px;
   overflow: hidden;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .product-image {
@@ -353,6 +353,7 @@
   border-radius: 8px;
   overflow: hidden;
   flex-shrink: 0;
+  background-color: #ffffff;
 }
 
 .list-image {

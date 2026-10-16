@@ -115,7 +115,7 @@ const MaterialCard = ({ material, onSelect, materialImage }: any) => {
       className="group cursor-pointer bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:-translate-y-1 relative"
     >
       {/* Card Image Area */}
-      <div className="h-32 overflow-hidden bg-gray-100 relative">
+      <div className="h-32 overflow-hidden bg-white relative">
         {!imgError && materialImage ? (
           <img
             src={materialImage}
@@ -124,7 +124,7 @@ const MaterialCard = ({ material, onSelect, materialImage }: any) => {
             onError={() => setImgError(true)}
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+          <div className="w-full h-full flex items-center justify-center bg-white border-b border-gray-100">
             <Icon size={40} className="text-gray-400" />
           </div>
         )}
@@ -176,7 +176,7 @@ const MaterialListItem = ({ material, onSelect, materialImage }: any) => {
       onClick={() => onSelect(material.slug)}
       className="group cursor-pointer bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 p-4 flex items-center gap-4 hover:border-primary-red/30"
     >
-      <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100">
+      <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-white border border-gray-100">
         {!imgError && materialImage ? (
           <img
             src={materialImage}
@@ -185,7 +185,7 @@ const MaterialListItem = ({ material, onSelect, materialImage }: any) => {
             onError={() => setImgError(true)}
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary-red/10 to-blue-600/10">
+          <div className="w-full h-full flex items-center justify-center bg-white">
             <Icon size={28} className="text-primary-red" />
           </div>
         )}

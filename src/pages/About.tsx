@@ -190,7 +190,7 @@ const About: React.FC = () => {
         {/* VISION & MISSION */}
         {/* ============================================================ */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
-          <div className="bg-[#F5F7FA] rounded-2xl p-8 border border-slate-100 hover:shadow-xl transition-all duration-300">
+          <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300">
             <div className="w-14 h-14 rounded-full bg-[#D71920] text-white flex items-center justify-center mb-6">
               <Eye className="w-7 h-7" />
             </div>
@@ -204,7 +204,7 @@ const About: React.FC = () => {
             </p>
           </div>
 
-          <div className="bg-[#F5F7FA] rounded-2xl p-8 border border-slate-100 hover:shadow-xl transition-all duration-300">
+          <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300">
             <div className="w-14 h-14 rounded-full bg-[#D71920] text-white flex items-center justify-center mb-6">
               <Target className="w-7 h-7" />
             </div>
