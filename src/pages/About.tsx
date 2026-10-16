@@ -89,7 +89,7 @@ const About: React.FC = () => {
       {/* ============================================================ */}
       {/* HERO SECTION - MOBILE (SINGLE IMAGE WITH OVERLAY) */}
       {/* ============================================================ */}
-      <div className="md:hidden relative w-full h-[30vh] flex items-center justify-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
+      <div className="md:hidden relative w-full min-h-[240px] py-10 flex items-center justify-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
         <img
           src="/img/home/hero-3.png"
           alt="About Us Hero"
@@ -99,14 +99,14 @@ const About: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-[#052A63]/60 via-transparent to-transparent"></div>
 
         <div className="relative z-10 text-center px-4">
-          <span className="inline-block bg-[#D71920] text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-4">
+          <span className="inline-block bg-[#D71920] text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-3">
             Who We Are
           </span>
-          <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-4 uppercase tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-white mb-3 uppercase tracking-tight">
             About <span className="text-[#D71920]">Us</span>
           </h1>
-          <div className="h-[3px] w-24 bg-[#D71920] mx-auto mb-6"></div>
-          <p className="max-w-2xl mx-auto text-white/90 text-sm">
+          <div className="h-[3px] w-20 bg-[#D71920] mx-auto mb-4"></div>
+          <p className="max-w-2xl mx-auto text-white/90 text-xs sm:text-sm">
             Leading Manufacturer, Supplier & Exporter of Premium Metal Products.
           </p>
         </div>
@@ -147,7 +147,7 @@ const About: React.FC = () => {
               </Link>
               <Link
                 to="/contact"
-                className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white hover:bg-[#D71920] hover:border-[#D71920] px-8 py-3.5 rounded-lg font-bold text-sm uppercase tracking-wide transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 border-2 border-[#052A63] text-[#052A63] hover:bg-[#D71920] hover:text-white hover:border-[#D71920] px-8 py-3.5 rounded-lg font-bold text-sm uppercase tracking-wide transition-all duration-300"
               >
                 Contact Us
               </Link>

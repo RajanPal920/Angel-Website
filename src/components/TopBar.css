@@ -82,22 +82,42 @@
 }
 
 /* ── RESPONSIVE ── */
-@media (max-width: 768px) {
+/* Tablet viewports: preserve contact info and prevent horizontal overflow */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .top-bar {
+    padding: 6px 0;
+    font-size: 11px;
+  }
+
   .top-bar-container {
     justify-content: center;
   }
 
   .top-bar-left {
-    display: none;
+    display: none; /* Hide tagline on tablet to give full space to contact items */
   }
 
   .top-bar-right {
     gap: 16px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-info {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-item {
+    white-space: nowrap;
+    font-size: 11px;
   }
 }
 
-@media (max-width: 480px) {
-  .contact-info .contact-item:last-child {
-    display: none;
+/* Hide top contact bar on Mobile only (below 768px) */
+@media (max-width: 767.98px) {
+  .top-bar {
+    display: none !important;
   }
 }

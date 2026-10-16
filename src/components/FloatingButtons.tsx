@@ -40,7 +40,7 @@ const FloatingButtons: React.FC = () => {
 
   return (
     <div
-      className={`fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3 transition-all duration-500 ${
+      className={`fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end gap-2.5 sm:gap-3 transition-all duration-500 ${
         isVisible
           ? "opacity-100 translate-y-0"
           : "opacity-0 translate-y-20 pointer-events-none"
@@ -48,21 +48,21 @@ const FloatingButtons: React.FC = () => {
     >
       {/* Tooltip */}
       {showTooltip && (
-        <div className="bg-[#052A63] text-white text-sm px-4 py-2 rounded-lg shadow-lg relative mb-2 animate-fade-in">
+        <div className="bg-[#052A63] text-white text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg shadow-lg relative mb-1 sm:mb-2 animate-fade-in">
           <span>Need help? Contact us!</span>
-          <div className="absolute -bottom-2 right-6 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-[#052A63]"></div>
+          <div className="absolute -bottom-2 right-4 sm:right-6 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-[#052A63]"></div>
         </div>
       )}
 
       {/* Call Button - FIXED */}
       <a
         href={`tel:${phoneNumber}`}
-        className="group relative flex items-center justify-center bg-[#0A3D91] hover:bg-[#052A63] text-white w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+        className="group relative flex items-center justify-center bg-[#0A3D91] hover:bg-[#052A63] text-white w-12 h-12 sm:w-14 sm:h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
         aria-label="Call us"
       >
-        <IoIosCall className="w-6 h-6 animate-pulse-soft" />
+        <IoIosCall className="w-5 h-5 sm:w-6 sm:h-6 animate-pulse-soft" />
       </a>
 
       {/* WhatsApp Button - FIXED */}
@@ -70,12 +70,12 @@ const FloatingButtons: React.FC = () => {
         href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="group relative flex items-center justify-center bg-[#25D366] hover:bg-[#1DA851] text-white w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+        className="group relative flex items-center justify-center bg-[#25D366] hover:bg-[#1DA851] text-white w-12 h-12 sm:w-14 sm:h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
         aria-label="Chat on WhatsApp"
       >
-        <IoLogoWhatsapp className="w-6 h-6 animate-pulse-soft" />
+        <IoLogoWhatsapp className="w-5 h-5 sm:w-6 sm:h-6 animate-pulse-soft" />
       </a>
     </div>
   );

@@ -106,13 +106,13 @@ const StatItem: React.FC<StatItemProps> = ({ targetValue, suffix, label }) => {
   return (
     <div
       ref={elementRef}
-      className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/10 hover:bg-white/20 transition-all duration-300 hover:scale-105"
+      className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 lg:p-8 text-center border border-white/10 hover:bg-white/20 transition-all duration-300 hover:scale-105"
     >
-      <div className="text-4xl font-bold text-white">
+      <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
         {count}
         {suffix}
       </div>
-      <div className="text-[#D9D9D9]/70 text-sm mt-1">{label}</div>
+      <div className="text-[#D9D9D9]/70 text-xs sm:text-sm mt-1">{label}</div>
     </div>
   );
 };
@@ -551,7 +551,7 @@ const Home: React.FC = () => {
       {/* ============================================================ */}
       {/* HERO SECTION - DESKTOP (UNCHANGED) */}
       {/* ============================================================ */}
-      <section className="relative hidden md:flex h-[85vh] items-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
+      <section className="relative hidden md:flex min-h-[85vh] lg:h-[85vh] items-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
         {/* Background Effects */}
         <div className="absolute inset-0">
           <div className="absolute -top-40 -right-40 w-96 h-96 bg-[#D71920]/20 rounded-full blur-3xl"></div>
@@ -599,7 +599,7 @@ const Home: React.FC = () => {
 
         {/* Content Overlay - Left Content */}
         <div className="container mx-auto px-5 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen lg:min-h-[85vh] py-24 lg:py-0">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[85vh] py-16 lg:py-0">
             {/* Left Content */}
             <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
               {/* Badge */}
@@ -627,7 +627,7 @@ const Home: React.FC = () => {
               </p>
 
               {/* CTA Buttons */}
-              <div className="mt-6 md:mt-8 flex flex-row justify-center lg:justify-start gap-3">
+              <div className="mt-6 md:mt-8 flex flex-row flex-wrap justify-center lg:justify-start gap-3">
                 <a
                   href="/products"
                   className="bg-[#D71920] hover:bg-[#D71920]/90 text-white px-4 md:px-6 lg:px-8 py-2.5 md:py-3.5 rounded-lg font-semibold text-sm md:text-base transition-all duration-300 hover:shadow-xl hover:shadow-[#D71920]/30 flex items-center justify-center gap-2 whitespace-nowrap"
@@ -945,7 +945,7 @@ const Home: React.FC = () => {
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4 md:gap-5 max-w-5xl mx-auto">
             <StatItem targetValue={25} suffix="+" label="Years Experience" />
             <StatItem targetValue={500} suffix="+" label="Products" />
             <StatItem targetValue={1000} suffix="+" label="Happy Clients" />
@@ -1036,78 +1036,111 @@ const Home: React.FC = () => {
           </div>
 
           <div className="max-w-5xl mx-auto">
-            {Array.from({ length: Math.ceil(countries.length / 5) }).map(
-              (_, rowIndex) => {
-                const marketLabels = [
-                  "Global Market",
-                  "International Market",
-                  "Global Markets",
-                  "International Markets",
-                  "Export Markets",
-                  "Overseas Markets",
-                  "Global Trade",
-                  "International Trade",
-                  "Global Supply",
-                  "International Supply",
-                  "Worldwide Supply",
-                  "Global Reach",
-                  "International Reach",
-                  "Global Presence",
-                  "Worldwide Distribution",
-                ];
+            {/* MOBILE VIEW (< md): Continuous 2-column grid with natural flow and zero gaps */}
+            <div className="grid grid-cols-2 gap-2.5 sm:gap-3 md:hidden">
+              {countries.map((country, index) => (
+                <div
+                  key={index}
+                  className="group relative flex flex-col items-center justify-center p-3 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden min-h-[90px] h-full"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#D71920] to-[#0A3D91] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-[2px] bg-white rounded-xl group-hover:bg-transparent transition-colors duration-300"></div>
 
-                return (
-                  <div key={rowIndex} className="mb-4 sm:mb-5 md:mb-6">
-                    <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-2 sm:gap-3 md:gap-4">
-                      {countries
-                        .slice(rowIndex * 5, rowIndex * 5 + 5)
-                        .map((country, colIndex) => (
-                          <div
-                            key={colIndex}
-                            className="group relative flex flex-col items-center justify-center p-3 sm:p-3.5 md:p-4 bg-white rounded-xl sm:rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden"
-                          >
-                            <div className="absolute inset-0 bg-gradient-to-br from-[#D71920] to-[#0A3D91] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                            <div className="absolute inset-[2px] bg-white rounded-xl sm:rounded-2xl group-hover:bg-transparent transition-colors duration-500"></div>
-
-                            <div className="relative z-10 flex flex-col items-center w-full">
-                              <ReactCountryFlag
-                                countryCode={country.code}
-                                svg
-                                style={{
-                                  width: "2rem",
-                                  height: "2rem",
-                                  borderRadius: "50%",
-                                  objectFit: "cover",
-                                }}
-                                className="mb-1 sm:mb-1.5 md:mb-2 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500"
-                              />
-                              <span className="text-[10px] sm:text-[8px] md:text-[9px] lg:text-[10px] xl:text-xs font-semibold text-gray-700 text-center uppercase group-hover:text-white transition-colors block leading-tight w-full break-words">
-                                {country.name}
-                              </span>
-                            </div>
-                          </div>
-                        ))}
-                    </div>
-
-                    <div className="hidden md:grid md:grid-cols-5 gap-3 md:gap-4 mt-3">
-                      {Array.from({ length: 5 }).map((_, labelIndex) => {
-                        const globalIndex = rowIndex * 5 + labelIndex;
-                        const label =
-                          marketLabels[globalIndex % marketLabels.length];
-                        return (
-                          <div
-                            key={labelIndex}
-                            className="text-center text-white font-bold text-[10px] lg:text-xs tracking-[0.2em] uppercase py-2 px-2 bg-gradient-to-r from-[#D71920] to-[#0A3D91] rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105"
-                          >
-                          {label}
-                          </div>
-                        );
-                      })}
-                    </div>
+                  <div className="relative z-10 flex flex-col items-center justify-center w-full">
+                    <ReactCountryFlag
+                      countryCode={country.code}
+                      svg
+                      style={{
+                        width: "2rem",
+                        height: "2rem",
+                        borderRadius: "50%",
+                        objectFit: "cover",
+                      }}
+                      className="mb-1.5 transition-all duration-300"
+                    />
+                    <span className="text-[10px] sm:text-[11px] font-semibold text-gray-700 text-center uppercase group-hover:text-white transition-colors block leading-tight w-full break-words px-1">
+                      {country.name}
+                    </span>
                   </div>
-                );
-              },
-            )}
+                </div>
+              ))}
+            </div>
+
+            {/* DESKTOP VIEW (>= md): Exact original layout with 5 columns and market labels */}
+            <div className="hidden md:block">
+              {Array.from({ length: Math.ceil(countries.length / 5) }).map(
+                (_, rowIndex) => {
+                  const marketLabels = [
+                    "Global Market",
+                    "International Market",
+                    "Global Markets",
+                    "International Markets",
+                    "Export Markets",
+                    "Overseas Markets",
+                    "Global Trade",
+                    "International Trade",
+                    "Global Supply",
+                    "International Supply",
+                    "Worldwide Supply",
+                    "Global Reach",
+                    "International Reach",
+                    "Global Presence",
+                    "Worldwide Distribution",
+                  ];
+
+                  return (
+                    <div key={rowIndex} className="mb-4 sm:mb-5 md:mb-6">
+                      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 sm:gap-3 md:gap-4">
+                        {countries
+                          .slice(rowIndex * 5, rowIndex * 5 + 5)
+                          .map((country, colIndex) => (
+                            <div
+                              key={colIndex}
+                              className="group relative flex flex-col items-center justify-center p-3 sm:p-3.5 md:p-4 bg-white rounded-xl sm:rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden"
+                            >
+                              <div className="absolute inset-0 bg-gradient-to-br from-[#D71920] to-[#0A3D91] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                              <div className="absolute inset-[2px] bg-white rounded-xl sm:rounded-2xl group-hover:bg-transparent transition-colors duration-500"></div>
+
+                              <div className="relative z-10 flex flex-col items-center w-full">
+                                <ReactCountryFlag
+                                  countryCode={country.code}
+                                  svg
+                                  style={{
+                                    width: "2rem",
+                                    height: "2rem",
+                                    borderRadius: "50%",
+                                    objectFit: "cover",
+                                  }}
+                                  className="mb-1 sm:mb-1.5 md:mb-2 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500"
+                                />
+                                <span className="text-[10px] sm:text-[9px] md:text-[9px] lg:text-[10px] xl:text-xs font-semibold text-gray-700 text-center uppercase group-hover:text-white transition-colors block leading-tight w-full break-words">
+                                  {country.name}
+                                </span>
+                              </div>
+                            </div>
+                          ))}
+                      </div>
+
+                      <div className="hidden md:grid md:grid-cols-5 gap-3 md:gap-4 mt-3">
+                        {Array.from({ length: 5 }).map((_, labelIndex) => {
+                          const globalIndex = rowIndex * 5 + labelIndex;
+                          const label =
+                            marketLabels[globalIndex % marketLabels.length];
+                          return (
+                            <div
+                              key={labelIndex}
+                              className="text-center text-white font-bold text-[9px] md:text-[8px] lg:text-[10px] xl:text-xs tracking-normal lg:tracking-[0.08em] uppercase py-2 px-1 sm:px-2 bg-gradient-to-r from-[#D71920] to-[#0A3D91] rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center justify-center"
+                            >
+                            {label}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                },
+              )}
+            </div>
           </div>
         </div>
       </section>

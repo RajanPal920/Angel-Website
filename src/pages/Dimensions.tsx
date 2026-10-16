@@ -35,7 +35,7 @@ const Dimensions: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50 pb-16">
       {/* ===== HERO BANNER SECTION ===== */}
-      <div className="relative">
+      <div className="relative min-h-[45vh] md:h-[80vh] lg:h-[85vh]">
         <div className="absolute inset-0">
           <img
             src={heroImage}
@@ -45,7 +45,7 @@ const Dimensions: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/40" />
         </div>
 
-        <div className="relative container mx-auto px-4 max-w-7xl py-24 md:py-32 lg:py-40">
+        <div className="relative container mx-auto px-4 max-w-7xl py-16 sm:py-20 md:py-32 lg:py-40 h-full flex flex-col justify-center">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-10 h-[3px] bg-[#E52713]" />
             <span className="text-[#E52713] font-semibold tracking-[0.3em] uppercase text-sm">
@@ -53,25 +53,25 @@ const Dimensions: React.FC = () => {
             </span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4">
             Product Dimensions
           </h1>
 
-          <p className="text-xl text-gray-300 max-w-2xl mb-8">
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mb-6 sm:mb-8">
             Download detailed dimension charts and technical specifications for
             all our stainless steel products.
           </p>
 
-          <div className="flex items-center gap-8">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-8">
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-[#E52713]" />
-              <span className="text-white font-medium text-lg">
+              <span className="text-white font-medium text-base sm:text-lg">
                 {dimensionsData.length} Documents
               </span>
             </div>
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-[#E52713]" />
-              <span className="text-white font-medium text-lg">
+              <span className="text-white font-medium text-base sm:text-lg">
                 PDF Downloads
               </span>
             </div>

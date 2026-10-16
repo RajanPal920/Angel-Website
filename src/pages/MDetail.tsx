@@ -740,7 +740,7 @@ const MDetail = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/40" />
         </div>
 
-        <div className="relative container mx-auto px-4 max-w-7xl py-24 md:py-32 lg:py-40">
+        <div className="relative container mx-auto px-4 max-w-7xl py-16 sm:py-20 md:py-32 lg:py-40">
           <div className="hero-breadcrumb">
             <Link to="/" className="breadcrumb-link">
               Home
@@ -760,23 +760,23 @@ const MDetail = () => {
             </span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4">
             {material.name}
           </h1>
-          <p className="text-xl text-gray-300 max-w-2xl mb-8">
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mb-6 sm:mb-8">
             {material.description}
           </p>
 
-          <div className="flex items-center gap-8">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-8">
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-primary-red" />
-              <span className="text-white font-medium text-lg">
+              <span className="text-white font-medium text-base sm:text-lg">
                 {products.length} Products Available
               </span>
             </div>
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-primary-red" />
-              <span className="text-white font-medium text-lg">
+              <span className="text-white font-medium text-base sm:text-lg">
                 Premium Quality
               </span>
             </div>
@@ -829,7 +829,7 @@ const MDetail = () => {
         <div className="text-center">
           <Link
             to="/materials"
-            className="inline-flex items-center mb-5 gap-2 px-6 py-3 border-2 border-white/30 text-white rounded-xl font-semibold hover:bg-[#D71920] hover:border-[#D71920] transition-all"
+            className="inline-flex items-center mb-5 gap-2 px-6 py-3 border-2 border-gray-300 text-gray-700 rounded-xl font-semibold hover:bg-[#D71920] hover:text-white hover:border-[#D71920] transition-all"
           >
             ← Back to All Materials
           </Link>

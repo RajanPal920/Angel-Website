@@ -23,6 +23,13 @@
   padding: 0;
 }
 
+img,
+svg,
+video,
+iframe {
+  max-width: 100%;
+}
+
 body {
   font-family: "Inter", sans-serif;
   color: #ffffff;
@@ -35,11 +42,18 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
 }
 
 @media (max-width: 480px) {
   .container {
     padding: 0 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 0 12px;
   }
 }
 
@@ -848,116 +862,66 @@ main .md-breadcrumb-current {
   .cta-section {
     padding: 40px 0;
   }
+}
 
-  /* ===== Floating Buttons Animations ===== */
-  @keyframes pulse-soft {
-
-    0%,
-    100% {
-      transform: scale(1);
-    }
-
-    50% {
-      transform: scale(1.05);
-    }
+/* ===== Floating Buttons Animations ===== */
+@keyframes pulse-soft {
+  0%,
+  100% {
+    transform: scale(1);
   }
-
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateY(10px) scale(0.95);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0) scale(1);
-    }
+  50% {
+    transform: scale(1.08);
   }
+}
 
-  .animate-pulse-soft {
-    animation: pulse-soft 2s ease-in-out infinite;
-  }
-
-  .animate-fade-in {
-    animation: fade-in 0.3s ease-out forwards;
-  }
-
-  /* ===== Floating Buttons Animations ===== */
-  @keyframes pulse-soft {
-
-    0%,
-    100% {
-      transform: scale(1);
-    }
-
-    50% {
-      transform: scale(1.1);
-    }
-  }
-
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateY(10px) scale(0.95);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0) scale(1);
-    }
-  }
-
-  .animate-pulse-soft {
-    animation: pulse-soft 2s ease-in-out infinite;
-  }
-
-  .animate-fade-in {
-    animation: fade-in 0.3s ease-out forwards;
-  }
-
-  /* ===== Floating Buttons - Mobile Responsive ===== */
-  @media (max-width: 640px) {
-    .fixed.bottom-6.right-6 {
-      bottom: 16px;
-      right: 12px;
-      gap: 10px;
-    }
-
-    .fixed.bottom-6.right-6 a {
-      padding: 10px 14px;
-      border-radius: 50px;
-    }
-
-    .fixed.bottom-6.right-6 a .w-5.h-5 {
-      width: 18px;
-      height: 18px;
-    }
-
-    .fixed.bottom-6.right-6 a .text-sm {
-      font-size: 11px;
-    }
-  }
-
-  /* ===== Ripple Effect on Click ===== */
-  .fixed.bottom-6.right-6 a {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .fixed.bottom-6.right-6 a::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.3);
-    transform: scale(0);
-    border-radius: 50%;
+@keyframes fade-in {
+  from {
     opacity: 0;
-    transition: all 0.5s ease;
+    transform: translateY(10px) scale(0.95);
   }
-
-  .fixed.bottom-6.right-6 a:active::after {
-    transform: scale(2);
+  to {
     opacity: 1;
-    transition: 0s;
+    transform: translateY(0) scale(1);
   }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+/* ===== Floating Buttons - Mobile Responsive ===== */
+@media (max-width: 640px) {
+  .fixed.bottom-6.right-6 {
+    bottom: 16px;
+    right: 12px;
+    gap: 10px;
+  }
+}
+
+/* ===== Ripple Effect on Click ===== */
+.fixed.bottom-6.right-6 a {
+  position: relative;
+  overflow: hidden;
+}
+
+.fixed.bottom-6.right-6 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(0);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.fixed.bottom-6.right-6 a:active::after {
+  transform: scale(2);
+  opacity: 1;
+  transition: 0s;
 }

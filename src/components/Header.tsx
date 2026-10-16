@@ -1307,7 +1307,7 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 768 && isMobileMenuOpen) {
+      if (window.innerWidth > 1024 && isMobileMenuOpen) {
         setIsMobileMenuOpen(false);
       }
     };
@@ -1385,8 +1385,6 @@ const Header: React.FC = () => {
           </Link>
         </div>
 
-        <Hamburger isOpen={isMobileMenuOpen} toggle={toggleMobileMenu} />
-
         {/* Desktop Navigation */}
         <nav className="main-nav desktop-nav">
           <ul className="nav-list">
@@ -1418,14 +1416,17 @@ const Header: React.FC = () => {
           </ul>
         </nav>
 
-        {/* Desktop CTA */}
+        {/* Action Button (Desktop & Tablet) */}
         <div className="header-action">
           <Link to={ctaHref} className="btn-primary">
             {ctaText}
           </Link>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Responsive Hamburger Toggle */}
+        <Hamburger isOpen={isMobileMenuOpen} toggle={toggleMobileMenu} />
+
+        {/* Mobile & Tablet Responsive Menu */}
         <MobileMenu
           isOpen={isMobileMenuOpen}
           items={mobileItems}

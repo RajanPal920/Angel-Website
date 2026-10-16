@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
       {/* ============================================================ */}
       {/* HERO SECTION - MOBILE (SINGLE IMAGE WITH OVERLAY) */}
       {/* ============================================================ */}
-      <div className="md:hidden relative w-full h-[30vh] flex items-center justify-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
+      <div className="md:hidden relative w-full min-h-[240px] py-10 flex items-center justify-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
         <img
           src="/img/home/contact.png"
           alt="Contact Us Hero"
@@ -88,14 +88,14 @@ const Contact: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-[#052A63]/60 via-transparent to-transparent"></div>
 
         <div className="relative z-10 text-center px-4">
-          <span className="inline-block bg-[#D71920] text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-4">
+          <span className="inline-block bg-[#D71920] text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-3">
             Get In Touch
           </span>
-          <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-4 uppercase tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-white mb-3 uppercase tracking-tight">
             Contact <span className="text-[#D71920]">Us</span>
           </h1>
-          <div className="h-[3px] w-24 bg-[#D71920] mx-auto mb-6"></div>
-          <p className="max-w-2xl mx-auto text-white/90 text-sm">
+          <div className="h-[3px] w-20 bg-[#D71920] mx-auto mb-4"></div>
+          <p className="max-w-2xl mx-auto text-white/90 text-xs sm:text-sm">
             We are here to help with all your metal requirements. Reach out to
             our expert team today for quotes, specifications, and support.
           </p>

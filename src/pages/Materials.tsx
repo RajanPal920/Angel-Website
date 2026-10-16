@@ -252,29 +252,29 @@ const Materials: React.FC = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/40" />
         </div>
-        <div className="relative container mx-auto px-4 max-w-7xl py-24 md:py-32 lg:py-40">
+        <div className="relative container mx-auto px-4 max-w-7xl py-16 sm:py-20 md:py-32 lg:py-40">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-10 h-[3px] bg-primary-red" />
             <span className="text-primary-red font-semibold tracking-[0.3em] uppercase text-sm">
               Our Collection
             </span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4">
             All Materials
           </h1>
-          <p className="text-xl text-gray-300 max-w-2xl mb-8">
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mb-6 sm:mb-8">
             Explore our complete range of premium industrial products
           </p>
-          <div className="flex items-center gap-8">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-8">
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-primary-red" />
-              <span className="text-white font-medium text-lg">
+              <span className="text-white font-medium text-base sm:text-lg">
                 {filteredMaterials.length} Materials
               </span>
             </div>
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-primary-red" />
-              <span className="text-white font-medium text-lg">
+              <span className="text-white font-medium text-base sm:text-lg">
                 Premium Quality
               </span>
             </div>

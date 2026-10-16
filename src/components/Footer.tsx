@@ -165,7 +165,7 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
               className="footer-credit-link"
             >
-              Design and SEO by Sun Marg India.com
+              Design and SEO by SunMargIndia
             </a>
           </div>
         </div>
