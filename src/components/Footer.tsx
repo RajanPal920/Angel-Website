@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Globe } from "lucide-react";
 import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
 import "./Footer.css";
 
@@ -134,6 +134,19 @@ const Footer: React.FC = () => {
                 </a>
               </span>
             </li>
+            <li>
+              <Globe size={16} className="contact-icon" />
+              <span>
+                <a
+                  href="https://anglemetalindia.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-website-link"
+                >
+                  www.anglemetalindia.com
+                </a>
+              </span>
+            </li>
           </ul>
         </div>
       </div>
@@ -145,6 +158,15 @@ const Footer: React.FC = () => {
             <a href="#">Privacy Policy</a>
             <span>|</span>
             <a href="#">Terms & Conditions</a>
+            <span>|</span>
+            <a
+              href="https://sunmargindia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-credit-link"
+            >
+              Design and SEO by Sun Marg India.com
+            </a>
           </div>
         </div>
       </div>

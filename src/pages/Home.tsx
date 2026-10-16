@@ -614,12 +614,12 @@ const Home: React.FC = () => {
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight">
                 Premium
                 <span className="block text-[#D71920]">Stainless Steel</span>
-                <span className="block text-lg sm:text-xl md:text-3xl lg:text-4xl font-light text-[#D9D9D9]/80 mt-3">
+                <span className="block text-lg sm:text-xl md:text-3xl lg:text-4xl font-semibold text-white/90 mt-3">
                   Built on Strength, Quality & Trust.
                 </span>
               </h1>
 
-              <p className="text-sm sm:text-base md:text-lg text-[#D9D9D9]/100 max-w-lg leading-relaxed mx-auto lg:mx-0">
+              <p className="text-sm sm:text-base md:text-lg font-medium text-[#D9D9D9]/100 max-w-lg leading-relaxed mx-auto lg:mx-0">
                 Angel Metal India is a premier manufacturer, supplier, and
                 exporter of high-quality stainless steel and metal products,
                 serving industries across the globe with excellence and

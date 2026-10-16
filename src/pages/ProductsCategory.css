@@ -1,7 +1,8 @@
 /* ===== Products Category Section ===== */
 .products-category-section {
-  background-color: #f8f9fa;
+  background-color: white;
   min-height: 80vh;
+  color: #ffffff;
 }
 
 /* ===== Hero Banner ===== */
@@ -18,12 +19,10 @@
 .category-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(16, 42, 67, 0.92),
-    rgba(16, 42, 67, 0.75),
-    rgba(16, 42, 67, 0.5)
-  );
+  background: linear-gradient(135deg,
+      rgba(16, 42, 67, 0.92),
+      rgba(16, 42, 67, 0.75),
+      rgba(16, 42, 67, 0.5));
 }
 
 .category-hero-content {
@@ -46,7 +45,7 @@
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.3s ease;
 }
 
@@ -63,7 +62,7 @@
 .breadcrumb-current {
   color: #ffffff;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Hero Elements */
@@ -107,6 +106,7 @@
 
 .hero-subtitle {
   font-size: 1.2rem;
+  font-weight: 550;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 25px;
   max-width: 600px;
@@ -114,7 +114,7 @@
 
 .hero-count {
   font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -239,12 +239,15 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   box-shadow: 0 4px 12px rgba(201, 37, 37, 0.3);
-  max-width: calc(100% - 32px); /* Prevents overflow */
-  white-space: nowrap; /* Keeps text in single line */
+  max-width: calc(100% - 32px);
+  /* Prevents overflow */
+  white-space: nowrap;
+  /* Keeps text in single line */
   overflow: hidden;
   text-overflow: ellipsis;
   z-index: 2;
 }
+
 .product-badge--multi-line {
   white-space: normal;
   word-wrap: break-word;
@@ -264,7 +267,8 @@
 
 /* Hiding category and material group - only showing title, description, and button */
 .category-product-category {
-  display: none; /* Hidden */
+  display: none;
+  /* Hidden */
 }
 
 .category-product-title {
@@ -286,6 +290,7 @@
 
 .category-product-description {
   font-size: 0.88rem;
+  font-weight: 500;
   color: #6b7a8f;
   line-height: 1.6;
   margin-bottom: 18px;
@@ -298,7 +303,8 @@
 
 /* Hiding material group */
 .material-group {
-  display: none; /* Hidden */
+  display: none;
+  /* Hidden */
 }
 
 /* View Details Button */
@@ -308,7 +314,7 @@
   justify-content: space-between;
   width: 100%;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #1a2b4c;
   background: transparent;
   border: none;
@@ -410,6 +416,7 @@
 
 /* Mobile Screens */
 @media (max-width: 480px) {
+
   /* Hero Section */
   .category-hero {
     height: 200px;

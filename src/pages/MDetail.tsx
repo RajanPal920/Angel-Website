@@ -2,6 +2,7 @@
 import { useParams, useNavigate, Link } from "react-router-dom";
 import materials, { categoryToMaterialMap } from "../data/materials";
 import { productCategoryMap } from "../data/productIndex";
+import { productSlugRedirectMap } from "../data/productSlugMap";
 import { ChevronRight, ArrowRight } from "lucide-react";
 import { useState, useMemo } from "react";
 
@@ -219,6 +220,7 @@ const getCategoryForMaterialProduct = (materialProductSlug: string): string => {
     const productExists = categoryProducts.some(
       (p: any) =>
         p.slug === materialProductSlug ||
+        p.oldSlug === materialProductSlug ||
         p.slug.includes(materialProductSlug) ||
         materialProductSlug.includes(p.slug),
     );
@@ -697,9 +699,16 @@ const MDetail = () => {
   }, [material]);
 
   const handleProductClick = (product: any) => {
-    const productSlug = product.slug || product.title;
+    const rawSlug = (product.slug || product.title || "").trim().toLowerCase();
+    const mapped =
+      productSlugRedirectMap[rawSlug] ||
+      productSlugRedirectMap[product.slug?.toLowerCase?.()];
+    const productSlug = mapped
+      ? mapped.canonicalSlug
+      : product.slug || product.title;
     const categorySlug =
-      product.__categorySlug || getCategoryForMaterialProduct(productSlug);
+      product.__categorySlug ||
+      (mapped ? mapped.categorySlug : getCategoryForMaterialProduct(productSlug));
     navigate(`/products/${categorySlug}/${productSlug}`);
   };
 
@@ -820,7 +829,7 @@ const MDetail = () => {
         <div className="text-center">
           <Link
             to="/materials"
-            className="inline-flex items-center mb-5 gap-2 px-6 py-3 border-2 border-gray-200 text-gray-700 rounded-xl font-semibold hover:bg-gray-50 transition-all"
+            className="inline-flex items-center mb-5 gap-2 px-6 py-3 border-2 border-white/30 text-white rounded-xl font-semibold hover:bg-[#D71920] hover:border-[#D71920] transition-all"
           >
             ← Back to All Materials
           </Link>

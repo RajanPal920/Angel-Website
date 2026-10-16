@@ -306,11 +306,10 @@ const Materials: React.FC = () => {
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
-                className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all ${
-                  selectedCategory === cat.id
+                className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all ${selectedCategory === cat.id
                     ? "bg-gray-900 text-white shadow-lg"
                     : "bg-white text-gray-600 border border-gray-200 hover:border-gray-400"
-                }`}
+                  }`}
               >
                 {cat.name}
               </button>
@@ -325,21 +324,19 @@ const Materials: React.FC = () => {
           <div className="flex items-center gap-2">
             <button
               onClick={() => setViewMode("grid")}
-              className={`p-2.5 rounded-lg transition-all ${
-                viewMode === "grid"
+              className={`p-2.5 rounded-lg transition-all ${viewMode === "grid"
                   ? "bg-gray-900 text-white"
                   : "bg-white text-gray-500 border border-gray-200"
-              }`}
+                }`}
             >
               <LayoutGrid size={18} />
             </button>
             <button
               onClick={() => setViewMode("list")}
-              className={`p-2.5 rounded-lg transition-all ${
-                viewMode === "list"
+              className={`p-2.5 rounded-lg transition-all ${viewMode === "list"
                   ? "bg-gray-900 text-white"
                   : "bg-white text-gray-500 border border-gray-200"
-              }`}
+                }`}
             >
               <List size={18} />
             </button>

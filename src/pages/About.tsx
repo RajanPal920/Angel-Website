@@ -147,7 +147,7 @@ const About: React.FC = () => {
               </Link>
               <Link
                 to="/contact"
-                className="inline-flex items-center justify-center gap-2 border-2 border-[#052A63] text-[#052A63] hover:bg-[#052A63] hover:text-white px-8 py-3.5 rounded-lg font-bold text-sm uppercase tracking-wide transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white hover:bg-[#D71920] hover:border-[#D71920] px-8 py-3.5 rounded-lg font-bold text-sm uppercase tracking-wide transition-all duration-300"
               >
                 Contact Us
               </Link>

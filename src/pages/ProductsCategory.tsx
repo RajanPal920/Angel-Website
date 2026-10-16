@@ -1,7 +1,8 @@
 // src/pages/ProductsCategory.tsx
-import React from "react";
-import { useParams, Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { useParams, Link, Navigate } from "react-router-dom";
 import { productCategoryMap } from "../data/productIndex";
+import { productSlugRedirectMap } from "../data/productSlugMap";
 import { ChevronRight } from "lucide-react";
 import "./ProductsCategory.css";
 
@@ -112,10 +113,46 @@ const getCategorySubtitle = (slug: string): string => {
 
 const ProductsCategory: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
-  const categoryData = productCategoryMap[slug];
+  const normalizedSlug = (slug || "").trim().toLowerCase();
+  const categoryData = productCategoryMap[normalizedSlug];
   const productName = getProductName(slug || "");
   const categoryIcon = getCategoryIcon(slug || "");
   const categorySubtitle = getCategorySubtitle(slug || "");
+
+  // Backward compatibility: If accessed via /products/:productSlug, redirect to canonical /products/:categorySlug/:canonicalSlug
+  if (!categoryData && normalizedSlug) {
+    const redirectInfo = productSlugRedirectMap[normalizedSlug];
+    if (redirectInfo) {
+      return (
+        <Navigate
+          to={`/products/${redirectInfo.categorySlug}/${redirectInfo.canonicalSlug}`}
+          replace
+        />
+      );
+    }
+  }
+
+  useEffect(() => {
+    if (productName && categoryData) {
+      document.title = `${productName} Manufacturer, Supplier & Stockist in Mumbai | Angel Metal India`;
+
+      let metaDesc = document.querySelector("meta[name='description']") as HTMLMetaElement;
+      if (!metaDesc) {
+        metaDesc = document.createElement("meta");
+        metaDesc.name = "description";
+        document.head.appendChild(metaDesc);
+      }
+      metaDesc.content = `${productName} manufacturer, supplier and stockist in Mumbai, India. Wide range of industrial grades and specifications at Angel Metal India.`;
+
+      let canonicalLink = document.querySelector("link[rel='canonical']") as HTMLLinkElement;
+      if (!canonicalLink) {
+        canonicalLink = document.createElement("link");
+        canonicalLink.rel = "canonical";
+        document.head.appendChild(canonicalLink);
+      }
+      canonicalLink.href = `${window.location.origin}/products/${normalizedSlug}`;
+    }
+  }, [productName, categoryData, normalizedSlug]);
 
   if (!categoryData) {
     return (

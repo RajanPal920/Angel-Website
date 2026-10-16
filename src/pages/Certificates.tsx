@@ -134,7 +134,7 @@ const Certificates: React.FC = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 bg-white text-[#1A3A5C] px-8 py-3.5 rounded-lg font-bold hover:bg-[#E52713] hover:text-white transition-all duration-300 shadow-lg"
+            className="inline-flex items-center gap-2 bg-[#E52713] text-white px-8 py-3.5 rounded-lg font-bold hover:bg-[#b01515] transition-all duration-300 shadow-lg"
           >
             Request Documents <FiArrowRight className="w-5 h-5" />
           </Link>

@@ -25,6 +25,7 @@ import {
   precisionMachineComponents, // ← ADD
 } from "./productsMaterials";
 import { ProductMaterial } from "./productsMaterials";
+export type { ProductMaterial };
 
 export const productCategoryMap: Record<string, ProductMaterial[]> = {
   "anchor-fastener": anchorFastener,

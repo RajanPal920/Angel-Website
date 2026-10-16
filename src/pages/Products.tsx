@@ -125,7 +125,7 @@ const Products: React.FC = () => {
                 <div className="product-info">
                   <span className="product-category">{product.category}</span>
                   <h3 className="product-name">{product.name}</h3>
-                  <p className="product-grade">Grades: {product.grade}</p>
+                  <p className="product-grade">Grades: {(product as any).grade || "Various"}</p>
                   <p className="product-description">
                     {product.shortDescription}
                   </p>

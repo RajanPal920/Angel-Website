@@ -95,7 +95,7 @@
 
 .md-hero-subtitle {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 1.75;
   color: #e8eefb;
   max-width: 860px;
@@ -296,6 +296,7 @@
     opacity: 0;
     transform: translateY(6px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

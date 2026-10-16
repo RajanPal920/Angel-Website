@@ -1,7 +1,9 @@
 // src/pages/MaterialDetail.tsx
-import React, { useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams, Link, Navigate } from "react-router-dom";
 import { productCategoryMap } from "../data/productIndex";
+import { productSlugRedirectMap } from "../data/productSlugMap";
+import { getCategoryForProduct } from "../utils/productUtils";
 import { CheckCircle, Phone, MapPin, Globe, FileWarning } from "lucide-react";
 import "./MaterialDetail.css";
 
@@ -11,10 +13,62 @@ const MaterialDetail: React.FC = () => {
     materialSlug: string;
   }>();
 
-  const categoryData = productCategoryMap[slug];
-  const material = categoryData?.find((item) => item.slug === materialSlug);
+  const normalizedCategory = (slug || "").trim().toLowerCase();
+  const normalizedMaterialSlug = (materialSlug || "").trim().toLowerCase();
+
+  // Backward compatibility: If an old slug or aliased slug was accessed, redirect to canonical URL
+  const redirectInfo = productSlugRedirectMap[normalizedMaterialSlug];
+  if (
+    redirectInfo &&
+    (normalizedMaterialSlug !== redirectInfo.canonicalSlug ||
+      normalizedCategory !== redirectInfo.categorySlug)
+  ) {
+    return (
+      <Navigate
+        to={`/products/${redirectInfo.categorySlug}/${redirectInfo.canonicalSlug}`}
+        replace
+      />
+    );
+  }
+
+  const categoryData =
+    productCategoryMap[normalizedCategory] ||
+    (redirectInfo ? productCategoryMap[redirectInfo.categorySlug] : undefined);
+  const material = categoryData?.find(
+    (item) =>
+      item.slug === normalizedMaterialSlug ||
+      item.oldSlug === normalizedMaterialSlug,
+  );
 
   const [showAllDetails, setShowAllDetails] = useState(false);
+
+  useEffect(() => {
+    if (material) {
+      document.title = `${material.title} | Angel Metal India`;
+
+      let metaDesc = document.querySelector(
+        "meta[name='description']",
+      ) as HTMLMetaElement;
+      if (!metaDesc) {
+        metaDesc = document.createElement("meta");
+        metaDesc.name = "description";
+        document.head.appendChild(metaDesc);
+      }
+      metaDesc.content =
+        material.shortDescription ||
+        `${material.title} manufactured, supplied and stocked by Angel Metal India in Mumbai.`;
+
+      let canonicalLink = document.querySelector(
+        "link[rel='canonical']",
+      ) as HTMLLinkElement;
+      if (!canonicalLink) {
+        canonicalLink = document.createElement("link");
+        canonicalLink.rel = "canonical";
+        document.head.appendChild(canonicalLink);
+      }
+      canonicalLink.href = `${window.location.origin}/products/${normalizedCategory}/${material.slug}`;
+    }
+  }, [material, normalizedCategory]);
 
   const hasData = (field: any) => {
     if (field === undefined || field === null) return false;
@@ -1681,7 +1735,7 @@ const MaterialDetail: React.FC = () => {
                 {displayProducts.map((product) => (
                   <Link
                     key={product.id}
-                    to={`/products/${slug}/${product.slug}`}
+                    to={`/products/${getCategoryForProduct(product.slug) || slug}/${product.slug}`}
                     className="md-related-card"
                   >
                     <div className="md-related-img">

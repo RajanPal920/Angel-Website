@@ -10,11 +10,11 @@
   --dark-blue: #052a63;
   --primary-blue: #0a3d91;
   --silver: #d9d9d9;
-  --light-gray: #f5f7fa;
+  --light-gray: #052a63;
   --white: #ffffff;
-  --text-dark: #1f2937;
-  --text-gray: #4b5563;
-  --text-light: #6b7280;
+  --text-dark: #ffffff;
+  --text-gray: #ffffff;
+  --text-light: #ffffff;
 }
 
 * {
@@ -25,8 +25,8 @@
 
 body {
   font-family: "Inter", sans-serif;
-  color: var(--text-dark);
-  background-color: var(--white);
+  color: #ffffff;
+  background-color: #031b40;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -45,7 +45,7 @@ body {
 
 /* ===== Section Titles ===== */
 .section-subtitle {
-  color: var(--primary-red);
+  color: var(--primary-red) !important;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
@@ -66,7 +66,7 @@ body {
 .section-heading {
   font-size: 32px;
   font-weight: 800;
-  color: var(--dark-blue);
+  color: #ffffff;
   margin-top: 8px;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .text-red {
-  color: var(--primary-red);
+  color: var(--primary-red) !important;
 }
 
 /* ===== Buttons ===== */
@@ -121,128 +121,146 @@ body {
   font-size: 16px;
 }
 
-/* ===== Header ===== */
-.header {
-  background: var(--white);
-  border-bottom: 1px solid #e5e7eb;
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
+/* ============================================================
+   TYPOGRAPHY BOLDNESS & READABILITY SYSTEM (OUTSIDE NAVBAR)
+   Strictly scoped to <main>, <footer>, and page content.
+   Navbar (.header, .top-bar) is 100% protected and untouched.
+   ============================================================ */
 
-.top-bar {
-  display: none;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 0;
-  border-bottom: 1px solid #e5e7eb;
-  font-size: 14px;
-  color: var(--text-gray);
-}
-
-@media (min-width: 1024px) {
-  .top-bar {
-    display: flex;
-  }
-}
-
-.top-bar-left {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.top-bar-right {
-  color: var(--text-light);
-}
-
-.nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 0;
-}
-
-.logo-box {
-  background: var(--dark-blue);
-  padding: 8px 16px;
-  border-radius: 8px;
-  color: white;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.2;
-}
-
-.logo-red {
-  color: var(--primary-red);
-}
-
-.logo-small {
-  font-size: 10px;
-  font-weight: normal;
-  color: #9ca3af;
-}
-
-.nav-links {
-  display: none;
-  gap: 32px;
-}
-
-@media (min-width: 1024px) {
-  .nav-links {
-    display: flex;
-  }
-}
-
-.nav-links a {
-  color: var(--text-gray);
+/* 1. Base content font weight */
+main, footer {
   font-weight: 500;
-  font-size: 14px;
-  transition: color 0.3s;
-  text-decoration: none;
 }
 
-.nav-links a:hover {
-  color: var(--primary-red);
+/* 2. Main Headings (~700 to 800) */
+main h1,
+main .hero-title,
+main .md-hero-title,
+main [class*="text-4xl"].font-bold,
+main [class*="text-5xl"].font-bold,
+main [class*="text-6xl"].font-bold,
+main [class*="text-7xl"].font-bold,
+main [class*="text-4xl"].font-extrabold,
+main [class*="text-5xl"].font-extrabold,
+main [class*="text-6xl"].font-extrabold,
+main [class*="text-7xl"].font-extrabold {
+  font-weight: 800 !important;
 }
 
-.nav-links .active {
-  color: var(--primary-red);
-  border-bottom: 2px solid var(--primary-red);
-  padding-bottom: 4px;
+/* 3. Section Headings (~700) */
+main h2,
+main .section-heading,
+main .section-title,
+main .category-section-header h2,
+main [class*="text-2xl"].font-bold,
+main [class*="text-3xl"].font-bold {
+  font-weight: 700 !important;
 }
 
-.mobile-menu-btn {
-  display: block;
-  background: none;
-  border: none;
-  font-size: 24px;
-  color: var(--dark-blue);
-  cursor: pointer;
+/* 4. Subheadings, Badges, Category labels (~700) */
+main .section-subtitle,
+main .hero-label,
+main .product-category,
+main .product-badge,
+main [class*="tracking-wider"].font-semibold,
+main [class*="tracking-widest"].font-bold {
+  font-weight: 700 !important;
 }
 
-@media (min-width: 1024px) {
-  .mobile-menu-btn {
-    display: none;
-  }
+/* 5. Product Titles & Card Headings (~600 to 700) */
+main h3,
+main h4,
+main h5,
+main h6,
+main .product-name,
+main .category-product-title,
+main .product-title,
+main .card-title {
+  font-weight: 700 !important;
 }
 
-.mobile-menu {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 16px 0;
-  border-top: 1px solid #e5e7eb;
-}
-
-.mobile-menu a {
-  color: var(--text-gray);
+/* 6. Body Paragraphs, Descriptions & Informational Text (~500 to 600) */
+main p,
+main .product-description,
+main .category-product-description,
+main .hero-subtitle,
+main .md-hero-subtitle,
+main .product-grade,
+main .card-description {
   font-weight: 500;
-  text-decoration: none;
 }
 
-.mobile-menu .active {
-  color: var(--primary-red);
+/* Strong / bold tags within paragraphs */
+main p strong,
+main p b,
+main span strong {
+  font-weight: 700 !important;
+}
+
+/* 7. Lists, Specifications & Technical Tables */
+main li {
+  font-weight: 500;
+}
+
+main th {
+  font-weight: 700 !important;
+}
+
+main td {
+  font-weight: 500;
+}
+
+main td strong,
+main td b {
+  font-weight: 700 !important;
+}
+
+/* 8. Buttons, CTA Links, Labels, and Form Details (~600 to 700) */
+main button,
+main .btn,
+main a.btn,
+main a[class*="rounded-lg"],
+main a[class*="rounded-xl"],
+main .view-products-btn,
+main .view-details-btn,
+main .category-pill,
+main .category-pill.active {
+  font-weight: 600;
+}
+
+main label {
+  font-weight: 600 !important;
+}
+
+main input,
+main textarea,
+main select {
+  font-weight: 500;
+}
+
+main input::placeholder,
+main textarea::placeholder {
+  font-weight: 500;
+}
+
+/* Helper text & validation */
+main .helper-text,
+main .validation-message,
+main .text-xs,
+main .text-sm {
+  font-weight: 500;
+}
+
+/* Breadcrumbs outside navbar */
+main .breadcrumb a,
+main .breadcrumb-link,
+main .md-breadcrumb a {
+  font-weight: 600;
+}
+
+main .breadcrumb-current,
+main .md-breadcrumb-current {
+  font-weight: 700;
 }
 
 /* ===== Breadcrumb ===== */
@@ -467,11 +485,9 @@ body {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(
-    to bottom,
-    var(--primary-red),
-    var(--primary-blue)
-  );
+  background: linear-gradient(to bottom,
+      var(--primary-red),
+      var(--primary-blue));
 }
 
 @media (min-width: 768px) {
@@ -675,11 +691,9 @@ body {
 /* ===== CTA ===== */
 .cta-section {
   padding: 64px 0;
-  background: linear-gradient(
-    to bottom right,
-    var(--dark-blue),
-    var(--primary-blue)
-  );
+  background: linear-gradient(to bottom right,
+      var(--dark-blue),
+      var(--primary-blue));
   position: relative;
   overflow: hidden;
 }
@@ -837,10 +851,12 @@ body {
 
   /* ===== Floating Buttons Animations ===== */
   @keyframes pulse-soft {
+
     0%,
     100% {
       transform: scale(1);
     }
+
     50% {
       transform: scale(1.05);
     }
@@ -851,6 +867,7 @@ body {
       opacity: 0;
       transform: translateY(10px) scale(0.95);
     }
+
     to {
       opacity: 1;
       transform: translateY(0) scale(1);
@@ -864,12 +881,15 @@ body {
   .animate-fade-in {
     animation: fade-in 0.3s ease-out forwards;
   }
+
   /* ===== Floating Buttons Animations ===== */
   @keyframes pulse-soft {
+
     0%,
     100% {
       transform: scale(1);
     }
+
     50% {
       transform: scale(1.1);
     }
@@ -880,6 +900,7 @@ body {
       opacity: 0;
       transform: translateY(10px) scale(0.95);
     }
+
     to {
       opacity: 1;
       transform: translateY(0) scale(1);
