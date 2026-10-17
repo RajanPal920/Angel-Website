@@ -430,6 +430,22 @@ export const anchorChannel: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
+  {
+    id: 4,
+    slug: "flat-plate-supplier-mumbai",
+    oldSlug: "flat-plate",
+    image: "/stock/ss-flat-bars.jpg",
+    title: "Flat Plate",
+    shortDescription:
+      "ASTM A36, IS 2062, Stainless Steel 304/304L, 316/316L, High-Strength Structural Flat Plates & Flats.",
+    materialGroup: "Structural Flat Plate",
+    standards: "ASTM A36, IS 2062, SS 304/304L, SS 316/316L",
+    forms: "Hot Rolled & Cold Rolled Flat Plates",
+    application:
+      "Structural engineering, base plates, fabrication, and industrial frameworks",
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
 ];
 
 // 2. Anchor Fastener

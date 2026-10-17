@@ -35,13 +35,50 @@ function App() {
           <Route path="/materials" element={<Materials />} />
           <Route path="/materials/:slug" element={<MDetail />} />
 
-          {/* Products */}
+          {/* All Products */}
           <Route path="/products" element={<Products />} />
 
-          {/* Products Category - Shows products in a specific category */}
+          {/* Combined Product Categories with nested forward-slash slugs */}
+          <Route
+            path="/products/circles/rings"
+            element={<ProductsCategory />}
+          />
+          <Route
+            path="/products/circles/rings/:materialSlug"
+            element={<MaterialDetail />}
+          />
+
+          <Route
+            path="/products/sheets/plate/coil"
+            element={<ProductsCategory />}
+          />
+          <Route
+            path="/products/sheets/plate/coil/:materialSlug"
+            element={<MaterialDetail />}
+          />
+
+          <Route
+            path="/products/flanges/forged-fittings"
+            element={<ProductsCategory />}
+          />
+          <Route
+            path="/products/flanges/forged-fittings/:materialSlug"
+            element={<MaterialDetail />}
+          />
+
+          <Route
+            path="/products/angle-channels/flat-plate"
+            element={<ProductsCategory />}
+          />
+          <Route
+            path="/products/angle-channels/flat-plate/:materialSlug"
+            element={<MaterialDetail />}
+          />
+
+          {/* Products Category - Single-segment categories */}
           <Route path="/products/:slug" element={<ProductsCategory />} />
 
-          {/* Product Detail - Shows details of a specific product */}
+          {/* Product Detail - Single-segment category product details */}
           <Route
             path="/products/:slug/:materialSlug"
             element={<MaterialDetail />}

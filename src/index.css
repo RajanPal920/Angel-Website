@@ -5,6 +5,7 @@
 /* ===== Your Custom Styles Below ===== */
 
 :root {
+  --header-height: 110px;
   --primary-red: #d71920;
   --primary-red-hover: #c4171c;
   --dark-blue: #052a63;
@@ -15,6 +16,113 @@
   --text-dark: #ffffff;
   --text-gray: #ffffff;
   --text-light: #ffffff;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --header-height: 100px;
+  }
+}
+
+/* ============================================================
+   PREMIUM STAGGERED HERO ANIMATION SYSTEM
+   Cinema-grade bottom-to-top entry, GPU-accelerated
+   ============================================================ */
+@keyframes heroFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-animate-badge {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.25s both;
+}
+
+.hero-animate-heading {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.42s both;
+}
+
+.hero-animate-subheading {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.58s both;
+}
+
+.hero-animate-desc {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.74s both;
+}
+
+.hero-animate-btn-1 {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.90s both;
+}
+
+.hero-animate-btn-2 {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 1.05s both;
+}
+
+.hero-animate-trust-1 {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 1.15s both;
+}
+
+.hero-animate-trust-2 {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 1.25s both;
+}
+
+.hero-animate-trust-3 {
+  opacity: 0;
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 1.35s both;
+}
+
+/* Accessibility: respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .hero-animate-badge,
+  .hero-animate-heading,
+  .hero-animate-subheading,
+  .hero-animate-desc,
+  .hero-animate-btn-1,
+  .hero-animate-btn-2,
+  .hero-animate-trust-1,
+  .hero-animate-trust-2,
+  .hero-animate-trust-3 {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ============================================================
+   HERO TEXT CONTAINER — DARK-BLUE ROUNDED BACKGROUND
+   Subtle, professional dark-blue background behind text only
+   ============================================================ */
+.hero-text-box {
+  background-color: rgba(5, 42, 99, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 22px;
+  padding: 18px 24px;
+  width: fit-content;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+@media (min-width: 640px) {
+  .hero-text-box {
+    padding: 24px 30px;
+    border-radius: 24px;
+  }
 }
 
 * {

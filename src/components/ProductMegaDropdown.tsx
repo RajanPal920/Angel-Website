@@ -36,33 +36,42 @@ import {
   HardDrive,
 } from "lucide-react";
 
-// Products Data - All products from the reference
+// Products Data - Exact categories source of truth
 const productItems = [
-  { name: "Coils", icon: <RotateCw size={16} />, link: "/products/coils" },
-  { name: "Pipes", icon: <Pin size={16} />, link: "/products/pipes" },
-  { name: "Plates", icon: <Sheet size={16} />, link: "/products/plates" },
+  {
+    name: "Circles & Rings",
+    icon: <CircleDot size={16} />,
+    link: "/products/circles/rings",
+  },
+  {
+    name: "Sheets, Plates & Coils",
+    icon: <Sheet size={16} />,
+    link: "/products/sheets/plate/coil",
+  },
+  {
+    name: "Flanges & Forged Fittings",
+    icon: <BetweenHorizonalEnd size={16} />,
+    link: "/products/flanges/forged-fittings",
+  },
+  {
+    name: "Angles, Channels & Flat Plate",
+    icon: <Rows size={16} />,
+    link: "/products/angle-channels/flat-plate",
+  },
+  {
+    name: "Pipes & Tubes",
+    icon: <Pin size={16} />,
+    link: "/products/pipes-tubes",
+  },
   {
     name: "Round Bars",
     icon: <Compass size={16} />,
     link: "/products/round-bars",
   },
-  { name: "Sheets", icon: <Sheet size={16} />, link: "/products/sheets" },
-  { name: "Tubes", icon: <Pin size={16} />, link: "/products/tubes" },
-  { name: "Wires", icon: <Plus size={16} />, link: "/products/wires" },
   {
     name: "Buttweld Fittings",
     icon: <LayoutGrid size={16} />,
     link: "/products/buttweld-fittings",
-  },
-  {
-    name: "Forged Fittings",
-    icon: <Sparkle size={16} />,
-    link: "/products/forged-fittings",
-  },
-  {
-    name: "Flanges",
-    icon: <BetweenHorizonalEnd size={16} />,
-    link: "/products/flanges",
   },
   {
     name: "Fasteners",
@@ -70,38 +79,19 @@ const productItems = [
     link: "/products/fasteners",
   },
   {
-    name: "Angle Channels",
-    icon: <Rows size={16} />,
-    link: "/products/angle-channels",
-  },
-  { name: "Rings", icon: <Circle size={16} />, link: "/products/rings" },
-  { name: "Circles", icon: <Circle size={16} />, link: "/products/circles" },
-  { name: "Valves", icon: <CircleDot size={16} />, link: "/products/valves" },
-  {
-    name: "Dairy Fittings",
-    icon: <Hexagon size={16} />,
-    link: "/products/dairy-fittings",
-  },
-  {
-    name: "Dairy & Pharma Valves",
-    icon: <Hexagon size={16} />,
-    link: "/products/dairy-pharma-valves",
-  },
-  {
-    name: "Pharma Fittings",
-    icon: <Hexagon size={16} />,
-    link: "/products/pharma-fittings",
-  },
-  { name: "Wire Mesh", icon: <Wifi size={16} />, link: "/products/wire-mesh" },
-  {
     name: "Perforated Sheet",
     icon: <SquareStack size={16} />,
     link: "/products/perforated-sheet",
   },
   {
-    name: "Hardox Plate",
-    icon: <HardDrive size={16} />,
-    link: "/products/hardox-plate",
+    name: "Wire Mesh",
+    icon: <Wifi size={16} />,
+    link: "/products/wire-mesh",
+  },
+  {
+    name: "Wires",
+    icon: <Plus size={16} />,
+    link: "/products/wires",
   },
 ];
 

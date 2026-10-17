@@ -30,20 +30,21 @@ const Products: React.FC = () => {
     <section className="products-section mb-10">
       {/* ===== Hero Banner ===== */}
       <div className="products-hero">
-        <div className="products-hero-overlay"></div>
         <div className="container products-hero-content">
-          <p className="hero-label">OUR COLLECTION</p>
-          <h1 className="hero-title">All Products</h1>
-          <p className="hero-subtitle">
-            Explore our complete range of premium industrial products
-          </p>
-          <div className="hero-stats">
-            <p className="hero-count">
-              <span className="dot"></span> {filteredProducts.length} Products
+          <div className="hero-text-box hero-animate-heading max-w-2xl">
+            <p className="hero-label">OUR COLLECTION</p>
+            <h1 className="hero-title">All Products</h1>
+            <p className="hero-subtitle">
+              Explore our complete range of premium industrial products
             </p>
-            <p className="hero-quality">
-              <span className="dot"></span> Premium Quality
-            </p>
+            <div className="hero-stats">
+              <p className="hero-count">
+                <span className="dot"></span> {filteredProducts.length} Products
+              </p>
+              <p className="hero-quality">
+                <span className="dot"></span> Premium Quality
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -1158,36 +1158,43 @@ const Header: React.FC = () => {
 
   const buildProductItems = (): DropdownItem[] => {
     const products = [
-      { label: "Angle Channels", slug: "angle-channels", icon: Icons.Angle },
+      {
+        label: "Circles & Rings",
+        slug: "circles/rings",
+        icon: Icons.Circles,
+      },
+      {
+        label: "Sheets, Plates & Coils",
+        slug: "sheets/plate/coil",
+        icon: Icons.Sheets,
+      },
+      {
+        label: "Flanges & Forged Fittings",
+        slug: "flanges/forged-fittings",
+        icon: Icons.Flange,
+      },
+      {
+        label: "Angles, Channels & Flat Plate",
+        slug: "angle-channels/flat-plate",
+        icon: Icons.Angle,
+      },
       {
         label: "Buttweld Fittings",
         slug: "buttweld-fittings",
         icon: Icons.ButtWeld,
       },
-      { label: "Circles", slug: "circles", icon: Icons.Circles },
-      { label: "Coils", slug: "coils", icon: Icons.Coil },
-      {
-        label: "Dairy Pharma Valves",
-        slug: "dairy-pharma-valves",
-        icon: Icons.Dairy,
-      },
       { label: "Fasteners", slug: "fasteners", icon: Icons.Fastener },
-      { label: "Flanges", slug: "flanges", icon: Icons.Flange },
-      { label: "Forged Fittings", slug: "forged-fittings", icon: Icons.Forged },
       {
         label: "Perforated Sheets",
         slug: "perforated-sheet",
         icon: Icons.Perforated,
       },
-      { label: "Rings", slug: "rings", icon: Icons.Rings },
       { label: "Rods", slug: "round-bars", icon: Icons.Rod },
-      { label: "Sheets & Plates", slug: "sheets-plates", icon: Icons.Sheets },
       {
         label: "Steel Pipes & Tubes",
         slug: "pipes-tubes",
         icon: Icons.SteelPipes,
       },
-      { label: "Valves", slug: "valves", icon: Icons.Valves },
       { label: "Wire Mesh", slug: "wire-mesh", icon: Icons.WireMesh },
       { label: "Wires", slug: "wires", icon: Icons.Wires },
     ];

@@ -3,7 +3,6 @@ import {
   anchorChannel,
   buttweldFitting,
   coils,
-  dairypharmaValves,
   fasteners,
   flanges,
   forgedfitting,
@@ -13,38 +12,55 @@ import {
   sheets,
   wireMesh,
   wires,
-  valves,
   pipes,
   circles,
 } from "./productsMaterials";
 import { ProductMaterial } from "./productsMaterials";
 export type { ProductMaterial };
 
+// Combined product lists
+export const circlesAndRings: ProductMaterial[] = [...circles, ...rings];
+export const sheetsPlatesAndCoils: ProductMaterial[] = [...sheets, ...coils];
+export const flangesAndForgedFittings: ProductMaterial[] = [
+  ...flanges,
+  ...forgedfitting,
+];
+export const anglesChannelsAndFlatPlate: ProductMaterial[] = anchorChannel;
+
 export const productCategoryMap: Record<string, ProductMaterial[]> = {
-  "angle-channels": anchorChannel,
+  // Canonical combined categories (exact requested slugs)
+  "circles/rings": circlesAndRings,
+  "sheets/plate/coil": sheetsPlatesAndCoils,
+  "flanges/forged-fittings": flangesAndForgedFittings,
+  "angle-channels/flat-plate": anglesChannelsAndFlatPlate,
+
+  // Other active categories
   "buttweld-fittings": buttweldFitting,
-  circles: circles,
-  coils: coils,
-  "dairy-pharma-valves": dairypharmaValves,
   fasteners: fasteners,
-  flanges: flanges,
-  "forged-fittings": forgedfitting,
   "perforated-sheet": perforatedsheet,
-  rings: rings,
   "round-bars": rodBars,
-  "sheets-plates": sheets,
   "pipes-tubes": pipes,
-  valves: valves,
   "wire-mesh": wireMesh,
   wires: wires,
+
+  // Backward compatibility mappings for legacy category slugs
+  circles: circlesAndRings,
+  rings: circlesAndRings,
+  "sheets-plates": sheetsPlatesAndCoils,
+  sheets: sheetsPlatesAndCoils,
+  plates: sheetsPlatesAndCoils,
+  coils: sheetsPlatesAndCoils,
+  flanges: flangesAndForgedFittings,
+  "forged-fittings": flangesAndForgedFittings,
+  "angle-channels": anglesChannelsAndFlatPlate,
 
   // Additional mappings for backward compatibility
   "steel-pipes": pipes,
   "steel-rods-bars": rodBars,
-  "steel-angles-channels": anchorChannel,
-  "steel-plates-sheets": sheets,
-  "steel-coils": coils,
-  "steel-flanges": flanges,
+  "steel-angles-channels": anglesChannelsAndFlatPlate,
+  "steel-plates-sheets": sheetsPlatesAndCoils,
+  "steel-coils": sheetsPlatesAndCoils,
+  "steel-flanges": flangesAndForgedFittings,
   "buttweld-steel-tubes": buttweldFitting,
   "industrial-fasteners": fasteners,
   "stainless-steel-pipes": pipes,

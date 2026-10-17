@@ -34,7 +34,7 @@
 
 /* ===== HERO ===== */
 .md-hero {
-  background: linear-gradient(135deg, #0f1b2e 0%, #1a2b4c 55%, #2a3d63 100%);
+  background: linear-gradient(135deg, #111827 0%, #1f2937 55%, #111827 100%);
   color: #fff;
   padding: 56px 0 100px;
   position: relative;
@@ -867,6 +867,7 @@
   font-size: 12px;
   font-weight: 500;
   color: var(--md-muted);
+  text-transform: capitalize;
   margin-top: 2px;
   overflow-wrap: anywhere;
 }

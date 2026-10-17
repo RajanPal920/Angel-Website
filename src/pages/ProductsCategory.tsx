@@ -1,51 +1,65 @@
 // src/pages/ProductsCategory.tsx
 import React, { useEffect } from "react";
-import { useParams, Link, Navigate } from "react-router-dom";
+import { useParams, useLocation, Link, Navigate } from "react-router-dom";
 import { productCategoryMap } from "../data/productIndex";
 import { productSlugRedirectMap } from "../data/productSlugMap";
 import { ChevronRight } from "lucide-react";
 import "./ProductsCategory.css";
 
 // ===== PRODUCT NAME MAPPING =====
-// Complete mapping for all product categories
+// Complete mapping for all product categories with exact source of truth names
 const specialNameMap: Record<string, string> = {
-  // Sheets & Plates
-  "sheets-plates": "Sheets & Plates",
-  "steel-plates-sheets": "Steel Plates & Sheets",
+  // Canonical combined categories
+  "circles/rings": "Circles & Rings",
+  "sheets/plate/coil": "Sheets, Plates & Coils",
+  "flanges/forged-fittings": "Flanges & Forged Fittings",
+  "angle-channels/flat-plate": "Angles, Channels & Flat Plate",
 
-  // Pipes & Tubes
+  // Legacy mappings for backward compatibility
+  circles: "Circles & Rings",
+  rings: "Circles & Rings",
+  "sheets-plates": "Sheets, Plates & Coils",
+  sheets: "Sheets, Plates & Coils",
+  plates: "Sheets, Plates & Coils",
+  coils: "Sheets, Plates & Coils",
+  "steel-plates-sheets": "Sheets, Plates & Coils",
+  "steel-coils": "Sheets, Plates & Coils",
+  flanges: "Flanges & Forged Fittings",
+  "forged-fittings": "Flanges & Forged Fittings",
+  "steel-flanges": "Flanges & Forged Fittings",
+  "angle-channels": "Angles, Channels & Flat Plate",
+  "steel-angles-channels": "Angles, Channels & Flat Plate",
+
+  // Other product categories
   "pipes-tubes": "Pipes & Tubes",
   "steel-pipes": "Steel Pipes",
   "stainless-steel-pipes": "Stainless Steel Pipes",
   "buttweld-steel-tubes": "Buttweld Steel Tubes",
-
-  // Bars & Rods
-  "bars-rods": "Bars & Rods",
   "round-bars": "Round Bars",
   "steel-rods-bars": "Steel Rods & Bars",
-
-  // Fasteners & Fittings
-  "angle-channels": "Angle Channels",
-  "steel-angles-channels": "Steel Angles & Channels",
   "buttweld-fittings": "Buttweld Fittings",
-  "forged-fittings": "Forged Fittings",
   "industrial-fasteners": "Industrial Fasteners",
   fasteners: "Fasteners",
-  flanges: "Flanges",
-  "steel-flanges": "Steel Flanges",
-
-  // Valves
-  valves: "Valves",
-  "dairy-pharma-valves": "Dairy & Pharma Valves",
-
-  // Other Products
-  circles: "Circles",
-  coils: "Coils",
-  "steel-coils": "Steel Coils",
   "perforated-sheet": "Perforated Sheet",
-  rings: "Rings",
   "wire-mesh": "Wire Mesh",
   wires: "Wires",
+};
+
+// Category redirects mapping old category slugs to new combined canonical slugs
+const categoryRedirects: Record<string, string> = {
+  circles: "circles/rings",
+  rings: "circles/rings",
+  "sheets-plates": "sheets/plate/coil",
+  sheets: "sheets/plate/coil",
+  plates: "sheets/plate/coil",
+  coils: "sheets/plate/coil",
+  "steel-plates-sheets": "sheets/plate/coil",
+  "steel-coils": "sheets/plate/coil",
+  flanges: "flanges/forged-fittings",
+  "forged-fittings": "flanges/forged-fittings",
+  "steel-flanges": "flanges/forged-fittings",
+  "angle-channels": "angle-channels/flat-plate",
+  "steel-angles-channels": "angle-channels/flat-plate",
 };
 
 // Helper function to format product name
@@ -56,7 +70,7 @@ const getProductName = (slug: string): string => {
   // Auto-format: capitalize each word
   return (
     slug
-      ?.split("-")
+      ?.split(/[\/-]/)
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ") || ""
   );
@@ -65,11 +79,14 @@ const getProductName = (slug: string): string => {
 // Get icon for each category
 const getCategoryIcon = (slug: string): string => {
   const iconMap: Record<string, string> = {
+    "circles/rings": "",
+    "sheets/plate/coil": "",
+    "flanges/forged-fittings": "",
+    "angle-channels/flat-plate": "",
     "angle-channels": "",
     "buttweld-fittings": "",
     circles: "",
     coils: "",
-    "dairy-pharma-valves": "",
     fasteners: "",
     flanges: "",
     "forged-fittings": "",
@@ -78,7 +95,6 @@ const getCategoryIcon = (slug: string): string => {
     "round-bars": "",
     "sheets-plates": "",
     "pipes-tubes": "",
-    valves: "",
     "wire-mesh": "",
     wires: "",
   };
@@ -88,30 +104,72 @@ const getCategoryIcon = (slug: string): string => {
 // Get subtitle for each category
 const getCategorySubtitle = (slug: string): string => {
   const subtitleMap: Record<string, string> = {
-    "sheets-plates":
-      "High-quality sheets and plates for various industrial needs",
+    "circles/rings":
+      "High-precision stainless steel circles and precision forged rings",
+    "sheets/plate/coil":
+      "High-performance stainless steel sheets, plates, and industrial coils",
+    "flanges/forged-fittings":
+      "Premium industrial flanges and high-pressure forged fittings",
+    "angle-channels/flat-plate":
+      "Structural angles, channels, and flat plates for industrial applications",
     "pipes-tubes": "Premium pipes and tubes for demanding applications",
     "buttweld-fittings": "Precision buttweld fittings for pipeline systems",
-    flanges: "High-quality flanges for secure pipe connections",
-    valves: "Reliable valves for flow control systems",
     fasteners: "Industrial grade fasteners for heavy-duty applications",
+    "perforated-sheet": "High precision perforated sheets in various hole patterns",
+    "round-bars": "Precision engineered stainless steel and alloy round bars",
+    "wire-mesh": "Industrial wire mesh for filtration and screening",
+    wires: "Industrial wires suitable for fabrication and welding",
   };
   return (
     subtitleMap[slug] || "Premium quality products for your industrial needs"
   );
 };
 
+// Get crisp high-resolution matching hero image for each category
+const getCategoryHeroImage = (slug: string): string => {
+  const heroImageMap: Record<string, string> = {
+    "pipes-tubes": "/img/home/hero.png",
+    "sheets/plate/coil": "/img/home/hero-2.png",
+    "flanges/forged-fittings": "/img/home/hero-3.png",
+    "angle-channels/flat-plate": "/img/home/material.jpg",
+    "circles/rings": "/img/home/material.jpg",
+    "round-bars": "/img/home/hero-2.png",
+    "buttweld-fittings": "/img/home/hero-3.png",
+    coils: "/img/home/hero-2.png",
+    flanges: "/img/home/hero-3.png",
+    "forged-fittings": "/img/home/hero-3.png",
+  };
+  return heroImageMap[slug] || "/img/home/material.jpg";
+};
+
 const ProductsCategory: React.FC = () => {
-  const { slug } = useParams<{ slug: string }>();
-  const normalizedSlug = (slug || "").trim().toLowerCase();
-  const categoryData = productCategoryMap[normalizedSlug];
-  const productName = getProductName(slug || "");
-  const categoryIcon = getCategoryIcon(slug || "");
-  const categorySubtitle = getCategorySubtitle(slug || "");
+  const { slug } = useParams<{ slug?: string }>();
+  const location = useLocation();
+
+  // Extract category slug from URL if not captured by single-segment :slug param
+  const pathCategory = location.pathname
+    .replace(/^\/products\/?/, "")
+    .replace(/\/$/, "");
+  const categorySlug = (slug || pathCategory || "").trim().toLowerCase();
+
+  // Check for backward-compatibility redirect from old category slug to combined slug
+  if (categoryRedirects[categorySlug]) {
+    return (
+      <Navigate
+        to={`/products/${categoryRedirects[categorySlug]}`}
+        replace
+      />
+    );
+  }
+
+  const categoryData = productCategoryMap[categorySlug];
+  const productName = getProductName(categorySlug);
+  const categoryIcon = getCategoryIcon(categorySlug);
+  const categorySubtitle = getCategorySubtitle(categorySlug);
 
   // Backward compatibility: If accessed via /products/:productSlug, redirect to canonical /products/:categorySlug/:canonicalSlug
-  if (!categoryData && normalizedSlug) {
-    const redirectInfo = productSlugRedirectMap[normalizedSlug];
+  if (!categoryData && categorySlug) {
+    const redirectInfo = productSlugRedirectMap[categorySlug];
     if (redirectInfo) {
       return (
         <Navigate
@@ -126,7 +184,9 @@ const ProductsCategory: React.FC = () => {
     if (productName && categoryData) {
       document.title = `${productName} Manufacturer, Supplier & Stockist in Mumbai | Angel Metal India`;
 
-      let metaDesc = document.querySelector("meta[name='description']") as HTMLMetaElement;
+      let metaDesc = document.querySelector(
+        "meta[name='description']",
+      ) as HTMLMetaElement;
       if (!metaDesc) {
         metaDesc = document.createElement("meta");
         metaDesc.name = "description";
@@ -134,15 +194,17 @@ const ProductsCategory: React.FC = () => {
       }
       metaDesc.content = `${productName} manufacturer, supplier and stockist in Mumbai, India. Wide range of industrial grades and specifications at Angel Metal India.`;
 
-      let canonicalLink = document.querySelector("link[rel='canonical']") as HTMLLinkElement;
+      let canonicalLink = document.querySelector(
+        "link[rel='canonical']",
+      ) as HTMLLinkElement;
       if (!canonicalLink) {
         canonicalLink = document.createElement("link");
         canonicalLink.rel = "canonical";
         document.head.appendChild(canonicalLink);
       }
-      canonicalLink.href = `${window.location.origin}/products/${normalizedSlug}`;
+      canonicalLink.href = `${window.location.origin}/products/${categorySlug}`;
     }
-  }, [productName, categoryData, normalizedSlug]);
+  }, [productName, categoryData, categorySlug]);
 
   if (!categoryData) {
     return (
@@ -162,30 +224,36 @@ const ProductsCategory: React.FC = () => {
   return (
     <section className="products-category-section">
       {/* Hero Banner with Breadcrumb */}
-      <div className="category-hero">
-        <div className="category-hero-overlay"></div>
+      <div
+        className="category-hero"
+        style={{
+          backgroundImage: `url(${getCategoryHeroImage(categorySlug)})`,
+        }}
+      >
         <div className="container category-hero-content">
-          <div className="hero-breadcrumb">
-            <Link to="/" className="breadcrumb-link">
-              Home
-            </Link>
-            <ChevronRight size={14} className="breadcrumb-separator" />
-            <Link to="/products" className="breadcrumb-link">
-              Products
-            </Link>
-            <ChevronRight size={14} className="breadcrumb-separator" />
-            <span className="breadcrumb-current">{productName}</span>
-          </div>
+          <div className="hero-text-box hero-animate-heading max-w-2xl">
+            <div className="hero-breadcrumb">
+              <Link to="/" className="breadcrumb-link">
+                Home
+              </Link>
+              <ChevronRight size={14} className="breadcrumb-separator" />
+              <Link to="/products" className="breadcrumb-link">
+                Products
+              </Link>
+              <ChevronRight size={14} className="breadcrumb-separator" />
+              <span className="breadcrumb-current">{productName}</span>
+            </div>
 
-          <p className="hero-label">PRODUCTS</p>
-          <h1 className="hero-title">
-            <span className="hero-icon">{categoryIcon}</span> {productName}
-          </h1>
-          <p className="hero-subtitle">{categorySubtitle}</p>
-          <p className="hero-count">
-            <span className="dot"></span> {categoryData.length} Products
-            Available
-          </p>
+            <p className="hero-label">PRODUCTS</p>
+            <h1 className="hero-title">
+              <span className="hero-icon">{categoryIcon}</span> {productName}
+            </h1>
+            <p className="hero-subtitle">{categorySubtitle}</p>
+            <p className="hero-count">
+              <span className="dot"></span> {categoryData.length} Products
+              Available
+            </p>
+          </div>
         </div>
       </div>
 
@@ -210,7 +278,7 @@ const ProductsCategory: React.FC = () => {
           {categoryData.map((product) => (
             <Link
               key={product.id}
-              to={`/products/${slug}/${product.slug}`}
+              to={`/products/${categorySlug}/${product.slug}`}
               className="category-product-card"
             >
               <div className="category-product-image-wrapper">

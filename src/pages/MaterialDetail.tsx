@@ -1,6 +1,6 @@
 // src/pages/MaterialDetail.tsx
 import React, { useState, useEffect } from "react";
-import { useParams, Link, Navigate } from "react-router-dom";
+import { useParams, useLocation, Link, Navigate } from "react-router-dom";
 import { productCategoryMap } from "../data/productIndex";
 import { productSlugRedirectMap } from "../data/productSlugMap";
 import { getCategoryForProduct } from "../utils/productUtils";
@@ -9,12 +9,33 @@ import "./MaterialDetail.css";
 
 const MaterialDetail: React.FC = () => {
   const { slug, materialSlug } = useParams<{
-    slug: string;
-    materialSlug: string;
+    slug?: string;
+    materialSlug?: string;
   }>();
+  const location = useLocation();
 
-  const normalizedCategory = (slug || "").trim().toLowerCase();
-  const normalizedMaterialSlug = (materialSlug || "").trim().toLowerCase();
+  // Handle multi-segment category slugs (e.g. /products/circles/rings/:materialSlug)
+  const pathSegments = location.pathname
+    .replace(/^\/products\/?/, "")
+    .replace(/\/$/, "")
+    .split("/");
+
+  const normalizedMaterialSlug = (
+    materialSlug ||
+    (pathSegments.length > 0 ? pathSegments[pathSegments.length - 1] : "")
+  )
+    .trim()
+    .toLowerCase();
+
+  const normalizedCategory = (
+    slug && materialSlug
+      ? slug
+      : pathSegments.length > 1
+      ? pathSegments.slice(0, pathSegments.length - 1).join("/")
+      : ""
+  )
+    .trim()
+    .toLowerCase();
 
   // Backward compatibility: If an old slug or aliased slug was accessed, redirect to canonical URL
   const redirectInfo = productSlugRedirectMap[normalizedMaterialSlug];
@@ -382,6 +403,28 @@ const MaterialDetail: React.FC = () => {
     return descriptions[slug] || descriptions["default"];
   };
 
+  const getCategoryDisplayName = (catSlug: string) => {
+    const displayNames: Record<string, string> = {
+      "circles/rings": "Circles & Rings",
+      "sheets/plate/coil": "Sheets, Plates & Coils",
+      "flanges/forged-fittings": "Flanges & Forged Fittings",
+      "angle-channels/flat-plate": "Angles, Channels & Flat Plate",
+      "pipes-tubes": "Pipes & Tubes",
+      "round-bars": "Round Bars",
+      "buttweld-fittings": "Buttweld Fittings",
+      fasteners: "Fasteners",
+      "perforated-sheet": "Perforated Sheets",
+      "wire-mesh": "Wire Mesh",
+      wires: "Wires",
+    };
+    return (
+      displayNames[catSlug] ||
+      catSlug
+        .replace(/[\/-]/g, " ")
+        .replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+  };
+
   if (!material) {
     return (
       <div className="container not-found">
@@ -398,13 +441,10 @@ const MaterialDetail: React.FC = () => {
           </p>
           <div className="space-y-2">
             <Link
-              to={`/products/${slug}`}
+              to={`/products/${normalizedCategory || slug}`}
               className="block w-full px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
-              Back to{" "}
-              {slug
-                ?.replace(/-/g, " ")
-                .replace(/\b\w/g, (c) => c.toUpperCase())}
+              Back to {getCategoryDisplayName(normalizedCategory || slug || "")}
             </Link>
             <Link
               to="/products"
@@ -419,22 +459,17 @@ const MaterialDetail: React.FC = () => {
   }
 
   const productCategories = [
+    { name: "Circles & Rings", slug: "circles/rings" },
+    { name: "Sheets, Plates & Coils", slug: "sheets/plate/coil" },
+    { name: "Flanges & Forged Fittings", slug: "flanges/forged-fittings" },
+    { name: "Angles, Channels & Flat Plate", slug: "angle-channels/flat-plate" },
     { name: "Pipes & Tubes", slug: "pipes-tubes" },
     { name: "Round Bars", slug: "round-bars" },
-    { name: "Sheets & Plates", slug: "sheets-plates" },
-    { name: "Wires", slug: "wires" },
-    { name: "Industrial Flanges", slug: "flanges" },
     { name: "Buttweld Fittings", slug: "buttweld-fittings" },
-    { name: "Angle & Channels", slug: "angle-channels" },
-    { name: "Forged Fittings", slug: "forged-fittings" },
     { name: "Industrial Fasteners", slug: "fasteners" },
-    { name: "Industrial Valves", slug: "valves" },
-    { name: "Industrial Rings", slug: "rings" },
-    { name: "Coils", slug: "coils" },
-    { name: "Industrial Circles", slug: "circles" },
     { name: "Perforated Sheets", slug: "perforated-sheet" },
     { name: "Wire Mesh", slug: "wire-mesh" },
-    { name: "Dairy & Pharma Valves", slug: "dairy-pharma-valves" },
+    { name: "Wires", slug: "wires" },
   ];
 
   return (
@@ -445,10 +480,8 @@ const MaterialDetail: React.FC = () => {
           <nav className="md-breadcrumb">
             <Link to="/">Home</Link>
             <span>/</span>
-            <Link to={`/products/${slug}`}>
-              {slug
-                ?.replace(/-/g, " ")
-                .replace(/\b\w/g, (c) => c.toUpperCase())}
+            <Link to={`/products/${normalizedCategory}`}>
+              {getCategoryDisplayName(normalizedCategory)}
             </Link>
             <span>/</span>
             <span className="md-breadcrumb-current">{material.title}</span>
@@ -486,7 +519,7 @@ const MaterialDetail: React.FC = () => {
 
             <div className="md-card md-caption-card">
               <h4>{material.title}</h4>
-              <p>{getCaptionDescription(slug)}</p>
+              <p>{getCaptionDescription(normalizedCategory || slug || "")}</p>
             </div>
 
             <div className="md-card md-sidebar-products">
@@ -497,7 +530,7 @@ const MaterialDetail: React.FC = () => {
                     <Link
                       to={`/products/${category.slug}`}
                       className={`md-sidebar-link ${
-                        slug === category.slug ? "active" : ""
+                        normalizedCategory === category.slug ? "active" : ""
                       }`}
                     >
                       {category.name}

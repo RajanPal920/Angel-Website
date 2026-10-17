@@ -208,7 +208,7 @@ const Home: React.FC = () => {
     {
       id: 3,
       name: "Steel Angles & Channels",
-      slug: "angle-channels",
+      slug: "angle-channels/flat-plate",
       category: "Structural",
       grade: "IS 2062, IS 808, ASTM A36",
       image: "/productImage/angle-channels.jpg",
@@ -221,7 +221,7 @@ const Home: React.FC = () => {
     {
       id: 4,
       name: "Steel Plates & Sheets",
-      slug: "sheets-plates",
+      slug: "sheets/plate/coil",
       category: "Plates & Sheets",
       grade: "IS 2062, ASTM A36, EN 10025",
       image: "/productImage/sheets.jpg",
@@ -234,7 +234,7 @@ const Home: React.FC = () => {
     {
       id: 5,
       name: "Steel Coils",
-      slug: "coils",
+      slug: "sheets/plate/coil",
       category: "Coils",
       grade: "IS 513, IS 1079, ASTM A1011",
       image: "/productImage/coil.jpg",
@@ -247,7 +247,7 @@ const Home: React.FC = () => {
     {
       id: 6,
       name: "Steel Flanges",
-      slug: "flanges",
+      slug: "flanges/forged-fittings",
       category: "Fittings",
       grade: "ASTM A105, ASTM A182, IS 2062",
       image: "/productImage/Flanges.jpg",
@@ -549,33 +549,9 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
       {/* ============================================================ */}
-      {/* HERO SECTION - DESKTOP (UNCHANGED) */}
+      {/* HERO SECTION - RESPONSIVE SLIDER (DESKTOP, TABLET & MOBILE) */}
       {/* ============================================================ */}
-      <section className="relative hidden md:flex min-h-[85vh] lg:h-[85vh] items-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
-        {/* Background Effects */}
-        <div className="absolute inset-0">
-          <div className="absolute -top-40 -right-40 w-96 h-96 bg-[#D71920]/20 rounded-full blur-3xl"></div>
-          <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-[#D71920]/10 rounded-full blur-3xl"></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#0A3D91]/30 rounded-full blur-3xl"></div>
-        </div>
-
-        {/* Floating Shapes */}
-        <div className="hidden md:block absolute top-20 right-20 animate-float">
-          <div className="w-4 h-4 bg-[#D71920] rounded-full opacity-50"></div>
-        </div>
-        <div className="hidden md:block absolute bottom-20 left-20 animate-float delay-1000">
-          <div className="w-6 h-6 border-2 border-[#D9D9D9]/30 rounded-full"></div>
-        </div>
-        <div className="hidden md:block absolute top-1/3 right-40 animate-float delay-2000">
-          <div className="w-3 h-3 bg-[#D71920]/40 rounded-full"></div>
-        </div>
-
-        {/* Scroll Indicator */}
-        <div className="hidden lg:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-white/50 animate-bounce z-20">
-          <span className="text-xs tracking-widest uppercase">Scroll</span>
-          <ChevronDown className="w-5 h-5" />
-        </div>
-
+      <section className="relative min-h-[560px] sm:min-h-[620px] md:min-h-[calc(100svh-var(--header-height,110px))] lg:h-[calc(100svh-var(--header-height,110px))] flex items-center bg-slate-950 overflow-hidden">
         {/* Full-Width Slider Container */}
         <div className="absolute inset-0 z-0">
           <div
@@ -587,188 +563,143 @@ const Home: React.FC = () => {
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center lg:object-[center_right]"
+                  loading={index === 0 ? "eager" : "lazy"}
                 />
-                {/* Dark Overlay for better text readability */}
-                <div className="absolute inset-0 bg-gradient-to-r from-[#052A63]/80 via-[#052A63]/10 to-transparent"></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-[#052A63]/60 via-transparent to-transparent"></div>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Content Overlay - Left Content */}
-        <div className="container mx-auto px-5 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[85vh] py-16 lg:py-0">
-            {/* Left Content */}
-            <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
-              {/* Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#D71920]/10 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-full border border-[#D71920]/20 mx-auto lg:mx-0">
-                <Sparkles className="w-4 h-4 text-[#D71920]" />
-                <span className="text-[#D71920] text-sm font-semibold tracking-wider">
-                  Trusted Metal Manufacturer
-                </span>
-              </div>
+        {/* Floating Accent Shapes (Desktop Only) */}
+        <div className="hidden lg:block absolute top-20 right-20 animate-float pointer-events-none">
+          <div className="w-3.5 h-3.5 bg-[#D71920] rounded-full opacity-60"></div>
+        </div>
+        <div className="hidden lg:block absolute bottom-24 left-16 animate-float delay-1000 pointer-events-none">
+          <div className="w-5 h-5 border-2 border-white/20 rounded-full"></div>
+        </div>
 
-              {/* Heading */}
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight">
-                Premium
-                <span className="block text-[#D71920]">Stainless Steel</span>
-                <span className="block text-lg sm:text-xl md:text-3xl lg:text-4xl font-semibold text-white/90 mt-3">
-                  Built on Strength, Quality & Trust.
-                </span>
-              </h1>
+        {/* Scroll Indicator (Large Desktop Only) */}
+        <div className="hidden xl:flex absolute bottom-6 left-1/2 -translate-x-1/2 flex-col items-center gap-1.5 text-white/80 animate-bounce z-20 pointer-events-none">
+          <span className="text-[11px] font-semibold tracking-widest uppercase">Scroll</span>
+          <ChevronDown className="w-4 h-4" />
+        </div>
 
-              <p className="text-sm sm:text-base md:text-lg font-medium text-[#D9D9D9]/100 max-w-lg leading-relaxed mx-auto lg:mx-0">
-                Angel Metal India is a premier manufacturer, supplier, and
-                exporter of high-quality stainless steel and metal products,
-                serving industries across the globe with excellence and
-                reliability.
-              </p>
-
-              {/* CTA Buttons */}
-              <div className="mt-6 md:mt-8 flex flex-row flex-wrap justify-center lg:justify-start gap-3">
-                <a
-                  href="/products"
-                  className="bg-[#D71920] hover:bg-[#D71920]/90 text-white px-4 md:px-6 lg:px-8 py-2.5 md:py-3.5 rounded-lg font-semibold text-sm md:text-base transition-all duration-300 hover:shadow-xl hover:shadow-[#D71920]/30 flex items-center justify-center gap-2 whitespace-nowrap"
-                >
-                  Explore Products
-                  <ArrowRight className="w-4 h-4" />
-                </a>
-
-                <a
-                  href="/contact"
-                  className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-4 md:px-6 lg:px-8 py-2.5 md:py-3.5 rounded-lg font-semibold text-sm md:text-base transition-all duration-300 border border-white/20 hover:border-white/40 whitespace-nowrap"
-                >
-                  Get Free Quote
-                </a>
-              </div>
-
-              {/* Floating Stats - Hide on Mobile */}
-              <div className="hidden md:grid md:grid-cols-3 gap-3 pt-4">
-                <div className="flex items-center justify-center lg:justify-start gap-3 bg-white/5 backdrop-blur-sm px-4 py-3 rounded-full border border-white/10">
-                  <Award className="w-5 h-5 text-[#D71920]" />
-                  <span className="text-white text-sm font-medium">
-                    25+ Years
+        {/* Content Container */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-14 sm:py-16 lg:py-0">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center min-h-[480px] md:min-h-[calc(100svh-180px)] lg:min-h-[calc(100svh-var(--header-height,110px))]">
+            {/* Left Content (Text & Actions) - Keyed by currentSlide to replay staggered animation on slide change */}
+            <div
+              key={currentSlide}
+              className="lg:col-span-8 xl:col-span-7 space-y-4 sm:space-y-6 text-left max-w-2xl"
+            >
+              {/* Hero Text Container with Rounded Dark-Blue Background */}
+              <div className="hero-text-box hero-animate-heading space-y-3 sm:space-y-4">
+                {/* Badge */}
+                <div className="inline-flex items-center gap-2">
+                  <Sparkles className="w-4 h-4 text-[#D71920]" />
+                  <span className="text-white font-bold text-xs sm:text-sm tracking-widest uppercase">
+                    Trusted Metal Manufacturer
                   </span>
                 </div>
 
-                <div className="flex items-center justify-center lg:justify-start gap-3 bg-white/5 backdrop-blur-sm px-4 py-3 rounded-full border border-white/10">
-                  <Users className="w-5 h-5 text-[#D71920]" />
-                  <span className="text-white text-sm font-medium">
-                    1000+ Clients
+                {/* Heading */}
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-extrabold text-white leading-[1.14] tracking-tight">
+                  Premium
+                  <span className="text-[#D71920] ml-2 sm:ml-3">Stainless Steel</span>
+                  <span className="block text-base sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-100 mt-2 sm:mt-2.5">
+                    Built on Strength, Quality & Trust.
                   </span>
+                </h1>
+
+                {/* Description */}
+                <p className="text-xs sm:text-sm md:text-base font-medium text-slate-100 max-w-xl leading-relaxed">
+                  Angel Metal India is a premier manufacturer, supplier, and
+                  exporter of high-quality stainless steel and metal products,
+                  serving industries across the globe with excellence and
+                  reliability.
+                </p>
+
+                <div className="pt-2 sm:pt-3 flex flex-row flex-wrap items-center gap-3 sm:gap-4">
+                  <a
+                    href="/products"
+                    className="hero-animate-btn-1 bg-[#D71920] hover:bg-[#b01319] text-white px-6 sm:px-7 py-3 rounded-lg font-bold text-xs sm:text-sm md:text-base transition-colors duration-200 flex items-center justify-center gap-2 whitespace-nowrap shadow-md"
+                  >
+                    Explore Products
+                    <ArrowRight className="w-4 h-4" />
+                  </a>
+
+                  <a
+                    href="/contact"
+                    className="hero-animate-btn-2 border-2 border-white/80 text-white hover:bg-white hover:text-[#052A63] px-6 sm:px-7 py-3 rounded-lg font-bold text-xs sm:text-sm md:text-base transition-colors duration-200 whitespace-nowrap"
+                  >
+                    Get Free Quote
+                  </a>
                 </div>
 
-                <div className="flex items-center justify-center lg:justify-start gap-3 bg-white/5 backdrop-blur-sm px-4 py-3 rounded-full border border-white/10">
-                  <Shield className="w-5 h-5 text-[#D71920]" />
-                  <span className="text-white text-sm font-medium">
-                    ISO Certified
-                  </span>
+                <div className="pt-3 sm:pt-4 flex flex-wrap items-center gap-4 sm:gap-7 max-w-xl border-t border-white/15">
+                  <div className="hero-animate-trust-1 flex items-center gap-2 sm:gap-2.5">
+                    <Award className="w-5 h-5 text-[#D71920] shrink-0" />
+                    <span className="text-white text-xs sm:text-sm font-bold">
+                      25+ Years Experience
+                    </span>
+                  </div>
+
+                  <div className="hero-animate-trust-2 flex items-center gap-2 sm:gap-2.5">
+                    <Users className="w-5 h-5 text-[#D71920] shrink-0" />
+                    <span className="text-white text-xs sm:text-sm font-bold">
+                      1000+ Global Clients
+                    </span>
+                  </div>
+
+                  <div className="hero-animate-trust-3 flex items-center gap-2 sm:gap-2.5">
+                    <Shield className="w-5 h-5 text-[#D71920] shrink-0" />
+                    <span className="text-white text-xs sm:text-sm font-bold">
+                      ISO Certified
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Right Content - Empty for overlay layout */}
-            <div className="hidden lg:block"></div>
+            {/* Right Spacer column for desktop hero balance */}
+            <div className="hidden lg:block lg:col-span-4 xl:col-span-5 pointer-events-none"></div>
           </div>
         </div>
 
         {/* Slider Navigation Arrows */}
         <button
           onClick={prevSlide}
-          className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-[#D71920] text-white w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm z-20"
+          className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-[#D71920] text-white w-9 h-9 sm:w-11 sm:h-11 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm z-20 shadow-md"
           aria-label="Previous slide"
         >
-          <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
+          <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-[#D71920] text-white w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm z-20"
+          className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-[#D71920] text-white w-9 h-9 sm:w-11 sm:h-11 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm z-20 shadow-md"
           aria-label="Next slide"
         >
-          <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
+          <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
         {/* Slide Indicators */}
-        <div className="absolute bottom-10 md:bottom-20 left-1/2 -translate-x-1/2 flex gap-2 md:gap-3 z-20">
+        <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-1.5 sm:gap-2.5 z-20">
           {heroImages.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`h-1 rounded-full transition-all duration-300 ${
-                currentSlide === index
-                  ? "bg-[#D71920] w-10"
-                  : "bg-white/50 hover:bg-white/80 w-6"
-              }`}
+              className={`h-1.5 rounded-full transition-all duration-300 ${currentSlide === index
+                ? "bg-[#D71920] w-7 sm:w-9"
+                : "bg-white/40 hover:bg-white/70 w-3.5 sm:w-5"
+                }`}
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
         </div>
 
         {/* Slide Counter */}
-        <div className="absolute top-4 right-4 md:top-6 md:right-6 bg-black/50 backdrop-blur-sm text-white text-xs md:text-sm px-3 md:px-4 py-2 rounded-full z-20">
-          {String(currentSlide + 1).padStart(2, "0")} /{" "}
-          {String(heroImages.length).padStart(2, "0")}
-        </div>
-      </section>
-
-      {/* ============================================================ */}
-      {/* HERO SECTION - MOBILE (PREMIUM PROMOTIONAL BANNER) */}
-      {/* ============================================================ */}
-      <section className="block md:hidden relative w-full bg-white overflow-hidden">
-        {/* ONLY Banner Image Slider */}
-        <div className="w-full">
-          <div
-            className="flex transition-transform duration-700 ease-in-out"
-            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-          >
-            {heroImages.map((image, index) => (
-              <div key={index} className="w-full flex-shrink-0 relative">
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Slider Navigation Arrows - Touch Friendly */}
-        <button
-          onClick={prevSlide}
-          className="absolute left-3 top-1/2 -translate-y-1/2 bg-[#D71920] hover:bg-[#B01515] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg z-20"
-          aria-label="Previous slide"
-        >
-          <ChevronLeft className="w-6 h-6" />
-        </button>
-        <button
-          onClick={nextSlide}
-          className="absolute right-3 top-1/2 -translate-y-1/2 bg-[#D71920] hover:bg-[#B01515] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg z-20"
-          aria-label="Next slide"
-        >
-          <ChevronRight className="w-6 h-6" />
-        </button>
-
-        {/* Slide Indicators - Modern Rounded */}
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20">
-          {heroImages.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => goToSlide(index)}
-              className={`h-2 rounded-full transition-all duration-300 ${
-                currentSlide === index
-                  ? "bg-[#D71920] w-8"
-                  : "bg-gray-300 hover:bg-gray-400 w-4"
-              }`}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
-        </div>
-
-        {/* Slide Counter */}
-        <div className="absolute top-4 right-4 bg-black/60 text-white text-xs px-3 py-1.5 rounded-full z-20">
+        <div className="absolute top-4 right-4 sm:top-6 sm:right-6 bg-black/50 backdrop-blur-md text-white text-[11px] sm:text-xs px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full z-20 font-medium tracking-wider">
           {String(currentSlide + 1).padStart(2, "0")} /{" "}
           {String(heroImages.length).padStart(2, "0")}
         </div>
@@ -842,8 +773,8 @@ const Home: React.FC = () => {
               >
                 <div className="h-48 bg-white flex items-center justify-center overflow-hidden">
                   {product.image &&
-                  typeof product.image === "string" &&
-                  product.image.startsWith("/") ? (
+                    typeof product.image === "string" &&
+                    product.image.startsWith("/") ? (
                     <img
                       src={product.image}
                       alt={product.name}
@@ -1131,7 +1062,7 @@ const Home: React.FC = () => {
                               key={labelIndex}
                               className="text-center text-white font-bold text-[9px] md:text-[8px] lg:text-[10px] xl:text-xs tracking-normal lg:tracking-[0.08em] uppercase py-2 px-1 sm:px-2 bg-gradient-to-r from-[#D71920] to-[#0A3D91] rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center justify-center"
                             >
-                            {label}
+                              {label}
                             </div>
                           );
                         })}
@@ -1212,11 +1143,10 @@ const Home: React.FC = () => {
                 {testimonials.map((_, index) => (
                   <button
                     key={index}
-                    className={`h-1 rounded-full transition-all duration-300 ${
-                      index === activeTestimonial
-                        ? "bg-[#D71920] w-8"
-                        : "bg-gray-300 hover:bg-gray-400 w-4"
-                    }`}
+                    className={`h-1 rounded-full transition-all duration-300 ${index === activeTestimonial
+                      ? "bg-[#D71920] w-8"
+                      : "bg-gray-300 hover:bg-gray-400 w-4"
+                      }`}
                     onClick={() => setActiveTestimonial(index)}
                     aria-label={`Go to testimonial ${index + 1}`}
                   />
@@ -1308,9 +1238,8 @@ const Home: React.FC = () => {
                 >
                   <span className="font-semibold text-[#052A63]">{faq.q}</span>
                   <ChevronDown
-                    className={`w-5 h-5 text-[#D71920] transition-transform ${
-                      activeFaq === index ? "rotate-180" : ""
-                    }`}
+                    className={`w-5 h-5 text-[#D71920] transition-transform ${activeFaq === index ? "rotate-180" : ""
+                      }`}
                   />
                 </button>
                 {activeFaq === index && (

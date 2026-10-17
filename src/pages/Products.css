@@ -8,28 +8,38 @@
 .products-hero {
   position: relative;
   background-image: url("/img/home/material.jpg");
-  /* Change to your background image */
   background-size: cover;
-  background-position: center;
-  height: 510px;
+  background-position: center right;
+  min-height: 280px;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
-.products-hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg,
-      rgba(26, 49, 87, 0.9),
-      rgba(25, 56, 89, 0.7),
-      rgba(16, 42, 67, 0.5));
+@media (min-width: 640px) {
+  .products-hero {
+    min-height: 340px;
+  }
+}
+
+@media (min-width: 768px) {
+  .products-hero {
+    height: 380px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .products-hero {
+    height: 630px;
+  }
 }
 
 .products-hero-content {
   position: relative;
   z-index: 2;
   color: white;
-  padding-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .hero-label {
@@ -38,7 +48,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #ff4d4d;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   position: relative;
   padding-left: 25px;
 }
@@ -55,32 +65,37 @@
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: clamp(2.2rem, 4.5vw, 3.2rem);
   font-weight: 800;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #ffffff;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
-  font-weight: 550;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 25px;
-  max-width: 600px;
+  font-size: clamp(0.95rem, 1.8vw, 1.2rem);
+  font-weight: 500;
+  color: #f1f5f9;
+  margin-bottom: 22px;
+  max-width: 620px;
+  line-height: 1.5;
 }
 
 .hero-stats {
   display: flex;
-  gap: 30px;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .hero-count,
 .hero-quality {
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 8px;
+  color: #ffffff;
 }
 
 .hero-count .dot,
@@ -297,6 +312,7 @@
   flex-grow: 1;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  text-transform: capitalize;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -393,11 +409,9 @@
 
 @media (max-width: 768px) {
   .products-hero {
-    height: 280px;
-  }
-
-  .hero-title {
-    font-size: 2.2rem;
+    min-height: 340px;
+    height: auto;
+    padding: 30px 0;
   }
 
   .products-filter-bar {

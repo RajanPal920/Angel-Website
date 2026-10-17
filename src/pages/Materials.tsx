@@ -41,7 +41,7 @@ const iconMap: Record<string, any> = {
   Wrench,
 };
 
-const heroImage = "/img/home/banner-industrial.jpg";
+const heroImage = "/img/home/material.jpg";
 
 const getProductCount = (materialSlug: string): number => {
   const categoryKeys = materialToCategoryMap[materialSlug] || [];
@@ -243,40 +243,41 @@ const Materials: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Banner */}
-      <div className="relative">
+      <div className="relative min-h-[280px] sm:min-h-[340px] md:h-[380px] lg:h-[630px] flex items-center bg-slate-900 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={heroImage}
-            alt="Industrial materials"
-            className="w-full h-full object-cover"
+            alt="Angel Metal Industrial Materials"
+            className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/40" />
         </div>
-        <div className="relative container mx-auto px-4 max-w-7xl py-16 sm:py-20 md:py-32 lg:py-40">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="w-10 h-[3px] bg-primary-red" />
-            <span className="text-primary-red font-semibold tracking-[0.3em] uppercase text-sm">
-              Our Collection
-            </span>
-          </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4">
-            All Materials
-          </h1>
-          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mb-6 sm:mb-8">
-            Explore our complete range of premium industrial products
-          </p>
-          <div className="flex flex-wrap items-center gap-4 sm:gap-8">
-            <div className="flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-primary-red" />
-              <span className="text-white font-medium text-base sm:text-lg">
-                {filteredMaterials.length} Materials
+        <div className="relative container mx-auto px-4 sm:px-6 max-w-7xl py-10 sm:py-12 w-full">
+          <div className="hero-text-box hero-animate-heading max-w-2xl">
+            <div className="flex items-center gap-3 mb-2 sm:mb-3">
+              <span className="w-10 h-[3px] bg-primary-red" />
+              <span className="text-primary-red font-bold tracking-[0.3em] uppercase text-xs sm:text-sm">
+                Our Collection
               </span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-primary-red" />
-              <span className="text-white font-medium text-base sm:text-lg">
-                Premium Quality
-              </span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-2 sm:mb-3">
+              All Materials
+            </h1>
+            <p className="text-sm sm:text-base text-slate-100 font-medium capitalize max-w-xl mb-4 sm:mb-5 leading-relaxed">
+              Explore our complete range of premium industrial products
+            </p>
+            <div className="flex flex-wrap items-center gap-4 sm:gap-7">
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-primary-red" />
+                <span className="text-white font-bold text-xs sm:text-sm">
+                  {filteredMaterials.length} Materials
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-primary-red" />
+                <span className="text-white font-bold text-xs sm:text-sm">
+                  Premium Quality
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -307,8 +308,8 @@ const Materials: React.FC = () => {
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
                 className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all ${selectedCategory === cat.id
-                    ? "bg-gray-900 text-white shadow-lg"
-                    : "bg-white text-gray-600 border border-gray-200 hover:border-gray-400"
+                  ? "bg-gray-900 text-white shadow-lg"
+                  : "bg-white text-gray-600 border border-gray-200 hover:border-gray-400"
                   }`}
               >
                 {cat.name}
@@ -325,8 +326,8 @@ const Materials: React.FC = () => {
             <button
               onClick={() => setViewMode("grid")}
               className={`p-2.5 rounded-lg transition-all ${viewMode === "grid"
-                  ? "bg-gray-900 text-white"
-                  : "bg-white text-gray-500 border border-gray-200"
+                ? "bg-gray-900 text-white"
+                : "bg-white text-gray-500 border border-gray-200"
                 }`}
             >
               <LayoutGrid size={18} />
@@ -334,8 +335,8 @@ const Materials: React.FC = () => {
             <button
               onClick={() => setViewMode("list")}
               className={`p-2.5 rounded-lg transition-all ${viewMode === "list"
-                  ? "bg-gray-900 text-white"
-                  : "bg-white text-gray-500 border border-gray-200"
+                ? "bg-gray-900 text-white"
+                : "bg-white text-gray-500 border border-gray-200"
                 }`}
             >
               <List size={18} />

@@ -8,28 +8,39 @@
 /* ===== Hero Banner ===== */
 .category-hero {
   position: relative;
-  background-image: url("/productImage/steel-pipes.jpg");
+  background-image: url("/img/home/material.jpg");
   background-size: cover;
-  background-position: center;
-  height: 350px;
+  background-position: center right;
+  min-height: 280px;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
-.category-hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg,
-      rgba(16, 42, 67, 0.92),
-      rgba(16, 42, 67, 0.75),
-      rgba(16, 42, 67, 0.5));
+@media (min-width: 640px) {
+  .category-hero {
+    min-height: 340px;
+  }
+}
+
+@media (min-width: 768px) {
+  .category-hero {
+    height: 380px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-hero {
+    height: 630px;
+  }
 }
 
 .category-hero-content {
   position: relative;
   z-index: 2;
   color: white;
-  padding-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Breadcrumb */
@@ -37,12 +48,12 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   flex-wrap: wrap;
 }
 
 .breadcrumb-link {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -50,11 +61,11 @@
 }
 
 .breadcrumb-link:hover {
-  color: #e52713;
+  color: #ff4d4d;
 }
 
 .breadcrumb-separator {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   width: 14px;
   height: 14px;
 }
@@ -72,7 +83,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #ff4d4d;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   position: relative;
   padding-left: 25px;
 }
@@ -89,14 +100,15 @@
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   line-height: 1.2;
   text-transform: capitalize;
   display: flex;
   align-items: center;
   gap: 12px;
+  color: #ffffff;
 }
 
 .hero-icon {
@@ -105,19 +117,20 @@
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
-  font-weight: 550;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 25px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #f1f5f9;
+  margin-bottom: 20px;
   max-width: 600px;
 }
 
 .hero-count {
   font-size: 0.95rem;
-  font-weight: 600;
-  display: flex;
+  font-weight: 700;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
+  color: #ffffff;
 }
 
 .hero-count .dot {
@@ -551,15 +564,19 @@
 /* Extra Small Screens */
 @media (max-width: 380px) {
   .category-hero {
-    height: 170px;
+    min-height: 250px;
+    height: auto;
+    padding: 24px 0;
   }
 
   .hero-title {
-    font-size: 1rem;
+    font-size: 1.45rem;
+    line-height: 1.25;
   }
 
   .hero-subtitle {
-    font-size: 0.55rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
   }
 
   .category-product-image-wrapper {
@@ -589,15 +606,19 @@
 /* Tablet Portrait (between 481px and 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
   .category-hero {
-    height: 220px;
+    min-height: 300px;
+    height: auto;
+    padding: 30px 0;
   }
 
   .hero-title {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
+    line-height: 1.25;
   }
 
   .hero-subtitle {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
   }
 
   .category-content {

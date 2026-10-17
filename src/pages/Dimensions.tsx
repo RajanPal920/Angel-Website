@@ -7,7 +7,7 @@ interface DimensionItem {
   file: string;
 }
 
-const heroImage = "/img/home/banner-industrial.jpg"; // ✅ Add your hero image path here
+const heroImage = "/img/home/hero-3.png";
 
 const Dimensions: React.FC = () => {
   // Data extracted EXACTLY from your public/Dimensions folder
@@ -34,45 +34,46 @@ const Dimensions: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50 pb-16">
       {/* ===== HERO BANNER SECTION ===== */}
-      <div className="relative min-h-[45vh] md:h-[80vh] lg:h-[85vh]">
+      <div className="relative min-h-[280px] sm:min-h-[340px] md:h-[380px] lg:h-[630px] bg-slate-900 overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
             src={heroImage}
-            alt="Industrial materials"
-            className="w-full h-full object-cover"
+            alt="Stainless Steel Product Dimensions"
+            className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/40" />
         </div>
 
-        <div className="relative container mx-auto px-4 max-w-7xl py-16 sm:py-20 md:py-32 lg:py-40 h-full flex flex-col justify-center">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="w-10 h-[3px] bg-[#E52713]" />
-            <span className="text-[#E52713] font-semibold tracking-[0.3em] uppercase text-sm">
-              Technical Specifications
-            </span>
-          </div>
-
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4">
-            Product Dimensions
-          </h1>
-
-          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mb-6 sm:mb-8">
-            Download detailed dimension charts and technical specifications for
-            all our stainless steel products.
-          </p>
-
-          <div className="flex flex-wrap items-center gap-4 sm:gap-8">
-            <div className="flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-[#E52713]" />
-              <span className="text-white font-medium text-base sm:text-lg">
-                {dimensionsData.length} Documents
+        <div className="relative container mx-auto px-4 sm:px-6 max-w-7xl py-10 sm:py-12 w-full flex flex-col justify-center">
+          <div className="hero-text-box hero-animate-heading max-w-2xl">
+            <div className="flex items-center gap-3 mb-2 sm:mb-3">
+              <span className="w-10 h-[3px] bg-[#E52713]" />
+              <span className="text-[#E52713] font-bold tracking-[0.3em] uppercase text-xs sm:text-sm">
+                Technical Specifications
               </span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-[#E52713]" />
-              <span className="text-white font-medium text-base sm:text-lg">
-                PDF Downloads
-              </span>
+
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-2 sm:mb-3">
+              Product Dimensions
+            </h1>
+
+            <p className="text-sm sm:text-base text-slate-100 capitalize font-medium max-w-xl mb-4 sm:mb-5 leading-relaxed">
+              Download detailed dimension charts and technical specifications for
+              all our stainless steel products.
+            </p>
+
+            <div className="flex flex-wrap items-center gap-4 sm:gap-7">
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#E52713]" />
+                <span className="text-white font-bold text-xs sm:text-sm">
+                  {dimensionsData.length} Documents
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#E52713]" />
+                <span className="text-white font-bold text-xs sm:text-sm">
+                  PDF Downloads
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -93,11 +94,10 @@ const Dimensions: React.FC = () => {
           {dimensionsData.map((item, index) => (
             <div
               key={index}
-              className={`grid grid-cols-1 md:grid-cols-12 gap-4 items-center px-6 py-5 transition-colors duration-200 hover:bg-slate-50 ${
-                index !== dimensionsData.length - 1
-                  ? "border-b border-slate-100"
-                  : ""
-              }`}
+              className={`grid grid-cols-1 md:grid-cols-12 gap-4 items-center px-6 py-5 transition-colors duration-200 hover:bg-slate-50 ${index !== dimensionsData.length - 1
+                ? "border-b border-slate-100"
+                : ""
+                }`}
             >
               {/* Name */}
               <div className="col-span-7 flex items-center gap-4">

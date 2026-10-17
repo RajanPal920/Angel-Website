@@ -8,27 +8,27 @@ export interface ProductSlugInfo {
 
 export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
   "regular-angle": {
-    "categorySlug": "angle-channels",
+    "categorySlug": "angle-channels/flat-plate",
     "canonicalSlug": "regular-angle-supplier-mumbai"
   },
   "regular-angle-supplier-mumbai": {
-    "categorySlug": "angle-channels",
+    "categorySlug": "angle-channels/flat-plate",
     "canonicalSlug": "regular-angle-supplier-mumbai"
   },
   "regular-channel": {
-    "categorySlug": "angle-channels",
+    "categorySlug": "angle-channels/flat-plate",
     "canonicalSlug": "regular-channel-manufacturer-mumbai"
   },
   "regular-channel-manufacturer-mumbai": {
-    "categorySlug": "angle-channels",
+    "categorySlug": "angle-channels/flat-plate",
     "canonicalSlug": "regular-channel-manufacturer-mumbai"
   },
   "carbon-angle-channel": {
-    "categorySlug": "angle-channels",
+    "categorySlug": "angle-channels/flat-plate",
     "canonicalSlug": "carbon-angle-channel-manufacturer-mumbai"
   },
   "carbon-angle-channel-manufacturer-mumbai": {
-    "categorySlug": "angle-channels",
+    "categorySlug": "angle-channels/flat-plate",
     "canonicalSlug": "carbon-angle-channel-manufacturer-mumbai"
   },
   "stainless-duplex-steel-perforated-sheets": {
@@ -72,35 +72,35 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "canonicalSlug": "galvanized-perforated-sheets-stockist-mumbai"
   },
   "stainless-steel-forged-rings": {
-    "categorySlug": "rings",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "stainless-steel-forged-rings-manufacturer-mumbai"
   },
   "stainless-steel-forged-rings-manufacturer-mumbai": {
-    "categorySlug": "rings",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "stainless-steel-forged-rings-manufacturer-mumbai"
   },
   "duplex-super-duplex-rings": {
-    "categorySlug": "rings",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "duplex-super-duplex-rings-manufacturer-mumbai"
   },
   "duplex-super-duplex-rings-manufacturer-mumbai": {
-    "categorySlug": "rings",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "duplex-super-duplex-rings-manufacturer-mumbai"
   },
   "nickel-alloy-rings": {
-    "categorySlug": "rings",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "nickel-alloy-rings-supplier-mumbai"
   },
   "nickel-alloy-rings-supplier-mumbai": {
-    "categorySlug": "rings",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "nickel-alloy-rings-supplier-mumbai"
   },
   "carbon-mild-steel-rings": {
-    "categorySlug": "rings",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "carbon-mild-steel-rings-manufacturer-mumbai"
   },
   "carbon-mild-steel-rings-manufacturer-mumbai": {
-    "categorySlug": "rings",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "carbon-mild-steel-rings-manufacturer-mumbai"
   },
   "woven-wire-mesh": {
@@ -150,78 +150,6 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
   "hexagonal-wire-netting-supplier-mumbai": {
     "categorySlug": "wire-mesh",
     "canonicalSlug": "hexagonal-wire-netting-supplier-mumbai"
-  },
-  "hygienic-valve-systems": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "hygienic-valve-systems-supplier-mumbai"
-  },
-  "hygienic-valve-systems-supplier-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "hygienic-valve-systems-supplier-mumbai"
-  },
-  "ss-diaphragm-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-diaphragm-valves-supplier-mumbai"
-  },
-  "ss-diaphragm-valves-supplier-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-diaphragm-valves-supplier-mumbai"
-  },
-  "ss-ball-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-ball-valves-supplier-mumbai"
-  },
-  "ss-ball-valves-supplier-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-ball-valves-supplier-mumbai"
-  },
-  "ss-non-return-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-non-return-valves-stockist-mumbai"
-  },
-  "ss-non-return-valves-stockist-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-non-return-valves-stockist-mumbai"
-  },
-  "ss-pressure-reducing-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-pressure-reducing-valves-supplier-mumbai"
-  },
-  "ss-pressure-reducing-valves-supplier-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-pressure-reducing-valves-supplier-mumbai"
-  },
-  "pharma-grade-diaphragm-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "pharma-grade-diaphragm-valves-supplier-mumbai"
-  },
-  "pharma-grade-diaphragm-valves-supplier-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "pharma-grade-diaphragm-valves-supplier-mumbai"
-  },
-  "high-purity-ball-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "high-purity-ball-valves-supplier-mumbai"
-  },
-  "high-purity-ball-valves-supplier-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "high-purity-ball-valves-supplier-mumbai"
-  },
-  "ss-sampling-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-sampling-valves-supplier-mumbai"
-  },
-  "ss-sampling-valves-supplier-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-sampling-valves-supplier-mumbai"
-  },
-  "ss-zero-dead-leg-valves": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-zero-dead-leg-valves-stockist-mumbai"
-  },
-  "ss-zero-dead-leg-valves-stockist-mumbai": {
-    "categorySlug": "dairy-pharma-valves",
-    "canonicalSlug": "ss-zero-dead-leg-valves-stockist-mumbai"
   },
   "carbon-steel-a234-buttweld-fittings": {
     "categorySlug": "buttweld-fittings",
@@ -488,99 +416,99 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "canonicalSlug": "hastelloy-c276-buttweld-fittings-stockist-mumbai"
   },
   "stainless-steel-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-coils-stockist-mumbai"
   },
   "stainless-steel-coils-stockist-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-coils-stockist-mumbai"
   },
   "titanium-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-coils-supplier-mumbai"
   },
   "titanium-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-coils-supplier-mumbai"
   },
   "high-performance-alloy-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "high-performance-alloy-coils-stockist-mumbai"
   },
   "high-performance-alloy-coils-stockist-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "high-performance-alloy-coils-stockist-mumbai"
   },
   "alloy-28-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "alloy-28-coils-supplier-mumbai"
   },
   "alloy-28-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "alloy-28-coils-supplier-mumbai"
   },
   "special-alloy-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "special-alloy-coils-supplier-mumbai"
   },
   "special-alloy-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "special-alloy-coils-supplier-mumbai"
   },
   "nickel-alloy-200-201-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "nickel-alloy-200-201-coils-supplier-mumbai"
   },
   "nickel-alloy-200-201-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "nickel-alloy-200-201-coils-supplier-mumbai"
   },
   "monel-400-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "monel-400-coils-supplier-mumbai"
   },
   "monel-400-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "monel-400-coils-supplier-mumbai"
   },
   "inconel-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-coils-supplier-mumbai"
   },
   "inconel-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-coils-supplier-mumbai"
   },
   "incoloy-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "incoloy-coils-supplier-mumbai"
   },
   "incoloy-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "incoloy-coils-supplier-mumbai"
   },
   "hastelloy-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-coils-supplier-mumbai"
   },
   "hastelloy-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-coils-supplier-mumbai"
   },
   "duplex-super-duplex-steel-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "duplex-super-duplex-steel-coils-stockist-mumbai"
   },
   "duplex-super-duplex-steel-coils-stockist-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "duplex-super-duplex-steel-coils-stockist-mumbai"
   },
   "copper-nickel-coils": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "copper-nickel-coils-supplier-mumbai"
   },
   "copper-nickel-coils-supplier-mumbai": {
-    "categorySlug": "coils",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "copper-nickel-coils-supplier-mumbai"
   },
   "inconel-660a-fasteners": {
@@ -664,523 +592,523 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "canonicalSlug": "nimonic-alloys-80a-fasteners-manufacturer-mumbai"
   },
   "inconel-600-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-600-flanges-manufacturer-mumbai"
   },
   "inconel-600-flanges-manufacturer-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-600-flanges-manufacturer-mumbai"
   },
   "inconel-601-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-601-flanges-stockist-mumbai"
   },
   "inconel-601-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-601-flanges-stockist-mumbai"
   },
   "inconel-625-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-625-flanges-manufacturer-mumbai"
   },
   "inconel-625-flanges-manufacturer-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-625-flanges-manufacturer-mumbai"
   },
   "inconel-718-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-718-flanges-stockist-mumbai"
   },
   "inconel-718-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-718-flanges-stockist-mumbai"
   },
   "incoloy-800-800h-800ht-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "incoloy-800-800h-800ht-flanges-stockist-mumbai"
   },
   "incoloy-800-800h-800ht-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "incoloy-800-800h-800ht-flanges-stockist-mumbai"
   },
   "incoloy-825-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "incoloy-825-flanges-manufacturer-mumbai"
   },
   "incoloy-825-flanges-manufacturer-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "incoloy-825-flanges-manufacturer-mumbai"
   },
   "hastelloy-c22-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "hastelloy-c22-flanges-stockist-mumbai"
   },
   "hastelloy-c22-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "hastelloy-c22-flanges-stockist-mumbai"
   },
   "hastelloy-c276-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "hastelloy-c276-flanges-supplier-mumbai"
   },
   "hastelloy-c276-flanges-supplier-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "hastelloy-c276-flanges-supplier-mumbai"
   },
   "monel-400-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "monel-400-flanges-stockist-mumbai"
   },
   "monel-400-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "monel-400-flanges-stockist-mumbai"
   },
   "monel-k500-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "monel-k500-flanges-stockist-mumbai"
   },
   "monel-k500-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "monel-k500-flanges-stockist-mumbai"
   },
   "nickel-200-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "nickel-200-flanges-stockist-mumbai"
   },
   "nickel-200-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "nickel-200-flanges-stockist-mumbai"
   },
   "nickel-201-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "nickel-201-flanges-stockist-mumbai"
   },
   "nickel-201-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "nickel-201-flanges-stockist-mumbai"
   },
   "alloy-steel-f1-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f1-flanges-stockist-mumbai"
   },
   "alloy-steel-f1-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f1-flanges-stockist-mumbai"
   },
   "alloy-steel-f5-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f5-flanges-stockist-mumbai"
   },
   "alloy-steel-f5-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f5-flanges-stockist-mumbai"
   },
   "alloy-steel-f12-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f12-flanges-stockist-mumbai"
   },
   "alloy-steel-f12-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f12-flanges-stockist-mumbai"
   },
   "alloy-steel-f22-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f22-flanges-stockist-mumbai"
   },
   "alloy-steel-f22-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f22-flanges-stockist-mumbai"
   },
   "alloy-steel-f91-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f91-flanges-stockist-mumbai"
   },
   "alloy-steel-f91-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f91-flanges-stockist-mumbai"
   },
   "alloy-steel-f92-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f92-flanges-stockist-mumbai"
   },
   "alloy-steel-f92-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f92-flanges-stockist-mumbai"
   },
   "titanium-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "titanium-flanges-manufacturer-mumbai"
   },
   "titanium-flanges-manufacturer-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "titanium-flanges-manufacturer-mumbai"
   },
   "stainless-steel-304-304l-304h-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-304-304l-304h-flanges-stockist-mumbai"
   },
   "stainless-steel-304-304l-304h-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-304-304l-304h-flanges-stockist-mumbai"
   },
   "stainless-steel-310-310s-310h-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-310-310s-310h-flanges-stockist-mumbai"
   },
   "stainless-steel-310-310s-310h-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-310-310s-310h-flanges-stockist-mumbai"
   },
   "stainless-steel-316-316l-316ti-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-316-316l-316ti-flanges-stockist-mumbai"
   },
   "stainless-steel-316-316l-316ti-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-316-316l-316ti-flanges-stockist-mumbai"
   },
   "stainless-steel-317-317l-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-317-317l-flanges-stockist-mumbai"
   },
   "stainless-steel-317-317l-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-317-317l-flanges-stockist-mumbai"
   },
   "stainless-steel-321-321h-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-321-321h-flanges-stockist-mumbai"
   },
   "stainless-steel-321-321h-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-321-321h-flanges-stockist-mumbai"
   },
   "stainless-steel-347-347h-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-347-347h-flanges-stockist-mumbai"
   },
   "stainless-steel-347-347h-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-347-347h-flanges-stockist-mumbai"
   },
   "stainless-steel-904l-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-904l-flanges-stockist-mumbai"
   },
   "stainless-steel-904l-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-904l-flanges-stockist-mumbai"
   },
   "duplex-steel-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "duplex-steel-flanges-manufacturer-mumbai"
   },
   "duplex-steel-flanges-manufacturer-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "duplex-steel-flanges-manufacturer-mumbai"
   },
   "super-duplex-steel-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "super-duplex-steel-flanges-manufacturer-mumbai"
   },
   "super-duplex-steel-flanges-manufacturer-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "super-duplex-steel-flanges-manufacturer-mumbai"
   },
   "carbon-steel-a105-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a105-flanges-stockist-mumbai"
   },
   "carbon-steel-a105-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a105-flanges-stockist-mumbai"
   },
   "carbon-steel-a350-lf2-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a350-lf2-flanges-stockist-mumbai"
   },
   "carbon-steel-a350-lf2-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a350-lf2-flanges-stockist-mumbai"
   },
   "carbon-steel-a694-flanges": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a694-flanges-stockist-mumbai"
   },
   "carbon-steel-a694-flanges-stockist-mumbai": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a694-flanges-stockist-mumbai"
   },
   "nickel-200-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "nickel-200-forged-fittings-supplier-mumbai"
   },
   "nickel-200-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "nickel-200-forged-fittings-supplier-mumbai"
   },
   "nickel-201-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "nickel-201-forged-fittings-manufacturer-mumbai"
   },
   "nickel-201-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "nickel-201-forged-fittings-manufacturer-mumbai"
   },
   "monel-400-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "monel-400-forged-fittings-manufacturer-mumbai"
   },
   "monel-400-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "monel-400-forged-fittings-manufacturer-mumbai"
   },
   "monel-k500-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "monel-k500-forged-fittings-supplier-mumbai"
   },
   "monel-k500-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "monel-k500-forged-fittings-supplier-mumbai"
   },
   "inconel-600-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-600-forged-fittings-manufacturer-mumbai"
   },
   "inconel-600-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-600-forged-fittings-manufacturer-mumbai"
   },
   "inconel-601-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-601-forged-fittings-manufacturer-mumbai"
   },
   "inconel-601-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-601-forged-fittings-manufacturer-mumbai"
   },
   "inconel-625-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-625-forged-fittings-supplier-mumbai"
   },
   "inconel-625-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "inconel-625-forged-fittings-supplier-mumbai"
   },
   "incoloy-800-800h-800ht-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "incoloy-800-800h-800ht-forged-fittings-manufacturer-mumbai"
   },
   "incoloy-800-800h-800ht-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "incoloy-800-800h-800ht-forged-fittings-manufacturer-mumbai"
   },
   "hastelloy-c22-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "hastelloy-c22-forged-fittings-manufacturer-mumbai"
   },
   "hastelloy-c22-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "hastelloy-c22-forged-fittings-manufacturer-mumbai"
   },
   "hastelloy-c276-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "hastelloy-c276-forged-fittings-supplier-mumbai"
   },
   "hastelloy-c276-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "hastelloy-c276-forged-fittings-supplier-mumbai"
   },
   "stainless-steel-304-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-304-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-304-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-304-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-310-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-310-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-310-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-310-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-316-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-316-forged-fittings-supplier-mumbai"
   },
   "stainless-steel-316-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-316-forged-fittings-supplier-mumbai"
   },
   "stainless-steel-317-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-317-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-317-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-317-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-321-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-321-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-321-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-321-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-347-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-347-forged-fittings-supplier-mumbai"
   },
   "stainless-steel-347-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-347-forged-fittings-supplier-mumbai"
   },
   "stainless-steel-904l-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-904l-forged-fittings-manufacturer-mumbai"
   },
   "stainless-steel-904l-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-904l-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f1-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f1-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f1-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f1-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f5-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f5-forged-fittings-supplier-mumbai"
   },
   "alloy-steel-f5-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f5-forged-fittings-supplier-mumbai"
   },
   "alloy-steel-f9-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f9-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f9-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f9-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f11-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f11-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f11-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f11-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f12-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f12-forged-fittings-supplier-mumbai"
   },
   "alloy-steel-f12-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f12-forged-fittings-supplier-mumbai"
   },
   "alloy-steel-f22-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f22-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f22-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f22-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f91-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f91-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f91-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f91-forged-fittings-manufacturer-mumbai"
   },
   "alloy-steel-f92-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f92-forged-fittings-supplier-mumbai"
   },
   "alloy-steel-f92-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "alloy-steel-f92-forged-fittings-supplier-mumbai"
   },
   "duplex-s31803-s32205-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "duplex-s31803-s32205-forged-fittings-manufacturer-mumbai"
   },
   "duplex-s31803-s32205-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "duplex-s31803-s32205-forged-fittings-manufacturer-mumbai"
   },
   "duplex-s32750-s32760-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "duplex-s32750-s32760-forged-fittings-manufacturer-mumbai"
   },
   "duplex-s32750-s32760-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "duplex-s32750-s32760-forged-fittings-manufacturer-mumbai"
   },
   "super-duplex-s32950-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "super-duplex-s32950-forged-fittings-supplier-mumbai"
   },
   "super-duplex-s32950-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "super-duplex-s32950-forged-fittings-supplier-mumbai"
   },
   "carbon-steel-a105-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a105-forged-fittings-manufacturer-mumbai"
   },
   "carbon-steel-a105-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a105-forged-fittings-manufacturer-mumbai"
   },
   "carbon-steel-a350-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a350-forged-fittings-manufacturer-mumbai"
   },
   "carbon-steel-a350-forged-fittings-manufacturer-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a350-forged-fittings-manufacturer-mumbai"
   },
   "carbon-steel-a694-forged-fittings": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a694-forged-fittings-supplier-mumbai"
   },
   "carbon-steel-a694-forged-fittings-supplier-mumbai": {
-    "categorySlug": "forged-fittings",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "carbon-steel-a694-forged-fittings-supplier-mumbai"
   },
   "stainless-steel-circles": {
-    "categorySlug": "circles",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "stainless-steel-circles-manufacturer-mumbai"
   },
   "stainless-steel-circles-manufacturer-mumbai": {
-    "categorySlug": "circles",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "stainless-steel-circles-manufacturer-mumbai"
   },
   "machined-forged-circles": {
-    "categorySlug": "circles",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "machined-forged-circles-manufacturer-mumbai"
   },
   "machined-forged-circles-manufacturer-mumbai": {
-    "categorySlug": "circles",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "machined-forged-circles-manufacturer-mumbai"
   },
   "specialty-industrial-circles": {
-    "categorySlug": "circles",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "specialty-industrial-circles-supplier-mumbai"
   },
   "specialty-industrial-circles-supplier-mumbai": {
-    "categorySlug": "circles",
+    "categorySlug": "circles/rings",
     "canonicalSlug": "specialty-industrial-circles-supplier-mumbai"
   },
   "titanium-grade-1-bars-rods": {
@@ -1736,307 +1664,307 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "canonicalSlug": "carbon-steel-a1018-round-bars-stockist-mumbai"
   },
   "inconel-600-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-600-sheets-plates-supplier-mumbai"
   },
   "inconel-600-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-600-sheets-plates-supplier-mumbai"
   },
   "inconel-601-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-601-sheets-plates-supplier-mumbai"
   },
   "inconel-601-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-601-sheets-plates-supplier-mumbai"
   },
   "inconel-625-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-625-sheets-plates-supplier-mumbai"
   },
   "inconel-625-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-625-sheets-plates-supplier-mumbai"
   },
   "inconel-660a-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-660a-sheets-plates-supplier-mumbai"
   },
   "inconel-660a-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-660a-sheets-plates-supplier-mumbai"
   },
   "inconel-718-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-718-sheets-plates-supplier-mumbai"
   },
   "inconel-718-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-718-sheets-plates-supplier-mumbai"
   },
   "inconel-x750-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-x750-sheets-plates-supplier-mumbai"
   },
   "inconel-x750-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-x750-sheets-plates-supplier-mumbai"
   },
   "inconel-800ht-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-800ht-sheets-plates-supplier-mumbai"
   },
   "inconel-800ht-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-800ht-sheets-plates-supplier-mumbai"
   },
   "inconel-825-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-825-sheets-plates-supplier-mumbai"
   },
   "inconel-825-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-825-sheets-plates-supplier-mumbai"
   },
   "inconel-925-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-925-sheets-plates-supplier-mumbai"
   },
   "inconel-925-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "inconel-925-sheets-plates-supplier-mumbai"
   },
   "hastelloy-c22-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-c22-sheets-plates-supplier-mumbai"
   },
   "hastelloy-c22-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-c22-sheets-plates-supplier-mumbai"
   },
   "hastelloy-c276-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-c276-sheets-plates-supplier-mumbai"
   },
   "hastelloy-c276-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-c276-sheets-plates-supplier-mumbai"
   },
   "hastelloy-x-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-x-sheets-plates-supplier-mumbai"
   },
   "hastelloy-x-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-x-sheets-plates-supplier-mumbai"
   },
   "hastelloy-b2-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-b2-sheets-plates-supplier-mumbai"
   },
   "hastelloy-b2-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "hastelloy-b2-sheets-plates-supplier-mumbai"
   },
   "monel-400-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "monel-400-sheets-plates-supplier-mumbai"
   },
   "monel-400-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "monel-400-sheets-plates-supplier-mumbai"
   },
   "monel-k500-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "monel-k500-sheets-plates-supplier-mumbai"
   },
   "monel-k500-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "monel-k500-sheets-plates-supplier-mumbai"
   },
   "nickel-200-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "nickel-200-sheets-plates-supplier-mumbai"
   },
   "nickel-200-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "nickel-200-sheets-plates-supplier-mumbai"
   },
   "nickel-201-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "nickel-201-sheets-plates-supplier-mumbai"
   },
   "nickel-201-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "nickel-201-sheets-plates-supplier-mumbai"
   },
   "titanium-gr-1-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-1-sheets-plates-supplier-mumbai"
   },
   "titanium-gr-1-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-1-sheets-plates-supplier-mumbai"
   },
   "titanium-gr-2-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-2-sheets-plates-supplier-mumbai"
   },
   "titanium-gr-2-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-2-sheets-plates-supplier-mumbai"
   },
   "titanium-gr-4-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-4-sheets-plates-supplier-mumbai"
   },
   "titanium-gr-4-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-4-sheets-plates-supplier-mumbai"
   },
   "titanium-gr-5-eli-ti6al4v-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-5-eli-ti6al4v-sheets-plates-stockist-mumbai"
   },
   "titanium-gr-5-eli-ti6al4v-sheets-plates-stockist-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-5-eli-ti6al4v-sheets-plates-stockist-mumbai"
   },
   "titanium-gr-7-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-7-sheets-plates-supplier-mumbai"
   },
   "titanium-gr-7-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "titanium-gr-7-sheets-plates-supplier-mumbai"
   },
   "cu-ni-90-10-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "cu-ni-90-10-sheets-plates-supplier-mumbai"
   },
   "cu-ni-90-10-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "cu-ni-90-10-sheets-plates-supplier-mumbai"
   },
   "cu-ni-70-30-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "cu-ni-70-30-sheets-plates-supplier-mumbai"
   },
   "cu-ni-70-30-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "cu-ni-70-30-sheets-plates-supplier-mumbai"
   },
   "alloy-20-carpenter-20-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "alloy-20-carpenter-20-sheets-plates-supplier-mumbai"
   },
   "alloy-20-carpenter-20-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "alloy-20-carpenter-20-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-304-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-304-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-304-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-304-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-304l-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-304l-sheets-plates-stockist-mumbai"
   },
   "stainless-steel-304l-sheets-plates-stockist-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-304l-sheets-plates-stockist-mumbai"
   },
   "stainless-steel-310-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-310-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-310-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-310-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-316-316l-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-316-316l-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-316-316l-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-316-316l-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-317-317l-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-317-317l-sheets-plates-stockist-mumbai"
   },
   "stainless-steel-317-317l-sheets-plates-stockist-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-317-317l-sheets-plates-stockist-mumbai"
   },
   "stainless-steel-347-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-347-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-347-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-347-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-904l-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-904l-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-904l-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-904l-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-410-420-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-410-420-sheets-plates-stockist-mumbai"
   },
   "stainless-steel-410-420-sheets-plates-stockist-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-410-420-sheets-plates-stockist-mumbai"
   },
   "stainless-steel-422-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-422-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-422-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-422-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-15-5-ph-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-15-5-ph-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-15-5-ph-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-15-5-ph-sheets-plates-supplier-mumbai"
   },
   "stainless-steel-17-4-ph-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-17-4-ph-sheets-plates-stockist-mumbai"
   },
   "stainless-steel-17-4-ph-sheets-plates-stockist-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "stainless-steel-17-4-ph-sheets-plates-stockist-mumbai"
   },
   "duplex-steel-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "duplex-steel-sheets-plates-supplier-mumbai"
   },
   "duplex-steel-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "duplex-steel-sheets-plates-supplier-mumbai"
   },
   "super-duplex-steel-sheets-plates": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "super-duplex-steel-sheets-plates-supplier-mumbai"
   },
   "super-duplex-steel-sheets-plates-supplier-mumbai": {
-    "categorySlug": "sheets-plates",
+    "categorySlug": "sheets/plate/coil",
     "canonicalSlug": "super-duplex-steel-sheets-plates-supplier-mumbai"
   },
   "titanium-wires": {
@@ -2134,22 +2062,6 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
   "copper-nickel-wires-supplier-mumbai": {
     "categorySlug": "wires",
     "canonicalSlug": "copper-nickel-wires-supplier-mumbai"
-  },
-  "stainless-duplex-steel-valves": {
-    "categorySlug": "valves",
-    "canonicalSlug": "stainless-duplex-steel-valves-stockist-mumbai"
-  },
-  "stainless-duplex-steel-valves-stockist-mumbai": {
-    "categorySlug": "valves",
-    "canonicalSlug": "stainless-duplex-steel-valves-stockist-mumbai"
-  },
-  "industrial-valves": {
-    "categorySlug": "valves",
-    "canonicalSlug": "industrial-valves-supplier-mumbai"
-  },
-  "industrial-valves-supplier-mumbai": {
-    "categorySlug": "valves",
-    "canonicalSlug": "industrial-valves-supplier-mumbai"
   },
   "high-performance-alloy-pipes": {
     "categorySlug": "pipes-tubes",
@@ -2472,15 +2384,23 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "canonicalSlug": "stainless-steel-310s-pipes-supplier-mumbai"
   },
   "stainless-flange-316-l": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-316-316l-316ti-flanges-stockist-mumbai"
   },
   "stainless-flange-316l": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-316-316l-316ti-flanges-stockist-mumbai"
   },
   "stainless-flanges-316l": {
-    "categorySlug": "flanges",
+    "categorySlug": "flanges/forged-fittings",
     "canonicalSlug": "stainless-steel-316-316l-316ti-flanges-stockist-mumbai"
-  }
+  },
+  "flat-plate": {
+    "categorySlug": "angle-channels/flat-plate",
+    "canonicalSlug": "flat-plate-supplier-mumbai"
+  },
+  "flat-plate-supplier-mumbai": {
+    "categorySlug": "angle-channels/flat-plate",
+    "canonicalSlug": "flat-plate-supplier-mumbai"
+  },
 };

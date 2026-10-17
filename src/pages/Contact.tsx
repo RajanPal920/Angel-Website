@@ -60,61 +60,34 @@ const Contact: React.FC = () => {
   return (
     <div className="min-h-screen bg-white pb-16">
       {/* ============================================================ */}
-      {/* HERO SECTION - DESKTOP */}
+      {/* HERO BANNER SECTION (RESPONSIVE) */}
       {/* ============================================================ */}
-      <div className="hidden md:flex relative w-full h-[85vh] items-center justify-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
+      <div className="relative w-full min-h-[280px] sm:min-h-[340px] md:h-[380px] lg:h-[630px] flex items-center justify-center bg-slate-900 overflow-hidden">
         <img
           src="/img/home/contact.png"
-          alt="Contact Us Hero"
+          alt="Contact Angel Metal India"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#052A63]/80 via-[#052A63]/10 to-transparent"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-[#052A63]/60 via-transparent to-transparent"></div>
 
-        <div className="relative z-10 text-center px-4">
-          <span className="inline-block bg-[#D71920] text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-4">
-            Get In Touch
-          </span>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 uppercase tracking-tight">
-            Contact <span className="text-[#D71920]">Us</span>
-          </h1>
-          <div className="h-[3px] w-24 bg-[#D71920] mx-auto mb-6"></div>
-          <p className="max-w-2xl mx-auto text-white/90 text-sm md:text-lg">
-            We are here to help with all your metal requirements. Reach out to
-            our expert team today for quotes, specifications, and support.
-          </p>
+        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto py-8 sm:py-10 flex justify-center">
+          <div className="hero-text-box hero-animate-heading mx-auto text-center items-center max-w-2xl">
+            <span className="inline-block bg-[#D71920] text-white text-[11px] sm:text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-3">
+              Get In Touch
+            </span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-3 uppercase tracking-tight">
+              Contact <span className="text-[#D71920]">Us</span>
+            </h1>
+            <div className="h-[3px] w-16 sm:w-20 bg-[#D71920] mx-auto mb-3.5"></div>
+            <p className="max-w-xl mx-auto text-slate-100 text-xs sm:text-sm capitalize md:text-base font-medium leading-relaxed">
+              We are here to help with all your metal requirements. Reach out to
+              our expert team today for quotes, specifications, and support.
+            </p>
+          </div>
         </div>
 
-        <div className="hidden lg:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-white/50 animate-bounce z-20">
-          <span className="text-xs tracking-widest uppercase">Scroll</span>
-          <ChevronDown className="w-5 h-5" />
-        </div>
-      </div>
-
-      {/* ============================================================ */}
-      {/* HERO SECTION - MOBILE (SINGLE IMAGE WITH OVERLAY) */}
-      {/* ============================================================ */}
-      <div className="md:hidden relative w-full min-h-[240px] py-10 flex items-center justify-center bg-gradient-to-br from-[#052A63] via-[#0A3D91] to-[#052A63] overflow-hidden">
-        <img
-          src="/img/home/contact.png"
-          alt="Contact Us Hero"
-          className="absolute inset-0 w-full h-full object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#052A63]/80 via-[#052A63]/10 to-transparent"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-[#052A63]/60 via-transparent to-transparent"></div>
-
-        <div className="relative z-10 text-center px-4">
-          <span className="inline-block bg-[#D71920] text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-3">
-            Get In Touch
-          </span>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-white mb-3 uppercase tracking-tight">
-            Contact <span className="text-[#D71920]">Us</span>
-          </h1>
-          <div className="h-[3px] w-20 bg-[#D71920] mx-auto mb-4"></div>
-          <p className="max-w-2xl mx-auto text-white/90 text-xs sm:text-sm">
-            We are here to help with all your metal requirements. Reach out to
-            our expert team today for quotes, specifications, and support.
-          </p>
+        <div className="hidden lg:flex absolute bottom-6 left-1/2 -translate-x-1/2 flex-col items-center gap-1.5 text-white/80 animate-bounce z-20 pointer-events-none">
+          <span className="text-[11px] font-semibold tracking-widest uppercase">Scroll</span>
+          <ChevronDown className="w-4 h-4" />
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">

@@ -32,44 +32,45 @@ const Certificates: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50 pb-16">
       {/* ===== HERO BANNER SECTION ===== */}
-      <div className="relative min-h-[45vh] md:h-[80vh] lg:h-[85vh]">
+      <div className="relative min-h-[280px] sm:min-h-[340px] md:h-[380px] lg:h-[630px] bg-slate-900 overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
             src={heroImage}
-            alt="Industrial materials"
-            className="w-full h-full object-cover"
+            alt="Angel Metal India Quality Certifications"
+            className="w-full h-full object-cover object-center lg:object-[center_right]"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/40" />
         </div>
-        <div className="relative container mx-auto px-4 max-w-7xl py-16 sm:py-20 md:py-32 lg:py-40 h-full flex flex-col justify-center">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="w-10 h-[3px] bg-[#E52713]" />
-            <span className="text-[#E52713] font-semibold tracking-[0.3em] uppercase text-sm">
-              Certifications
-            </span>
-          </div>
-
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4">
-            Our Certificates
-          </h1>
-
-          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mb-6 sm:mb-8">
-            We are committed to delivering the highest quality products. View
-            and download our official certificates below.
-          </p>
-
-          <div className="flex flex-wrap items-center gap-4 sm:gap-8">
-            <div className="flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-[#E52713]" />
-              <span className="text-white font-medium text-base sm:text-lg">
-                {certificatesData.length} Certificates
+        <div className="relative container mx-auto px-4 sm:px-6 max-w-7xl py-10 sm:py-12 w-full flex flex-col justify-center">
+          <div className="hero-text-box hero-animate-heading max-w-2xl">
+            <div className="flex items-center gap-3 mb-2 sm:mb-3">
+              <span className="w-10 h-[3px] bg-[#E52713]" />
+              <span className="text-[#E52713] font-bold tracking-[0.3em] uppercase text-xs sm:text-sm">
+                Certifications
               </span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-[#E52713]" />
-              <span className="text-white font-medium text-base sm:text-lg">
-                Quality Assured
-              </span>
+
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-2 sm:mb-3">
+              Our Certificates
+            </h1>
+
+            <p className="text-sm sm:text-base text-slate-100 font-medium max-w-xl mb-4 sm:mb-5 leading-relaxed capitalize">
+              We are committed to delivering the highest quality products. View
+              and download our official certificates below.
+            </p>
+
+            <div className="flex flex-wrap items-center gap-4 sm:gap-7">
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#E52713]" />
+                <span className="text-white font-bold text-xs sm:text-sm">
+                  {certificatesData.length} Certificates
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#E52713]" />
+                <span className="text-white font-bold text-xs sm:text-sm">
+                  Quality Assured
+                </span>
+              </div>
             </div>
           </div>
         </div>

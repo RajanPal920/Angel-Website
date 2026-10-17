@@ -495,21 +495,6 @@ const materials: Material[] = [
         image: "/stock/stainless-steel-410-forgings.jpg",
       },
       {
-        slug: "stainless-steel-17-4-ph-forgings",
-        title:
-          "Stainless Steel 17-4 PH Forging Manufacturer & Supplier - ASTM A705 / ASME SA-705",
-        shortDescription:
-          "Premium Stainless Steel 17-4 PH (UNS S17400 / AISI 630) forgings manufacturer, supplier, and exporter from Mumbai, India. Precipitation-hardening martensitic stainless steel with 15.00-17.50% Chromium, 3.00-5.00% Nickel, and Copper addition for age-hardening. Supplied in Condition A (solution annealed) or aged to H900 through H1150, offering tensile strength from 930 MPa to 1310 MPa for valve trim, pump shafts, aerospace fittings, and oilfield hardware.",
-        image: "/stock/stainless-steel-17-4-ph-forgings.jpg",
-      },
-      // {
-      //   slug: "stainless-duplex-steel-forged-fittings",
-      //   title: "Stainless & Duplex Steel Forged Fittings",
-      //   shortDescription:
-      //     "ASTM A182 F304L, F316L, F321, F347, 904L / Duplex F51, F53, F60 / Super Duplex F55 Structural Branch Connections & Sockolets.",
-      //   image: "/stock/carbon-alloy-steel-forged-fittings.jpg",
-      // },
-      {
         slug: "stainless-steel-304-bars-rods",
         title: "Stainless Steel 304 Bars & Rods Supplier - UNS S30400 (1.4301)",
         shortDescription:
@@ -1499,66 +1484,66 @@ const materials: Material[] = [
       "Good mechanical properties",
     ],
     items: buildItemsWithImages([
-     {
-    "slug": "monel-pipe-fittings",
-    "title": "Monel Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-    "shortDescription": "Premium Monel pipe fittings manufacturer, stockist, supplier and exporter based in Mumbai, active in nickel alloy piping since 2013. Production covers butt-weld elbows, tees, reducers, caps and stub ends to ASTM B366 / ASME SB-366 in grade WPNC, dimensioned under ASME B16.9, with MSS SP-43 for lightweight walls, plus forged socket-weld and threaded pieces to ASME B16.11 from ASTM B564 forgings. Available in Monel 400 (UNS N04400) grade. Seamless fittings span 1/2 inch to 10 inch NB, welded construction extends coverage to 48 inch NB, and schedules run SCH 5 through SCH XXS.",
-    "image": "/stock/titanium-buttweld-fittings.jpg"
-    },
-  {
-    "slug": "monel-fasteners",
-    "title": "Monel Fasteners Manufacturer & Supplier - ASTM F468 / F467 / B164 / B865",
-    "shortDescription": "Premium Monel fasteners manufacturer, stockist and exporter based in Mumbai, India, operating since 2013. Monel fasteners are nickel-copper alloy fasteners machined from bar. Monel 400 bar supplied to ASTM B164 / ASME SB-164, and Monel K500 bar supplied to ASTM B865. The range includes Monel 400, which contains a minimum of 63% nickel and 28 to 34% copper, and Monel K500, which contains aluminium and titanium and can be age-hardened for higher-strength applications. Certified sizes run from 1/4 in to 1-1/2 in under ASTM F468/F467 and M6 to M36 under metric companions.",
-    "image": "/stock/monel-fasteners.jpg"
-  },
-   {
-    "slug": "monel-flanges",
-    "title": "Monel Flanges Manufacturer & Supplier - ASTM B564 / ASME SB-564",
-    "shortDescription": "Premium Monel flanges manufacturer, stockist and exporter operating from Mumbai, India since 2013. Alloy 400 forgings certified to ASTM B564 / ASME SB-564, while K500 orders supplied to ASTM B865 / ASME SB-865. Monel flanges are nickel-copper alloy flanges containing roughly 67% nickel, providing strong resistance to corrosion in rapidly flowing seawater, brine, hydrofluoric acid and alkaline service. Available in Monel 400 (UNS N04400) and Monel K500 (UNS N05500) grades. Supply spans NPS 1/2\" to 48\" (DN 15 to DN 1200) with Classes 150 to 2500.",
-    "image": "/stock/steel-flanges-types.jpg"
-  },
-  // {
-  //   "slug": "monel-forged-fittings",
-  //   "title": "Monel Forged Fittings",
-  //   "shortDescription": "Monel 400, Monel K500 Forged Threaded Caps, Bosses, and Reducing Inserts Built for High-Salinity Marine Piping.",
-  //   "image": "/stock/monel-forged-fittings.jpg"
-  // },
-   {
-    "slug": "monel-400-bars-rods",
-    "title": "Monel 400 Bars & Rods Supplier - UNS N04400 (2.4360)",
-    "shortDescription": "Premium Monel 400 (UNS N04400 / 2.4360) bars and rods, the nickel-copper alloy offering exceptional corrosion resistance in marine, chemical, and acid environments. Manufactured to ASTM B164 and ASME SB164 standards for marine engineering, chemical processing, and high-performance applications.",
-    "image": "/stock/monel-400-bars.jpg"
-  },
-  {
-    "slug": "monel-k500-bars-rods",
-    "title": "Monel K500 Bars & Rods Supplier - UNS N05500 (2.4375)",
-    "shortDescription": "Premium Monel K500 (UNS N05500 / 2.4375) bars and rods, the precipitation-hardenable nickel-copper alloy offering high strength, excellent corrosion resistance, and good ductility. Manufactured to ASTM B865 and ASME SB865 standards for marine engineering, chemical processing, and high-performance applications.",
-    "image": "/stock/monel-k500-bars.jpg"
-  },
-  {
-    "slug": "monel-400-sheets-plates",
-    "title": "Monel 400 Sheets & Plates Supplier - UNS N04400 (2.4360)",
-    "shortDescription": "Premium Monel 400 (UNS N04400 / 2.4360) sheets and plates, the nickel-copper alloy offering exceptional corrosion resistance in marine, chemical, and acid environments. Manufactured to ASTM B127 and ASME SB127 standards for marine engineering, chemical processing, and high-performance applications.",
-    "image": "/stock/monel-400-sheets-plates.jpg"
-  },
-  {
-    "slug": "monel-k500-sheets-plates",
-    "title": "Monel K500 Sheets & Plates Supplier - UNS N05500 (2.4375)",
-    "shortDescription": "Premium Monel K500 (UNS N05500 / 2.4375) sheets and plates, the precipitation-hardenable nickel-copper alloy offering high strength, excellent corrosion resistance, and good ductility. Manufactured to ASTM B127 and ASME SB127 standards for marine engineering, chemical processing, and high-performance applications.",
-    "image": "/stock/monel-k500-sheets-plates.jpg"
-  },
-   {
-    "slug": "monel-400-pipes",
-    "title": "Monel 400 Pipes Supplier – UNS N04400 / 2.4360",
-    "shortDescription": "Solid-solution nickel-copper alloy pipes offering high strength and toughness over a wide temperature range. Features minimum 63% Nickel and 28-34% Copper. Manufactured to ASTM B165, B725 and ASME SB165, SB725 standards.",
-    "image": "/stock/monel-400-pipes.jpg"
-  },
-  {
-    "slug": "monel-pipes",
-    "title": "Monel Pipes Supplier – Monel 400 & Monel K500",
-    "shortDescription": "Nickel-copper-based solid-solution alloy pipes renowned for high strength and excellent resistance to a wide range of corrosive environments. Available in Monel 400 (UNS N04400) and Monel K500 (UNS N05500). Manufactured to ASTM B165, B725 and ASME SB165, SB725 standards.",
-    "image": "/stock/monel-pipes.jpg"
-  }
+      {
+        "slug": "monel-pipe-fittings",
+        "title": "Monel Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
+        "shortDescription": "Premium Monel pipe fittings manufacturer, stockist, supplier and exporter based in Mumbai, active in nickel alloy piping since 2013. Production covers butt-weld elbows, tees, reducers, caps and stub ends to ASTM B366 / ASME SB-366 in grade WPNC, dimensioned under ASME B16.9, with MSS SP-43 for lightweight walls, plus forged socket-weld and threaded pieces to ASME B16.11 from ASTM B564 forgings. Available in Monel 400 (UNS N04400) grade. Seamless fittings span 1/2 inch to 10 inch NB, welded construction extends coverage to 48 inch NB, and schedules run SCH 5 through SCH XXS.",
+        "image": "/stock/titanium-buttweld-fittings.jpg"
+      },
+      {
+        "slug": "monel-fasteners",
+        "title": "Monel Fasteners Manufacturer & Supplier - ASTM F468 / F467 / B164 / B865",
+        "shortDescription": "Premium Monel fasteners manufacturer, stockist and exporter based in Mumbai, India, operating since 2013. Monel fasteners are nickel-copper alloy fasteners machined from bar. Monel 400 bar supplied to ASTM B164 / ASME SB-164, and Monel K500 bar supplied to ASTM B865. The range includes Monel 400, which contains a minimum of 63% nickel and 28 to 34% copper, and Monel K500, which contains aluminium and titanium and can be age-hardened for higher-strength applications. Certified sizes run from 1/4 in to 1-1/2 in under ASTM F468/F467 and M6 to M36 under metric companions.",
+        "image": "/stock/monel-fasteners.jpg"
+      },
+      {
+        "slug": "monel-flanges",
+        "title": "Monel Flanges Manufacturer & Supplier - ASTM B564 / ASME SB-564",
+        "shortDescription": "Premium Monel flanges manufacturer, stockist and exporter operating from Mumbai, India since 2013. Alloy 400 forgings certified to ASTM B564 / ASME SB-564, while K500 orders supplied to ASTM B865 / ASME SB-865. Monel flanges are nickel-copper alloy flanges containing roughly 67% nickel, providing strong resistance to corrosion in rapidly flowing seawater, brine, hydrofluoric acid and alkaline service. Available in Monel 400 (UNS N04400) and Monel K500 (UNS N05500) grades. Supply spans NPS 1/2\" to 48\" (DN 15 to DN 1200) with Classes 150 to 2500.",
+        "image": "/stock/steel-flanges-types.jpg"
+      },
+      // {
+      //   "slug": "monel-forged-fittings",
+      //   "title": "Monel Forged Fittings",
+      //   "shortDescription": "Monel 400, Monel K500 Forged Threaded Caps, Bosses, and Reducing Inserts Built for High-Salinity Marine Piping.",
+      //   "image": "/stock/monel-forged-fittings.jpg"
+      // },
+      {
+        "slug": "monel-400-bars-rods",
+        "title": "Monel 400 Bars & Rods Supplier - UNS N04400 (2.4360)",
+        "shortDescription": "Premium Monel 400 (UNS N04400 / 2.4360) bars and rods, the nickel-copper alloy offering exceptional corrosion resistance in marine, chemical, and acid environments. Manufactured to ASTM B164 and ASME SB164 standards for marine engineering, chemical processing, and high-performance applications.",
+        "image": "/stock/monel-400-bars.jpg"
+      },
+      {
+        "slug": "monel-k500-bars-rods",
+        "title": "Monel K500 Bars & Rods Supplier - UNS N05500 (2.4375)",
+        "shortDescription": "Premium Monel K500 (UNS N05500 / 2.4375) bars and rods, the precipitation-hardenable nickel-copper alloy offering high strength, excellent corrosion resistance, and good ductility. Manufactured to ASTM B865 and ASME SB865 standards for marine engineering, chemical processing, and high-performance applications.",
+        "image": "/stock/monel-k500-bars.jpg"
+      },
+      {
+        "slug": "monel-400-sheets-plates",
+        "title": "Monel 400 Sheets & Plates Supplier - UNS N04400 (2.4360)",
+        "shortDescription": "Premium Monel 400 (UNS N04400 / 2.4360) sheets and plates, the nickel-copper alloy offering exceptional corrosion resistance in marine, chemical, and acid environments. Manufactured to ASTM B127 and ASME SB127 standards for marine engineering, chemical processing, and high-performance applications.",
+        "image": "/stock/monel-400-sheets-plates.jpg"
+      },
+      {
+        "slug": "monel-k500-sheets-plates",
+        "title": "Monel K500 Sheets & Plates Supplier - UNS N05500 (2.4375)",
+        "shortDescription": "Premium Monel K500 (UNS N05500 / 2.4375) sheets and plates, the precipitation-hardenable nickel-copper alloy offering high strength, excellent corrosion resistance, and good ductility. Manufactured to ASTM B127 and ASME SB127 standards for marine engineering, chemical processing, and high-performance applications.",
+        "image": "/stock/monel-k500-sheets-plates.jpg"
+      },
+      {
+        "slug": "monel-400-pipes",
+        "title": "Monel 400 Pipes Supplier – UNS N04400 / 2.4360",
+        "shortDescription": "Solid-solution nickel-copper alloy pipes offering high strength and toughness over a wide temperature range. Features minimum 63% Nickel and 28-34% Copper. Manufactured to ASTM B165, B725 and ASME SB165, SB725 standards.",
+        "image": "/stock/monel-400-pipes.jpg"
+      },
+      {
+        "slug": "monel-pipes",
+        "title": "Monel Pipes Supplier – Monel 400 & Monel K500",
+        "shortDescription": "Nickel-copper-based solid-solution alloy pipes renowned for high strength and excellent resistance to a wide range of corrosive environments. Available in Monel 400 (UNS N04400) and Monel K500 (UNS N05500). Manufactured to ASTM B165, B725 and ASME SB165, SB725 standards.",
+        "image": "/stock/monel-pipes.jpg"
+      }
     ]),
   },
 
@@ -1576,102 +1561,102 @@ const materials: Material[] = [
       "Biocompatibility",
     ],
     items: buildItemsWithImages([
-  {
-  "slug": "titanium-pipes",
-  "image": "/stock/titanium-pipes.jpg",
-  "title": "Titanium Pipes Supplier – Grade 2 & Grade 5",
-  "shortDescription": "Premium titanium pipes offering exceptional strength-to-weight ratio with extraordinary corrosion resistance. Available in Grade 2 (Commercially Pure) and Grade 5 (Ti-6Al-4V) alloys. Manufactured to ASTM B861, B862, B338 and ASME SB861, SB862, SB338 standards."
-   },
-   {
-  "slug": "titanium-wires",
-  "image": "/stock/titanium-wires.jpg",
-  "title": "Titanium Wires Supplier – Grade 2 & Grade 5",
-  "shortDescription": "Premium Titanium wires in Grade 2 (Commercially Pure) and Grade 5 (Ti-6Al-4V) alloys, engineered for exceptional strength-to-weight ratio, extraordinary corrosion resistance, and biocompatibility. Ideal for aerospace, medical, marine, and high-performance industrial applications. Manufactured to ASTM B863 and AWS A5.16 standards."
-   },
-   {
-  "slug": "titanium-gr-1-sheets-plates",
-  "image": "/stock/titanium-gr-1-sheets-plates.jpg",
-  "title": "Titanium Grade 1 Sheets & Plates Supplier - UNS R50250 (3.7025)",
-  "shortDescription": "Premium Titanium Grade 1 (UNS R50250 / 3.7025) sheets and plates, the softest and most ductile commercially pure titanium grade offering exceptional corrosion resistance and outstanding formability. Manufactured to ASTM B265 and ASME SB265 standards for aerospace, chemical processing, and marine applications."
-}, 
-{
-  "slug": "titanium-gr-2-sheets-plates",
-  "image": "/stock/titanium-gr-2-sheets-plates.jpg",
-  "title": "Titanium Grade 2 Sheets & Plates Supplier - UNS R50400 (3.7035)",
-  "shortDescription": "Premium Titanium Grade 2 (UNS R50400 / 3.7035) sheets and plates, the most widely used commercially pure titanium grade offering an optimal balance of strength, ductility, and exceptional corrosion resistance. Manufactured to ASTM B265 and ASME SB265 standards for chemical processing, marine, and industrial applications."
-},
-{
-  "slug": "titanium-gr-4-sheets-plates",
-  "image": "/stock/titanium-gr-4-sheets-plates.jpg",
-  "title": "Titanium Grade 4 Sheets & Plates Supplier - UNS R50700 (3.7065)",
-  "shortDescription": "Premium Titanium Grade 4 (UNS R50700 / 3.7065) sheets and plates, the strongest commercially pure titanium grade offering superior strength, good ductility, and excellent corrosion resistance. Manufactured to ASTM B265 and ASME SB265 standards for aerospace, medical, and high-performance applications."
-},
-{
-  "slug": "titanium-gr-5-eli-ti6al4v-sheets-plates",
-  "image": "/stock/titanium-gr-5-eli-ti6al4v-sheets-plates.jpg",
-  "title": "Titanium Grade 5 (Ti-6Al-4V / ELI) Sheets & Plates Supplier - UNS R56400 (3.7165)",
-  "shortDescription": "Premium Titanium Grade 5 (Ti-6Al-4V / ELI) (UNS R56400 / 3.7165) sheets and plates, the most widely used titanium alloy offering exceptional strength-to-weight ratio, excellent fatigue resistance, and superior corrosion resistance. Manufactured to ASTM B265 and ASME SB265 standards for aerospace, medical, and high-performance applications."
-},
-{
-  "slug": "titanium-gr-7-sheets-plates",
-  "image": "/stock/titanium-gr-7-sheets-plates.jpg",
-  "title": "Titanium Grade 7 Sheets & Plates Supplier - UNS R52400 (3.7235)",
-  "shortDescription": "Premium Titanium Grade 7 (UNS R52400 / 3.7235) sheets and plates, a palladium-stabilized commercially pure titanium grade offering exceptional corrosion resistance in reducing acid environments. Manufactured to ASTM B265 and ASME SB265 standards for chemical processing, marine, and high-corrosion applications."
-},
-{
-  "slug": "titanium-grade-1-bars-rods",
-  "image": "/stock/titanium-grade-1-bars.jpg",
-  "title": "Titanium Grade 1 Bars & Rods Supplier - UNS R50250 (3.7025)",
-  "shortDescription": "Premium Titanium Grade 1 (UNS R50250 / 3.7025) bars and rods engineered for exceptional corrosion resistance and superior ductility. Manufactured to ASTM B348 and ASME SB348 standards, ideal for chemical processing, marine, and aerospace applications."
-},
-{
-  "slug": "titanium-grade-2-bars-rods",
-  "image": "/stock/titanium-grade-2-bars.jpg",
-  "title": "Titanium Grade 2 Bars & Rods Supplier - UNS R50400 (3.7035)",
-  "shortDescription": "Premium Titanium Grade 2 (UNS R50400 / 3.7035) bars and rods, the most widely used commercially pure titanium grade. Manufactured to ASTM B348 and ASME SB348 standards, offering an optimal balance of strength, ductility, and exceptional corrosion resistance for industrial, marine, and chemical applications."
-},
-{
-  "slug": "titanium-grade-4-bars-rods",
-  "image": "/stock/titanium-grade-4-bars.jpg",
-  "title": "Titanium Grade 4 Bars & Rods Supplier - UNS R50700 (3.7065)",
-  "shortDescription": "High-strength Titanium Grade 4 (UNS R50700 / 3.7065) bars and rods, the strongest of the commercially pure titanium grades. Manufactured to ASTM B348 and ASME SB348 standards, offering superior strength, excellent corrosion resistance, and good formability for demanding industrial, marine, and aerospace applications."
-},
-{
-  "slug": "titanium-grade-5-eli-ti6al4v-bars-rods",
-  "image": "/stock/titanium-grade-5-bars.jpg",
-  "title": "Titanium Grade 5 (Ti-6Al-4V / ELI) Bars & Rods Supplier - UNS R56400 (3.7165)",
-  "shortDescription": "Premium Titanium Grade 5 (UNS R56400 / 3.7165 / Ti-6Al-4V) bars and rods, the most widely used titanium alloy offering exceptional strength-to-weight ratio, excellent fatigue resistance, and superior corrosion resistance. Manufactured to ASTM B348, ASME SB348, and AMS 4928 standards for aerospace, medical, and high-performance industrial applications."
-},
-{
-  "slug": "titanium-grade-7-bars-rods",
-  "image": "/stock/titanium-grade-7-bars.jpg",
-  "title": "Titanium Grade 7 Bars & Rods Supplier - UNS R52400 (3.7235)",
-  "shortDescription": "Premium Titanium Grade 7 (UNS R52400 / 3.7235) bars and rods with palladium content for enhanced corrosion resistance. Manufactured to ASTM B348 and ASME SB348 standards for chemical, marine, and industrial applications."
-},
-// {
-//   "slug": "titanium-forged-fittings",
-//   "image": "/stock/hastelloy-forged-fittings.jpg",
-//   "title": "Titanium Forged Fittings",
-//   "shortDescription": "ASTM B381 Gr. 1, Gr. 2, Gr. 5 (Ti-6Al-4V), Gr. 7 High Strength-to-Weight Threadolets and Socket Weld Fittings."
-// },
-{
-  "slug": "titanium-flanges",
-  "image": "/stock/titanium-flanges.jpg",
-  "title": "Titanium Flanges Manufacturer & Supplier - ASTM B381 / ASME SB-381",
-  "shortDescription": "Premium titanium flange manufacturer, stockist and exporter based in Mumbai, India, trading in industrial metals since 2013. Flange bodies forged to ASTM B381 / ASME SB-381, or machined from ASTM B265 / ASME SB-265 plate. Titanium flanges provide strong corrosion resistance through a stable, self-healing oxide film against seawater, chlorides and oxidising environments. Available in Titanium Grade 2 (UNS R50400) and Titanium Grade 4 (UNS R50700). Sizes range from NPS 1/2\" to 24\" in Class 150 and Class 300."
-},
-{
-  "slug": "titanium-fasteners",
-  "image": "/stock/titanium-fasteners.jpg",
-  "title": "Titanium Fasteners Manufacturer & Supplier - ASTM F468 / F467 / B348",
-  "shortDescription": "Premium titanium fasteners manufacturer, stockist and exporter based in Mumbai, India, operating since 2013. Titanium fasteners are corrosion-resistant, lightweight, and non-magnetic components supplied in commercially pure Grades 2 and 4, or alloyed Grades 5 and 7. They form a stable oxide layer providing strong resistance to seawater and chlorides. Imperial and metric bolts, screws, and studs certified to ASTM F468/F468M and F467/F467M. Diameters range from M3 to M14 in metric sizes and from #4 to 9/16 in imperial sizes."
-},
-{
-  "slug": "titanium-buttweld-fittings",
-  "image": "/stock/titanium-buttweld-fittings.jpg",
-  "title": "Titanium Pipe Fittings Manufacturer & Supplier - ASTM B363 / ASME SB-363",
-  "shortDescription": "Premium titanium pipe fittings manufacturer, stockist and exporter working out of Mumbai, India, trading titanium pipe and fittings since 2013. Certified to ASTM B363 / ASME SB-363, grade WPT1 for Titanium Grade 1 and grade WPT2 for Titanium Grade 2, with couplings machined from ASTM B348 bar. Buttweld dimensions follow ASME B16.9 and ASME B16.28. Elbows, tees and caps available from 1/2 inch to 24 inch NPS, stub ends from 1 inch to 24 inch, and reducers from 1 inch × 1/2 inch to 12 inch × 10 inch, in Schedule 10 and Schedule 40."
-}
+      {
+        "slug": "titanium-pipes",
+        "image": "/stock/titanium-pipes.jpg",
+        "title": "Titanium Pipes Supplier – Grade 2 & Grade 5",
+        "shortDescription": "Premium titanium pipes offering exceptional strength-to-weight ratio with extraordinary corrosion resistance. Available in Grade 2 (Commercially Pure) and Grade 5 (Ti-6Al-4V) alloys. Manufactured to ASTM B861, B862, B338 and ASME SB861, SB862, SB338 standards."
+      },
+      {
+        "slug": "titanium-wires",
+        "image": "/stock/titanium-wires.jpg",
+        "title": "Titanium Wires Supplier – Grade 2 & Grade 5",
+        "shortDescription": "Premium Titanium wires in Grade 2 (Commercially Pure) and Grade 5 (Ti-6Al-4V) alloys, engineered for exceptional strength-to-weight ratio, extraordinary corrosion resistance, and biocompatibility. Ideal for aerospace, medical, marine, and high-performance industrial applications. Manufactured to ASTM B863 and AWS A5.16 standards."
+      },
+      {
+        "slug": "titanium-gr-1-sheets-plates",
+        "image": "/stock/titanium-gr-1-sheets-plates.jpg",
+        "title": "Titanium Grade 1 Sheets & Plates Supplier - UNS R50250 (3.7025)",
+        "shortDescription": "Premium Titanium Grade 1 (UNS R50250 / 3.7025) sheets and plates, the softest and most ductile commercially pure titanium grade offering exceptional corrosion resistance and outstanding formability. Manufactured to ASTM B265 and ASME SB265 standards for aerospace, chemical processing, and marine applications."
+      },
+      {
+        "slug": "titanium-gr-2-sheets-plates",
+        "image": "/stock/titanium-gr-2-sheets-plates.jpg",
+        "title": "Titanium Grade 2 Sheets & Plates Supplier - UNS R50400 (3.7035)",
+        "shortDescription": "Premium Titanium Grade 2 (UNS R50400 / 3.7035) sheets and plates, the most widely used commercially pure titanium grade offering an optimal balance of strength, ductility, and exceptional corrosion resistance. Manufactured to ASTM B265 and ASME SB265 standards for chemical processing, marine, and industrial applications."
+      },
+      {
+        "slug": "titanium-gr-4-sheets-plates",
+        "image": "/stock/titanium-gr-4-sheets-plates.jpg",
+        "title": "Titanium Grade 4 Sheets & Plates Supplier - UNS R50700 (3.7065)",
+        "shortDescription": "Premium Titanium Grade 4 (UNS R50700 / 3.7065) sheets and plates, the strongest commercially pure titanium grade offering superior strength, good ductility, and excellent corrosion resistance. Manufactured to ASTM B265 and ASME SB265 standards for aerospace, medical, and high-performance applications."
+      },
+      {
+        "slug": "titanium-gr-5-eli-ti6al4v-sheets-plates",
+        "image": "/stock/titanium-gr-5-eli-ti6al4v-sheets-plates.jpg",
+        "title": "Titanium Grade 5 (Ti-6Al-4V / ELI) Sheets & Plates Supplier - UNS R56400 (3.7165)",
+        "shortDescription": "Premium Titanium Grade 5 (Ti-6Al-4V / ELI) (UNS R56400 / 3.7165) sheets and plates, the most widely used titanium alloy offering exceptional strength-to-weight ratio, excellent fatigue resistance, and superior corrosion resistance. Manufactured to ASTM B265 and ASME SB265 standards for aerospace, medical, and high-performance applications."
+      },
+      {
+        "slug": "titanium-gr-7-sheets-plates",
+        "image": "/stock/titanium-gr-7-sheets-plates.jpg",
+        "title": "Titanium Grade 7 Sheets & Plates Supplier - UNS R52400 (3.7235)",
+        "shortDescription": "Premium Titanium Grade 7 (UNS R52400 / 3.7235) sheets and plates, a palladium-stabilized commercially pure titanium grade offering exceptional corrosion resistance in reducing acid environments. Manufactured to ASTM B265 and ASME SB265 standards for chemical processing, marine, and high-corrosion applications."
+      },
+      {
+        "slug": "titanium-grade-1-bars-rods",
+        "image": "/stock/titanium-grade-1-bars.jpg",
+        "title": "Titanium Grade 1 Bars & Rods Supplier - UNS R50250 (3.7025)",
+        "shortDescription": "Premium Titanium Grade 1 (UNS R50250 / 3.7025) bars and rods engineered for exceptional corrosion resistance and superior ductility. Manufactured to ASTM B348 and ASME SB348 standards, ideal for chemical processing, marine, and aerospace applications."
+      },
+      {
+        "slug": "titanium-grade-2-bars-rods",
+        "image": "/stock/titanium-grade-2-bars.jpg",
+        "title": "Titanium Grade 2 Bars & Rods Supplier - UNS R50400 (3.7035)",
+        "shortDescription": "Premium Titanium Grade 2 (UNS R50400 / 3.7035) bars and rods, the most widely used commercially pure titanium grade. Manufactured to ASTM B348 and ASME SB348 standards, offering an optimal balance of strength, ductility, and exceptional corrosion resistance for industrial, marine, and chemical applications."
+      },
+      {
+        "slug": "titanium-grade-4-bars-rods",
+        "image": "/stock/titanium-grade-4-bars.jpg",
+        "title": "Titanium Grade 4 Bars & Rods Supplier - UNS R50700 (3.7065)",
+        "shortDescription": "High-strength Titanium Grade 4 (UNS R50700 / 3.7065) bars and rods, the strongest of the commercially pure titanium grades. Manufactured to ASTM B348 and ASME SB348 standards, offering superior strength, excellent corrosion resistance, and good formability for demanding industrial, marine, and aerospace applications."
+      },
+      {
+        "slug": "titanium-grade-5-eli-ti6al4v-bars-rods",
+        "image": "/stock/titanium-grade-5-bars.jpg",
+        "title": "Titanium Grade 5 (Ti-6Al-4V / ELI) Bars & Rods Supplier - UNS R56400 (3.7165)",
+        "shortDescription": "Premium Titanium Grade 5 (UNS R56400 / 3.7165 / Ti-6Al-4V) bars and rods, the most widely used titanium alloy offering exceptional strength-to-weight ratio, excellent fatigue resistance, and superior corrosion resistance. Manufactured to ASTM B348, ASME SB348, and AMS 4928 standards for aerospace, medical, and high-performance industrial applications."
+      },
+      {
+        "slug": "titanium-grade-7-bars-rods",
+        "image": "/stock/titanium-grade-7-bars.jpg",
+        "title": "Titanium Grade 7 Bars & Rods Supplier - UNS R52400 (3.7235)",
+        "shortDescription": "Premium Titanium Grade 7 (UNS R52400 / 3.7235) bars and rods with palladium content for enhanced corrosion resistance. Manufactured to ASTM B348 and ASME SB348 standards for chemical, marine, and industrial applications."
+      },
+      // {
+      //   "slug": "titanium-forged-fittings",
+      //   "image": "/stock/hastelloy-forged-fittings.jpg",
+      //   "title": "Titanium Forged Fittings",
+      //   "shortDescription": "ASTM B381 Gr. 1, Gr. 2, Gr. 5 (Ti-6Al-4V), Gr. 7 High Strength-to-Weight Threadolets and Socket Weld Fittings."
+      // },
+      {
+        "slug": "titanium-flanges",
+        "image": "/stock/titanium-flanges.jpg",
+        "title": "Titanium Flanges Manufacturer & Supplier - ASTM B381 / ASME SB-381",
+        "shortDescription": "Premium titanium flange manufacturer, stockist and exporter based in Mumbai, India, trading in industrial metals since 2013. Flange bodies forged to ASTM B381 / ASME SB-381, or machined from ASTM B265 / ASME SB-265 plate. Titanium flanges provide strong corrosion resistance through a stable, self-healing oxide film against seawater, chlorides and oxidising environments. Available in Titanium Grade 2 (UNS R50400) and Titanium Grade 4 (UNS R50700). Sizes range from NPS 1/2\" to 24\" in Class 150 and Class 300."
+      },
+      {
+        "slug": "titanium-fasteners",
+        "image": "/stock/titanium-fasteners.jpg",
+        "title": "Titanium Fasteners Manufacturer & Supplier - ASTM F468 / F467 / B348",
+        "shortDescription": "Premium titanium fasteners manufacturer, stockist and exporter based in Mumbai, India, operating since 2013. Titanium fasteners are corrosion-resistant, lightweight, and non-magnetic components supplied in commercially pure Grades 2 and 4, or alloyed Grades 5 and 7. They form a stable oxide layer providing strong resistance to seawater and chlorides. Imperial and metric bolts, screws, and studs certified to ASTM F468/F468M and F467/F467M. Diameters range from M3 to M14 in metric sizes and from #4 to 9/16 in imperial sizes."
+      },
+      {
+        "slug": "titanium-buttweld-fittings",
+        "image": "/stock/titanium-buttweld-fittings.jpg",
+        "title": "Titanium Pipe Fittings Manufacturer & Supplier - ASTM B363 / ASME SB-363",
+        "shortDescription": "Premium titanium pipe fittings manufacturer, stockist and exporter working out of Mumbai, India, trading titanium pipe and fittings since 2013. Certified to ASTM B363 / ASME SB-363, grade WPT1 for Titanium Grade 1 and grade WPT2 for Titanium Grade 2, with couplings machined from ASTM B348 bar. Buttweld dimensions follow ASME B16.9 and ASME B16.28. Elbows, tees and caps available from 1/2 inch to 24 inch NPS, stub ends from 1 inch to 24 inch, and reducers from 1 inch × 1/2 inch to 12 inch × 10 inch, in Schedule 10 and Schedule 40."
+      }
     ]),
   },
 
@@ -1690,47 +1675,47 @@ const materials: Material[] = [
     ],
     items: buildItemsWithImages([
       {
-  "slug": "nimonic-alloys-75-bars-rods",
-  "image": "/stock/high-performance-alloy-round-bars.jpg",
-  "title": "Nimonic 75 Bars & Rods Supplier - UNS N06075",
-  "shortDescription": "Premium Nimonic 75 (UNS N06075) bars and rods, the nickel-chromium alloy offering excellent high-temperature strength, good corrosion resistance, and outstanding oxidation resistance. Manufactured for aerospace, gas turbine, and high-temperature applications."
-},
-{
-  "slug": "nimonic-alloys-80a-bars-rods",
-  "image": "/stock/nimonic-80a-bars.jpg",
-  "title": "Nimonic 80A Bars & Rods Supplier - UNS N07080 (2.4631)",
-  "shortDescription": "Premium Nimonic 80A (UNS N07080 / 2.4631) bars and rods, the age-hardenable nickel-chromium alloy offering excellent high-temperature strength, good corrosion resistance, and outstanding oxidation resistance. Manufactured for aerospace, gas turbine, and high-performance applications."
-},
-{
-  "slug": "nimonic-263-bars-rods",
-  "image": "/stock/nimonic-263-bars.jpg",
-  "title": "Nimonic 263 Bars & Rods Supplier - UNS N07263 (2.4650)",
-  "shortDescription": "Premium Nimonic 263 (UNS N07263 / 2.4650) bars and rods, the age-hardenable nickel-cobalt-chromium alloy offering excellent high-temperature strength, good ductility, and outstanding oxidation resistance. Manufactured for aerospace, gas turbine, and high-temperature applications."
-},
-{
-  "slug": "nimonic-90-bars-rods",
-  "image": "/stock/nimonic-90-bars.jpg",
-  "title": "Nimonic 90 Bars & Rods Supplier - UNS N07090 (2.4632)",
-  "shortDescription": "Premium Nimonic 90 (UNS N07090 / 2.4632) bars and rods, the age-hardenable nickel-chromium-cobalt alloy offering excellent high-temperature strength, good creep resistance, and outstanding oxidation resistance. Manufactured for aerospace, gas turbine, and high-temperature applications."
-},
-{
-    "slug": "nitronic-50-xm-19-bars-rods",
-    "title": "Nitronic 50 / XM 19 Bars & Rods Supplier - UNS S20910 (1.3964)",
-    "shortDescription": "Premium Nitronic 50 / XM 19 (UNS S20910 / 1.3964) bars and rods, the high-performance nitrogen-strengthened austenitic stainless steel offering exceptional corrosion resistance, high strength, and excellent durability. Manufactured to ASTM A276 and A479 standards for marine, chemical, and high-performance applications.",
-    "image": "/stock/nitronic-50-bars.jpg"
-  },
-  {
-    "slug": "nitronic-60-bars-rods",
-    "title": "Nitronic 60 Bars & Rods Supplier - UNS S21800",
-    "shortDescription": "Premium Nitronic 60 (UNS S21800) bars and rods, the high-performance nitrogen-strengthened austenitic stainless steel offering exceptional corrosion resistance, high strength, and excellent galling resistance. Manufactured to ASTM A276 and A479 standards for chemical, petrochemical, and high-performance applications.",
-    "image": "/stock/nitronic-60-bars.jpg"
-  },
-{
-  "slug": "nimonic-alloys-80a-fasteners",
-  "image": "/stock/nimonic-80a-fasteners.jpg",
-  "title": "Nimonic Alloys 80A Fasteners Manufacturer & Supplier - ASTM B637 / ASME SB-637",
-  "shortDescription": "Premium Nimonic 80A fastener manufacturer and supplier based in Mumbai, India. Nimonic 80A is a precipitation-hardenable nickel-chromium alloy with chromium at 18.0 to 21.0%, while titanium and aluminium additions harden the material on ageing. Fasteners in the age-hardened condition retain tensile and creep-rupture strength to 815 °C (1500 °F). Produced from #00 to 4 inches and M1.2 to M48, with rolled or cut threads. Hex bolts, hex nuts, stud bolts, threaded rods, screws and washers available."
-},
+        "slug": "nimonic-alloys-75-bars-rods",
+        "image": "/stock/high-performance-alloy-round-bars.jpg",
+        "title": "Nimonic 75 Bars & Rods Supplier - UNS N06075",
+        "shortDescription": "Premium Nimonic 75 (UNS N06075) bars and rods, the nickel-chromium alloy offering excellent high-temperature strength, good corrosion resistance, and outstanding oxidation resistance. Manufactured for aerospace, gas turbine, and high-temperature applications."
+      },
+      {
+        "slug": "nimonic-alloys-80a-bars-rods",
+        "image": "/stock/nimonic-80a-bars.jpg",
+        "title": "Nimonic 80A Bars & Rods Supplier - UNS N07080 (2.4631)",
+        "shortDescription": "Premium Nimonic 80A (UNS N07080 / 2.4631) bars and rods, the age-hardenable nickel-chromium alloy offering excellent high-temperature strength, good corrosion resistance, and outstanding oxidation resistance. Manufactured for aerospace, gas turbine, and high-performance applications."
+      },
+      {
+        "slug": "nimonic-263-bars-rods",
+        "image": "/stock/nimonic-263-bars.jpg",
+        "title": "Nimonic 263 Bars & Rods Supplier - UNS N07263 (2.4650)",
+        "shortDescription": "Premium Nimonic 263 (UNS N07263 / 2.4650) bars and rods, the age-hardenable nickel-cobalt-chromium alloy offering excellent high-temperature strength, good ductility, and outstanding oxidation resistance. Manufactured for aerospace, gas turbine, and high-temperature applications."
+      },
+      {
+        "slug": "nimonic-90-bars-rods",
+        "image": "/stock/nimonic-90-bars.jpg",
+        "title": "Nimonic 90 Bars & Rods Supplier - UNS N07090 (2.4632)",
+        "shortDescription": "Premium Nimonic 90 (UNS N07090 / 2.4632) bars and rods, the age-hardenable nickel-chromium-cobalt alloy offering excellent high-temperature strength, good creep resistance, and outstanding oxidation resistance. Manufactured for aerospace, gas turbine, and high-temperature applications."
+      },
+      {
+        "slug": "nitronic-50-xm-19-bars-rods",
+        "title": "Nitronic 50 / XM 19 Bars & Rods Supplier - UNS S20910 (1.3964)",
+        "shortDescription": "Premium Nitronic 50 / XM 19 (UNS S20910 / 1.3964) bars and rods, the high-performance nitrogen-strengthened austenitic stainless steel offering exceptional corrosion resistance, high strength, and excellent durability. Manufactured to ASTM A276 and A479 standards for marine, chemical, and high-performance applications.",
+        "image": "/stock/nitronic-50-bars.jpg"
+      },
+      {
+        "slug": "nitronic-60-bars-rods",
+        "title": "Nitronic 60 Bars & Rods Supplier - UNS S21800",
+        "shortDescription": "Premium Nitronic 60 (UNS S21800) bars and rods, the high-performance nitrogen-strengthened austenitic stainless steel offering exceptional corrosion resistance, high strength, and excellent galling resistance. Manufactured to ASTM A276 and A479 standards for chemical, petrochemical, and high-performance applications.",
+        "image": "/stock/nitronic-60-bars.jpg"
+      },
+      {
+        "slug": "nimonic-alloys-80a-fasteners",
+        "image": "/stock/nimonic-80a-fasteners.jpg",
+        "title": "Nimonic Alloys 80A Fasteners Manufacturer & Supplier - ASTM B637 / ASME SB-637",
+        "shortDescription": "Premium Nimonic 80A fastener manufacturer and supplier based in Mumbai, India. Nimonic 80A is a precipitation-hardenable nickel-chromium alloy with chromium at 18.0 to 21.0%, while titanium and aluminium additions harden the material on ageing. Fasteners in the age-hardened condition retain tensile and creep-rupture strength to 815 °C (1500 °F). Produced from #00 to 4 inches and M1.2 to M48, with rolled or cut threads. Hex bolts, hex nuts, stud bolts, threaded rods, screws and washers available."
+      },
     ]),
   },
 
@@ -1747,50 +1732,50 @@ const materials: Material[] = [
       "Performance-focused solutions",
     ],
     items: buildItemsWithImages([
-     {
-  "slug": "high-performance-alloy-pipes",
-  "title": "High-Performance Alloy Pipes Supplier – Nimonic, Nichrome, Nitronic, Nilo & Alloy",
-  "shortDescription": "Specialized alloy pipes engineered for mission-critical applications where standard stainless steels fail due to thermal fatigue, mechanical stress, or aggressive chemical attack. Available in Nimonic, Nichrome, Nitronic, Nilo, Alloy 286, and Alloy 926 grades. Manufactured to ASTM B163, B167, B407, B517, A312 and ASME SB163, SB167, SB407, SB517 standards.",
-  "image": "/stock/high-performance-alloy-pipes.jpg"
-},
-{
-  "slug": "smo-254-pipes",
-  "title": "SMO 254 Pipes Supplier – UNS S31254 / 1.4547 (6% Moly)",
-  "shortDescription": "High-alloy austenitic stainless steel pipes designed for maximum resistance to pitting and crevice corrosion. Features 6% Molybdenum content with a PREN of ≥42.5. Manufactured to ASTM A312, A358 and ASME SA312, SA358 standards.",
-  "image": "/stock/smo-254-pipes.jpg"
-},
+      {
+        "slug": "high-performance-alloy-pipes",
+        "title": "High-Performance Alloy Pipes Supplier – Nimonic, Nichrome, Nitronic, Nilo & Alloy",
+        "shortDescription": "Specialized alloy pipes engineered for mission-critical applications where standard stainless steels fail due to thermal fatigue, mechanical stress, or aggressive chemical attack. Available in Nimonic, Nichrome, Nitronic, Nilo, Alloy 286, and Alloy 926 grades. Manufactured to ASTM B163, B167, B407, B517, A312 and ASME SB163, SB167, SB407, SB517 standards.",
+        "image": "/stock/high-performance-alloy-pipes.jpg"
+      },
+      {
+        "slug": "smo-254-pipes",
+        "title": "SMO 254 Pipes Supplier – UNS S31254 / 1.4547 (6% Moly)",
+        "shortDescription": "High-alloy austenitic stainless steel pipes designed for maximum resistance to pitting and crevice corrosion. Features 6% Molybdenum content with a PREN of ≥42.5. Manufactured to ASTM A312, A358 and ASME SA312, SA358 standards.",
+        "image": "/stock/smo-254-pipes.jpg"
+      },
 
-  {
-    "slug": "special-alloy-wires",
-    "title": "Special Alloy Wires Supplier – SMO 254 (F44) & Alloy 20",
-    "shortDescription": "Premium special alloy wires including SMO 254 (UNS S31254 / F44) and Alloy 20 (UNS N08020 / Carpenter 20). Engineered for exceptional resistance to pitting, crevice corrosion, and acid attack in aggressive chemical processing and marine environments. Ideal for desalination, offshore oil & gas, chemical production, and pharmaceutical applications.",
-    "image": "/stock/special-alloy-wires.jpg"
-  },
-   {
-    "slug": "high-performance-alloy-wires",
-    "title": "High-Performance Alloy Wires Supplier – Nimonic, Nichrome, Nitronic, Nilo & Alloy",
-    "shortDescription": "Premium high-performance alloy wires including Nimonic 75/80A, Nichrome 80/20, Nitronic 50 (XM-19), Nilo 42/48, Alloy 286 (660), and Alloy 926 (1.4529). Engineered for mission-critical applications requiring extreme temperature resistance, high strength, controlled thermal expansion, and superior corrosion resistance. Ideal for aerospace, electrical heating, marine, and chemical processing industries.",
-    "image": "/stock/high-performance-alloy-wires.jpg"
-  },
-  {
-    "slug": "alloy-20-carpenter-20-sheets-plates",
-    "title": "Alloy 20 / Carpenter 20 Sheets & Plates Supplier - UNS N08020 (2.4660)",
-    "shortDescription": "Premium Alloy 20 / Carpenter 20 (UNS N08020 / 2.4660) sheets and plates, the nickel-iron-chromium superalloy offering excellent corrosion resistance in sulfuric acid environments. Manufactured to ASTM B473 and ASME SB473 standards for chemical processing, pharmaceutical, and high-performance applications.",
-    "image": "/stock/alloy-20-carpenter-20-sheets-plates.jpg"
-  },
-  {
-    "slug": "alloy-a286-bars-rods",
-    "title": "Alloy A286 Bars & Rods Supplier - UNS S66286 (1.4980)",
-    "shortDescription": "Premium Alloy A286 (UNS S66286 / 1.4980) bars and rods, the age-hardenable iron-nickel-chromium superalloy offering excellent high-temperature strength, good corrosion resistance, and outstanding oxidation resistance. Manufactured to ASTM A286 and ASME SA286 standards for aerospace, gas turbine, and high-performance applications.",
-    "image": "/stock/alloy-a286-bars.jpg"
-  },
-  {
-    "slug": "6-moly-s31254-smo-254-bars-rods",
-    "title": "6 Moly S31254 / SMO 254 Bars & Rods Supplier - UNS S31254 (1.4547)",
-    "shortDescription": "Premium 6 Moly S31254 / SMO 254 (UNS S31254 / 1.4547) bars and rods, the high-performance austenitic stainless steel offering exceptional resistance to pitting, crevice corrosion, and stress corrosion cracking. Manufactured to ASTM A276 and A479 standards for aggressive chloride and seawater applications.",
-    "image": "/stock/smo-254-bars.jpg"
-  },
-  
+      {
+        "slug": "special-alloy-wires",
+        "title": "Special Alloy Wires Supplier – SMO 254 (F44) & Alloy 20",
+        "shortDescription": "Premium special alloy wires including SMO 254 (UNS S31254 / F44) and Alloy 20 (UNS N08020 / Carpenter 20). Engineered for exceptional resistance to pitting, crevice corrosion, and acid attack in aggressive chemical processing and marine environments. Ideal for desalination, offshore oil & gas, chemical production, and pharmaceutical applications.",
+        "image": "/stock/special-alloy-wires.jpg"
+      },
+      {
+        "slug": "high-performance-alloy-wires",
+        "title": "High-Performance Alloy Wires Supplier – Nimonic, Nichrome, Nitronic, Nilo & Alloy",
+        "shortDescription": "Premium high-performance alloy wires including Nimonic 75/80A, Nichrome 80/20, Nitronic 50 (XM-19), Nilo 42/48, Alloy 286 (660), and Alloy 926 (1.4529). Engineered for mission-critical applications requiring extreme temperature resistance, high strength, controlled thermal expansion, and superior corrosion resistance. Ideal for aerospace, electrical heating, marine, and chemical processing industries.",
+        "image": "/stock/high-performance-alloy-wires.jpg"
+      },
+      {
+        "slug": "alloy-20-carpenter-20-sheets-plates",
+        "title": "Alloy 20 / Carpenter 20 Sheets & Plates Supplier - UNS N08020 (2.4660)",
+        "shortDescription": "Premium Alloy 20 / Carpenter 20 (UNS N08020 / 2.4660) sheets and plates, the nickel-iron-chromium superalloy offering excellent corrosion resistance in sulfuric acid environments. Manufactured to ASTM B473 and ASME SB473 standards for chemical processing, pharmaceutical, and high-performance applications.",
+        "image": "/stock/alloy-20-carpenter-20-sheets-plates.jpg"
+      },
+      {
+        "slug": "alloy-a286-bars-rods",
+        "title": "Alloy A286 Bars & Rods Supplier - UNS S66286 (1.4980)",
+        "shortDescription": "Premium Alloy A286 (UNS S66286 / 1.4980) bars and rods, the age-hardenable iron-nickel-chromium superalloy offering excellent high-temperature strength, good corrosion resistance, and outstanding oxidation resistance. Manufactured to ASTM A286 and ASME SA286 standards for aerospace, gas turbine, and high-performance applications.",
+        "image": "/stock/alloy-a286-bars.jpg"
+      },
+      {
+        "slug": "6-moly-s31254-smo-254-bars-rods",
+        "title": "6 Moly S31254 / SMO 254 Bars & Rods Supplier - UNS S31254 (1.4547)",
+        "shortDescription": "Premium 6 Moly S31254 / SMO 254 (UNS S31254 / 1.4547) bars and rods, the high-performance austenitic stainless steel offering exceptional resistance to pitting, crevice corrosion, and stress corrosion cracking. Manufactured to ASTM A276 and A479 standards for aggressive chloride and seawater applications.",
+        "image": "/stock/smo-254-bars.jpg"
+      },
+
 
 
 
