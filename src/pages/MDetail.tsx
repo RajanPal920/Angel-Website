@@ -266,75 +266,77 @@ const ProductCard = ({ product, materialName, onClick }: any) => {
   return (
     <div
       onClick={onClick}
-      className="cursor-pointer group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:-translate-y-0.5 hover:border-primary-red/30"
+      className="cursor-pointer group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:-translate-y-0.5 hover:border-primary-red/30 h-full flex flex-col justify-between"
     >
-      <div className="h-36 overflow-hidden bg-white relative">
-        {!imgError ? (
-          <img
-            src={productImage}
-            alt={product.title}
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-            onError={() => setImgError(true)}
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center bg-white border-b border-gray-100">
-            <div className="text-center p-4">
-              <span className="text-gray-700 text-sm font-semibold block line-clamp-2 px-2">
-                {shortName}
-              </span>
-              <span className="text-gray-500 text-[10px] block mt-0.5">
-                {productType} • {materialName}
-              </span>
+      <div>
+        <div className="h-40 overflow-hidden bg-white relative">
+          {!imgError ? (
+            <img
+              src={productImage}
+              alt={product.title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              onError={() => setImgError(true)}
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center bg-gray-50 border-b border-gray-100">
+              <div className="text-center p-4">
+                <span className="text-gray-700 text-sm font-semibold block line-clamp-2 px-2">
+                  {shortName}
+                </span>
+                <span className="text-gray-500 text-[10px] block mt-0.5">
+                  {productType} • {materialName}
+                </span>
+              </div>
             </div>
+          )}
+          <div className="absolute top-2 right-2">
+            <span className="text-[10px] font-medium text-white bg-primary-red/90 px-2 py-0.5 rounded-full backdrop-blur-sm shadow-sm">
+              {materialName}
+            </span>
           </div>
-        )}
-        <div className="absolute top-2 right-2">
-          <span className="text-[10px] font-medium text-white bg-primary-red/80 px-2 py-0.5 rounded-full backdrop-blur-sm">
-            {materialName}
-          </span>
+        </div>
+
+        <div className="p-4 flex-1 flex flex-col">
+          <h3 className="text-base font-semibold text-gray-900 group-hover:text-primary-red mb-1.5 line-clamp-2 min-h-[44px]">
+            {product.title}
+          </h3>
+
+          <p className="text-xs text-gray-500 line-clamp-2 min-h-[32px] mb-3 leading-relaxed">
+            {product.shortDescription ||
+              product.description?.slice(0, 100) ||
+              `${product.title} - Premium quality material`}
+          </p>
+
+          <div className="min-h-[26px] mb-2">
+            {product.properties && product.properties.length > 0 ? (
+              <div className="flex flex-wrap gap-1">
+                {product.properties
+                  .slice(0, 2)
+                  .map((prop: string, idx: number) => (
+                    <span
+                      key={idx}
+                      className="text-[10px] bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded-full inline-block"
+                    >
+                      {prop}
+                    </span>
+                  ))}
+                {product.properties.length > 2 && (
+                  <span className="text-[10px] text-gray-400">
+                    +{product.properties.length - 2} more
+                  </span>
+                )}
+              </div>
+            ) : null}
+          </div>
         </div>
       </div>
 
-      <div className="p-4">
-        <h3 className="text-base font-semibold text-gray-900 group-hover:text-primary-red mb-1.5 line-clamp-1">
-          {product.title}
-        </h3>
-
-        <p className="text-xs text-gray-500 line-clamp-2 mb-3">
-          {product.shortDescription ||
-            product.description?.slice(0, 100) ||
-            `${product.title} - Premium quality material`}
-        </p>
-
-        {product.properties && product.properties.length > 0 && (
-          <div className="mb-2">
-            <div className="flex flex-wrap gap-1">
-              {product.properties
-                .slice(0, 2)
-                .map((prop: string, idx: number) => (
-                  <span
-                    key={idx}
-                    className="text-[10px] bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded-full"
-                  >
-                    {prop}
-                  </span>
-                ))}
-              {product.properties.length > 2 && (
-                <span className="text-[10px] text-gray-400">
-                  +{product.properties.length - 2} more
-                </span>
-              )}
-            </div>
-          </div>
-        )}
-
-        <div className="flex items-center justify-between pt-2 border-t border-gray-100">
-          <button className="flex items-center gap-1 text-xs font-semibold text-primary-red group-hover:gap-2 transition-all">
-            View Details
-            <ArrowRight size={14} />
-          </button>
-          <span className="text-[10px] text-gray-400">Click for more</span>
-        </div>
+      <div className="px-4 pb-4 pt-2 border-t border-gray-100 mt-auto flex items-center justify-between">
+        <button className="flex items-center gap-1 text-xs font-semibold text-primary-red group-hover:gap-2 transition-all">
+          View Details
+          <ArrowRight size={14} />
+        </button>
+        <span className="text-[10px] text-gray-400">Click for more</span>
       </div>
     </div>
   );
@@ -345,7 +347,11 @@ const MDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
 
-  const material = materials.find((m) => m.slug === slug);
+  // Normalize slug to handle potential aliases (e.g. /materials/other -> other-materials)
+  const normalizedSlug = slug === "other" ? "other-materials" : slug;
+  const material = materials.find(
+    (m) => m.slug === normalizedSlug || m.slug === slug,
+  );
 
   // ===== MERGE MATERIALS ITEMS + PRODUCT CATEGORY MAP =====
   const products = useMemo(() => {
@@ -678,33 +684,61 @@ const MDetail = () => {
       }
     }
 
-    // 3) Merge and deduplicate by slug
+    // 3) Validate, canonicalize, and deduplicate products
     const merged = [...baseItems, ...extraItems];
 
+    const validProducts: any[] = [];
     const seen = new Set<string>();
-    const unique = merged.filter((item: any) => {
-      const key = item.slug || item.title;
-      if (!key) return false;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
 
-    return unique;
+    for (const item of merged) {
+      const rawSlug = (item.slug || item.title || "").trim().toLowerCase();
+      const mapped =
+        productSlugRedirectMap[rawSlug] ||
+        productSlugRedirectMap[item.slug?.toLowerCase?.()];
+      const canonicalSlug = mapped
+        ? mapped.canonicalSlug
+        : item.slug || item.title;
+      const canonicalCategory =
+        mapped?.categorySlug ||
+        item.__categorySlug ||
+        getCategoryForMaterialProduct(canonicalSlug);
+
+      if (!canonicalCategory || !canonicalSlug) continue;
+
+      // Verify that this product actually exists in productCategoryMap
+      const categoryProducts = productCategoryMap[canonicalCategory];
+      const matchingProduct = categoryProducts?.find(
+        (p: any) =>
+          p.slug === canonicalSlug ||
+          p.oldSlug === canonicalSlug ||
+          p.slug === rawSlug ||
+          p.oldSlug === rawSlug,
+      );
+
+      // ONLY include products that have verified, existing detail pages
+      if (!matchingProduct) {
+        continue;
+      }
+
+      if (seen.has(canonicalSlug)) {
+        continue;
+      }
+      seen.add(canonicalSlug);
+
+      validProducts.push({
+        ...item,
+        ...matchingProduct,
+        title: matchingProduct.title || item.title,
+        slug: canonicalSlug,
+        __categorySlug: canonicalCategory,
+      });
+    }
+
+    return validProducts;
   }, [material]);
 
   const handleProductClick = (product: any) => {
-    const rawSlug = (product.slug || product.title || "").trim().toLowerCase();
-    const mapped =
-      productSlugRedirectMap[rawSlug] ||
-      productSlugRedirectMap[product.slug?.toLowerCase?.()];
-    const productSlug = mapped
-      ? mapped.canonicalSlug
-      : product.slug || product.title;
-    const categorySlug =
-      product.__categorySlug ||
-      (mapped ? mapped.categorySlug : getCategoryForMaterialProduct(productSlug));
-    navigate(`/products/${categorySlug}/${productSlug}`);
+    navigate(`/products/${product.__categorySlug}/${product.slug}`);
   };
 
   if (!material) {
@@ -809,7 +843,7 @@ const MDetail = () => {
               </Link>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {products.map((product: any, index: number) => (
                 <ProductCard
                   key={product.slug || index}

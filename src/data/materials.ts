@@ -89,7 +89,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   "duplex-steel": [
     "pipes-tubes",
@@ -99,7 +99,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   "nickel-alloy": [
     "pipes",
@@ -112,7 +112,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   "copper-nickel": [
     "pipes-tubes",
@@ -122,7 +122,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   hastelloy: [
     "pipes-tubes",
@@ -132,7 +132,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   incoloy: [
     "pipes-tubes",
@@ -142,7 +142,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   inconel: [
     "pipes-tubes",
@@ -152,7 +152,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   monel: [
     "pipes-tubes",
@@ -162,7 +162,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   titanium: [
     "pipes-tubes",
@@ -172,7 +172,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   nimonic: [
     "pipes-tubes",
@@ -182,7 +182,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
   "other-materials": [
     "pipes-tubes",
@@ -192,7 +192,7 @@ export const materialToCategoryMap: Record<string, string[]> = {
     "flanges",
     "fasteners",
     "pipe-fittings",
-    "forged-fittings",
+    "forged-fittings"
   ],
 };
 
@@ -351,7 +351,7 @@ const materials: Material[] = [
     highlight: [
       "Excellent corrosion resistance",
       "Clean finishing",
-      "High weldability",
+      "High weldability"
     ],
     items: [
       {
@@ -439,14 +439,6 @@ const materials: Material[] = [
         image: "/stock/stainless-steel-317-317l-sheets-plates.jpg",
       },
       {
-        slug: "stainless-steel-321-sheets-plates",
-        title:
-          "Stainless Steel 321 Sheets & Plates Supplier - UNS S32100 (1.4541)",
-        shortDescription:
-          "Premium Stainless Steel 321 (UNS S32100 / 1.4541) sheets and plates, the titanium-stabilized austenitic alloy offering excellent resistance to intergranular corrosion and high-temperature oxidation. Manufactured to ASTM A240 and ASME SA240 standards for high-temperature and welded applications.",
-        image: "/stock/stainless-steel-321-sheets-plates.jpg",
-      },
-      {
         slug: "stainless-steel-347-sheets-plates",
         title:
           "Stainless Steel 347 Sheets & Plates Supplier - UNS S34700 (1.4550)",
@@ -463,36 +455,12 @@ const materials: Material[] = [
         image: "/stock/stainless-steel-wires.jpg",
       },
       {
-        slug: "stainless-steel-flanges",
-        title:
-          "Stainless Steel Flanges Manufacturer & Supplier - ASTM A182 / ASME SA-182",
-        shortDescription:
-          'Premium stainless steel flanges manufacturer and supplier based in Mumbai, India, stocking and exporting since 2013. Forged stainless steel flanges manufactured to ASTM A182 / ASME SA-182. Available grades include 304, 304L, 310, 316 & 316L, 317 & 317L, 321, 347 and 904L. Sizes range from NPS 1/2" to 48" with Classes 150 to 2500. Eleven flange types with five common facing options.',
-        image: "/stock/stainless-steel-flanges.jpg",
-      },
-      {
         slug: "stainless-steel-fasteners",
         title:
           "Stainless Steel Fasteners Manufacturer & Supplier - ASTM F593 / F594 / ISO 3506",
         shortDescription:
           "Premium stainless steel fasteners manufacturer, stockist, supplier and exporter operating from Mumbai, India, since 2013. Available grades: Stainless Steel 310, 316 & 316L, 317 & 317L, 321, 347 and 904L. Bolts, screws and studs in 316, 316L, 321 and 347 supplied to ASTM F593, with matching nuts to ASTM F594. Metric diameters range from M3 to M56 and imperial diameters from 3/16 in to 2 in.",
         image: "/stock/stainless-duplex-steel-fasteners.jpg",
-      },
-      {
-        slug: "stainless-steel-316-316l-forgings",
-        title:
-          "Stainless Steel 316 & 316L Forging Manufacturer & Supplier - ASTM A182 / ASME SA182",
-        shortDescription:
-          "Premium Stainless Steel 316 & 316L forgings manufacturer, supplier, stockist and exporter from Mumbai, India. Forged components to ASTM A182 F316/F316L and ASME SA182, with 16.0–18.0% chromium and 2.00–3.00% molybdenum addition for chloride pitting resistance. Available in F316 (UNS S31600) and F316L (UNS S31603) grades, offering solution-annealed forgings for pressure and general industrial service.",
-        image: "/stock/stainless-steel-316-316l-forgings.jpg",
-      },
-      {
-        slug: "stainless-steel-410-forgings",
-        title:
-          "Stainless Steel 410 Forging Manufacturer & Supplier - ASTM A182 F6a",
-        shortDescription:
-          "Premium Stainless Steel 410 forgings manufacturer, supplier, stockist and exporter from Mumbai, India. Martensitic stainless steel forgings with 11.50–13.50% chromium, supplied to ASTM A473 and ASTM A182 Grade F6a for pressure and general industrial service. Available in four heat-treatment classes (Class 1 to 4), offering tensile strength from 485 MPa to 895 MPa for pumps, valves, turbines and wellhead assemblies.",
-        image: "/stock/stainless-steel-410-forgings.jpg",
       },
       {
         slug: "stainless-steel-304-bars-rods",
@@ -620,7 +588,7 @@ const materials: Material[] = [
         shortDescription:
           "Premium Stainless Steel 17-7 PH (UNS S17700) bars and rods, the precipitation-hardening stainless steel offering high strength, excellent corrosion resistance, and good formability. Manufactured to ASTM A564 and ASME SA564 standards for aerospace, chemical, and high-performance applications.",
         image: "/stock/titanium-grade-5-bars.jpg",
-      },
+      }
     ],
   },
 
@@ -635,7 +603,7 @@ const materials: Material[] = [
     highlight: [
       "Double strength of austenitic grades",
       "Excellent pitting resistance",
-      "Good fatigue performance",
+      "Good fatigue performance"
     ],
     items: [
       {
@@ -716,22 +684,6 @@ const materials: Material[] = [
         image: "/stock/ferralium-255-bars.jpg",
       },
       {
-        slug: "duplex-steel-pipe-fittings",
-        title:
-          "Duplex Steel Pipe Fittings Manufacturer & Supplier - ASTM A815 / ASME SA-815",
-        shortDescription:
-          "Premium duplex steel pipe fittings manufacturer, stockist and exporter in Mumbai, India, supplying duplex piping components since 2013. Buttweld range certified to ASTM A815 / ASME SA-815 in classes WP-S, WP-W and WP-WX, dimensioned under ASME B16.9. Forged socket weld and threaded items follow ASTM A182 F53 and F55 under ASME B16.11. Available in UNS S32750 and UNS S32760 grades. Elbows, tees, reducers, caps and stub ends run from 1/2 inch to 12 inch NB, with wider bores produced to drawing.",
-        image: "/stock/duplex-steel-pipe-fittings.jpg",
-      },
-      {
-        slug: "super-duplex-steel-pipe-fittings",
-        title:
-          "Super Duplex Steel Pipe Fittings Manufacturer & Supplier - ASTM A815 / ASME SA-815",
-        shortDescription:
-          "Premium super duplex steel pipe fittings manufacturer, stockist and exporter in Mumbai, India, supplying duplex piping components since 2013. Buttweld range certified to ASTM A815 / ASME SA-815 in classes WP-S, WP-W and WP-WX, dimensioned under ASME B16.9. Forged socket weld and threaded items follow ASTM A182 F53 and F55 under ASME B16.11. Available in UNS S32750 and UNS S32760 grades. Elbows, tees, reducers, caps and stub ends run from 1/2 inch to 12 inch NB, with wider bores produced to drawing.",
-        image: "/stock/super-duplex-steel-pipe-fittings.jpg",
-      },
-      {
         slug: "duplex-steel-fasteners",
         title:
           "Duplex Steel Fasteners Manufacturer & Supplier - ASTM A1082 / ISO 3506",
@@ -787,7 +739,7 @@ const materials: Material[] = [
         shortDescription:
           'Premium super duplex steel flange manufacturer, stockist and exporter based in Mumbai, India, supplying since 2013. We supply Super Duplex S32750 (UNS S32750 / 2507 / F53) and Super Duplex S32760 (UNS S32760 / F55) flanges to ASTM A182 / ASME SA-182. Super duplex stainless steel flanges combine high strength with strong resistance to chloride corrosion. Sizes range from NPS 1/2" to 24" under ASME B16.5 and from NPS 26" to 60" under ASME B16.47.',
         image: "/stock/super-duplex-steel-flanges.jpg",
-      },
+      }
     ],
   },
 
@@ -802,7 +754,7 @@ const materials: Material[] = [
     highlight: [
       "Excellent heat resistance",
       "Corrosion resistance to aggressive media",
-      "High mechanical strength",
+      "High mechanical strength"
     ],
     items: buildItemsWithImages([
       {
@@ -866,39 +818,13 @@ const materials: Material[] = [
       },
 
       {
-        slug: "nickel-flanges",
-        title:
-          "Nickel Flanges Manufacturer & Supplier - ASTM B564 / ASME SB-564",
-        shortDescription:
-          'Premium Nickel Flanges manufacturer, stockist and exporter based in Mumbai, India, supplying since 2013. Nickel 200 forged blanks conform to ASTM B564 / ASME SB-564. Nickel 201 supplied from ASTM B160 bar or ASTM B162 plate. Nickel 200 (UNS N02200) permits up to 0.15% carbon, while low-carbon Nickel 201 (UNS N02201) limits carbon to 0.02%. Supply spans NPS 1/2" to 48" (DN 15 to DN 1200) with Classes 150 to 2500.',
-        image: "/stock/copper-nickel-flange-500x500.jpg",
-      },
-
-      {
         slug: "nickel-fasteners",
         title:
           "Nickel Fasteners Manufacturer & Supplier - ASTM B160 / ASME SB-160",
         shortDescription:
           "Premium nickel fasteners manufacturer, supplier and exporter based in Mumbai, India, operating since 2013. Nickel fasteners are bolting components machined from commercially pure nickel bar supplied to ASTM B160 / ASME SB-160, with nickel at a minimum of 99.0%. Available in Nickel 200 (UNS N02200) for general corrosive service and Nickel 201 (UNS N02201) for elevated-temperature applications. Diameters range from M6 to M24 in metric sizes and from 1/4 in to 1-1/2 in in imperial sizes.",
         image: "/stock/nickel-copper-alloy-fasteners.jpg",
-      },
-
-      {
-        slug: "nickel-pipe-fittings",
-        title:
-          "Nickel Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-        shortDescription:
-          "Premium nickel alloy pipe fittings manufacturer, stockist and exporter established in Mumbai, India, in 2013. Wrought fittings certified to ASTM B366 / ASME SB-366, with buttweld dimensions held to ASME B16.9 and MSS SP-43 for light-wall pieces. Available in Nickel 200 (UNS N02200) for service at or below 315 °C and Nickel 201 (UNS N02201) for high-temperature applications. Seamless elbows, tees, reducers, caps and stub ends span 1/2 inch to 10 inch NB; welded and fabricated construction extends the bore to 48 inch NB.",
-        image: "/stock/Nickel-Alloy-Buttweld-Fittings.jpg",
-      },
-
-      {
-        slug: "nickel-copper-alloy-forged-fittings",
-        title: "Nickel Copper Alloy Forged Fittings",
-        shortDescription:
-          "Copper-Nickel 70/30, 90/10 Forged Lateral Tees, Weldolets, and Threaded Elbows for Offshore Marine Platforms.",
-        image: "/stock/nicke-alloy-forged-fittings.jpg",
-      },
+      }
     ]),
   },
 
@@ -913,7 +839,7 @@ const materials: Material[] = [
     highlight: [
       "Excellent seawater resistance",
       "Good thermal conductivity",
-      "Biofouling resistance",
+      "Biofouling resistance"
     ],
     items: buildItemsWithImages([
       {
@@ -972,7 +898,7 @@ const materials: Material[] = [
         shortDescription:
           "Premium Copper Nickel (Cu-Ni / Cupro-Nickel) pipes containing 10% to 30% nickel, engineered for superior corrosion resistance in marine and saltwater environments. Manufactured to ASTM B466, B467 and ASME SB466, SB467 standards.",
         image: "/stock/copper-nickel-pipes.jpg",
-      },
+      }
     ]),
   },
 
@@ -987,7 +913,7 @@ const materials: Material[] = [
     highlight: [
       "Superior corrosion resistance",
       "High temperature stability",
-      "Resistance to pitting and crevice corrosion",
+      "Resistance to pitting and crevice corrosion"
     ],
     items: buildItemsWithImages([
       {
@@ -1097,13 +1023,6 @@ const materials: Material[] = [
           "Premium Hastelloy B-2 (UNS N10665 / 2.4617) bars and rods, the nickel-molybdenum alloy offering exceptional resistance to reducing environments, pitting, and stress corrosion cracking. Manufactured to ASTM B335 and ASME SB335 standards for chemical processing, petrochemical, and high-temperature applications.",
         image: "/stock/hastelloy-b2-bars.jpg",
       },
-      // {
-      //   slug: "hastelloy-forged-fittings",
-      //   title: "Hastelloy Forged Fittings",
-      //   shortDescription:
-      //     "Hastelloy C276, C22, B2, B3, Alloy X Forged Crosses, Tees, and Full Couplings for Harsh Chemical Corrosive Streams.",
-      //   image: "/stock/hastelloy-forged-fittings.jpg",
-      // },
       {
         slug: "hastelloy-c276-flanges",
         title:
@@ -1119,15 +1038,7 @@ const materials: Material[] = [
         shortDescription:
           "Premium Hastelloy fasteners manufacturer, stockist and exporter based in Mumbai, India, operating since 2013. Hastelloy fasteners are corrosion-resistant bolting components machined from nickel-alloy bar supplied to ASTM B574 / ASME SB-574, covering grade C276 (UNS N10276) and grade C22 (UNS N06022). Molybdenum improves resistance to reducing acids and pitting, while chromium contributes to resistance in oxidising environments. Standard range includes Hastelloy C276 in ready stock and Hastelloy C22 for production against order. Imperial sizes from 1/4 in to 1-1/2 in, metric sizes M6 to M36.",
         image: "/stock/hastelloy-fasteners.jpg",
-      },
-      {
-        slug: "hastelloy-pipe-fittings",
-        title:
-          "Hastelloy Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-        shortDescription:
-          "Premium Hastelloy pipe fittings manufacturer, stockist, supplier and exporter operating from Mumbai, India since 2013. Butt-weld elbows, tees, reducers, end caps and stub ends certified to ASTM B366 / ASME SB-366 with dimensions to ASME B16.9, while forged socket weld and threaded fittings follow ASTM B564 / ASME SB-564 under ASME B16.11. Available in Hastelloy C276 (UNS N10276) and Hastelloy C22 (UNS N06022) grades. Sizes open at 1/2 inch NB with walls to SCH 10S, 40S, 80S, 160 and XXS.",
-        image: "/stock/hastelloy-pipe-fittings.jpg",
-      },
+      }
     ]),
   },
 
@@ -1142,17 +1053,9 @@ const materials: Material[] = [
     highlight: [
       "Excellent oxidation resistance",
       "High temperature strength",
-      "Good fabrication characteristics",
+      "Good fabrication characteristics"
     ],
     items: buildItemsWithImages([
-      {
-        slug: "incoloy-pipe-fittings",
-        title:
-          "Incoloy Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-        shortDescription:
-          "Premium Incoloy pipe fittings manufacturer, stockist, supplier and exporter operating from Mumbai, India since 2013. Wrought nickel-iron-chromium alloy fittings certified to ASTM B366 / ASME SB-366, with butt-weld geometry controlled to ASME B16.9 and MSS SP-43 for light-wall CR grades. Available in Incoloy 800HT (UNS N08811) and Incoloy 825 (UNS N08825) grades. Seamless elbows, tees, reducers, end caps, stub ends, and crosses span 1/2 inch to 10 inch NB with schedules SCH 10S, SCH 40S, SCH 80S, SCH 160, and XXS.",
-        image: "/stock/buttweld-fittings.jpg",
-      },
       {
         slug: "incoloy-fasteners",
         title:
@@ -1169,13 +1072,6 @@ const materials: Material[] = [
           'Premium Incoloy 825 flanges manufacturer, supplier, stockist and exporter based in Mumbai, India since 2013. Forged to ASTM B564 and ASME SB-564 under UNS N08825. Incoloy 825 flanges are specified where sulphuric acid, phosphoric acid, sour gas and seawater attack ordinary flange materials. Nine flange constructions cover the range from NPS 1/2" to 48", Classes 150# to 2500#.',
         image: "/stock/incoloy-800-flanges.jpg",
       },
-      // {
-      //   slug: "incoloy-forged-fittings",
-      //   title: "Incoloy Forged Fittings",
-      //   shortDescription:
-      //     "Incoloy 800, 800H, 800HT, 825 Forged Swage Nipples, Street Elbows, and Hex Plugs for High-Stress Processing Lines.",
-      //   image: "/productImage/forged-fittings.jpg",
-      // },
       {
         slug: "incoloy-wires",
         title:
@@ -1233,7 +1129,7 @@ const materials: Material[] = [
         shortDescription:
           "Premium Incoloy (UNS N08825) nickel-iron-chromium alloy pipes engineered with molybdenum, copper, and titanium for exceptional resistance to corrosive environments, particularly oxidizing and reducing acids. Manufactured to ASTM B167, B705 and ASME SB167, SB705 standards.",
         image: "/stock/incoloy-pipes.jpg",
-      },
+      }
     ]),
   },
 
@@ -1248,7 +1144,7 @@ const materials: Material[] = [
     highlight: [
       "High strength at elevated temperatures",
       "Excellent oxidation resistance",
-      "Corrosion resistance",
+      "Corrosion resistance"
     ],
     items: buildItemsWithImages([
       {
@@ -1436,13 +1332,6 @@ const materials: Material[] = [
           "Premium Incoloy 925 (UNS N09925) bars and rods, the age-hardenable nickel-iron-chromium alloy offering exceptional corrosion resistance, high strength, and excellent performance in extreme environments. Manufactured to ASTM B805 and ASME SB805 standards for oil and gas, aerospace, and marine applications.",
         image: "/stock/inconel-925-bars.jpg",
       },
-      // {
-      //   slug: "inconel-forged-fittings",
-      //   title: "Inconel Forged Fittings",
-      //   shortDescription:
-      //     "Inconel 600, 625, 718, X-750 Oxidation-Resistant Half Couplings and Socket Weld Reducing Tees for Nuclear & Aerospace Engineering.",
-      //   image: "/stock/incoloy-forged-fittings.jpg",
-      // },
       {
         slug: "inconel-600-flanges",
         title:
@@ -1466,7 +1355,7 @@ const materials: Material[] = [
         shortDescription:
           "Premium Inconel 660A fasteners manufacturer, supplier and exporter based in Mumbai, India since 2013. Inconel 660A is a market name used in the fastener trade for A-286, the iron-nickel-chromium precipitation-hardening alloy registered as UNS S66286 and supplied to ASTM A453 Grade 660 Class A. We stock hex bolts, hex nuts, stud bolts, washers, screws, threaded rods, anchor bolts, socket head cap screws, U-bolts and eyebolts from M3 to M56 and 3/16 in to 2 1/4 in, with lengths from 3 mm to 200 mm.",
         image: "/stock/inconel-fasteners.jpg",
-      },
+      }
     ]),
   },
 
@@ -1481,33 +1370,15 @@ const materials: Material[] = [
     highlight: [
       "Excellent seawater resistance",
       "Corrosion resistance to acids",
-      "Good mechanical properties",
+      "Good mechanical properties"
     ],
     items: buildItemsWithImages([
-      {
-        "slug": "monel-pipe-fittings",
-        "title": "Monel Pipe Fittings Manufacturer & Supplier - ASTM B366 / ASME SB-366",
-        "shortDescription": "Premium Monel pipe fittings manufacturer, stockist, supplier and exporter based in Mumbai, active in nickel alloy piping since 2013. Production covers butt-weld elbows, tees, reducers, caps and stub ends to ASTM B366 / ASME SB-366 in grade WPNC, dimensioned under ASME B16.9, with MSS SP-43 for lightweight walls, plus forged socket-weld and threaded pieces to ASME B16.11 from ASTM B564 forgings. Available in Monel 400 (UNS N04400) grade. Seamless fittings span 1/2 inch to 10 inch NB, welded construction extends coverage to 48 inch NB, and schedules run SCH 5 through SCH XXS.",
-        "image": "/stock/titanium-buttweld-fittings.jpg"
-      },
       {
         "slug": "monel-fasteners",
         "title": "Monel Fasteners Manufacturer & Supplier - ASTM F468 / F467 / B164 / B865",
         "shortDescription": "Premium Monel fasteners manufacturer, stockist and exporter based in Mumbai, India, operating since 2013. Monel fasteners are nickel-copper alloy fasteners machined from bar. Monel 400 bar supplied to ASTM B164 / ASME SB-164, and Monel K500 bar supplied to ASTM B865. The range includes Monel 400, which contains a minimum of 63% nickel and 28 to 34% copper, and Monel K500, which contains aluminium and titanium and can be age-hardened for higher-strength applications. Certified sizes run from 1/4 in to 1-1/2 in under ASTM F468/F467 and M6 to M36 under metric companions.",
         "image": "/stock/monel-fasteners.jpg"
       },
-      {
-        "slug": "monel-flanges",
-        "title": "Monel Flanges Manufacturer & Supplier - ASTM B564 / ASME SB-564",
-        "shortDescription": "Premium Monel flanges manufacturer, stockist and exporter operating from Mumbai, India since 2013. Alloy 400 forgings certified to ASTM B564 / ASME SB-564, while K500 orders supplied to ASTM B865 / ASME SB-865. Monel flanges are nickel-copper alloy flanges containing roughly 67% nickel, providing strong resistance to corrosion in rapidly flowing seawater, brine, hydrofluoric acid and alkaline service. Available in Monel 400 (UNS N04400) and Monel K500 (UNS N05500) grades. Supply spans NPS 1/2\" to 48\" (DN 15 to DN 1200) with Classes 150 to 2500.",
-        "image": "/stock/steel-flanges-types.jpg"
-      },
-      // {
-      //   "slug": "monel-forged-fittings",
-      //   "title": "Monel Forged Fittings",
-      //   "shortDescription": "Monel 400, Monel K500 Forged Threaded Caps, Bosses, and Reducing Inserts Built for High-Salinity Marine Piping.",
-      //   "image": "/stock/monel-forged-fittings.jpg"
-      // },
       {
         "slug": "monel-400-bars-rods",
         "title": "Monel 400 Bars & Rods Supplier - UNS N04400 (2.4360)",
@@ -1558,7 +1429,7 @@ const materials: Material[] = [
     highlight: [
       "Exceptional strength-to-weight ratio",
       "Outstanding corrosion resistance",
-      "Biocompatibility",
+      "Biocompatibility"
     ],
     items: buildItemsWithImages([
       {
@@ -1633,12 +1504,6 @@ const materials: Material[] = [
         "title": "Titanium Grade 7 Bars & Rods Supplier - UNS R52400 (3.7235)",
         "shortDescription": "Premium Titanium Grade 7 (UNS R52400 / 3.7235) bars and rods with palladium content for enhanced corrosion resistance. Manufactured to ASTM B348 and ASME SB348 standards for chemical, marine, and industrial applications."
       },
-      // {
-      //   "slug": "titanium-forged-fittings",
-      //   "image": "/stock/hastelloy-forged-fittings.jpg",
-      //   "title": "Titanium Forged Fittings",
-      //   "shortDescription": "ASTM B381 Gr. 1, Gr. 2, Gr. 5 (Ti-6Al-4V), Gr. 7 High Strength-to-Weight Threadolets and Socket Weld Fittings."
-      // },
       {
         "slug": "titanium-flanges",
         "image": "/stock/titanium-flanges.jpg",
@@ -1650,12 +1515,6 @@ const materials: Material[] = [
         "image": "/stock/titanium-fasteners.jpg",
         "title": "Titanium Fasteners Manufacturer & Supplier - ASTM F468 / F467 / B348",
         "shortDescription": "Premium titanium fasteners manufacturer, stockist and exporter based in Mumbai, India, operating since 2013. Titanium fasteners are corrosion-resistant, lightweight, and non-magnetic components supplied in commercially pure Grades 2 and 4, or alloyed Grades 5 and 7. They form a stable oxide layer providing strong resistance to seawater and chlorides. Imperial and metric bolts, screws, and studs certified to ASTM F468/F468M and F467/F467M. Diameters range from M3 to M14 in metric sizes and from #4 to 9/16 in imperial sizes."
-      },
-      {
-        "slug": "titanium-buttweld-fittings",
-        "image": "/stock/titanium-buttweld-fittings.jpg",
-        "title": "Titanium Pipe Fittings Manufacturer & Supplier - ASTM B363 / ASME SB-363",
-        "shortDescription": "Premium titanium pipe fittings manufacturer, stockist and exporter working out of Mumbai, India, trading titanium pipe and fittings since 2013. Certified to ASTM B363 / ASME SB-363, grade WPT1 for Titanium Grade 1 and grade WPT2 for Titanium Grade 2, with couplings machined from ASTM B348 bar. Buttweld dimensions follow ASME B16.9 and ASME B16.28. Elbows, tees and caps available from 1/2 inch to 24 inch NPS, stub ends from 1 inch to 24 inch, and reducers from 1 inch × 1/2 inch to 12 inch × 10 inch, in Schedule 10 and Schedule 40."
       }
     ]),
   },
@@ -1671,7 +1530,7 @@ const materials: Material[] = [
     highlight: [
       "Excellent heat resistance",
       "Superior corrosion resistance",
-      "High mechanical strength",
+      "High mechanical strength"
     ],
     items: buildItemsWithImages([
       {
@@ -1715,7 +1574,7 @@ const materials: Material[] = [
         "image": "/stock/nimonic-80a-fasteners.jpg",
         "title": "Nimonic Alloys 80A Fasteners Manufacturer & Supplier - ASTM B637 / ASME SB-637",
         "shortDescription": "Premium Nimonic 80A fastener manufacturer and supplier based in Mumbai, India. Nimonic 80A is a precipitation-hardenable nickel-chromium alloy with chromium at 18.0 to 21.0%, while titanium and aluminium additions harden the material on ageing. Fasteners in the age-hardened condition retain tensile and creep-rupture strength to 815 °C (1500 °F). Produced from #00 to 4 inches and M1.2 to M48, with rolled or cut threads. Hex bolts, hex nuts, stud bolts, threaded rods, screws and washers available."
-      },
+      }
     ]),
   },
 
@@ -1729,7 +1588,7 @@ const materials: Material[] = [
     highlight: [
       "Versatile applications",
       "Diverse material options",
-      "Performance-focused solutions",
+      "Performance-focused solutions"
     ],
     items: buildItemsWithImages([
       {
@@ -1774,14 +1633,14 @@ const materials: Material[] = [
         "title": "6 Moly S31254 / SMO 254 Bars & Rods Supplier - UNS S31254 (1.4547)",
         "shortDescription": "Premium 6 Moly S31254 / SMO 254 (UNS S31254 / 1.4547) bars and rods, the high-performance austenitic stainless steel offering exceptional resistance to pitting, crevice corrosion, and stress corrosion cracking. Manufactured to ASTM A276 and A479 standards for aggressive chloride and seawater applications.",
         "image": "/stock/smo-254-bars.jpg"
-      },
+      }
 
 
 
 
 
     ]),
-  },
+  }
 ];
 
 export default materials;

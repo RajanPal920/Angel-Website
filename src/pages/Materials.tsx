@@ -112,53 +112,55 @@ const MaterialCard = ({ material, onSelect, materialImage }: any) => {
   return (
     <div
       onClick={() => onSelect(material.slug)}
-      className="group cursor-pointer bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:-translate-y-1 relative"
+      className="group cursor-pointer bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:-translate-y-1 relative h-full flex flex-col justify-between"
     >
-      {/* Card Image Area */}
-      <div className="h-32 overflow-hidden bg-white relative">
-        {!imgError && materialImage ? (
-          <img
-            src={materialImage}
-            alt={material.name}
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-            onError={() => setImgError(true)}
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center bg-white border-b border-gray-100">
-            <Icon size={40} className="text-gray-400" />
+      <div>
+        {/* Card Image Area */}
+        <div className="h-44 sm:h-48 overflow-hidden bg-white relative">
+          {!imgError && materialImage ? (
+            <img
+              src={materialImage}
+              alt={material.name}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              onError={() => setImgError(true)}
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center bg-gray-50 border-b border-gray-100">
+              <Icon size={40} className="text-gray-400" />
+            </div>
+          )}
+        </div>
+
+        {/* Card Content */}
+        <div className="p-5 flex-1 flex flex-col">
+          <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary-red transition-colors mb-2 line-clamp-1">
+            {material.name}
+          </h3>
+
+          <p className="text-xs text-gray-500 leading-relaxed line-clamp-2 min-h-[36px] mb-3">
+            {material.description}
+          </p>
+
+          <div className="min-h-[26px] mb-2 flex flex-wrap gap-1.5">
+            {material.highlight && material.highlight.length > 0
+              ? material.highlight.slice(0, 2).map((item: string, idx: number) => (
+                  <span
+                    key={idx}
+                    className="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full inline-block font-medium"
+                  >
+                    {item}
+                  </span>
+                ))
+              : null}
           </div>
-        )}
+        </div>
       </div>
 
-      {/* Card Content */}
-      <div className="p-4">
-        <h3 className="text-base font-bold text-gray-900 group-hover:text-primary-red transition-colors mb-1">
-          {material.name}
-        </h3>
-
-        <p className="text-xs text-gray-500 leading-relaxed line-clamp-2 mb-3">
-          {material.description}
-        </p>
-
-        {material.highlight && material.highlight.length > 0 && (
-          <div className="flex flex-wrap gap-1 mb-3">
-            {material.highlight.slice(0, 2).map((item: string, idx: number) => (
-              <span
-                key={idx}
-                className="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full"
-              >
-                {item}
-              </span>
-            ))}
-          </div>
-        )}
-
-        <div className="flex items-center justify-between pt-2 border-t border-gray-100">
-          <span className="text-xs font-semibold text-primary-red flex items-center gap-1 group-hover:gap-2 transition-all">
-            View Details
-            <ArrowRight size={14} />
-          </span>
-        </div>
+      <div className="px-5 pb-5 pt-3 border-t border-gray-100 mt-auto flex items-center justify-between">
+        <span className="text-xs font-semibold text-primary-red flex items-center gap-1 group-hover:gap-2 transition-all">
+          View Details
+          <ArrowRight size={14} />
+        </span>
       </div>
     </div>
   );
@@ -215,15 +217,12 @@ const Materials: React.FC = () => {
 
   const categories = [
     { id: "all", name: "All" },
-    { id: "all-products", name: "All Products" },
     ...materials.map((m) => ({ id: m.slug, name: m.name })),
   ];
 
   const filteredMaterials = materials.filter(
     (material) =>
-      (selectedCategory === "all" ||
-        selectedCategory === "all-products" ||
-        material.slug === selectedCategory) &&
+      (selectedCategory === "all" || material.slug === selectedCategory) &&
       (material.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         material.description
           .toLowerCase()
@@ -303,23 +302,19 @@ const Materials: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-2 flex-wrap justify-center mt-5">
-            {categories.slice(0, 5).map((cat) => (
+            {categories.map((cat) => (
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
-                className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all ${selectedCategory === cat.id
-                  ? "bg-gray-900 text-white shadow-lg"
-                  : "bg-white text-gray-600 border border-gray-200 hover:border-gray-400"
-                  }`}
+                className={`px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${
+                  selectedCategory === cat.id
+                    ? "bg-gray-900 text-white shadow-md"
+                    : "bg-white text-gray-600 border border-gray-200 hover:border-gray-400"
+                }`}
               >
                 {cat.name}
               </button>
             ))}
-            {categories.length > 5 && (
-              <button className="px-5 py-2.5 rounded-full text-sm font-medium bg-white text-gray-600 border border-gray-200 hover:border-gray-400">
-                +{categories.length - 5} more
-              </button>
-            )}
           </div>
 
           <div className="flex items-center gap-2">
