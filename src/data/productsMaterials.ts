@@ -446,6 +446,104 @@ export const anchorChannel: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
+  {
+    id: 5,
+    slug: "stainless-steel-17-4ph-flat-bars-supplier-mumbai",
+    oldSlug: "stainless-steel-17-4ph-flat-bars",
+    image: "/stock/stainless-steel-17-4ph-flat-bars.jpg",
+    title: "Stainless Steel 17-4 PH Flat Bars & Flat Plate Supplier – UNS S17400 (1.4542)",
+    shortDescription:
+      "Precision-sheared and cold-finished Stainless Steel 17-4 PH (UNS S17400 / 1.4542) flat bars and flat plates offering high mechanical strength, good toughness, and excellent corrosion resistance. Manufactured to ASTM A564 and AMS 5643 standards for structural aerospace and marine machinery.",
+    technicalOverview:
+      "Stainless Steel 17-4 PH (AISI 630 / UNS S17400 / DIN 1.4542) is a chromium-copper precipitation hardening martensitic stainless steel. Available in flat bar and flat plate forms, it combines exceptionally high tensile and yield strength with corrosion resistance comparable to 304 stainless steel in most industrial environments. The addition of copper provides age-hardening characteristics without significant distortion during heat treatment. Ideal for aerospace brackets, pump frames, structural machinery plates, and marine components.",
+    materialGroup: "Stainless Steel Flat Products",
+    standards: "ASTM A564, ASME SA564, AMS 5643, DIN 1.4542",
+    forms: "Cold Drawn Flat, Hot Rolled Flat, Slit & Edged Flat Bar, Flat Plate",
+    application: "Structural frameworks, aerospace brackets, marine supports, and industrial fabrication",
+    specifications: {
+      standard: "ASTM A564, ASME SA564, AMS 5643",
+      sizeRange: "Width: 10 mm to 300 mm | Thickness: 3 mm to 50 mm",
+      finishLength: "1 to 6 Meters, Custom Cut to Length, Mill Finish, Bright Polish",
+      availableForms: "Flat Bar, Patti, Flat Strip, Rectangular Flat Plate",
+    },
+    equivalentGrades: [
+      { grade: "SS 17-4 PH", uns: "S17400", wnr: "1.4542", common: "AISI 630" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 17-4 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "15.0 - 17.5",
+        ni: "3.0 - 5.0",
+        cu: "3.0 - 5.0",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 17-4 PH",
+        tensile: "1070 MPa (155 ksi)",
+        yield: "1000 MPa (145 ksi)",
+        elongation: "12%",
+        hardness: "35 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 6,
+    slug: "stainless-steel-15-5ph-flat-bars-supplier-mumbai",
+    oldSlug: "stainless-steel-15-5ph-flat-bars",
+    image: "/stock/stainless-steel-15-5ph-flat-bars.jpg",
+    title: "Stainless Steel 15-5 PH Flat Bars & Flat Plate Supplier – UNS S15500 (1.4545)",
+    shortDescription:
+      "High-strength Stainless Steel 15-5 PH (UNS S15500 / 1.4545) flat bars and flat plates offering exceptional fracture toughness, minimal distortion in heat treatment, and superior transverse ductility. Manufactured to ASTM A564, AMS 5659 for aerospace and defense components.",
+    technicalOverview:
+      "Stainless Steel 15-5 PH (XM-12 / UNS S15500 / DIN 1.4545) is a martensitic precipitation hardening stainless steel designed to provide superior transverse toughness compared to 17-4 PH. By eliminating delta ferrite from its microstructure, 15-5 PH delivers uniform mechanical properties in both longitudinal and transverse directions. These flat bars and flat plates offer excellent corrosion resistance in chemical processing and marine atmospheres.",
+    materialGroup: "Stainless Steel Flat Products",
+    standards: "ASTM A564, ASME SA564, AMS 5659, DIN 1.4545",
+    forms: "Cold Drawn Flat Bar, Hot Rolled Annealed Flat, Precision Ground Flat",
+    application: "Aerospace structural plates, offshore defense equipment, and high-pressure valve components",
+    specifications: {
+      standard: "ASTM A564, AMS 5659",
+      sizeRange: "Width: 10 mm to 250 mm | Thickness: 3 mm to 40 mm",
+      finishLength: "Custom Cut Lengths, 1 to 6 Meters",
+      availableForms: "Flat Bar, Patti, Rectangular Section, Flat Plate",
+    },
+    equivalentGrades: [
+      { grade: "SS 15-5 PH", uns: "S15500", wnr: "1.4545", common: "XM-12" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 15-5 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "14.0 - 15.5",
+        ni: "3.5 - 5.5",
+        cu: "2.5 - 4.5",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 15-5 PH",
+        tensile: "1100 MPa (160 ksi)",
+        yield: "1000 MPa (145 ksi)",
+        elongation: "13%",
+        hardness: "36 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
 ];
 
 // 2. Anchor Fastener
@@ -608,6 +706,104 @@ export const rings: ProductMaterial[] = [
     forms: "Structural MS Grade Shells & Heavy Base Rings",
     application:
       "Structural fabrication, heavy machinery, power plants, refineries, and general engineering",
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 5,
+    slug: "stainless-steel-17-4ph-forged-rings-supplier-mumbai",
+    oldSlug: "stainless-steel-17-4ph-forged-rings",
+    image: "/stock/stainless-steel-17-4ph-forged-rings.jpg",
+    title: "Stainless Steel 17-4 PH Forged Rings Supplier – ASTM A705 / ASME SA705",
+    shortDescription:
+      "Seamless rolled and forged Stainless Steel 17-4 PH (UNS S17400 / 1.4542) rings offering exceptional radial strength, dense grain flow, and superior fatigue life. Manufactured to ASTM A705 and AMS 5643 standards for aerospace bearing rings, turbine seals, and heavy-duty gear blanks.",
+    technicalOverview:
+      "Stainless Steel 17-4 PH seamless forged rings are produced through open die forging and ring rolling, aligning the grain flow circumferentially for maximum burst strength and fatigue resistance. Precipitation heat treating to H900, H1025, or H1150 provides customizable hardness and tensile strength combinations. Widely used in turbine seals, high-pressure swivel joints, gear rings, and nuclear containment rings.",
+    materialGroup: "Stainless Steel Forged Rings",
+    standards: "ASTM A705, ASME SA705, AMS 5643, DIN 1.4542",
+    forms: "Seamless Rolled Ring, Rough Machined Ring, Precision Forged Ring",
+    application: "Turbine seals, aerospace bearing rings, high-pressure flanges, and rotating gear blanks",
+    specifications: {
+      standard: "ASTM A705, ASME SA705, AMS 5643",
+      sizeRange: "Outer Diameter: 100 mm to 2500 mm | Wall Thickness: 15 mm to 250 mm",
+      finishLength: "Rough Machined, Proof Machined, Finish Turned",
+      availableForms: "Rolled Band Ring, Gear Blank Ring, Flange Ring",
+    },
+    equivalentGrades: [
+      { grade: "SS 17-4 PH", uns: "S17400", wnr: "1.4542", common: "AISI 630" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 17-4 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "15.0 - 17.5",
+        ni: "3.0 - 5.0",
+        cu: "3.0 - 5.0",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 17-4 PH",
+        tensile: "1150 MPa (165 ksi)",
+        yield: "1050 MPa (150 ksi)",
+        elongation: "12%",
+        hardness: "36 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 6,
+    slug: "stainless-steel-15-5ph-forged-rings-supplier-mumbai",
+    oldSlug: "stainless-steel-15-5ph-forged-rings",
+    image: "/stock/stainless-steel-15-5ph-forged-rings.jpg",
+    title: "Stainless Steel 15-5 PH Forged Rings Supplier – ASTM A705 / AMS 5659",
+    shortDescription:
+      "Seamless forged Stainless Steel 15-5 PH (UNS S15500 / 1.4545) rings providing high fracture toughness, uniform strength across all axes, and excellent stress corrosion cracking resistance. Manufactured to ASTM A705 and AMS 5659 standards for aerospace actuators and defense hardware.",
+    technicalOverview:
+      "15-5 PH forged rings are vacuum-arc remelted (VAR) to ensure extreme cleanliness, uniform microstructure, and outstanding transverse toughness. These seamless rolled rings eliminate the directional weaknesses of standard alloy rings, providing exceptional reliability in high-pressure hydraulic cylinders, aircraft landing gear rings, and offshore actuator seals.",
+    materialGroup: "Stainless Steel Forged Rings",
+    standards: "ASTM A705, ASME SA705, AMS 5659, DIN 1.4545",
+    forms: "Seamless Rolled Forged Ring, Proof Machined, Solution Treated",
+    application: "Aircraft landing gear rings, subsea swivel joints, and missile propulsion containment rings",
+    specifications: {
+      standard: "ASTM A705, AMS 5659",
+      sizeRange: "Outer Diameter: 100 mm to 2000 mm | Wall Thickness: 15 mm to 200 mm",
+      finishLength: "Rough Turned, Finish Machined to Drawing",
+      availableForms: "Seamless Forged Ring, Cylindrical Ring, Bearing Ring",
+    },
+    equivalentGrades: [
+      { grade: "SS 15-5 PH", uns: "S15500", wnr: "1.4545", common: "XM-12" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 15-5 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "14.0 - 15.5",
+        ni: "3.5 - 5.5",
+        cu: "2.5 - 4.5",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 15-5 PH",
+        tensile: "1170 MPa (170 ksi)",
+        yield: "1050 MPa (150 ksi)",
+        elongation: "12%",
+        hardness: "37 HRC",
+      },
+    ],
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
@@ -37247,6 +37443,104 @@ export const circles: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
+  {
+    id: 4,
+    slug: "stainless-steel-17-4ph-circles-supplier-mumbai",
+    oldSlug: "stainless-steel-17-4ph-circles",
+    image: "/stock/stainless-steel-17-4ph-circles.jpg",
+    title: "Stainless Steel 17-4 PH Circles Supplier – UNS S17400 / 1.4542",
+    shortDescription:
+      "Precision laser, plasma, and waterjet cut Stainless Steel 17-4 PH (UNS S17400 / 1.4542) round circles and blanks offering high yield strength, excellent dimensional stability, and wear resistance. Manufactured to ASTM A693 / A240 standards for blind flanges, valve discs, and rotating components.",
+    technicalOverview:
+      "Stainless Steel 17-4 PH circles and circular discs are cut from certified solution-treated plates using high-precision CNC laser or abrasive waterjet cutting, preserving the metallurgical properties of the alloy. With high yield strength up to 1170 MPa upon aging, these circles are ideal for valve discs, blind flanges, rotating pump impellers, and heavy-duty wear discs.",
+    materialGroup: "Stainless Steel Circles",
+    standards: "ASTM A693, ASTM A240, AMS 5604, DIN 1.4542",
+    forms: "Laser Cut Circle, Waterjet Cut Blank, Machined Disc, Solution Annealed",
+    application: "Valve discs, blind flanges, pump wear rings, and rotating machinery blanks",
+    specifications: {
+      standard: "ASTM A693, ASTM A240",
+      sizeRange: "Diameter: 50 mm to 1200 mm | Thickness: 3 mm to 80 mm",
+      finishLength: "Machined Edges, Deburred, Clean Cut",
+      availableForms: "Round Disc, Blank, Circular Plate",
+    },
+    equivalentGrades: [
+      { grade: "SS 17-4 PH", uns: "S17400", wnr: "1.4542", common: "AISI 630" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 17-4 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "15.0 - 17.5",
+        ni: "3.0 - 5.0",
+        cu: "3.0 - 5.0",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 17-4 PH",
+        tensile: "1070 MPa (155 ksi)",
+        yield: "1000 MPa (145 ksi)",
+        elongation: "12%",
+        hardness: "35 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 5,
+    slug: "stainless-steel-15-5ph-circles-supplier-mumbai",
+    oldSlug: "stainless-steel-15-5ph-circles",
+    image: "/stock/stainless-steel-15-5ph-circles.jpg",
+    title: "Stainless Steel 15-5 PH Circles Supplier – UNS S15500 / 1.4545",
+    shortDescription:
+      "High-purity Stainless Steel 15-5 PH (UNS S15500 / 1.4545) round circles and circular blanks offering outstanding multi-axial toughness, high hardness, and minimal distortion. Manufactured to ASTM A693 and AMS 5862 standards for aerospace rotating discs and valve seats.",
+    technicalOverview:
+      "15-5 PH stainless steel circles are engineered for demanding applications where high mechanical stress occurs in multiple directions simultaneously. These circles undergo precision waterjet cutting followed by stress-relief, ensuring crack resistance and exceptional dimensional integrity for aerospace clutch plates, turbine disc blanks, and chemical valve shut-off discs.",
+    materialGroup: "Stainless Steel Circles",
+    standards: "ASTM A693, AMS 5862, DIN 1.4545",
+    forms: "Waterjet Cut Disc, Machined Round Blank, Laser Cut Circle",
+    application: "Aerospace clutch plates, high-pressure valve seats, and precision circular machinery blanks",
+    specifications: {
+      standard: "ASTM A693, AMS 5862",
+      sizeRange: "Diameter: 50 mm to 1000 mm | Thickness: 3 mm to 60 mm",
+      finishLength: "Smooth Machined Surface, Precision Tolerances",
+      availableForms: "Circular Plate, Solid Disc, Precision Blank",
+    },
+    equivalentGrades: [
+      { grade: "SS 15-5 PH", uns: "S15500", wnr: "1.4545", common: "XM-12" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 15-5 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "14.0 - 15.5",
+        ni: "3.5 - 5.5",
+        cu: "2.5 - 4.5",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 15-5 PH",
+        tensile: "1150 MPa (165 ksi)",
+        yield: "1000 MPa (145 ksi)",
+        elongation: "12%",
+        hardness: "36 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
 ];
 
 // 13. Rod & Bars
@@ -41839,7 +42133,7 @@ export const rodBars: ProductMaterial[] = [
     id: 19,
     slug: "stainless-steel-15-5ph-bars-rods-supplier-mumbai",
     oldSlug: "stainless-steel-15-5ph-bars-rods",
-    image: "/stock/stainless-steel-5ph-bars.jpg",
+    image: "/stock/stainless-steel-15-5ph-bars.jpg",
     title: "Stainless Steel 15-5PH Bars & Rods Supplier - UNS S15500 (1.4545)",
     shortDescription:
       "Premium Stainless Steel 15-5PH (UNS S15500 / 1.4545) bars and rods, the precipitation-hardening stainless steel offering excellent strength, corrosion resistance, and toughness. Manufactured to ASTM A564 and ASME SA564 standards for aerospace, chemical, and high-performance applications.",
@@ -59864,6 +60158,202 @@ export const sheets: ProductMaterial[] = [
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },
+  {
+    id: 41,
+    slug: "stainless-steel-17-4ph-sheets-supplier-mumbai",
+    oldSlug: "stainless-steel-17-4ph-sheets",
+    image: "/stock/stainless-steel-17-4ph-sheets.jpg",
+    title: "Stainless Steel 17-4 PH Sheets Supplier – UNS S17400 / 1.4542 / ASTM A693",
+    shortDescription:
+      "Precipitation-hardening Stainless Steel 17-4 PH (UNS S17400 / 1.4542) cold-rolled sheets providing exceptional yield strength up to 1170 MPa, high hardness, and corrosion resistance matching 304. Manufactured to ASTM A693 and AMS 5604 standards for aerospace panels and industrial fabrication.",
+    technicalOverview:
+      "Stainless Steel 17-4 PH sheets are cold-rolled, solution-annealed sheets designed for severe operational conditions requiring high tensile strength and oxidation resistance. The alloy can be heat-treated to various aged conditions (H900, H1025, H1075, H1150) to optimize hardness versus toughness, with virtually zero distortion. Widely used for aerospace structures, gas turbine baffles, and nuclear processing equipment.",
+    materialGroup: "Stainless Steel Sheets",
+    standards: "ASTM A693, ASME SA693, AMS 5604, DIN 1.4542",
+    forms: "Cold Rolled Sheet, 2B Finish, No. 4 Finish, Bright Annealed",
+    application: "Aerospace skins, gas turbine baffles, nuclear components, and high-strength enclosures",
+    specifications: {
+      standard: "ASTM A693, AMS 5604",
+      sizeRange: "Thickness: 0.5 mm to 4.0 mm | Width: 1000 mm to 1500 mm",
+      finishLength: "Length: 2000 mm to 6000 mm, Custom Cut Sheets",
+      availableForms: "Sheet, Coil, Shim Sheet, Strip",
+    },
+    equivalentGrades: [
+      { grade: "SS 17-4 PH", uns: "S17400", wnr: "1.4542", common: "AISI 630" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 17-4 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "15.0 - 17.5",
+        ni: "3.0 - 5.0",
+        cu: "3.0 - 5.0",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 17-4 PH (Condition A)",
+        tensile: "1035 MPa (150 ksi)",
+        yield: "760 MPa (110 ksi)",
+        elongation: "8%",
+        hardness: "38 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 42,
+    slug: "stainless-steel-17-4ph-plates-supplier-mumbai",
+    oldSlug: "stainless-steel-17-4ph-plates",
+    image: "/stock/stainless-steel-17-4ph-plates.jpg",
+    title: "Stainless Steel 17-4 PH Plates Supplier – UNS S17400 / 1.4542 / ASTM A693",
+    shortDescription:
+      "Heavy-duty Stainless Steel 17-4 PH (UNS S17400 / 1.4542) hot-rolled plates designed for high-stress aerospace structures, pump impellers, and nuclear processing. Manufactured to ASTM A693 and ASME SA693 standards.",
+    technicalOverview:
+      "17-4 PH hot-rolled plates provide superior structural integrity, elevated hardness, and high corrosion resistance. The plate material can be age-hardened via a single low-temperature heat treatment, eliminating scaling and dimensional changes. Highly favored for chemical plant reactor plates, aerospace load-bearing bulkheads, and deep-well drilling tools.",
+    materialGroup: "Stainless Steel Plates",
+    standards: "ASTM A693, ASME SA693, AMS 5604",
+    forms: "Hot Rolled Plate, No. 1 Finish, Solution Annealed Plate",
+    application: "Chemical reactor plates, pump impellers, aerospace bulkheads, and high-load machinery",
+    specifications: {
+      standard: "ASTM A693, ASME SA693",
+      sizeRange: "Thickness: 5 mm to 100 mm | Width: 1250 mm to 2500 mm",
+      finishLength: "Length: 2500 mm to 8000 mm, Flame Cut, Waterjet Cut",
+      availableForms: "Heavy Plate, Cut Plate, Profile Cut Plate",
+    },
+    equivalentGrades: [
+      { grade: "SS 17-4 PH", uns: "S17400", wnr: "1.4542", common: "AISI 630" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 17-4 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "15.0 - 17.5",
+        ni: "3.0 - 5.0",
+        cu: "3.0 - 5.0",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 17-4 PH",
+        tensile: "1070 MPa (155 ksi)",
+        yield: "1000 MPa (145 ksi)",
+        elongation: "12%",
+        hardness: "35 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 43,
+    slug: "stainless-steel-15-5ph-sheets-supplier-mumbai",
+    oldSlug: "stainless-steel-15-5ph-sheets",
+    image: "/stock/stainless-steel-15-5ph-sheets.jpg",
+    title: "Stainless Steel 15-5 PH Sheets Supplier – UNS S15500 / 1.4545 / AMS 5862",
+    shortDescription:
+      "Cold-rolled Stainless Steel 15-5 PH (UNS S15500 / 1.4545) sheets providing high strength, uniform microstructure without delta ferrite, and superior transverse toughness. Manufactured to ASTM A693 and AMS 5862 standards for aerospace airframe skins and precision instruments.",
+    technicalOverview:
+      "Stainless Steel 15-5 PH sheet is a vacuum-arc remelted precipitation hardening alloy delivering outstanding toughness and strength in all directions. Designed to overcome the directionality limitations of 17-4 PH, 15-5 PH sheets are the top choice for critical aerospace panels, instrumentation diaphragms, and chemical containment barriers.",
+    materialGroup: "Stainless Steel Sheets",
+    standards: "ASTM A693, ASME SA693, AMS 5862, DIN 1.4545",
+    forms: "Cold Rolled Sheet, 2B Finish, Solution Annealed Sheet",
+    application: "Aerospace panels, instrument diaphragms, and precision formed structures",
+    specifications: {
+      standard: "ASTM A693, AMS 5862",
+      sizeRange: "Thickness: 0.5 mm to 4.0 mm | Width: 1000 mm to 1250 mm",
+      finishLength: "Length: 2000 mm to 4000 mm, Custom Cut Sheets",
+      availableForms: "Sheet, Precision Shim, Cut Piece",
+    },
+    equivalentGrades: [
+      { grade: "SS 15-5 PH", uns: "S15500", wnr: "1.4545", common: "XM-12" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 15-5 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "14.0 - 15.5",
+        ni: "3.5 - 5.5",
+        cu: "2.5 - 4.5",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 15-5 PH",
+        tensile: "1150 MPa (165 ksi)",
+        yield: "1000 MPa (145 ksi)",
+        elongation: "11%",
+        hardness: "36 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 44,
+    slug: "stainless-steel-15-5ph-plates-supplier-mumbai",
+    oldSlug: "stainless-steel-15-5ph-plates",
+    image: "/stock/stainless-steel-15-5ph-plates.jpg",
+    title: "Stainless Steel 15-5 PH Plates Supplier – UNS S15500 / 1.4545 / ASTM A693",
+    shortDescription:
+      "Heavy-section Stainless Steel 15-5 PH (UNS S15500 / 1.4545) plates offering exceptional short-transverse toughness, resistance to crack propagation, and excellent weldability. Manufactured to ASTM A693 and AMS 5862 standards for aerospace forgings and pressure containment.",
+    technicalOverview:
+      "15-5 PH heavy plates are designed for structural applications where transverse tensile and impact strength are essential. Thanks to vacuum induction melting combined with consumable electrode remelting (VAR), these plates exhibit exceptional cleanliness, low gas content, and superior resistance to stress corrosion cracking in aggressive atmospheres.",
+    materialGroup: "Stainless Steel Plates",
+    standards: "ASTM A693, ASME SA693, AMS 5862",
+    forms: "Hot Rolled Annealed Plate, Precision Sawn Plate",
+    application: "Structural aircraft frames, missile casings, nuclear pressure boundaries, and offshore valve blocks",
+    specifications: {
+      standard: "ASTM A693, ASME SA693",
+      sizeRange: "Thickness: 5 mm to 80 mm | Width: 1000 mm to 2000 mm",
+      finishLength: "Length: 2000 mm to 6000 mm, Custom Waterjet Cut",
+      availableForms: "Heavy Plate, Sawn Block, Custom Cut Plate",
+    },
+    equivalentGrades: [
+      { grade: "SS 15-5 PH", uns: "S15500", wnr: "1.4545", common: "XM-12" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 15-5 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "14.0 - 15.5",
+        ni: "3.5 - 5.5",
+        cu: "2.5 - 4.5",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 15-5 PH",
+        tensile: "1150 MPa (165 ksi)",
+        yield: "1030 MPa (150 ksi)",
+        elongation: "12%",
+        hardness: "37 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
 ];
 
 // 17. Wires
@@ -63493,6 +63983,102 @@ export const wires: ProductMaterial[] = [
       "Copper Nickel Welding Electrode Supplier In India",
     ],
 
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 13,
+    slug: "stainless-steel-17-4ph-wires-supplier-mumbai",
+    oldSlug: "stainless-steel-17-4ph-wires",
+    image: "/stock/stainless-steel-17-4ph-wires.jpg",
+    title: "Stainless Steel 17-4 PH Wires Supplier – UNS S17400 / 1.4542 / AISI 630",
+    shortDescription:
+      "Premium Stainless Steel 17-4 PH (UNS S17400 / 1.4542) precipitation-hardening wires offering ultra-high tensile strength, excellent fatigue resistance, and good corrosion resistance comparable to 304. Manufactured to ASTM A580, ASTM A313, and AMS 5604 standards for aerospace springs, medical components, and precision engineering.",
+    technicalOverview:
+      "17-4 PH stainless steel wires are cold drawn and solution-treated wires that achieve exceptional tensile properties upon precipitation heat treatment. Commonly utilized in spring-temper conditions for aerospace valves, medical instruments, and industrial fasteners, these wires provide high fatigue limits and resistance to stress corrosion in marine atmospheres.",
+    materialGroup: "Precipitation Hardening Stainless Steel",
+    standards: "ASTM A580, ASTM A313, AMS 5604, AMS 5643, DIN 1.4542",
+    forms: "Coil, Spool, Bobbin, Cut Length, Spring Wire, Cold Drawn Wire",
+    specifications: {
+      standard: "ASTM A580, ASTM A313, AMS 5604",
+      sizeRange: '0.10 mm to 12.0 mm (0.004" to 0.472")',
+      finishLength: "Bright Drawn, Polished, Matte, Annealed / Coils & Spools",
+      availableForms: "Spring Wire, Cold Heading Wire, Weaving Wire, Tie Wire",
+    },
+    equivalentGrades: [
+      { grade: "SS 17-4 PH", uns: "S17400", wnr: "1.4542", common: "AISI 630 / SUS 630" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 17-4 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "15.0 - 17.5",
+        ni: "3.0 - 5.0",
+        cu: "3.0 - 5.0",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 17-4 PH (H900)",
+        tensile: "1310 MPa (190 ksi)",
+        yield: "1170 MPa (170 ksi)",
+        elongation: "10%",
+        hardness: "40 - 44 HRC",
+      },
+    ],
+    exportCountries: EXPORT_COUNTRIES,
+    supplyCities: SUPPLY_CITIES,
+  },
+  {
+    id: 14,
+    slug: "stainless-steel-15-5ph-wires-supplier-mumbai",
+    oldSlug: "stainless-steel-15-5ph-wires",
+    image: "/stock/stainless-steel-15-5ph-wires.jpg",
+    title: "Stainless Steel 15-5 PH Wires Supplier – UNS S15500 / 1.4545 / XM-12",
+    shortDescription:
+      "High-purity Stainless Steel 15-5 PH (UNS S15500 / 1.4545 / XM-12) precipitation-hardening wires offering superior transverse ductility, high strength, and excellent corrosion resistance. Manufactured to ASTM A580, AMS 5659 standards for aerospace springs, safety wire, and medical devices.",
+    technicalOverview:
+      "15-5 PH stainless steel wires are vacuum-remelted fine and spring wires engineered to prevent directional cracking under high vibrational loads. Offering high tensile strength, good toughness, and excellent biocompatibility, these wires are widely utilized in defense locking mechanisms, precision aircraft control wires, and dental orthopaedic fixtures.",
+    materialGroup: "Precipitation Hardening Stainless Steel",
+    standards: "ASTM A580, ASTM A313, AMS 5659, DIN 1.4545",
+    forms: "Coil, Spool, Bobbin, Straightened & Cut, Spring Wire",
+    specifications: {
+      standard: "ASTM A580, ASTM A313, AMS 5659",
+      sizeRange: '0.10 mm to 10.0 mm (0.004" to 0.394")',
+      finishLength: "Bright Polished, Cold Drawn, Annealed / Spools up to 50 kg",
+      availableForms: "Spring Temper, Cold Heading Wire, Medical Grade Wire",
+    },
+    equivalentGrades: [
+      { grade: "SS 15-5 PH", uns: "S15500", wnr: "1.4545", common: "XM-12" },
+    ],
+    chemicalComposition: [
+      {
+        grade: "SS 15-5 PH",
+        c: "0.07 max",
+        mn: "1.00 max",
+        si: "1.00 max",
+        p: "0.040 max",
+        s: "0.030 max",
+        cr: "14.0 - 15.5",
+        ni: "3.5 - 5.5",
+        cu: "2.5 - 4.5",
+        nb_ta: "0.15 - 0.45",
+      },
+    ],
+    mechanicalProperties: [
+      {
+        grade: "SS 15-5 PH (H900)",
+        tensile: "1310 MPa (190 ksi)",
+        yield: "1170 MPa (170 ksi)",
+        elongation: "10%",
+        hardness: "40 - 45 HRC",
+      },
+    ],
     exportCountries: EXPORT_COUNTRIES,
     supplyCities: SUPPLY_CITIES,
   },

@@ -564,7 +564,7 @@ const materials: Material[] = [
           "Stainless Steel 15-5PH Bars & Rods Supplier - UNS S15500 (1.4545)",
         shortDescription:
           "Premium Stainless Steel 15-5PH (UNS S15500 / 1.4545) bars and rods, the precipitation-hardening stainless steel offering excellent strength, corrosion resistance, and toughness. Manufactured to ASTM A564 and ASME SA564 standards for aerospace, chemical, and high-performance applications.",
-        image: "/stock/stainless-steel-317-317l-bars.jpg",
+        image: "/stock/stainless-steel-15-5ph-bars.jpg",
       },
       {
         slug: "stainless-steel-17-4ph-bars-rods",
@@ -572,7 +572,103 @@ const materials: Material[] = [
           "Stainless Steel 17-4PH Bars & Rods Supplier - UNS S17400 (1.4542)",
         shortDescription:
           "Premium Stainless Steel 17-4PH (UNS S17400 / 1.4542) bars and rods, the precipitation-hardening stainless steel offering high strength, excellent corrosion resistance, and good toughness. Manufactured to ASTM A564 and ASME SA564 standards for aerospace, chemical, and high-performance applications.",
-        image: "/stock/titanium-grade-1-bars.jpg",
+        image: "/stock/ss-17-4ph-bars.jpg",
+      },
+      {
+        slug: "stainless-steel-17-4ph-wires",
+        title:
+          "Stainless Steel 17-4 PH Wires Supplier – UNS S17400 / 1.4542 / AISI 630",
+        shortDescription:
+          "Premium Stainless Steel 17-4 PH (UNS S17400 / 1.4542) precipitation-hardening wires offering ultra-high tensile strength, excellent fatigue resistance, and good corrosion resistance comparable to 304. Manufactured to ASTM A580, ASTM A313, and AMS 5604 standards.",
+        image: "/stock/stainless-steel-17-4ph-wires.jpg",
+      },
+      {
+        slug: "stainless-steel-17-4ph-flat-bars",
+        title:
+          "Stainless Steel 17-4 PH Flat Bars & Flat Plate Supplier – UNS S17400 (1.4542)",
+        shortDescription:
+          "Precision-sheared and cold-finished Stainless Steel 17-4 PH (UNS S17400 / 1.4542) flat bars and flat plates offering high mechanical strength, good toughness, and excellent corrosion resistance. Manufactured to ASTM A564 and AMS 5643 standards.",
+        image: "/stock/stainless-steel-17-4ph-flat-bars.jpg",
+      },
+      {
+        slug: "stainless-steel-17-4ph-sheets",
+        title:
+          "Stainless Steel 17-4 PH Sheets Supplier – UNS S17400 / 1.4542 / ASTM A693",
+        shortDescription:
+          "Precipitation-hardening Stainless Steel 17-4 PH (UNS S17400 / 1.4542) cold-rolled sheets providing exceptional yield strength up to 1170 MPa, high hardness, and corrosion resistance matching 304. Manufactured to ASTM A693 and AMS 5604 standards.",
+        image: "/stock/stainless-steel-17-4ph-sheets.jpg",
+      },
+      {
+        slug: "stainless-steel-17-4ph-plates",
+        title:
+          "Stainless Steel 17-4 PH Plates Supplier – UNS S17400 / 1.4542 / ASTM A693",
+        shortDescription:
+          "Heavy-duty Stainless Steel 17-4 PH (UNS S17400 / 1.4542) hot-rolled plates designed for high-stress aerospace structures, pump impellers, and nuclear processing. Manufactured to ASTM A693 and ASME SA693 standards.",
+        image: "/stock/stainless-steel-17-4ph-plates.jpg",
+      },
+      {
+        slug: "stainless-steel-17-4ph-circles",
+        title:
+          "Stainless Steel 17-4 PH Circles Supplier – UNS S17400 / 1.4542",
+        shortDescription:
+          "Precision laser, plasma, and waterjet cut Stainless Steel 17-4 PH (UNS S17400 / 1.4542) round circles and blanks offering high yield strength, excellent dimensional stability, and wear resistance. Manufactured to ASTM A693 / A240 standards.",
+        image: "/stock/stainless-steel-17-4ph-circles.jpg",
+      },
+      {
+        slug: "stainless-steel-17-4ph-forged-rings",
+        title:
+          "Stainless Steel 17-4 PH Forged Rings Supplier – ASTM A705 / ASME SA705",
+        shortDescription:
+          "Seamless rolled and forged Stainless Steel 17-4 PH (UNS S17400 / 1.4542) rings offering exceptional radial strength, dense grain flow, and superior fatigue life. Manufactured to ASTM A705 and AMS 5643 standards.",
+        image: "/stock/stainless-steel-17-4ph-forged-rings.jpg",
+      },
+      {
+        slug: "stainless-steel-15-5ph-wires",
+        title:
+          "Stainless Steel 15-5 PH Wires Supplier – UNS S15500 / 1.4545 / XM-12",
+        shortDescription:
+          "High-purity Stainless Steel 15-5 PH (UNS S15500 / 1.4545 / XM-12) precipitation-hardening wires offering superior transverse ductility, high strength, and excellent corrosion resistance. Manufactured to ASTM A580, AMS 5659 standards.",
+        image: "/stock/stainless-steel-15-5ph-wires.jpg",
+      },
+      {
+        slug: "stainless-steel-15-5ph-flat-bars",
+        title:
+          "Stainless Steel 15-5 PH Flat Bars & Flat Plate Supplier – UNS S15500 (1.4545)",
+        shortDescription:
+          "High-strength Stainless Steel 15-5 PH (UNS S15500 / 1.4545) flat bars and flat plates offering exceptional fracture toughness, minimal distortion in heat treatment, and superior transverse ductility. Manufactured to ASTM A564, AMS 5659.",
+        image: "/stock/stainless-steel-15-5ph-flat-bars.jpg",
+      },
+      {
+        slug: "stainless-steel-15-5ph-sheets",
+        title:
+          "Stainless Steel 15-5 PH Sheets Supplier – UNS S15500 / 1.4545 / AMS 5862",
+        shortDescription:
+          "Cold-rolled Stainless Steel 15-5 PH (UNS S15500 / 1.4545) sheets providing high strength, uniform microstructure without delta ferrite, and superior transverse toughness. Manufactured to ASTM A693 and AMS 5862 standards.",
+        image: "/stock/stainless-steel-15-5ph-sheets.jpg",
+      },
+      {
+        slug: "stainless-steel-15-5ph-plates",
+        title:
+          "Stainless Steel 15-5 PH Plates Supplier – UNS S15500 / 1.4545 / ASTM A693",
+        shortDescription:
+          "Heavy-section Stainless Steel 15-5 PH (UNS S15500 / 1.4545) plates offering exceptional short-transverse toughness, resistance to crack propagation, and excellent weldability. Manufactured to ASTM A693 and AMS 5862 standards.",
+        image: "/stock/stainless-steel-15-5ph-plates.jpg",
+      },
+      {
+        slug: "stainless-steel-15-5ph-circles",
+        title:
+          "Stainless Steel 15-5 PH Circles Supplier – UNS S15500 / 1.4545",
+        shortDescription:
+          "High-purity Stainless Steel 15-5 PH (UNS S15500 / 1.4545) round circles and circular blanks offering outstanding multi-axial toughness, high hardness, and minimal distortion. Manufactured to ASTM A693 and AMS 5862 standards.",
+        image: "/stock/stainless-steel-15-5ph-circles.jpg",
+      },
+      {
+        slug: "stainless-steel-15-5ph-forged-rings",
+        title:
+          "Stainless Steel 15-5 PH Forged Rings Supplier – ASTM A705 / AMS 5659",
+        shortDescription:
+          "Seamless forged Stainless Steel 15-5 PH (UNS S15500 / 1.4545) rings providing high fracture toughness, uniform strength across all axes, and excellent stress corrosion cracking resistance. Manufactured to ASTM A705 and AMS 5659 standards.",
+        image: "/stock/stainless-steel-15-5ph-forged-rings.jpg",
       },
       {
         slug: "stainless-steel-ph-13-8-mo-bars-rods",

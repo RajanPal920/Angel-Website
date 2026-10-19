@@ -2403,4 +2403,157 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "categorySlug": "angle-channels/flat-plate",
     "canonicalSlug": "flat-plate-supplier-mumbai"
   },
+  "stainless-steel-17-4ph-wires": {
+    "categorySlug": "wires",
+    "canonicalSlug": "stainless-steel-17-4ph-wires-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-wires-supplier-mumbai": {
+    "categorySlug": "wires",
+    "canonicalSlug": "stainless-steel-17-4ph-wires-supplier-mumbai"
+  },
+  "stainless-steel-17-4-ph-wires": {
+    "categorySlug": "wires",
+    "canonicalSlug": "stainless-steel-17-4ph-wires-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-flat-bars": {
+    "categorySlug": "angle-channels/flat-plate",
+    "canonicalSlug": "stainless-steel-17-4ph-flat-bars-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-flat-bars-supplier-mumbai": {
+    "categorySlug": "angle-channels/flat-plate",
+    "canonicalSlug": "stainless-steel-17-4ph-flat-bars-supplier-mumbai"
+  },
+  "stainless-steel-17-4-ph-flat-bars": {
+    "categorySlug": "angle-channels/flat-plate",
+    "canonicalSlug": "stainless-steel-17-4ph-flat-bars-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-sheets": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-17-4ph-sheets-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-sheets-supplier-mumbai": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-17-4ph-sheets-supplier-mumbai"
+  },
+  "stainless-steel-17-4-ph-sheets": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-17-4ph-sheets-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-plates": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-17-4ph-plates-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-plates-supplier-mumbai": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-17-4ph-plates-supplier-mumbai"
+  },
+  "stainless-steel-17-4-ph-plates": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-17-4ph-plates-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-circles": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-17-4ph-circles-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-circles-supplier-mumbai": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-17-4ph-circles-supplier-mumbai"
+  },
+  "stainless-steel-17-4-ph-circles": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-17-4ph-circles-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-forged-rings": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-17-4ph-forged-rings-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-forged-rings-supplier-mumbai": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-17-4ph-forged-rings-supplier-mumbai"
+  },
+  "stainless-steel-17-4-ph-forged-rings": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-17-4ph-forged-rings-supplier-mumbai"
+  },
+  "stainless-steel-17-4ph-rings": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-17-4ph-forged-rings-supplier-mumbai"
+  },
+
+  "stainless-steel-15-5ph-wires": {
+    "categorySlug": "wires",
+    "canonicalSlug": "stainless-steel-15-5ph-wires-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-wires-supplier-mumbai": {
+    "categorySlug": "wires",
+    "canonicalSlug": "stainless-steel-15-5ph-wires-supplier-mumbai"
+  },
+  "stainless-steel-15-5-ph-wires": {
+    "categorySlug": "wires",
+    "canonicalSlug": "stainless-steel-15-5ph-wires-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-flat-bars": {
+    "categorySlug": "angle-channels/flat-plate",
+    "canonicalSlug": "stainless-steel-15-5ph-flat-bars-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-flat-bars-supplier-mumbai": {
+    "categorySlug": "angle-channels/flat-plate",
+    "canonicalSlug": "stainless-steel-15-5ph-flat-bars-supplier-mumbai"
+  },
+  "stainless-steel-15-5-ph-flat-bars": {
+    "categorySlug": "angle-channels/flat-plate",
+    "canonicalSlug": "stainless-steel-15-5ph-flat-bars-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-sheets": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-15-5ph-sheets-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-sheets-supplier-mumbai": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-15-5ph-sheets-supplier-mumbai"
+  },
+  "stainless-steel-15-5-ph-sheets": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-15-5ph-sheets-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-plates": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-15-5ph-plates-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-plates-supplier-mumbai": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-15-5ph-plates-supplier-mumbai"
+  },
+  "stainless-steel-15-5-ph-plates": {
+    "categorySlug": "sheets/plate/coil",
+    "canonicalSlug": "stainless-steel-15-5ph-plates-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-circles": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-15-5ph-circles-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-circles-supplier-mumbai": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-15-5ph-circles-supplier-mumbai"
+  },
+  "stainless-steel-15-5-ph-circles": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-15-5ph-circles-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-forged-rings": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-15-5ph-forged-rings-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-forged-rings-supplier-mumbai": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-15-5ph-forged-rings-supplier-mumbai"
+  },
+  "stainless-steel-15-5-ph-forged-rings": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-15-5ph-forged-rings-supplier-mumbai"
+  },
+  "stainless-steel-15-5ph-rings": {
+    "categorySlug": "circles/rings",
+    "canonicalSlug": "stainless-steel-15-5ph-forged-rings-supplier-mumbai"
+  },
 };
