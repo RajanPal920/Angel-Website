@@ -386,9 +386,9 @@ export const anchorChannel: ProductMaterial[] = [
   {
     id: 1,
     slug: "regular-angle-supplier-mumbai",
-    oldSlug: "regular-angle",
+    oldSlug: "regular-angles",
     image: "/stock/regular-angle.jpg",
-    title: "Regular Angle",
+    title: "Regular Angles",
     shortDescription:
       "ASTM A36, IS 2062 Gr E250 / E350, SS 304/304L, SS 316/316L, Hot-Rolled L-Shape Structural Profiles.",
     materialGroup: "Equal & Unequal",
@@ -401,10 +401,10 @@ export const anchorChannel: ProductMaterial[] = [
   },
   {
     id: 2,
-    slug: "regular-channel-manufacturer-mumbai",
-    oldSlug: "regular-channel",
+    slug: "regular-chennels-manufacturer-mumbai",
+    oldSlug: "regular-chennels",
     image: "/stock/regular-channel.jpg",
-    title: "Regular Channel",
+    title: "Regular Chennels",
     shortDescription:
       "IS 808 Standard, ASTM A36, ASME SA36, Stainless Steel 304, 316, Tapered Flange, Parallel Flange Iron Sections.",
     materialGroup: "C & U Channels",
@@ -417,10 +417,10 @@ export const anchorChannel: ProductMaterial[] = [
   },
   {
     id: 3,
-    slug: "carbon-angle-channel-manufacturer-mumbai",
-    oldSlug: "carbon-angle-channel",
+    slug: "carbon-angle-chennels-manufacturer-mumbai",
+    oldSlug: "carbon-angles-chennels",
     image: "/stock/carbon-angle-channel.jpg",
-    title: "Carbon Steel Angle & Channel",
+    title: "Carbon Steel Angles & Chennels",
     shortDescription:
       "ASTM A572 Gr 50 / Gr 60, A529, IS 2062 E250A/B, High-Yield Carbon Steel Structural Conduits & Framework Sections.",
     materialGroup: "Carbon Steel Deck",
@@ -100968,6 +100968,9 @@ export const gasket: ProductMaterial[] = [];
 // ── The Main Map Object ──
 export const productCategoryMap: Record<string, ProductMaterial[]> = {
   // Match the slug from products.ts to the data array
+  "angle-chennels/flat": anchorChannel,
+  "angle-channels/flat": anchorChannel,
+  "angle-channels/flat-plate": anchorChannel,
   "angle-channels": anchorChannel,
   "buttweld-fittings": buttweldFitting,
   circles: circles,

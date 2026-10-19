@@ -67,6 +67,22 @@ function App() {
           />
 
           <Route
+            path="/products/angle-chennels/flat"
+            element={<ProductsCategory />}
+          />
+          <Route
+            path="/products/angle-chennels/flat/:materialSlug"
+            element={<MaterialDetail />}
+          />
+          <Route
+            path="/products/angle-channels/flat"
+            element={<ProductsCategory />}
+          />
+          <Route
+            path="/products/angle-channels/flat/:materialSlug"
+            element={<MaterialDetail />}
+          />
+          <Route
             path="/products/angle-channels/flat-plate"
             element={<ProductsCategory />}
           />

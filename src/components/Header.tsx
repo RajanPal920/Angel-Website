@@ -1174,8 +1174,8 @@ const Header: React.FC = () => {
         icon: Icons.Flange,
       },
       {
-        label: "Angles, Channels & Flat Plate",
-        slug: "angle-channels/flat-plate",
+        label: "Angles, Chennels & Flat",
+        slug: "angle-chennels/flat",
         icon: Icons.Angle,
       },
       {

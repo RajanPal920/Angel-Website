@@ -207,16 +207,16 @@ const Home: React.FC = () => {
     },
     {
       id: 3,
-      name: "Steel Angles & Channels",
-      slug: "angle-channels/flat-plate",
+      name: "Angles, Chennels & Flat",
+      slug: "angle-chennels/flat",
       category: "Structural",
       grade: "IS 2062, IS 808, ASTM A36",
       image: "/productImage/angle-channels.jpg",
       icon: Columns3,
       description:
-        "Structural steel angles and channels for building frameworks.",
+        "Structural angles, chennels, and flat products for building frameworks.",
       shortDescription:
-        "Structural steel angles and channels for building frameworks.",
+        "Structural angles, chennels, and flat products for building frameworks.",
     },
     {
       id: 4,

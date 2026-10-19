@@ -98,8 +98,8 @@ const Footer: React.FC = () => {
               <Link to="/products/round-bars">Bars & Rods</Link>
             </li>
             <li>
-              <Link to="/products/angle-channels/flat-plate">
-                Angles, Channels & Flat Plate
+              <Link to="/products/angle-chennels/flat">
+                Angles, Chennels & Flat
               </Link>
             </li>
           </ul>

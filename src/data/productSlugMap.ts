@@ -8,27 +8,27 @@ export interface ProductSlugInfo {
 
 export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
   "regular-angle": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "regular-angle-supplier-mumbai"
   },
   "regular-angle-supplier-mumbai": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "regular-angle-supplier-mumbai"
   },
   "regular-channel": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "regular-channel-manufacturer-mumbai"
   },
   "regular-channel-manufacturer-mumbai": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "regular-channel-manufacturer-mumbai"
   },
   "carbon-angle-channel": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "carbon-angle-channel-manufacturer-mumbai"
   },
   "carbon-angle-channel-manufacturer-mumbai": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "carbon-angle-channel-manufacturer-mumbai"
   },
   "stainless-duplex-steel-perforated-sheets": {
@@ -2396,11 +2396,11 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "canonicalSlug": "stainless-steel-316-316l-316ti-flanges-stockist-mumbai"
   },
   "flat-plate": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "flat-plate-supplier-mumbai"
   },
   "flat-plate-supplier-mumbai": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "flat-plate-supplier-mumbai"
   },
   "stainless-steel-17-4ph-wires": {
@@ -2416,15 +2416,15 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "canonicalSlug": "stainless-steel-17-4ph-wires-supplier-mumbai"
   },
   "stainless-steel-17-4ph-flat-bars": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "stainless-steel-17-4ph-flat-bars-supplier-mumbai"
   },
   "stainless-steel-17-4ph-flat-bars-supplier-mumbai": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "stainless-steel-17-4ph-flat-bars-supplier-mumbai"
   },
   "stainless-steel-17-4-ph-flat-bars": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "stainless-steel-17-4ph-flat-bars-supplier-mumbai"
   },
   "stainless-steel-17-4ph-sheets": {
@@ -2493,15 +2493,15 @@ export const productSlugRedirectMap: Record<string, ProductSlugInfo> = {
     "canonicalSlug": "stainless-steel-15-5ph-wires-supplier-mumbai"
   },
   "stainless-steel-15-5ph-flat-bars": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "stainless-steel-15-5ph-flat-bars-supplier-mumbai"
   },
   "stainless-steel-15-5ph-flat-bars-supplier-mumbai": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "stainless-steel-15-5ph-flat-bars-supplier-mumbai"
   },
   "stainless-steel-15-5-ph-flat-bars": {
-    "categorySlug": "angle-channels/flat-plate",
+    "categorySlug": "angle-chennels/flat",
     "canonicalSlug": "stainless-steel-15-5ph-flat-bars-supplier-mumbai"
   },
   "stainless-steel-15-5ph-sheets": {

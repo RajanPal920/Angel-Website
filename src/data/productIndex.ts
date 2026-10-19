@@ -25,14 +25,18 @@ export const flangesAndForgedFittings: ProductMaterial[] = [
   ...flanges,
   ...forgedfitting,
 ];
-export const anglesChannelsAndFlatPlate: ProductMaterial[] = anchorChannel;
+export const anglesChennelsAndFlat: ProductMaterial[] = anchorChannel;
+export const anglesChannelsAndFlat: ProductMaterial[] = anglesChennelsAndFlat;
+export const anglesChannelsAndFlatPlate: ProductMaterial[] = anglesChennelsAndFlat;
 
 export const productCategoryMap: Record<string, ProductMaterial[]> = {
   // Canonical combined categories (exact requested slugs)
   "circles/rings": circlesAndRings,
   "sheets/plate/coil": sheetsPlatesAndCoils,
   "flanges/forged-fittings": flangesAndForgedFittings,
-  "angle-channels/flat-plate": anglesChannelsAndFlatPlate,
+  "angle-chennels/flat": anglesChennelsAndFlat,
+  "angle-channels/flat": anglesChennelsAndFlat,
+  "angle-channels/flat-plate": anglesChennelsAndFlat,
 
   // Other active categories
   "buttweld-fittings": buttweldFitting,

@@ -13,7 +13,9 @@ const specialNameMap: Record<string, string> = {
   "circles/rings": "Circles & Rings",
   "sheets/plate/coil": "Sheets, Plates & Coils",
   "flanges/forged-fittings": "Flanges & Forged Fittings",
-  "angle-channels/flat-plate": "Angles, Channels & Flat Plate",
+  "angle-chennels/flat": "Angles, Chennels & Flat",
+  "angle-channels/flat": "Angles, Chennels & Flat",
+  "angle-channels/flat-plate": "Angles, Chennels & Flat",
 
   // Legacy mappings for backward compatibility
   circles: "Circles & Rings",
@@ -27,8 +29,8 @@ const specialNameMap: Record<string, string> = {
   flanges: "Flanges & Forged Fittings",
   "forged-fittings": "Flanges & Forged Fittings",
   "steel-flanges": "Flanges & Forged Fittings",
-  "angle-channels": "Angles, Channels & Flat Plate",
-  "steel-angles-channels": "Angles, Channels & Flat Plate",
+  "angle-channels": "Angles, Chennels & Flat",
+  "steel-angles-channels": "Angles, Chennels & Flat",
 
   // Other product categories
   "pipes-tubes": "Pipes & Tubes",
@@ -58,8 +60,10 @@ const categoryRedirects: Record<string, string> = {
   flanges: "flanges/forged-fittings",
   "forged-fittings": "flanges/forged-fittings",
   "steel-flanges": "flanges/forged-fittings",
-  "angle-channels": "angle-channels/flat-plate",
-  "steel-angles-channels": "angle-channels/flat-plate",
+  "angle-channels": "angle-chennels/flat",
+  "steel-angles-channels": "angle-chennels/flat",
+  "angle-channels/flat": "angle-chennels/flat",
+  "angle-channels/flat-plate": "angle-chennels/flat",
 };
 
 // Helper function to format product name
@@ -82,6 +86,8 @@ const getCategoryIcon = (slug: string): string => {
     "circles/rings": "",
     "sheets/plate/coil": "",
     "flanges/forged-fittings": "",
+    "angle-chennels/flat": "",
+    "angle-channels/flat": "",
     "angle-channels/flat-plate": "",
     "angle-channels": "",
     "buttweld-fittings": "",
@@ -110,8 +116,12 @@ const getCategorySubtitle = (slug: string): string => {
       "High-performance stainless steel sheets, plates, and industrial coils",
     "flanges/forged-fittings":
       "Premium industrial flanges and high-pressure forged fittings",
+    "angle-chennels/flat":
+      "Structural angles, chennels, and flat products for industrial applications",
+    "angle-channels/flat":
+      "Structural angles, chennels, and flat products for industrial applications",
     "angle-channels/flat-plate":
-      "Structural angles, channels, and flat plates for industrial applications",
+      "Structural angles, chennels, and flat products for industrial applications",
     "pipes-tubes": "Premium pipes and tubes for demanding applications",
     "buttweld-fittings": "Precision buttweld fittings for pipeline systems",
     fasteners: "Industrial grade fasteners for heavy-duty applications",
@@ -131,6 +141,8 @@ const getCategoryHeroImage = (slug: string): string => {
     "pipes-tubes": "/img/home/hero.png",
     "sheets/plate/coil": "/img/home/hero-2.png",
     "flanges/forged-fittings": "/img/home/hero-3.png",
+    "angle-chennels/flat": "/img/home/material.jpg",
+    "angle-channels/flat": "/img/home/material.jpg",
     "angle-channels/flat-plate": "/img/home/material.jpg",
     "circles/rings": "/img/home/material.jpg",
     "round-bars": "/img/home/hero-2.png",

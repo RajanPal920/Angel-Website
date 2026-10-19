@@ -54,9 +54,9 @@ const productItems = [
     link: "/products/flanges/forged-fittings",
   },
   {
-    name: "Angles, Channels & Flat Plate",
+    name: "Angles, Chennels & Flat",
     icon: <Rows size={16} />,
-    link: "/products/angle-channels/flat-plate",
+    link: "/products/angle-chennels/flat",
   },
   {
     name: "Pipes & Tubes",

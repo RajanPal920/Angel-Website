@@ -15,13 +15,13 @@ import {
 export const products = [
   {
     id: 1,
-    name: "Angles, Channels & Flat Plate",
-    slug: "angle-channels/flat-plate",
+    name: "Angles, Chennels & Flat",
+    slug: "angle-chennels/flat",
     image: "/productImage/angle-channels.jpg",
     icon: Columns3,
     category: "Structural Steel",
     shortDescription:
-      "Structural angles, channels, and flat plates engineered for heavy-duty industrial applications.",
+      "Structural angles, chennels, and flat products engineered for heavy-duty industrial applications.",
   },
   {
     id: 2,
